@@ -42,14 +42,19 @@
     "timer": "Temporizador",
     "privacy_policy": "Política de Privacidad",
     "password": "Contraseña",
-    "the": "the",
     "load": "Cargar",
     "download": "Descargar",
     "upload": "Subir",
     "confirm_delete": "¿Estás seguro que querés borrarlo?",
     "good": "Bueno",
     "evil": "Malvado",
-    "send": "Mandar"
+    "send": "Mandar",
+    "leaves": "Hojas",
+    "flip": "Voltear horizontalmente",
+    "u_shape": "Sonrisa",
+    "enabled": "Habilitado",
+    "disabled": "Deshabilitado",
+    "wiki": "Wiki"
   },
   "errors": {
     "translation_database_only": "Lo siento. Solamente los guiones cargados desde la base de datos se pueden traducir por ahora."
@@ -65,7 +70,7 @@
     "offline": "Offline",
     "game": {
       "title": "Partida",
-      "new": "Nueva...",
+      "new": "Nuevo...",
       "save": "Guardar...",
       "buy_grimoire": "Comprá un Grimorio",
       "send_to_clocktracker": "Mandar a Clocktracker",
@@ -234,8 +239,10 @@
       "remove_sfx": "Sacar efecto de sonido",
       "no_sfx": "No hay efecto de sonido para el temporizador",
       "add_sfx_prompt": "Añadí un sonido para que suene cuando el temporizador llegue a 00:00",
-      "replace_sfx_button": "Reemplazar efecto de sonido",
-      "add_sfx_button": "Añadir efecto de sonido"
+      "add_sfx_button": "Añadir efecto de sonido",
+      "select_for_timer": "Seleccionar para el temporizador",
+      "timer_sound": "Sonido del temporizador",
+      "auto_fade_phase": "Atenuar volumen en Día/Noche"
     },
     "nomination": {
       "select_target_title": "Seleccioná al nominado",
@@ -261,7 +268,7 @@
     },
     "rules": {
       "title": "Reglas",
-      "content": "## Antes de que empiece la partida:\n\nHace mucho tiempo atrás, en el pueblo tranquilo de Villa Cuervo de la Farsa, en el medio de una terrible tormenta, justo en la medianoche... escuchan un grito. Al ir corriendo a la plaza central para investigar, se encuentran conmigo, su querido narrador, empalado en la aguja de la torre del reloj y sangre derramada filtrándose en el empedrado. Asumen que un Demonio es el responsable de esto, y están en lo cierto: se trata de un Demonio que mata de noche y se disfraza de humano durante el día.\n\nEstán por recibir una ficha azul o roja. Si les toca azul, son buenos. Si les toca roja, son malvados. El objetivo del juego, si sos bueno, es encontrar y ejecutar al Demonio. Si el Demonio muere, el bien gana. El objetivo del juego si sos malvado es destruir el pueblo. Si quedan tan sólo dos jugadores con vida, el mal gana.\n\nEl juego se separa en dos fases: el día y la noche. Durante el dia, hablan. Cada uno va a tener una identidad secreta, un personaje en la lista. Generalmente, los jugadores buenos comparten lo que saben e intentan averiguar quién es quién. La mayoría de los jugadores buenos van a estar diciendo la verdad, pero algunos tienen motivo para mentir. Si sos malvado, ¡obviamente tenés que mentir! Lo mejor es simular ser un personaje bueno, sembrando tanta duda y desinformación como sea posible.\n\nDurante la noche, todos cierran los ojos. Yo voy a ir despertando a algunos jugadores para que usen su habilidad u obtengan algún tipo de información. De noche, no voy a hacer ruido, me voy a comunicar con las siguientes señas: _(Demostralas visualmente mientras hablás)_\n\n* 2 toques en tu hombro o rodilla significa **ABRÍ LOS OJOS**\n* Esto significa **CERRÁ LOS OJOS**\n* Esto significa **SI** y esto **NO**\n* Esto significa **BUENO** y esto **MALVADO**\n* Esto significa **0, 1, 2, 3** y así\n* Para elegir un jugador en la noche, sólo tenés que apuntar a él **ASÍ**\n\nLa mayoría de ustedes va a morir. ¡Esto es genial! En Villa Cuervo de la Farsa, la muerte no es el fin. Algunos jugadores incluso pueden querer morir ya que al hacerlo obtienen información. Si estás muerto, seguís participando en el juego, podés seguir hablando, y seguís ganando o perdiendo cuando tu equipo gana o pierde.\n\nHay mucha información en este juego. Sin embargo, es posible que alguna sea errónea. Si estás borracho o envenenado, no tenés habilidad, pero voy a hacer como si la tuvieses. Tengo permitido mentirte. Toda la información que obtengas puede ser incorrecta, pero no vas a saber si estás borracho o envenenado. Por ejemplo, si sos el Borracho, robaste una ficha de personaje diferente de la bolsa y sólo yo sé que sos el Borracho en realidad o, si la Envenenadora te envenenó, vas a seguir despertando durante la noche para usar tu habilidad, pero no va a funcionar.\n\n## Cuatro reglas\n\nEsto puede ser mucha información para absorber de una, así que, para simplificar, sólo hay 4 cosas importantes que recordar:\n\n1) **Podés decir cualquier cosa en cualquier momento.** Este es un juego de hablar. Podés hablar públicamente con el grupo o tener conversaciones privadas, depende de vos.\n\n2) **No espíes?** Por favor guardá?? tu ficha de personaje en secreto, y nunca mires el Grimorio, ya que tiene todos los personajes de la partida. Si ves algo que no deberías ver, se va a arruinar la diversión?.\n\n3) **Pregúntenme cualquier cosa que necesiten.** Si algo te confunde, no entendés como funciona tu personaje (o el que estás pretendiendo ser), si algo pasa en la noche que no entendés o si necesitas algún consejo de estrategia... Sea lo que sea, porfa pregunten. Soy neutral, mi trabajo es que entiendan las reglas y que se diviertan jugando. Haganme saber si me quieren hacer una pregunta, y podemos hablar en privado para que nadie sepa qué preguntaste.\n\n4) **Jueguen bien.** Este es un juego sobre engañar y ser astuto, así que por favor traten al resto con respeto y consideración. Maten con gracia y mueran con dignidad.\n\n## Antes de la primera nominación\n\n**Se va el sol y se acerca la hora de las nominaciones.**\nPara nominar a un jugador, sólo tenés que decir quién. Por ejemplo: \"Yo nomino a Juan.\" Cuando un jugador es nominado, todos votan si ejecutarlo o no. Por ejemplo: voy a poner mi brazo así (apuntando a Juan) y decir \"Empieza el voto para Juan.\" y mover mi mano en sentido horario (demostrá esto) y, si tu mano está levantada cuando paso por vos, eso es un voto, y si tu mano está baja, no es un voto.\n\nCada día, podés votar para ejecutar a tantos jugadores como quieras, y quien tenga más votos va a ser ejecutado. Este jugador debe recibir el voto de por lo menos el 50% de los jugadores vivos o no va a haber ejecución. Si hay empate, ningún jugador es ejecutado.\n\nSi morís, seguís siendo parte importante del juego. Seguís hablando, y cerrás los ojos durante la noche. Pero, sobre todo, seguís ganando o perdiendo con tu equipo. De hecho, el juego suele ser direccionado por los votos y las opiniones de los jugadores muertos. Si morís perdés la habilidad de tu personaje, no podés nominar, y solo te queda un voto por el resto del juego, así que usalo sabiamente."
+      "content": "## Antes de que empiece la partida:\n\nHace mucho tiempo atrás, en el pueblo tranquilo de Villa Cuervo de la Farsa, en el medio de una terrible tormenta, justo en la medianoche... escuchan un grito. Al ir corriendo a la plaza central para investigar, se encuentran conmigo, su querido narrador, empalado en la aguja de la torre del reloj y sangre derramada filtrándose en el empedrado. Asumen que un Demonio es el responsable de esto, y están en lo cierto: se trata de un Demonio que mata de noche y se disfraza de humano durante el día.\n\nEstán por recibir una ficha azul o roja. Si les toca azul, son buenos. Si les toca roja, son malvados. El objetivo del juego, si sos bueno, es encontrar y ejecutar al Demonio. Si el Demonio muere, el bien gana. El objetivo del juego si sos malvado es destruir el pueblo. Si quedan tan sólo dos jugadores con vida, el mal gana.\n\nEl juego se separa en dos fases: el día y la noche. Durante el dia, hablan. Cada uno va a tener una identidad secreta, un personaje en la lista. Generalmente, los jugadores buenos comparten lo que saben e intentan averiguar quién es quién. La mayoría de los jugadores buenos van a estar diciendo la verdad, pero algunos tienen motivo para mentir. Si sos malvado, ¡obviamente tenés que mentir! Lo mejor es simular ser un personaje bueno, sembrando tanta duda y desinformación como sea posible.\n\nDurante la noche, todos cierran los ojos. Yo voy a ir despertando a algunos jugadores para que usen su habilidad u obtengan algún tipo de información. De noche, no voy a hacer ruido, me voy a comunicar con las siguientes señas: _(Demostralas visualmente mientras hablás)_\n\n* 2 toques en tu hombro o rodilla significa **ABRÍ LOS OJOS**\n* Esto significa **CERRÁ LOS OJOS**\n* Esto significa **SI** y esto **NO**\n* Esto significa **BUENO** y esto **MALVADO**\n* Esto significa **0, 1, 2, 3** y así\n* Para elegir un jugador en la noche, sólo tenés que apuntar a él **ASÍ**\n\nLa mayoría de ustedes va a morir. ¡Esto es genial! En Villa Cuervo de la Farsa, la muerte no es el fin. Algunos jugadores incluso pueden querer morir ya que al hacerlo obtienen información. Si estás muerto, seguís participando en el juego, podés seguir hablando, y seguís ganando o perdiendo cuando tu equipo gana o pierde.\n\nHay mucha información en este juego. Sin embargo, es posible que alguna sea errónea. Si estás borracho o envenenado, no tenés habilidad, pero voy a hacer como si la tuvieses. Tengo permitido mentirte. Toda la información que obtengas puede ser incorrecta, pero no vas a saber si estás borracho o envenenado. Por ejemplo, si sos el Borracho, robaste una ficha de personaje diferente de la bolsa y sólo yo sé que sos el Borracho en realidad o, si la Envenenadora te envenenó, vas a seguir despertando durante la noche para usar tu habilidad, pero no va a funcionar.\n\n## Cuatro reglas\n\nEsto puede ser mucha información para absorber de una, así que, para simplificar, sólo hay 4 cosas importantes que recordar:\n\n1) **Podés decir cualquier cosa en cualquier momento.** Este es un juego de hablar. Podés hablar públicamente con el grupo o tener conversaciones privadas, depende de vos.\n\n2) **No espíes?** Por favor guardá?? tu ficha de personaje en secreto, y nunca mires el Grimorio, ya que tiene todos los personajes de la partida. Si ves algo que no deberías ver, se va a arruinar la diversión?.\n\n3) **Pregúntenme cualquier cosa que necesiten.** Si algo te confunde, no entendés como funciona tu personaje (o el que estás pretendiendo ser), si algo pasa en la noche que no entendés o si necesitas algún consejo de estrategia... Sea lo que sea, porfa pregunten. Soy neutral, mi trabajo es que entiendan las reglas y que se diviertan jugando. Haganme saber si me quieren hacer una pregunta, y podemos hablar en privado para que nadie sepa qué preguntaste.\n\n4) **Jueguen bien.** Este es un juego sobre engañar y ser astuto, así que por favor traten al resto con respeto y consideración. Maten con gracia y mueran con dignidad.\n\n## Antes de la primera nominación\n\n**Se va el sol y se acerca la hora de las nominaciones.**\nPara nominar a un jugador, sólo tenés que decir quién. Por ejemplo: \"Yo nomino a Juan.\" Cuando un jugador es nominado, todos votan si ejecutarlo o no. Por ejemplo: voy a poner mi brazo así (apuntando a Juan) y decir \"Empieza el voto para Juan.\" y mover mi mano en sentido horario (demostrá esto) y, si tu mano está levantada cuando paso por vos, eso es un voto, y si tu mano está baja, no es un voto.\n\nCada día, podés votar para ejecutar a tantos jugadores como quieras, y quien tenga mas votos va a ser ejecutado. Este jugador debe recibir el voto de por lo menos el 50% de los jugadores vivos o no va a haber ejecución. Si hay empate, ningún jugador es ejecutado.\n\nSi morís, seguís siendo parte importante del juego. Seguís hablando, y cerrás los ojos durante la noche. Pero, sobre todo, seguís ganando o perdiendo con tu equipo. De hecho, el juego suele ser direccionado por los votos y las opiniones de los jugadores muertos. Si morís perdés la habilidad de tu personaje, no podés nominar, y solo te queda un voto por el resto del juego, así que usalo sabiamente."
     },
     "timer": {
       "title": "⏱️ Configuración del temporizador",
@@ -325,10 +332,23 @@
       "remove_friend": "Sacar amigo",
       "no_friends": "No hay amigos guardados.",
       "friend_name_placeholder": "Escribí el nombre de tu amigo...",
+      "pronouns": "Pronombres",
       "save_friends": "Guardar amigos",
       "logout": "Cerrar sesión",
       "delete_game_confirmation_title": "Borrar partida guardada",
       "delete_game_confirmation_message": "¿Estás seguro que querés borrar '{name}'? Esta acción es irreversible."
+    },
+    "background": {
+      "title": "Editar fondo",
+      "url_label": "URL de la imagen de fondo",
+      "url_placeholder": "Ingresá la URL de la imagen...",
+      "fit_label": "Modo de visualización",
+      "fit_tile": "Mosaico",
+      "fit_cover": "Cubrir",
+      "fit_fit": "Ajustar",
+      "fit_center": "Centrar",
+      "default": "Predeterminado",
+      "apply": "Aplicar"
     },
     "clocktracker_export": {
       "title": "Mandar a Clocktracker",
@@ -338,6 +358,17 @@
       "sending": "Mandando...",
       "success": "¡Se exportó la partida a Clocktracker correctamente!",
       "error": "No se logró exportar la partida a Clocktracker"
+    },
+    "night_icons": {
+      "title": "Iconos del orden nocturno",
+      "icon_size": "Tamaño del icono",
+      "icon_position": "Posición del icono",
+      "position_top": "Arriba",
+      "position_centered": "Centrado",
+      "position_bottom": "Abajo",
+      "position_stretch": "Estirar",
+      "use_icon_background": "Agregar fondo al icono",
+      "icon_background_colour": "Color de fondo del icono"
     }
   },
   "roles": {
@@ -350,7 +381,7 @@
     "loric": "Folclórico",
     "dusk_name": "Atardecer",
     "dawn_name": "Amanecer",
-    "dusk_reminder": "Empezá la fase nocturna",
+    "dusk_reminder": "Empezar la fase nocturna",
     "dawn_reminder": "Esperá unos segundos. Terminá la fase nocturna.",
     "minion_info_player": "Info de los Secuaces",
     "minion_info_first_night_reminder": "Si hay 7 o más jugadores, despertá a todos los secuaces:\n\tMostrales la tarjeta 'Este es el Demonio'. Apuntá al Demonio.\n\tMostrales la tarjeta 'Estos son tus Secuaces'. Apuntá a los otros Secuaces.",
@@ -382,9 +413,11 @@
     "select_more_roles": "Seleccioná {count} roles más para continuar",
     "setup_warning": "Algunos de los roles elegidos alteran la composición del pueblo. Por favor, revisalos antes de continuar.",
     "multiple_demons_warning": "Se detectaron múltiples Demonios sin justificación mecánica.",
-    "player_names": "Nombres de los jugadores",
+    "player_names": "Nombre de los jugadores",
     "player_placeholder": "Jugador {number}",
     "save_names": "Guardar nombres",
+    "persist_players_prompt": "Guardá los nombres de tus jugadores para futuras partidas iniciando sesión en Discord y agregándolos a tu lista de amigos.",
+    "friends_list_prompt": "Abrí el menú de Usuario para administrar tu lista de Amigos. Los amigos se incluyen automáticamente en la sección 'Agregar rápido' al repartir fichas, sin necesidad de agregarlos acá.",
     "clear": "Limpiar",
     "by": "de",
     "view_bootlegger_info": "Ver información del Contrabandista",
@@ -405,7 +438,8 @@
     "script_url": "URL del guión",
     "enter_url": "Ingresar URL",
     "paste_json_placeholder": "Copiá y pegá el JSON de tu guión acá...",
-    "not_in_bag_role": "Seleccioná una ficha adicional para reemplazar esta en la bolsa. Se pondrá un recordatorio en el Grimorio para este rol."
+    "not_in_bag_role": "Seleccioná una ficha adicional para reemplazar esta en la bolsa. Se pondrá un recordatorio en el Grimorio para este rol.",
+    "add_travellers_to_bag": "Agregar Viajeros a la bolsa (No recomendado)"
   },
   "grimoire": {
     "night": "Noche",
@@ -422,6 +456,8 @@
     "show_spy_view": "Mostrar vista del Espía/Viuda",
     "hide_spy_view": "Ocultar vista del Espía/Viuda",
     "rearrange_tokens": "Reordenar las fichas",
+    "edit_background": "Editar fondo...",
+    "edit_night_icons": "Editar iconos del orden nocturno...",
     "nominations": "Nominaciones",
     "create_town": "Crear pueblo",
     "town_view": "Vista del pueblo ({townId})",
@@ -430,7 +466,8 @@
     "delete_confirm_no_player": "¿Estás seguro que querés borrar el/la {role}?",
     "notes_for": "Notas para {name}",
     "notes_placeholder": "Añadí notas personalizadas acá...",
-    "save_notes": "Guardar notas"
+    "save_notes": "Guardar notas",
+    "game_notes": "Notas de la partida"
   },
   "draw_tokens": {
     "random_draw": "Robo aleatorio de fichas",
@@ -446,6 +483,7 @@
     "select_player": "Seleccionar jugador...",
     "player_name": "Nombre del jugador",
     "assign": "Asignar",
+    "auto_assign": "Asignar automáticamente",
     "auto_assign_all": "Asignar automaticamente los restantes",
     "start_mobile_title": "Empezar repartija móvil de fichas",
     "start_mobile_desc": "Los jugadores van a poder unirse a la sesión y recibir las fichas en sus dispositivos móviles.",
@@ -505,7 +543,8 @@
     "show_grim_message": "¿Estás seguro que querés revelar el Grimorio? Se van a mostrar todos los roles.",
     "yes_show_grim": "Si, mostrar Grimorio",
     "reveal_separately": "Revelar los roles de uno en uno",
-    "tap_to_reveal": "Tocá las fichas para irlas revelando"
+    "tap_to_reveal": "Tocá las fichas para irlas revelando",
+    "widget_dark_background": "Fondos oscuros de widgets"
   },
   "cards": {
     "this_is_the_demon": "ESTE ES EL DEMONIO",
@@ -630,6 +669,7 @@
   "night": {
     "first_night": "Primera noche",
     "other_nights": "Otras noches",
-    "end_night_phase": "Terminar la fase nocturna"
+    "end_night_phase": "Terminar noche",
+    "no_night_actions": "No hay personajes con acciones nocturnas"
   }
 }
