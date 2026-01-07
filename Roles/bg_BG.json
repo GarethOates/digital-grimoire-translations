@@ -31,7 +31,7 @@
         "edition": "special",
         "name": "Информация за Демона",
         "team": "demon",
-        "firstNightReminder": "Ако има повече от 7 играча, събуди Демона:\n\tПокажи му картата *ТОВА СА ТВОИТЕ МИНЬОНИ*. Посочи всички миньони.\n\tПокажи му картата *ТЕЗИ РОЛИ НЕ СА В ИГРА*. Покажи му 3 добри роли, които не са в игра.",
+        "firstNightReminder": "Ако има повече от 7 играчи, събуди Демона:\n\tПокажи му картата *ТОВА СА ТВОИТЕ МИНЬОНИ*. Посочи всички миньони.\n\tПокажи му картата *ТЕЗИ РОЛИ НЕ СА В ИГРА*. Покажи му 3 добри роли, които не са в игра.",
         "firstNight": 19,
         "otherNight": 0
     },
@@ -3512,4 +3512,5 @@
         "ability": "Демонът може да избере да не атакува, като задължително трябва да го направи поне веднъж. Злите играчи получават стандартна начална информация.",
         "flavor": "It buzzes! It walks down stairs! It keeps you warm at night! It tastes like sugar! The kiddies love it! Introducing... the brand new... Warm'o-buzzy-wuzzy-walk'a'bot-thingy-contraption! Fun for all ages!"
     }
+
 ]
