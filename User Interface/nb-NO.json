@@ -54,7 +54,8 @@
     "send": "Send",
     "enabled": "Aktivert",
     "disabled": "Deaktivert",
-    "wiki": "Wiki"
+    "wiki": "Wiki",
+    "end_game": "Avslutt spill"
   },
   "nav": {
     "brand": "Digital Grimoire",
@@ -339,7 +340,9 @@
       "fit_fit": "Tilpass",
       "fit_center": "Sentrer",
       "default": "Standard",
-      "apply": "Bruk"
+      "apply": "Bruk",
+      "custom": "Egendefinert",
+      "gallery": "Galleri"
     },
     "clocktracker_export": {
       "title": "Send til Clocktracker",
@@ -451,6 +454,7 @@
     "reminders": "Påminnelser...",
     "add_first_night_reminders": "Legg til påminnelser for første natt",
     "add_other_night_reminders": "Legg til påminnelser for andre netter",
+    "add_all_reminders": "Legg til alle påminnelser",
     "show_role_details": "Vis rolledetaljer",
     "hide_role_details": "Skjul rolledetaljer",
     "show_spy_view": "Vis spionvisning",

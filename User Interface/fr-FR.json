@@ -54,7 +54,8 @@
     "jinxes": "Jinxes",
     "select_role": "Sélectionner un rôle...",
     "enabled": "Activé",
-    "disabled": "Désactivé"
+    "disabled": "Désactivé",
+    "end_game": "Fin de partie"
   },
   "nav": {
     "brand": "Grimoire Numérique",
@@ -339,7 +340,9 @@
       "fit_fit": "Ajuster",
       "fit_center": "Centrer",
       "default": "Par défaut",
-      "apply": "Appliquer"
+      "apply": "Appliquer",
+      "custom": "Personnalisé",
+      "gallery": "Galerie"
     },
     "clocktracker_export": {
       "title": "Envoyer à Clocktracker",
@@ -451,6 +454,7 @@
     "reminders": "Rappels...",
     "add_first_night_reminders": "Ajouter les rappels de première nuit",
     "add_other_night_reminders": "Ajouter d'autres rappels de nuit",
+    "add_all_reminders": "Ajouter tous les rappels",
     "show_role_details": "Afficher les rôles",
     "hide_role_details": "Cacher les rôles",
     "show_spy_view": "Afficher la vue espion",

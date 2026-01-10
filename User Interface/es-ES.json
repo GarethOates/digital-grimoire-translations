@@ -54,7 +54,8 @@
     "evil": "Malvado",
     "send": "Enviar",
     "enabled": "Habilitado",
-    "disabled": "Deshabilitado"
+    "disabled": "Deshabilitado",
+    "end_game": "Finalizar partida"
   },
   "errors": {
     "translation_database_only": "Lo sentimos. Solo los guiones cargados desde la base de datos pueden traducirse en este momento."
@@ -348,7 +349,9 @@
       "fit_fit": "Ajustar",
       "fit_center": "Centrar",
       "default": "Predeterminado",
-      "apply": "Aplicar"
+      "apply": "Aplicar",
+      "custom": "Personalizado",
+      "gallery": "Galería"
     },
     "clocktracker_export": {
       "title": "Enviar a Clocktracker",
@@ -451,6 +454,7 @@
     "reminders": "Recordatorios...",
     "add_first_night_reminders": "Añadir Recordatorios de Primera Noche",
     "add_other_night_reminders": "Añadir Otros Recordatorios de Noche",
+    "add_all_reminders": "Añadir todos los recordatorios",
     "show_role_details": "Mostrar Detalles del Rol",
     "hide_role_details": "Ocultar Detalles del Rol",
     "show_spy_view": "Mostrar Vista de Espía",

@@ -54,7 +54,8 @@
     "evil": "Evil",
     "send": "Send",
     "enabled": "Enabled",
-    "disabled": "Disabled"
+    "disabled": "Disabled",
+    "end_game": "End Game"
   },
   "errors": {
     "translation_database_only": "Sorry. Only scripts loaded from the database can be translated at this time."
@@ -350,7 +351,9 @@
       "fit_fit": "Fit",
       "fit_center": "Center",
       "default": "Default",
-      "apply": "Apply"
+      "apply": "Apply",
+      "custom": "Custom",
+      "gallery": "Gallery"
     },
     "clocktracker_export": {
       "title": "Send to Clocktracker",
@@ -453,6 +456,7 @@
     "reminders": "Reminders...",
     "add_first_night_reminders": "Add First Night Reminders",
     "add_other_night_reminders": "Add Other Night Reminders",
+    "add_all_reminders": "Add All Reminders",
     "show_role_details": "Show Role Details",
     "hide_role_details": "Hide Role Details",
     "show_spy_view": "Show Spy View",

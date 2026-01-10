@@ -55,7 +55,8 @@
     "send": "Изпрати",
     "enabled": "Активирано",
     "disabled": "Деактивирано",
-    "wiki": "Уики"
+    "wiki": "Уики",
+    "end_game": "Край на играта"
   },
   "errors": {
     "translation_database_only": "Съжалявам. За момента само сценарии, заредени от базата данни могат да бъдат преведени."
@@ -352,7 +353,9 @@
       "fit_fit": "Побиране",
       "fit_center": "Центриране",
       "default": "По подразбиране",
-      "apply": "Приложи"
+      "apply": "Приложи",
+      "custom": "Потребителски",
+      "gallery": "Галерия"
     },
     "clocktracker_export": {
       "title": "Изпрати към Clocktracker",
@@ -455,6 +458,7 @@
     "reminders": "Напомняния...",
     "add_first_night_reminders": "Добави напомняния за първата нощ",
     "add_other_night_reminders": "Добави напомняния за другите нощи",
+    "add_all_reminders": "Добави всички напомняния",
     "show_role_details": "Покажи описанието на ролите",
     "hide_role_details": "Скрий описанието на ролите",
     "show_spy_view": "Покажи изгледа за Шпионина",

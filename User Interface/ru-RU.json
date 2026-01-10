@@ -54,7 +54,8 @@
     "send": "Отправить",
     "enabled": "Включено",
     "disabled": "Отключено",
-    "wiki": "Вики"
+    "wiki": "Вики",
+    "end_game": "Завершить игру"
   },
   "errors": {
     "translation_database_only": "Извините. Перевод доступен только для сценариев, загруженных из базы данных."
@@ -348,7 +349,9 @@
       "fit_fit": "Вписать",
       "fit_center": "По центру",
       "default": "По умолчанию",
-      "apply": "Применить"
+      "apply": "Применить",
+      "custom": "Свой",
+      "gallery": "Галерея"
     },
     "clocktracker_export": {
       "title": "Отправить в Clocktracker",
@@ -451,6 +454,7 @@
     "reminders": "Напоминания...",
     "add_first_night_reminders": "Добавить напоминания первой ночи",
     "add_other_night_reminders": "Добавить напоминания остальных ночей",
+    "add_all_reminders": "Добавить все напоминания",
     "show_role_details": "Показать детали роли",
     "hide_role_details": "Скрыть детали роли",
     "show_spy_view": "Показать вид шпиона",

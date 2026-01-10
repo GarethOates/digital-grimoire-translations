@@ -54,7 +54,8 @@
     "evil": "Böse",
     "send": "Senden",
     "enabled": "Aktiviert",
-    "disabled": "Deaktiviert"
+    "disabled": "Deaktiviert",
+    "end_game": "Spiel beenden"
   },
   "errors": {
     "translation_database_only": "Entschuldigung. Nur Skripte aus der Datenbank können derzeit übersetzt werden."
@@ -348,7 +349,9 @@
       "fit_fit": "Einpassen",
       "fit_center": "Zentrieren",
       "default": "Standard",
-      "apply": "Anwenden"
+      "apply": "Anwenden",
+      "custom": "Benutzerdefiniert",
+      "gallery": "Galerie"
     },
     "clocktracker_export": {
       "title": "An Clocktracker senden",
@@ -451,6 +454,7 @@
     "reminders": "Erinnerungen...",
     "add_first_night_reminders": "Erste Nacht-Erinnerungen hinzufügen",
     "add_other_night_reminders": "Andere Nacht-Erinnerungen hinzufügen",
+    "add_all_reminders": "Alle Erinnerungen hinzufügen",
     "show_role_details": "Rollendetails anzeigen",
     "hide_role_details": "Rollendetails ausblenden",
     "show_spy_view": "Spionansicht anzeigen",
