@@ -2595,7 +2595,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Веднъж през деня, можеш да убиеш жив съсед, ако другият ти жив съсед се съгласи." 
+        "ability": "Веднъж през деня, можеш да убиеш жив съсед, ако другият ти жив съсед се съгласи.",
         "flavor": "I like your shoes. It would be such a shame if you had a little accident, and they got ruined. Now that you mention it, I like your cufflinks too.",
         "firstNight": 0,
         "otherNight": 0
@@ -2787,11 +2787,11 @@
         "name": "Шугенджа",
         "team": "townsfolk",
         "edition": "",
-        "firstNightReminder": "Посочи наляво или надясно от теб, вътре в кръга." Point clockwise or anticlockwise around the circle.",
+        "firstNightReminder": "Посочи наляво или надясно от теб, вътре в кръга.",
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Започваш знаейки, че най-близкият до теб зъл играч се намира вляво или вдясно от теб. Ако е равноотдалечен, информацията е произволна." ,
+        "ability": "Започваш знаейки, че най-близкият до теб зъл играч се намира вляво или вдясно от теб. Ако е равноотдалечен, информацията е произволна.",
         "flavor": "これは夢。それも夢。すべて夢です。",
         "firstNight": 62,
         "otherNight": 0
