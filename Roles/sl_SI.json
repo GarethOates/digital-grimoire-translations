@@ -1,5 +1,41 @@
 [
     {
+        "id": "dusk",
+        "edition": "special",
+        "name": "Dusk",
+        "firstNightReminder": "Start the Night Phase.",
+        "otherNightReminder": "Start the Night Phase.",
+        "firstNight": 1,
+        "otherNight": 1
+    },
+    {
+        "id": "dawn",
+        "edition": "special",
+        "name": "Dawn",
+        "firstNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "otherNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "firstNight": 73,
+        "otherNight": 93
+    },
+    {
+        "id": "minioninfo",
+        "edition": "special",
+        "name": "Minion Info",
+        "team": "minion",
+        "firstNightReminder": "If there are 7 or more players, wake all Minions:\n\tShow the *THIS IS THE DEMON* token. Point to the Demon.\n\tShow the *THESE ARE YOUR MINIONS* token. Point to the other Minions.",
+        "firstNight": 15,
+        "otherNight": 0
+    },
+    {
+        "id": "demoninfo",
+        "edition": "special",
+        "name": "Demon Info",
+        "team": "demon",
+        "firstNightReminder": "If there are 7 or more players, wake the Demon:\n\tShow the *THESE ARE YOUR MINIONS* token. Point to all Minions.\n\tShow the *THESE CHARACTERS ARE NOT IN PLAY* token. Show 3 not-in-play good character tokens.",
+        "firstNight": 19,
+        "otherNight": 0
+    },
+    {
         "id": "washerwoman",
         "name": "Perica",
         "edition": "tb",
@@ -1567,6 +1603,22 @@
         "special": null
     },
     {
+        "id": "nightwatchman",
+        "name": "Čuvaj",
+        "edition": "",
+        "team": "townsfolk",
+        "firstNight": 61,
+        "firstNightReminder": "Čuvaj lahko pokaže na igralca. Prebudi tega igralca, mu pokaži \"Ta vloga te je izbrala\" in vlogo Čuvaja. Nato pokaži na igralca Čuvaja.",
+        "otherNight": 82,
+        "otherNightReminder": "Čuvaj lahko pokaže na igralca. Prebudi tega igralca, mu pokaži \"Ta vloga te je izbrala\" in vlogo Čuvaja. Nato pokaži na igralca Čuvaja.",
+        "reminders": [
+            "Brez moči"
+        ],
+        "setup": false,
+        "ability": "Enkrat na igro lahko ponoči izbereš enega igralca. Izve, kdo si.",
+        "special": null
+    },
+    {
         "id": "engineer",
         "name": "Inžinir",
         "edition": "",
@@ -2090,240 +2142,6 @@
         "special": null
     },
     {
-        "id": "doomsayer",
-        "name": "Doomsayer",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Če so živi 4 igralci ali več, se lahko vsak živ igralec odloči (enkrat na igro), da en igralec v njegovi ekipi umre.",
-        "special": null
-    },
-    {
-        "id": "angel",
-        "name": "Angel",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Varovanec",
-            "Varovanec",
-            "Nekaj slabega"
-        ],
-        "setup": false,
-        "ability": "Nekaj slabega se lahko zgodi tistemu, ki je najbolj odgovoren za smrt novega igralca.",
-        "special": null
-    },
-    {
-        "id": "buddhist",
-        "name": "Budist",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Prvi 2 minuti vsakega dneva izkušeni igralci ne smejo govoriti.",
-        "special": null
-    },
-    {
-        "id": "hellslibrarian",
-        "name": "Hudičeva knjižničarka",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Nekaj slabega"
-        ],
-        "setup": false,
-        "ability": "Nekaj slabega se lahko zgodi tistemu, ki govori, ko je Pripovedovalec prosil za tišino.",
-        "special": null
-    },
-    {
-        "id": "revolutionary",
-        "name": "Prevratnik",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Izpade narobe?"
-        ],
-        "setup": false,
-        "ability": "Za dva igralca vsi vedo, da sta na isti ekipi. Enkrat na igro eden od njiju izpade narobe.",
-        "special": null
-    },
-    {
-        "id": "fiddler",
-        "name": "Goslar",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Enkrat na igro, Demon na skrivaj izbere enega nasprotnika. Vsi igralci se odločijo, kdo od njiju zmaga.",
-        "special": null
-    },
-    {
-        "id": "toymaker",
-        "name": "Tvorec",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 1,
-        "otherNightReminder": "",
-        "reminders": [
-            "Ni napada"
-        ],
-        "setup": false,
-        "ability": "Demon se lahko odloči, da ne bo ubijal in se more tako odločiti vsaj enkrat na igro. Zlobni igralci dobijo začetne podatke, kot da bi bilo v igri 7+ igralcev.",
-        "special": null
-    },
-    {
-        "id": "fibbin",
-        "name": "Šment",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Šmenta"
-        ],
-        "setup": false,
-        "ability": "Enkrat na igrlo lahko 1 dober igralec dobi lažne podatke.",
-        "special": null
-    },
-    {
-        "id": "duchess",
-        "name": "Grofica",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 1,
-        "otherNightReminder": "",
-        "reminders": [
-            "Obiskovalec",
-            "Obiskovalec",
-            "Lažni podatek"
-        ],
-        "setup": false,
-        "ability": "Vsak dan se 3 igralci lahko odločijo, da te obiščejo. Ponoči*, vsak izmed njih izve, koliko obiskovalcev je bilo zlobnih, a eden od njih dobi napačne podatke.",
-        "special": null
-    },
-    {
-        "id": "sentinel",
-        "name": "Priča",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": true,
-        "ability": "V igri je morda en Izobčenec več ali manj.",
-        "special": null
-    },
-    {
-        "id": "spiritofivory",
-        "name": "Slonovinar",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Brez dodatnega zlobnega"
-        ],
-        "setup": false,
-        "ability": "V igri je lahko samo 1 dodaten igralec.",
-        "special": null
-    },
-    {
-        "id": "djinn",
-        "name": "Duh iz svetilke",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Duh je uročil nekatere karakterje s posebnimi pravili. Vsi igralci vedo, kaj so.",
-        "special": null
-    },
-    {
-        "id": "stormcatcher",
-        "name": "Strelovod",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 1,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Varen"
-        ],
-        "setup": false,
-        "ability": "Izberi eno dobro vlogo. Če je v igri, lahko umre samo, če je usmrčena, a zlobni igralci izvejo, kdo je.",
-        "special": null
-    },
-    {
-        "id": "deusexfiasco",
-        "name": "Deus ex Fiasco",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Opsa"
-        ],
-        "setup": true,
-        "ability": "Enkrat na igro bo Pripovedovalec naredil \"napako\", jo javno priznal in jo popravil.",
-        "special": null
-    },
-    {
-        "id": "nightwatchman",
-        "name": "Čuvaj",
-        "edition": "",
-        "team": "townsfolk",
-        "firstNight": 61,
-        "firstNightReminder": "Čuvaj lahko pokaže na igralca. Prebudi tega igralca, mu pokaži \"Ta vloga te je izbrala\" in vlogo Čuvaja. Nato pokaži na igralca Čuvaja.",
-        "otherNight": 82,
-        "otherNightReminder": "Čuvaj lahko pokaže na igralca. Prebudi tega igralca, mu pokaži \"Ta vloga te je izbrala\" in vlogo Čuvaja. Nato pokaži na igralca Čuvaja.",
-        "reminders": [
-            "Brez moči"
-        ],
-        "setup": false,
-        "ability": "Enkrat na igro lahko ponoči izbereš enega igralca. Izve, kdo si.",
-        "special": null
-    },
-    {
         "id": "organgrinder",
         "name": "Lajnar",
         "edition": "",
@@ -2481,48 +2299,6 @@
         "special": null
     },
     {
-        "id": "bootlegger",
-        "name": "Bootlegger",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "This script has homebrew characters or rules.",
-        "special": null
-    },
-    {
-        "id": "ferryman",
-        "name": "Ferryman",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "On the final day, all dead players regain their vote token.",
-        "special": null
-    },
-    {
-        "id": "gardener",
-        "name": "Gardener",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "The Storyteller assigns 1 or more players' characters.",
-        "special": null
-    },
-    {
         "id": "kazali",
         "name": "Kazali",
         "edition": "",
@@ -2651,20 +2427,6 @@
         "special": []
     },
     {
-        "id": "boffin",
-        "name": "Boffin",
-        "edition": "",
-        "team": "minion",
-        "firstNight": 7,
-        "firstNightReminder": "Zbudite Boffina in pokažite znak sposobnosti, ki jo ima demon. Uspajte Boffina nazaj. Zbudite demona, pokažite žeton Boffina, nato pokažite znak dobre sposobnosti, ki jo ima demon.",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Demon (tudi če je pijan ali zastrupljen) ima sposobnost dobrega lika, ki ni v igri. Oba veste, katero.",
-        "special": []
-    },
-    {
         "id": "lordoftyphon",
         "name": "Lord of Typhon",
         "edition": "",
@@ -2679,6 +2441,35 @@
         "setup": true,
         "ability": "Vsako noč* izberite igralca: umrejo. [Zlobni liki so v vrsti. Vi ste v sredini. +1 Minion. -? Do +? Outsiders]",
         "special": []
+    },
+    {
+        "id": "boffin",
+        "name": "Boffin",
+        "edition": "",
+        "team": "minion",
+        "firstNight": 7,
+        "firstNightReminder": "Zbudite Boffina in pokažite znak sposobnosti, ki jo ima demon. Uspajte Boffina nazaj. Zbudite demona, pokažite žeton Boffina, nato pokažite znak dobre sposobnosti, ki jo ima demon.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Demon (tudi če je pijan ali zastrupljen) ima sposobnost dobrega lika, ki ni v igri. Oba veste, katero.",
+        "special": []
+    },
+    {
+        "id": "cacklejack",
+        "name": "Cacklejack",
+        "edition": "",
+        "team": "traveller",
+        "firstNightReminder": "",
+        "otherNightReminder": "Replace the character token of any player (besides the player the Cacklejack chose today) with a different character token. Wake that player and show them the 'You are' card and their new character token.",
+        "reminders": [
+            "Not Me"
+        ],
+        "setup": false,
+        "ability": "Each day, choose a player: a different player changes character tonight.",
+        "firstNight": 0,
+        "otherNight": 2.1
     },
     {
         "id": "gnome",
@@ -2765,5 +2556,353 @@
         "setup": false,
         "ability": "Če si na tvoj prvi dan nominiral in usmrtil igralca, te demon nocoj ne ubije.",
         "special": []
+    },
+    {
+        "id": "wraith",
+        "name": "Wraith",
+        "team": "minion",
+        "edition": "",
+        "firstNightReminder": "Wake the Wraith whenever other evil players wake.",
+        "otherNightReminder": "Wake the Wraith whenever other evil players wake.",
+        "reminders": [],
+        "setup": false,
+        "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
+        "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
+        "special": [
+            {
+                "type": "player",
+                "name": "open-eyes",
+                "time": "night"
+            }
+        ],
+        "firstNight": 2,
+        "otherNight": 2
+    },
+    {
+        "id": "angel",
+        "name": "Angel",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Varovanec",
+            "Varovanec",
+            "Nekaj slabega"
+        ],
+        "setup": false,
+        "ability": "Nekaj slabega se lahko zgodi tistemu, ki je najbolj odgovoren za smrt novega igralca.",
+        "special": null
+    },
+    {
+        "id": "bootlegger",
+        "name": "Bootlegger",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "This script has homebrew characters or rules.",
+        "special": null
+    },
+    {
+        "id": "tor",
+        "firstNightReminder": "Players don't learn character or alignment",
+        "otherNightReminder": "Learn character & alignment",
+        "setup": true,
+        "edition": "loric",
+        "name": "Tor",
+        "team": "loric",
+        "reminders": [],
+        "ability": "Players don't know their character or alignment. They learn them when they die."
+    },
+    {
+        "id": "bigwig",
+        "name": "Big Wig",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "setup": false,
+        "reminders": [],
+        "edition": "loric",
+        "team": "loric",
+        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+    },
+    {
+        "id": "zenomancer",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "Goal",
+            "Goal",
+            "Goal"
+        ],
+        "setup": false,
+        "name": "Zenomancer",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
+    },
+    {
+        "id": "hindu",
+        "name": "Hindu",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "setup": false,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "Reincarnated",
+            "Reincarnated",
+            "Reincarnated",
+            "Reincarnated"
+        ],
+        "flavor": ""
+    },
+    {
+        "id": "pope",
+        "name": "Pope",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "setup": true,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [],
+        "flavor": ""
+    },
+    {
+        "id": "buddhist",
+        "name": "Budist",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Prvi 2 minuti vsakega dneva izkušeni igralci ne smejo govoriti.",
+        "special": null
+    },
+    {
+        "id": "deusexfiasco",
+        "name": "Deus ex Fiasco",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Opsa"
+        ],
+        "setup": true,
+        "ability": "Enkrat na igro bo Pripovedovalec naredil \"napako\", jo javno priznal in jo popravil.",
+        "special": null
+    },
+    {
+        "id": "djinn",
+        "name": "Duh iz svetilke",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Duh je uročil nekatere karakterje s posebnimi pravili. Vsi igralci vedo, kaj so.",
+        "special": null
+    },
+    {
+        "id": "doomsayer",
+        "name": "Doomsayer",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Če so živi 4 igralci ali več, se lahko vsak živ igralec odloči (enkrat na igro), da en igralec v njegovi ekipi umre.",
+        "special": null
+    },
+    {
+        "id": "duchess",
+        "name": "Grofica",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "",
+        "reminders": [
+            "Obiskovalec",
+            "Obiskovalec",
+            "Lažni podatek"
+        ],
+        "setup": false,
+        "ability": "Vsak dan se 3 igralci lahko odločijo, da te obiščejo. Ponoči*, vsak izmed njih izve, koliko obiskovalcev je bilo zlobnih, a eden od njih dobi napačne podatke.",
+        "special": null
+    },
+    {
+        "id": "ferryman",
+        "name": "Ferryman",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "On the final day, all dead players regain their vote token.",
+        "special": null
+    },
+    {
+        "id": "fibbin",
+        "name": "Šment",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Šmenta"
+        ],
+        "setup": false,
+        "ability": "Enkrat na igrlo lahko 1 dober igralec dobi lažne podatke.",
+        "special": null
+    },
+    {
+        "id": "fiddler",
+        "name": "Goslar",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Enkrat na igro, Demon na skrivaj izbere enega nasprotnika. Vsi igralci se odločijo, kdo od njiju zmaga.",
+        "special": null
+    },
+    {
+        "id": "gardener",
+        "name": "Gardener",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "The Storyteller assigns 1 or more players' characters.",
+        "special": null
+    },
+    {
+        "id": "hellslibrarian",
+        "name": "Hudičeva knjižničarka",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Nekaj slabega"
+        ],
+        "setup": false,
+        "ability": "Nekaj slabega se lahko zgodi tistemu, ki govori, ko je Pripovedovalec prosil za tišino.",
+        "special": null
+    },
+    {
+        "id": "revolutionary",
+        "name": "Prevratnik",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Izpade narobe?"
+        ],
+        "setup": false,
+        "ability": "Za dva igralca vsi vedo, da sta na isti ekipi. Enkrat na igro eden od njiju izpade narobe.",
+        "special": null
+    },
+    {
+        "id": "sentinel",
+        "name": "Priča",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": true,
+        "ability": "V igri je morda en Izobčenec več ali manj.",
+        "special": null
+    },
+    {
+        "id": "spiritofivory",
+        "name": "Slonovinar",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Brez dodatnega zlobnega"
+        ],
+        "setup": false,
+        "ability": "V igri je lahko samo 1 dodaten igralec.",
+        "special": null
+    },
+    {
+        "id": "stormcatcher",
+        "name": "Strelovod",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 1,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Varen"
+        ],
+        "setup": false,
+        "ability": "Izberi eno dobro vlogo. Če je v igri, lahko umre samo, če je usmrčena, a zlobni igralci izvejo, kdo je.",
+        "special": null
+    },
+    {
+        "id": "toymaker",
+        "name": "Tvorec",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "",
+        "reminders": [
+            "Ni napada"
+        ],
+        "setup": false,
+        "ability": "Demon se lahko odloči, da ne bo ubijal in se more tako odločiti vsaj enkrat na igro. Zlobni igralci dobijo začetne podatke, kot da bi bilo v igri 7+ igralcev.",
+        "special": null
     }
 ]

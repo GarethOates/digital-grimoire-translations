@@ -1,5 +1,41 @@
 [
     {
+        "id": "dusk",
+        "edition": "special",
+        "name": "Dusk",
+        "firstNightReminder": "Start the Night Phase.",
+        "otherNightReminder": "Start the Night Phase.",
+        "firstNight": 1,
+        "otherNight": 1
+    },
+    {
+        "id": "dawn",
+        "edition": "special",
+        "name": "Dawn",
+        "firstNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "otherNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "firstNight": 73,
+        "otherNight": 93
+    },
+    {
+        "id": "minioninfo",
+        "edition": "special",
+        "name": "Minion Info",
+        "team": "minion",
+        "firstNightReminder": "If there are 7 or more players, wake all Minions:\n\tShow the *THIS IS THE DEMON* token. Point to the Demon.\n\tShow the *THESE ARE YOUR MINIONS* token. Point to the other Minions.",
+        "firstNight": 15,
+        "otherNight": 0
+    },
+    {
+        "id": "demoninfo",
+        "edition": "special",
+        "name": "Demon Info",
+        "team": "demon",
+        "firstNightReminder": "If there are 7 or more players, wake the Demon:\n\tShow the *THESE ARE YOUR MINIONS* token. Point to all Minions.\n\tShow the *THESE CHARACTERS ARE NOT IN PLAY* token. Show 3 not-in-play good character tokens.",
+        "firstNight": 19,
+        "otherNight": 0
+    },
+    {
         "id": "washerwoman",
         "name": "Washerwoman",
         "edition": "tb",
@@ -1562,6 +1598,22 @@
         "special": null
     },
     {
+        "id": "nightwatchman",
+        "name": "Nightwatchman",
+        "edition": "",
+        "team": "townsfolk",
+        "firstNight": 61,
+        "firstNightReminder": "Nightwatchman dapat menunjuk seorang pemain. Bangunkan pemain itu, tunjukkan kartu 'Karakter ini memilihmu' dan token Nightwatchman, lalu tunjukkan kepada pemain Nightwatchman.",
+        "otherNight": 82,
+        "otherNightReminder": "Nightwatchman dapat menunjuk seorang pemain. Bangunkan pemain itu, tunjukkan kartu 'Karakter ini memilihmu' dan token Nightwatchman, lalu tunjukkan kepada pemain Nightwatchman.",
+        "reminders": [
+            "No ability"
+        ],
+        "setup": false,
+        "ability": "Sekali per permainan, di malam hari, pilih seorang pemain: mereka akan mengetahui siapa kamu.",
+        "special": null
+    },
+    {
         "id": "engineer",
         "name": "Engineer",
         "edition": "",
@@ -2082,240 +2134,6 @@
         "special": null
     },
     {
-        "id": "doomsayer",
-        "name": "Doomsayer",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Jika 4 atau lebih pemain masih hidup, setiap pemain yang masih hidup dapat secara publik memilih (sekali per permainan) agar seorang pemain dengan pihak mereka sendiri mati.",
-        "special": null
-    },
-    {
-        "id": "angel",
-        "name": "Angel",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Protect",
-            "Protect",
-            "Something Bad"
-        ],
-        "setup": false,
-        "ability": "Sesuatu yang buruk mungkin akan terjadi pada siapa pun yang paling bertanggung jawab atas kematian pemain baru.",
-        "special": null
-    },
-    {
-        "id": "buddhist",
-        "name": "Buddhist",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Selama 2 menit pertama setiap hari, pemain veteran tidak boleh berbicara.",
-        "special": null
-    },
-    {
-        "id": "hellslibrarian",
-        "name": "Hell's Librarian",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Something Bad"
-        ],
-        "setup": false,
-        "ability": "Sesuatu yang buruk mungkin akan terjadi pada siapa pun yang berbicara ketika Storyteller telah meminta keheningan.",
-        "special": null
-    },
-    {
-        "id": "revolutionary",
-        "name": "Revolutionary",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Register Falsely?"
-        ],
-        "setup": false,
-        "ability": "2 pemain tetangga diketahui memiliki pihak yang sama. Sekali per permainan, salah satu dari mereka mendaftar secara palsu.",
-        "special": null
-    },
-    {
-        "id": "fiddler",
-        "name": "Fiddler",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Sekali per permainan, Demon secara diam-diam memilih pemain lawan: semua pemain memilih siapa dari kedua pemain ini yang menang.",
-        "special": null
-    },
-    {
-        "id": "toymaker",
-        "name": "Toymaker",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 1,
-        "otherNightReminder": "",
-        "reminders": [
-            "No Attack"
-        ],
-        "setup": false,
-        "ability": "Demon mungkin memilih untuk tidak menyerang & harus melakukannya setidaknya sekali per permainan. Pemain jahat mendapatkan informasi awal normal.",
-        "special": null
-    },
-    {
-        "id": "fibbin",
-        "name": "Fibbin",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Used"
-        ],
-        "setup": false,
-        "ability": "Sekali per permainan, 1 pemain yang baik mungkin mendapatkan informasi palsu.",
-        "special": null
-    },
-    {
-        "id": "duchess",
-        "name": "Duchess",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 1,
-        "otherNightReminder": "",
-        "reminders": [
-            "Visitor",
-            "Visitor",
-            "False Info"
-        ],
-        "setup": false,
-        "ability": "Setiap siang hari, 3 pemain dapat memilih untuk mengunjungimu. Pada malam hari*, setiap pengunjung mengetahui berapa banyak pengunjung yang jahat, tetapi 1 mendapatkan informasi palsu.",
-        "special": null
-    },
-    {
-        "id": "sentinel",
-        "name": "Sentinel",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": true,
-        "ability": "Mungkin ada 1 Outsider tambahan atau kurang 1 Outsider dalam permainan.",
-        "special": null
-    },
-    {
-        "id": "spiritofivory",
-        "name": "Spirit Of Ivory",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "No extra evil"
-        ],
-        "setup": false,
-        "ability": "Tidak boleh ada lebih dari 1 pemain jahat tambahan.",
-        "special": null
-    },
-    {
-        "id": "djinn",
-        "name": "Djinn",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Gunakan aturan khusus Djinn. Semua pemain tahu apa itu.",
-        "special": null
-    },
-    {
-        "id": "stormcatcher",
-        "name": "Storm Catcher",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 1,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Safe"
-        ],
-        "setup": false,
-        "ability": "Sebutkan karakter baik. Jika ada dalam permainan, mereka hanya bisa mati melalui eksekusi, tetapi pemain jahat akan tahu siapa pemain itu.",
-        "special": null
-    },
-    {
-        "id": "deusexfiasco",
-        "name": "Deus ex Fiasco",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Whoops"
-        ],
-        "setup": true,
-        "ability": "Sekali per permainan, Sang Storyteller akan membuat \"kesalahan\", memperbaikinya, dan mengakuinya secara publik.",
-        "special": null
-    },
-    {
-        "id": "nightwatchman",
-        "name": "Nightwatchman",
-        "edition": "",
-        "team": "townsfolk",
-        "firstNight": 61,
-        "firstNightReminder": "Nightwatchman dapat menunjuk seorang pemain. Bangunkan pemain itu, tunjukkan kartu 'Karakter ini memilihmu' dan token Nightwatchman, lalu tunjukkan kepada pemain Nightwatchman.",
-        "otherNight": 82,
-        "otherNightReminder": "Nightwatchman dapat menunjuk seorang pemain. Bangunkan pemain itu, tunjukkan kartu 'Karakter ini memilihmu' dan token Nightwatchman, lalu tunjukkan kepada pemain Nightwatchman.",
-        "reminders": [
-            "No ability"
-        ],
-        "setup": false,
-        "ability": "Sekali per permainan, di malam hari, pilih seorang pemain: mereka akan mengetahui siapa kamu.",
-        "special": null
-    },
-    {
         "id": "organgrinder",
         "name": "Organ Grinder",
         "edition": "",
@@ -2473,48 +2291,6 @@
         "special": null
     },
     {
-        "id": "bootlegger",
-        "name": "Bootlegger",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "Umumkan bahwa Bootlegger sedang dimainkan dan beri tahu grup tentang semua karakter dan/atau aturan homebrew yang Anda gunakan dalam permainan ini.",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Skrip ini memiliki karakter atau aturan buatan sendiri.(Homebrew)",
-        "special": null
-    },
-    {
-        "id": "ferryman",
-        "name": "Ferryman",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Pada hari terakhir, semua pemain yang sudah mati mendapatkan kembali token suara mereka.",
-        "special": null
-    },
-    {
-        "id": "gardener",
-        "name": "Gardener",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Storyteller menetapkan 1 atau lebih karakter pemain..",
-        "special": null
-    },
-    {
         "id": "kazali",
         "name": "Kazali",
         "edition": "",
@@ -2643,20 +2419,6 @@
         "special": []
     },
     {
-        "id": "boffin",
-        "name": "Boffin",
-        "edition": "",
-        "team": "minion",
-        "firstNight": 7,
-        "firstNightReminder": "Bangunkan Boffin dan tunjukkan kepada mereka tanda kemampuan yang dimiliki oleh Demon. Tidurkan kembali Boffin. Bangunkan Demon, tunjukkan token Boffin, lalu tunjukkan token kemampuan karakter baik yang dimiliki Demon.",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Demon (meskipun mabuk atau diracuni) memiliki kemampuan karakter baik yang tidak dimainkan. Kalian berdua tahu yang mana.",
-        "special": []
-    },
-    {
         "id": "lordoftyphon",
         "name": "Lord of Typhon",
         "edition": "",
@@ -2671,6 +2433,35 @@
         "setup": true,
         "ability": "Setiap malam*, pilih seorang pemain: mereka mati. [Tim jahat berada dalam satu baris. Kamu berada di tengah. +1 Minion. -? Ke +? Outsiders]",
         "special": []
+    },
+    {
+        "id": "boffin",
+        "name": "Boffin",
+        "edition": "",
+        "team": "minion",
+        "firstNight": 7,
+        "firstNightReminder": "Bangunkan Boffin dan tunjukkan kepada mereka tanda kemampuan yang dimiliki oleh Demon. Tidurkan kembali Boffin. Bangunkan Demon, tunjukkan token Boffin, lalu tunjukkan token kemampuan karakter baik yang dimiliki Demon.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Demon (meskipun mabuk atau diracuni) memiliki kemampuan karakter baik yang tidak dimainkan. Kalian berdua tahu yang mana.",
+        "special": []
+    },
+    {
+        "id": "cacklejack",
+        "name": "Cacklejack",
+        "edition": "",
+        "team": "traveller",
+        "firstNightReminder": "",
+        "otherNightReminder": "Replace the character token of any player (besides the player the Cacklejack chose today) with a different character token. Wake that player and show them the 'You are' card and their new character token.",
+        "reminders": [
+            "Not Me"
+        ],
+        "setup": false,
+        "ability": "Each day, choose a player: a different player changes character tonight.",
+        "firstNight": 0,
+        "otherNight": 2.1
     },
     {
         "id": "gnome",
@@ -2757,5 +2548,353 @@
         "setup": false,
         "ability": "Pada hari pertamamu, jika kamu menominasikan & mengeksekusi seorang pemain, Iblis tidak akan membunuh malam ini.",
         "special": []
+    },
+    {
+        "id": "wraith",
+        "name": "Wraith",
+        "team": "minion",
+        "edition": "",
+        "firstNightReminder": "Wake the Wraith whenever other evil players wake.",
+        "otherNightReminder": "Wake the Wraith whenever other evil players wake.",
+        "reminders": [],
+        "setup": false,
+        "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
+        "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
+        "special": [
+            {
+                "type": "player",
+                "name": "open-eyes",
+                "time": "night"
+            }
+        ],
+        "firstNight": 2,
+        "otherNight": 2
+    },
+    {
+        "id": "angel",
+        "name": "Angel",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Protect",
+            "Protect",
+            "Something Bad"
+        ],
+        "setup": false,
+        "ability": "Sesuatu yang buruk mungkin akan terjadi pada siapa pun yang paling bertanggung jawab atas kematian pemain baru.",
+        "special": null
+    },
+    {
+        "id": "bootlegger",
+        "name": "Bootlegger",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "Umumkan bahwa Bootlegger sedang dimainkan dan beri tahu grup tentang semua karakter dan/atau aturan homebrew yang Anda gunakan dalam permainan ini.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Skrip ini memiliki karakter atau aturan buatan sendiri.(Homebrew)",
+        "special": null
+    },
+    {
+        "id": "tor",
+        "firstNightReminder": "Players don't learn character or alignment",
+        "otherNightReminder": "Learn character & alignment",
+        "setup": true,
+        "edition": "loric",
+        "name": "Tor",
+        "team": "loric",
+        "reminders": [],
+        "ability": "Players don't know their character or alignment. They learn them when they die."
+    },
+    {
+        "id": "bigwig",
+        "name": "Big Wig",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "setup": false,
+        "reminders": [],
+        "edition": "loric",
+        "team": "loric",
+        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+    },
+    {
+        "id": "zenomancer",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "Goal",
+            "Goal",
+            "Goal"
+        ],
+        "setup": false,
+        "name": "Zenomancer",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
+    },
+    {
+        "id": "hindu",
+        "name": "Hindu",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "setup": false,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "Reincarnated",
+            "Reincarnated",
+            "Reincarnated",
+            "Reincarnated"
+        ],
+        "flavor": ""
+    },
+    {
+        "id": "pope",
+        "name": "Pope",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "setup": true,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [],
+        "flavor": ""
+    },
+    {
+        "id": "buddhist",
+        "name": "Buddhist",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Selama 2 menit pertama setiap hari, pemain veteran tidak boleh berbicara.",
+        "special": null
+    },
+    {
+        "id": "deusexfiasco",
+        "name": "Deus ex Fiasco",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Whoops"
+        ],
+        "setup": true,
+        "ability": "Sekali per permainan, Sang Storyteller akan membuat \"kesalahan\", memperbaikinya, dan mengakuinya secara publik.",
+        "special": null
+    },
+    {
+        "id": "djinn",
+        "name": "Djinn",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Gunakan aturan khusus Djinn. Semua pemain tahu apa itu.",
+        "special": null
+    },
+    {
+        "id": "doomsayer",
+        "name": "Doomsayer",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Jika 4 atau lebih pemain masih hidup, setiap pemain yang masih hidup dapat secara publik memilih (sekali per permainan) agar seorang pemain dengan pihak mereka sendiri mati.",
+        "special": null
+    },
+    {
+        "id": "duchess",
+        "name": "Duchess",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "",
+        "reminders": [
+            "Visitor",
+            "Visitor",
+            "False Info"
+        ],
+        "setup": false,
+        "ability": "Setiap siang hari, 3 pemain dapat memilih untuk mengunjungimu. Pada malam hari*, setiap pengunjung mengetahui berapa banyak pengunjung yang jahat, tetapi 1 mendapatkan informasi palsu.",
+        "special": null
+    },
+    {
+        "id": "ferryman",
+        "name": "Ferryman",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Pada hari terakhir, semua pemain yang sudah mati mendapatkan kembali token suara mereka.",
+        "special": null
+    },
+    {
+        "id": "fibbin",
+        "name": "Fibbin",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Used"
+        ],
+        "setup": false,
+        "ability": "Sekali per permainan, 1 pemain yang baik mungkin mendapatkan informasi palsu.",
+        "special": null
+    },
+    {
+        "id": "fiddler",
+        "name": "Fiddler",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Sekali per permainan, Demon secara diam-diam memilih pemain lawan: semua pemain memilih siapa dari kedua pemain ini yang menang.",
+        "special": null
+    },
+    {
+        "id": "gardener",
+        "name": "Gardener",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Storyteller menetapkan 1 atau lebih karakter pemain..",
+        "special": null
+    },
+    {
+        "id": "hellslibrarian",
+        "name": "Hell's Librarian",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Something Bad"
+        ],
+        "setup": false,
+        "ability": "Sesuatu yang buruk mungkin akan terjadi pada siapa pun yang berbicara ketika Storyteller telah meminta keheningan.",
+        "special": null
+    },
+    {
+        "id": "revolutionary",
+        "name": "Revolutionary",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Register Falsely?"
+        ],
+        "setup": false,
+        "ability": "2 pemain tetangga diketahui memiliki pihak yang sama. Sekali per permainan, salah satu dari mereka mendaftar secara palsu.",
+        "special": null
+    },
+    {
+        "id": "sentinel",
+        "name": "Sentinel",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": true,
+        "ability": "Mungkin ada 1 Outsider tambahan atau kurang 1 Outsider dalam permainan.",
+        "special": null
+    },
+    {
+        "id": "spiritofivory",
+        "name": "Spirit Of Ivory",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "No extra evil"
+        ],
+        "setup": false,
+        "ability": "Tidak boleh ada lebih dari 1 pemain jahat tambahan.",
+        "special": null
+    },
+    {
+        "id": "stormcatcher",
+        "name": "Storm Catcher",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 1,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Safe"
+        ],
+        "setup": false,
+        "ability": "Sebutkan karakter baik. Jika ada dalam permainan, mereka hanya bisa mati melalui eksekusi, tetapi pemain jahat akan tahu siapa pemain itu.",
+        "special": null
+    },
+    {
+        "id": "toymaker",
+        "name": "Toymaker",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "",
+        "reminders": [
+            "No Attack"
+        ],
+        "setup": false,
+        "ability": "Demon mungkin memilih untuk tidak menyerang & harus melakukannya setidaknya sekali per permainan. Pemain jahat mendapatkan informasi awal normal.",
+        "special": null
     }
 ]

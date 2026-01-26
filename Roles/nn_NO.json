@@ -1,5 +1,41 @@
 [
     {
+        "id": "dusk",
+        "edition": "special",
+        "name": "Dusk",
+        "firstNightReminder": "Start the Night Phase.",
+        "otherNightReminder": "Start the Night Phase.",
+        "firstNight": 1,
+        "otherNight": 1
+    },
+    {
+        "id": "dawn",
+        "edition": "special",
+        "name": "Dawn",
+        "firstNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "otherNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "firstNight": 73,
+        "otherNight": 93
+    },
+    {
+        "id": "minioninfo",
+        "edition": "special",
+        "name": "Minion Info",
+        "team": "minion",
+        "firstNightReminder": "If there are 7 or more players, wake all Minions:\n\tShow the *THIS IS THE DEMON* token. Point to the Demon.\n\tShow the *THESE ARE YOUR MINIONS* token. Point to the other Minions.",
+        "firstNight": 15,
+        "otherNight": 0
+    },
+    {
+        "id": "demoninfo",
+        "edition": "special",
+        "name": "Demon Info",
+        "team": "demon",
+        "firstNightReminder": "If there are 7 or more players, wake the Demon:\n\tShow the *THESE ARE YOUR MINIONS* token. Point to all Minions.\n\tShow the *THESE CHARACTERS ARE NOT IN PLAY* token. Show 3 not-in-play good character tokens.",
+        "firstNight": 19,
+        "otherNight": 0
+    },
+    {
         "id": "washerwoman",
         "name": "Vaskekone",
         "edition": "tb",
@@ -1562,6 +1598,22 @@
         "special": null
     },
     {
+        "id": "nightwatchman",
+        "name": "Nattevaktar",
+        "edition": "",
+        "team": "townsfolk",
+        "firstNight": 61,
+        "firstNightReminder": "Nattevaktaren anten rister på hovudet for \"nei\", eller peiker mot ein spelar. Om dei peiker mot ein spelar: Vekk spelaren, vis dei \"Denne rolla valde deg\"-kortet, så Nattevaktar-brikka, og så peik mot spelaren som er Nattevaktaren.",
+        "otherNight": 82,
+        "otherNightReminder": "Nattevaktaren anten rister på hovudet for \"nei\", eller peiker mot ein spelar. Om dei peiker mot ein spelar: Vekk spelaren, vis dei \"Denne rolla valde deg\"-kortet, så Nattevaktar-brikka, og så peik mot spelaren som er Nattevaktaren.",
+        "reminders": [
+            "Utan evne"
+        ],
+        "setup": false,
+        "ability": "Éin gong i løpet av spelet, om natta, vel ein spelar: dei lærer kven du er.",
+        "special": null
+    },
+    {
         "id": "engineer",
         "name": "Ingeniør",
         "edition": "",
@@ -2082,240 +2134,6 @@
         "special": null
     },
     {
-        "id": "doomsayer",
-        "name": "Domedagsprofet",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Om 4 eller fleire spelarar lever, kan kvar levande spelar, éin gong i løpet av spelet, offentleg velje at ein spelar med same lojalitet som dei døyr.",
-        "special": null
-    },
-    {
-        "id": "angel",
-        "name": "Verjeengel",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Verj",
-            "Verj",
-            "Noko ugreitt"
-        ],
-        "setup": false,
-        "ability": "Noko ugreitt kan hende spelaren mest ansvarleg for at ein ny spelar døydde.",
-        "special": null
-    },
-    {
-        "id": "buddhist",
-        "name": "Buddhist",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Røynde spelarar får ikkje lov til å snakke dei 2 fyrste minutta kvar dag.",
-        "special": null
-    },
-    {
-        "id": "hellslibrarian",
-        "name": "Hysj!",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Noko ugreitt"
-        ],
-        "setup": false,
-        "ability": "Noko ugreitt kan hende spelarar som snakkar når Forteljaren har bedd om ro.",
-        "special": null
-    },
-    {
-        "id": "revolutionary",
-        "name": "Revolusjonær",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Tyd gale?"
-        ],
-        "setup": false,
-        "ability": "Det er kjent at 2 grannespelarar har same lojalitet. Éin gong i løpet av spelet, 1 av dei vil verte tydd gale.",
-        "special": null
-    },
-    {
-        "id": "fiddler",
-        "name": "Spelemann",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Éin gong i løpet av spelet, ei avrøysting mellom 2 spelarar vert halden kor alle røystar over kven av dei som vinn (med laget sitt). Den eine spelaren er Demonen, den andre ein spelar med motsett lojalitet vald av Demonen i løyndom.",
-        "special": null
-    },
-    {
-        "id": "toymaker",
-        "name": "Handverkar",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 1,
-        "otherNightReminder": "Om det er natt og eit åtak frå Demonen kan gjere slutt på spelet, og Demonen er markert \"Inkje åtak\": Demonen handlar ikkje i natt. Ikkje vekk dei.",
-        "reminders": [
-            "Inkje åtak"
-        ],
-        "setup": false,
-        "ability": "Demonen kan velje å ikkje åta & må gjere dette minst éin gong i løpet av spelet. Vonde spelarar får vanleg kunnskap i byrjinga av spelet.",
-        "special": null
-    },
-    {
-        "id": "fibbin",
-        "name": "Skrønemakar",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Nytta"
-        ],
-        "setup": false,
-        "ability": "Éin gong i løpet av spelet, ein god spelar kan ta imot galen kunnskap.",
-        "special": null
-    },
-    {
-        "id": "duchess",
-        "name": "Hertuginne",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 1,
-        "otherNightReminder": "Vekk kvar spelar markert \"Vitjande\" eller \"Galen kunnskap\", éin om gongen. Vis dei Hertuginne-brikka, hald så fram eit tal fingrar (0, 1, 2, …) tilsvarande vonde spelarar markert \"Vitjande\" eller, om du vekker spelaren markert \"Galen kunnskap\", hald fram eit tal fingrar (0, 1, 2, …) som ikkje tilsvarar onde spelarar markert \"Vitjande\".",
-        "reminders": [
-            "Vitjande",
-            "Vitjande",
-            "Galen kunnskap"
-        ],
-        "setup": false,
-        "ability": "Kvar dag kan 3 spelarar velje å vitje deg. Om natta* lærer kvar vitjande kor mange vitjande er vonde, men 1 tek imot galen kunnskap.",
-        "special": null
-    },
-    {
-        "id": "sentinel",
-        "name": "Grensevakt",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": true,
-        "ability": "Det kan hende 1 fleire eller 1 færre Einstøing er i spel.",
-        "special": null
-    },
-    {
-        "id": "spiritofivory",
-        "name": "Kvite Elefanten",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Ingen ekstra vonde"
-        ],
-        "setup": false,
-        "ability": "Det kan ikkje vere meir enn 1 ekstra vond spelar.",
-        "special": null
-    },
-    {
-        "id": "djinn",
-        "name": "Djinn",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Fylg Djinnen sin særregel. Alle spelarane kjenner til regelen.",
-        "special": null
-    },
-    {
-        "id": "stormcatcher",
-        "name": "Utpeikt",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 1,
-        "firstNightReminder": "Marker ein god spelar \"Trygg\". Vekk kvar av dei vonde spelarane og vis dei den markerte spelaren.",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Trygg"
-        ],
-        "setup": false,
-        "ability": "Sei ei god rolle. Om ho er i spel, kan rolla berre døy ved avretting, men vonde spelarar lærer kven som har ho.",
-        "special": null
-    },
-    {
-        "id": "deusexfiasco",
-        "name": "Deus ex Fiasco",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Oisann"
-        ],
-        "setup": true,
-        "ability": "Forteljaren har éin gong i løpet av spelet gjort ein \"tabbe\", har så retta han opp og vedgått det for alle.",
-        "special": null
-    },
-    {
-        "id": "nightwatchman",
-        "name": "Nattevaktar",
-        "edition": "",
-        "team": "townsfolk",
-        "firstNight": 61,
-        "firstNightReminder": "Nattevaktaren anten rister på hovudet for \"nei\", eller peiker mot ein spelar. Om dei peiker mot ein spelar: Vekk spelaren, vis dei \"Denne rolla valde deg\"-kortet, så Nattevaktar-brikka, og så peik mot spelaren som er Nattevaktaren.",
-        "otherNight": 82,
-        "otherNightReminder": "Nattevaktaren anten rister på hovudet for \"nei\", eller peiker mot ein spelar. Om dei peiker mot ein spelar: Vekk spelaren, vis dei \"Denne rolla valde deg\"-kortet, så Nattevaktar-brikka, og så peik mot spelaren som er Nattevaktaren.",
-        "reminders": [
-            "Utan evne"
-        ],
-        "setup": false,
-        "ability": "Éin gong i løpet av spelet, om natta, vel ein spelar: dei lærer kven du er.",
-        "special": null
-    },
-    {
         "id": "organgrinder",
         "name": "Veivspelar",
         "edition": "",
@@ -2473,48 +2291,6 @@
         "special": null
     },
     {
-        "id": "bootlegger",
-        "name": "Heimebrennar",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "Kunngjer at Heimebrenneren er i spel og opplys gruppa om alle heimebrygde roller og reglar som gjeld for dette spelet.",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Scenarioet har heimebrygde roller eller reglar.",
-        "special": null
-    },
-    {
-        "id": "ferryman",
-        "name": "Ferryman",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "On the final day, all dead players regain their vote token.",
-        "special": null
-    },
-    {
-        "id": "gardener",
-        "name": "Gardener",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "The Storyteller assigns 1 or more players' characters.",
-        "special": null
-    },
-    {
         "id": "kazali",
         "name": "Kazali",
         "edition": "",
@@ -2643,20 +2419,6 @@
         "special": []
     },
     {
-        "id": "boffin",
-        "name": "Boffin",
-        "edition": "",
-        "team": "minion",
-        "firstNight": 7,
-        "firstNightReminder": "Wake the Boffin and how them the token of the ability the Demon has. Put the Boffin back to sleep. Wake the Demon, show the Boffin token, then show the token of the good ability the Demon has.",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "The Demon (even if drunk or poisoned) has a not-in-play good character’s ability. You both know which.",
-        "special": []
-    },
-    {
         "id": "lordoftyphon",
         "name": "Lord of Typhon",
         "edition": "",
@@ -2671,6 +2433,35 @@
         "setup": true,
         "ability": "Hver natt*, velg en spiller: de dør. [Onde karakterer er på linje. Du er i midten. +1 Minion. -? Til +? Outsiders]",
         "special": []
+    },
+    {
+        "id": "boffin",
+        "name": "Boffin",
+        "edition": "",
+        "team": "minion",
+        "firstNight": 7,
+        "firstNightReminder": "Wake the Boffin and how them the token of the ability the Demon has. Put the Boffin back to sleep. Wake the Demon, show the Boffin token, then show the token of the good ability the Demon has.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "The Demon (even if drunk or poisoned) has a not-in-play good character’s ability. You both know which.",
+        "special": []
+    },
+    {
+        "id": "cacklejack",
+        "name": "Cacklejack",
+        "edition": "",
+        "team": "traveller",
+        "firstNightReminder": "",
+        "otherNightReminder": "Replace the character token of any player (besides the player the Cacklejack chose today) with a different character token. Wake that player and show them the 'You are' card and their new character token.",
+        "reminders": [
+            "Not Me"
+        ],
+        "setup": false,
+        "ability": "Each day, choose a player: a different player changes character tonight.",
+        "firstNight": 0,
+        "otherNight": 2.1
     },
     {
         "id": "gnome",
@@ -2757,5 +2548,353 @@
         "setup": false,
         "ability": "On your 1st day, if you nominated & executed a player, the Demon doesn't kill tonight.",
         "special": []
+    },
+    {
+        "id": "wraith",
+        "name": "Wraith",
+        "team": "minion",
+        "edition": "",
+        "firstNightReminder": "Wake the Wraith whenever other evil players wake.",
+        "otherNightReminder": "Wake the Wraith whenever other evil players wake.",
+        "reminders": [],
+        "setup": false,
+        "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
+        "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
+        "special": [
+            {
+                "type": "player",
+                "name": "open-eyes",
+                "time": "night"
+            }
+        ],
+        "firstNight": 2,
+        "otherNight": 2
+    },
+    {
+        "id": "angel",
+        "name": "Verjeengel",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Verj",
+            "Verj",
+            "Noko ugreitt"
+        ],
+        "setup": false,
+        "ability": "Noko ugreitt kan hende spelaren mest ansvarleg for at ein ny spelar døydde.",
+        "special": null
+    },
+    {
+        "id": "bootlegger",
+        "name": "Heimebrennar",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "Kunngjer at Heimebrenneren er i spel og opplys gruppa om alle heimebrygde roller og reglar som gjeld for dette spelet.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Scenarioet har heimebrygde roller eller reglar.",
+        "special": null
+    },
+    {
+        "id": "tor",
+        "firstNightReminder": "Players don't learn character or alignment",
+        "otherNightReminder": "Learn character & alignment",
+        "setup": true,
+        "edition": "loric",
+        "name": "Tor",
+        "team": "loric",
+        "reminders": [],
+        "ability": "Players don't know their character or alignment. They learn them when they die."
+    },
+    {
+        "id": "bigwig",
+        "name": "Big Wig",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "setup": false,
+        "reminders": [],
+        "edition": "loric",
+        "team": "loric",
+        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+    },
+    {
+        "id": "zenomancer",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "Goal",
+            "Goal",
+            "Goal"
+        ],
+        "setup": false,
+        "name": "Zenomancer",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
+    },
+    {
+        "id": "hindu",
+        "name": "Hindu",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "setup": false,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "Reincarnated",
+            "Reincarnated",
+            "Reincarnated",
+            "Reincarnated"
+        ],
+        "flavor": ""
+    },
+    {
+        "id": "pope",
+        "name": "Pope",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "setup": true,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [],
+        "flavor": ""
+    },
+    {
+        "id": "buddhist",
+        "name": "Buddhist",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Røynde spelarar får ikkje lov til å snakke dei 2 fyrste minutta kvar dag.",
+        "special": null
+    },
+    {
+        "id": "deusexfiasco",
+        "name": "Deus ex Fiasco",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Oisann"
+        ],
+        "setup": true,
+        "ability": "Forteljaren har éin gong i løpet av spelet gjort ein \"tabbe\", har så retta han opp og vedgått det for alle.",
+        "special": null
+    },
+    {
+        "id": "djinn",
+        "name": "Djinn",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Fylg Djinnen sin særregel. Alle spelarane kjenner til regelen.",
+        "special": null
+    },
+    {
+        "id": "doomsayer",
+        "name": "Domedagsprofet",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Om 4 eller fleire spelarar lever, kan kvar levande spelar, éin gong i løpet av spelet, offentleg velje at ein spelar med same lojalitet som dei døyr.",
+        "special": null
+    },
+    {
+        "id": "duchess",
+        "name": "Hertuginne",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "Vekk kvar spelar markert \"Vitjande\" eller \"Galen kunnskap\", éin om gongen. Vis dei Hertuginne-brikka, hald så fram eit tal fingrar (0, 1, 2, …) tilsvarande vonde spelarar markert \"Vitjande\" eller, om du vekker spelaren markert \"Galen kunnskap\", hald fram eit tal fingrar (0, 1, 2, …) som ikkje tilsvarar onde spelarar markert \"Vitjande\".",
+        "reminders": [
+            "Vitjande",
+            "Vitjande",
+            "Galen kunnskap"
+        ],
+        "setup": false,
+        "ability": "Kvar dag kan 3 spelarar velje å vitje deg. Om natta* lærer kvar vitjande kor mange vitjande er vonde, men 1 tek imot galen kunnskap.",
+        "special": null
+    },
+    {
+        "id": "ferryman",
+        "name": "Ferryman",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "On the final day, all dead players regain their vote token.",
+        "special": null
+    },
+    {
+        "id": "fibbin",
+        "name": "Skrønemakar",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Nytta"
+        ],
+        "setup": false,
+        "ability": "Éin gong i løpet av spelet, ein god spelar kan ta imot galen kunnskap.",
+        "special": null
+    },
+    {
+        "id": "fiddler",
+        "name": "Spelemann",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Éin gong i løpet av spelet, ei avrøysting mellom 2 spelarar vert halden kor alle røystar over kven av dei som vinn (med laget sitt). Den eine spelaren er Demonen, den andre ein spelar med motsett lojalitet vald av Demonen i løyndom.",
+        "special": null
+    },
+    {
+        "id": "gardener",
+        "name": "Gardener",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "The Storyteller assigns 1 or more players' characters.",
+        "special": null
+    },
+    {
+        "id": "hellslibrarian",
+        "name": "Hysj!",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Noko ugreitt"
+        ],
+        "setup": false,
+        "ability": "Noko ugreitt kan hende spelarar som snakkar når Forteljaren har bedd om ro.",
+        "special": null
+    },
+    {
+        "id": "revolutionary",
+        "name": "Revolusjonær",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Tyd gale?"
+        ],
+        "setup": false,
+        "ability": "Det er kjent at 2 grannespelarar har same lojalitet. Éin gong i løpet av spelet, 1 av dei vil verte tydd gale.",
+        "special": null
+    },
+    {
+        "id": "sentinel",
+        "name": "Grensevakt",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": true,
+        "ability": "Det kan hende 1 fleire eller 1 færre Einstøing er i spel.",
+        "special": null
+    },
+    {
+        "id": "spiritofivory",
+        "name": "Kvite Elefanten",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Ingen ekstra vonde"
+        ],
+        "setup": false,
+        "ability": "Det kan ikkje vere meir enn 1 ekstra vond spelar.",
+        "special": null
+    },
+    {
+        "id": "stormcatcher",
+        "name": "Utpeikt",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 1,
+        "firstNightReminder": "Marker ein god spelar \"Trygg\". Vekk kvar av dei vonde spelarane og vis dei den markerte spelaren.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Trygg"
+        ],
+        "setup": false,
+        "ability": "Sei ei god rolle. Om ho er i spel, kan rolla berre døy ved avretting, men vonde spelarar lærer kven som har ho.",
+        "special": null
+    },
+    {
+        "id": "toymaker",
+        "name": "Handverkar",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "Om det er natt og eit åtak frå Demonen kan gjere slutt på spelet, og Demonen er markert \"Inkje åtak\": Demonen handlar ikkje i natt. Ikkje vekk dei.",
+        "reminders": [
+            "Inkje åtak"
+        ],
+        "setup": false,
+        "ability": "Demonen kan velje å ikkje åta & må gjere dette minst éin gong i løpet av spelet. Vonde spelarar får vanleg kunnskap i byrjinga av spelet.",
+        "special": null
     }
 ]

@@ -1,5 +1,41 @@
 [
     {
+        "id": "dusk",
+        "edition": "special",
+        "name": "Dusk",
+        "firstNightReminder": "Start the Night Phase.",
+        "otherNightReminder": "Start the Night Phase.",
+        "firstNight": 1,
+        "otherNight": 1
+    },
+    {
+        "id": "dawn",
+        "edition": "special",
+        "name": "Dawn",
+        "firstNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "otherNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "firstNight": 73,
+        "otherNight": 93
+    },
+    {
+        "id": "minioninfo",
+        "edition": "special",
+        "name": "Minion Info",
+        "team": "minion",
+        "firstNightReminder": "If there are 7 or more players, wake all Minions:\n\tShow the *THIS IS THE DEMON* token. Point to the Demon.\n\tShow the *THESE ARE YOUR MINIONS* token. Point to the other Minions.",
+        "firstNight": 15,
+        "otherNight": 0
+    },
+    {
+        "id": "demoninfo",
+        "edition": "special",
+        "name": "Demon Info",
+        "team": "demon",
+        "firstNightReminder": "If there are 7 or more players, wake the Demon:\n\tShow the *THESE ARE YOUR MINIONS* token. Point to all Minions.\n\tShow the *THESE CHARACTERS ARE NOT IN PLAY* token. Show 3 not-in-play good character tokens.",
+        "firstNight": 19,
+        "otherNight": 0
+    },
+    {
         "id": "washerwoman",
         "name": "Çamaşırcı Kadın",
         "edition": "tb",
@@ -1567,6 +1603,22 @@
         "special": null
     },
     {
+        "id": "nightwatchman",
+        "name": "Gece Bekçisi",
+        "edition": "",
+        "team": "townsfolk",
+        "firstNight": 61,
+        "firstNightReminder": "Gece Bekçisi bir oyuncuyu işaret edebilir. O oyuncuyu uyandırın, 'Bu karakter seni seçti' kartını ve Gece Bekçisi simgesini gösterin, ardından Gece Bekçisi oyuncusunu işaret edin.",
+        "otherNight": 82,
+        "otherNightReminder": "Gece Bekçisi bir oyuncuyu işaret edebilir. O oyuncuyu uyandırın, 'Bu karakter seni seçti' kartını ve Gece Bekçisi simgesini gösterin, ardından Gece Bekçisi oyuncusunu işaret edin.",
+        "reminders": [
+            "Yetenek Yok"
+        ],
+        "setup": false,
+        "ability": "Oyunda bir kez, geceleyin, bir oyuncu seçin: kim olduğunuzu öğrenirler.",
+        "special": null
+    },
+    {
         "id": "engineer",
         "name": "Mühendis",
         "edition": "",
@@ -2090,240 +2142,6 @@
         "special": null
     },
     {
-        "id": "doomsayer",
-        "name": "Felaket Tellalı",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "4 veya daha fazla oyuncu hayattaysa, her hayatta kalan oyuncu (oyunda bir kez) kendi bağlılığından bir oyuncunun ölmesini herkese açık bir şekilde seçebilir.",
-        "special": null
-    },
-    {
-        "id": "angel",
-        "name": "Melek",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Koru",
-            "Koru",
-            "Kötü Bir Şey"
-        ],
-        "setup": false,
-        "ability": "Yeni bir oyuncunun ölümünden en çok sorumlu olan kişinin başına kötü bir şey gelebilir.",
-        "special": null
-    },
-    {
-        "id": "buddhist",
-        "name": "Budist",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Her günün ilk 2 dakikasında tecrübeli oyuncular konuşamaz.",
-        "special": null
-    },
-    {
-        "id": "hellslibrarian",
-        "name": "Cehennem Kütüphanecisi",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Kötü Bir Şey"
-        ],
-        "setup": false,
-        "ability": "Hikaye Anlatıcısı sessizlik istediğinde konuşan kişiye kötü bir şey olabilir.",
-        "special": null
-    },
-    {
-        "id": "revolutionary",
-        "name": "Devrimci",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Yanlış Görünür mü?"
-        ],
-        "setup": false,
-        "ability": "Komşu 2 oyuncunun aynı bağlılıkta olduğu bilinir. Oyunda bir kez, bunlardan biri yanlış görünür.",
-        "special": null
-    },
-    {
-        "id": "fiddler",
-        "name": "Kemancı",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Oyunda bir kez, İblis gizlice rakip bir oyuncu seçer: tüm oyuncular bu 2 oyuncudan hangisinin kazanacağına karar verir.",
-        "special": null
-    },
-    {
-        "id": "toymaker",
-        "name": "Oyuncakçı",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 1,
-        "otherNightReminder": "",
-        "reminders": [
-            "Saldırı Yok"
-        ],
-        "setup": false,
-        "ability": "İblis saldırmamayı seçebilir ve bunu oyunda en az bir kez yapmalıdır. Kötü oyuncular normal başlangıç bilgisini alır.",
-        "special": null
-    },
-    {
-        "id": "fibbin",
-        "name": "Sahtekar",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Kullanıldı"
-        ],
-        "setup": false,
-        "ability": "Oyunda bir kez, 1 iyi oyuncu yanlış bilgi alabilir.",
-        "special": null
-    },
-    {
-        "id": "duchess",
-        "name": "Düşes",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 1,
-        "otherNightReminder": "",
-        "reminders": [
-            "Yanlış Bilgi",
-            "Yanlış Bilgi",
-            "Ziyaretçi"
-        ],
-        "setup": false,
-        "ability": "Her gün, 3 oyuncu sizi ziyaret etmeyi seçebilir. Gece*, her ziyaretçi kaç ziyaretçinin kötü olduğunu öğrenir, ancak biri yanlış bilgi alır.",
-        "special": null
-    },
-    {
-        "id": "sentinel",
-        "name": "Gözcü",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": true,
-        "ability": "Oyunda 1 fazla veya 1 eksik Yabancı olabilir.",
-        "special": null
-    },
-    {
-        "id": "spiritofivory",
-        "name": "Denge Ruhu",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "No extra evil"
-        ],
-        "setup": false,
-        "ability": "Ekstradan 1'den fazla kötü oyuncu olamaz.",
-        "special": null
-    },
-    {
-        "id": "djinn",
-        "name": "Cin",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Cin'in özel kuralını kullanın. Tüm oyuncular ne olduğunu bilir.",
-        "special": null
-    },
-    {
-        "id": "stormcatcher",
-        "name": "Fırtına Yakalayan",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 1,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Safe"
-        ],
-        "setup": false,
-        "ability": "İyi bir karakter ismi verin. Eğer oyundaysa, sadece idam edilerek ölebilir, ancak kötü oyuncular hangi oyuncu olduğunu öğrenir.",
-        "special": null
-    },
-    {
-        "id": "deusexfiasco",
-        "name": "Deus ex Fiyasko",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Hay Aksi!"
-        ],
-        "setup": true,
-        "ability": "Oyun başına bir kez, Hikaye Anlatıcısı bir \"hata\" yapacak, düzeltecek ve herkese açık bir şekilde itiraf edecek.",
-        "special": null
-    },
-    {
-        "id": "nightwatchman",
-        "name": "Gece Bekçisi",
-        "edition": "",
-        "team": "townsfolk",
-        "firstNight": 61,
-        "firstNightReminder": "Gece Bekçisi bir oyuncuyu işaret edebilir. O oyuncuyu uyandırın, 'Bu karakter seni seçti' kartını ve Gece Bekçisi simgesini gösterin, ardından Gece Bekçisi oyuncusunu işaret edin.",
-        "otherNight": 82,
-        "otherNightReminder": "Gece Bekçisi bir oyuncuyu işaret edebilir. O oyuncuyu uyandırın, 'Bu karakter seni seçti' kartını ve Gece Bekçisi simgesini gösterin, ardından Gece Bekçisi oyuncusunu işaret edin.",
-        "reminders": [
-            "Yetenek Yok"
-        ],
-        "setup": false,
-        "ability": "Oyunda bir kez, geceleyin, bir oyuncu seçin: kim olduğunuzu öğrenirler.",
-        "special": null
-    },
-    {
         "id": "organgrinder",
         "name": "Orgcu",
         "edition": "",
@@ -2481,48 +2299,6 @@
         "special": null
     },
     {
-        "id": "bootlegger",
-        "name": "İçki Kaçakçısı",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "İçki kaçakçısının oyunda olduğunu duyurun ve grubu bu oyunda kullandığınız tüm homebrew karakterler ve/veya kurallar hakkında bilgilendirin.",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Bu senaryoda homebrew (ev yapımı) karakterler veya kurallar vardır.",
-        "special": null
-    },
-    {
-        "id": "ferryman",
-        "name": "Ferryman",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "On the final day, all dead players regain their vote token.",
-        "special": null
-    },
-    {
-        "id": "gardener",
-        "name": "Gardener",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "The Storyteller assigns 1 or more players' characters.",
-        "special": null
-    },
-    {
         "id": "kazali",
         "name": "Kazali",
         "edition": "",
@@ -2651,20 +2427,6 @@
         "special": []
     },
     {
-        "id": "boffin",
-        "name": "Alim",
-        "edition": "",
-        "team": "minion",
-        "firstNight": 7,
-        "firstNightReminder": "Alim'i uyandırın ve onlara İblis'in sahip olduğu yeteneğin simgesini gösterin. Alim’i tekrar uyutun. İblisi uyandırın, Alim simgesini gösterin, ardından İblisin sahip olduğu iyi yeteneğin simgesini gösterin.",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "İblis (sarhoş veya zehirlenmiş olsa bile) oyunda olmayan iyi bir karakterin yeteneğine sahiptir. Hangisi olduğunu ikiniz de biliyorsunuz.",
-        "special": []
-    },
-    {
         "id": "lordoftyphon",
         "name": "Lord of Typhon",
         "edition": "",
@@ -2679,6 +2441,35 @@
         "setup": true,
         "ability": "Her gece*, bir oyuncu seçin: o ölür. [Kötü karakterler bir sıra halindedir. Siz ortadasınız. +1 Minyon. -? ila +? Yabancı]",
         "special": []
+    },
+    {
+        "id": "boffin",
+        "name": "Alim",
+        "edition": "",
+        "team": "minion",
+        "firstNight": 7,
+        "firstNightReminder": "Alim'i uyandırın ve onlara İblis'in sahip olduğu yeteneğin simgesini gösterin. Alim’i tekrar uyutun. İblisi uyandırın, Alim simgesini gösterin, ardından İblisin sahip olduğu iyi yeteneğin simgesini gösterin.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "İblis (sarhoş veya zehirlenmiş olsa bile) oyunda olmayan iyi bir karakterin yeteneğine sahiptir. Hangisi olduğunu ikiniz de biliyorsunuz.",
+        "special": []
+    },
+    {
+        "id": "cacklejack",
+        "name": "Cacklejack",
+        "edition": "",
+        "team": "traveller",
+        "firstNightReminder": "",
+        "otherNightReminder": "Replace the character token of any player (besides the player the Cacklejack chose today) with a different character token. Wake that player and show them the 'You are' card and their new character token.",
+        "reminders": [
+            "Not Me"
+        ],
+        "setup": false,
+        "ability": "Each day, choose a player: a different player changes character tonight.",
+        "firstNight": 0,
+        "otherNight": 2.1
     },
     {
         "id": "gnome",
@@ -2765,5 +2556,353 @@
         "setup": false,
         "ability": "İlk gününüzde, bir oyuncuyu aday gösterip idam ederseniz, Şeytan bu gece öldürmez.",
         "special": []
+    },
+    {
+        "id": "wraith",
+        "name": "Wraith",
+        "team": "minion",
+        "edition": "",
+        "firstNightReminder": "Wake the Wraith whenever other evil players wake.",
+        "otherNightReminder": "Wake the Wraith whenever other evil players wake.",
+        "reminders": [],
+        "setup": false,
+        "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
+        "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
+        "special": [
+            {
+                "type": "player",
+                "name": "open-eyes",
+                "time": "night"
+            }
+        ],
+        "firstNight": 2,
+        "otherNight": 2
+    },
+    {
+        "id": "angel",
+        "name": "Melek",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Koru",
+            "Koru",
+            "Kötü Bir Şey"
+        ],
+        "setup": false,
+        "ability": "Yeni bir oyuncunun ölümünden en çok sorumlu olan kişinin başına kötü bir şey gelebilir.",
+        "special": null
+    },
+    {
+        "id": "bootlegger",
+        "name": "İçki Kaçakçısı",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "İçki kaçakçısının oyunda olduğunu duyurun ve grubu bu oyunda kullandığınız tüm homebrew karakterler ve/veya kurallar hakkında bilgilendirin.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Bu senaryoda homebrew (ev yapımı) karakterler veya kurallar vardır.",
+        "special": null
+    },
+    {
+        "id": "tor",
+        "firstNightReminder": "Players don't learn character or alignment",
+        "otherNightReminder": "Learn character & alignment",
+        "setup": true,
+        "edition": "loric",
+        "name": "Tor",
+        "team": "loric",
+        "reminders": [],
+        "ability": "Players don't know their character or alignment. They learn them when they die."
+    },
+    {
+        "id": "bigwig",
+        "name": "Big Wig",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "setup": false,
+        "reminders": [],
+        "edition": "loric",
+        "team": "loric",
+        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+    },
+    {
+        "id": "zenomancer",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "Goal",
+            "Goal",
+            "Goal"
+        ],
+        "setup": false,
+        "name": "Zenomancer",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
+    },
+    {
+        "id": "hindu",
+        "name": "Hindu",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "setup": false,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "Reincarnated",
+            "Reincarnated",
+            "Reincarnated",
+            "Reincarnated"
+        ],
+        "flavor": ""
+    },
+    {
+        "id": "pope",
+        "name": "Pope",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "setup": true,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [],
+        "flavor": ""
+    },
+    {
+        "id": "buddhist",
+        "name": "Budist",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Her günün ilk 2 dakikasında tecrübeli oyuncular konuşamaz.",
+        "special": null
+    },
+    {
+        "id": "deusexfiasco",
+        "name": "Deus ex Fiyasko",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Hay Aksi!"
+        ],
+        "setup": true,
+        "ability": "Oyun başına bir kez, Hikaye Anlatıcısı bir \"hata\" yapacak, düzeltecek ve herkese açık bir şekilde itiraf edecek.",
+        "special": null
+    },
+    {
+        "id": "djinn",
+        "name": "Cin",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Cin'in özel kuralını kullanın. Tüm oyuncular ne olduğunu bilir.",
+        "special": null
+    },
+    {
+        "id": "doomsayer",
+        "name": "Felaket Tellalı",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "4 veya daha fazla oyuncu hayattaysa, her hayatta kalan oyuncu (oyunda bir kez) kendi bağlılığından bir oyuncunun ölmesini herkese açık bir şekilde seçebilir.",
+        "special": null
+    },
+    {
+        "id": "duchess",
+        "name": "Düşes",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "",
+        "reminders": [
+            "Yanlış Bilgi",
+            "Yanlış Bilgi",
+            "Ziyaretçi"
+        ],
+        "setup": false,
+        "ability": "Her gün, 3 oyuncu sizi ziyaret etmeyi seçebilir. Gece*, her ziyaretçi kaç ziyaretçinin kötü olduğunu öğrenir, ancak biri yanlış bilgi alır.",
+        "special": null
+    },
+    {
+        "id": "ferryman",
+        "name": "Ferryman",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "On the final day, all dead players regain their vote token.",
+        "special": null
+    },
+    {
+        "id": "fibbin",
+        "name": "Sahtekar",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Kullanıldı"
+        ],
+        "setup": false,
+        "ability": "Oyunda bir kez, 1 iyi oyuncu yanlış bilgi alabilir.",
+        "special": null
+    },
+    {
+        "id": "fiddler",
+        "name": "Kemancı",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Oyunda bir kez, İblis gizlice rakip bir oyuncu seçer: tüm oyuncular bu 2 oyuncudan hangisinin kazanacağına karar verir.",
+        "special": null
+    },
+    {
+        "id": "gardener",
+        "name": "Gardener",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "The Storyteller assigns 1 or more players' characters.",
+        "special": null
+    },
+    {
+        "id": "hellslibrarian",
+        "name": "Cehennem Kütüphanecisi",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Kötü Bir Şey"
+        ],
+        "setup": false,
+        "ability": "Hikaye Anlatıcısı sessizlik istediğinde konuşan kişiye kötü bir şey olabilir.",
+        "special": null
+    },
+    {
+        "id": "revolutionary",
+        "name": "Devrimci",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Yanlış Görünür mü?"
+        ],
+        "setup": false,
+        "ability": "Komşu 2 oyuncunun aynı bağlılıkta olduğu bilinir. Oyunda bir kez, bunlardan biri yanlış görünür.",
+        "special": null
+    },
+    {
+        "id": "sentinel",
+        "name": "Gözcü",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": true,
+        "ability": "Oyunda 1 fazla veya 1 eksik Yabancı olabilir.",
+        "special": null
+    },
+    {
+        "id": "spiritofivory",
+        "name": "Denge Ruhu",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "No extra evil"
+        ],
+        "setup": false,
+        "ability": "Ekstradan 1'den fazla kötü oyuncu olamaz.",
+        "special": null
+    },
+    {
+        "id": "stormcatcher",
+        "name": "Fırtına Yakalayan",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 1,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Safe"
+        ],
+        "setup": false,
+        "ability": "İyi bir karakter ismi verin. Eğer oyundaysa, sadece idam edilerek ölebilir, ancak kötü oyuncular hangi oyuncu olduğunu öğrenir.",
+        "special": null
+    },
+    {
+        "id": "toymaker",
+        "name": "Oyuncakçı",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "",
+        "reminders": [
+            "Saldırı Yok"
+        ],
+        "setup": false,
+        "ability": "İblis saldırmamayı seçebilir ve bunu oyunda en az bir kez yapmalıdır. Kötü oyuncular normal başlangıç bilgisini alır.",
+        "special": null
     }
 ]

@@ -1,5 +1,41 @@
 [
     {
+        "id": "dusk",
+        "edition": "special",
+        "name": "Dusk",
+        "firstNightReminder": "Start the Night Phase.",
+        "otherNightReminder": "Start the Night Phase.",
+        "firstNight": 1,
+        "otherNight": 1
+    },
+    {
+        "id": "dawn",
+        "edition": "special",
+        "name": "Dawn",
+        "firstNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "otherNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "firstNight": 73,
+        "otherNight": 93
+    },
+    {
+        "id": "minioninfo",
+        "edition": "special",
+        "name": "Minion Info",
+        "team": "minion",
+        "firstNightReminder": "If there are 7 or more players, wake all Minions:\n\tShow the *THIS IS THE DEMON* token. Point to the Demon.\n\tShow the *THESE ARE YOUR MINIONS* token. Point to the other Minions.",
+        "firstNight": 15,
+        "otherNight": 0
+    },
+    {
+        "id": "demoninfo",
+        "edition": "special",
+        "name": "Demon Info",
+        "team": "demon",
+        "firstNightReminder": "If there are 7 or more players, wake the Demon:\n\tShow the *THESE ARE YOUR MINIONS* token. Point to all Minions.\n\tShow the *THESE CHARACTERS ARE NOT IN PLAY* token. Show 3 not-in-play good character tokens.",
+        "firstNight": 19,
+        "otherNight": 0
+    },
+    {
         "id": "washerwoman",
         "name": "Lavandera",
         "edition": "tb",
@@ -1562,6 +1598,22 @@
         "special": null
     },
     {
+        "id": "nightwatchman",
+        "name": "Vigilante Nocturno",
+        "edition": "",
+        "team": "townsfolk",
+        "firstNight": 61,
+        "firstNightReminder": "El Vigilante Nocturno puede apuntar a un jugador. Si lo hace, despertá al jugador por separado, mostrale la tarjeta 'Este personaje te eligio' junto a la ficha del Vigilante Nocturno y apuntá a él. Marcá el uso de la habilidad.",
+        "otherNight": 82,
+        "otherNightReminder": "Si el Vigilante Nocturno aún no usó su habilidad, puede apuntar a un jugador. Si lo hace, despertá al jugador por separado, mostrale la tarjeta 'Este personaje te eligio' junto a la ficha del Vigilante Nocturno y apuntá a él. Marcá el uso de la habilidad",
+        "reminders": [
+            "Sin habilidad"
+        ],
+        "setup": false,
+        "ability": "Una vez por partida, en la noche, elegí un jugador: aprende que sos el Vigilante Nocturno.",
+        "special": null
+    },
+    {
         "id": "engineer",
         "name": "Ingeniera",
         "edition": "",
@@ -1937,18 +1989,25 @@
         ]
     },
     {
-        "id": "Señorito Bum",
+        "id": "boomdandy",
         "name": "Boomdandy",
         "edition": "",
         "team": "minion",
-        "firstNight": 0,
         "firstNightReminder": "",
-        "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Si sos ejecutado, mueren todos los jugadores salvo 3. Después de una cuenta regresiva de 10s, el jugador que más jugadores estén apuntando, muere.",
-        "special": null
+        "ability": "If you are executed, all but 3 players die. After a 10 to 1 countdown, the player with the most players pointing at them, dies.",
+        "special": [
+            {
+                "type": "ability",
+                "name": "pointing",
+                "time": "day"
+            }
+        ],
+        "flavor": "Tick... Tick... Tick... TOCK.",
+        "firstNight": 0,
+        "otherNight": 0
     },
     {
         "id": "lilmonsta",
@@ -2086,240 +2145,6 @@
         "reminders": [],
         "setup": false,
         "ability": "Una vez por día, podés matar a un vecino vivo, sólo si tu otro vecino vivo está de acuerdo.",
-        "special": null
-    },
-    {
-        "id": "doomsayer",
-        "name": "Agorero",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Si 4 o más jugadores siguen vivos, cada jugador vivo puede elegir públicamente (una vez por partida) que un jugador de su equipo muera.",
-        "special": null
-    },
-    {
-        "id": "angel",
-        "name": "Ángel",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Proteger",
-            "Proteger",
-            "Algo malo"
-        ],
-        "setup": false,
-        "ability": "Algo malo le puede pasar a quien sea más responsable de la muerte de un jugador nuevo.",
-        "special": null
-    },
-    {
-        "id": "buddhist",
-        "name": "Budista",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Durante los 2 primeros minutos de cada día, los jugadores veteranos tienen prohibido hablar.",
-        "special": null
-    },
-    {
-        "id": "hellslibrarian",
-        "name": "Bibliotecaria del Aberno",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Algo malo"
-        ],
-        "setup": false,
-        "ability": "Algo malo le puede pasar a quien hable cuando el Narrador haya pedido silencio.",
-        "special": null
-    },
-    {
-        "id": "revolutionary",
-        "name": "Revolucionario",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Registra erroneamente?"
-        ],
-        "setup": false,
-        "ability": "Se sabe que 2 jugadores vecinos son del mismo equipo. Una vez por partida, uno registra erroneamente.",
-        "special": null
-    },
-    {
-        "id": "fiddler",
-        "name": "Violinista",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Una vez por partida, el Demonio elige a un jugador del equipo opuesto en secreto: todos los jugadores eligen cuál de los 2 jugadores gana.",
-        "special": null
-    },
-    {
-        "id": "toymaker",
-        "name": "Juguetero",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "Aunque haya menos de 7 jugadores, hacé la fase de información inicial para los Secuaces y el Demonio. Ponele al Demonio el recordatorio 'No ataca'.",
-        "otherNight": 1,
-        "otherNightReminder": "El Demonio puede elegir no atacar. Si que el Demonio atacase esta noche daría fin a la partida, y el Demonio está marcado 'No ataca', entonces no despierta esta noche (sacá el recordatorio).",
-        "reminders": [
-            "No ataca"
-        ],
-        "setup": false,
-        "ability": "El Demonio puede elegir no atacar y debe hacerlo al menos una vez por partida. Los jugadores malvados empiezan con información inicial normal.",
-        "special": null
-    },
-    {
-        "id": "fibbin",
-        "name": "Mentiroso",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Usado"
-        ],
-        "setup": false,
-        "ability": "Una vez por partida, 1 jugador bueno puede obtener información falsa.",
-        "special": null
-    },
-    {
-        "id": "duchess",
-        "name": "Duquesa",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 1,
-        "otherNightReminder": "Despertá a cada jugador que tenga la marca 'Visitante' o 'Información falasa' por separado. A los que están marcados 'Visitante' mostrales la ficha de la Duquesa y una señal numérica según la cantidad de jugadores malvados con estos recordatorios. Al que está marcado 'Información falsa' no le digas la verdad.",
-        "reminders": [
-            "Visitante",
-            "Visitante",
-            "Información falsa"
-        ],
-        "setup": false,
-        "ability": "Cada día, 3 jugadores te pueden visitar. En la noche*, cada visitante aprende cuántos visitantes eran malvados, pero 1 obtiene información falsa.",
-        "special": null
-    },
-    {
-        "id": "sentinel",
-        "name": "Centinela",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": true,
-        "ability": "Puede que haya 1 Forastero más o 1 menos en juego.",
-        "special": null
-    },
-    {
-        "id": "spiritofivory",
-        "name": "Espíritu de Marfil",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Sin malvados adicionales"
-        ],
-        "setup": false,
-        "ability": "No puede haber más de 1 jugador malvado adicional.",
-        "special": null
-    },
-    {
-        "id": "djinn",
-        "name": "Genio",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Usá la regla especial del Genio. Todos los jugadores saben cuál es.",
-        "special": null
-    },
-    {
-        "id": "stormcatcher",
-        "name": "Cazatormentas",
-        "edition": "loric",
-        "team": "loric",
-        "firstNight": 1,
-        "firstNightReminder": "Aununciá qué personaje está en la mira del Cazatormentas. Si el personaje está en juego, marcalo con el recordatorio 'En la mira': despertá a los jugadores malvados para señalarles quién es este jugador 'En la mira'. Si el personaje en la mira del Cazatormentas no está en juego, mostraselo al equipo malvado con la tarjeta 'Este personaje no está en juego'.",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "En la mira"
-        ],
-        "setup": false,
-        "ability": "Nombrá a un personaje bueno. Si está en juego, sólo puede morir por ejecución, pero los jugadores malvados saben quién es.",
-        "special": null
-    },
-    {
-        "id": "deusexfiasco",
-        "name": "Deus ex Fiasco",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "upsis"
-        ],
-        "setup": true,
-        "ability": "Una vez por partida, el Narrador cometerá un 'error', corregilo y admitilo públicamente.",
-        "special": null
-    },
-    {
-        "id": "nightwatchman",
-        "name": "Vigilante Nocturno",
-        "edition": "",
-        "team": "townsfolk",
-        "firstNight": 61,
-        "firstNightReminder": "El Vigilante Nocturno puede apuntar a un jugador. Si lo hace, despertá al jugador por separado, mostrale la tarjeta 'Este personaje te eligio' junto a la ficha del Vigilante Nocturno y apuntá a él. Marcá el uso de la habilidad.",
-        "otherNight": 82,
-        "otherNightReminder": "Si el Vigilante Nocturno aún no usó su habilidad, puede apuntar a un jugador. Si lo hace, despertá al jugador por separado, mostrale la tarjeta 'Este personaje te eligio' junto a la ficha del Vigilante Nocturno y apuntá a él. Marcá el uso de la habilidad",
-        "reminders": [
-            "Sin habilidad"
-        ],
-        "setup": false,
-        "ability": "Una vez por partida, en la noche, elegí un jugador: aprende que sos el Vigilante Nocturno.",
         "special": null
     },
     {
@@ -2480,48 +2305,6 @@
         "special": null
     },
     {
-        "id": "bootlegger",
-        "name": "Contrabandista",
-        "edition": "loric",
-        "team": "loric",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Este guión tiene reglas o personajes propios.",
-        "special": null
-    },
-    {
-        "id": "ferryman",
-        "name": "Caronte",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "En el último día, todos los jugadores muertos recuperan su voto.",
-        "special": null
-    },
-    {
-        "id": "gardener",
-        "name": "Jardinero",
-        "edition": "loric",
-        "team": "loric",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "El Narrador decide el personaje de 1 o más jugadores.",
-        "special": null
-    },
-    {
         "id": "kazali",
         "name": "Kazali",
         "edition": "",
@@ -2651,20 +2434,6 @@
         "special": []
     },
     {
-        "id": "boffin",
-        "name": "Cerebrito",
-        "edition": "",
-        "team": "minion",
-        "firstNight": 7,
-        "firstNightReminder": "Elegí qué habilidad de un personaje bueno que no está en juego va a tener el Demonio y poné su ficha al lado de la del Demonio. Despertá al Demonio (junto al Cerebrito) para mostrarle la tarjeta 'Este personaje te eligió' y la ficha del Cerebrito. Mostrales a ambos la ficha del personaje bueno.",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "El Demonio (incluso si está borracho o envenenado) tiene la habilidad de un personaje bueno que no está en juego. Vos y él saben cuál.",
-        "special": []
-    },
-    {
         "id": "lordoftyphon",
         "name": "Señor del Tifón",
         "edition": "",
@@ -2679,6 +2448,35 @@
         "setup": true,
         "ability": "Cada noche*, elegí un jugador: muere. [Los jugadores Malvados están en línea. Vos estás en el medio. +1 Secuaz. De -? a +? Forasteros]",
         "special": []
+    },
+    {
+        "id": "boffin",
+        "name": "Cerebrito",
+        "edition": "",
+        "team": "minion",
+        "firstNight": 7,
+        "firstNightReminder": "Elegí qué habilidad de un personaje bueno que no está en juego va a tener el Demonio y poné su ficha al lado de la del Demonio. Despertá al Demonio (junto al Cerebrito) para mostrarle la tarjeta 'Este personaje te eligió' y la ficha del Cerebrito. Mostrales a ambos la ficha del personaje bueno.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "El Demonio (incluso si está borracho o envenenado) tiene la habilidad de un personaje bueno que no está en juego. Vos y él saben cuál.",
+        "special": []
+    },
+    {
+        "id": "cacklejack",
+        "name": "Risitas",
+        "edition": "",
+        "team": "traveller",
+        "firstNightReminder": "",
+        "otherNightReminder": "Reemplazá la ficha de personaje de cualquier jugador que no tenga el recordatorio \"Yo no\" por la de un personaje diferente. Despertá a ese jugador y mostrale la tarjeta 'Vos sos' junto a su nueva ficha de personaje.",
+        "reminders": [
+            "Yo no"
+        ],
+        "setup": false,
+        "ability": "Cada día, elegí un jugador: un jugador diferente cambia de personaje esta noche.",
+        "firstNight": 0,
+        "otherNight": 2.1
     },
     {
         "id": "gnome",
@@ -2768,21 +2566,6 @@
         "special": []
     },
     {
-        "id": "cacklejack",
-        "name": "Risitas",
-        "edition": "",
-        "team": "traveller",
-        "firstNightReminder": "",
-        "otherNightReminder": "Reemplazá la ficha de personaje de cualquier jugador que no tenga el recordatorio \"Yo no\" por la de un personaje diferente. Despertá a ese jugador y mostrale la tarjeta 'Vos sos' junto a su nueva ficha de personaje.",
-        "reminders": [
-            "Yo no"
-        ],
-        "setup": false,
-        "ability": "Cada día, elegí un jugador: un jugador diferente cambia de personaje esta noche.",
-        "firstNight": 0,
-        "otherNight": 2.1
-    },
-    {
         "id": "wraith",
         "name": "Espectro",
         "team": "minion",
@@ -2801,6 +2584,38 @@
         ],
         "firstNight": 2,
         "otherNight": 2
+    },
+    {
+        "id": "angel",
+        "name": "Ángel",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Proteger",
+            "Proteger",
+            "Algo malo"
+        ],
+        "setup": false,
+        "ability": "Algo malo le puede pasar a quien sea más responsable de la muerte de un jugador nuevo.",
+        "special": null
+    },
+    {
+        "id": "bootlegger",
+        "name": "Contrabandista",
+        "edition": "loric",
+        "team": "loric",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Este guión tiene reglas o personajes propios.",
+        "special": null
     },
     {
         "id": "tor",
@@ -2838,5 +2653,262 @@
         "team": "loric",
         "edition": "loric",
         "ability": "Uno o más jugadores tienen un objetivo único. Una vez ese jugador lo logre, consigue información verdadera."
+    },
+    {
+        "id": "hindu",
+        "name": "Hindu",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "setup": false,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "Reincarnated",
+            "Reincarnated",
+            "Reincarnated",
+            "Reincarnated"
+        ],
+        "flavor": ""
+    },
+    {
+        "id": "pope",
+        "name": "Pope",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "setup": true,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [],
+        "flavor": ""
+    },
+    {
+        "id": "buddhist",
+        "name": "Budista",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Durante los 2 primeros minutos de cada día, los jugadores veteranos tienen prohibido hablar.",
+        "special": null
+    },
+    {
+        "id": "deusexfiasco",
+        "name": "Deus ex Fiasco",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "upsis"
+        ],
+        "setup": true,
+        "ability": "Una vez por partida, el Narrador cometerá un 'error', corregilo y admitilo públicamente.",
+        "special": null
+    },
+    {
+        "id": "djinn",
+        "name": "Genio",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Usá la regla especial del Genio. Todos los jugadores saben cuál es.",
+        "special": null
+    },
+    {
+        "id": "doomsayer",
+        "name": "Agorero",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Si 4 o más jugadores siguen vivos, cada jugador vivo puede elegir públicamente (una vez por partida) que un jugador de su equipo muera.",
+        "special": null
+    },
+    {
+        "id": "duchess",
+        "name": "Duquesa",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "Despertá a cada jugador que tenga la marca 'Visitante' o 'Información falasa' por separado. A los que están marcados 'Visitante' mostrales la ficha de la Duquesa y una señal numérica según la cantidad de jugadores malvados con estos recordatorios. Al que está marcado 'Información falsa' no le digas la verdad.",
+        "reminders": [
+            "Visitante",
+            "Visitante",
+            "Información falsa"
+        ],
+        "setup": false,
+        "ability": "Cada día, 3 jugadores te pueden visitar. En la noche*, cada visitante aprende cuántos visitantes eran malvados, pero 1 obtiene información falsa.",
+        "special": null
+    },
+    {
+        "id": "ferryman",
+        "name": "Caronte",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "En el último día, todos los jugadores muertos recuperan su voto.",
+        "special": null
+    },
+    {
+        "id": "fibbin",
+        "name": "Mentiroso",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Usado"
+        ],
+        "setup": false,
+        "ability": "Una vez por partida, 1 jugador bueno puede obtener información falsa.",
+        "special": null
+    },
+    {
+        "id": "fiddler",
+        "name": "Violinista",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Una vez por partida, el Demonio elige a un jugador del equipo opuesto en secreto: todos los jugadores eligen cuál de los 2 jugadores gana.",
+        "special": null
+    },
+    {
+        "id": "gardener",
+        "name": "Jardinero",
+        "edition": "loric",
+        "team": "loric",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "El Narrador decide el personaje de 1 o más jugadores.",
+        "special": null
+    },
+    {
+        "id": "hellslibrarian",
+        "name": "Bibliotecaria del Aberno",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Algo malo"
+        ],
+        "setup": false,
+        "ability": "Algo malo le puede pasar a quien hable cuando el Narrador haya pedido silencio.",
+        "special": null
+    },
+    {
+        "id": "revolutionary",
+        "name": "Revolucionario",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Registra erroneamente?"
+        ],
+        "setup": false,
+        "ability": "Se sabe que 2 jugadores vecinos son del mismo equipo. Una vez por partida, uno registra erroneamente.",
+        "special": null
+    },
+    {
+        "id": "sentinel",
+        "name": "Centinela",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": true,
+        "ability": "Puede que haya 1 Forastero más o 1 menos en juego.",
+        "special": null
+    },
+    {
+        "id": "spiritofivory",
+        "name": "Espíritu de Marfil",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Sin malvados adicionales"
+        ],
+        "setup": false,
+        "ability": "No puede haber más de 1 jugador malvado adicional.",
+        "special": null
+    },
+    {
+        "id": "stormcatcher",
+        "name": "Cazatormentas",
+        "edition": "loric",
+        "team": "loric",
+        "firstNight": 1,
+        "firstNightReminder": "Aununciá qué personaje está en la mira del Cazatormentas. Si el personaje está en juego, marcalo con el recordatorio 'En la mira': despertá a los jugadores malvados para señalarles quién es este jugador 'En la mira'. Si el personaje en la mira del Cazatormentas no está en juego, mostraselo al equipo malvado con la tarjeta 'Este personaje no está en juego'.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "En la mira"
+        ],
+        "setup": false,
+        "ability": "Nombrá a un personaje bueno. Si está en juego, sólo puede morir por ejecución, pero los jugadores malvados saben quién es.",
+        "special": null
+    },
+    {
+        "id": "toymaker",
+        "name": "Juguetero",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "Aunque haya menos de 7 jugadores, hacé la fase de información inicial para los Secuaces y el Demonio. Ponele al Demonio el recordatorio 'No ataca'.",
+        "otherNight": 1,
+        "otherNightReminder": "El Demonio puede elegir no atacar. Si que el Demonio atacase esta noche daría fin a la partida, y el Demonio está marcado 'No ataca', entonces no despierta esta noche (sacá el recordatorio).",
+        "reminders": [
+            "No ataca"
+        ],
+        "setup": false,
+        "ability": "El Demonio puede elegir no atacar y debe hacerlo al menos una vez por partida. Los jugadores malvados empiezan con información inicial normal.",
+        "special": null
     }
 ]

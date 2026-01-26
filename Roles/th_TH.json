@@ -1,5 +1,41 @@
 [
     {
+        "id": "dusk",
+        "edition": "special",
+        "name": "Dusk",
+        "firstNightReminder": "Start the Night Phase.",
+        "otherNightReminder": "Start the Night Phase.",
+        "firstNight": 1,
+        "otherNight": 1
+    },
+    {
+        "id": "dawn",
+        "edition": "special",
+        "name": "Dawn",
+        "firstNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "otherNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "firstNight": 73,
+        "otherNight": 93
+    },
+    {
+        "id": "minioninfo",
+        "edition": "special",
+        "name": "Minion Info",
+        "team": "minion",
+        "firstNightReminder": "If there are 7 or more players, wake all Minions:\n\tShow the *THIS IS THE DEMON* token. Point to the Demon.\n\tShow the *THESE ARE YOUR MINIONS* token. Point to the other Minions.",
+        "firstNight": 15,
+        "otherNight": 0
+    },
+    {
+        "id": "demoninfo",
+        "edition": "special",
+        "name": "Demon Info",
+        "team": "demon",
+        "firstNightReminder": "If there are 7 or more players, wake the Demon:\n\tShow the *THESE ARE YOUR MINIONS* token. Point to all Minions.\n\tShow the *THESE CHARACTERS ARE NOT IN PLAY* token. Show 3 not-in-play good character tokens.",
+        "firstNight": 19,
+        "otherNight": 0
+    },
+    {
         "id": "washerwoman",
         "name": "หญิงซักผ้า",
         "edition": "tb",
@@ -1567,6 +1603,22 @@
         "special": null
     },
     {
+        "id": "nightwatchman",
+        "name": "ยามหมู่บ้าน",
+        "edition": "",
+        "team": "townsfolk",
+        "firstNight": 61,
+        "firstNightReminder": "ยามหมู่บ้านส่ายหน้าไม่ใช้พลัง หรือชี้ไปที่ผู้เล่นหนึ่งคน ปลุกคนนี้ แสดงป้าย 'ตัวละครนี้เลือกคุณ' แล้วตามด้วยโทเคนตัวละครยามหมู่บ้าน, แล้วชี้ไปที่ผู้เล่นที่เป็นยามหมู่บ้าน",
+        "otherNight": 82,
+        "otherNightReminder": "ยามหมู่บ้านส่ายหน้าไม่ใช้พลัง หรือชี้ไปที่ผู้เล่นหนึ่งคน ปลุกคนนี้ แสดงป้าย 'ตัวละครนี้เลือกคุณ' แล้วตามด้วยโทเคนตัวละครยามหมู่บ้าน, แล้วชี้ไปที่ผู้เล่นที่เป็นยามหมู่บ้าน",
+        "reminders": [
+            "ใช้พลังแล้ว"
+        ],
+        "setup": false,
+        "ability": "(ใช้ได้ครั้งเดียว) ตอนกลางคืน เลือกผู้เล่นหนึ่งคน: เขาจะรู้ว่าคุณเป็นใคร",
+        "special": null
+    },
+    {
         "id": "engineer",
         "name": "วิศวกร",
         "edition": "",
@@ -2090,240 +2142,6 @@
         "special": null
     },
     {
-        "id": "doomsayer",
-        "name": "ผู้ทำนายหายนะ",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "ถ้าเหลือผู้เล่นสี่คนขึ้นไป ผู้เล่นแต่ละคนสามารถประกาศขอให้ผู้เล่นฝ่ายเดียวกันหนึ่งคนตาย (ใช้ได้ครั้งเดียว)",
-        "special": null
-    },
-    {
-        "id": "angel",
-        "name": "เทพารักษ์",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "ปกป้อง",
-            "ปกป้อง",
-            "เรื่องร้าย"
-        ],
-        "setup": false,
-        "ability": "เรื่องร้ายอาจจะเกิดขึ้นกับใครที่ส่งผลทำให้ผู้เล่นใหม่ตาย",
-        "special": null
-    },
-    {
-        "id": "buddhist",
-        "name": "ชาวพุทธ",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "ผู้เล่นที่มีประสปการณ์ช่ำชองห้ามพูดในสองนาทีแรกของแต่ละวัน",
-        "special": null
-    },
-    {
-        "id": "hellslibrarian",
-        "name": "บรรณารักษ์นรก",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "เรื่องร้าย"
-        ],
-        "setup": false,
-        "ability": "เรื่องร้ายอาจจะเกิดขึ้นกับผู้เล่นที่พูดเวลาที่นักเล่าเรื่องขอให้เงียบ",
-        "special": null
-    },
-    {
-        "id": "revolutionary",
-        "name": "นักปฏิวัติ",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "นับผิดฝ่าย?"
-        ],
-        "setup": false,
-        "ability": "ผู้เล่นที่นั่งติดกันสองคนอยู่ฝ่ายเดียวกัน ทุกคนรู้ว่าใคร หนึ่งครั้งในเกมนี้คนเดียวหรือทั้งคู่จะถูกนับเป็นฝ่ายตรงข้าม",
-        "special": null
-    },
-    {
-        "id": "fiddler",
-        "name": "คนสีซอ",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "(ใช้ได้ครั้งเดียว) ปีศาจเลือกผู้เล่นฝ่ายตรงข้าม ทุกคนเลือกว่าทีมของผู้เล่นคนไหนระหว่างปีศาจและคนที่ถูกเลือกจะชนะ",
-        "special": null
-    },
-    {
-        "id": "toymaker",
-        "name": "ช่างของเล่น",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 1,
-        "otherNightReminder": "",
-        "reminders": [
-            "ไม่ฆ่า"
-        ],
-        "setup": false,
-        "ability": "ปีศาจสามารถเลือกที่จะไม่ฆ่าใครได้ และจะต้องเลือกไม่ฆ่าอย่างน้อยหนึ่งครั้งในเกมนี้ ฝ่ายร้ายได้ข้อมูลลูกสมุนปีศาจตามปกติ",
-        "special": null
-    },
-    {
-        "id": "fibbin",
-        "name": "คนขี้อำ",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "ใช้แล้ว"
-        ],
-        "setup": false,
-        "ability": "(ใช้ได้ครั้งเดียว) ผู้เล่นฝ่ายดีหนึ่งคนอาจจะได้ข้อมูลผิด",
-        "special": null
-    },
-    {
-        "id": "duchess",
-        "name": "ท่านหญิง",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 1,
-        "otherNightReminder": "",
-        "reminders": [
-            "คนเยี่ยม",
-            "คนเยี่ยม",
-            "ข้อมูลผิด"
-        ],
-        "setup": false,
-        "ability": "ในแต่ละวัน ผู้เล่นสามคน 3 สามารถเลือกมาเยี่ยมคุณได้ ในตอนกลางคืน* คนที่มาเยี่ยมแต่ละคนจะรู้ว่ามีคนมาเยี่ยมฝ่ายร้ายกี่คน แต่หนึ่งคนจะได้ข้อมูลผิด",
-        "special": null
-    },
-    {
-        "id": "sentinel",
-        "name": "ยามเฝ้าประตู",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": true,
-        "ability": "อาจจะมีคนนอกมากกว่ากำหนดหนึ่งคนหรือน้อยกว่ากำหนดหนึ่งคน",
-        "special": null
-    },
-    {
-        "id": "spiritofivory",
-        "name": "วิญญาณแห่งงาช้าง",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "ไม่มีฝ่ายร้ายเกิน"
-        ],
-        "setup": false,
-        "ability": "เกมนี้จะไม่อนุญาตให้มีผู้เล่นฝ่ายร้ายที่เพิ่มเกินกำหนดเกินหนึ่งคน",
-        "special": null
-    },
-    {
-        "id": "djinn",
-        "name": "จินนี่",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "ใช้กฏพิเศษของจินนี่กับการแก้ไขข้อขัดแย้ง ทุกคนรู้ว่ากฏอะไร",
-        "special": null
-    },
-    {
-        "id": "stormcatcher",
-        "name": "สตอร์ม แคทเชอร์",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 1,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "ปลอดภัย"
-        ],
-        "setup": false,
-        "ability": "ประกาศเลือกตัวละครฝ่ายดีหนึ่งตัว ถ้าถูกใช้ในเกมนี้ ตัวละครนี้จะตายได้ด้วยการประหารเท่านั้น แต่ฝ่ายร้ายจะรู้ว่าผู้เล่นนี้เป็นใคร",
-        "special": null
-    },
-    {
-        "id": "deusexfiasco",
-        "name": "เดอุส เอ็กซ์ ฟิแอสโก",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "ผิดพลาด"
-        ],
-        "setup": true,
-        "ability": "(ใช้ได้ครั้งเดียว) นักเล่าเรื่องจะทำอะไรผิดพลาด แก้ไข และประกาศบอกทุกคน",
-        "special": null
-    },
-    {
-        "id": "nightwatchman",
-        "name": "ยามหมู่บ้าน",
-        "edition": "",
-        "team": "townsfolk",
-        "firstNight": 61,
-        "firstNightReminder": "ยามหมู่บ้านส่ายหน้าไม่ใช้พลัง หรือชี้ไปที่ผู้เล่นหนึ่งคน ปลุกคนนี้ แสดงป้าย 'ตัวละครนี้เลือกคุณ' แล้วตามด้วยโทเคนตัวละครยามหมู่บ้าน, แล้วชี้ไปที่ผู้เล่นที่เป็นยามหมู่บ้าน",
-        "otherNight": 82,
-        "otherNightReminder": "ยามหมู่บ้านส่ายหน้าไม่ใช้พลัง หรือชี้ไปที่ผู้เล่นหนึ่งคน ปลุกคนนี้ แสดงป้าย 'ตัวละครนี้เลือกคุณ' แล้วตามด้วยโทเคนตัวละครยามหมู่บ้าน, แล้วชี้ไปที่ผู้เล่นที่เป็นยามหมู่บ้าน",
-        "reminders": [
-            "ใช้พลังแล้ว"
-        ],
-        "setup": false,
-        "ability": "(ใช้ได้ครั้งเดียว) ตอนกลางคืน เลือกผู้เล่นหนึ่งคน: เขาจะรู้ว่าคุณเป็นใคร",
-        "special": null
-    },
-    {
         "id": "organgrinder",
         "name": "นักแสดงเรี่ยไร",
         "edition": "",
@@ -2481,48 +2299,6 @@
         "special": null
     },
     {
-        "id": "bootlegger",
-        "name": "เสี่ยของเถื่อน",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "ประกาศว่าเสี่ยของเถื่อนอยู่ในเกมนี้ และบอกให้ผู้เล่นทราบว่ามีตัวครหรือกฏอะไรบ้างที่สร้างขึ้นเอง",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "บท script นี้มีตัวละครหรือกฏที่สร้างขึ้นเอง",
-        "special": null
-    },
-    {
-        "id": "ferryman",
-        "name": "Ferryman",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "On the final day, all dead players regain their vote token.",
-        "special": null
-    },
-    {
-        "id": "gardener",
-        "name": "Gardener",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "The Storyteller assigns 1 or more players' characters.",
-        "special": null
-    },
-    {
         "id": "kazali",
         "name": "คาซาลิ",
         "edition": "",
@@ -2651,20 +2427,6 @@
         "special": []
     },
     {
-        "id": "boffin",
-        "name": "Boffin",
-        "edition": "",
-        "team": "minion",
-        "firstNight": 7,
-        "firstNightReminder": "ปลุกบอสฟินและบอกพวกเขาว่าโทเค็นของความสามารถที่ปีศาจมี ทำให้บอสฟินกลับไปหลับ ปลุกปีศาจ แสดงโทเค็นบอสฟิน จากนั้นแสดงโทเค็นของความสามารถที่ดีที่ปีศาจมี",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "ปีศาจ (แม้จะเมาหรือถูกวางยาพิษ) มีความสามารถตัวละครที่ดีที่ไม่ได้อยู่ในเกม คุณทั้งคู่รู้ว่าอันไหน",
-        "special": []
-    },
-    {
         "id": "lordoftyphon",
         "name": "เจ้าแห่งไทฟอน",
         "edition": "",
@@ -2679,6 +2441,35 @@
         "setup": true,
         "ability": "ในแต่ละคืน* เลือกผู้เล่นหนึ่งคน: พวกเขาจะตาย [ตัวละครชั่วร้ายอยู่ในแถว คุณอยู่ตรงกลาง +1 มิเนียน -? ถึง +? คนนอก]",
         "special": []
+    },
+    {
+        "id": "boffin",
+        "name": "Boffin",
+        "edition": "",
+        "team": "minion",
+        "firstNight": 7,
+        "firstNightReminder": "ปลุกบอสฟินและบอกพวกเขาว่าโทเค็นของความสามารถที่ปีศาจมี ทำให้บอสฟินกลับไปหลับ ปลุกปีศาจ แสดงโทเค็นบอสฟิน จากนั้นแสดงโทเค็นของความสามารถที่ดีที่ปีศาจมี",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "ปีศาจ (แม้จะเมาหรือถูกวางยาพิษ) มีความสามารถตัวละครที่ดีที่ไม่ได้อยู่ในเกม คุณทั้งคู่รู้ว่าอันไหน",
+        "special": []
+    },
+    {
+        "id": "cacklejack",
+        "name": "Cacklejack",
+        "edition": "",
+        "team": "traveller",
+        "firstNightReminder": "",
+        "otherNightReminder": "Replace the character token of any player (besides the player the Cacklejack chose today) with a different character token. Wake that player and show them the 'You are' card and their new character token.",
+        "reminders": [
+            "Not Me"
+        ],
+        "setup": false,
+        "ability": "Each day, choose a player: a different player changes character tonight.",
+        "firstNight": 0,
+        "otherNight": 2.1
     },
     {
         "id": "gnome",
@@ -2765,5 +2556,353 @@
         "setup": false,
         "ability": "ในวันที่ 1 หากคุณเสนอชื่อและประหารชีวิตผู้เล่น ปีศาจจะไม่ฆ่าในคืนนี้",
         "special": []
+    },
+    {
+        "id": "wraith",
+        "name": "Wraith",
+        "team": "minion",
+        "edition": "",
+        "firstNightReminder": "Wake the Wraith whenever other evil players wake.",
+        "otherNightReminder": "Wake the Wraith whenever other evil players wake.",
+        "reminders": [],
+        "setup": false,
+        "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
+        "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
+        "special": [
+            {
+                "type": "player",
+                "name": "open-eyes",
+                "time": "night"
+            }
+        ],
+        "firstNight": 2,
+        "otherNight": 2
+    },
+    {
+        "id": "angel",
+        "name": "เทพารักษ์",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "ปกป้อง",
+            "ปกป้อง",
+            "เรื่องร้าย"
+        ],
+        "setup": false,
+        "ability": "เรื่องร้ายอาจจะเกิดขึ้นกับใครที่ส่งผลทำให้ผู้เล่นใหม่ตาย",
+        "special": null
+    },
+    {
+        "id": "bootlegger",
+        "name": "เสี่ยของเถื่อน",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "ประกาศว่าเสี่ยของเถื่อนอยู่ในเกมนี้ และบอกให้ผู้เล่นทราบว่ามีตัวครหรือกฏอะไรบ้างที่สร้างขึ้นเอง",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "บท script นี้มีตัวละครหรือกฏที่สร้างขึ้นเอง",
+        "special": null
+    },
+    {
+        "id": "tor",
+        "firstNightReminder": "Players don't learn character or alignment",
+        "otherNightReminder": "Learn character & alignment",
+        "setup": true,
+        "edition": "loric",
+        "name": "Tor",
+        "team": "loric",
+        "reminders": [],
+        "ability": "Players don't know their character or alignment. They learn them when they die."
+    },
+    {
+        "id": "bigwig",
+        "name": "Big Wig",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "setup": false,
+        "reminders": [],
+        "edition": "loric",
+        "team": "loric",
+        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+    },
+    {
+        "id": "zenomancer",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "Goal",
+            "Goal",
+            "Goal"
+        ],
+        "setup": false,
+        "name": "Zenomancer",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
+    },
+    {
+        "id": "hindu",
+        "name": "Hindu",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "setup": false,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "Reincarnated",
+            "Reincarnated",
+            "Reincarnated",
+            "Reincarnated"
+        ],
+        "flavor": ""
+    },
+    {
+        "id": "pope",
+        "name": "Pope",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "setup": true,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [],
+        "flavor": ""
+    },
+    {
+        "id": "buddhist",
+        "name": "ชาวพุทธ",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "ผู้เล่นที่มีประสปการณ์ช่ำชองห้ามพูดในสองนาทีแรกของแต่ละวัน",
+        "special": null
+    },
+    {
+        "id": "deusexfiasco",
+        "name": "เดอุส เอ็กซ์ ฟิแอสโก",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "ผิดพลาด"
+        ],
+        "setup": true,
+        "ability": "(ใช้ได้ครั้งเดียว) นักเล่าเรื่องจะทำอะไรผิดพลาด แก้ไข และประกาศบอกทุกคน",
+        "special": null
+    },
+    {
+        "id": "djinn",
+        "name": "จินนี่",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "ใช้กฏพิเศษของจินนี่กับการแก้ไขข้อขัดแย้ง ทุกคนรู้ว่ากฏอะไร",
+        "special": null
+    },
+    {
+        "id": "doomsayer",
+        "name": "ผู้ทำนายหายนะ",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "ถ้าเหลือผู้เล่นสี่คนขึ้นไป ผู้เล่นแต่ละคนสามารถประกาศขอให้ผู้เล่นฝ่ายเดียวกันหนึ่งคนตาย (ใช้ได้ครั้งเดียว)",
+        "special": null
+    },
+    {
+        "id": "duchess",
+        "name": "ท่านหญิง",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "",
+        "reminders": [
+            "คนเยี่ยม",
+            "คนเยี่ยม",
+            "ข้อมูลผิด"
+        ],
+        "setup": false,
+        "ability": "ในแต่ละวัน ผู้เล่นสามคน 3 สามารถเลือกมาเยี่ยมคุณได้ ในตอนกลางคืน* คนที่มาเยี่ยมแต่ละคนจะรู้ว่ามีคนมาเยี่ยมฝ่ายร้ายกี่คน แต่หนึ่งคนจะได้ข้อมูลผิด",
+        "special": null
+    },
+    {
+        "id": "ferryman",
+        "name": "Ferryman",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "On the final day, all dead players regain their vote token.",
+        "special": null
+    },
+    {
+        "id": "fibbin",
+        "name": "คนขี้อำ",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "ใช้แล้ว"
+        ],
+        "setup": false,
+        "ability": "(ใช้ได้ครั้งเดียว) ผู้เล่นฝ่ายดีหนึ่งคนอาจจะได้ข้อมูลผิด",
+        "special": null
+    },
+    {
+        "id": "fiddler",
+        "name": "คนสีซอ",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "(ใช้ได้ครั้งเดียว) ปีศาจเลือกผู้เล่นฝ่ายตรงข้าม ทุกคนเลือกว่าทีมของผู้เล่นคนไหนระหว่างปีศาจและคนที่ถูกเลือกจะชนะ",
+        "special": null
+    },
+    {
+        "id": "gardener",
+        "name": "Gardener",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "The Storyteller assigns 1 or more players' characters.",
+        "special": null
+    },
+    {
+        "id": "hellslibrarian",
+        "name": "บรรณารักษ์นรก",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "เรื่องร้าย"
+        ],
+        "setup": false,
+        "ability": "เรื่องร้ายอาจจะเกิดขึ้นกับผู้เล่นที่พูดเวลาที่นักเล่าเรื่องขอให้เงียบ",
+        "special": null
+    },
+    {
+        "id": "revolutionary",
+        "name": "นักปฏิวัติ",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "นับผิดฝ่าย?"
+        ],
+        "setup": false,
+        "ability": "ผู้เล่นที่นั่งติดกันสองคนอยู่ฝ่ายเดียวกัน ทุกคนรู้ว่าใคร หนึ่งครั้งในเกมนี้คนเดียวหรือทั้งคู่จะถูกนับเป็นฝ่ายตรงข้าม",
+        "special": null
+    },
+    {
+        "id": "sentinel",
+        "name": "ยามเฝ้าประตู",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": true,
+        "ability": "อาจจะมีคนนอกมากกว่ากำหนดหนึ่งคนหรือน้อยกว่ากำหนดหนึ่งคน",
+        "special": null
+    },
+    {
+        "id": "spiritofivory",
+        "name": "วิญญาณแห่งงาช้าง",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "ไม่มีฝ่ายร้ายเกิน"
+        ],
+        "setup": false,
+        "ability": "เกมนี้จะไม่อนุญาตให้มีผู้เล่นฝ่ายร้ายที่เพิ่มเกินกำหนดเกินหนึ่งคน",
+        "special": null
+    },
+    {
+        "id": "stormcatcher",
+        "name": "สตอร์ม แคทเชอร์",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 1,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "ปลอดภัย"
+        ],
+        "setup": false,
+        "ability": "ประกาศเลือกตัวละครฝ่ายดีหนึ่งตัว ถ้าถูกใช้ในเกมนี้ ตัวละครนี้จะตายได้ด้วยการประหารเท่านั้น แต่ฝ่ายร้ายจะรู้ว่าผู้เล่นนี้เป็นใคร",
+        "special": null
+    },
+    {
+        "id": "toymaker",
+        "name": "ช่างของเล่น",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "",
+        "reminders": [
+            "ไม่ฆ่า"
+        ],
+        "setup": false,
+        "ability": "ปีศาจสามารถเลือกที่จะไม่ฆ่าใครได้ และจะต้องเลือกไม่ฆ่าอย่างน้อยหนึ่งครั้งในเกมนี้ ฝ่ายร้ายได้ข้อมูลลูกสมุนปีศาจตามปกติ",
+        "special": null
     }
 ]

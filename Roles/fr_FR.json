@@ -1,5 +1,41 @@
 [
     {
+        "id": "dusk",
+        "edition": "special",
+        "name": "Dusk",
+        "firstNightReminder": "Start the Night Phase.",
+        "otherNightReminder": "Start the Night Phase.",
+        "firstNight": 1,
+        "otherNight": 1
+    },
+    {
+        "id": "dawn",
+        "edition": "special",
+        "name": "Dawn",
+        "firstNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "otherNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "firstNight": 73,
+        "otherNight": 93
+    },
+    {
+        "id": "minioninfo",
+        "edition": "special",
+        "name": "Minion Info",
+        "team": "minion",
+        "firstNightReminder": "If there are 7 or more players, wake all Minions:\n\tShow the *THIS IS THE DEMON* token. Point to the Demon.\n\tShow the *THESE ARE YOUR MINIONS* token. Point to the other Minions.",
+        "firstNight": 15,
+        "otherNight": 0
+    },
+    {
+        "id": "demoninfo",
+        "edition": "special",
+        "name": "Demon Info",
+        "team": "demon",
+        "firstNightReminder": "If there are 7 or more players, wake the Demon:\n\tShow the *THESE ARE YOUR MINIONS* token. Point to all Minions.\n\tShow the *THESE CHARACTERS ARE NOT IN PLAY* token. Show 3 not-in-play good character tokens.",
+        "firstNight": 19,
+        "otherNight": 0
+    },
+    {
         "id": "washerwoman",
         "name": "Lavandière",
         "edition": "tb",
@@ -1564,6 +1600,22 @@
         "special": null
     },
     {
+        "id": "nightwatchman",
+        "name": "Veilleur de Nuit",
+        "edition": "",
+        "team": "townsfolk",
+        "firstNight": 61,
+        "firstNightReminder": "Le Veilleur de Nuit peut pointer un joueur. Réveillez ce joueur, montrez-lui la carte « Ce personnage vous a choisi » et le jeton du Veilleur de Nuit, puis pointez le joueur qui est Veilleur de Nuit.",
+        "otherNight": 82,
+        "otherNightReminder": "Le Veilleur de Nuit peut pointer un joueur. Réveillez ce joueur, montrez-lui la carte « Ce personnage vous a choisi » et le jeton du Veilleur de Nuit, puis pointez le joueur qui est Veilleur de Nuit.",
+        "reminders": [
+            "Utilisé"
+        ],
+        "setup": false,
+        "ability": "Une fois par partie, de nuit, choisissez un joueur qui apprendra qui vous êtes.",
+        "special": null
+    },
+    {
         "id": "engineer",
         "name": "Ingénieur",
         "edition": "",
@@ -2082,240 +2134,6 @@
         "special": null
     },
     {
-        "id": "doomsayer",
-        "name": "Prêcheur de l'Apocalypse",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Si 4 joueurs ou plus sont en vie, chaque joueur vivant peut décider publiquement (une fois par partie) qu'un joueur de son propre alignement meurt.",
-        "special": null
-    },
-    {
-        "id": "angel",
-        "name": "Ange",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "A protégé",
-            "A protégé",
-            "Quelquechose de mal"
-        ],
-        "setup": false,
-        "ability": "Quelque chose de grave peut arriver à celui qui est le plus responsable de la mort d'un nouveau joueur.",
-        "special": null
-    },
-    {
-        "id": "buddhist",
-        "name": "Bouddhiste",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Pendant les 2 premières minutes de chaque journée, les joueurs vétérans ne peuvent pas parler.",
-        "special": null
-    },
-    {
-        "id": "hellslibrarian",
-        "name": "Archiviste de l'enfer",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Quelque chose de mal"
-        ],
-        "setup": false,
-        "ability": "Quelque chose de grave peut arriver au joueur qui parle lorsque le conteur a demandé le silence.",
-        "special": null
-    },
-    {
-        "id": "revolutionary",
-        "name": "Révolutionnaire",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Apparait faussement"
-        ],
-        "setup": false,
-        "ability": "2 joueurs voisins sont connus pour être du même alignement. Une fois par partie, l'un d'entre eux apparaîtra comme ayant l'alignement opposé",
-        "special": null
-    },
-    {
-        "id": "fiddler",
-        "name": "Violoneux",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Une fois par partie, le Démon choisit secrètement un joueur adverse : tous les joueurs choisissent lequel de ces 2 joueurs gagne.",
-        "special": null
-    },
-    {
-        "id": "toymaker",
-        "name": "Fabricant de jouets",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 1,
-        "otherNightReminder": "",
-        "reminders": [
-            "Pas attaqué"
-        ],
-        "setup": false,
-        "ability": "Le démon peut choisir de ne pas attaquer et doit le faire au moins une fois par partie. Les mauvais joueurs obtiennent des informations de départ normales.",
-        "special": null
-    },
-    {
-        "id": "fibbin",
-        "name": "Baratineur",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Utilisé"
-        ],
-        "setup": false,
-        "ability": "Une fois par partie, 1 joueur bon peut obtenir de fausses informations.",
-        "special": null
-    },
-    {
-        "id": "duchess",
-        "name": "Duchesse",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 1,
-        "otherNightReminder": "",
-        "reminders": [
-            "Fausses informations",
-            "Fausses informations",
-            "Visiteur"
-        ],
-        "setup": false,
-        "ability": "Chaque jour, 3 joueurs peuvent choisir de vous rendre visite. La nuit*, chaque visiteur apprend combien de visiteurs sont maléfiques, mais 1 reçoit de fausses informations.",
-        "special": null
-    },
-    {
-        "id": "sentinel",
-        "name": "Sentinelle",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": true,
-        "ability": "Il peut y avoir 1 étranger de plus ou de moins en jeu.",
-        "special": null
-    },
-    {
-        "id": "spiritofivory",
-        "name": "Esprit d'ivoire",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Pas de Maléfique en plus"
-        ],
-        "setup": false,
-        "ability": "Il ne peut pas y avoir plus d'un joueur maléfique supplémentaire.",
-        "special": null
-    },
-    {
-        "id": "djinn",
-        "name": "Djinn",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Utilisez la règle spéciale du Djinn. Tous les joueurs savent ce que c'est.",
-        "special": null
-    },
-    {
-        "id": "stormcatcher",
-        "name": "Attrape-tempête",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 1,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Protégé"
-        ],
-        "setup": false,
-        "ability": "Nommez un rôle bon. S'il est en jeu, le joueur qui l'incarne ne peut mourir que par exécution, mais les joueurs malfaisants apprennent de qui il s'agit.",
-        "special": null
-    },
-    {
-        "id": "deusexfiasco",
-        "name": "Deus ex Fiasco",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Oups"
-        ],
-        "setup": true,
-        "ability": "Une fois par partie, le Conteur va faire une « erreur », la corriger, et l'admettre publiquement.",
-        "special": null
-    },
-    {
-        "id": "nightwatchman",
-        "name": "Veilleur de Nuit",
-        "edition": "",
-        "team": "townsfolk",
-        "firstNight": 61,
-        "firstNightReminder": "Le Veilleur de Nuit peut pointer un joueur. Réveillez ce joueur, montrez-lui la carte « Ce personnage vous a choisi » et le jeton du Veilleur de Nuit, puis pointez le joueur qui est Veilleur de Nuit.",
-        "otherNight": 82,
-        "otherNightReminder": "Le Veilleur de Nuit peut pointer un joueur. Réveillez ce joueur, montrez-lui la carte « Ce personnage vous a choisi » et le jeton du Veilleur de Nuit, puis pointez le joueur qui est Veilleur de Nuit.",
-        "reminders": [
-            "Utilisé"
-        ],
-        "setup": false,
-        "ability": "Une fois par partie, de nuit, choisissez un joueur qui apprendra qui vous êtes.",
-        "special": null
-    },
-    {
         "id": "organgrinder",
         "name": "Joueur d'Orgue",
         "edition": "",
@@ -2473,48 +2291,6 @@
         "special": null
     },
     {
-        "id": "bootlegger",
-        "name": "Bootlegger",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "Annoncez que le Bootlegger est en jeu et informez le groupe de tous les personnages et/ou règles personnalisées que vous utilisez pour cette partie.",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Le script a des personnages ou règles personnalisés.",
-        "special": null
-    },
-    {
-        "id": "ferryman",
-        "name": "Ferryman",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "On the final day, all dead players regain their vote token.",
-        "special": null
-    },
-    {
-        "id": "gardener",
-        "name": "Gardener",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "The Storyteller assigns 1 or more players' characters.",
-        "special": null
-    },
-    {
         "id": "kazali",
         "name": "Kazali",
         "edition": "",
@@ -2643,20 +2419,6 @@
         "special": []
     },
     {
-        "id": "boffin",
-        "name": "Boffin",
-        "edition": "",
-        "team": "minion",
-        "firstNight": 7,
-        "firstNightReminder": "Réveillez le Boffin et montrez-lui le jeton de la capacité du Démon. Remettez le Boffin en sommeil. Réveillez le Démon, montrez le jeton Boffin, puis montrez le jeton de la bonne capacité du Démon.",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Le Démon (même si ivre ou empoisonné) obtient la capacité d'un rôle bon hors-jeu. Vous apprenez tous les 2 lequel.",
-        "special": []
-    },
-    {
         "id": "lordoftyphon",
         "name": "Seigneur du Typhon",
         "edition": "",
@@ -2671,6 +2433,35 @@
         "setup": true,
         "ability": "Chaque nuit*, choisissez un joueur : il meurt. [Les rôles maléfiques sont alignés. Vous êtes au mileu. +1 Sbire, -?/+? Etrangers]",
         "special": []
+    },
+    {
+        "id": "boffin",
+        "name": "Boffin",
+        "edition": "",
+        "team": "minion",
+        "firstNight": 7,
+        "firstNightReminder": "Réveillez le Boffin et montrez-lui le jeton de la capacité du Démon. Remettez le Boffin en sommeil. Réveillez le Démon, montrez le jeton Boffin, puis montrez le jeton de la bonne capacité du Démon.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Le Démon (même si ivre ou empoisonné) obtient la capacité d'un rôle bon hors-jeu. Vous apprenez tous les 2 lequel.",
+        "special": []
+    },
+    {
+        "id": "cacklejack",
+        "name": "Cacklejack",
+        "edition": "",
+        "team": "traveller",
+        "firstNightReminder": "",
+        "otherNightReminder": "Replace the character token of any player (besides the player the Cacklejack chose today) with a different character token. Wake that player and show them the 'You are' card and their new character token.",
+        "reminders": [
+            "Not Me"
+        ],
+        "setup": false,
+        "ability": "Each day, choose a player: a different player changes character tonight.",
+        "firstNight": 0,
+        "otherNight": 2.1
     },
     {
         "id": "gnome",
@@ -2757,5 +2548,353 @@
         "setup": false,
         "ability": "Le premier jour, si vous avez nommé et exécuté un joueur, le Démon ne tue pas ce soir.",
         "special": []
+    },
+    {
+        "id": "wraith",
+        "name": "Wraith",
+        "team": "minion",
+        "edition": "",
+        "firstNightReminder": "Wake the Wraith whenever other evil players wake.",
+        "otherNightReminder": "Wake the Wraith whenever other evil players wake.",
+        "reminders": [],
+        "setup": false,
+        "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
+        "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
+        "special": [
+            {
+                "type": "player",
+                "name": "open-eyes",
+                "time": "night"
+            }
+        ],
+        "firstNight": 2,
+        "otherNight": 2
+    },
+    {
+        "id": "angel",
+        "name": "Ange",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "A protégé",
+            "A protégé",
+            "Quelquechose de mal"
+        ],
+        "setup": false,
+        "ability": "Quelque chose de grave peut arriver à celui qui est le plus responsable de la mort d'un nouveau joueur.",
+        "special": null
+    },
+    {
+        "id": "bootlegger",
+        "name": "Bootlegger",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "Annoncez que le Bootlegger est en jeu et informez le groupe de tous les personnages et/ou règles personnalisées que vous utilisez pour cette partie.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Le script a des personnages ou règles personnalisés.",
+        "special": null
+    },
+    {
+        "id": "tor",
+        "firstNightReminder": "Players don't learn character or alignment",
+        "otherNightReminder": "Learn character & alignment",
+        "setup": true,
+        "edition": "loric",
+        "name": "Tor",
+        "team": "loric",
+        "reminders": [],
+        "ability": "Players don't know their character or alignment. They learn them when they die."
+    },
+    {
+        "id": "bigwig",
+        "name": "Big Wig",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "setup": false,
+        "reminders": [],
+        "edition": "loric",
+        "team": "loric",
+        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+    },
+    {
+        "id": "zenomancer",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "Goal",
+            "Goal",
+            "Goal"
+        ],
+        "setup": false,
+        "name": "Zenomancer",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
+    },
+    {
+        "id": "hindu",
+        "name": "Hindu",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "setup": false,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "Reincarnated",
+            "Reincarnated",
+            "Reincarnated",
+            "Reincarnated"
+        ],
+        "flavor": ""
+    },
+    {
+        "id": "pope",
+        "name": "Pope",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "setup": true,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [],
+        "flavor": ""
+    },
+    {
+        "id": "buddhist",
+        "name": "Bouddhiste",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Pendant les 2 premières minutes de chaque journée, les joueurs vétérans ne peuvent pas parler.",
+        "special": null
+    },
+    {
+        "id": "deusexfiasco",
+        "name": "Deus ex Fiasco",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Oups"
+        ],
+        "setup": true,
+        "ability": "Une fois par partie, le Conteur va faire une « erreur », la corriger, et l'admettre publiquement.",
+        "special": null
+    },
+    {
+        "id": "djinn",
+        "name": "Djinn",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Utilisez la règle spéciale du Djinn. Tous les joueurs savent ce que c'est.",
+        "special": null
+    },
+    {
+        "id": "doomsayer",
+        "name": "Prêcheur de l'Apocalypse",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Si 4 joueurs ou plus sont en vie, chaque joueur vivant peut décider publiquement (une fois par partie) qu'un joueur de son propre alignement meurt.",
+        "special": null
+    },
+    {
+        "id": "duchess",
+        "name": "Duchesse",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "",
+        "reminders": [
+            "Fausses informations",
+            "Fausses informations",
+            "Visiteur"
+        ],
+        "setup": false,
+        "ability": "Chaque jour, 3 joueurs peuvent choisir de vous rendre visite. La nuit*, chaque visiteur apprend combien de visiteurs sont maléfiques, mais 1 reçoit de fausses informations.",
+        "special": null
+    },
+    {
+        "id": "ferryman",
+        "name": "Ferryman",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "On the final day, all dead players regain their vote token.",
+        "special": null
+    },
+    {
+        "id": "fibbin",
+        "name": "Baratineur",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Utilisé"
+        ],
+        "setup": false,
+        "ability": "Une fois par partie, 1 joueur bon peut obtenir de fausses informations.",
+        "special": null
+    },
+    {
+        "id": "fiddler",
+        "name": "Violoneux",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Une fois par partie, le Démon choisit secrètement un joueur adverse : tous les joueurs choisissent lequel de ces 2 joueurs gagne.",
+        "special": null
+    },
+    {
+        "id": "gardener",
+        "name": "Gardener",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "The Storyteller assigns 1 or more players' characters.",
+        "special": null
+    },
+    {
+        "id": "hellslibrarian",
+        "name": "Archiviste de l'enfer",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Quelque chose de mal"
+        ],
+        "setup": false,
+        "ability": "Quelque chose de grave peut arriver au joueur qui parle lorsque le conteur a demandé le silence.",
+        "special": null
+    },
+    {
+        "id": "revolutionary",
+        "name": "Révolutionnaire",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Apparait faussement"
+        ],
+        "setup": false,
+        "ability": "2 joueurs voisins sont connus pour être du même alignement. Une fois par partie, l'un d'entre eux apparaîtra comme ayant l'alignement opposé",
+        "special": null
+    },
+    {
+        "id": "sentinel",
+        "name": "Sentinelle",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": true,
+        "ability": "Il peut y avoir 1 étranger de plus ou de moins en jeu.",
+        "special": null
+    },
+    {
+        "id": "spiritofivory",
+        "name": "Esprit d'ivoire",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Pas de Maléfique en plus"
+        ],
+        "setup": false,
+        "ability": "Il ne peut pas y avoir plus d'un joueur maléfique supplémentaire.",
+        "special": null
+    },
+    {
+        "id": "stormcatcher",
+        "name": "Attrape-tempête",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 1,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Protégé"
+        ],
+        "setup": false,
+        "ability": "Nommez un rôle bon. S'il est en jeu, le joueur qui l'incarne ne peut mourir que par exécution, mais les joueurs malfaisants apprennent de qui il s'agit.",
+        "special": null
+    },
+    {
+        "id": "toymaker",
+        "name": "Fabricant de jouets",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "",
+        "reminders": [
+            "Pas attaqué"
+        ],
+        "setup": false,
+        "ability": "Le démon peut choisir de ne pas attaquer et doit le faire au moins une fois par partie. Les mauvais joueurs obtiennent des informations de départ normales.",
+        "special": null
     }
 ]

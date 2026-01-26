@@ -1,5 +1,41 @@
 [
     {
+        "id": "dusk",
+        "edition": "special",
+        "name": "Dusk",
+        "firstNightReminder": "Start the Night Phase.",
+        "otherNightReminder": "Start the Night Phase.",
+        "firstNight": 1,
+        "otherNight": 1
+    },
+    {
+        "id": "dawn",
+        "edition": "special",
+        "name": "Dawn",
+        "firstNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "otherNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "firstNight": 73,
+        "otherNight": 93
+    },
+    {
+        "id": "minioninfo",
+        "edition": "special",
+        "name": "Minion Info",
+        "team": "minion",
+        "firstNightReminder": "If there are 7 or more players, wake all Minions:\n\tShow the *THIS IS THE DEMON* token. Point to the Demon.\n\tShow the *THESE ARE YOUR MINIONS* token. Point to the other Minions.",
+        "firstNight": 15,
+        "otherNight": 0
+    },
+    {
+        "id": "demoninfo",
+        "edition": "special",
+        "name": "Demon Info",
+        "team": "demon",
+        "firstNightReminder": "If there are 7 or more players, wake the Demon:\n\tShow the *THESE ARE YOUR MINIONS* token. Point to all Minions.\n\tShow the *THESE CHARACTERS ARE NOT IN PLAY* token. Show 3 not-in-play good character tokens.",
+        "firstNight": 19,
+        "otherNight": 0
+    },
+    {
         "id": "washerwoman",
         "name": "Praczka",
         "edition": "tb",
@@ -1565,6 +1601,22 @@
         "special": null
     },
     {
+        "id": "nightwatchman",
+        "name": "Nocny Stróż",
+        "edition": "",
+        "team": "townsfolk",
+        "firstNight": 61,
+        "firstNightReminder": "Nocny Stróż może wskazać na gracza. Obudź tego gracza, pokaż kartę 'Ta postać Cię wybrała' i token Nocnego Stróża, a następnie wskaż graczowi Nocnego Stróża.",
+        "otherNight": 82,
+        "otherNightReminder": "Nocny Stróż może wskazać na gracza. Obudź tego gracza, pokaż kartę 'Ta postać Cię wybrała' i token Nocnego Stróża, a następnie wskaż graczowi Nocnego Stróża.",
+        "reminders": [
+            "Brak zdolności"
+        ],
+        "setup": false,
+        "ability": "Raz na grę, w nocy, wybierz gracza: dowiaduje się, kim jesteś.",
+        "special": null
+    },
+    {
         "id": "engineer",
         "name": "Inżynier",
         "edition": "",
@@ -2088,240 +2140,6 @@
         "special": null
     },
     {
-        "id": "doomsayer",
-        "name": "Prorok Zagłady",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Jeśli 4 lub więcej graczy żyje, każdy żyjący gracz może publicznie wybrać (raz na grę), że gracz z jego drużyny umiera.",
-        "special": null
-    },
-    {
-        "id": "angel",
-        "name": "Anioł",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Chroniony",
-            "Chroniony",
-            "Coś złego"
-        ],
-        "setup": false,
-        "ability": "Coś złego może się stać temu, kto jest najbardziej odpowiedzialny za śmierć nowego gracza.",
-        "special": null
-    },
-    {
-        "id": "buddhist",
-        "name": "Buddysta",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Przez pierwsze 2 minuty każdego dnia, gracze-weterani nie mogą mówić.",
-        "special": null
-    },
-    {
-        "id": "hellslibrarian",
-        "name": "Piekielny Bibliotekarz",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Coś złego"
-        ],
-        "setup": false,
-        "ability": "Coś złego może się stać temu, kto będzie mówił, gdy Bajarz poprosi o ciszę.",
-        "special": null
-    },
-    {
-        "id": "revolutionary",
-        "name": "Rewolucjonista",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Jest rejestrowany nieprawdziwie?"
-        ],
-        "setup": false,
-        "ability": "Wiadomo, że 2 sąsiadujących graczy jest w tej samej drużynie. Raz na grę, jeden z nich jest rejestrowany niezgodnie z prawdą",
-        "special": null
-    },
-    {
-        "id": "fiddler",
-        "name": "Skrzypek",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Raz na grę, Demon potajemnie wybiera dobrego gracza: wszyscy gracze muszą wybrać, który z tych dwóch graczy wygrywa.",
-        "special": null
-    },
-    {
-        "id": "toymaker",
-        "name": "Zabawkarz",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 1,
-        "otherNightReminder": "",
-        "reminders": [
-            "Nie atakuje"
-        ],
-        "setup": false,
-        "ability": "Demon może wybrać brak ataku i musi to zrobić przynajmniej raz w grze. Źli gracze uzyskują normalne informacje początkowe.",
-        "special": null
-    },
-    {
-        "id": "fibbin",
-        "name": "Łgarz",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Użyty"
-        ],
-        "setup": false,
-        "ability": "Raz na grę, jeden dobry gracz może uzyskać fałszywe informacje.",
-        "special": null
-    },
-    {
-        "id": "duchess",
-        "name": "Księżna",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 1,
-        "otherNightReminder": "",
-        "reminders": [
-            "Fałszywe informacje",
-            "Fałszywe informacje",
-            "Odwiedzający"
-        ],
-        "setup": false,
-        "ability": "Każdego dnia, 3 graczy może wybrać się do Ciebie w odwiedziny. W nocy*, każdy odwiedzający dowiaduje się, ilu odwiedzających jest złych, ale jeden dostaje fałszywe informacje.",
-        "special": null
-    },
-    {
-        "id": "sentinel",
-        "name": "Wartownik",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": true,
-        "ability": "Może być 1 ekstra lub 1 mniej Outsiderów w grze.",
-        "special": null
-    },
-    {
-        "id": "spiritofivory",
-        "name": "Duch Kości Słoniowej",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Nie będzie dodatkowego złego"
-        ],
-        "setup": false,
-        "ability": "Nie może być więcej niż 1 dodatkowego złego gracza.",
-        "special": null
-    },
-    {
-        "id": "djinn",
-        "name": "Dżin",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Użyj specjalnej zasady Dżina. Wszyscy gracze znają tę zasadę.",
-        "special": null
-    },
-    {
-        "id": "stormcatcher",
-        "name": "Łowca Burz",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 1,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Bezpieczny"
-        ],
-        "setup": false,
-        "ability": "Wypowiedz nazwę dobrej postaci. Jeśli w grze: ta postać może umrzeć tylko przez egzekucję, ale źli gracze dowiadują się, który to gracz.",
-        "special": null
-    },
-    {
-        "id": "deusexfiasco",
-        "name": "Deus ex Fiasco",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "W górę"
-        ],
-        "setup": true,
-        "ability": "Raz w grze Bajarz zrobi \"błąd\", popraw go i publicznie przyznaj się do niego.",
-        "special": null
-    },
-    {
-        "id": "nightwatchman",
-        "name": "Nocny Stróż",
-        "edition": "",
-        "team": "townsfolk",
-        "firstNight": 61,
-        "firstNightReminder": "Nocny Stróż może wskazać na gracza. Obudź tego gracza, pokaż kartę 'Ta postać Cię wybrała' i token Nocnego Stróża, a następnie wskaż graczowi Nocnego Stróża.",
-        "otherNight": 82,
-        "otherNightReminder": "Nocny Stróż może wskazać na gracza. Obudź tego gracza, pokaż kartę 'Ta postać Cię wybrała' i token Nocnego Stróża, a następnie wskaż graczowi Nocnego Stróża.",
-        "reminders": [
-            "Brak zdolności"
-        ],
-        "setup": false,
-        "ability": "Raz na grę, w nocy, wybierz gracza: dowiaduje się, kim jesteś.",
-        "special": null
-    },
-    {
         "id": "organgrinder",
         "name": "Kataryniarz",
         "edition": "",
@@ -2478,48 +2296,6 @@
         "special": null
     },
     {
-        "id": "bootlegger",
-        "name": "Bimbrownik",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "Ogłoś, że Bimbrownik jest w grze i poinformuj grupę o wszystkich własnych postaciach i / lub zasadach obowiązujących w tej grze.",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Ten skrypt ma postacie lub zasady homebrew.",
-        "special": null
-    },
-    {
-        "id": "ferryman",
-        "name": "Przewoźnik",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Ostatniego dnia wszyscy martwi gracze odzyskują token głosu.",
-        "special": null
-    },
-    {
-        "id": "gardener",
-        "name": "Ogrodnik",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Bajarz przydziela przynajmniej jedną postać graczom.",
-        "special": null
-    },
-    {
         "id": "kazali",
         "name": "Kazali",
         "edition": "",
@@ -2648,20 +2424,6 @@
         "special": []
     },
     {
-        "id": "boffin",
-        "name": "Jajogłowy",
-        "edition": "",
-        "team": "minion",
-        "firstNight": 7,
-        "firstNightReminder": "Obudź Jajogłowego i pokaż mu token umiejętności, którą ma Demon, a następnie połóż go spać. Obudź Demona, pokaż mu token Jajogłowego, a a następnie token dobrej umiejętności, którą Demon będzie mieć.",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Demon (nawet jeśli jest pijany lub zatruty) ma umiejętność dobrej postaci poza grą. Obydwoje ją znacie.",
-        "special": []
-    },
-    {
         "id": "lordoftyphon",
         "name": "Władca Tyfona",
         "edition": "",
@@ -2676,6 +2438,35 @@
         "setup": true,
         "ability": "Każdej nocy* wybierz gracza, który umiera. [Złe postacie siedzą w rzędzie. Siedzisz w środku rzędu. +1 Sługus. -? do +? Outsiderów]",
         "special": []
+    },
+    {
+        "id": "boffin",
+        "name": "Jajogłowy",
+        "edition": "",
+        "team": "minion",
+        "firstNight": 7,
+        "firstNightReminder": "Obudź Jajogłowego i pokaż mu token umiejętności, którą ma Demon, a następnie połóż go spać. Obudź Demona, pokaż mu token Jajogłowego, a a następnie token dobrej umiejętności, którą Demon będzie mieć.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Demon (nawet jeśli jest pijany lub zatruty) ma umiejętność dobrej postaci poza grą. Obydwoje ją znacie.",
+        "special": []
+    },
+    {
+        "id": "cacklejack",
+        "name": "Cacklejack",
+        "edition": "",
+        "team": "traveller",
+        "firstNightReminder": "",
+        "otherNightReminder": "Replace the character token of any player (besides the player the Cacklejack chose today) with a different character token. Wake that player and show them the 'You are' card and their new character token.",
+        "reminders": [
+            "Not Me"
+        ],
+        "setup": false,
+        "ability": "Each day, choose a player: a different player changes character tonight.",
+        "firstNight": 0,
+        "otherNight": 2.1
     },
     {
         "id": "gnome",
@@ -2762,5 +2553,353 @@
         "setup": false,
         "ability": "W pierwszym dniu, jeśli nominowałaś i zabiłaś gracza, Demon nie zabija dziś wieczorem.",
         "special": []
+    },
+    {
+        "id": "wraith",
+        "name": "Wraith",
+        "team": "minion",
+        "edition": "",
+        "firstNightReminder": "Wake the Wraith whenever other evil players wake.",
+        "otherNightReminder": "Wake the Wraith whenever other evil players wake.",
+        "reminders": [],
+        "setup": false,
+        "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
+        "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
+        "special": [
+            {
+                "type": "player",
+                "name": "open-eyes",
+                "time": "night"
+            }
+        ],
+        "firstNight": 2,
+        "otherNight": 2
+    },
+    {
+        "id": "angel",
+        "name": "Anioł",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Chroniony",
+            "Chroniony",
+            "Coś złego"
+        ],
+        "setup": false,
+        "ability": "Coś złego może się stać temu, kto jest najbardziej odpowiedzialny za śmierć nowego gracza.",
+        "special": null
+    },
+    {
+        "id": "bootlegger",
+        "name": "Bimbrownik",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "Ogłoś, że Bimbrownik jest w grze i poinformuj grupę o wszystkich własnych postaciach i / lub zasadach obowiązujących w tej grze.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Ten skrypt ma postacie lub zasady homebrew.",
+        "special": null
+    },
+    {
+        "id": "tor",
+        "firstNightReminder": "Players don't learn character or alignment",
+        "otherNightReminder": "Learn character & alignment",
+        "setup": true,
+        "edition": "loric",
+        "name": "Tor",
+        "team": "loric",
+        "reminders": [],
+        "ability": "Players don't know their character or alignment. They learn them when they die."
+    },
+    {
+        "id": "bigwig",
+        "name": "Big Wig",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "setup": false,
+        "reminders": [],
+        "edition": "loric",
+        "team": "loric",
+        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+    },
+    {
+        "id": "zenomancer",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "Goal",
+            "Goal",
+            "Goal"
+        ],
+        "setup": false,
+        "name": "Zenomancer",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
+    },
+    {
+        "id": "hindu",
+        "name": "Hindu",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "setup": false,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "Reincarnated",
+            "Reincarnated",
+            "Reincarnated",
+            "Reincarnated"
+        ],
+        "flavor": ""
+    },
+    {
+        "id": "pope",
+        "name": "Pope",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "setup": true,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [],
+        "flavor": ""
+    },
+    {
+        "id": "buddhist",
+        "name": "Buddysta",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Przez pierwsze 2 minuty każdego dnia, gracze-weterani nie mogą mówić.",
+        "special": null
+    },
+    {
+        "id": "deusexfiasco",
+        "name": "Deus ex Fiasco",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "W górę"
+        ],
+        "setup": true,
+        "ability": "Raz w grze Bajarz zrobi \"błąd\", popraw go i publicznie przyznaj się do niego.",
+        "special": null
+    },
+    {
+        "id": "djinn",
+        "name": "Dżin",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Użyj specjalnej zasady Dżina. Wszyscy gracze znają tę zasadę.",
+        "special": null
+    },
+    {
+        "id": "doomsayer",
+        "name": "Prorok Zagłady",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Jeśli 4 lub więcej graczy żyje, każdy żyjący gracz może publicznie wybrać (raz na grę), że gracz z jego drużyny umiera.",
+        "special": null
+    },
+    {
+        "id": "duchess",
+        "name": "Księżna",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "",
+        "reminders": [
+            "Fałszywe informacje",
+            "Fałszywe informacje",
+            "Odwiedzający"
+        ],
+        "setup": false,
+        "ability": "Każdego dnia, 3 graczy może wybrać się do Ciebie w odwiedziny. W nocy*, każdy odwiedzający dowiaduje się, ilu odwiedzających jest złych, ale jeden dostaje fałszywe informacje.",
+        "special": null
+    },
+    {
+        "id": "ferryman",
+        "name": "Przewoźnik",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Ostatniego dnia wszyscy martwi gracze odzyskują token głosu.",
+        "special": null
+    },
+    {
+        "id": "fibbin",
+        "name": "Łgarz",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Użyty"
+        ],
+        "setup": false,
+        "ability": "Raz na grę, jeden dobry gracz może uzyskać fałszywe informacje.",
+        "special": null
+    },
+    {
+        "id": "fiddler",
+        "name": "Skrzypek",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Raz na grę, Demon potajemnie wybiera dobrego gracza: wszyscy gracze muszą wybrać, który z tych dwóch graczy wygrywa.",
+        "special": null
+    },
+    {
+        "id": "gardener",
+        "name": "Ogrodnik",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Bajarz przydziela przynajmniej jedną postać graczom.",
+        "special": null
+    },
+    {
+        "id": "hellslibrarian",
+        "name": "Piekielny Bibliotekarz",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Coś złego"
+        ],
+        "setup": false,
+        "ability": "Coś złego może się stać temu, kto będzie mówił, gdy Bajarz poprosi o ciszę.",
+        "special": null
+    },
+    {
+        "id": "revolutionary",
+        "name": "Rewolucjonista",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Jest rejestrowany nieprawdziwie?"
+        ],
+        "setup": false,
+        "ability": "Wiadomo, że 2 sąsiadujących graczy jest w tej samej drużynie. Raz na grę, jeden z nich jest rejestrowany niezgodnie z prawdą",
+        "special": null
+    },
+    {
+        "id": "sentinel",
+        "name": "Wartownik",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": true,
+        "ability": "Może być 1 ekstra lub 1 mniej Outsiderów w grze.",
+        "special": null
+    },
+    {
+        "id": "spiritofivory",
+        "name": "Duch Kości Słoniowej",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Nie będzie dodatkowego złego"
+        ],
+        "setup": false,
+        "ability": "Nie może być więcej niż 1 dodatkowego złego gracza.",
+        "special": null
+    },
+    {
+        "id": "stormcatcher",
+        "name": "Łowca Burz",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 1,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Bezpieczny"
+        ],
+        "setup": false,
+        "ability": "Wypowiedz nazwę dobrej postaci. Jeśli w grze: ta postać może umrzeć tylko przez egzekucję, ale źli gracze dowiadują się, który to gracz.",
+        "special": null
+    },
+    {
+        "id": "toymaker",
+        "name": "Zabawkarz",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "",
+        "reminders": [
+            "Nie atakuje"
+        ],
+        "setup": false,
+        "ability": "Demon może wybrać brak ataku i musi to zrobić przynajmniej raz w grze. Źli gracze uzyskują normalne informacje początkowe.",
+        "special": null
     }
 ]

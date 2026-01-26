@@ -1,5 +1,41 @@
 [
     {
+        "id": "dusk",
+        "edition": "special",
+        "name": "Dusk",
+        "firstNightReminder": "Start the Night Phase.",
+        "otherNightReminder": "Start the Night Phase.",
+        "firstNight": 1,
+        "otherNight": 1
+    },
+    {
+        "id": "dawn",
+        "edition": "special",
+        "name": "Dawn",
+        "firstNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "otherNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "firstNight": 73,
+        "otherNight": 93
+    },
+    {
+        "id": "minioninfo",
+        "edition": "special",
+        "name": "Minion Info",
+        "team": "minion",
+        "firstNightReminder": "If there are 7 or more players, wake all Minions:\n\tShow the *THIS IS THE DEMON* token. Point to the Demon.\n\tShow the *THESE ARE YOUR MINIONS* token. Point to the other Minions.",
+        "firstNight": 15,
+        "otherNight": 0
+    },
+    {
+        "id": "demoninfo",
+        "edition": "special",
+        "name": "Demon Info",
+        "team": "demon",
+        "firstNightReminder": "If there are 7 or more players, wake the Demon:\n\tShow the *THESE ARE YOUR MINIONS* token. Point to all Minions.\n\tShow the *THESE CHARACTERS ARE NOT IN PLAY* token. Show 3 not-in-play good character tokens.",
+        "firstNight": 19,
+        "otherNight": 0
+    },
+    {
         "id": "washerwoman",
         "name": "Thợ giặt",
         "edition": "tb",
@@ -1567,6 +1603,22 @@
         "special": null
     },
     {
+        "id": "nightwatchman",
+        "name": "Người gác đêm",
+        "edition": "",
+        "team": "townsfolk",
+        "firstNight": 61,
+        "firstNightReminder": "Người gác đêm có thể chỉ 1 người. Gọi người đó dậy, cho xem lá 'Nhân vật này chọn bạn' và thẻ Người gác đêm, và chỉ Người gác đêm.",
+        "otherNight": 82,
+        "otherNightReminder": "Người gác đêm có thể chỉ 1 người. Gọi người đó dậy, cho xem lá 'Nhân vật này chọn bạn' và thẻ Người gác đêm, và chỉ Người gác đêm.",
+        "reminders": [
+            "Hết chức năng"
+        ],
+        "setup": false,
+        "ability": "Một lần trong game, trong đêm, chọn 1 người: họ biết bạn là ai.",
+        "special": null
+    },
+    {
         "id": "engineer",
         "name": "Kĩ sư",
         "edition": "",
@@ -2090,240 +2142,6 @@
         "special": null
     },
     {
-        "id": "doomsayer",
-        "name": "Khẩu nghiệp",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Nếu có ít nhất 4 người còn sống, mỗi người sống có thể công khai chọn (một lần duy nhất) một người cùng phe họ để chết.",
-        "special": null
-    },
-    {
-        "id": "angel",
-        "name": "Thiên thần",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Bảo vệ",
-            "Bảo vệ",
-            "Điều xấu"
-        ],
-        "setup": false,
-        "ability": "Nếu người chơi mới bị chết, ai có trách nhiệm nhiều nhất có thể sẽ bị gặp điều xấu.  ",
-        "special": null
-    },
-    {
-        "id": "buddhist",
-        "name": "Phật tử",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Trong 2 phút đầu tiên mỗi ngày, người kỳ cựu không được nói.",
-        "special": null
-    },
-    {
-        "id": "hellslibrarian",
-        "name": "Thư viện Địa ngục",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Điều xấu"
-        ],
-        "setup": false,
-        "ability": "Điều xấu có thể xảy ra với người nói khi Người kể chuyện cần im lặng.",
-        "special": null
-    },
-    {
-        "id": "revolutionary",
-        "name": "Cách mạng",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Thấy sai?"
-        ],
-        "setup": false,
-        "ability": "2 người ngồi cạnh nhau được biết là cùng phe. Một lần trong game, một trong số họ thấy sai.",
-        "special": null
-    },
-    {
-        "id": "fiddler",
-        "name": "Người vĩ cầm",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Một lần trong game, Quỷ chọn người khác phe: tất cả mọi người quyết định người thắng trong số 2 người.",
-        "special": null
-    },
-    {
-        "id": "toymaker",
-        "name": "Người làm đồ chơi",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 1,
-        "otherNightReminder": "",
-        "reminders": [
-            "Không tấn công"
-        ],
-        "setup": false,
-        "ability": "Quỷ có thể chọn không tấn công & phải làm việc này 1 lần trong game. Người xấu nhận thông tin bắt đầu như thường.",
-        "special": null
-    },
-    {
-        "id": "fibbin",
-        "name": "Dối lừa",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Đã dùng"
-        ],
-        "setup": false,
-        "ability": "1 lần trong game,có thể 1 người tốt nhận thông tin sai.",
-        "special": null
-    },
-    {
-        "id": "duchess",
-        "name": "Phu nhân",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 1,
-        "otherNightReminder": "",
-        "reminders": [
-            "Thăm",
-            "Thăm",
-            "Thông tin sai"
-        ],
-        "setup": false,
-        "ability": "Mỗi ngày, 3 người có thể thăm bạn. Trong đêm*, mỗi người thăm sẽ biết được có bao nhiêu người thăm xấu, nhưng 1 người nhận sai thông tin.",
-        "special": null
-    },
-    {
-        "id": "sentinel",
-        "name": "Lính gác",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": true,
-        "ability": "Có thể có thêm hoặc bớt 1 Lữ khách trong cuộc.",
-        "special": null
-    },
-    {
-        "id": "spiritofivory",
-        "name": "Thần ngà",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Không thêm xấu"
-        ],
-        "setup": false,
-        "ability": "Không thể có thêm quá 1 người xấu.",
-        "special": null
-    },
-    {
-        "id": "djinn",
-        "name": "Thần đèn",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Sử dụng luật đặc biệt của Thần đèn. Tất cả mọi người biết nó là gì.",
-        "special": null
-    },
-    {
-        "id": "stormcatcher",
-        "name": "Người bắt bão",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 1,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "An toàn"
-        ],
-        "setup": false,
-        "ability": "Đọc tên nhân vật tốt. Nếu trong cuộc, họ chỉ có thể bị chết vì hành quyết, nhưng phe xấu biết họ là ai.",
-        "special": null
-    },
-    {
-        "id": "deusexfiasco",
-        "name": "Deus ex Fiasco",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Whoops"
-        ],
-        "setup": true,
-        "ability": "Một lần trong game, Người kể chuyện sẽ \"mắc lỗi\", sửa nó và thừa nhận lỗi của mình.",
-        "special": null
-    },
-    {
-        "id": "nightwatchman",
-        "name": "Người gác đêm",
-        "edition": "",
-        "team": "townsfolk",
-        "firstNight": 61,
-        "firstNightReminder": "Người gác đêm có thể chỉ 1 người. Gọi người đó dậy, cho xem lá 'Nhân vật này chọn bạn' và thẻ Người gác đêm, và chỉ Người gác đêm.",
-        "otherNight": 82,
-        "otherNightReminder": "Người gác đêm có thể chỉ 1 người. Gọi người đó dậy, cho xem lá 'Nhân vật này chọn bạn' và thẻ Người gác đêm, và chỉ Người gác đêm.",
-        "reminders": [
-            "Hết chức năng"
-        ],
-        "setup": false,
-        "ability": "Một lần trong game, trong đêm, chọn 1 người: họ biết bạn là ai.",
-        "special": null
-    },
-    {
         "id": "organgrinder",
         "name": "Nhạc công đường phố",
         "edition": "",
@@ -2481,48 +2299,6 @@
         "special": null
     },
     {
-        "id": "bootlegger",
-        "name": "Kẻ buôn lậu",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "Thông báo có Kẻ buôn lậu trong game và thông báo các nhân vật hoặc/và các luật tự chế.",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Kịch bản này có nhân vật hoặc luật tự chế.",
-        "special": null
-    },
-    {
-        "id": "ferryman",
-        "name": "Ferryman",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "On the final day, all dead players regain their vote token.",
-        "special": null
-    },
-    {
-        "id": "gardener",
-        "name": "Gardener",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "The Storyteller assigns 1 or more players' characters.",
-        "special": null
-    },
-    {
         "id": "kazali",
         "name": "Kazali",
         "edition": "",
@@ -2651,20 +2427,6 @@
         "special": []
     },
     {
-        "id": "boffin",
-        "name": "Boffin",
-        "edition": "",
-        "team": "minion",
-        "firstNight": 7,
-        "firstNightReminder": "Đánh thức Boffin và cho họ xem mã thông báo về khả năng mà Quỷ dữ có. Đưa Boffin trở lại trạng thái ngủ. Đánh thức Quỷ dữ, cho xem mã thông báo Boffin, sau đó cho xem mã thông báo về khả năng tốt mà Quỷ dữ có.",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Quỷ dữ (kể cả khi say rượu hoặc bị đầu độc) có một khả năng tốt của nhân vật không chơi. Cả hai bạn đều biết khả năng đó.",
-        "special": []
-    },
-    {
         "id": "lordoftyphon",
         "name": "Thần Typhon",
         "edition": "",
@@ -2679,6 +2441,35 @@
         "setup": true,
         "ability": "Mỗi đêm*, chọn 1 người: họ chết [Tất cả người xấu ngồi theo hàng. Bạn là người ở giữa. +1 Tay sai. -? đến +? Lữ khách]",
         "special": []
+    },
+    {
+        "id": "boffin",
+        "name": "Boffin",
+        "edition": "",
+        "team": "minion",
+        "firstNight": 7,
+        "firstNightReminder": "Đánh thức Boffin và cho họ xem mã thông báo về khả năng mà Quỷ dữ có. Đưa Boffin trở lại trạng thái ngủ. Đánh thức Quỷ dữ, cho xem mã thông báo Boffin, sau đó cho xem mã thông báo về khả năng tốt mà Quỷ dữ có.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Quỷ dữ (kể cả khi say rượu hoặc bị đầu độc) có một khả năng tốt của nhân vật không chơi. Cả hai bạn đều biết khả năng đó.",
+        "special": []
+    },
+    {
+        "id": "cacklejack",
+        "name": "Cacklejack",
+        "edition": "",
+        "team": "traveller",
+        "firstNightReminder": "",
+        "otherNightReminder": "Replace the character token of any player (besides the player the Cacklejack chose today) with a different character token. Wake that player and show them the 'You are' card and their new character token.",
+        "reminders": [
+            "Not Me"
+        ],
+        "setup": false,
+        "ability": "Each day, choose a player: a different player changes character tonight.",
+        "firstNight": 0,
+        "otherNight": 2.1
     },
     {
         "id": "gnome",
@@ -2765,5 +2556,353 @@
         "setup": false,
         "ability": "Vào ngày đầu tiên của bạn, nếu bạn đề cử và xử tử một người chơi, Ác quỷ sẽ không giết người vào đêm nay.",
         "special": []
+    },
+    {
+        "id": "wraith",
+        "name": "Wraith",
+        "team": "minion",
+        "edition": "",
+        "firstNightReminder": "Wake the Wraith whenever other evil players wake.",
+        "otherNightReminder": "Wake the Wraith whenever other evil players wake.",
+        "reminders": [],
+        "setup": false,
+        "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
+        "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
+        "special": [
+            {
+                "type": "player",
+                "name": "open-eyes",
+                "time": "night"
+            }
+        ],
+        "firstNight": 2,
+        "otherNight": 2
+    },
+    {
+        "id": "angel",
+        "name": "Thiên thần",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Bảo vệ",
+            "Bảo vệ",
+            "Điều xấu"
+        ],
+        "setup": false,
+        "ability": "Nếu người chơi mới bị chết, ai có trách nhiệm nhiều nhất có thể sẽ bị gặp điều xấu.  ",
+        "special": null
+    },
+    {
+        "id": "bootlegger",
+        "name": "Kẻ buôn lậu",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "Thông báo có Kẻ buôn lậu trong game và thông báo các nhân vật hoặc/và các luật tự chế.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Kịch bản này có nhân vật hoặc luật tự chế.",
+        "special": null
+    },
+    {
+        "id": "tor",
+        "firstNightReminder": "Players don't learn character or alignment",
+        "otherNightReminder": "Learn character & alignment",
+        "setup": true,
+        "edition": "loric",
+        "name": "Tor",
+        "team": "loric",
+        "reminders": [],
+        "ability": "Players don't know their character or alignment. They learn them when they die."
+    },
+    {
+        "id": "bigwig",
+        "name": "Big Wig",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "setup": false,
+        "reminders": [],
+        "edition": "loric",
+        "team": "loric",
+        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+    },
+    {
+        "id": "zenomancer",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "Goal",
+            "Goal",
+            "Goal"
+        ],
+        "setup": false,
+        "name": "Zenomancer",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
+    },
+    {
+        "id": "hindu",
+        "name": "Hindu",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "setup": false,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "Reincarnated",
+            "Reincarnated",
+            "Reincarnated",
+            "Reincarnated"
+        ],
+        "flavor": ""
+    },
+    {
+        "id": "pope",
+        "name": "Pope",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "setup": true,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [],
+        "flavor": ""
+    },
+    {
+        "id": "buddhist",
+        "name": "Phật tử",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Trong 2 phút đầu tiên mỗi ngày, người kỳ cựu không được nói.",
+        "special": null
+    },
+    {
+        "id": "deusexfiasco",
+        "name": "Deus ex Fiasco",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Whoops"
+        ],
+        "setup": true,
+        "ability": "Một lần trong game, Người kể chuyện sẽ \"mắc lỗi\", sửa nó và thừa nhận lỗi của mình.",
+        "special": null
+    },
+    {
+        "id": "djinn",
+        "name": "Thần đèn",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Sử dụng luật đặc biệt của Thần đèn. Tất cả mọi người biết nó là gì.",
+        "special": null
+    },
+    {
+        "id": "doomsayer",
+        "name": "Khẩu nghiệp",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Nếu có ít nhất 4 người còn sống, mỗi người sống có thể công khai chọn (một lần duy nhất) một người cùng phe họ để chết.",
+        "special": null
+    },
+    {
+        "id": "duchess",
+        "name": "Phu nhân",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "",
+        "reminders": [
+            "Thăm",
+            "Thăm",
+            "Thông tin sai"
+        ],
+        "setup": false,
+        "ability": "Mỗi ngày, 3 người có thể thăm bạn. Trong đêm*, mỗi người thăm sẽ biết được có bao nhiêu người thăm xấu, nhưng 1 người nhận sai thông tin.",
+        "special": null
+    },
+    {
+        "id": "ferryman",
+        "name": "Ferryman",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "On the final day, all dead players regain their vote token.",
+        "special": null
+    },
+    {
+        "id": "fibbin",
+        "name": "Dối lừa",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Đã dùng"
+        ],
+        "setup": false,
+        "ability": "1 lần trong game,có thể 1 người tốt nhận thông tin sai.",
+        "special": null
+    },
+    {
+        "id": "fiddler",
+        "name": "Người vĩ cầm",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Một lần trong game, Quỷ chọn người khác phe: tất cả mọi người quyết định người thắng trong số 2 người.",
+        "special": null
+    },
+    {
+        "id": "gardener",
+        "name": "Gardener",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "The Storyteller assigns 1 or more players' characters.",
+        "special": null
+    },
+    {
+        "id": "hellslibrarian",
+        "name": "Thư viện Địa ngục",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Điều xấu"
+        ],
+        "setup": false,
+        "ability": "Điều xấu có thể xảy ra với người nói khi Người kể chuyện cần im lặng.",
+        "special": null
+    },
+    {
+        "id": "revolutionary",
+        "name": "Cách mạng",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Thấy sai?"
+        ],
+        "setup": false,
+        "ability": "2 người ngồi cạnh nhau được biết là cùng phe. Một lần trong game, một trong số họ thấy sai.",
+        "special": null
+    },
+    {
+        "id": "sentinel",
+        "name": "Lính gác",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": true,
+        "ability": "Có thể có thêm hoặc bớt 1 Lữ khách trong cuộc.",
+        "special": null
+    },
+    {
+        "id": "spiritofivory",
+        "name": "Thần ngà",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Không thêm xấu"
+        ],
+        "setup": false,
+        "ability": "Không thể có thêm quá 1 người xấu.",
+        "special": null
+    },
+    {
+        "id": "stormcatcher",
+        "name": "Người bắt bão",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 1,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "An toàn"
+        ],
+        "setup": false,
+        "ability": "Đọc tên nhân vật tốt. Nếu trong cuộc, họ chỉ có thể bị chết vì hành quyết, nhưng phe xấu biết họ là ai.",
+        "special": null
+    },
+    {
+        "id": "toymaker",
+        "name": "Người làm đồ chơi",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "",
+        "reminders": [
+            "Không tấn công"
+        ],
+        "setup": false,
+        "ability": "Quỷ có thể chọn không tấn công & phải làm việc này 1 lần trong game. Người xấu nhận thông tin bắt đầu như thường.",
+        "special": null
     }
 ]

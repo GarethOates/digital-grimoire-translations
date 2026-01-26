@@ -1,5 +1,41 @@
 [
     {
+        "id": "dusk",
+        "edition": "special",
+        "name": "Dusk",
+        "firstNightReminder": "Start the Night Phase.",
+        "otherNightReminder": "Start the Night Phase.",
+        "firstNight": 1,
+        "otherNight": 1
+    },
+    {
+        "id": "dawn",
+        "edition": "special",
+        "name": "Dawn",
+        "firstNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "otherNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "firstNight": 73,
+        "otherNight": 93
+    },
+    {
+        "id": "minioninfo",
+        "edition": "special",
+        "name": "Minion Info",
+        "team": "minion",
+        "firstNightReminder": "If there are 7 or more players, wake all Minions:\n\tShow the *THIS IS THE DEMON* token. Point to the Demon.\n\tShow the *THESE ARE YOUR MINIONS* token. Point to the other Minions.",
+        "firstNight": 15,
+        "otherNight": 0
+    },
+    {
+        "id": "demoninfo",
+        "edition": "special",
+        "name": "Demon Info",
+        "team": "demon",
+        "firstNightReminder": "If there are 7 or more players, wake the Demon:\n\tShow the *THESE ARE YOUR MINIONS* token. Point to all Minions.\n\tShow the *THESE CHARACTERS ARE NOT IN PLAY* token. Show 3 not-in-play good character tokens.",
+        "firstNight": 19,
+        "otherNight": 0
+    },
+    {
         "id": "washerwoman",
         "name": "Tvätterskan",
         "edition": "tb",
@@ -1567,6 +1603,22 @@
         "special": null
     },
     {
+        "id": "nightwatchman",
+        "name": "Nattvakten",
+        "edition": "",
+        "team": "townsfolk",
+        "firstNight": 61,
+        "firstNightReminder": "Nattvakten får peka på en spelare. Väck den utpekade, visa kortet ”Den här rollen valde dig” och Nattvaktens rollbricka, och peka sedan på Nattvaktens spelare.",
+        "otherNight": 82,
+        "otherNightReminder": "Nattvakten får peka på en spelare. Väck den utpekade, visa kortet ”Den här rollen valde dig” och Nattvaktens rollbricka, och peka sedan på Nattvaktens spelare.",
+        "reminders": [
+            "Ingen förmåga"
+        ],
+        "setup": false,
+        "ability": "En gång per spel, på natten, kan du välja en spelare; hen får veta att du är Nattvakten.",
+        "special": null
+    },
+    {
         "id": "engineer",
         "name": "Ingenjören",
         "edition": "",
@@ -2090,240 +2142,6 @@
         "special": null
     },
     {
-        "id": "doomsayer",
-        "name": "Domedagsprofeten",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Varje levande spelare kan en gång per spel öppet välja att en spelare på hens lag dör, så länge minst 4 spelare lever.",
-        "special": null
-    },
-    {
-        "id": "angel",
-        "name": "Ängeln",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Skyddad",
-            "Skyddad",
-            "Något dåligt"
-        ],
-        "setup": false,
-        "ability": "Något dåligt kanske händer den som är främsta skälet till att en ny spelare dör.",
-        "special": null
-    },
-    {
-        "id": "buddhist",
-        "name": "Buddisten",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "De 2 första minuterna varje dag får veteranspelare inte prata.",
-        "special": null
-    },
-    {
-        "id": "hellslibrarian",
-        "name": "Hyssjaren",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Något dåligt"
-        ],
-        "setup": false,
-        "ability": "Något dåligt kanske händer den som pratar när Berättaren har bett om tystnad.",
-        "special": null
-    },
-    {
-        "id": "revolutionary",
-        "name": "Revolutionären",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Registreras fel?"
-        ],
-        "setup": false,
-        "ability": "Alla vet att 2 grannspelare är i samma lag. En gång per spel registreras en av dem fel.",
-        "special": null
-    },
-    {
-        "id": "fiddler",
-        "name": "Violinisten",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "En gång per spel väljer Demonen privat en motspelare; alla spelare väljer vem av de 2 spelarna som vinner.",
-        "special": null
-    },
-    {
-        "id": "toymaker",
-        "name": "Leksaksmakaren",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "Väck Kumpanerna och visa Demonen, och väck Demonen och visa Kumpanerna samt tre roller som inte är i spel, även om det är färre än 7 spelare.",
-        "otherNight": 1,
-        "otherNightReminder": "Om Demonens attack skulle avsluta spelet inatt och Demonen inte är märkt med brickan ”Ingen attack” så får Demonen inte vakna och agera inatt.",
-        "reminders": [
-            "Ingen attack"
-        ],
-        "setup": false,
-        "ability": "Demonen kan välja att inte attackera, och måste välja detta minst en gång per spel. De onda får vanlig startinfo.",
-        "special": null
-    },
-    {
-        "id": "fibbin",
-        "name": "Lögnaren",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Förbrukad"
-        ],
-        "setup": false,
-        "ability": "En gång per spel kanske 1 god spelare får falsk info.",
-        "special": null
-    },
-    {
-        "id": "duchess",
-        "name": "Hertiginnan",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 1,
-        "otherNightReminder": "Väck varje spelare märkt ”Besökare” eller ”Falsk info” en i taget. Visa dem Hertiginnans rollbricka. Visa spelarna märkta ”Besökare” och sedan lika många fingrar som antalet onda spelare märkta ”Besökare” (1, 2 eller 3). Visa spelaren märkt ”Falsk info” ett annat antal fingrar.",
-        "reminders": [
-            "Besökare",
-            "Besökare",
-            "Falsk info"
-        ],
-        "setup": false,
-        "ability": "Varje dag kan 3 spelare besöka dig. Inatt* får besökarna veta hur många besökare som var onda, men 1 får falsk info.",
-        "special": null
-    },
-    {
-        "id": "sentinel",
-        "name": "Väktaren",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": true,
-        "ability": "Det kan vara 1 Utböling mer eller mindre i spel.",
-        "special": null
-    },
-    {
-        "id": "spiritofivory",
-        "name": "Amulettbäraren",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Inga extra onda"
-        ],
-        "setup": false,
-        "ability": "Det kan inte finnas mer än 1 extra ond spelare.",
-        "special": null
-    },
-    {
-        "id": "djinn",
-        "name": "Djinnen",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Använd Djinnens specialregel. Alla spelare vet vilken det är.",
-        "special": null
-    },
-    {
-        "id": "stormcatcher",
-        "name": "Stormjägaren",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 1,
-        "firstNightReminder": "Märk en god spelare som ”Skyddad”. Väck alla onda spelare och visa dem den märkta spelaren.",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Skyddad"
-        ],
-        "setup": false,
-        "ability": "Säg en god roll. Om den är i spel kan den spelaren bara dö genom avrättning, men alla onda får veta vem spelaren är.",
-        "special": null
-    },
-    {
-        "id": "deusexfiasco",
-        "name": "Deus ex fiasco",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Hoppsan!"
-        ],
-        "setup": true,
-        "ability": "En gång per spel begår Berättaren ett ”misstag”, rättar till det och erkänner.",
-        "special": null
-    },
-    {
-        "id": "nightwatchman",
-        "name": "Nattvakten",
-        "edition": "",
-        "team": "townsfolk",
-        "firstNight": 61,
-        "firstNightReminder": "Nattvakten får peka på en spelare. Väck den utpekade, visa kortet ”Den här rollen valde dig” och Nattvaktens rollbricka, och peka sedan på Nattvaktens spelare.",
-        "otherNight": 82,
-        "otherNightReminder": "Nattvakten får peka på en spelare. Väck den utpekade, visa kortet ”Den här rollen valde dig” och Nattvaktens rollbricka, och peka sedan på Nattvaktens spelare.",
-        "reminders": [
-            "Ingen förmåga"
-        ],
-        "setup": false,
-        "ability": "En gång per spel, på natten, kan du välja en spelare; hen får veta att du är Nattvakten.",
-        "special": null
-    },
-    {
         "id": "organgrinder",
         "name": "Positivhalaren",
         "edition": "",
@@ -2481,48 +2299,6 @@
         "special": null
     },
     {
-        "id": "bootlegger",
-        "name": "Hembrännaren",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "Berätta att Hembrännaren är i spel och tala om vilka hemgjorda roller och regler du använder.",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Det här skriptet har hemgjorda roller eller regler.",
-        "special": null
-    },
-    {
-        "id": "ferryman",
-        "name": "Färjkarlen",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Den sista dagen får alla döda spelare tillbaka sin röstbricka.",
-        "special": null
-    },
-    {
-        "id": "gardener",
-        "name": "Trädgårdsmästaren",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Berättaren bestämmer 1 eller flera spelares karaktär.",
-        "special": null
-    },
-    {
         "id": "kazali",
         "name": "Kazali",
         "edition": "",
@@ -2651,20 +2427,6 @@
         "special": []
     },
     {
-        "id": "boffin",
-        "name": "Vetenskaparen",
-        "edition": "",
-        "team": "minion",
-        "firstNight": 7,
-        "firstNightReminder": "Väck Vetenskaparen och visa hen brickan för den förmåga som Demonen har. Väck Demonen, visa Vetenskaparens bricka och sedan brickan med den goda förmåga som Demonen har.",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Demonen (även om hen är full eller förgiftad) har en god rolls förmåga (inte en som är i spel). Ni vet båda vilken.",
-        "special": []
-    },
-    {
         "id": "lordoftyphon",
         "name": "Tyfons Herre",
         "edition": "",
@@ -2679,6 +2441,35 @@
         "setup": true,
         "ability": "Varje natt* väljer du en spelare; hen dör. [Onda sitter på rad & du är inte ytterst. +1 Kumpan. ±? Utbölingar]",
         "special": []
+    },
+    {
+        "id": "boffin",
+        "name": "Vetenskaparen",
+        "edition": "",
+        "team": "minion",
+        "firstNight": 7,
+        "firstNightReminder": "Väck Vetenskaparen och visa hen brickan för den förmåga som Demonen har. Väck Demonen, visa Vetenskaparens bricka och sedan brickan med den goda förmåga som Demonen har.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Demonen (även om hen är full eller förgiftad) har en god rolls förmåga (inte en som är i spel). Ni vet båda vilken.",
+        "special": []
+    },
+    {
+        "id": "cacklejack",
+        "name": "Cacklejack",
+        "edition": "",
+        "team": "traveller",
+        "firstNightReminder": "",
+        "otherNightReminder": "Replace the character token of any player (besides the player the Cacklejack chose today) with a different character token. Wake that player and show them the 'You are' card and their new character token.",
+        "reminders": [
+            "Not Me"
+        ],
+        "setup": false,
+        "ability": "Each day, choose a player: a different player changes character tonight.",
+        "firstNight": 0,
+        "otherNight": 2.1
     },
     {
         "id": "gnome",
@@ -2765,5 +2556,353 @@
         "setup": false,
         "ability": "Om du nominerade och avrättade en spelare på din första dag, dödar inte Demonen ikväll.",
         "special": []
+    },
+    {
+        "id": "wraith",
+        "name": "Wraith",
+        "team": "minion",
+        "edition": "",
+        "firstNightReminder": "Wake the Wraith whenever other evil players wake.",
+        "otherNightReminder": "Wake the Wraith whenever other evil players wake.",
+        "reminders": [],
+        "setup": false,
+        "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
+        "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
+        "special": [
+            {
+                "type": "player",
+                "name": "open-eyes",
+                "time": "night"
+            }
+        ],
+        "firstNight": 2,
+        "otherNight": 2
+    },
+    {
+        "id": "angel",
+        "name": "Ängeln",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Skyddad",
+            "Skyddad",
+            "Något dåligt"
+        ],
+        "setup": false,
+        "ability": "Något dåligt kanske händer den som är främsta skälet till att en ny spelare dör.",
+        "special": null
+    },
+    {
+        "id": "bootlegger",
+        "name": "Hembrännaren",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "Berätta att Hembrännaren är i spel och tala om vilka hemgjorda roller och regler du använder.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Det här skriptet har hemgjorda roller eller regler.",
+        "special": null
+    },
+    {
+        "id": "tor",
+        "firstNightReminder": "Players don't learn character or alignment",
+        "otherNightReminder": "Learn character & alignment",
+        "setup": true,
+        "edition": "loric",
+        "name": "Tor",
+        "team": "loric",
+        "reminders": [],
+        "ability": "Players don't know their character or alignment. They learn them when they die."
+    },
+    {
+        "id": "bigwig",
+        "name": "Big Wig",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "setup": false,
+        "reminders": [],
+        "edition": "loric",
+        "team": "loric",
+        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+    },
+    {
+        "id": "zenomancer",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "Goal",
+            "Goal",
+            "Goal"
+        ],
+        "setup": false,
+        "name": "Zenomancer",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
+    },
+    {
+        "id": "hindu",
+        "name": "Hindu",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "setup": false,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "Reincarnated",
+            "Reincarnated",
+            "Reincarnated",
+            "Reincarnated"
+        ],
+        "flavor": ""
+    },
+    {
+        "id": "pope",
+        "name": "Pope",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "setup": true,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [],
+        "flavor": ""
+    },
+    {
+        "id": "buddhist",
+        "name": "Buddisten",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "De 2 första minuterna varje dag får veteranspelare inte prata.",
+        "special": null
+    },
+    {
+        "id": "deusexfiasco",
+        "name": "Deus ex fiasco",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Hoppsan!"
+        ],
+        "setup": true,
+        "ability": "En gång per spel begår Berättaren ett ”misstag”, rättar till det och erkänner.",
+        "special": null
+    },
+    {
+        "id": "djinn",
+        "name": "Djinnen",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Använd Djinnens specialregel. Alla spelare vet vilken det är.",
+        "special": null
+    },
+    {
+        "id": "doomsayer",
+        "name": "Domedagsprofeten",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Varje levande spelare kan en gång per spel öppet välja att en spelare på hens lag dör, så länge minst 4 spelare lever.",
+        "special": null
+    },
+    {
+        "id": "duchess",
+        "name": "Hertiginnan",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "Väck varje spelare märkt ”Besökare” eller ”Falsk info” en i taget. Visa dem Hertiginnans rollbricka. Visa spelarna märkta ”Besökare” och sedan lika många fingrar som antalet onda spelare märkta ”Besökare” (1, 2 eller 3). Visa spelaren märkt ”Falsk info” ett annat antal fingrar.",
+        "reminders": [
+            "Besökare",
+            "Besökare",
+            "Falsk info"
+        ],
+        "setup": false,
+        "ability": "Varje dag kan 3 spelare besöka dig. Inatt* får besökarna veta hur många besökare som var onda, men 1 får falsk info.",
+        "special": null
+    },
+    {
+        "id": "ferryman",
+        "name": "Färjkarlen",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Den sista dagen får alla döda spelare tillbaka sin röstbricka.",
+        "special": null
+    },
+    {
+        "id": "fibbin",
+        "name": "Lögnaren",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Förbrukad"
+        ],
+        "setup": false,
+        "ability": "En gång per spel kanske 1 god spelare får falsk info.",
+        "special": null
+    },
+    {
+        "id": "fiddler",
+        "name": "Violinisten",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "En gång per spel väljer Demonen privat en motspelare; alla spelare väljer vem av de 2 spelarna som vinner.",
+        "special": null
+    },
+    {
+        "id": "gardener",
+        "name": "Trädgårdsmästaren",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Berättaren bestämmer 1 eller flera spelares karaktär.",
+        "special": null
+    },
+    {
+        "id": "hellslibrarian",
+        "name": "Hyssjaren",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Något dåligt"
+        ],
+        "setup": false,
+        "ability": "Något dåligt kanske händer den som pratar när Berättaren har bett om tystnad.",
+        "special": null
+    },
+    {
+        "id": "revolutionary",
+        "name": "Revolutionären",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Registreras fel?"
+        ],
+        "setup": false,
+        "ability": "Alla vet att 2 grannspelare är i samma lag. En gång per spel registreras en av dem fel.",
+        "special": null
+    },
+    {
+        "id": "sentinel",
+        "name": "Väktaren",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": true,
+        "ability": "Det kan vara 1 Utböling mer eller mindre i spel.",
+        "special": null
+    },
+    {
+        "id": "spiritofivory",
+        "name": "Amulettbäraren",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Inga extra onda"
+        ],
+        "setup": false,
+        "ability": "Det kan inte finnas mer än 1 extra ond spelare.",
+        "special": null
+    },
+    {
+        "id": "stormcatcher",
+        "name": "Stormjägaren",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 1,
+        "firstNightReminder": "Märk en god spelare som ”Skyddad”. Väck alla onda spelare och visa dem den märkta spelaren.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Skyddad"
+        ],
+        "setup": false,
+        "ability": "Säg en god roll. Om den är i spel kan den spelaren bara dö genom avrättning, men alla onda får veta vem spelaren är.",
+        "special": null
+    },
+    {
+        "id": "toymaker",
+        "name": "Leksaksmakaren",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "Väck Kumpanerna och visa Demonen, och väck Demonen och visa Kumpanerna samt tre roller som inte är i spel, även om det är färre än 7 spelare.",
+        "otherNight": 1,
+        "otherNightReminder": "Om Demonens attack skulle avsluta spelet inatt och Demonen inte är märkt med brickan ”Ingen attack” så får Demonen inte vakna och agera inatt.",
+        "reminders": [
+            "Ingen attack"
+        ],
+        "setup": false,
+        "ability": "Demonen kan välja att inte attackera, och måste välja detta minst en gång per spel. De onda får vanlig startinfo.",
+        "special": null
     }
 ]

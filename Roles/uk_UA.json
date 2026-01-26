@@ -1,5 +1,41 @@
 [
     {
+        "id": "dusk",
+        "edition": "special",
+        "name": "Dusk",
+        "firstNightReminder": "Start the Night Phase.",
+        "otherNightReminder": "Start the Night Phase.",
+        "firstNight": 1,
+        "otherNight": 1
+    },
+    {
+        "id": "dawn",
+        "edition": "special",
+        "name": "Dawn",
+        "firstNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "otherNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "firstNight": 73,
+        "otherNight": 93
+    },
+    {
+        "id": "minioninfo",
+        "edition": "special",
+        "name": "Minion Info",
+        "team": "minion",
+        "firstNightReminder": "If there are 7 or more players, wake all Minions:\n\tShow the *THIS IS THE DEMON* token. Point to the Demon.\n\tShow the *THESE ARE YOUR MINIONS* token. Point to the other Minions.",
+        "firstNight": 15,
+        "otherNight": 0
+    },
+    {
+        "id": "demoninfo",
+        "edition": "special",
+        "name": "Demon Info",
+        "team": "demon",
+        "firstNightReminder": "If there are 7 or more players, wake the Demon:\n\tShow the *THESE ARE YOUR MINIONS* token. Point to all Minions.\n\tShow the *THESE CHARACTERS ARE NOT IN PLAY* token. Show 3 not-in-play good character tokens.",
+        "firstNight": 19,
+        "otherNight": 0
+    },
+    {
         "id": "washerwoman",
         "name": "Прачка",
         "edition": "tb",
@@ -1567,6 +1603,22 @@
         "special": null
     },
     {
+        "id": "nightwatchman",
+        "name": "Ліхтарник",
+        "edition": "",
+        "team": "townsfolk",
+        "firstNight": 61,
+        "firstNightReminder": "Ліхтарник може вказати на гравця. Розбудіть обраного гравця, покажіть картку 'Вас обрав персонаж' і жетон Ліхтарника; вкажіть на гравця-Ліхтарника.",
+        "otherNight": 82,
+        "otherNightReminder": "Ліхтарник може вказати на гравця. Розбудіть обраного гравця, покажіть картку 'Вас обрав персонаж' і жетон Ліхтарника; вкажіть на гравця-Ліхтарника.",
+        "reminders": [
+            "Без здібності"
+        ],
+        "setup": false,
+        "ability": "Раз за гру, вночі, обери гравця: вони дізнаються хто ти.",
+        "special": null
+    },
+    {
         "id": "engineer",
         "name": "Інжинер",
         "edition": "",
@@ -2089,240 +2141,6 @@
         "special": null
     },
     {
-        "id": "doomsayer",
-        "name": "Прирекатель",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Якщо 4 або більше гравців в живих, кожен живий гравець може публічно раз за гру обрати, щоб їх союзник помер.",
-        "special": null
-    },
-    {
-        "id": "angel",
-        "name": "Ангел",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Захищено",
-            "Захищено",
-            "Щось погане"
-        ],
-        "setup": false,
-        "ability": "Щось погане станеться з тим, через кого помер новий гравець.",
-        "special": null
-    },
-    {
-        "id": "buddhist",
-        "name": "Буддист",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Перші дві хвилини дня гравці-ветерани не можуть говорити.",
-        "special": null
-    },
-    {
-        "id": "hellslibrarian",
-        "name": "Бібліотекар Аду",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Щось погане"
-        ],
-        "setup": false,
-        "ability": "Щось погане трапиться з тим, хто заговорить коли Оповідач попросив тиші",
-        "special": null
-    },
-    {
-        "id": "revolutionary",
-        "name": "Революціонер",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Вважається хибно?"
-        ],
-        "setup": false,
-        "ability": "Два гравці-сусіди завідома в одній команді. Раз за гру один з них сприймається хибно.",
-        "special": null
-    },
-    {
-        "id": "fiddler",
-        "name": "Скрипач",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Раз за гру, Демон обирає гравця іншої команди; всі голосують хто з них переможе",
-        "special": null
-    },
-    {
-        "id": "toymaker",
-        "name": "Лялькар",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 1,
-        "otherNightReminder": "",
-        "reminders": [
-            "Не атакує"
-        ],
-        "setup": false,
-        "ability": "Демон може вирішити (і має хоч раз за гру) пропустити атаку вночі. Злі гравці отримують свої початкові дані",
-        "special": null
-    },
-    {
-        "id": "fibbin",
-        "name": "Жартівник",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Хиба"
-        ],
-        "setup": false,
-        "ability": "Раз за гру один з гравців може отримати хибні дані",
-        "special": null
-    },
-    {
-        "id": "duchess",
-        "name": "Княгиня",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 1,
-        "otherNightReminder": "",
-        "reminders": [
-            "Відвідав",
-            "Відвідав",
-            "Хиба"
-        ],
-        "setup": false,
-        "ability": "Кожного дня 3 гравця можуть відвідати тебе. Вночі* кожен з відвідавших дізнається скільки з них за зло; але один отримає хибні дані",
-        "special": null
-    },
-    {
-        "id": "sentinel",
-        "name": "Вартовий",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": true,
-        "ability": "Приїжджих в грі може бути на 1 більше або менше",
-        "special": null
-    },
-    {
-        "id": "spiritofivory",
-        "name": "Дух Савани",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Без нового зла"
-        ],
-        "setup": false,
-        "ability": "Злих гравців не може бути більше, ніж стандартне + 1",
-        "special": null
-    },
-    {
-        "id": "djinn",
-        "name": "Джин",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Дотримуйся особливого правила Джина. Всі гравці знають це правило.",
-        "special": null
-    },
-    {
-        "id": "stormcatcher",
-        "name": "Ловигрім",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 1,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Захищено"
-        ],
-        "setup": false,
-        "ability": "Назви доброго персонажа: цей персонаж, якщо в грі, може померти лиш від страти. Злі гравці знають хто це.",
-        "special": null
-    },
-    {
-        "id": "deusexfiasco",
-        "name": "Deus ex Fiasco",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [
-            "Упс"
-        ],
-        "setup": true,
-        "ability": "Раз за гру Оповідач зробить \"помилку\", виправить її та оповістить усіх.",
-        "special": null
-    },
-    {
-        "id": "nightwatchman",
-        "name": "Ліхтарник",
-        "edition": "",
-        "team": "townsfolk",
-        "firstNight": 61,
-        "firstNightReminder": "Ліхтарник може вказати на гравця. Розбудіть обраного гравця, покажіть картку 'Вас обрав персонаж' і жетон Ліхтарника; вкажіть на гравця-Ліхтарника.",
-        "otherNight": 82,
-        "otherNightReminder": "Ліхтарник може вказати на гравця. Розбудіть обраного гравця, покажіть картку 'Вас обрав персонаж' і жетон Ліхтарника; вкажіть на гравця-Ліхтарника.",
-        "reminders": [
-            "Без здібності"
-        ],
-        "setup": false,
-        "ability": "Раз за гру, вночі, обери гравця: вони дізнаються хто ти.",
-        "special": null
-    },
-    {
         "id": "organgrinder",
         "name": "Катеринщик",
         "edition": "",
@@ -2477,48 +2295,6 @@
         "special": null
     },
     {
-        "id": "bootlegger",
-        "name": "Контрабандист",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "Оголосіть що Контрабандист в грі і поясніть гравцям всі нові правила чи персонажей, які будуть використані в грі.",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Цей скрипт має інші правила або саморобних персонажей.",
-        "special": null
-    },
-    {
-        "id": "ferryman",
-        "name": "Ferryman",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "On the final day, all dead players regain their vote token.",
-        "special": null
-    },
-    {
-        "id": "gardener",
-        "name": "Gardener",
-        "edition": "",
-        "team": "fabled",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "The Storyteller assigns 1 or more players' characters.",
-        "special": null
-    },
-    {
         "id": "kazali",
         "name": "Казалі",
         "edition": "",
@@ -2647,20 +2423,6 @@
         "special": []
     },
     {
-        "id": "boffin",
-        "name": "Боффін",
-        "edition": "",
-        "team": "minion",
-        "firstNight": 7,
-        "firstNightReminder": "Розбудіть Бофіна та познайомтесь із ознакою здібностей, які має Демон. Покладіть Бофіна спати. Розбудіть Демона, покажіть жетон Бофіна, а потім покажіть знак хороших здібностей, якими володіє Демон.",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": [],
-        "setup": false,
-        "ability": "Демон (навіть якщо він п'яний або отруєний) має здібності хорошого персонажа не в грі. Ви обидва знаєте, які.",
-        "special": []
-    },
-    {
         "id": "lordoftyphon",
         "name": "Лорд Тифона",
         "edition": "",
@@ -2675,6 +2437,35 @@
         "setup": true,
         "ability": "Щоночі* обирай гравця; вони помирають. [Всі злі гравці сидять поруч; ти не скраю. +1 Міньон. -? до +? Приїжджих]",
         "special": []
+    },
+    {
+        "id": "boffin",
+        "name": "Боффін",
+        "edition": "",
+        "team": "minion",
+        "firstNight": 7,
+        "firstNightReminder": "Розбудіть Бофіна та познайомтесь із ознакою здібностей, які має Демон. Покладіть Бофіна спати. Розбудіть Демона, покажіть жетон Бофіна, а потім покажіть знак хороших здібностей, якими володіє Демон.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Демон (навіть якщо він п'яний або отруєний) має здібності хорошого персонажа не в грі. Ви обидва знаєте, які.",
+        "special": []
+    },
+    {
+        "id": "cacklejack",
+        "name": "Cacklejack",
+        "edition": "",
+        "team": "traveller",
+        "firstNightReminder": "",
+        "otherNightReminder": "Replace the character token of any player (besides the player the Cacklejack chose today) with a different character token. Wake that player and show them the 'You are' card and their new character token.",
+        "reminders": [
+            "Not Me"
+        ],
+        "setup": false,
+        "ability": "Each day, choose a player: a different player changes character tonight.",
+        "firstNight": 0,
+        "otherNight": 2.1
     },
     {
         "id": "gnome",
@@ -2761,5 +2552,353 @@
         "setup": false,
         "ability": "У ваш перший день, якщо ви номінували та стратили гравця, Демон сьогодні не вбиває.",
         "special": []
+    },
+    {
+        "id": "wraith",
+        "name": "Wraith",
+        "team": "minion",
+        "edition": "",
+        "firstNightReminder": "Wake the Wraith whenever other evil players wake.",
+        "otherNightReminder": "Wake the Wraith whenever other evil players wake.",
+        "reminders": [],
+        "setup": false,
+        "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
+        "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
+        "special": [
+            {
+                "type": "player",
+                "name": "open-eyes",
+                "time": "night"
+            }
+        ],
+        "firstNight": 2,
+        "otherNight": 2
+    },
+    {
+        "id": "angel",
+        "name": "Ангел",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Захищено",
+            "Захищено",
+            "Щось погане"
+        ],
+        "setup": false,
+        "ability": "Щось погане станеться з тим, через кого помер новий гравець.",
+        "special": null
+    },
+    {
+        "id": "bootlegger",
+        "name": "Контрабандист",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "Оголосіть що Контрабандист в грі і поясніть гравцям всі нові правила чи персонажей, які будуть використані в грі.",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Цей скрипт має інші правила або саморобних персонажей.",
+        "special": null
+    },
+    {
+        "id": "tor",
+        "firstNightReminder": "Players don't learn character or alignment",
+        "otherNightReminder": "Learn character & alignment",
+        "setup": true,
+        "edition": "loric",
+        "name": "Tor",
+        "team": "loric",
+        "reminders": [],
+        "ability": "Players don't know their character or alignment. They learn them when they die."
+    },
+    {
+        "id": "bigwig",
+        "name": "Big Wig",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "setup": false,
+        "reminders": [],
+        "edition": "loric",
+        "team": "loric",
+        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+    },
+    {
+        "id": "zenomancer",
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "Goal",
+            "Goal",
+            "Goal"
+        ],
+        "setup": false,
+        "name": "Zenomancer",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
+    },
+    {
+        "id": "hindu",
+        "name": "Hindu",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "setup": false,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [
+            "Reincarnated",
+            "Reincarnated",
+            "Reincarnated",
+            "Reincarnated"
+        ],
+        "flavor": ""
+    },
+    {
+        "id": "pope",
+        "name": "Pope",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "setup": true,
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "reminders": [],
+        "flavor": ""
+    },
+    {
+        "id": "buddhist",
+        "name": "Буддист",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Перші дві хвилини дня гравці-ветерани не можуть говорити.",
+        "special": null
+    },
+    {
+        "id": "deusexfiasco",
+        "name": "Deus ex Fiasco",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Упс"
+        ],
+        "setup": true,
+        "ability": "Раз за гру Оповідач зробить \"помилку\", виправить її та оповістить усіх.",
+        "special": null
+    },
+    {
+        "id": "djinn",
+        "name": "Джин",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Дотримуйся особливого правила Джина. Всі гравці знають це правило.",
+        "special": null
+    },
+    {
+        "id": "doomsayer",
+        "name": "Прирекатель",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Якщо 4 або більше гравців в живих, кожен живий гравець може публічно раз за гру обрати, щоб їх союзник помер.",
+        "special": null
+    },
+    {
+        "id": "duchess",
+        "name": "Княгиня",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "",
+        "reminders": [
+            "Відвідав",
+            "Відвідав",
+            "Хиба"
+        ],
+        "setup": false,
+        "ability": "Кожного дня 3 гравця можуть відвідати тебе. Вночі* кожен з відвідавших дізнається скільки з них за зло; але один отримає хибні дані",
+        "special": null
+    },
+    {
+        "id": "ferryman",
+        "name": "Ferryman",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "On the final day, all dead players regain their vote token.",
+        "special": null
+    },
+    {
+        "id": "fibbin",
+        "name": "Жартівник",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Хиба"
+        ],
+        "setup": false,
+        "ability": "Раз за гру один з гравців може отримати хибні дані",
+        "special": null
+    },
+    {
+        "id": "fiddler",
+        "name": "Скрипач",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "Раз за гру, Демон обирає гравця іншої команди; всі голосують хто з них переможе",
+        "special": null
+    },
+    {
+        "id": "gardener",
+        "name": "Gardener",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": false,
+        "ability": "The Storyteller assigns 1 or more players' characters.",
+        "special": null
+    },
+    {
+        "id": "hellslibrarian",
+        "name": "Бібліотекар Аду",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Щось погане"
+        ],
+        "setup": false,
+        "ability": "Щось погане трапиться з тим, хто заговорить коли Оповідач попросив тиші",
+        "special": null
+    },
+    {
+        "id": "revolutionary",
+        "name": "Революціонер",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Вважається хибно?"
+        ],
+        "setup": false,
+        "ability": "Два гравці-сусіди завідома в одній команді. Раз за гру один з них сприймається хибно.",
+        "special": null
+    },
+    {
+        "id": "sentinel",
+        "name": "Вартовий",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [],
+        "setup": true,
+        "ability": "Приїжджих в грі може бути на 1 більше або менше",
+        "special": null
+    },
+    {
+        "id": "spiritofivory",
+        "name": "Дух Савани",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Без нового зла"
+        ],
+        "setup": false,
+        "ability": "Злих гравців не може бути більше, ніж стандартне + 1",
+        "special": null
+    },
+    {
+        "id": "stormcatcher",
+        "name": "Ловигрім",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 1,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": [
+            "Захищено"
+        ],
+        "setup": false,
+        "ability": "Назви доброго персонажа: цей персонаж, якщо в грі, може померти лиш від страти. Злі гравці знають хто це.",
+        "special": null
+    },
+    {
+        "id": "toymaker",
+        "name": "Лялькар",
+        "edition": "",
+        "team": "fabled",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "",
+        "reminders": [
+            "Не атакує"
+        ],
+        "setup": false,
+        "ability": "Демон може вирішити (і має хоч раз за гру) пропустити атаку вночі. Злі гравці отримують свої початкові дані",
+        "special": null
     }
 ]
