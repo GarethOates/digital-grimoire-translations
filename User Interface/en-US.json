@@ -363,7 +363,8 @@
       "winning_team": "Which team won?",
       "sending": "Sending...",
       "success": "Game exported successfully to Clocktracker!",
-      "error": "Failed to export game to Clocktracker"
+      "error": "Failed to export game to Clocktracker",
+      "player_order": "Player Order"
     },
     "night_icons": {
       "title": "Night Order Icons",

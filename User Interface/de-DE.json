@@ -361,7 +361,8 @@
       "winning_team": "Welches Team hat gewonnen?",
       "sending": "Wird gesendet...",
       "success": "Spiel erfolgreich an Clocktracker exportiert!",
-      "error": "Export an Clocktracker fehlgeschlagen"
+      "error": "Export an Clocktracker fehlgeschlagen",
+      "player_order": "Spielerreihenfolge"
     },
     "night_icons": {
       "title": "Nachtordnung-Symbole",

@@ -352,7 +352,8 @@
       "winning_team": "Hvilket lag vant?",
       "sending": "Sender...",
       "success": "Spillet ble eksportert til Clocktracker!",
-      "error": "Kunne ikke eksportere spillet til Clocktracker"
+      "error": "Kunne ikke eksportere spillet til Clocktracker",
+      "player_order": "Spillerrekkefølge"
     },
     "night_icons": {
       "title": "Nattrekkefølge-ikoner",

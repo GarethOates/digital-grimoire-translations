@@ -365,7 +365,8 @@
       "winning_team": "Кой отбор победи?",
       "sending": "Изпращане...",
       "success": "Играта се изпрати успешно към Clocktracker!",
-      "error": "Неуспешно изпращане на играта към Clocktracker"
+      "error": "Неуспешно изпращане на играта към Clocktracker",
+      "player_order": "Ред на играчите"
     },
     "night_icons": {
       "title": "Икони за нощния ред",

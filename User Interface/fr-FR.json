@@ -352,7 +352,8 @@
       "winning_team": "Quelle équipe a gagné ?",
       "sending": "Envoi en cours...",
       "success": "Partie exportée avec succès vers Clocktracker !",
-      "error": "Échec de l'export de la partie vers Clocktracker"
+      "error": "Échec de l'export de la partie vers Clocktracker",
+      "player_order": "Ordre des joueurs"
     },
     "night_icons": {
       "title": "Icônes de l'ordre de nuit",

@@ -361,7 +361,8 @@
       "winning_team": "¿Qué equipo ganó?",
       "sending": "Enviando...",
       "success": "¡Partida exportada correctamente a Clocktracker!",
-      "error": "Error al exportar la partida a Clocktracker"
+      "error": "Error al exportar la partida a Clocktracker",
+      "player_order": "Orden de jugadores"
     },
     "night_icons": {
       "title": "Iconos del Orden Nocturno",
