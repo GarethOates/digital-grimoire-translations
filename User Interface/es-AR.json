@@ -142,7 +142,9 @@
       "title": "Añadir rol",
       "travellers_to_show": "Viajeros a mostrar",
       "edition": "Edición",
-      "all": "Todos"
+      "all": "Todos",
+      "on_script": "En el guión",
+      "available": "Disponibles"
     },
     "advanced_search": {
       "title": "Búsqueda avanzada",
@@ -607,6 +609,7 @@
     "error_name_taken": "Ya hay alguien con ese nombre en esta sesión",
     "error_connection_lost": "Se perdió la conexión a la sesión",
     "error_no_role": "No se te asignó ningún rol",
+    "error_session_expired": "La sesión expiró o ya no está disponible",
     "connecting": "Conectando...",
     "connecting_to_session": "Conectando a la sesión...",
     "connected_successfully": "¡Conexión lograda!",

@@ -133,7 +133,9 @@
       "title": "Ajouter un rôle",
       "travellers_to_show": "Voyageurs à afficher",
       "edition": "Édition",
-      "all": "Tous"
+      "all": "Tous",
+      "on_script": "Dans le script",
+      "available": "Disponibles"
     },
     "advanced_search": {
       "title": "Recherche avancée",
@@ -607,6 +609,7 @@
     "error_name_taken": "Ce nom de joueur est déjà utilisé dans cette session",
     "error_connection_lost": "La connexion à la session a été perdue",
     "error_no_role": "Aucun rôle ne vous a été attribué",
+    "error_session_expired": "La session a expiré ou n'est plus disponible",
     "connecting": "Connexion...",
     "connecting_to_session": "Connexion à la session...",
     "connected_successfully": "Connecté avec succès !",

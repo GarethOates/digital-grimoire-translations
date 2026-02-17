@@ -133,7 +133,9 @@
       "title": "Legg til rolle",
       "travellers_to_show": "Reisende som skal vises",
       "edition": "Utgave",
-      "all": "Alle"
+      "all": "Alle",
+      "on_script": "I skriptet",
+      "available": "Tilgjengelig"
     },
     "advanced_search": {
       "title": "Avansert søk",
@@ -607,6 +609,7 @@
     "error_name_taken": "Det spillernavnet er allerede tatt i denne økten",
     "error_connection_lost": "Tilkoblingen til økten ble brutt",
     "error_no_role": "Ingen rolle ble tildelt deg",
+    "error_session_expired": "Økten har utløpt eller er ikke lenger tilgjengelig",
     "connecting": "Kobler til...",
     "connecting_to_session": "Kobler til økt...",
     "connected_successfully": "Tilkobling vellykket!",

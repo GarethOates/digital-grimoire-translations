@@ -142,7 +142,9 @@
       "title": "Add Role",
       "travellers_to_show": "Travellers to show",
       "edition": "Edition",
-      "all": "All"
+      "all": "All",
+      "on_script": "On Script",
+      "available": "Available"
     },
     "advanced_search": {
       "title": "Advanced Search",
@@ -609,6 +611,7 @@
     "error_name_taken": "That player name is already taken in this session",
     "error_connection_lost": "Connection to session was lost",
     "error_no_role": "No role was assigned to you",
+    "error_session_expired": "Session has expired or is no longer available",
     "connecting": "Connecting...",
     "connecting_to_session": "Connecting to session...",
     "connected_successfully": "Connected Successfully!",

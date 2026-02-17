@@ -142,7 +142,9 @@
       "title": "Rolle hinzufügen",
       "travellers_to_show": "Reisende anzeigen",
       "edition": "Edition",
-      "all": "Alle"
+      "all": "Alle",
+      "on_script": "Im Skript",
+      "available": "Verfügbar"
     },
     "advanced_search": {
       "title": "Erweiterte Suche",
@@ -607,6 +609,7 @@
     "error_name_taken": "Dieser Spielername ist in dieser Sitzung bereits vergeben",
     "error_connection_lost": "Verbindung zur Sitzung wurde unterbrochen",
     "error_no_role": "Dir wurde keine Rolle zugewiesen",
+    "error_session_expired": "Sitzung ist abgelaufen oder nicht mehr verfügbar",
     "connecting": "Verbinde...",
     "connecting_to_session": "Verbinde mit Sitzung...",
     "connected_successfully": "Erfolgreich verbunden!",

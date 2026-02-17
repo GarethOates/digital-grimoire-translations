@@ -142,7 +142,9 @@
       "title": "Добавить роль",
       "travellers_to_show": "Странники для отображения",
       "edition": "Сценарий",
-      "all": "Все"
+      "all": "Все",
+      "on_script": "В сценарии",
+      "available": "Доступные"
     },
     "advanced_search": {
       "title": "Расширенный поиск",
@@ -607,6 +609,7 @@
     "error_name_taken": "Это имя уже занято в данной сессии",
     "error_connection_lost": "Соединение потеряно",
     "error_no_role": "Вам не назначена роль",
+    "error_session_expired": "Сессия истекла или больше недоступна",
     "connecting": "Подключение...",
     "connecting_to_session": "Подключение к сессии...",
     "connected_successfully": "Успешно подключено!",

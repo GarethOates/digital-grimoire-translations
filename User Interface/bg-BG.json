@@ -143,7 +143,9 @@
       "title": "Добави роля",
       "travellers_to_show": "Предложени Пътници",
       "edition": "Сценарий",
-      "all": "Всички"
+      "all": "Всички",
+      "on_script": "В сценария",
+      "available": "Налични"
     },
     "advanced_search": {
       "title": "Разширено търсене",
@@ -611,6 +613,7 @@
     "error_name_taken": "Това име вече е заето в тази игра",
     "error_connection_lost": "Връзката с играта се изгуби",
     "error_no_role": "Не ти е зачислена роля",
+    "error_session_expired": "Играта е изтекла или вече не е налична",
     "connecting": "Присъединяване...",
     "connecting_to_session": "Присъединяване към игра...",
     "connected_successfully": "Успешно присъединен!",
