@@ -2633,6 +2633,19 @@
         "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
     },
     {
+        "id": "ventriloquist",
+        "reminders": [
+            "Điên"
+        ],
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "setup": false,
+        "name": "Ventriloquist",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Nếu một người chơi điên rằng mình là một nhân vật mới trong lúc được đề cử, họ có thể không chết nếu bị hành quyết hôm nay."
+    },
+    {
         "id": "zenomancer",
         "firstNightReminder": "",
         "otherNightReminder": "",

@@ -2625,6 +2625,19 @@
         "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
     },
     {
+        "id": "ventriloquist",
+        "reminders": [
+            "Mad"
+        ],
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "setup": false,
+        "name": "Ventriloquist",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Jika seorang pemain Mad menjadi karakter baru selama nominasinya, mereka mungkin tidak mati jika dieksekusi hari ini."
+    },
+    {
         "id": "zenomancer",
         "firstNightReminder": "",
         "otherNightReminder": "",

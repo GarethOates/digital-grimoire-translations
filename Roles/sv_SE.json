@@ -2633,6 +2633,19 @@
         "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
     },
     {
+        "id": "ventriloquist",
+        "reminders": [
+            "Rabiat"
+        ],
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "setup": false,
+        "name": "Ventriloquist",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Om en spelare är rabiat om att vara en ny roll under sin nominering kanske hen inte dör om hen avrättas idag."
+    },
+    {
         "id": "zenomancer",
         "firstNightReminder": "",
         "otherNightReminder": "",

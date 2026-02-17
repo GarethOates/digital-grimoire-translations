@@ -2632,6 +2632,19 @@
         "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
     },
     {
+        "id": "ventriloquist",
+        "reminders": [
+            "Alucinando"
+        ],
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "setup": false,
+        "name": "Ventriloquist",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Se um jogador está alucinando ser um novo personagem durante sua nomeação, ele pode não morrer se for executado hoje."
+    },
+    {
         "id": "zenomancer",
         "firstNightReminder": "",
         "otherNightReminder": "",

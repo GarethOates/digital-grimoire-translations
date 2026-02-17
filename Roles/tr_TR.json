@@ -2633,6 +2633,19 @@
         "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
     },
     {
+        "id": "ventriloquist",
+        "reminders": [
+            "Deli"
+        ],
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "setup": false,
+        "name": "Ventriloquist",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Eğer bir oyuncu adaylığı sırasında yeni bir karakter olma konusunda deliyse, bugün idam edildiğinde ölmeyebilir."
+    },
+    {
         "id": "zenomancer",
         "firstNightReminder": "",
         "otherNightReminder": "",

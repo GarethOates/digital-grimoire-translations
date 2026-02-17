@@ -2633,6 +2633,19 @@
         "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
     },
     {
+        "id": "ventriloquist",
+        "reminders": [
+            "เพ้อ"
+        ],
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "setup": false,
+        "name": "Ventriloquist",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "หากผู้เล่นเพ้อว่าเป็นตัวละครใหม่ระหว่างการเสนอชื่อ พวกเขาอาจไม่ตายหากถูกประหารในวันนี้"
+    },
+    {
         "id": "zenomancer",
         "firstNightReminder": "",
         "otherNightReminder": "",

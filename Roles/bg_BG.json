@@ -3271,6 +3271,19 @@
         "ability": "Всеки номиниран избира играч. До момента на гласуване, само той може да говори и се преструва, че номинираният е добър или може да умре."
     },
     {
+        "id": "ventriloquist",
+        "reminders": [
+            "Луд"
+        ],
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "setup": false,
+        "name": "Ventriloquist",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Ако играч е луд, че е нов персонаж по време на номинацията си, той може да не умре, ако бъде екзекутиран днес."
+    },
+    {
         "id": "zenomancer",
         "firstNightReminder": "",
         "otherNightReminder": "",

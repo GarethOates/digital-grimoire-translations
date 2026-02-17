@@ -2640,6 +2640,19 @@
         "ability": "Cada jugador nominado elige un jugador: hasta que se vote, solamente él puede hablar y está 'enloquecido' que el nominado es bueno o, si no, puede que muera."
     },
     {
+        "id": "ventriloquist",
+        "reminders": [
+            "Enloquecido"
+        ],
+        "firstNightReminder": "",
+        "otherNightReminder": "",
+        "setup": false,
+        "name": "Ventriloquist",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Si un jugador está enloquecido de ser un personaje nuevo durante su nominación, podría no morir si es ejecutado hoy."
+    },
+    {
         "id": "zenomancer",
         "firstNightReminder": "",
         "otherNightReminder": "",
