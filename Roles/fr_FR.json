@@ -530,7 +530,7 @@
         "otherNightReminder": "Désigne 2 joueurs. Ceux-ci sont protégés cette nuit, mais l'un d’eux est ivre jusqu’au crépuscule.",
         "reminders": [
             "Ivre",
-            "Ivre",
+            "Protégé Nuit",
             "Protégé Nuit"
         ],
         "setup": false,
