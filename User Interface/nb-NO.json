@@ -417,6 +417,7 @@
     "disallow": "Ikke tillat",
     "all": "Alle",
     "draw_tokens": "Trekk brikker",
+    "draft_tokens": "Draft roller",
     "select_more_roles": "Velg {count} flere roller for å fortsette",
     "setup_warning": "Noen valgte roller kan endre byens sammensetning. Vennligst se over før du fortsetter.",
     "multiple_demons_warning": "Du har to demoner i posen.",
@@ -475,7 +476,9 @@
     "notes_for": "Notater for {name}",
     "notes_placeholder": "Legg til eventuelle egendefinerte notater her...",
     "save_notes": "Lagre notater",
-    "game_notes": "Spillnotater"
+    "game_notes": "Spillnotater",
+    "viewing_history": "Viser historikk",
+    "history_tracking": "Historikk"
   },
   "draw_tokens": {
     "random_draw": "Tilfeldig trekking",
@@ -529,7 +532,15 @@
     "enter_player_name": "Skriv inn spillernavn",
     "quick_select": "Hurtigvalg:",
     "assign_role_button": "Tildel rolle",
-    "auto_name": "Autonavn"
+    "draft_mode": "Draft",
+    "draft": "Draft",
+    "draft_description": "Spillerne velger etter tur blant opptil 3 brikker",
+    "start_draft": "Start draft",
+    "wake_player": "Vekk plass {number}",
+    "choose_role": "Velg en rolle",
+    "draft_complete": "Alle roller er valgt",
+    "resume_draft": "Fortsett draft",
+    "restart_draft": "Start draft på nytt"
   },
   "town": {
     "toggle_widgets": "Veksle widgeter",

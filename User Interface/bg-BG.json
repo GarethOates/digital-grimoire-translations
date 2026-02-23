@@ -421,6 +421,7 @@
     "disallow": "Забрани",
     "all": "Всички",
     "draw_tokens": "Раздай токени",
+    "draft_tokens": "Драфт на роли",
     "select_more_roles": "Избери още {count} роли, за да продължиш",
     "setup_warning": "Някои от избраните роли може да повлияят на разпределението в града. Моля прегледай ги преди да продължиш.",
     "multiple_demons_warning": "Избрани са няколко демона, без това да е позволено.",
@@ -479,7 +480,9 @@
     "notes_for": "Бележки за {name}",
     "notes_placeholder": "Добави собствени бележки тук...",
     "save_notes": "Запази бележките",
-    "game_notes": "Бележки за играта"
+    "game_notes": "Бележки за играта",
+    "viewing_history": "Преглед на историята",
+    "history_tracking": "История"
   },
   "draw_tokens": {
     "random_draw": "Случайно разпределение",
@@ -533,7 +536,15 @@
     "enter_player_name": "Въведи име на играча",
     "quick_select": "Бърз избор:",
     "assign_role_button": "Зачисли роля",
-    "auto_name": "Наименовай автоматично"
+    "draft_mode": "Драфт",
+    "draft": "Драфт",
+    "draft_description": "Играчите избират на ред от максимум 3 жетона",
+    "start_draft": "Започни драфт",
+    "wake_player": "Събуди място {number}",
+    "choose_role": "Избери роля",
+    "draft_complete": "Всички роли са избрани",
+    "resume_draft": "Продължи драфт",
+    "restart_draft": "Започни драфта отначало"
   },
   "town": {
     "toggle_widgets": "Добави уиджети",

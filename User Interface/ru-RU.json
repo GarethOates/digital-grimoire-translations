@@ -417,6 +417,7 @@
     "disallow": "Запретить",
     "all": "Все",
     "draw_tokens": "Тянуть жетоны",
+    "draft_tokens": "Драфт ролей",
     "select_more_roles": "Выберите ещё {count} ролей для продолжения",
     "setup_warning": "Некоторые выбранные роли могут изменить состав города. Проверьте перед продолжением.",
     "multiple_demons_warning": "Обнаружено несколько демонов, которые не допускают множественные экземпляры.",
@@ -475,7 +476,9 @@
     "notes_for": "Заметки: {name}",
     "notes_placeholder": "Введите свои заметки здесь...",
     "save_notes": "Сохранить заметки",
-    "game_notes": "Заметки об игре"
+    "game_notes": "Заметки об игре",
+    "viewing_history": "Просмотр истории",
+    "history_tracking": "История"
   },
   "draw_tokens": {
     "random_draw": "Случайная выдача",
@@ -529,7 +532,15 @@
     "enter_player_name": "Введите имя",
     "quick_select": "Быстрый выбор:",
     "assign_role_button": "Назначить роль",
-    "auto_name": "Автоимя"
+    "draft_mode": "Драфт",
+    "draft": "Драфт",
+    "draft_description": "Игроки по очереди выбирают из максимум 3 жетонов",
+    "start_draft": "Начать драфт",
+    "wake_player": "Разбудить место {number}",
+    "choose_role": "Выберите роль",
+    "draft_complete": "Все роли разобраны",
+    "resume_draft": "Продолжить драфт",
+    "restart_draft": "Перезапустить драфт"
   },
   "town": {
     "toggle_widgets": "Показать/скрыть виджеты",

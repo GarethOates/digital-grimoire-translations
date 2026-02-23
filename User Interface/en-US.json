@@ -419,6 +419,7 @@
     "disallow": "Disallow",
     "all": "All",
     "draw_tokens": "Draw Tokens",
+    "draft_tokens": "Draft Roles",
     "select_more_roles": "Select {count} more roles to continue",
     "setup_warning": "Some chosen roles may alter the town composition. Please review before continuing.",
     "multiple_demons_warning": "Multiple demons detected that don't allow multiple instances.",
@@ -476,7 +477,9 @@
     "notes_for": "Notes for {name}",
     "notes_placeholder": "Add any custom notes here...",
     "save_notes": "Save Notes",
-    "game_notes": "Game Notes"
+    "game_notes": "Game Notes",
+    "viewing_history": "Viewing History",
+    "history_tracking": "View History"
   },
   "draw_tokens": {
     "random_draw": "Random Draw",
@@ -530,7 +533,15 @@
     "enter_player_name": "Enter player name",
     "quick_select": "Quick Select:",
     "assign_role_button": "Assign Role",
-    "auto_name": "Auto Name"
+    "draft_mode": "Draft",
+    "draft": "Draft",
+    "draft_description": "Players take turns choosing from up to 3 tokens",
+    "start_draft": "Start Draft",
+    "wake_player": "Wake Seat {number}",
+    "choose_role": "Choose a Role",
+    "draft_complete": "All roles have been drafted",
+    "resume_draft": "Resume Draft",
+    "restart_draft": "Restart Draft"
   },
   "town": {
     "toggle_widgets": "Toggle Widgets",

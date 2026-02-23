@@ -417,6 +417,7 @@
     "disallow": "Interdire",
     "all": "Tous",
     "draw_tokens": "Tirer les jetons",
+    "draft_tokens": "Draft des rôles",
     "select_more_roles": "Sélectionnez {count} rôles de plus pour continuer",
     "setup_warning": "Certains rôles choisis peuvent modifier la composition du village. Veuillez vérifier avant de continuer.",
     "multiple_demons_warning": "Plusieurs démons détectés qui n'autorisent pas plusieurs instances.",
@@ -475,7 +476,9 @@
     "notes_for": "Notes pour {name}",
     "notes_placeholder": "Ajoutez des notes personnalisées ici...",
     "save_notes": "Enregistrer les notes",
-    "game_notes": "Notes de partie"
+    "game_notes": "Notes de partie",
+    "viewing_history": "Consultation de l'historique",
+    "history_tracking": "Historique"
   },
   "draw_tokens": {
     "random_draw": "Tirage aléatoire",
@@ -529,7 +532,15 @@
     "enter_player_name": "Entrez le nom du joueur",
     "quick_select": "Sélection rapide:",
     "assign_role_button": "Attribuer le rôle",
-    "auto_name": "Nom automatique"
+    "draft_mode": "Draft",
+    "draft": "Draft",
+    "draft_description": "Les joueurs choisissent à tour de rôle parmi un maximum de 3 jetons",
+    "start_draft": "Commencer le draft",
+    "wake_player": "Réveiller place {number}",
+    "choose_role": "Choisissez un rôle",
+    "draft_complete": "Tous les rôles ont été choisis",
+    "resume_draft": "Reprendre le draft",
+    "restart_draft": "Recommencer le draft"
   },
   "town": {
     "toggle_widgets": "Basculer les widgets",

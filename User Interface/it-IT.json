@@ -419,6 +419,7 @@
     "disallow": "Non consentire",
     "all": "Tutti",
     "draw_tokens": "Pesca i Gettoni",
+    "draft_tokens": "Scegli i Ruoli",
     "select_more_roles": "Seleziona altri {count} ruoli per continuare",
     "setup_warning": "Alcuni ruoli selezionati potrebbero modificare la composizione del villaggio. Controlla prima di continuare.",
     "multiple_demons_warning": "Rilevati più Demoni che non consentono istanze multiple.",
@@ -476,7 +477,9 @@
     "notes_for": "Note per {name}",
     "notes_placeholder": "Aggiungi note personalizzate qui...",
     "save_notes": "Salva Note",
-    "game_notes": "Note della Partita"
+    "game_notes": "Note della Partita",
+    "viewing_history": "Visualizza Cronologia",
+    "history_tracking": "Cronologia"
   },
   "draw_tokens": {
     "random_draw": "Pesca Casuale",
@@ -530,7 +533,16 @@
     "enter_player_name": "Inserisci nome giocatore",
     "quick_select": "Selezione Rapida:",
     "assign_role_button": "Assegna Ruolo",
-    "auto_name": "Nome Automatico"
+    "auto_name": "Nome Automatico",
+    "draft_mode": "Draft",
+    "draft": "Draft",
+    "draft_description": "I giocatori scelgono a turno tra un massimo di 3 gettoni",
+    "start_draft": "Inizia Draft",
+    "wake_player": "Sveglia Posto {number}",
+    "choose_role": "Scegli un Ruolo",
+    "draft_complete": "Tutti i ruoli sono stati scelti",
+    "resume_draft": "Riprendi Draft",
+    "restart_draft": "Ricomincia Draft"
   },
   "town": {
     "toggle_widgets": "Mostra/Nascondi Widgets",

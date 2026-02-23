@@ -417,6 +417,7 @@
     "disallow": "Verbieten",
     "all": "Alle",
     "draw_tokens": "Token ziehen",
+    "draft_tokens": "Rollen-Draft",
     "select_more_roles": "Wählen Sie {count} weitere Rollen aus, um fortzufahren",
     "setup_warning": "Einige ausgewählte Rollen können die Stadtzusammensetzung ändern. Bitte überprüfen Sie dies, bevor Sie fortfahren.",
     "multiple_demons_warning": "Mehrere Dämonen erkannt, die keine mehrfachen Instanzen zulassen.",
@@ -475,7 +476,9 @@
     "notes_for": "Notizen für {name}",
     "notes_placeholder": "Fügen Sie hier benutzerdefinierte Notizen hinzu...",
     "save_notes": "Notizen speichern",
-    "game_notes": "Spielnotizen"
+    "game_notes": "Spielnotizen",
+    "viewing_history": "Verlauf anzeigen",
+    "history_tracking": "Verlauf"
   },
   "draw_tokens": {
     "random_draw": "Zufällige Ziehung",
@@ -529,7 +532,15 @@
     "enter_player_name": "Spielernamen eingeben",
     "quick_select": "Schnellauswahl:",
     "assign_role_button": "Rolle zuweisen",
-    "auto_name": "Auto-Name"
+    "draft_mode": "Draft",
+    "draft": "Draft",
+    "draft_description": "Spieler wählen abwechselnd aus bis zu 3 Spielsteinen",
+    "start_draft": "Draft starten",
+    "wake_player": "Platz {number} wecken",
+    "choose_role": "Wähle eine Rolle",
+    "draft_complete": "Alle Rollen wurden gewählt",
+    "resume_draft": "Draft fortsetzen",
+    "restart_draft": "Draft neu starten"
   },
   "town": {
     "toggle_widgets": "Widgets umschalten",

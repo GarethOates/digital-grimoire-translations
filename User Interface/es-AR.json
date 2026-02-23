@@ -417,6 +417,7 @@
     "disallow": "Impedir",
     "all": "Todas",
     "draw_tokens": "Robar fichas",
+    "draft_tokens": "Draft de roles",
     "select_more_roles": "Seleccioná {count} roles más para continuar",
     "setup_warning": "Algunos de los roles elegidos alteran la composición del pueblo. Por favor, revisalos antes de continuar.",
     "multiple_demons_warning": "Se detectaron múltiples Demonios sin justificación mecánica.",
@@ -475,7 +476,9 @@
     "notes_for": "Notas para {name}",
     "notes_placeholder": "Añadí notas personalizadas acá...",
     "save_notes": "Guardar notas",
-    "game_notes": "Notas de la partida"
+    "game_notes": "Notas de la partida",
+    "viewing_history": "Viendo Historial",
+    "history_tracking": "Historial"
   },
   "draw_tokens": {
     "random_draw": "Robo aleatorio de fichas",
@@ -529,7 +532,15 @@
     "enter_player_name": "Ingresá el nombre del jugador",
     "quick_select": "Selección rápida:",
     "assign_role_button": "Asignar rol",
-    "auto_name": "Nombre automático"
+    "draft_mode": "Draft",
+    "draft": "Draft",
+    "draft_description": "Los jugadores eligen por turnos entre un máximo de 3 fichas",
+    "start_draft": "Iniciar Draft",
+    "wake_player": "Despertar Asiento {number}",
+    "choose_role": "Elegí un Rol",
+    "draft_complete": "Todos los roles fueron elegidos",
+    "resume_draft": "Reanudar Draft",
+    "restart_draft": "Reiniciar Draft"
   },
   "town": {
     "toggle_widgets": "Alternar widgets",
