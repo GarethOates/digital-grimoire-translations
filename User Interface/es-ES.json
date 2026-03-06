@@ -191,7 +191,9 @@
       "message": "Mensaje",
       "background_colour": "Color de Fondo",
       "text_colour": "Color de Texto",
-      "select_character_enabled": "¿Selección de Personaje Habilitada?"
+      "select_character_enabled": "¿Selección de Personaje Habilitada?",
+      "link_roles": "Vincular Roles",
+      "linked_roles": "Roles Vinculados"
     },
     "delete_town": {
       "title": "¿Eliminar Pueblo?",
@@ -579,7 +581,8 @@
     "yes_show_grim": "Sí, Mostrar Grim",
     "reveal_separately": "Revelar por separado",
     "tap_to_reveal": "Toca las fichas para revelar roles",
-    "widget_dark_background": "Fondos oscuros de widgets"
+    "widget_dark_background": "Fondos oscuros de widgets",
+    "edit_night_icons": "Editar Iconos del Orden Nocturno..."
   },
   "cards": {
     "this_is_the_demon": "ESTE ES EL DEMONIO",

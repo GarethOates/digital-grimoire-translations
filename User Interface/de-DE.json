@@ -191,7 +191,9 @@
       "message": "Nachricht",
       "background_colour": "Hintergrundfarbe",
       "text_colour": "Textfarbe",
-      "select_character_enabled": "Charakterauswahl aktiviert?"
+      "select_character_enabled": "Charakterauswahl aktiviert?",
+      "link_roles": "Rollen verknüpfen",
+      "linked_roles": "Verknüpfte Rollen"
     },
     "delete_town": {
       "title": "Stadt löschen?",
@@ -579,7 +581,8 @@
     "yes_show_grim": "Ja, Grimoire anzeigen",
     "reveal_separately": "Einzeln enthüllen",
     "tap_to_reveal": "Tippen Sie auf Token, um Rollen zu enthüllen",
-    "widget_dark_background": "Dunkle Widget-Hintergründe"
+    "widget_dark_background": "Dunkle Widget-Hintergründe",
+    "edit_night_icons": "Nachtordnung-Symbole bearbeiten..."
   },
   "cards": {
     "this_is_the_demon": "DIES IST DER DÄMON",

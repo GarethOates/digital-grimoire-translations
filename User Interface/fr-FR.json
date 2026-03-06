@@ -182,7 +182,9 @@
       "message": "Message",
       "background_colour": "Couleur de fond",
       "text_colour": "Couleur du texte",
-      "select_character_enabled": "Sélection de rôle activée ?"
+      "select_character_enabled": "Sélection de rôle activée ?",
+      "link_roles": "Lier des rôles",
+      "linked_roles": "Rôles liés"
     },
     "delete_town": {
       "title": "Supprimer le village ?",
@@ -579,7 +581,8 @@
     "yes_show_grim": "Oui, afficher le Grimoire",
     "reveal_separately": "Révéler séparément",
     "tap_to_reveal": "Touchez les jetons pour révéler les rôles",
-    "widget_dark_background": "Fonds sombres des widgets"
+    "widget_dark_background": "Fonds sombres des widgets",
+    "edit_night_icons": "Modifier les icônes de l'ordre de nuit..."
   },
   "cards": {
     "this_is_the_demon": "VOICI LE DÉMON",

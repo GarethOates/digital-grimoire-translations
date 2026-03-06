@@ -191,7 +191,9 @@
       "message": "Сообщение",
       "background_colour": "Цвет фона",
       "text_colour": "Цвет текста",
-      "select_character_enabled": "Разрешить выбор персонажа?"
+      "select_character_enabled": "Разрешить выбор персонажа?",
+      "link_roles": "Связать роли",
+      "linked_roles": "Связанные роли"
     },
     "delete_town": {
       "title": "Удалить город?",
@@ -579,7 +581,8 @@
     "yes_show_grim": "Да, показать Гримуар",
     "reveal_separately": "Открывать по отдельности",
     "tap_to_reveal": "Нажмите на жетоны, чтобы раскрыть роли",
-    "widget_dark_background": "Тёмный фон виджетов"
+    "widget_dark_background": "Тёмный фон виджетов",
+    "edit_night_icons": "Изменить иконки ночного порядка..."
   },
   "cards": {
     "this_is_the_demon": "ЭТО ДЕМОН",

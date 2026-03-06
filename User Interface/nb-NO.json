@@ -182,7 +182,9 @@
       "message": "Melding",
       "background_colour": "Bakgrunnsfarge",
       "text_colour": "Tekstfarge",
-      "select_character_enabled": "Karaktervalg aktivert?"
+      "select_character_enabled": "Karaktervalg aktivert?",
+      "link_roles": "Lenke roller",
+      "linked_roles": "Koblede roller"
     },
     "delete_town": {
       "title": "Slette by?",
@@ -579,7 +581,8 @@
     "yes_show_grim": "Ja, vis Grimoiren",
     "reveal_separately": "Avslør separat",
     "tap_to_reveal": "Trykk på brikker for å avsløre roller",
-    "widget_dark_background": "Mørk widget-bakgrunn"
+    "widget_dark_background": "Mørk widget-bakgrunn",
+    "edit_night_icons": "Rediger nattrekkefølge-ikoner..."
   },
   "cards": {
     "this_is_the_demon": "DETTE ER DEMONEN",

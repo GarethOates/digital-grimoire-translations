@@ -191,7 +191,9 @@
       "message": "Mensaje",
       "background_colour": "Color del fondo",
       "text_colour": "Color del texto",
-      "select_character_enabled": "¿Permitir seleccionar personaje/s?"
+      "select_character_enabled": "¿Permitir seleccionar personaje/s?",
+      "link_roles": "Vincular roles",
+      "linked_roles": "Roles vinculados"
     },
     "delete_town": {
       "title": "¿Borrar pueblo?",
@@ -579,7 +581,8 @@
     "yes_show_grim": "Si, mostrar Grimorio",
     "reveal_separately": "Revelar los roles de uno en uno",
     "tap_to_reveal": "Tocá las fichas para irlas revelando",
-    "widget_dark_background": "Fondos oscuros de widgets"
+    "widget_dark_background": "Fondos oscuros de widgets",
+    "edit_night_icons": "Editar iconos del orden nocturno..."
   },
   "cards": {
     "this_is_the_demon": "ESTE ES EL DEMONIO",
