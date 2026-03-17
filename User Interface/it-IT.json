@@ -389,8 +389,8 @@
   },
   "roles": {
     "townsfolk": "Cittadino",
-    "outsider": "Forestiero",
-    "minion": "Sgherro",
+    "outsider": "Emarginato",
+    "minion": "Seguace",
     "demon": "Demone",
     "traveller": "Viaggiatore",
     "fabled": "Fiabeschi",
@@ -399,10 +399,10 @@
     "dawn_name": "Alba",
     "dusk_reminder": "Inizia la Fase Notte",
     "dawn_reminder": "Attendi qualche secondo. Termina la Fase Notte.",
-    "minion_info_player": "Info Sgherri",
-    "minion_info_first_night_reminder": "Se ci sono 7 o più giocatori, sveglia tutti gli Sgherri:\n\tMostra la carta *QUESTO È IL DEMONE*. Indica il Demone.\n\tMostra la carta *QUESTI SONO I TUOI SGHERRI*. Indica gli altri Sgherri.",
+    "minion_info_player": "Info Seguaci",
+    "minion_info_first_night_reminder": "Se ci sono 7 o più giocatori, sveglia tutti gli Seguaci:\n\tMostra la carta *QUESTO È IL DEMONE*. Indica il Demone.\n\tMostra la carta *QUESTI SONO I TUOI SEGUACI*. Indica gli altri Seguaci.",
     "demon_info_player": "Info Demone",
-    "demon_info_first_night_reminder": "Se ci sono 7 o più giocatori, sveglia il Demone:\n\tMostra la carta *QUESTI SONO I TUOI SGHERRI*. Indica tutti gli Sgherri.\n\tMostra la carta *QUESTI PERSONAGGI NON SONO IN GIOCO*. Mostra i gettoni di 3 personaggi buoni non-in-gioco."
+    "demon_info_first_night_reminder": "Se ci sono 7 o più giocatori, sveglia il Demone:\n\tMostra la carta *QUESTI SONO I TUOI SEGUACI*. Indica tutti gli Seguaci.\n\tMostra la carta *QUESTI PERSONAGGI NON SONO IN GIOCO*. Mostra i gettoni di 3 personaggi buoni non-in-gioco."
   },
   "setup": {
     "choose_script": "Scegli il Copione",
@@ -587,7 +587,7 @@
   },
   "cards": {
     "this_is_the_demon": "QUESTO È IL DEMONE",
-    "these_are_your_minions": "QUESTI SONO I TUOI SGHERRI",
+    "these_are_your_minions": "QUESTI SONO I TUOI SEGUACI",
     "this_character_selected_you": "QUESTO PERSONAGGIO HA SCELTO TE",
     "this_player_is": "QUESTO GIOCATORE È",
     "you_are": "TU SEI",
