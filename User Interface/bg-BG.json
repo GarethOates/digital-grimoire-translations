@@ -16,6 +16,7 @@
     "all": "Всички",
     "layout": "Разположение",
     "leaves": "листенцата",
+    "player_numbers": "Номера на играчите",
     "flip": "Обърни хоризонтално",
     "circle": "Кръг",
     "ellipse": "Елипса",
@@ -89,11 +90,14 @@
     "settings": {
       "title": "Настройки",
       "token_size": "Размер на токените",
+      "reminder_size": "Размер на напомнянията",
       "abilities": "уменията",
       "travellers": "Пътници",
       "enter_fullscreen": "Превключи на цял екран",
       "exit_fullscreen": "Излез от цял екран",
-      "about": "За нас..."
+      "about": "За нас...",
+      "official_icons": "Официални икони",
+      "playtest_icons": "Тестови икони"
     },
     "login": "Вход",
     "mobile": {
@@ -582,6 +586,7 @@
     "yes_show_grim": "Да, покажи Гримоар",
     "reveal_separately": "Разкрий отделно",
     "tap_to_reveal": "Натисни върху токените, за да разкриеш ролята",
+    "reveal_all": "Разкрий всичко",
     "widget_dark_background": "Тъмен фон на уиджети",
     "edit_night_icons": "Редактирай иконите за нощния ред..."
   },

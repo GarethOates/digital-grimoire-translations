@@ -16,6 +16,7 @@
     "all": "Tous",
     "layout": "Disposition",
     "leaves": "Feuilles",
+    "player_numbers": "Numéros des joueurs",
     "flip": "Inverser horizontalement",
     "circle": "Cercle",
     "ellipse": "Ellipse",
@@ -80,11 +81,14 @@
     "settings": {
       "title": "Paramètres",
       "token_size": "Taille des jeton",
+      "reminder_size": "Taille des rappels",
       "abilities": "Capacités",
       "travellers": "Voyageurs",
       "enter_fullscreen": "Passer en plein écran",
       "exit_fullscreen": "Quitter le plein écran",
-      "about": "À propos..."
+      "about": "À propos...",
+      "official_icons": "Icônes officielles",
+      "playtest_icons": "Icônes de playtest"
     },
     "login": "Connexion",
     "mobile": {
@@ -582,6 +586,7 @@
     "yes_show_grim": "Oui, afficher le Grimoire",
     "reveal_separately": "Révéler séparément",
     "tap_to_reveal": "Touchez les jetons pour révéler les rôles",
+    "reveal_all": "Tout révéler",
     "widget_dark_background": "Fonds sombres des widgets",
     "edit_night_icons": "Modifier les icônes de l'ordre de nuit..."
   },

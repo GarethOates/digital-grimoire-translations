@@ -16,6 +16,7 @@
     "all": "Все",
     "layout": "Рассадка",
     "leaves": "Листья",
+    "player_numbers": "Номера игроков",
     "flip": "Перевернуть горизонтально",
     "circle": "Круг",
     "ellipse": "Эллипс",
@@ -89,11 +90,14 @@
     "settings": {
       "title": "Настройки",
       "token_size": "Размер жетонов",
+      "reminder_size": "Размер напоминаний",
       "abilities": "Способности",
       "travellers": "Странников",
       "enter_fullscreen": "Во весь экран",
       "exit_fullscreen": "Выйти из полного экрана",
-      "about": "О программе..."
+      "about": "О программе...",
+      "official_icons": "Официальные иконки",
+      "playtest_icons": "Тестовые иконки"
     },
     "login": "Войти",
     "mobile": {
@@ -582,6 +586,7 @@
     "yes_show_grim": "Да, показать Гримуар",
     "reveal_separately": "Открывать по отдельности",
     "tap_to_reveal": "Нажмите на жетоны, чтобы раскрыть роли",
+    "reveal_all": "Открыть всё",
     "widget_dark_background": "Тёмный фон виджетов",
     "edit_night_icons": "Изменить иконки ночного порядка..."
   },

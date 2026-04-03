@@ -16,6 +16,7 @@
     "all": "Alle",
     "layout": "Oppsett",
     "leaves": "Blader",
+    "player_numbers": "Spillernumre",
     "flip": "Snu horisontalt",
     "circle": "Sirkel",
     "ellipse": "Ellipse",
@@ -80,11 +81,14 @@
     "settings": {
       "title": "Innstillinger",
       "token_size": "Brikkestørrelse",
+      "reminder_size": "Påminnelsesstørrelse",
       "abilities": "Evner",
       "travellers": "Reisende",
       "enter_fullscreen": "Gå til fullskjerm",
       "exit_fullscreen": "Avslutt fullskjerm",
-      "about": "Om..."
+      "about": "Om...",
+      "official_icons": "Offisielle ikoner",
+      "playtest_icons": "Spilltest-ikoner"
     },
     "login": "Logg inn",
     "mobile": {
@@ -582,6 +586,7 @@
     "yes_show_grim": "Ja, vis Grimoiren",
     "reveal_separately": "Avslør separat",
     "tap_to_reveal": "Trykk på brikker for å avsløre roller",
+    "reveal_all": "Avslør alle",
     "widget_dark_background": "Mørk widget-bakgrunn",
     "edit_night_icons": "Rediger nattrekkefølge-ikoner..."
   },

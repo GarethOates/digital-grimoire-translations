@@ -16,6 +16,7 @@
     "all": "Tutti",
     "layout": "Disposizione",
     "leaves": "Foglie",
+    "player_numbers": "Numeri dei Giocatori",
     "flip": "Specchia Orizzontalmente",
     "circle": "Cerchio",
     "ellipse": "Ellisse",
@@ -89,11 +90,14 @@
     "settings": {
       "title": "Impostazioni",
       "token_size": "Dimensione Gettoni",
+      "reminder_size": "Dimensione Promemoria",
       "abilities": "Abilità",
       "travellers": "Viaggiatori",
       "enter_fullscreen": "Schermo intero",
       "exit_fullscreen": "Esci da Schermo intero",
-      "about": "Informazioni..."
+      "about": "Informazioni...",
+      "official_icons": "Icone ufficiali",
+      "playtest_icons": "Icone di playtest"
     },
     "login": "Accesso",
     "mobile": {
@@ -582,6 +586,7 @@
     "yes_show_grim": "Sì, mostra il Grimorio",
     "reveal_separately": "Rivela Separatamente",
     "tap_to_reveal": "Tocca i gettoni per rivelare i ruoli",
+    "reveal_all": "Rivela Tutto",
     "widget_dark_background": "Sfondi Scuri Widget",
     "edit_night_icons": "Modifica Icone Ordine Notte..."
   },

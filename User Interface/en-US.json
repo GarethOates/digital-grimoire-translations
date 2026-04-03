@@ -16,6 +16,7 @@
     "all": "All",
     "layout": "Layout",
     "leaves": "Leaves",
+    "player_numbers": "Player Numbers",
     "flip": "Flip Horizontally",
     "circle": "Circle",
     "ellipse": "Ellipse",
@@ -89,11 +90,14 @@
     "settings": {
       "title": "Settings",
       "token_size": "Token Size",
+      "reminder_size": "Reminder Size",
       "abilities": "Abilities",
       "travellers": "Travellers",
       "enter_fullscreen": "Enter Fullscreen",
       "exit_fullscreen": "Exit Fullscreen",
-      "about": "About..."
+      "about": "About...",
+      "official_icons": "Official Icons",
+      "playtest_icons": "Play Test Icons"
     },
     "login": "Login",
     "mobile": {
@@ -581,6 +585,7 @@
     "yes_show_grim": "Yes, Show Grim",
     "reveal_separately": "Reveal Separately",
     "tap_to_reveal": "Tap tokens to reveal roles",
+    "reveal_all": "Reveal All",
     "widget_dark_background": "Dark Widget Backgrounds",
     "edit_night_icons": "Edit Night Order Icons..."
   },

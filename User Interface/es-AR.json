@@ -52,6 +52,7 @@
     "evil": "Malvado",
     "send": "Mandar",
     "leaves": "Hojas",
+    "player_numbers": "Números de jugadores",
     "flip": "Voltear horizontalmente",
     "u_shape": "Sonrisa",
     "enabled": "Habilitado",
@@ -89,11 +90,14 @@
     "settings": {
       "title": "Opciones",
       "token_size": "Tamaño de las fichas",
+      "reminder_size": "Tamaño de los recordatorios",
       "abilities": "Habilidades",
       "travellers": "Viajeros",
       "enter_fullscreen": "Abrir pantalla completa",
       "exit_fullscreen": "Cerrar pantalla completa",
-      "about": "Sobre..."
+      "about": "Sobre...",
+      "official_icons": "Iconos oficiales",
+      "playtest_icons": "Iconos de prueba"
     },
     "login": "Ingresar",
     "mobile": {
@@ -582,6 +586,7 @@
     "yes_show_grim": "Si, mostrar Grimorio",
     "reveal_separately": "Revelar los roles de uno en uno",
     "tap_to_reveal": "Tocá las fichas para irlas revelando",
+    "reveal_all": "Revelar todo",
     "widget_dark_background": "Fondos oscuros de widgets",
     "edit_night_icons": "Editar iconos del orden nocturno..."
   },

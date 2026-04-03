@@ -16,6 +16,7 @@
     "all": "Todos",
     "layout": "Disposición",
     "leaves": "Hojas",
+    "player_numbers": "Números de Jugadores",
     "flip": "Invertir horizontalmente",
     "circle": "Círculo",
     "ellipse": "Elipse",
@@ -89,11 +90,14 @@
     "settings": {
       "title": "Ajustes",
       "token_size": "Tamaño de Ficha",
+      "reminder_size": "Tamaño de Recordatorio",
       "abilities": "Habilidades",
       "travellers": "Viajeros",
       "enter_fullscreen": "Entrar en pantalla completa",
       "exit_fullscreen": "Salir de pantalla completa",
-      "about": "Acerca de..."
+      "about": "Acerca de...",
+      "official_icons": "Iconos Oficiales",
+      "playtest_icons": "Iconos de Prueba"
     },
     "login": "Iniciar sesión",
     "mobile": {
@@ -582,6 +586,7 @@
     "yes_show_grim": "Sí, Mostrar Grim",
     "reveal_separately": "Revelar por separado",
     "tap_to_reveal": "Toca las fichas para revelar roles",
+    "reveal_all": "Revelar Todo",
     "widget_dark_background": "Fondos oscuros de widgets",
     "edit_night_icons": "Editar Iconos del Orden Nocturno..."
   },

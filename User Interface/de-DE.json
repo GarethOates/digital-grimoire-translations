@@ -16,6 +16,7 @@
     "all": "Alle",
     "layout": "Layout",
     "leaves": "Blätter",
+    "player_numbers": "Spielernummern",
     "flip": "Horizontal umkehren",
     "circle": "Kreis",
     "ellipse": "Ellipse",
@@ -89,11 +90,14 @@
     "settings": {
       "title": "Einstellungen",
       "token_size": "Token-Größe",
+      "reminder_size": "Erinnerungsmarker-Größe",
       "abilities": "Fähigkeiten",
       "travellers": "Reisende",
       "enter_fullscreen": "Vollbildmodus aktivieren",
       "exit_fullscreen": "Vollbildmodus beenden",
-      "about": "Über..."
+      "about": "Über...",
+      "official_icons": "Offizielle Symbole",
+      "playtest_icons": "Spieltest-Symbole"
     },
     "login": "Anmelden",
     "mobile": {
@@ -582,6 +586,7 @@
     "yes_show_grim": "Ja, Grimoire anzeigen",
     "reveal_separately": "Einzeln enthüllen",
     "tap_to_reveal": "Tippen Sie auf Token, um Rollen zu enthüllen",
+    "reveal_all": "Alle enthüllen",
     "widget_dark_background": "Dunkle Widget-Hintergründe",
     "edit_night_icons": "Nachtordnung-Symbole bearbeiten..."
   },
