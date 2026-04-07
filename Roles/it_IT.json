@@ -1060,7 +1060,7 @@
     },
     {
         "id": "savant",
-        "name": "Prodigio",
+        "name": "Dotto",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1177,7 +1177,7 @@
     },
     {
         "id": "sweetheart",
-        "name": "Innamorata",
+        "name": "Tesorino",
         "edition": "snv",
         "team": "outsider",
         "firstNight": 0,
@@ -1204,7 +1204,7 @@
             "Taglio Stanotte"
         ],
         "setup": false,
-        "ability": "Quando muori (sia durante la notte che per un'esecuzione), la notte successiva il Demone può scegliere 2 giocatori (che non siano altri Demoni) per scambiare i loro ruoli.",
+        "ability": "Quando muori (sia durante la notte che di giorno), la notte successiva il Demone può scegliere 2 giocatori (che non siano altri Demoni) per scambiare i loro ruoli.",
         "special": null
     },
     {
