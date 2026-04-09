@@ -143,7 +143,7 @@
             "Giustiziato Oggi"
         ],
         "setup": false,
-        "ability": "Ogni notte*, scopri quale personaggio è morto per esecuzione oggi.",
+        "ability": "Ogni notte*, scopri quale personaggio è morto giustiziato oggi.",
         "special": null
     },
     {
@@ -263,7 +263,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": true,
-        "ability": "Non sai di essere l'Ubriaco. Pensi di essere un personaggio Cittadino, ma non lo sei.",
+        "ability": "Non sai di essere l'Ubriaco. Pensi di essere un Cittadino, ma non lo sei.",
         "special": [
             {
                 "type": "selection",
@@ -1483,7 +1483,7 @@
             "Folle"
         ],
         "setup": false,
-        "ability": "Cominci sapendo che un Cittadino è in gioco. Se tu fossi \"Folle\" di essere quel personaggio, ottieni la sua abilità quando muore.",
+        "ability": "Cominci sapendo un Cittadino che è in gioco. Se tu fossi \"Folle\" di essere quel personaggio, ottieni la sua abilità quando muore.",
         "special": null
     },
     {
