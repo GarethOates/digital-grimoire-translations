@@ -393,8 +393,8 @@
   },
   "roles": {
     "townsfolk": "Villageois",
-    "outsider": "Étranger",
-    "minion": "Sbire",
+    "outsider": "Marginaux",
+    "minion": "Sbires",
     "demon": "Démon",
     "traveller": "Voyageur",
     "fabled": "Légendaire",
