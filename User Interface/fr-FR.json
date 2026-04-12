@@ -514,6 +514,8 @@
     "tokens": "Jetons",
     "invite_players_bag": "Invitez vos joueurs un par un à taper sur le sac de jetons pour \"tirer\" leur jeton. Une fois sélectionné, entrez leur nom.",
     "invite_players_tokens": "Invitez vos joueurs un par un à choisir un jeton. Une fois sélectionné, entrez leur nom.",
+    "tap_bag_prompt": "Tapez sur le sac pour tirer votre jeton",
+    "tap_token_prompt": "Tapez sur un jeton pour le tirer",
     "select_player": "Sélectionner un joueur...",
     "player_name": "Nom du joueur",
     "assign": "Attribuer",

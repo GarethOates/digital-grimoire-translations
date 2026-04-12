@@ -513,6 +513,8 @@
     "tokens": "Tokens",
     "invite_players_bag": "Invite your players up one by one to tap on the token bag to \"draw\" their token. Once selected, enter their name.",
     "invite_players_tokens": "Invite your players up one by one to choose a token. Once selected, enter their name.",
+    "tap_bag_prompt": "Tap the bag to draw your token",
+    "tap_token_prompt": "Tap a token to draw",
     "select_player": "Select player...",
     "player_name": "Player Name",
     "assign": "Assign",

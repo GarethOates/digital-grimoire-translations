@@ -514,6 +514,8 @@
     "tokens": "Brikker",
     "invite_players_bag": "Inviter spillerne dine én etter én til å trykke på brikkeposen for å \"trekke\" sin brikke. Når de har valgt, skriv inn navnet deres.",
     "invite_players_tokens": "Inviter spillerne dine én etter én til å velge en brikke. Når de har valgt, skriv inn navnet deres.",
+    "tap_bag_prompt": "Trykk på posen for å trekke brikken din",
+    "tap_token_prompt": "Trykk på en brikke for å trekke den",
     "select_player": "Velg spiller...",
     "player_name": "Spillernavn",
     "assign": "Tildel",

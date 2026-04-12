@@ -514,6 +514,8 @@
     "tokens": "Fichas",
     "invite_players_bag": "Invitá a tus jugadores uno por uno para tocar la bolsa y \"robar\" su ficha. Una vez la reciban, ingresen su nombre.",
     "invite_players_tokens": "Invitá a tus jugadores uno por uno para elegir una ficha. Una vez lo hagan, ingresen su nombre.",
+    "tap_bag_prompt": "Tocá la bolsa para sacar tu ficha",
+    "tap_token_prompt": "Tocá una ficha para sacarla",
     "select_player": "Seleccionar jugador...",
     "player_name": "Nombre del jugador",
     "assign": "Asignar",

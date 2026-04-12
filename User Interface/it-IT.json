@@ -514,6 +514,8 @@
     "tokens": "Gettoni",
     "invite_players_bag": "Invita i giocatori uno alla volta a toccare il sacchetto per \"pescare\" il loro gettone. Dopo, inserisci il loro nome.",
     "invite_players_tokens": "Invita i giocatori uno alla volta a scegliere un gettone. Dopo, inserisci il loro nome.",
+    "tap_bag_prompt": "Tocca il sacchetto per pescare il tuo gettone",
+    "tap_token_prompt": "Tocca un gettone per pescarlo",
     "select_player": "Seleziona giocatore...",
     "player_name": "Nome Giocatore",
     "assign": "Assegna",
