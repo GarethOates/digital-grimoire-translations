@@ -178,7 +178,7 @@
     },
     {
         "id": "virgin",
-        "name": "Innocente",
+        "name": "Immaculée",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 0,
@@ -416,7 +416,7 @@
     },
     {
         "id": "gunslinger",
-        "name": "Vengeur",
+        "name": "Franc-tireur",
         "edition": "tb",
         "team": "traveller",
         "firstNight": 0,
@@ -654,7 +654,7 @@
     },
     {
         "id": "fool",
-        "name": "Bouffon",
+        "name": "Fou du roi",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1649,7 +1649,7 @@
     },
     {
         "id": "huntsman",
-        "name": "Chasseur",
+        "name": "Traqueur",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 40,
@@ -1806,7 +1806,7 @@
     },
     {
         "id": "puzzlemaster",
-        "name": "Maître des Puzzles",
+        "name": "Maître des puzzles",
         "edition": "",
         "team": "outsider",
         "firstNight": 0,
@@ -1843,7 +1843,7 @@
         "firstNight": 41,
         "firstNightReminder": "Réveillez tous les Sbires et montrez leur la carte 'Ce personnage est en jeu' ainsi que le jeton de la Demoiselle.",
         "otherNight": 62,
-        "otherNightReminder": "Si elle a été désignée par le Chasseur, réveillez la Demoiselle et montrez lui la carte 'Vous êtes désormais' ainsi que le jeton d'un rôle de Villageois qui n'est pas déjà en jeu.",
+        "otherNightReminder": "Si elle a été désignée par le Traqueur, réveillez la Demoiselle et montrez lui la carte 'Vous êtes désormais' ainsi que le jeton d'un rôle de Villageois qui n'est pas déjà en jeu.",
         "reminders": [
             "Supposition utilisée"
         ],
@@ -1902,13 +1902,13 @@
     },
     {
         "id": "fearmonger",
-        "name": "Prophète de l'Effroi",
+        "name": "Tourmenteur",
         "edition": "",
         "team": "minion",
         "firstNight": 35,
-        "firstNightReminder": "Le prophète désigne un joueur. Placez le jeton «Cible» à côté de ce joueur et annoncez qu'un nouveau joueur a été sélectionné par le pouvoir du Prophète de l'Effroi.",
+        "firstNightReminder": "Le Tourmenteur désigne un joueur. Placez le jeton «Cible» à côté de ce joueur et annoncez qu'un nouveau joueur a été sélectionné par le pouvoir du Tourmenteur.",
         "otherNight": 25,
-        "otherNightReminder": "Le Prophète désigne un joueur. Placez le jeton «Cible» à côté de ce joueur. Si celui-ci a changé, annoncez qu'un nouveau joueur a été sélectionné par le pouvoir du Prophète de l'Effroi.",
+        "otherNightReminder": "Le Tourmenteur désigne un joueur. Placez le jeton «Cible» à côté de ce joueur. Si celui-ci a changé, annoncez qu'un nouveau joueur a été sélectionné par le pouvoir du Tourmenteur.",
         "reminders": [
             "Cible"
         ],
@@ -2436,11 +2436,11 @@
     },
     {
         "id": "boffin",
-        "name": "Boffin",
+        "name": "Atomiste",
         "edition": "",
         "team": "minion",
         "firstNight": 7,
-        "firstNightReminder": "Réveillez le Boffin et montrez-lui le jeton de la capacité du Démon. Remettez le Boffin en sommeil. Réveillez le Démon, montrez le jeton Boffin, puis montrez le jeton de la bonne capacité du Démon.",
+        "firstNightReminder": "Réveillez l'Atomiste et montrez-lui le jeton de la capacité du Démon. Remettez l'Atomiste en sommeil. Réveillez le Démon, montrez le jeton Atomiste, puis montrez le jeton de la bonne capacité du Démon.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
@@ -2728,7 +2728,7 @@
     },
     {
         "id": "doomsayer",
-        "name": "Prêcheur de l'Apocalypse",
+        "name": "Messager du malheur",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
