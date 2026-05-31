@@ -37,67 +37,67 @@
     },
     {
         "id": "washerwoman",
-        "name": "Waschfrau",
+        "name": "Wasvrouw",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 43,
-        "firstNightReminder": "Zeige den Rollen-Token eines Bürgers, der sich im Spiel befindet. Zeige auf zwei Spieler, von denen einer diese Rolle hat.",
+        "firstNightReminder": "Toon het roltoken van een dorpeling die in het spel is. Wijs naar twee spelers, van wie er één die rol heeft.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Bürger",
-            "Falsch"
+            "Dorpeling",
+            "Onjuist"
         ],
         "setup": false,
-        "ability": "Du erfährst zu Beginn, dass 1 von 2 Spielern ein bestimmter Bürger ist.",
+        "ability": "Je ontdekt aan het begin dat 1 van 2 spelers een bepaalde dorpeling is.",
         "special": null
     },
     {
         "id": "librarian",
-        "name": "Bibliothekarin",
+        "name": "Bibliothecaresse",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 44,
-        "firstNightReminder": "Zeige den Rollen-Token eines Außenseiters, der sich im Spiel befindet. Zeige auf zwei Spieler, von denen einer diese Rolle hat.",
+        "firstNightReminder": "Toon het roltoken van een buitenstaander die in het spel is. Wijs naar twee spelers, van wie er één die rol heeft.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Außenseiter",
-            "Falsch"
+            "Buitenstaander",
+            "Onjuist"
         ],
         "setup": false,
-        "ability": "Du erfährst zu Beginn, dass 1 von 2 Spielern ein bestimmter Aussenseiter ist. (Oder, dass keine im Spiel sind.)",
+        "ability": "Je ontdekt aan het begin dat 1 van 2 spelers een bepaalde buitenstaander is. (Of dat er geen in het spel zijn.)",
         "special": null
     },
     {
         "id": "investigator",
-        "name": "Detektiv",
+        "name": "Detective",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 45,
-        "firstNightReminder": "Zeige den Rollen-Token eines Schergen, der sich im Spiel befindet. Zeige auf zwei Spieler, von denen einer diese Rolle hat.",
+        "firstNightReminder": "Toon het roltoken van een handlanger die in het spel is. Wijs naar twee spelers, van wie er één die rol heeft.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Scherge",
-            "falsch"
+            "Handlanger",
+            "onjuist"
         ],
         "setup": false,
-        "ability": "Du erfährst zu Beginn, dass 1 von 2 Spielern ein bestimmter Scherge ist.",
+        "ability": "Je ontdekt aan het begin dat 1 van 2 spelers een bepaalde handlanger is.",
         "special": null
     },
     {
         "id": "chef",
-        "name": "Koch",
+        "name": "Kok",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 46,
-        "firstNightReminder": "Zeige mit der Hand die Anzahl (0, 1, 2, …) von benachbarten bösen Spielern",
+        "firstNightReminder": "Toon met de hand het aantal (0, 1, 2, …) aangrenzende kwade spelers.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Du erfährst zu Beginn, wie viele Sitzpaare von bösen Spielern es gibt.",
+        "ability": "Je ontdekt aan het begin hoeveel aangrenzende paren kwade spelers er zijn.",
         "special": null
     },
     {
@@ -106,79 +106,79 @@
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 47,
-        "firstNightReminder": "Zeige mit der Hand (0, 1, 2)  wieviele lebende Nachbarn des Empathen böse sind.",
+        "firstNightReminder": "Toon met de hand (0, 1, 2) hoeveel levende buren van de Empath kwaad zijn.",
         "otherNight": 69,
-        "otherNightReminder": "Zeige mit der Hand (0, 1, 2)  wieviele lebende Nachbarn des Empathen böse sind.",
+        "otherNightReminder": "Toon met de hand (0, 1, 2) hoeveel levende buren van de Empath kwaad zijn.",
         "reminders": [],
         "setup": false,
-        "ability": "Du erfährst jede Nacht, wie viele deiner beiden lebenden Nachbarn böse sind.",
+        "ability": "Je ontdekt elke nacht hoeveel van je twee levende buren kwaad zijn.",
         "special": null
     },
     {
         "id": "fortuneteller",
-        "name": "Wahrsagerin",
+        "name": "Waarzegger",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 48,
-        "firstNightReminder": "Die Wahrsagerin zeigt auf zwei Spieler. Ist einer dieser Spieler der Dämon, nicke mit dem Kopf, andernfalls schūttle den Kopf.",
+        "firstNightReminder": "De Waarzegger wijst naar twee spelers. Is één van hen de demon, knik dan; anders schud je hoofd.",
         "otherNight": 70,
-        "otherNightReminder": "Die Wahrsagerin zeigt auf zwei Spieler. Ist einer dieser Spieler der Dämon, nicke mit dem Kopf, andernfalls schūttle den Kopf.",
+        "otherNightReminder": "De Waarzegger wijst naar twee spelers. Is één van hen de demon, knik dan; anders schud je hoofd.",
         "reminders": [
-            "Falsche Fährte"
+            "Vals spoor"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht 2 Spieler: Du erfährst, ob sich unter ihnen ein Dämon befindet. Es gibt einen guten Spieler, der für dich als Dämon erscheint.",
+        "ability": "Kies elke nacht 2 spelers: je ontdekt of er een demon onder hen is. Er is een goede speler die voor jou als demon verschijnt.",
         "special": null
     },
     {
         "id": "undertaker",
-        "name": "Totengräber",
+        "name": "Grafdelver",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 71,
-        "otherNightReminder": "Wenn ein Spieler am vorherigen Tag durch eine Hinrichtung gestorben ist: Zeige dem Totengräber den Rollen-Token dieses Spielers.",
+        "otherNightReminder": "Als een speler de vorige dag door een executie is gestorven: toon de Grafdelver het roltoken van die speler.",
         "reminders": [
-            "Hingerichtet"
+            "Geëxecuteerd"
         ],
         "setup": false,
-        "ability": "Du erfährst jede Nacht*, welche Rolle am Tag durch eine Hinrichtung gestorben ist.",
+        "ability": "Je ontdekt elke nacht* welke rol overdag door een executie is gestorven.",
         "special": null
     },
     {
         "id": "monk",
-        "name": "Mönch",
+        "name": "Monnik",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 19,
-        "otherNightReminder": "Der Mönch zeigt auf einen Spieler (außer sich selbst). Markiere diesen Spieler als \"beschützt\". Der zuvor beschützte Spieler ist nicht mehr beschützt.",
+        "otherNightReminder": "De Monnik wijst naar een speler (behalve zichzelf). Markeer deze speler als 'beschermd'. De eerder beschermde speler is niet meer beschermd.",
         "reminders": [
-            "Beschützt"
+            "Beschermd"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht* 1 Spieler (außer dich selbst): Er ist in der Nacht vor dem Dämon geschützt.",
+        "ability": "Kies elke nacht* 1 speler (behalve jezelf): hij is 's nachts beschermd tegen de demon.",
         "special": null
     },
     {
         "id": "ravenkeeper",
-        "name": "Rabenhüter",
+        "name": "Ravenbewaarder",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 68,
-        "otherNightReminder": "Wenn der Rabenhüter in dieser Nacht gestorben ist: Der Rabenhüter zeigt auf einen Spieler. Zeige dem Rabenhüter den Rollen-Token dieses Spielers.",
+        "otherNightReminder": "Als de Ravenbewaarder deze nacht is gestorven: de Ravenbewaarder wijst naar een speler. Toon de Ravenbewaarder het roltoken van die speler.",
         "reminders": [],
         "setup": false,
-        "ability": "Wenn du in der Nacht stirbst, wirst du aufgeweckt und zeigst auf 1 Spieler: Du erfährst seine Rolle.",
+        "ability": "Als je 's nachts sterft, word je gewekt en wijs je naar 1 speler: je ontdekt zijn rol.",
         "special": null
     },
     {
         "id": "virgin",
-        "name": "Jungfrau",
+        "name": "Maagd",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 0,
@@ -186,15 +186,15 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Keine Fähigkeit"
+            "Geen vaardigheid"
         ],
         "setup": false,
-        "ability": "Wenn du zum ersten Mal nominiert wirst: Falls der Ankläger ein Bürger ist, wird er sofort hingerichtet.",
+        "ability": "Als je voor het eerst genomineerd wordt: als de aanklager een dorpeling is, wordt hij onmiddellijk geëxecuteerd.",
         "special": null
     },
     {
         "id": "slayer",
-        "name": "Dämonenjäger",
+        "name": "Demonjager",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 0,
@@ -202,15 +202,15 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Keine Fähigkeit"
+            "Geen vaardigheid"
         ],
         "setup": false,
-        "ability": "Du darfst einmal im Spiel am Tag öffentlich einen Spieler wählen: Ist er der Dämon, stirbt er.",
+        "ability": "Je mag eenmaal in het spel overdag openlijk een speler kiezen: is hij de demon, dan sterft hij.",
         "special": null
     },
     {
         "id": "soldier",
-        "name": "Soldat",
+        "name": "Soldaat",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 0,
@@ -219,12 +219,12 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Du bist vor dem Dämon geschützt.",
+        "ability": "Je bent beschermd tegen de demon.",
         "special": null
     },
     {
         "id": "mayor",
-        "name": "Bürgermeister",
+        "name": "Burgemeester",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 0,
@@ -233,7 +233,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Wenn nur noch 3 Spieler leben und es am Tag keine Hinrichtung gibt, gewinnt dein Team. Wenn du nachts stirbst, könnte stattdessen ein anderer Spieler sterben.",
+        "ability": "Als er nog maar 3 spelers leven en er overdag geen executie plaatsvindt, wint jouw team. Als je 's nachts sterft, zou een andere speler in jouw plaats kunnen sterven.",
         "special": null
     },
     {
@@ -242,19 +242,19 @@
         "edition": "tb",
         "team": "outsider",
         "firstNight": 49,
-        "firstNightReminder": "Der Butler zeigt auf einen Spieler. Markiere diesen Spieler als 'Meister'.",
+        "firstNightReminder": "De Butler wijst naar een speler. Markeer deze speler als 'Meester'.",
         "otherNight": 84,
-        "otherNightReminder": "Der Butler zeigt auf einen Spieler. Markiere diesen Spieler als 'Meister'.",
+        "otherNightReminder": "De Butler wijst naar een speler. Markeer deze speler als 'Meester'.",
         "reminders": [
-            "Meister"
+            "Meester"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht 1 Spieler (außer dich selbst): Am folgenden Tag kannst du nur abstimmen, wenn er auch abstimmt.",
+        "ability": "Kies elke nacht 1 speler (behalve jezelf): de volgende dag kun je alleen stemmen als hij ook stemt.",
         "special": null
     },
     {
         "id": "drunk",
-        "name": "Trunkenbold",
+        "name": "Dronkaard",
         "edition": "tb",
         "team": "outsider",
         "firstNight": 0,
@@ -263,7 +263,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": true,
-        "ability": "Du weißt nicht, dass du der Trunkenbold bist. Du denkst, du seist ein Bürger, bist es aber nicht.",
+        "ability": "Je weet niet dat je de Dronkaard bent. Je denkt een dorpeling te zijn, maar dat ben je niet.",
         "special": [
             {
                 "type": "selection",
@@ -275,12 +275,12 @@
             }
         ],
         "remindersGlobal": [
-            "Betrunken"
+            "Dronken"
         ]
     },
     {
         "id": "recluse",
-        "name": "Einsiedler",
+        "name": "Kluizenaar",
         "edition": "tb",
         "team": "outsider",
         "firstNight": 0,
@@ -289,7 +289,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Du kannst als böse bzw. als Scherge oder Dämon erscheinen, sogar, wenn du tot bist.",
+        "ability": "Je kunt verschijnen als kwaad, of als handlanger of demon, zelfs als je dood bent.",
         "special": null
     },
     {
@@ -303,23 +303,23 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Wenn du durch eine Hinrichtung stirbst, verliert dein Team.",
+        "ability": "Als je door een executie sterft, verliest jouw team.",
         "special": null
     },
     {
         "id": "poisoner",
-        "name": "Giftmischer",
+        "name": "Gifmenger",
         "edition": "tb",
         "team": "minion",
         "firstNight": 24,
-        "firstNightReminder": "Der Giftmischer zeigt auf einen Spieler. Dieser Spieler ist vergiftet.",
+        "firstNightReminder": "De Gifmenger wijst naar een speler. Deze speler is vergiftigd.",
         "otherNight": 12,
-        "otherNightReminder": "Der vorherige Spieler ist nicht mehr vergiftet. Der Giftmischer zeigt auf einen Spieler. Dieser Spieler ist vergiftet.",
+        "otherNightReminder": "De vorige speler is niet meer vergiftigd. De Gifmenger wijst naar een speler. Deze speler is vergiftigd.",
         "reminders": [
-            "Vergiftet"
+            "Vergiftigd"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht 1 Spieler: Er ist bis zum Ende des nächsten Tages vergiftet.",
+        "ability": "Kies elke nacht 1 speler: hij is vergiftigd tot het einde van de volgende dag.",
         "special": null
     },
     {
@@ -328,28 +328,28 @@
         "edition": "tb",
         "team": "minion",
         "firstNight": 63,
-        "firstNightReminder": "Zeige dem Spion das Grimoire so lange er es braucht.",
+        "firstNightReminder": "Toon de Spion het Grimoire zo lang hij het nodig heeft.",
         "otherNight": 85,
-        "otherNightReminder": "Zeige dem Spion das Grimoire so lange er es braucht.",
+        "otherNightReminder": "Toon de Spion het Grimoire zo lang hij het nodig heeft.",
         "reminders": [],
         "setup": false,
-        "ability": "Du siehst jede Nacht das Grimoire. Du kannst als gut bzw. als Bürger oder Außenseiter erscheinen, sogar, wenn du tot bist.",
+        "ability": "Je ziet elke nacht het Grimoire. Je kunt verschijnen als goed, of als dorpeling of buitenstaander, zelfs als je dood bent.",
         "special": null
     },
     {
         "id": "scarletwoman",
-        "name": "Scharlachrote Frau",
+        "name": "Scharlakenrode Vrouw",
         "edition": "tb",
         "team": "minion",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 28,
-        "otherNightReminder": "Wenn die Scharlachrote Frau heute der Dämon wurde: Zeige ihr die 'Du bist'-Karte und dann den Dämon-Token.",
+        "otherNightReminder": "Als de Scharlakenrode Vrouw vandaag de demon is geworden: toon haar de 'Jij bent'-kaart en dan het demontoken.",
         "reminders": [
-            "Ist der Dämon"
+            "Is de demon"
         ],
         "setup": false,
-        "ability": "Wenn der Dämon stirbt und 5 oder mehr Spieler am Leben sind, wirst du der Dämon. (Reisende zählen nicht)",
+        "ability": "Als de demon sterft en er 5 of meer spelers leven, word jij de demon. (Reizigers tellen niet mee.)",
         "special": null
     },
     {
@@ -363,7 +363,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": true,
-        "ability": "Es sind zusätzliche Außenseiter im Spiel. [+2 Außenseiter]",
+        "ability": "Er zijn extra buitenstaanders in het spel. [+2 buitenstaanders]",
         "special": null
     },
     {
@@ -374,49 +374,49 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 35,
-        "otherNightReminder": "Der Imp zeigt auf einen Spieler. Dieser Spieler stirbt. Wenn sich der Imp selbst wählt: Ersetze die Rolle eines lebenden Schergen mit einem übrigen Imp-Token. Zeige diesem Spieler die 'Du bist'-Karte und dann den Imp-Token.",
+        "otherNightReminder": "De Imp wijst naar een speler. Die speler sterft. Als de Imp zichzelf kiest: vervang de rol van een levende handlanger door een overgebleven Imp-token. Toon die speler de 'Jij bent'-kaart en dan het Imp-token.",
         "reminders": [
-            "Tot"
+            "Dood"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht* 1 Spieler: Er stirbt. Tötest du dich dadurch selbst, wird ein Scherge zum Imp.",
+        "ability": "Kies elke nacht* 1 speler: hij sterft. Als je daarmee jezelf doodt, wordt een handlanger de Imp.",
         "special": null
     },
     {
         "id": "bureaucrat",
-        "name": "Bürokrat",
+        "name": "Bureaucraat",
         "edition": "tb",
         "team": "traveller",
         "firstNight": 5,
-        "firstNightReminder": "Der Bürokrat zeigt auf einen Spieler. Lege den '3 Stimmen' reminder neben die Karte des ausgewählten Spielers.",
+        "firstNightReminder": "De Bureaucraat wijst naar een speler. Leg de '3 stemmen' herinnering naast de kaart van de geselecteerde speler.",
         "otherNight": 2,
-        "otherNightReminder": "Der Bürokrat zeigt auf einen Spieler. Lege den '3 Stimmen' reminder neben die Karte des ausgewählten Spielers.",
+        "otherNightReminder": "De Bureaucraat wijst naar een speler. Leg de '3 stemmen' herinnering naast de kaart van de geselecteerde speler.",
         "reminders": [
-            "3 Stimmen"
+            "3 stemmen"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht 1 Spieler (nicht dich selbst): Seine Stimme zählt am folgenden Tag dreifach.",
+        "ability": "Kies elke nacht 1 speler (niet jezelf): zijn stem telt de volgende dag drievoudig.",
         "special": null
     },
     {
         "id": "thief",
-        "name": "Dieb",
+        "name": "Dief",
         "edition": "tb",
         "team": "traveller",
         "firstNight": 6,
-        "firstNightReminder": "Der Dieb zeigt auf einen Spieler. Lege den 'Negative Stimme' reminder naben des Token des ausgewählten Spielers.",
+        "firstNightReminder": "De Dief wijst naar een speler. Leg de 'Negatieve stem' herinnering naast het token van de geselecteerde speler.",
         "otherNight": 3,
-        "otherNightReminder": "Der Dieb zeigt auf einen Spieler. Lege den 'Negative Stimme' reminder naben des Token des ausgewählten Spielers.",
+        "otherNightReminder": "De Dief wijst naar een speler. Leg de 'Negatieve stem' herinnering naast het token van de geselecteerde speler.",
         "reminders": [
-            "Negative Stimme"
+            "Negatieve stem"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht 1 Spieler (nicht Dich selbst): Seine Stimme zählt morgen negativ.",
+        "ability": "Kies elke nacht 1 speler (niet jezelf): zijn stem telt morgen negatief.",
         "special": null
     },
     {
         "id": "gunslinger",
-        "name": "Revolverheld",
+        "name": "Scherpschutter",
         "edition": "tb",
         "team": "traveller",
         "firstNight": 0,
@@ -425,12 +425,12 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Du darfst jeden Tag nach der ersten Abstimmung einen Spieler wählen, der abgestimmt hat: Er stirbt.",
+        "ability": "Je mag elke dag na de eerste stemming een speler kiezen die gestemd heeft: hij sterft.",
         "special": null
     },
     {
         "id": "scapegoat",
-        "name": "Sündenbock",
+        "name": "Zondebok",
         "edition": "tb",
         "team": "traveller",
         "firstNight": 0,
@@ -439,12 +439,12 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Wenn ein Spieler deiner Gesinnung hingerichtet wird, könntest du stattdessen hingerichtet werden.",
+        "ability": "Als een speler van jouw gezindheid wordt geëxecuteerd, kun jij in diens plaats worden geëxecuteerd.",
         "special": null
     },
     {
         "id": "beggar",
-        "name": "Bettler",
+        "name": "Bedelaar",
         "edition": "tb",
         "team": "traveller",
         "firstNight": 0,
@@ -453,139 +453,139 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Du benötigst einen Abstimmungs-Token, um abzustimmen. Wenn ein toter Spieler dir seinen Token gibt, erfährst du seine Gesinnung. Du bist nüchtern & gesund.",
+        "ability": "Je hebt een stemtoken nodig om te stemmen. Als een dode speler jou zijn token geeft, ontdek je zijn gezindheid. Je bent nuchter en gezond.",
         "special": null
     },
     {
         "id": "grandmother",
-        "name": "Großmutter",
+        "name": "Grootmoeder",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 50,
-        "firstNightReminder": "Zeige den Rollen-Token des Spielers, der als Enkelkind markiert ist. Zeige auf den markierten Spieler.",
+        "firstNightReminder": "Toon het roltoken van de speler die als kleinkind is gemarkeerd. Wijs naar de gemarkeerde speler.",
         "otherNight": 67,
-        "otherNightReminder": "Wenn das Enkelkind in dieser Nacht gestorben ist: Die Großmutter stirbt.",
+        "otherNightReminder": "Als het kleinkind deze nacht is gestorven: de Grootmoeder sterft.",
         "reminders": [
-            "Enkelkind",
-            "Tot"
+            "Kleinkind",
+            "Dood"
         ],
         "setup": false,
-        "ability": "Du erfährst zu Beginn von 1 guten Spieler und seiner Rolle. Wenn der Dämon ihn tötet, stirbst du auch.",
+        "ability": "Je ontdekt aan het begin 1 goede speler en zijn rol. Als de demon hem doodt, sterf jij ook.",
         "special": null
     },
     {
         "id": "sailor",
-        "name": "Segler",
+        "name": "Zeiler",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 17,
-        "firstNightReminder": "Der Segler zeigt auf einen lebenden Spieler. Entweder der Segler oder der gewählte Spieler ist betrunken.",
+        "firstNightReminder": "De Zeiler wijst naar een levende speler. Ofwel de Zeiler ofwel de gekozen speler is dronken.",
         "otherNight": 8,
-        "otherNightReminder": "Wenn der Segler zuvor betrunken wurde, ist wieder nüchtern. Der Segler zeigt auf einen lebenden Spieler. Entweder der Segler oder der gewählte Spieler ist betrunken.",
+        "otherNightReminder": "Als de Zeiler eerder dronken was, is hij weer nuchter. De Zeiler wijst naar een levende speler. Ofwel de Zeiler ofwel de gekozen speler is dronken.",
         "reminders": [
-            "Betrunken"
+            "Dronken"
         ],
         "setup": false,
-        "ability": "Du kannst nicht sterben. Wähle jede Nacht 1 lebenden Spieler: Entweder er oder du ist bis zum Ende des nächsten Tages betrunken. ",
+        "ability": "Je kunt niet sterven. Kies elke nacht 1 levende speler: ofwel hij ofwel jij is dronken tot het einde van de volgende dag.",
         "special": null
     },
     {
         "id": "chambermaid",
-        "name": "Kammerzofe",
+        "name": "Kamermeisje",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 67,
-        "firstNightReminder": "Die Kammerzofe zeigt auf zwei Spieler. Zeige dem Spieler, wieviele (0, 1 oder 2) dieser Spieler in dieser Nacht aufgrund ihrer Fähigkeit aufgewacht sind.",
+        "firstNightReminder": "Het Kamermeisje wijst naar twee spelers. Toon de speler hoeveel (0, 1 of 2) van die spelers deze nacht door hun vaardigheid zijn gewekt.",
         "otherNight": 88,
-        "otherNightReminder": "Die Kammerzofe zeigt auf zwei Spieler. Zeige dem Spieler, wieviele (0, 1 oder 2) dieser Spieler in dieser Nacht aufgrund ihrer Fähigkeit aufgewacht sind.",
+        "otherNightReminder": "Het Kamermeisje wijst naar twee spelers. Toon de speler hoeveel (0, 1 of 2) van die spelers deze nacht door hun vaardigheid zijn gewekt.",
         "reminders": [],
         "setup": false,
-        "ability": "Wähle jede Nacht 2 lebende Spieler (außer dich selbst): Du erfährst, wie viele von ihnen in dieser Nacht aufgrund ihrer Fähigkeit aufgewacht sind.",
+        "ability": "Kies elke nacht 2 levende spelers (behalve jezelf): je ontdekt hoeveel van hen deze nacht door hun vaardigheid zijn gewekt.",
         "special": null
     },
     {
         "id": "exorcist",
-        "name": "Exorzist",
+        "name": "Exorcist",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 31,
-        "otherNightReminder": "Der Exorzist zeigt auf einen Spieler (nicht derselbe wie vergangene Nacht). Ist er der Dämon, wecke den Dämon. Zeige ihm den Token des Exorzisten. Zeige auf den Spieler des Exorzisten. Der Dämon darf heute Nacht keine Aktion durchführen.",
+        "otherNightReminder": "De Exorcist wijst naar een speler (niet dezelfde als vorige nacht). Is hij de demon, wek dan de demon. Toon hem het token van de Exorcist. Wijs naar de speler van de Exorcist. De demon mag vannacht geen actie uitvoeren.",
         "reminders": [
-            "Ausgewählt"
+            "Geselecteerd"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht* 1 Spieler (nicht derselbe wie vergangene Nacht): Ist er der Dämon, erfährt er, wer du bist, und wacht in dieser Nacht nicht auf.",
+        "ability": "Kies elke nacht* 1 speler (niet dezelfde als vorige nacht): is hij de demon, dan ontdekt hij wie jij bent en wordt hij deze nacht niet gewekt.",
         "special": null
     },
     {
         "id": "innkeeper",
-        "name": "Gastwirt",
+        "name": "Herbergier",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 14,
-        "otherNightReminder": "Die zuvor beschützten und betrunkenen Spieler sind nicht mehr beschützt oder betrunken. Der Gastwirt zeigt auf zwei Spieler: Sie sind beschützt. Einer von ihnen ist betrunken.",
+        "otherNightReminder": "De eerder beschermde en dronken spelers zijn niet meer beschermd of dronken. De Herbergier wijst naar twee spelers: zij zijn beschermd. Één van hen is dronken.",
         "reminders": [
-            "Beschützt",
-            "Beschützt",
-            "Betrunken"
+            "Beschermd",
+            "Beschermd",
+            "Dronken"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht* 2 Spieler: Sie können in dieser Nacht nicht sterben, aber einer ist bis zum Ende des nächsten Tages betrunken",
+        "ability": "Kies elke nacht* 2 spelers: zij kunnen deze nacht niet sterven, maar één is dronken tot het einde van de volgende dag.",
         "special": null
     },
     {
         "id": "gambler",
-        "name": "Glücksspieler",
+        "name": "Gokker",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 16,
-        "otherNightReminder": "Der Glücksspieler zeigt auf einen Spieler und eine Rolle auf dem Rollenbogen. Liegt er falsch, stirbt der Glücksspieler.",
+        "otherNightReminder": "De Gokker wijst naar een speler en een rol op het rolblad. Als hij het fout heeft, sterft de Gokker.",
         "reminders": [
-            "Tot"
+            "Dood"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht* 1 Spieler & versuche, seine Rolle zu erraten: Liegst du falsch, stirbst du.",
+        "ability": "Kies elke nacht* 1 speler en probeer zijn rol te raden: als je het fout hebt, sterf je.",
         "special": null
     },
     {
         "id": "gossip",
-        "name": "Schwätzer",
+        "name": "Roddelaar",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 53,
-        "otherNightReminder": "Wenn die öffentliche Aussage des Schwätzers zutrifft: Wähle einen Spieler, der nicht vor dem Tod beschützt ist. Dieser Spieler stirbt",
+        "otherNightReminder": "Als de openbare bewering van de Roddelaar klopt: kies een speler die niet beschermd is tegen de dood. Die speler sterft.",
         "reminders": [
-            "Tot"
+            "Dood"
         ],
         "setup": false,
-        "ability": "Du darfst jeden Tag eine öffentliche Aussage treffen. Ist sie wahr, stirbt in der Nacht 1 Spieler.",
+        "ability": "Je mag elke dag een openbare bewering doen. Als die waar is, sterft er 's nachts 1 speler.",
         "special": null
     },
     {
         "id": "courtier",
-        "name": "Höfling",
+        "name": "Hoveling",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 26,
-        "firstNightReminder": "Der Höfling schüttelt entweder den Kopf (Nein) oder zeigt auf eine Rolle auf dem Rollenbogen. Tut er das: Die ausgewählte Rolle ist für drei Nächte und Tage betrunken, wenn er sich im Spiel befindet.",
+        "firstNightReminder": "De Hoveling schudt ofwel zijn hoofd (nee) of wijst naar een rol op het rolblad. Als hij dat doet: de geselecteerde rol is drie nachten en dagen dronken als die in het spel is.",
         "otherNight": 13,
-        "otherNightReminder": "Reduziere die Anzahl der Tage, die die ausgewählte Rolle betrunken ist. Falls der Höfling seine Fähigkeit noch nicht benutzt hat: Der Höfling schüttelt entweder den Kopf (Nein) oder zeigt auf eine Rolle auf dem Rollenbogen. Tut er das: Die ausgewählte Rolle ist für drei Nächte und Tage betrunken, wenn er sich im Spiel befindet.",
+        "otherNightReminder": "Verminder het aantal dagen dat de geselecteerde rol dronken is. Als de Hoveling zijn vaardigheid nog niet heeft gebruikt: de Hoveling schudt ofwel zijn hoofd (nee) of wijst naar een rol op het rolblad. Als hij dat doet: de geselecteerde rol is drie nachten en dagen dronken als die in het spel is.",
         "reminders": [
-            "Betrunken 1",
-            "Betrunken 2",
-            "Betrunken 3",
-            "keine Fähigkeit"
+            "Dronken 1",
+            "Dronken 2",
+            "Dronken 3",
+            "geen vaardigheid"
         ],
         "setup": false,
-        "ability": "Du darfst einmal im Spiel in der Nacht 1 Rolle wählen: Sie ist für 3 Nächte & 3 Tage betrunken.",
+        "ability": "Je mag eenmaal in het spel 's nachts 1 rol kiezen: die is 3 nachten en 3 dagen dronken.",
         "special": null
     },
     {
@@ -596,18 +596,18 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 59,
-        "otherNightReminder": "Wenn der Professor seine Fähigkeit noch nicht eingestzt hat: Der Professor schüttelt entweder den Kopf (Nein) oder zeigt auf einen toten Spieler: Ist der Spieler ein Bürger, wird er wiederbelebt.",
+        "otherNightReminder": "Als de Professor zijn vaardigheid nog niet heeft gebruikt: de Professor schudt ofwel zijn hoofd (nee) of wijst naar een dode speler: is de speler een dorpeling, dan wordt hij herleefd.",
         "reminders": [
-            "Wiederbelebt",
-            "Keine Fähigkeit"
+            "Herleefd",
+            "Geen vaardigheid"
         ],
         "setup": false,
-        "ability": "Du darfst einmal im Spiel in der Nacht* 1 toten Spieler wählen: Ist er ein Bürger, wird er wiederbelebt.",
+        "ability": "Je mag eenmaal in het spel 's nachts* 1 dode speler kiezen: is hij een dorpeling, dan wordt hij herleefd.",
         "special": null
     },
     {
         "id": "minstrel",
-        "name": "Minnesänger",
+        "name": "Minstreel",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
@@ -615,15 +615,15 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Alle sind betrunken"
+            "Iedereen is dronken"
         ],
         "setup": false,
-        "ability": "Wenn ein Scherge durch eine Hinrichtung stirbt, sind alle anderen Spieler (mit Ausnahme von Reisenden) bis zum Ende des nächsten Tages betrunken.",
+        "ability": "Als een handlanger door een executie sterft, zijn alle andere spelers (uitgezonderd reizigers) dronken tot het einde van de volgende dag.",
         "special": null
     },
     {
         "id": "tealady",
-        "name": "Teedame",
+        "name": "Theejuffrouw",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
@@ -631,16 +631,16 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Kann nicht sterben",
-            "Kann nicht sterben"
+            "Kan niet sterven",
+            "Kan niet sterven"
         ],
         "setup": false,
-        "ability": "Wenn deine beiden lebenden Nachbarn gut sind, können sie nicht sterben.",
+        "ability": "Als je twee levende buren goed zijn, kunnen zij niet sterven.",
         "special": null
     },
     {
         "id": "pacifist",
-        "name": "Pazifist",
+        "name": "Pacifist",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
@@ -649,12 +649,12 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Hingerichtete gute Spieler sterben möglicherweise nicht.",
+        "ability": "Geëxecuteerde goede spelers sterven mogelijk niet.",
         "special": null
     },
     {
         "id": "fool",
-        "name": "Narr",
+        "name": "Nar",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
@@ -662,47 +662,47 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Keine Fähigkeit"
+            "Geen vaardigheid"
         ],
         "setup": false,
-        "ability": "Wenn du das erste Mal stirbst, stirbst du nicht.",
+        "ability": "Als je voor het eerst sterft, sterf je niet.",
         "special": null
     },
     {
         "id": "tinker",
-        "name": "Tüftler",
+        "name": "Knutselaar",
         "edition": "bmr",
         "team": "outsider",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 65,
-        "otherNightReminder": "Der Tüftler könnte sterben.",
+        "otherNightReminder": "De Knutselaar zou kunnen sterven.",
         "reminders": [
-            "Tot"
+            "Dood"
         ],
         "setup": false,
-        "ability": "Du könntest jederzeit sterben.",
+        "ability": "Je kunt op elk moment sterven.",
         "special": null
     },
     {
         "id": "moonchild",
-        "name": "Mondkind",
+        "name": "Maankind",
         "edition": "bmr",
         "team": "outsider",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 66,
-        "otherNightReminder": "Wenn das Mondkind am Tag stirbt und seine Fähigkeit einsetzt um einen Spieler auszuwählen: Ist dieser Spieler gut, stirbt er.",
+        "otherNightReminder": "Als het Maankind overdag sterft en zijn vaardigheid gebruikt om een speler te kiezen: is die speler goed, dan sterft hij.",
         "reminders": [
-            "Tot"
+            "Dood"
         ],
         "setup": false,
-        "ability": "Wenn du erfährst, dass du gestorben bist, wähle öffentlich 1 lebenden Spieler: Ist er gut, stirbt er in der Nacht.",
+        "ability": "Als je ontdekt dat je gestorven bent, kies dan openlijk 1 levende speler: is hij goed, dan sterft hij 's nachts.",
         "special": null
     },
     {
         "id": "goon",
-        "name": "Schläger",
+        "name": "Gangster",
         "edition": "bmr",
         "team": "outsider",
         "firstNight": 0,
@@ -710,83 +710,83 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Betrunken"
+            "Dronken"
         ],
         "setup": false,
-        "ability": "Jede Nacht ist der erste Spieler, der dich mit seiner Fähigkeit auswählt, bis zum Ende des nächsten Tages betrunken. Du erhältst seine Gesinnung.",
+        "ability": "Elke nacht is de eerste speler die jou met zijn vaardigheid kiest dronken tot het einde van de volgende dag. Je krijgt zijn gezindheid.",
         "special": null
     },
     {
         "id": "lunatic",
-        "name": "Wahnsinniger",
+        "name": "Waanzinnige",
         "edition": "bmr",
         "team": "outsider",
         "firstNight": 14,
-        "firstNightReminder": "Bei 7 oder mehr Spielern: Zeige dem Wahnsinnigen die Anzahl an 'Schergen', die im Spiel sind. Wenn der Dämon, der der Wahnsinnige sieht, ein Dämon ist, der in der Nacht erwacht: Erlaube dem Whansinnigen, Dämonenaktionen durchzuführen. Platziere den 'Angriff'-Marker. Wenn der Wahnsinnige einen Spieler auswählt: Wecke den Dämon. Zeige ihm den 'Angriff'-Marker, dann zeige auf jeden vom Wahnsinnigen markierten Spieler. Entferne die 'Angriff'-Marker des Wahnsinnigen.",
+        "firstNightReminder": "Bij 7 of meer spelers: toon de Waanzinnige het aantal 'handlangers' in het spel. Als de demon die de Waanzinnige ziet een demon is die 's nachts wakker wordt: sta de Waanzinnige toe demonenacties uit te voeren. Plaats de 'aanval'-markering. Als de Waanzinnige een speler kiest: wek de demon. Toon hem de 'aanval'-markering, wijs dan naar elke door de Waanzinnige gemarkeerde speler. Verwijder de 'aanval'-markeringen van de Waanzinnige.",
         "otherNight": 30,
-        "otherNightReminder": "Erlaube dem Wahnsinnigen, Dämonenaktionen durchzuführen. Platziere den 'Angriff'-Marker. Wenn der Wahnsinnige einen Spieler auswählt: Wecke den Dämon. Zeige ihm den 'Angriff'-Marker, dann zeige auf jeden vom Wahnsinnigen markierten Spieler. Entferne die 'Angriff'-Marker des Wahnsinnigen.",
+        "otherNightReminder": "Sta de Waanzinnige toe demonenacties uit te voeren. Plaats de 'aanval'-markering. Als de Waanzinnige een speler kiest: wek de demon. Toon hem de 'aanval'-markering, wijs dan naar elke door de Waanzinnige gemarkeerde speler. Verwijder de 'aanval'-markeringen van de Waanzinnige.",
         "reminders": [
-            "Angriff 1",
-            "Angriff 2",
-            "Angriff 3"
+            "Aanval 1",
+            "Aanval 2",
+            "Aanval 3"
         ],
         "setup": false,
-        "ability": "Du denkst, du seist ein Dämon, bist es aber nicht. Der Dämon weiß, wer du bist & wen du in der Nacht auswählst.",
+        "ability": "Je denkt een demon te zijn, maar dat ben je niet. De demon weet wie je bent en wie je 's nachts kiest.",
         "special": null
     },
     {
         "id": "godfather",
-        "name": "Pate",
+        "name": "Peetvader",
         "edition": "bmr",
         "team": "minion",
         "firstNight": 29,
-        "firstNightReminder": "Zeige alle Außenseiter-Rollen, die sich im Spiel befinden",
+        "firstNightReminder": "Toon alle buitenstaandersrollen die in het spel zijn.",
         "otherNight": 52,
-        "otherNightReminder": "Ist am vorherigen Tag ein Außenseiter gestorben: Der Pate zeigt auf einen Spieler, dieser Spieler stirbt.",
+        "otherNightReminder": "Als er de vorige dag een buitenstaander is gestorven: de Peetvader wijst naar een speler, die speler sterft.",
         "reminders": [
-            "Heute gestorben",
-            "Tot"
+            "Vandaag gestorven",
+            "Dood"
         ],
         "setup": true,
-        "ability": "Du erfährst zu Beginn, welche Außenseiter im Spiel sind. Wenn einer am Tag stirbt, wähle in der Nacht 1 Spieler: Er stirbt. [+1 oder -1 Außenseiter]",
+        "ability": "Je ontdekt aan het begin welke buitenstaanders in het spel zijn. Als er overdag een sterft, kies dan 's nachts 1 speler: hij sterft. [+1 of -1 buitenstaander]",
         "special": null
     },
     {
         "id": "devilsadvocate",
-        "name": "Teufelsadvokat",
+        "name": "Duivelsadvocaat",
         "edition": "bmr",
         "team": "minion",
         "firstNight": 31,
-        "firstNightReminder": "Der Teufelsadvokat zeigt auf einen lebenden Spieler. Dieser Spieler überlebt die Hinrichtung morgen.",
+        "firstNightReminder": "De Duivelsadvocaat wijst naar een levende speler. Die speler overleeft de executie morgen.",
         "otherNight": 21,
-        "otherNightReminder": "Der Teufelsadvokat zeigt auf einen (anderen) lebenden Spieler. Dieser Spieler überlebt die Hinrichtung morgen.",
+        "otherNightReminder": "De Duivelsadvocaat wijst naar een (andere) levende speler. Die speler overleeft de executie morgen.",
         "reminders": [
-            "Überlebt Hinrichtung"
+            "Overleeft executie"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht 1 lebenden Spieler (nicht derselbe wie vergangene Nacht): Wenn er am nächsten Tag hingerichtet wird, stirbt er nicht.",
+        "ability": "Kies elke nacht 1 levende speler (niet dezelfde als vorige nacht): als hij de volgende dag wordt geëxecuteerd, sterft hij niet.",
         "special": null
     },
     {
         "id": "assassin",
-        "name": "Meuchelmörder",
+        "name": "Moordenaar",
         "edition": "bmr",
         "team": "minion",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 51,
-        "otherNightReminder": "Hat der Meuchelmörder seine Fähigkeit noch nicht verwendet: Der Meuchelmörder schüttelt mit dem Kopf oder zeigt auf einen Spieler. Dieser Spieler stirbt.",
+        "otherNightReminder": "Als de Moordenaar zijn vaardigheid nog niet heeft gebruikt: de Moordenaar schudt zijn hoofd of wijst naar een speler. Die speler sterft.",
         "reminders": [
-            "Keine Fähigkeit",
-            "Tot"
+            "Geen vaardigheid",
+            "Dood"
         ],
         "setup": false,
-        "ability": "Du darfst einmal im Spiel in der Nacht* 1 Spieler wählen: Er stirbt, auch wenn er es eigentlich nicht könnte.",
+        "ability": "Je mag eenmaal in het spel 's nachts* 1 speler kiezen: hij sterft, zelfs als hij normaal niet zou kunnen sterven.",
         "special": null
     },
     {
         "id": "mastermind",
-        "name": "Strippenzieher",
+        "name": "Poppenspeler",
         "edition": "bmr",
         "team": "minion",
         "firstNight": 0,
@@ -795,7 +795,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Wenn der Dämon durch eine Hinrichtung stirbt und das Spiel vorbei wäre, spielt einen weiteren Tag. Wenn dann ein Spieler hingerichtet wird, verliert sein Team.",
+        "ability": "Als de demon door een executie sterft en het spel voorbij zou zijn, speel dan nog een dag. Als er dan een speler wordt geëxecuteerd, verliest zijn team.",
         "special": null
     },
     {
@@ -806,13 +806,13 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 36,
-        "otherNightReminder": "Wenn niemand am Tag gestorben ist: Der Zombuul zeigt auf einen Spieler. Dieser Spieler stirbt.",
+        "otherNightReminder": "Als er overdag niemand is gestorven: de Zombuul wijst naar een speler. Die speler sterft.",
         "reminders": [
-            "Heute gestorben",
-            "Tot"
+            "Vandaag gestorven",
+            "Dood"
         ],
         "setup": false,
-        "ability": "Wenn am Tag niemand gestorben ist, wähle jede Nacht* 1 Spieler: Er stirbt. Wenn du das erste mal stirbst, stirbst du nicht, erscheinst aber als tot.",
+        "ability": "Als er overdag niemand is gestorven, kies elke nacht* 1 speler: hij sterft. Als je voor het eerst sterft, sterf je niet, maar je verschijnt als dood.",
         "special": null
     },
     {
@@ -821,16 +821,16 @@
         "edition": "bmr",
         "team": "demon",
         "firstNight": 38,
-        "firstNightReminder": "Die Pukka zeigt auf einen Spieler. Dieser Spieler ist vergiftet.",
+        "firstNightReminder": "De Pukka wijst naar een speler. Die speler is vergiftigd.",
         "otherNight": 37,
-        "otherNightReminder": "Die Pukka zeigt auf einen Spieler. Dieser Spieler ist vergiftet. Der Spieler der zuvor vergiftet wurde, stirbt.",
+        "otherNightReminder": "De Pukka wijst naar een speler. Die speler is vergiftigd. De speler die eerder vergiftigd was, sterft.",
         "reminders": [
-            "Tot",
-            "Vergiftet",
-            "Vergiftet"
+            "Dood",
+            "Vergiftigd",
+            "Vergiftigd"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht 1 Spieler: Er ist vergiftet. Der zuvor vergiftete Spieler stirbt und wird gesund.",
+        "ability": "Kies elke nacht 1 speler: hij is vergiftigd. De eerder vergiftigde speler sterft en wordt gezond.",
         "special": null
     },
     {
@@ -841,14 +841,14 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 38,
-        "otherNightReminder": "Einer der Spieler, die der Shabaloth in der vorherigen Nacht gewählt, hat kann wiederauferstehen. Der Shabaloth zeigt auf zwei Spieler. Diese Spieler sterben.",
+        "otherNightReminder": "Één van de spelers die de Shabaloth de vorige nacht heeft gekozen, kan herrijzen. De Shabaloth wijst naar twee spelers. Die spelers sterven.",
         "reminders": [
-            "Keine Fähigkeit",
-            "Tot",
-            "Tot"
+            "Geen vaardigheid",
+            "Dood",
+            "Dood"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht* 2 Spieler: Sie sterben. 1 toter Spieler, den du in der vergangenen Nacht ausgewählt hast, könnte hochgewürgt werden.",
+        "ability": "Kies elke nacht* 2 spelers: zij sterven. 1 dode speler die je de vorige nacht hebt gekozen, zou kunnen herrijzen.",
         "special": null
     },
     {
@@ -859,36 +859,36 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 39,
-        "otherNightReminder": "Wenn der Poe niemanden in der letzten Nacht gewählt hat: Der Poe zeigt auf drei Spieler. Andernfalls: Der Poe zeigt entweder Nein durch Kopfschütteln oder zeigt auf einen Spieler. Ausgewählte Spieler sterben.",
+        "otherNightReminder": "Als de Poe de vorige nacht niemand heeft gekozen: de Poe wijst naar drie spelers. Anders: de Poe schudt zijn hoofd (nee) of wijst naar een speler. Geselecteerde spelers sterven.",
         "reminders": [
-            "3 Angriffe",
-            "Tot",
-            "Tot",
-            "Tot"
+            "3 aanvallen",
+            "Dood",
+            "Dood",
+            "Dood"
         ],
         "setup": false,
-        "ability": "Du darfst jede Nacht* 1 Spieler wählen: Er stirbt. Wenn deine letzte Wahl niemand war, wähle in dieser Nacht 3 Spieler.",
+        "ability": "Je mag elke nacht* 1 speler kiezen: hij sterft. Als je vorige keuze niemand was, kies dan deze nacht 3 spelers.",
         "special": null
     },
     {
         "id": "apprentice",
-        "name": "Lehrling",
+        "name": "Leerling",
         "edition": "bmr",
         "team": "traveller",
         "firstNight": 3,
-        "firstNightReminder": "Zeige dem Lehrling zuerst die \"Du bist\" Karte und dann die Karte eines Bürgers oder eines Schergen. Im Grimoire, ersetze die Karte des Lehrlings mit der Karte des Charakters und lege den \"Ist der Lehrling\" reminders auf die Karte des Charakters.",
+        "firstNightReminder": "Toon de Leerling eerst de 'Jij bent'-kaart en dan de kaart van een dorpeling of handlanger. Vervang in het Grimoire de kaart van de Leerling door de karakterkaart en leg de 'Is de leerling'-herinnering op de karakterkaart.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Ist der Lehrling"
+            "Is de leerling"
         ],
         "setup": false,
-        "ability": "In deiner ersten Nacht erhältst du die Fähigkeit eines Bürgers (wenn du gut bist) oder eines Schergen (wenn du böse bist).",
+        "ability": "In je eerste nacht krijg je de vaardigheid van een dorpeling (als je goed bent) of een handlanger (als je kwaad bent).",
         "special": null
     },
     {
         "id": "matron",
-        "name": "Oberin",
+        "name": "Overste",
         "edition": "bmr",
         "team": "traveller",
         "firstNight": 0,
@@ -897,12 +897,12 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Du darfst jeden Tag bis zu 3 Sitzpaare bestimmen, die Plätze tauschen müssen. Spieler dürfen ihre Plätze nicht verlassen, um privat zu sprechen.",
+        "ability": "Je mag elke dag maximaal 3 paren aanwijzen die van zitplaats moeten wisselen. Spelers mogen hun plaatsen niet verlaten om privé te spreken.",
         "special": null
     },
     {
         "id": "judge",
-        "name": "Richter",
+        "name": "Rechter",
         "edition": "bmr",
         "team": "traveller",
         "firstNight": 0,
@@ -910,15 +910,15 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Keine Fähigkeit"
+            "Geen vaardigheid"
         ],
         "setup": false,
-        "ability": "Du darfst einmal im Spiel, wenn ein anderer Spieler nominiert hat, die Hinrichtung durchsetzen oder fehlschlagen lassen.",
+        "ability": "Je mag eenmaal in het spel, als een andere speler heeft genomineerd, de executie afdwingen of laten mislukken.",
         "special": null
     },
     {
         "id": "bishop",
-        "name": "Bischof",
+        "name": "Bisschop",
         "edition": "bmr",
         "team": "traveller",
         "firstNight": 0,
@@ -926,11 +926,11 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Nominiere Böse",
-            "Nominiere Gut"
+            "Nomineer kwaad",
+            "Nomineer goed"
         ],
         "setup": false,
-        "ability": "Nur der Spielleiter kann nominieren. Mindestens 1 Spieler des anderen Teams muss nominiert werden.",
+        "ability": "Alleen de spelleider kan nomineren. Minimaal 1 speler van het andere team moet worden genomineerd.",
         "special": null
     },
     {
@@ -944,51 +944,51 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Nur du und tote Spieler können abstimmen. Sie brauchen keinen Abstimmungstoken, um abzustimmen. Eine 50%-Mehrheit ist nicht nötig.",
+        "ability": "Alleen jij en dode spelers kunnen stemmen. Zij hebben geen stemtoken nodig om te stemmen. Een meerderheid van 50% is niet nodig.",
         "special": null
     },
     {
         "id": "clockmaker",
-        "name": "Uhrmacher",
+        "name": "Horlogemaker",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 51,
-        "firstNightReminder": "Zeige mit der Hand die Zahl der Plätze zwischen Dämon und dem nächsten Minion.",
+        "firstNightReminder": "Toon met de hand het aantal plaatsen tussen de demon en de dichtstbijzijnde handlanger.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Du erfährst zu Beginn, wie viele Plätze der Dämon von seinem nächsten Schergen entfernt sitzt.",
+        "ability": "Je ontdekt aan het begin hoeveel plaatsen de demon verwijderd zit van zijn dichtstbijzijnde handlanger.",
         "special": null
     },
     {
         "id": "dreamer",
-        "name": "Träumer",
+        "name": "Dromer",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 52,
-        "firstNightReminder": "Der Träumer zeigt auf einen Spieler. Zeige 1 guten und 1 bösen Charaktertoken: einer der Tokens ist richtig.",
+        "firstNightReminder": "De Dromer wijst naar een speler. Toon 1 goed en 1 kwaad karaktertoken: één van de tokens is juist.",
         "otherNight": 72,
-        "otherNightReminder": "Der Träumer zeigt auf einen Spieler. Zeige 1 guten und 1 bösen Charaktertoken: einer der Tokens ist richtig.",
+        "otherNightReminder": "De Dromer wijst naar een speler. Toon 1 goed en 1 kwaad karaktertoken: één van de tokens is juist.",
         "reminders": [],
         "setup": false,
-        "ability": "Wähle jede Nacht 1 Spieler (außer dich selbst): Du erfährst 1 gute & 1 böse Rolle. Eine davon ist richtig.",
+        "ability": "Kies elke nacht 1 speler (behalve jezelf): je ontdekt 1 goede en 1 kwade rol. Een daarvan is juist.",
         "special": null
     },
     {
         "id": "snakecharmer",
-        "name": "Schlangenbeschwörer",
+        "name": "Slangenbezweerder",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 28,
-        "firstNightReminder": "Der Schlangenbeschwörer zeigt auf einen Spieler. Wenn dieser Spieler der Dämon ist: Tausche die Charaktere und die Gesinnung von Schlangenbeschwörer und Dämon. Wecke beide Spieler und informiere sie über die neue Rolle und die neue Gesinnung. Der neue Schlangenbeschwörer ist vergiftet.",
+        "firstNightReminder": "De Slangenbezweerder wijst naar een speler. Als die speler de demon is: wissel de karakters en de gezindheid van Slangenbezweerder en demon. Wek beide spelers en informeer hen over de nieuwe rol en gezindheid. De nieuwe Slangenbezweerder is vergiftigd.",
         "otherNight": 18,
-        "otherNightReminder": "Der Schlangenbeschwörer zeigt auf einen Spieler. Wenn dieser Spieler der Dämon ist: Tausche die Charaktere und die Gesinnung von Schlangenbeschwörer und Dämon. Wecke beide Spieler und informiere sie über die neue Rolle und die neue Gesinnung. Der neue Schlangenbeschwörer ist vergiftet.",
+        "otherNightReminder": "De Slangenbezweerder wijst naar een speler. Als die speler de demon is: wissel de karakters en de gezindheid van Slangenbezweerder en demon. Wek beide spelers en informeer hen over de nieuwe rol en gezindheid. De nieuwe Slangenbezweerder is vergiftigd.",
         "reminders": [
-            "Vergiftet"
+            "Vergiftigd"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht 1 lebendigen Spieler: Ist er der Dämon, tauscht ihr Rolle & Gesinnung und er wird vergiftet.",
+        "ability": "Kies elke nacht 1 levende speler: is hij de demon, dan wisselen jullie van rol en gezindheid en wordt hij vergiftigd.",
         "special": null
     },
     {
@@ -997,9 +997,9 @@
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 68,
-        "firstNightReminder": "Zeige die Anzahl der Spieler, deren Fähigkeiten beeinträchtigt wurden mit der Hand.",
+        "firstNightReminder": "Toon met de hand het aantal spelers van wie de vaardigheden zijn aangetast.",
         "otherNight": 89,
-        "otherNightReminder": "Zeige die Anzahl der Spieler, deren Fähigkeiten beeinträchtigt wurden mit der Hand.",
+        "otherNightReminder": "Toon met de hand het aantal spelers van wie de vaardigheden zijn aangetast.",
         "reminders": [
             "Abnormal",
             "Abnormal",
@@ -1013,7 +1013,7 @@
     },
     {
         "id": "flowergirl",
-        "name": "Blumenmädchen",
+        "name": "Blumenmeisje",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1021,11 +1021,11 @@
         "otherNight": 73,
         "otherNightReminder": "Nicke (ja) mit dem Kopf wenn der Dämon am Tag abgestimmt hat, ansonsten schüttle den Kopf (nein). Platziere den 'Dämon nicht abgestimmt' Marker, bzw. entferne diesen.",
         "reminders": [
-            "Dämon abgestimmt",
-            "Dämon nicht abgestimmt"
+            "Demon gestemd",
+            "Demon niet gestemd"
         ],
         "setup": false,
-        "ability": "Du erfährst jede Nacht*, ob am Tag ein Dämon abgestimmt hat.",
+        "ability": "Je ontdekt elke nacht* of er overdag een demon heeft gestemd.",
         "special": null
     },
     {
@@ -1038,11 +1038,11 @@
         "otherNight": 74,
         "otherNightReminder": "Nicke (Ja) oder schüttle den Kopf (Nein) um zu zeigen, ob ein Scherge heute nominiert hat. Platziere den 'Scherge hat nicht nominiert' bzw. 'Scherge hat nominiert'.",
         "reminders": [
-            "Scherge nicht nominiert",
-            "Scherge nominiert"
+            "Handlanger niet genomineerd",
+            "Handlanger genomineerd"
         ],
         "setup": false,
-        "ability": "Du erfährst jede Nacht*, ob am Tag ein Scherge nominiert hat.",
+        "ability": "Je ontdekt elke nacht* of er overdag een handlanger heeft genomineerd.",
         "special": null
     },
     {
@@ -1053,10 +1053,10 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 75,
-        "otherNightReminder": "Zeige mit deinen Fingern die Anzahl der bösen Spieler, die gestorben sind",
+        "otherNightReminder": "Toon met je vingers het aantal kwade spelers die zijn gestorven.",
         "reminders": [],
         "setup": false,
-        "ability": "Du erfährst jede Nacht*, wie viele tote Spieler böse sind.",
+        "ability": "Je ontdekt elke nacht* hoeveel dode spelers kwaad zijn.",
         "special": null
     },
     {
@@ -1070,7 +1070,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Du darfst jeden Tag den Spielleiter besuchen, um 2 Aussagen zu erhalten: 1 ist wahr, 1 ist falsch.",
+        "ability": "Je mag elke dag de spelleider bezoeken om 2 beweringen te krijgen: 1 is waar, 1 is onjuist.",
         "special": null
     },
     {
@@ -1083,10 +1083,10 @@
         "otherNight": 76,
         "otherNightReminder": "Wenn die Schneider ihre Fähigkeit noch nicht einsetzt hat: Die Schneiderin schüttelt entweder den Kopf (Nein) oder zeigt auf zwei Spieler. Sollte die Schneider Spieler auswählen, nicke (Ja) oder schüttle den Kopf (Nein) wenn die bbeiden Spieler die gleiche Gesinnung haben.",
         "reminders": [
-            "Keine Fähigkeit"
+            "Geen vaardigheid"
         ],
         "setup": false,
-        "ability": "Du darfst einmal im Spiel in der Nacht 2 Spieler wählen (außer dich selbst): Du erfährst, ob sie beide dieselbe Gesinnung haben.",
+        "ability": "Je mag eenmaal in het spel 's nachts 2 spelers kiezen (behalve jezelf): je ontdekt of zij allebei dezelfde gezindheid hebben.",
         "special": null
     },
     {
@@ -1108,13 +1108,13 @@
             }
         ],
         "remindersGlobal": [
-            "ist der Philosoph",
-            "Betrunken"
+            "is de Filosoof",
+            "Dronken"
         ]
     },
     {
         "id": "artist",
-        "name": "Künstlerin",
+        "name": "Kunstenares",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1122,10 +1122,10 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Keine Fähigkeit"
+            "Geen vaardigheid"
         ],
         "setup": false,
-        "ability": "Du darfst einmal im Spiel am Tag den Spielleiter besuchen und ihm eine Ja- oder Nein-Frage stellen.",
+        "ability": "Je mag eenmaal in het spel overdag de spelleider bezoeken en hem een ja-of-nee-vraag stellen.",
         "special": null
     },
     {
@@ -1136,7 +1136,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 77,
-        "otherNightReminder": "Wenn heute der erste Tag des Jongleurs war: Zeige mit der Hand wieviele Charaktere der Jongleur richtig erraten hat.",
+        "otherNightReminder": "Als vandaag de eerste dag van de Jongleur was: toon met de hand hoeveel karakters de Jongleur correct heeft geraden.",
         "reminders": [
             "Korrekt",
             "Korrekt",
@@ -1156,10 +1156,10 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 57,
-        "otherNightReminder": "Wenn die Weise vom Dämon getötet wird: Zeige auf zwei Spieler, von denen einer der Dämon ist.",
+        "otherNightReminder": "Als de Wijze door de demon wordt gedood: wijs naar twee spelers, van wie er één de demon is.",
         "reminders": [],
         "setup": false,
-        "ability": "Wenn der Dämon dich tötet, erfährst du, dass 1 von 2 Spielern der Dämon ist.",
+        "ability": "Als de demon je doodt, ontdek je dat 1 van 2 spelers de demon is.",
         "special": null
     },
     {
@@ -1184,12 +1184,12 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 56,
-        "otherNightReminder": "Wähle einen Spieler, der betrunken wird.",
+        "otherNightReminder": "Kies een speler die dronken wordt.",
         "reminders": [
-            "Betrunken"
+            "Dronken"
         ],
         "setup": false,
-        "ability": "Wenn du stirbst, dann ist 1 Spieler bis zum Ende des Spiels betrunken.",
+        "ability": "Als je sterft, is 1 speler dronken tot het einde van het spel.",
         "special": null
     },
     {
@@ -1205,7 +1205,7 @@
             "Heute gibt's Haarschnitte!"
         ],
         "setup": false,
-        "ability": "Wenn du stirbst, darf der Dämon in der Nacht 2 Spieler wählen: Sie tauschen Rollen.",
+        "ability": "Als je sterft, mag de demon 's nachts 2 spelers kiezen: zij wisselen van rol.",
         "special": null
     },
     {
@@ -1219,39 +1219,39 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Wenn du erfährst, dass du gestorben bist, wähle öffentlich 1 lebenden Spieler. Ist er böse, verliert dein Team.",
+        "ability": "Als je ontdekt dat je gestorven bent, kies dan openlijk 1 levende speler. Is hij kwaad, dan verliest jouw team.",
         "special": null
     },
     {
         "id": "eviltwin",
-        "name": "Böser Zwilling",
+        "name": "Boze Tweeling",
         "edition": "snv",
         "team": "minion",
         "firstNight": 32,
-        "firstNightReminder": "Wecke den bösen Zwilling und den Zwilling. Achte darauf, dass sich beide Zwillinge gefunden haben. Zeige auf den bösen Zwilling und zeige dem anderen Zwilling die Spielkarte des bösen Zwilling. Zeige auf den anderen Zwilling und zeige seine Spielkarte dem Spieler des bösen Zwilling.",
+        "firstNightReminder": "Wek de Boze Tweeling en de tweeling. Zorg dat beide tweelingen elkaar hebben gevonden. Wijs naar de Boze Tweeling en toon de andere tweeling de spelkaart van de Boze Tweeling. Wijs naar de andere tweeling en toon zijn spelkaart aan de speler van de Boze Tweeling.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Zwilling"
+            "Tweeling"
         ],
         "setup": false,
-        "ability": "Du und ein Spieler des gegnerischen Teams kennen einander. Wenn der gute Spieler hingerichtet wird, gewinnt das böse Team. Das gute Team kann nicht gewinnen, wenn ihr beide noch lebt.",
+        "ability": "Jij en een speler van het vijandige team kennen elkaar. Als de goede speler wordt geëxecuteerd, wint het kwade team. Het goede team kan niet winnen als jullie beiden nog leven.",
         "special": null
     },
     {
         "id": "witch",
-        "name": "Hexe",
+        "name": "Heks",
         "edition": "snv",
         "team": "minion",
         "firstNight": 33,
-        "firstNightReminder": "Die Hexe zeigt auf einen Spieler. Wenn dieser Spieler morgen jemanden nominiert, stirbt er auf der Stelle.",
+        "firstNightReminder": "De Heks wijst naar een speler. Als die speler morgen iemand nomineert, sterft hij ter plekke.",
         "otherNight": 22,
-        "otherNightReminder": "Wenn vier oder mehr Spieler am Leben sind: Die Hexe zeigt auf einen Spieler. Wenn dieser Spieler morgen jemanden nominiert, stirbt er auf der Stelle.",
+        "otherNightReminder": "Als er vier of meer spelers leven: de Heks wijst naar een speler. Als die speler morgen iemand nomineert, sterft hij ter plekke.",
         "reminders": [
-            "Verflucht"
+            "Vervloekt"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht 1 Spieler: Wenn er am folgenden Tag nominiert, stirbt er. Du verlierst diese Fähigkeit, wenn nur noch 3 Spieler leben.",
+        "ability": "Kies elke nacht 1 speler: als hij de volgende dag nomineert, sterft hij. Je verliest deze vaardigheid als er nog maar 3 spelers leven.",
         "special": null
     },
     {
@@ -1260,28 +1260,28 @@
         "edition": "snv",
         "team": "minion",
         "firstNight": 34,
-        "firstNightReminder": "Der Cerenovus zeigt auf einen Spieler, dann auf einen Charakter auf dem Charakterbogen. Wecke diesen Spieler. Zeige ihm die 'Dieser Charakter hat dich ausgewählt' Karte und den Token des Cerenovus. Zeige den ausgewählten Charaktertoken. Wenn der Spieler am nächten Tag nicht besessen von diesem Charakter ist, kann er exekutiert werden.",
+        "firstNightReminder": "De Cerenovus wijst naar een speler, dan naar een karakter op het karakterblad. Wek die speler. Toon hem de 'Dit karakter heeft jou gekozen'-kaart en het token van de Cerenovus. Toon het geselecteerde karaktertoken. Als de speler de volgende dag niet bezeten is van dat karakter, kan hij worden geëxecuteerd.",
         "otherNight": 23,
-        "otherNightReminder": "Der Cerenovus zeigt auf einen Spieler, dann auf einen Charakter auf dem Charakterbogen. Wecke diesen Spieler. Zeige ihm die 'Dieser Charakter hat dich ausgewählt' Karte und den Token des Cerenovus. Zeige den ausgewählten Charaktertoken. Wenn der Spieler am nächten Tag nicht besessen von diesem Charakter ist, kann er exekutiert werden.",
+        "otherNightReminder": "De Cerenovus wijst naar een speler, dan naar een karakter op het karakterblad. Wek die speler. Toon hem de 'Dit karakter heeft jou gekozen'-kaart en het token van de Cerenovus. Toon het geselecteerde karaktertoken. Als de speler de volgende dag niet bezeten is van dat karakter, kan hij worden geëxecuteerd.",
         "reminders": [
-            "Besessen"
+            "Bezeten"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht 1 Spieler und 1 gute Rolle: Der Spieler ist am folgenden Tag besessen davon, dass er diese Rolle hat, sonst könnte er hingerichtet werden.",
+        "ability": "Kies elke nacht 1 speler en 1 goede rol: de speler is de volgende dag bezeten van het idee dat hij die rol heeft, anders zou hij kunnen worden geëxecuteerd.",
         "special": null
     },
     {
         "id": "pithag",
-        "name": "Grubenweib",
+        "name": "Groefheks",
         "edition": "snv",
         "team": "minion",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 24,
-        "otherNightReminder": "Das Grubenweib zeigt auf einen Spieler und auf einen Charakter am Charakterbogen. Wenn dieser Charakter nicht im Spiel ist, wecke den Spieler und zeige ihm die 'Du bist' Karte und den Charaktertoken. Befindet sich der Charakter im Spiel, passiert nichts.",
+        "otherNightReminder": "De Groefheks wijst naar een speler en naar een karakter op het karakterblad. Als dat karakter niet in het spel is, wek de speler en toon hem de 'Jij bent'-kaart en het karaktertoken. Als het karakter in het spel is, gebeurt er niets.",
         "reminders": [],
         "setup": false,
-        "ability": "Wähle jede Nacht* 1 Spieler & 1 Rolle: Er erhält diese Rolle, falls sie nicht im Spiel ist. Erschaffst du einen Dämon, sind Tode in dieser Nacht willkürlich.",
+        "ability": "Kies elke nacht* 1 speler en 1 rol: hij krijgt die rol als die niet in het spel is. Als je een demon creëert, zijn sterfgevallen in die nacht willekeurig.",
         "special": null
     },
     {
@@ -1292,13 +1292,13 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 40,
-        "otherNightReminder": "Der Fang Gu zeigt auf einen Spieler. Dieser Spieler stirbt. Falls dieser Spieler ein Außenseiter war nud kein anderer Fang Gu im Spiel ist: Der Fang Gu stirbt an seiner Stelle. Der ausgewählte Spieler wird der neue Fang Gu. Wecke den neuen Fang Gu. Zeige ihm die 'Du bist' Karte und den Token des Fang Gu. Danach zeige ihm die 'Du bist' Karte und ein Daumen nach unten (böse) Zeichen",
+        "otherNightReminder": "De Fang Gu wijst naar een speler. Die speler sterft. Als die speler een buitenstaander was en er geen andere Fang Gu in het spel is: de Fang Gu sterft in zijn plaats. De geselecteerde speler wordt de nieuwe Fang Gu. Wek de nieuwe Fang Gu. Toon hem de 'Jij bent'-kaart en het token van de Fang Gu. Toon hem daarna de 'Jij bent'-kaart en een duim omlaag (kwaad) teken.",
         "reminders": [
             "Einmalig",
-            "Tot"
+            "Dood"
         ],
         "setup": true,
-        "ability": "Wähle jede Nacht* 1 Spieler: Er stirbt. Der erste Außenseiter, den du so tötest, wird zum bösen Fang Gu & du stirbst stattdessen. [+1 Außenseiter]",
+        "ability": "Kies elke nacht* 1 speler: hij sterft. De eerste buitenstaander die je zo doodt, wordt de kwade Fang Gu en jij sterft in zijn plaats. [+1 buitenstaander]",
         "special": null
     },
     {
@@ -1309,18 +1309,18 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 44,
-        "otherNightReminder": "Der Vigormortis zeigt auf einen Spieler. Dieser Spieler stirbt. Ist es ein Scherge, behält er seine Fähigkeit und ein Bürger ist vergiftet.",
+        "otherNightReminder": "De Vigormortis wijst naar een speler. Die speler sterft. Is het een handlanger, dan behoudt hij zijn vaardigheid en is een dorpeling vergiftigd.",
         "reminders": [
-            "Tot",
-            "hat Fähigkeit",
-            "hat Fähigkeit",
-            "hat Fähigkeit",
-            "Vergiftet",
-            "Vergiftet",
-            "Vergiftet"
+            "Dood",
+            "heeft vaardigheid",
+            "heeft vaardigheid",
+            "heeft vaardigheid",
+            "Vergiftigd",
+            "Vergiftigd",
+            "Vergiftigd"
         ],
         "setup": true,
-        "ability": "Wähle jede Nacht* 1 Spieler: Er stirbt. Schergen, die du tötest, behalten ihre Fähigkeit und vergiften 1 benachbarten Bürger. [-1 Außenseiter]",
+        "ability": "Kies elke nacht* 1 speler: hij sterft. Handlangers die je doodt, behouden hun vaardigheid en vergiftigen 1 aangrenzende dorpeling. [-1 buitenstaander]",
         "special": null
     },
     {
@@ -1331,14 +1331,14 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 41,
-        "otherNightReminder": "Die No Dashii zeigt auf einen Spieler. Dieser Spieler stirbt.",
+        "otherNightReminder": "De No Dashii wijst naar een speler. Die speler sterft.",
         "reminders": [
-            "Tot",
-            "Vergiftet",
-            "Vergiftet"
+            "Dood",
+            "Vergiftigd",
+            "Vergiftigd"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht* 1 Spieler: Er stirbt. Deine 2 benachbarten Bürger sind vergiftet.",
+        "ability": "Kies elke nacht* 1 speler: hij sterft. Je 2 aangrenzende dorpelingen zijn vergiftigd.",
         "special": null
     },
     {
@@ -1349,12 +1349,12 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 42,
-        "otherNightReminder": "Der Vortox zeigt auf einen Spieler. Dieser Spieler stirbt.",
+        "otherNightReminder": "De Vortox wijst naar een speler. Die speler sterft.",
         "reminders": [
-            "Tot"
+            "Dood"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht* 1 Spieler: Er stirbt. Bürgerfähigkeiten geben falsche Infos. Wenn am Tag niemand hingerichtet wird, gewinnt das böse Team.",
+        "ability": "Kies elke nacht* 1 speler: hij sterft. Dorpelingvaardigheden geven valse informatie. Als er overdag niemand wordt geëxecuteerd, wint het kwade team.",
         "special": null
     },
     {
@@ -1363,17 +1363,17 @@
         "edition": "snv",
         "team": "traveller",
         "firstNight": 4,
-        "firstNightReminder": "Wähle einen Spieler, wecke ihn und sage ihm welche Fähigkeit des Baristas ihn betrifft. Behandle die Fähigkeit dementsprechend (nüchtern/gesund/wahre Info oder Fähigkeit zweimal einsetzen).",
+        "firstNightReminder": "Kies een speler, wek hem en vertel hem welke vaardigheid van de Barista op hem van toepassing is. Behandel de vaardigheid dienovereenkomstig (nuchter/gezond/ware info of vaardigheid tweemaal gebruiken).",
         "otherNight": 1,
-        "otherNightReminder": "Wähle einen Spieler, wecke ihn und sage ihm welche Fähigkeit des Baristas ihn betrifft. Behandle die Fähigkeit dementsprechend (nüchtern/gesund/wahre Info oder Fähigkeit zweimal einsetzen).",
+        "otherNightReminder": "Kies een speler, wek hem en vertel hem welke vaardigheid van de Barista op hem van toepassing is. Behandel de vaardigheid dienovereenkomstig (nuchter/gezond/ware info of vaardigheid tweemaal gebruiken).",
         "reminders": [
-            "Fähigkeit zweimal",
-            "Nüchtern und Gesund",
+            "Vaardigheid tweemaal",
+            "Nuchter en gezond",
             "?",
             "?"
         ],
         "setup": false,
-        "ability": "Jede Nacht wird ein Spieler bis zum Ende des nächsten Tages entweder nüchtern und gesund und erhält wahre Informationen oder seine Fähigkeit funktioniert zwei Mal. Er erfährt davon.",
+        "ability": "Elke nacht is een speler tot het einde van de volgende dag ofwel nuchter en gezond en ontvangt ware informatie, ofwel werkt zijn vaardigheid tweemaal. Hij ontdekt dat.",
         "special": null
     },
     {
@@ -1384,18 +1384,18 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 4,
-        "otherNightReminder": "Der Harlot zeigt auf einen Spieler. Lasse den Harlot wieder einschlafen. Wecke den ausgewählten Spieler, zeige ihm die 'Dieser Charakter hat dich ausgewählt' Karte und dann den Token des Harlekin. Der Spieler kann nicken (ja) oder den Kopf schütteln (nein). Nickt der Spieler, wecke den Harlot und zeige ihm den Charaktertoken des Spielers. Danach kannst Du entscheiden ob beide Spieler sterben.",
+        "otherNightReminder": "De Dirne wijst naar een speler. Laat de Dirne weer inslapen. Wek de geselecteerde speler, toon hem de 'Dit karakter heeft jou gekozen'-kaart en dan het token van de Dirne. De speler kan knikken (ja) of zijn hoofd schudden (nee). Als de speler knikt, wek de Dirne en toon hem het karaktertoken van de speler. Daarna kun je beslissen of beide spelers sterven.",
         "reminders": [
-            "Tot",
-            "Tot"
+            "Dood",
+            "Dood"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht* 1 lebenden Spieler: Wenn er zustimmt, erfährst du seine Rolle, aber ihr könntet beide sterben.",
+        "ability": "Kies elke nacht* 1 levende speler: als hij instemt, ontdek je zijn rol, maar jullie zouden allebei kunnen sterven.",
         "special": null
     },
     {
         "id": "butcher",
-        "name": "Fleischer",
+        "name": "Slager",
         "edition": "snv",
         "team": "traveller",
         "firstNight": 0,
@@ -1404,29 +1404,29 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Du darfst jeden Tag nach der ersten Hinrichtung nochmal nominieren.",
+        "ability": "Je mag elke dag na de eerste executie opnieuw nomineren.",
         "special": null
     },
     {
         "id": "bonecollector",
-        "name": "Knochensammler",
+        "name": "Bottenraper",
         "edition": "snv",
         "team": "traveller",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 5,
-        "otherNightReminder": "Der Knochensammler schüttelt den Kopf (nein) oder zeigt auf einen toten Spieler. Zeigt er auf einen toten Spieler, legen den 'Hat Fähigkeit' reminder zur Spielkarte des ausgewählten Spielers.",
+        "otherNightReminder": "De Bottenraper schudt zijn hoofd (nee) of wijst naar een dode speler. Als hij naar een dode speler wijst, leg de 'Heeft vaardigheid'-herinnering bij de spelkaart van de geselecteerde speler.",
         "reminders": [
-            "Hat Fähigkeit",
-            "Keine Fähigkeit"
+            "Heeft vaardigheid",
+            "Geen vaardigheid"
         ],
         "setup": false,
-        "ability": "Du darfst einmal im Spiel in der Nacht einen toten Spieler wählen: Er erhält bis zum Ende des nächsten Tages seine Fähigkeit zurück.",
+        "ability": "Je mag eenmaal in het spel 's nachts een dode speler kiezen: hij krijgt zijn vaardigheid terug tot het einde van de volgende dag.",
         "special": null
     },
     {
         "id": "deviant",
-        "name": "Perversling",
+        "name": "Excentriekeling",
         "edition": "snv",
         "team": "traveller",
         "firstNight": 0,
@@ -1435,174 +1435,174 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Wenn Du heute lustig warst kannst Du nicht ins Exil geschickt werden.",
+        "ability": "Als je vandaag grappig was, kun je niet worden verbannen.",
         "special": null
     },
     {
         "id": "noble",
-        "name": "Adlige",
+        "name": "Adellijke",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 56,
-        "firstNightReminder": "Zeige auf 3 zufällige Spieler, von denen einer böse ist.",
+        "firstNightReminder": "Wijs naar 3 willekeurige spelers, van wie er één kwaad is.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Gesehen",
-            "Gesehen",
-            "Gesehen"
+            "Gezien",
+            "Gezien",
+            "Gezien"
         ],
         "setup": false,
-        "ability": "Du erfährst zu Beginn, dass genau 1 von 3 Spielern böse ist.",
+        "ability": "Je ontdekt aan het begin dat precies 1 van 3 spelers kwaad is.",
         "special": null
     },
     {
         "id": "bountyhunter",
-        "name": "Kopfgeldjäger",
+        "name": "Premiejager",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 60,
-        "firstNightReminder": "Zeige auf 1 bösen Spieler. Wecke den Bürger, der böse ist und zeige Ihm die 'Du bist' Karte und das Daumen-runter böse Zeichen.",
+        "firstNightReminder": "Wijs naar 1 kwade speler. Wek de dorpeling die kwaad is en toon hem de 'Jij bent'-kaart en het duim-omlaag kwade teken.",
         "otherNight": 81,
-        "otherNightReminder": "Wenn der bekannte böse Spieler stirbt, zeige auf einen anderen bösen Spieler.",
+        "otherNightReminder": "Als de bekende kwade speler sterft, wijs naar een andere kwade speler.",
         "reminders": [
-            "Gesehen"
+            "Gezien"
         ],
         "setup": true,
-        "ability": "Du erfährst zu Beginn 1 bösen Spieler. Wenn er stirbt, erfährst du in dieser Nacht 1 weiteren bösen Spieler. [1 Bürger ist böse]",
+        "ability": "Je ontdekt aan het begin 1 kwade speler. Als hij sterft, ontdek je diezelfde nacht nog 1 kwade speler. [1 dorpeling is kwaad]",
         "special": null
     },
     {
         "id": "pixie",
-        "name": "Feenkind",
+        "name": "Feenwicht",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 39,
-        "firstNightReminder": "Zeige dem Feenkind das Rollenplättchen eines Bürgers, der sich im Spiel befindet.",
+        "firstNightReminder": "Toon het Feenwicht het rolplaatje van een dorpeling die in het spel is.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Hat Fähigkeit",
-            "Besessen"
+            "Heeft vaardigheid",
+            "Bezeten"
         ],
         "setup": false,
-        "ability": "Du erfährst zu Beginn 1 Bürgerrolle, die im Spiel ist. Wenn du besessen davon warst, dass du diese Rolle hast, erhältst du ihre Fähigkeit, wenn er stirbt.",
+        "ability": "Je ontdekt aan het begin 1 dorpelingenrol die in het spel is. Als je er bezeten van was dat je die rol hebt, krijg je haar vaardigheid als hij sterft.",
         "special": null
     },
     {
         "id": "general",
-        "name": "General",
+        "name": "Generaal",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 66,
-        "firstNightReminder": "Zeige dem General ob gut im Vorteil ist (Daumen. nach oben), Böse im Vorteil ist (Daumen nach unten) oder es ausgeglichen ist (Daumen zur Seite).",
+        "firstNightReminder": "Toon de Generaal of goed in het voordeel is (duim omhoog), kwaad in het voordeel is (duim omlaag) of het gelijkopgaat (duim opzij).",
         "otherNight": 87,
-        "otherNightReminder": "Zeige dem General ob gut im Vorteil ist (Daumen. nach oben), Böse im Vorteil ist (Daumen nach unten) oder es ausgeglichen ist (Daumen zur Seite).",
+        "otherNightReminder": "Toon de Generaal of goed in het voordeel is (duim omhoog), kwaad in het voordeel is (duim omlaag) of het gelijkopgaat (duim opzij).",
         "reminders": [],
         "setup": false,
-        "ability": "Du erfährst jede Nacht, welche Gesinnung der Erzähler für führend hält: Gut, Böse oder weder noch.",
+        "ability": "Je ontdekt elke nacht welke gezindheid de verteller als leidend beschouwt: goed, kwaad of geen van beide.",
         "special": null
     },
     {
         "id": "preacher",
-        "name": "Predigerin",
+        "name": "Prediker",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 20,
-        "firstNightReminder": "Der Priester wählt einen Spieler. Wenn ein Scherge gewählt wurde, wecke den Schergen und zeige ihm die 'Dieser Charakter hat dich ausgewählt' Karte und danach den Token des Priester.",
+        "firstNightReminder": "De Prediker kiest een speler. Als een handlanger is gekozen, wek de handlanger en toon hem de 'Dit karakter heeft jou gekozen'-kaart en daarna het token van de Prediker.",
         "otherNight": 10,
-        "otherNightReminder": "Der Priester wählt einen Spieler. Wenn ein Scherge gewählt wurde, wecke den Schergen und zeige ihm die 'Dieser Charakter hat dich ausgewählt' Karte und danach den Token des Priester.",
+        "otherNightReminder": "De Prediker kiest een speler. Als een handlanger is gekozen, wek de handlanger en toon hem de 'Dit karakter heeft jou gekozen'-kaart en daarna het token van de Prediker.",
         "reminders": [
-            "Bei einer Predigt",
-            "Bei einer Predigt",
-            "Bei einer Predigt"
+            "Bij een preek",
+            "Bij een preek",
+            "Bij een preek"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht 1 Spieler: Ist er ein Scherge, erfährt er davon. Alle gewählten Schergen haben keine Fähigkeit.",
+        "ability": "Kies elke nacht 1 speler: is hij een handlanger, dan ontdekt hij dat. Alle gekozen handlangers hebben geen vaardigheid.",
         "special": null
     },
     {
         "id": "king",
-        "name": "König",
+        "name": "Koning",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 16,
-        "firstNightReminder": "Wecke den Dämon. Zeige den *DIESER SPIELER IST* Token und den Königs-Token, dann zeige auf den König.",
+        "firstNightReminder": "Wek de demon. Toon het *DEZE SPELER IS* token en het Konings-token, wijs dan naar de Koning.",
         "otherNight": 80,
-        "otherNightReminder": "Wenn die Toten die Lebenden zahlenmäßig erreichen oder übertreffen, zeige den Charakter-Token eines lebenden Spielers.",
+        "otherNightReminder": "Als de doden de levenden in aantal evenaren of overtreffen, toon het karaktertoken van een levende speler.",
         "reminders": [],
         "setup": false,
-        "ability": "Jede Nacht, wenn die Toten die Lebenden zahlenmäßig erreichen oder übertreffen, erfährst du 1 lebenden Charakter. Der Dämon weiß, dass du der König bist.",
+        "ability": "Elke nacht, als de doden de levenden in aantal evenaren of overtreffen, ontdek je 1 levend karakter. De demon weet dat jij de Koning bent.",
         "special": null
     },
     {
         "id": "balloonist",
-        "name": "Ballonfahrer",
+        "name": "Ballonvaarder",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 57,
-        "firstNightReminder": "Zeige einen beliebigen Spieler. :reminder:",
+        "firstNightReminder": "Wijs naar een willekeurige speler. :reminder:",
         "otherNight": 78,
-        "otherNightReminder": "Zeige einen Spieler mit einem anderen Charaktertyp als zuvor. :reminder:",
+        "otherNightReminder": "Wijs naar een speler met een ander karaktertype dan voorheen. :reminder:",
         "reminders": [
-            "Gesehen"
+            "Gezien"
         ],
         "setup": true,
-        "ability": "Jede Nacht erfährst du einen Spieler eines anderen Charaktertyps als letzte Nacht. [+0 oder +1 Außenseiter]",
+        "ability": "Elke nacht ontdek je een speler van een ander karaktertype dan vorige nacht. [+0 of +1 buitenstaander]",
         "special": null
     },
     {
         "id": "cultleader",
-        "name": "Kultführer",
+        "name": "Cultleider",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 62,
-        "firstNightReminder": "Wenn sich die Ausrichtung des Kultführers ändert, zeige ihm/ihr ein Daumen nach oben Signal für Gut oder ein Daumen nach unten Signal für böse.",
+        "firstNightReminder": "Als de gezindheid van de Cultleider verandert, toon hem/haar een duim-omhoog signaal voor goed of een duim-omlaag signaal voor kwaad.",
         "otherNight": 83,
-        "otherNightReminder": "Wenn sich die Ausrichtung des Kultführers ändert, zeige ihm/ihr ein Daumen nach oben Signal für Gut oder ein Daumen nach unten Signal für böse.",
+        "otherNightReminder": "Als de gezindheid van de Cultleider verandert, toon hem/haar een duim-omhoog signaal voor goed of een duim-omlaag signaal voor kwaad.",
         "reminders": [],
         "setup": false,
-        "ability": "Du erhältst jede Nacht die Gesinnung 1 deiner lebenden Nachbarn. Wenn sich alle guten Spieler deinem Kult anschließen, gewinnt dein Team.",
+        "ability": "Je krijgt elke nacht de gezindheid van 1 van je levende buren. Als alle goede spelers zich bij jouw sekte aansluiten, wint jouw team.",
         "special": null
     },
     {
         "id": "lycanthrope",
-        "name": "Werwolf",
+        "name": "Weerwolf",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 32,
-        "otherNightReminder": "Der Werwolf zeigt auf einen lebenden Spieler. Ist er gut, stirbt er und niemand sonst stirbt in der Nacht",
+        "otherNightReminder": "De Weerwolf wijst naar een levende speler. Is hij goed, dan sterft hij en sterft niemand anders die nacht.",
         "reminders": [
-            "Tot",
+            "Dood",
             "Faux Paw"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht* 1 lebenden Spieler: Ist er gut, stirbt er & der Dämon tötet in dieser Nacht nicht. Ein guter Spieler erscheint als Böse.",
+        "ability": "Kies elke nacht* 1 levende speler: is hij goed, dan sterft hij en doodt de demon deze nacht niet. Een goede speler verschijnt als kwaad.",
         "special": null
     },
     {
         "id": "amnesiac",
-        "name": "Amnesiker",
+        "name": "Amnesist",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 42,
-        "firstNightReminder": "Suche eine Fähigkeit des Amnesikers aus. Wenn die Fähigkeit in der Nacht aktiv ist: Wecke den Amnestiker und spiele seine Fähigkeit.",
+        "firstNightReminder": "Kies een vaardigheid voor de Amnesist. Als de vaardigheid 's nachts actief is: wek de Amnesist en speel zijn vaardigheid.",
         "otherNight": 63,
-        "otherNightReminder": "Wenn die Fähigkeit in der Nacht aktiv ist: Wecke den Amnestiker und spiele seine Fähigkeit.",
+        "otherNightReminder": "Als de vaardigheid 's nachts actief is: wek de Amnesist en speel zijn vaardigheid.",
         "reminders": [
             "?",
             "?",
             "?"
         ],
         "setup": false,
-        "ability": "Du weißt nicht, was deine Fähigkeit ist. Du darfst jeden Tag beim Spielleiter versuchen, deine Fähigkeit zu erraten: Du erfährst, wie nah du der Wahrheit bist.",
+        "ability": "Je weet niet wat je vaardigheid is. Je mag elke dag bij de spelleider proberen je vaardigheid te raden: je ontdekt hoe dicht je bij de waarheid zit.",
         "special": null
     },
     {
         "id": "nightwatchman",
-        "name": "Nachtwächter",
+        "name": "Nachtwaker",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 61,
@@ -1610,10 +1610,10 @@
         "otherNight": 82,
         "otherNightReminder": "Der Nachtwächter kann auf einen Spieler zeigen. Wecke den Spieler und zeige ihm die 'Dieser Charakter hat Dich ausgewählt' Karte und das Charakterplättchen des Nachtwächters. Dann zeige auf den Nachtwächter.",
         "reminders": [
-            "Keine Fähigkeit"
+            "Geen vaardigheid"
         ],
         "setup": false,
-        "ability": "Einmal im Spiel, in der Nacht, wähle einen Spieler. Dieser Spieler erfährt, wer du bist.",
+        "ability": "Eenmaal in het spel, 's nachts, kies een speler. Die speler ontdekt wie je bent.",
         "special": null
     },
     {
@@ -1626,10 +1626,10 @@
         "otherNight": 9,
         "otherNightReminder": "Der Ingenieur schüttelt den Kopf (Nein) oder zeigt auf einen Dämon oder auf die richtige Anzahl von Untergebebenen.Wenn der Ingenieur Charaktere wählt, ersetze den Dämon oder die Schergen mit der Auswahl des Ingnieurs, danach wecke die betroffenen Spieler, zeige Ihnen die 'Du bist' Karte und danach die relevanten Charaktertokens.",
         "reminders": [
-            "Keine Fähigkeit"
+            "Geen vaardigheid"
         ],
         "setup": false,
-        "ability": "Du darfst einmal im Spiel in der Nacht wählen, welche Schergen im SPiel sind oder welcher Dämon.",
+        "ability": "Je mag eenmaal in het spel 's nachts kiezen welke handlangers in het spel zijn of welke demon.",
         "special": null
     },
     {
@@ -1642,15 +1642,15 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Keine Fähigkeit"
+            "Geen vaardigheid"
         ],
         "setup": false,
-        "ability": "Du darfst einmal im Spiel den Spielleiter besuchen: Er gibt dir einen Ratschlag, um zu gewinnen.",
+        "ability": "Je mag eenmaal in het spel de spelleider bezoeken: hij geeft je een advies om te winnen.",
         "special": null
     },
     {
         "id": "huntsman",
-        "name": "Jägersmann",
+        "name": "Jager",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 40,
@@ -1658,7 +1658,7 @@
         "otherNight": 61,
         "otherNightReminder": "Der Jäger schüttelt den Kopf für Nein oder zeigt auf einen Spieler. Wenn er auf die Maid zeigt, wecke diesen Spieler, zeige ihm die 'Du bist' Karte und einen neuen Token eines guten Charakters, der sich nicht im Spiel befindet.",
         "reminders": [
-            "Keine Fähigkeit"
+            "Geen vaardigheid"
         ],
         "setup": true,
         "ability": "Du darfst einmal im Spiel in der Nacht einen lebenden Spieler wählen: Ist er die Maid, erhält er eine Bürgerrolle, die nicht im Spiel ist. [+ Maid]",
@@ -1670,12 +1670,12 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 9,
-        "firstNightReminder": "Zeige dem Alchemisten den Spielstein eines Schergen, der sich nicht im Spiel befindet",
+        "firstNightReminder": "Toon de Alchemist het speelstuk van een handlanger die niet in het spel is.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Du hast eine Schergenfähigkeit. Wenn du sie verwendest, darf der Spielleiter dich dazu auffordern, neu zu wählen.",
+        "ability": "Je hebt een handlangersvaardigheid. Als je die gebruikt, mag de spelleider je vragen opnieuw te kiezen.",
         "special": [
             {
                 "type": "reveal",
@@ -1683,7 +1683,7 @@
             }
         ],
         "remindersGlobal": [
-            "Ist der Alchemist"
+            "Is de Alchemist"
         ]
     },
     {
@@ -1697,7 +1697,7 @@
         "otherNightReminder": "Wenn ein Bauer in der Nacht starb, wähle einen anderen guten Spieler und mache ihn zum Bauern. Wecke den Spieler und zeige ihm die 'Du bist' Karte und den Token des Bauern.",
         "reminders": [],
         "setup": false,
-        "ability": "Wenn du in der Nacht stirbst, wird ein lebender guter Spieler zu einem Bauern.",
+        "ability": "Als je 's nachts sterft, wordt een levende goede speler een Boer.",
         "special": null
     },
     {
@@ -1711,7 +1711,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Der Dämon denkt, du seist ein Scherge. Schergen denken, du seist ein Dämon.",
+        "ability": "De demon denkt dat je een handlanger bent. Handlangers denken dat je een demon bent.",
         "special": null
     },
     {
@@ -1722,26 +1722,26 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 60,
-        "otherNightReminder": "Wenn der König vom Dämon getötet wurde, wecke den Chorknaben und zeige auf den Spieler des Dämons.",
+        "otherNightReminder": "Als de Koning door de demon is gedood, wek de Koorjongen en wijs naar de speler van de demon.",
         "reminders": [],
         "setup": true,
-        "ability": "Wenn der Dämon den König tötet, erfährst du, wer der Dämon ist. [+König]",
+        "ability": "Als de demon de Koning doodt, ontdek je wie de demon is. [+Koning]",
         "special": null
     },
     {
         "id": "poppygrower",
-        "name": "Mohnzüchterin",
+        "name": "Maanzaadkweker",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 10,
-        "firstNightReminder": "Sage weder dem Dämon noch den Schergen, wer die anderen bösen Mitspieler sind.",
+        "firstNightReminder": "Vertel noch de demon noch de handlangers wie de andere kwade medespelers zijn.",
         "otherNight": 7,
-        "otherNightReminder": "Stirbt der Mohnzüchter: zeige den Unteregebenen und dem Dämon, wer die anderen Spieler sind.",
+        "otherNightReminder": "Als de Maanzaadkweker sterft: toon de ondergeschikten en de demon wie de andere spelers zijn.",
         "reminders": [
-            "Böse erwacht"
+            "Kwaad wakker"
         ],
         "setup": false,
-        "ability": "Schergen & Dämonen kennen einander nicht. Wenn du stirbst, erfahren sie in der Nacht voneinander.",
+        "ability": "Handlangers en demonen kennen elkaar niet. Als je sterft, ontdekken zij elkaar 's nachts.",
         "special": null
     },
     {
@@ -1768,7 +1768,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Heute gestorben",
+            "Vandaag gestorven",
             "vergiftet"
         ],
         "setup": false,
@@ -1786,28 +1786,28 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Jeder Scherge erhält 3 Bluffs",
+        "ability": "Elke handlanger krijgt 3 bluffs.",
         "special": null
     },
     {
         "id": "acrobat",
-        "name": "Akrobat",
+        "name": "Acrobaat",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 17,
-        "otherNightReminder": "Der Akrobat wählt einen Spieler. :reminder:",
+        "otherNightReminder": "De Acrobaat kiest een speler. :reminder:",
         "reminders": [
-            "Tot"
+            "Dood"
         ],
         "setup": false,
-        "ability": "Jede Nacht*, wähle einen Spieler: Wenn er heute Nacht betrunken oder vergiftet wird, stirbst du.",
+        "ability": "Elke nacht*, kies een speler: als hij vannacht dronken of vergiftigd wordt, sterf jij.",
         "special": null
     },
     {
         "id": "puzzlemaster",
-        "name": "Rätselmeister",
+        "name": "Raadselmeester",
         "edition": "",
         "team": "outsider",
         "firstNight": 0,
@@ -1815,16 +1815,16 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Betrunken",
-            "Rateversuch verbraucht"
+            "Dronken",
+            "Gokpoging verbruikt"
         ],
         "setup": false,
-        "ability": "1 Spieler ist betrunken, sogar wenn du tot bist. Du darfst einem im Spiel erraten, wer es ist, um zu erfahren, wer der Dämon ist: Liegst du falsch, ist auch die Information falsch.",
+        "ability": "1 speler is dronken, zelfs als je dood bent. Je mag eenmaal in het spel raden wie het is om te ontdekken wie de demon is: als je het fout hebt, is de informatie ook onjuist.",
         "special": null
     },
     {
         "id": "heretic",
-        "name": "Häretiker",
+        "name": "Ketter",
         "edition": "",
         "team": "outsider",
         "firstNight": 0,
@@ -1833,23 +1833,23 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Wer gewinnt, verliert & wer verliert, gewinnt, sogar wenn du tot bist.",
+        "ability": "Wie wint, verliest en wie verliest, wint, zelfs als je dood bent.",
         "special": null
     },
     {
         "id": "damsel",
-        "name": "Maid",
+        "name": "Jonkvrouw",
         "edition": "",
         "team": "outsider",
         "firstNight": 41,
-        "firstNightReminder": "Wecke alle Schergen und zeige ihnen die 'Dieser Charakter hat Dich ausgewählt' Karte und die Karte der Holden Maid.",
+        "firstNightReminder": "Wek alle handlangers en toon hen de 'Dit karakter heeft jou gekozen'-kaart en de kaart van de Jonkvrouw.",
         "otherNight": 62,
-        "otherNightReminder": "Wecke die Holde Maid, wenn Sie vom Jäger ausgewählt wurde und zeige ihr die 'Du bist' Karte und einen Token eines Bürgers, der sich nicht im Spiel befindet.",
+        "otherNightReminder": "Wek de Jonkvrouw als zij door de Jager is gekozen en toon haar de 'Jij bent'-kaart en een token van een dorpeling die niet in het spel is.",
         "reminders": [
-            "Rateversuch verbraucht"
+            "Gokpoging verbruikt"
         ],
         "setup": false,
-        "ability": "Alle Schergen wissen, dass die Maid im Spiel bist. Ein Scherge kann einmal im Spiel öffentlich erraten, wer die Maid ist: Liegt er richtig, verliert dein Team.",
+        "ability": "Alle handlangers weten dat de Jonkvrouw in het spel is. Een handlanger kan eenmaal in het spel openlijk raden wie de Jonkvrouw is: als hij het goed heeft, verliest jouw team.",
         "special": null
     },
     {
@@ -1862,15 +1862,15 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Kann nicht nominieren"
+            "Kan niet nomineren"
         ],
         "setup": false,
-        "ability": "Du kannst nur einmal im Spiel nominieren. Wenn du das tust und der Angeklagte nicht der Dämon ist, stirbt er.",
+        "ability": "Je kunt maar eenmaal in het spel nomineren. Als je dat doet en de beschuldigde is niet de demon, dan sterft hij.",
         "special": null
     },
     {
         "id": "politician",
-        "name": "Politiker",
+        "name": "Politicus",
         "edition": "",
         "team": "outsider",
         "firstNight": 0,
@@ -1879,47 +1879,47 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Wenn du am meisten für die Niederlage deines Teams verantwortlich bist, wechselst du die Gesinnung und gewinnst, sogar wenn du tot bist.",
+        "ability": "Als jij het meest verantwoordelijk bent voor de nederlaag van jouw team, wissel je van gezindheid en win je, zelfs als je dood bent.",
         "special": null
     },
     {
         "id": "widow",
-        "name": "Witwe",
+        "name": "Weduwe",
         "edition": "",
         "team": "minion",
         "firstNight": 25,
-        "firstNightReminder": "Zeige der Witwe das Grimoire so lange sie es benötigt. Die Witwe zeigt auf einen Spieler. Dieser Spieler ist vergiftet. Wecke einen guten Spieler. Zeige ihm die 'Dieser Charakter ist im Spiel' und danach den Token der Witwe.",
+        "firstNightReminder": "Toon de Weduwe het Grimoire zo lang ze het nodig heeft. De Weduwe wijst naar een speler. Die speler is vergiftigd. Wek een goede speler. Toon hem 'Dit karakter is in het spel' en daarna het token van de Weduwe.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Vergiftet"
+            "Vergiftigd"
         ],
         "setup": false,
-        "ability": "Schaue in deiner ersten Nacht in das Grimoire & wähle 1 Spieler: Er ist vergiftet. 1 guter Spieler weiß, dass die Witwe im Spiel ist.",
+        "ability": "Kijk in je eerste nacht in het Grimoire en kies 1 speler: hij is vergiftigd. 1 goede speler weet dat de Weduwe in het spel is.",
         "special": null,
         "remindersGlobal": [
-            "Kennt die Witwe"
+            "Kent de weduwe"
         ]
     },
     {
         "id": "fearmonger",
-        "name": "Panikschmied",
+        "name": "Paniekzaaier",
         "edition": "",
         "team": "minion",
         "firstNight": 35,
-        "firstNightReminder": "Der Panikmacher zeigt auf einen Spieler. Setze den Furcht Token neben den Spieler und verkünde, dass ein neuer Spieler mit der Fähigkeit des Panikmachers auserwählt wurde.",
+        "firstNightReminder": "De Paniekzaaier wijst naar een speler. Zet de angst-token naast de speler en kondig aan dat een nieuwe speler met de vaardigheid van de Paniekzaaier is gekozen.",
         "otherNight": 25,
-        "otherNightReminder": "Der Panikmacher zeigt auf einen Spieler, der in der letzten Nacht nicht gewählt wurde. Setze den Furcht Token neben den Spieler und verkünde, dass ein neuer Spieler mit der Fähigkeit des Panikmachers auserwählt wurde.",
+        "otherNightReminder": "De Paniekzaaier wijst naar een speler die de vorige nacht niet is gekozen. Zet de angst-token naast de speler en kondig aan dat een nieuwe speler met de vaardigheid van de Paniekzaaier is gekozen.",
         "reminders": [
-            "Panik"
+            "Paniek"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht 1 Spieler: Wenn du ihn nominierst & hinrichtest, verliert sein Team. Wenn du einen neuen Spieler wählst, erfahren alle Spieler davon.",
+        "ability": "Kies elke nacht 1 speler: als je hem nomineert en executeert, verliest zijn team. Als je een nieuwe speler kiest, weten alle spelers dat.",
         "special": null
     },
     {
         "id": "psychopath",
-        "name": "Psychopath",
+        "name": "Psychopaat",
         "edition": "",
         "team": "minion",
         "firstNight": 0,
@@ -1928,7 +1928,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Du darfst jeden Tag vor den Nominierungen öffentlich 1 Spieler wählen: Er stirbt. Wenn du hingerichtet wirst, stirbst du nur, wenn du Schere-Stein-Papier verlierst.",
+        "ability": "Je mag elke dag voor de nominaties openlijk 1 speler kiezen: hij sterft. Als je wordt geëxecuteerd, sterf je alleen als je steen-papier-schaar verliest.",
         "special": null
     },
     {
@@ -1941,10 +1941,10 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Behauptet"
+            "Beweerd"
         ],
         "setup": false,
-        "ability": "Wenn du nominiert wirst und öffentlich behauptest, der Goblin zu sein, und anschließend hingerichtet wirst, gewinnt dein Team.",
+        "ability": "Als je genomineerd wordt en openlijk beweert de Goblin te zijn en vervolgens wordt geëxecuteerd, wint jouw team.",
         "special": null
     },
     {
@@ -1953,15 +1953,15 @@
         "edition": "",
         "team": "minion",
         "firstNight": 37,
-        "firstNightReminder": "Zeige dem Mezepheles das geheime Wort",
+        "firstNightReminder": "Toon de Mezepheles het geheime woord.",
         "otherNight": 27,
-        "otherNightReminder": "Wecke den ersten guten Spieler, der das geheime Wort des Mezepheles ausgesprochen hat und zeige ihm die 'Du bist' Karte und danach das Daumen runter Signal, um zu zeigen, dass er ab jetzt böse ist",
+        "otherNightReminder": "Wek de eerste goede speler die het geheime woord van de Mezepheles heeft uitgesproken en toon hem de 'Jij bent'-kaart en daarna het duim-omlaag signaal om te tonen dat hij voortaan kwaad is.",
         "reminders": [
-            "Keine Fähigkeit",
-            "Wird böse"
+            "Geen vaardigheid",
+            "Wordt kwaad"
         ],
         "setup": false,
-        "ability": "Du erfährst zu Beginn ein geheimes Wort. Der erste gute Spieler, der es ausspricht, wird in der Nacht böse.",
+        "ability": "Je ontdekt aan het begin een geheim woord. De eerste goede speler die het uitspreekt, wordt 's nachts kwaad.",
         "special": null
     },
     {
@@ -1970,12 +1970,12 @@
         "edition": "",
         "team": "minion",
         "firstNight": 18,
-        "firstNightReminder": "Wähle einen guten Spieler neben dem Dämon und platziere den Marionetten Reminder neben ihm. Wecke den Dämon und zeige ihm die Marionette.",
+        "firstNightReminder": "Kies een goede speler naast de demon en plaats de Marionette-herinnering naast hem. Wek de demon en toon hem de Marionette.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
         "setup": true,
-        "ability": "Du weißt nicht, dass du die Marionette bist. Du denkst, du seist eine gute Rolle, bist es aber nicht. Der Dämon weiß, wer du bist. [Du sitzt neben dem Dämon]",
+        "ability": "Je weet niet dat je de Marionette bent. Je denkt een goede rol te zijn, maar dat ben je niet. De demon weet wie je bent. [Je zit naast de demon]",
         "special": [
             {
                 "type": "selection",
@@ -1987,7 +1987,7 @@
             }
         ],
         "remindersGlobal": [
-            "Ist die Marionette"
+            "Is de marionette"
         ]
     },
     {
@@ -2001,21 +2001,21 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Wenn du hingerichtet wirst, sterben alle bis auf 3 Spieler. Nach einem 10-sekündigen Countdown stirbt der Spieler, auf den die meisten Spieler zeigen.",
+        "ability": "Als je wordt geëxecuteerd, sterven alle spelers behalve 3. Na een aftelling van 10 seconden sterft de speler naar wie de meeste spelers wijzen.",
         "special": null
     },
     {
         "id": "lilmonsta",
-        "name": "Kleines Monster",
+        "name": "Klein Monster",
         "edition": "",
         "team": "demon",
         "firstNight": 21,
-        "firstNightReminder": "Wecke alle Schergen gemeinsam. Sie müssen sich einigen, wer von ihnen das Kleine Monsta babysittet.",
+        "firstNightReminder": "Wek alle handlangers samen. Ze moeten het eens worden over wie van hen het Kleine Monster bewaakt.",
         "otherNight": 48,
-        "otherNightReminder": "Wecke alle Schergen gemeinsam. Sie müssen sich einigen, wer von Ihnen das Kleine Monsta babysittet. Wähle einen Spieler, dieser Spieler stirbt.",
+        "otherNightReminder": "Wek alle handlangers samen. Ze moeten het eens worden over wie van hen het Kleine Monster bewaakt. Kies een speler, die speler sterft.",
         "reminders": [],
         "setup": true,
-        "ability": "Jede Nacht wählen die Schergen, wer das Kleine Monster hütet & der Dämon \"ist\". Jede Nacht* könnte ein Spieler sterben. [+1 Scherge]",
+        "ability": "Elke nacht kiezen de handlangers wie het Kleine Monster bewaakt en wie de demon 'is'. Elke nacht* zou een speler kunnen sterven. [+1 handlanger]",
         "special": [
             {
                 "type": "selection",
@@ -2027,8 +2027,8 @@
             }
         ],
         "remindersGlobal": [
-            "Tot",
-            "Ist der Dämon"
+            "Dood",
+            "Is de demon"
         ]
     },
     {
@@ -2037,15 +2037,15 @@
         "edition": "",
         "team": "demon",
         "firstNight": 22,
-        "firstNightReminder": "Der Lleech zeigt auf einen Spieler. Platziere den Vergiftet Erinnerungstoken.",
+        "firstNightReminder": "De Lleech wijst naar een speler. Plaats de vergiftigd-herinneringstoken.",
         "otherNight": 47,
-        "otherNightReminder": "Der Lleech zeigt auf einen Spieler. Dieser Spieler stirbt.",
+        "otherNightReminder": "De Lleech wijst naar een speler. Die speler sterft.",
         "reminders": [
-            "Tot",
-            "Vergiftet"
+            "Dood",
+            "Vergiftigd"
         ],
         "setup": false,
-        "ability": "Wähle jede Nacht* 1 Spieler: Er stirbt. Du wählst zu Beginn 1 Spieler: Er ist vergiftet. Du stirbst, wenn er tot ist, und zwar nur dann.",
+        "ability": "Kies elke nacht* 1 speler: hij sterft. Je kiest aan het begin 1 speler: hij is vergiftigd. Je sterft alleen als hij dood is.",
         "special": null
     },
     {
@@ -2056,33 +2056,33 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 46,
-        "otherNightReminder": "Der Al-Hadikhia wählt 3 Spieler. Wecke nacheinander alle drei Spieler und frage sie ob sie leben (nicken) oder sterben wollen (Kopfschütteln). Wählen alle drei Spieler das Leben, sterben alle drei.",
+        "otherNightReminder": "De Al-Hadikhia kiest 3 spelers. Wek alle drie de spelers één voor één en vraag hen of ze willen leven (knikken) of sterven (hoofd schudden). Als alle drie spelers voor leven kiezen, sterven alle drie.",
         "reminders": [
             "1",
             "2",
             "3",
-            "Wähle Leben",
-            "Wähle Tod"
+            "Kies leven",
+            "Kies dood"
         ],
         "setup": false,
-        "ability": "Du darfst jede Nacht* 3 Spieler wählen (alle Spieler erfahren, welche): Jeder entscheidet für sich, ob er leben oder sterben möchte, aber wenn alle leben, sterben alle.",
+        "ability": "Je mag elke nacht* 3 spelers kiezen (alle spelers ontdekken welke): ieder beslist voor zichzelf of hij wil leven of sterven, maar als allen leven, sterven allen.",
         "special": null
     },
     {
         "id": "legion",
-        "name": "Legion",
+        "name": "Legioen",
         "edition": "",
         "team": "demon",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 34,
-        "otherNightReminder": "Wähle einen Spieler, dieser Spieler stirbt.",
+        "otherNightReminder": "Kies een speler, die speler sterft.",
         "reminders": [
-            "Tot",
-            "Stirbt bald"
+            "Dood",
+            "Sterft binnenkort"
         ],
         "setup": true,
-        "ability": "Jede Nacht* könnte ein Spieler sterben. Hinrichtungen schlagen fehl, wenn nur böse Spieler abgestimmt haben. Du erscheinst auch als Scherge. [Die meisten Spieler sind Legionen.]",
+        "ability": "Elke nacht* zou een speler kunnen sterven. Executies mislukken als alleen kwade spelers hebben gestemd. Je verschijnt ook als handlanger. [De meeste spelers zijn Legioenen.]",
         "special": null
     },
     {
@@ -2091,24 +2091,24 @@
         "edition": "",
         "team": "demon",
         "firstNight": 69,
-        "firstNightReminder": "Platziere den Leviathan 'Tag 1' Marker. Kündige an: 'Der Leviathan ist im Spiel. Das ist Tag 1.'",
+        "firstNightReminder": "Plaats de Leviathan 'Dag 1' markering. Kondig aan: 'De Leviathan is in het spel. Dit is dag 1.'",
         "otherNight": 90,
-        "otherNightReminder": "Wechsle den Leviathan Tag reminder für den nächsten Tag.",
+        "otherNightReminder": "Wissel de Leviathan dag-herinnering voor de volgende dag.",
         "reminders": [
-            "Tag 1",
-            "Tag 2",
-            "Tag 3",
-            "Tag 4",
-            "Tag 5",
-            "Guter Spieler exekutiert"
+            "Dag 1",
+            "Dag 2",
+            "Dag 3",
+            "Dag 4",
+            "Dag 5",
+            "Goede speler geëxecuteerd"
         ],
         "setup": false,
-        "ability": "Wenn mehr als 1 guter Spieler hingerichtet wird, gewinnt das böse Team. Alle Spieler wissen, dass du im Spiel bist. Nach Tag 5 gewinnt das böse Team.",
+        "ability": "Als meer dan 1 goede speler wordt geëxecuteerd, wint het kwade team. Alle spelers weten dat je in het spel bent. Na dag 5 wint het kwade team.",
         "special": null
     },
     {
         "id": "riot",
-        "name": "Aufrührer",
+        "name": "Oproerkraaier",
         "edition": "",
         "team": "demon",
         "firstNight": 0,
@@ -2117,7 +2117,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": true,
-        "ability": "Am 3. Tag werden Schergen zu Riot & Nominierte sterben, aber nominieren sofort einen lebenden Spieler. Das muss passieren.",
+        "ability": "Op dag 3 worden handlangers Oproerkraaiers en genomineerden sterven, maar nomineren onmiddellijk een levende speler. Dit moet gebeuren.",
         "special": null
     },
     {
@@ -2131,12 +2131,12 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Du darfst einmal im Spiel einen lebenden Nachbarn töten, wenn dein anderer lebender Nachbar zustimmt.",
+        "ability": "Je mag eenmaal in het spel een levende buur doden, als je andere levende buur instemt.",
         "special": null
     },
     {
         "id": "organgrinder",
-        "name": "Leiermann",
+        "name": "Liereman",
         "edition": "",
         "team": "minion",
         "firstNight": 30,
@@ -2144,16 +2144,16 @@
         "otherNight": 20,
         "otherNightReminder": "",
         "reminders": [
-            "Betrunken",
-            "About to die"
+            "Dronken",
+            "Staat op sterven"
         ],
         "setup": false,
-        "ability": "Alle Spieler halten beim Abstimmen die Augen geschlossen und das Ergebnis der Abstimmung ist geheim. Wählen Sie jede Nacht, ob Sie betrunken sind oder nicht.",
+        "ability": "Alle spelers houden tijdens het stemmen hun ogen gesloten en de uitslag van de stemming is geheim. Kies elke nacht of je dronken bent of niet.",
         "special": null
     },
     {
         "id": "vizier",
-        "name": "Wesir",
+        "name": "Vazier",
         "edition": "",
         "team": "minion",
         "firstNight": 70,
@@ -2162,12 +2162,12 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Alle Spieler wissen, wer du bist. Du kannst am Tag nicht sterben. Wenn mindestens 1 guter Spieler abgestimmt hat, darfst du sofort hinrichten.",
+        "ability": "Alle spelers weten wie je bent. Je kunt overdag niet sterven. Als minimaal 1 goede speler heeft gestemd, mag je onmiddellijk executeren.",
         "special": null
     },
     {
         "id": "knight",
-        "name": "Ritter",
+        "name": "Ridder",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 55,
@@ -2175,16 +2175,16 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Gesehen",
-            "Gesehen"
+            "Gezien",
+            "Gezien"
         ],
         "setup": false,
-        "ability": "Du beginnst das Spiel mit dem Wissen, dass 2 Spieler nicht der Dämon sind.",
+        "ability": "Je begint het spel met de wetenschap dat 2 spelers niet de demon zijn.",
         "special": null
     },
     {
         "id": "steward",
-        "name": "Hofmeister",
+        "name": "Hofmeester",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 54,
@@ -2192,15 +2192,15 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Know"
+            "Weet"
         ],
         "setup": false,
-        "ability": "Du beginnst das Spiel mit dem Wissen, dass 1 Spieler gut ist.",
+        "ability": "Je begint het spel met de wetenschap dat 1 speler goed is.",
         "special": null
     },
     {
         "id": "highpriestess",
-        "name": "Hohepriesterin",
+        "name": "Hogepriesteres",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 65,
@@ -2209,24 +2209,24 @@
         "otherNightReminder": "Point to a player.",
         "reminders": [],
         "setup": false,
-        "ability": "Jede Nacht, erfahre, mit welchem Spieler der Erzähler denkt solltest du am ehesten reden.",
+        "ability": "Elke nacht ontdek je met welke speler de verteller denkt dat je het beste kunt praten.",
         "special": null
     },
     {
         "id": "harpy",
-        "name": "Harpyie",
+        "name": "Harpij",
         "edition": "",
         "team": "minion",
         "firstNight": 36,
-        "firstNightReminder": "Die Harpyie wählt zwei Spieler. :reminder: :reminder: Lege die Harpyie schlafen. Wecke das 1. Ziel. Zeige den *DIESER CHARAKTER HAT DICH AUSGEWÄHLT* Token, den Harpyien-Token, dann zeige auf das 2. Ziel.",
+        "firstNightReminder": "De Harpij kiest twee spelers. :reminder: :reminder: Laat de Harpij slapen. Wek het 1e doelwit. Toon het *DIT KARAKTER HEEFT JOU GEKOZEN* token, het Harpij-token, wijs dan naar het 2e doelwit.",
         "otherNight": 26,
-        "otherNightReminder": "Die Harpyie wählt zwei Spieler. :reminder: :reminder: Lege die Harpyie schlafen. Wecke das 1. Ziel. Zeige den *DIESER CHARAKTER HAT DICH AUSGEWÄHLT* Token, den Harpyien-Token, dann zeige auf das 2. Ziel.",
+        "otherNightReminder": "De Harpij kiest twee spelers. :reminder: :reminder: Laat de Harpij slapen. Wek het 1e doelwit. Toon het *DIT KARAKTER HEEFT JOU GEKOZEN* token, het Harpij-token, wijs dan naar het 2e doelwit.",
         "reminders": [
-            "Mad",
-            "2nd"
+            "Gek",
+            "2e"
         ],
         "setup": false,
-        "ability": "Jede Nacht, wähle 2 Spieler: morgen ist der 1. Spieler verrückt danach, dass der 2. böse ist, oder einer oder beide könnten sterben.",
+        "ability": "Elke nacht kies 2 spelers: morgen is de 1e speler bezeten van het idee dat de 2e kwaad is, of een of beide zouden kunnen sterven.",
         "special": null
     },
     {
@@ -2242,7 +2242,7 @@
             "Storyteller Ability"
         ],
         "setup": false,
-        "ability": "Wenn du stirbst, dann erhält der Erzähler die Fähigkeit eines Schergen der nicht im Spiel ist.",
+        "ability": "Als je sterft, krijgt de verteller de vaardigheid van een handlanger die niet in het spel is.",
         "special": null
     },
     {
@@ -2272,7 +2272,7 @@
             "Dead"
         ],
         "setup": false,
-        "ability": "Jede Nacht*, wähle 1 Charakter: er stirbt. Ist er nicht im Spiel, wählt der Erzähler, wer stirbt.",
+        "ability": "Elke nacht*, kies 1 karakter: hij sterft. Is hij niet in het spel, dan kiest de verteller wie sterft.",
         "special": null
     },
     {
@@ -2288,7 +2288,7 @@
             "Heute Abend Teeparty"
         ],
         "setup": false,
-        "ability": "Wenn Sie heute oder heute Nacht gestorben sind, können die Minion & Demon-Spieler neue Minion & Demon-Charaktere auswählen.",
+        "ability": "Als je vandaag of vannacht bent gestorven, kunnen de handlanger- en demonspelers nieuwe handlanger- en demonkarakters kiezen.",
         "special": null
     },
     {
@@ -2299,17 +2299,17 @@
         "firstNight": 2,
         "firstNightReminder": "Der Kazali zeigt auf einen Spieler und einen Diener auf dem Charakterbogen. Ersetzen Sie ihren alten Charakter-Token durch den Minion-Token, zeigen Sie ihnen den „Du bist“-Infotoken und dann den Minion-Charakter-Token und geben Sie einen Daumen nach unten. Wiederholen, bis die normale Anzahl an Minions vorhanden ist. Lass den Kazali schlafen.",
         "otherNight": 50,
-        "otherNightReminder": "Der Kazali zeigt auf einen Spieler. Dieser Spieler stirbt.",
+        "otherNightReminder": "De Kazali wijst naar een speler. Die speler sterft.",
         "reminders": [
-            "Tot"
+            "Dood"
         ],
         "setup": true,
-        "ability": "Wähle jede Nacht* einen Spieler: Er stirbt. [Sie wählen, welche Spieler Minions sind. -? zu +? Außenseiter]",
+        "ability": "Kies elke nacht* een speler: hij sterft. [Jij kiest welke spelers handlangers zijn. -? tot +? buitenstaanders]",
         "special": null
     },
     {
         "id": "villageidiot",
-        "name": "Dorftrottel",
+        "name": "Dorpsgek",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 59,
@@ -2317,10 +2317,10 @@
         "otherNight": 79,
         "otherNightReminder": "Der Dorftrottel zeigt auf einen Spieler; Geben Sie einen Daumen nach oben, wenn dieser Spieler gut ist, und einen Daumen nach unten, wenn dieser Spieler böse ist.",
         "reminders": [
-            "Betrunken"
+            "Dronken"
         ],
         "setup": true,
-        "ability": "Wähle jede Nacht 1 SPieler: Du erfährst, welche Gesinnnung er hat. [+0 bis +2 Dorftrottel. 1 der zusätzlichen ist betrunken]",
+        "ability": "Kies elke nacht 1 speler: je ontdekt welke gezindheid hij heeft. [+0 tot +2 Dorpsgekken. 1 van de extra is dronken]",
         "special": null
     },
     {
@@ -2329,21 +2329,21 @@
         "edition": "",
         "team": "demon",
         "firstNight": 11,
-        "firstNightReminder": "Zeigen Sie dem Yaggababble seinen geheimen Satz.",
+        "firstNightReminder": "Toon de Yaggababble zijn geheime zin.",
         "otherNight": 49,
         "otherNightReminder": "Wählen Sie eine Anzahl von Spielern aus, bis der Yaggababble seinen geheimen Satz insgesamt so oft öffentlich ausgesprochen hat, dass diese Spieler sterben.",
         "reminders": [
-            "Tot",
-            "Tot",
-            "Tot"
+            "Dood",
+            "Dood",
+            "Dood"
         ],
         "setup": false,
-        "ability": "Du erfährst zu Beginn 1 geheimen Ausdruck. Für jedes Mal, wenn du ihn öffentlich aussprichst, könnte ein Spieler sterben.",
+        "ability": "Je ontdekt aan het begin 1 geheime uitdrukking. Voor elke keer dat je hem openlijk uitspreekt, zou een speler kunnen sterven.",
         "special": null
     },
     {
         "id": "summoner",
-        "name": "Beschwörer",
+        "name": "Bezweerder",
         "edition": "",
         "team": "minion",
         "firstNight": 15,
@@ -2356,7 +2356,7 @@
             "Nacht 3"
         ],
         "setup": true,
-        "ability": "Du erhältst 3 Bluffs. Wähle in Nacht 3 1 Spieler: Er wird zu einem bösen Dämon deiner Wahl. [Kein Dämon]",
+        "ability": "Je krijgt 3 bluffs. Kies in nacht 3 1 speler: hij wordt een kwade demon naar jouw keuze. [Geen demon]",
         "special": []
     },
     {
@@ -2367,12 +2367,12 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 58,
-        "otherNightReminder": "Verkünden Sie, dass die Todesfee gestorben ist.",
+        "otherNightReminder": "Kondig aan dat de Banshee is gestorven.",
         "reminders": [
-            "Hat Fähigkeit"
+            "Heeft vaardigheid"
         ],
         "setup": false,
-        "ability": "Wenn dich der Dämon tötet, erfahren alle Spieler davon. Ab dann kannst du zweimal am Tag nominieren und pro Nominierung zweimal abstimmen.",
+        "ability": "Als de demon je doodt, ontdekken alle spelers dat. Vanaf dan kun je tweemaal per dag nomineren en per nominatie tweemaal stemmen.",
         "special": []
     },
     {
@@ -2381,7 +2381,7 @@
         "edition": "",
         "team": "outsider",
         "firstNight": 64,
-        "firstNightReminder": "Der Oger zeigt auf einen Spieler (nicht auf sich selbst) und wird zu seiner Gesinnung.",
+        "firstNightReminder": "De Oger wijst naar een speler (niet naar zichzelf) en krijgt zijn gezindheid.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
@@ -2416,23 +2416,23 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Wenn 5 oder mehr Spieler am Leben sind, musst du bei jeder Nominierung abstimmen.",
+        "ability": "Als 5 of meer spelers leven, moet je bij elke nominatie stemmen.",
         "special": []
     },
     {
         "id": "lordoftyphon",
-        "name": "Herr von Typhon",
+        "name": "Heer van Typhon",
         "edition": "",
         "team": "demon",
         "firstNight": 1,
         "firstNightReminder": "Wecke die Spieler auf beiden Seiten des Dämons auf. Zeige ihnen das 'Du Sind-Karte, das Zeichen des Dieners, der sie jetzt sind, und ein Daumen nach unten, um anzuzeigen, dass sie böse sind.",
         "otherNight": 43,
-        "otherNightReminder": "Der Lord von Typhon zeigt auf einen Spieler. Dieser Spieler stirbt.",
+        "otherNightReminder": "De Heer van Typhon wijst naar een speler. Die speler sterft.",
         "reminders": [
-            "Tot"
+            "Dood"
         ],
         "setup": true,
-        "ability": "Wähle jede Nacht* 1 Spieler: Er stirbt. [Böse Spieler sitzen in einer Reihe. Du sitzt in der Mitte. +1 Schergen. -? bis +? Außenseiter]",
+        "ability": "Kies elke nacht* 1 speler: hij sterft. [Kwade spelers zitten op een rij. Jij zit in het midden. +1 handlanger. -? tot +? buitenstaanders]",
         "special": []
     },
     {
@@ -2446,7 +2446,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Der Dämon hat die Fähigkeit einer guten Rolle, die nicht im Spiel ist (auch wenn er betrunken oder vergiftet ist). Ihr wisst beide, welche.",
+        "ability": "De demon heeft de vaardigheid van een goede rol die niet in het spel is (ook als hij dronken of vergiftigd is). Jullie weten allebei welke.",
         "special": []
     },
     {
@@ -2466,7 +2466,7 @@
     },
     {
         "id": "gnome",
-        "name": "Gnom",
+        "name": "Kabouter",
         "edition": "",
         "team": "traveller",
         "firstNight": 0,
@@ -2474,10 +2474,10 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Amigo"
+            "Vriend"
         ],
         "setup": false,
-        "ability": "Alle Spieler erfahren zu Beginn 1 Spieler deiner Gesinnung. Du kannst jeden  töten, der ihn nominiert.",
+        "ability": "Alle spelers ontdekken aan het begin 1 speler van jouw gezindheid. Je kunt iedereen doden die hem nomineert.",
         "special": []
     },
     {
@@ -2496,29 +2496,29 @@
             "X"
         ],
         "setup": true,
-        "ability": "In Nacht X werden alle Bürger bis zum Ende des nächsten Tages vergiftet. [X Außenseiter]",
+        "ability": "In nacht X worden alle dorpelingen vergiftigd tot het einde van de volgende dag. [X buitenstaanders]",
         "special": []
     },
     {
         "id": "wizard",
-        "name": "Schwarzmagier",
+        "name": "Zwarte Magiër",
         "edition": "",
         "team": "minion",
         "firstNight": 27,
-        "firstNightReminder": "Führe ggf. den Wunsch des Schwarzmagiers aus.",
+        "firstNightReminder": "Voer zo nodig de wens van de Zwarte Magiër uit.",
         "otherNight": 15,
-        "otherNightReminder": "Führe ggf. den Wunsch des Schwarzmagiers aus.",
+        "otherNightReminder": "Voer zo nodig de wens van de Zwarte Magiër uit.",
         "reminders": [
             "?",
             "?"
         ],
         "setup": false,
-        "ability": "Du darfst einmal im Spiel einen Wunsch äußern. Wird er gewährt, könnte er einen Preis haben und einen Hinweis auf seine Natur hinterlassen.",
+        "ability": "Je mag eenmaal in het spel een wens uiten. Als die wordt vervuld, kan hij een prijs hebben en een aanwijzing over zijn aard achterlaten.",
         "special": []
     },
     {
         "id": "hermit",
-        "name": "Leuchtturmwärter",
+        "name": "Vuurtorenwachter",
         "edition": "",
         "team": "outsider",
         "firstNight": 0,
@@ -2531,23 +2531,23 @@
             "3"
         ],
         "setup": true,
-        "ability": "Du hast alle Außenseiterfähigkeiten. [-0 oder -1 Außenseiter]",
+        "ability": "Je hebt alle buitenstaandersvaardigheden. [-0 of -1 buitenstaander]",
         "special": []
     },
     {
         "id": "princess",
-        "name": "Prinzessin",
+        "name": "Prinses",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 33,
-        "otherNightReminder": "Wenn die Prinzessin heute ihren ersten Tag hat und einen Spieler nominiert und hingerichtet hat, tötet der Dämon nicht.",
+        "otherNightReminder": "Als de Prinses vandaag haar eerste dag heeft en een speler heeft genomineerd en geëxecuteerd, doodt de demon niet.",
         "reminders": [
-            "Tötet nicht"
+            "Doodt niet"
         ],
         "setup": false,
-        "ability": "Wenn du an deinem ersten Tag einen Spieler nominierst und hinrichtest, tötet der Dämon in der Nacht nicht.",
+        "ability": "Als je op je eerste dag een speler nomineert en executeert, doodt de demon die nacht niet.",
         "special": []
     },
     {
@@ -2581,12 +2581,12 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Protect",
-            "Protect",
-            "Something Bad"
+            "Bescherm",
+            "Bescherm",
+            "Iets Slechts"
         ],
         "setup": false,
-        "ability": "Etwas Schlechtes kann dem Spieler widerfahren, der für den Tod eines unerfahrenen Spielers verantwortlich ist.",
+        "ability": "Iets slechts kan de speler overkomen die verantwoordelijk is voor de dood van een onervaren speler.",
         "special": null
     },
     {
@@ -2595,12 +2595,12 @@
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
-        "firstNightReminder": "Kündigen Sie an, dass der Bootlegger im Spiel ist, und informieren Sie die Gruppe über alle Homebrew-Charaktere und/oder Regeln, die Sie in diesem Spiel verwenden.",
+        "firstNightReminder": "Kondig aan dat de Bootlegger in het spel is en informeer de groep over alle homebrew-karakters en/of regels die je in dit spel gebruikt.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Dieses Skript enthält Homebrew-Zeichen oder -Regeln.",
+        "ability": "Dit script bevat homebrew-karakters of -regels.",
         "special": null
     },
     {
@@ -2628,24 +2628,24 @@
     {
         "id": "ventriloquist",
         "reminders": [
-            "Besessen"
+            "Bezeten"
         ],
         "firstNightReminder": "",
         "otherNightReminder": "",
         "setup": false,
-        "name": "Ventriloquist",
+        "name": "Buikspreker",
         "team": "loric",
         "edition": "loric",
-        "ability": "Wenn ein Spieler während seiner Nominierung besessen davon ist, ein neuer Charakter zu sein, stirbt er möglicherweise nicht, wenn er heute hingerichtet wird."
+        "ability": "Als een speler tijdens zijn nominatie bezeten is van het idee een nieuw karakter te zijn, sterft hij misschien niet als hij vandaag wordt geëxecuteerd."
     },
     {
         "id": "zenomancer",
         "firstNightReminder": "",
         "otherNightReminder": "",
         "reminders": [
-            "Goal",
-            "Goal",
-            "Goal"
+            "Doel",
+            "Doel",
+            "Doel"
         ],
         "setup": false,
         "name": "Zenomancer",
@@ -2664,10 +2664,10 @@
         "firstNightReminder": "",
         "otherNightReminder": "",
         "reminders": [
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated",
-            "Reincarnated"
+            "Herbelichaamd",
+            "Herbelichaamd",
+            "Herbelichaamd",
+            "Herbelichaamd"
         ],
         "flavor": ""
     },
@@ -2694,7 +2694,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "In den ersten zwei Minuten jedes Tages dürfen erfahrene Spieler nicht sprechen.",
+        "ability": "In de eerste twee minuten van elke dag mogen ervaren spelers niet spreken.",
         "special": null
     },
     {
@@ -2707,7 +2707,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Whoops"
+            "Oeps"
         ],
         "setup": true,
         "ability": "Once per game, the Storyteller will make a \"mistake\", correct it and publicly admit to it.",
@@ -2724,12 +2724,12 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Benutze die Spezialregel des Djinns. Jeder Spieler kennt sie.",
+        "ability": "Gebruik de speciale regel van de Djinn. Elke speler kent hem.",
         "special": null
     },
     {
         "id": "doomsayer",
-        "name": "Unheilsbringer",
+        "name": "Onheilbrenger",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2738,12 +2738,12 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Wenn mehr als 4 Spieler leben: Jeder lebende Spieler kann öffentlich (einmal pro Spiel) bestimmen, dass ein Spieler seiner eigenen Gesinnung (Gut oder Böse) stirbt.",
+        "ability": "Als meer dan 4 spelers leven: elke levende speler kan openlijk (eenmaal per spel) bepalen dat een speler van zijn eigen gezindheid (goed of kwaad) sterft.",
         "special": null
     },
     {
         "id": "duchess",
-        "name": "Gräfin",
+        "name": "Gravin",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2751,12 +2751,12 @@
         "otherNight": 1,
         "otherNightReminder": "",
         "reminders": [
-            "Visitor",
-            "Visitor",
-            "False Info"
+            "Bezoeker",
+            "Bezoeker",
+            "Valse info"
         ],
         "setup": false,
-        "ability": "Jeden Tag, 3 Spieler dürfen Dich besuchen. In der Nacht lernt jeder Besucher wieviele Besucher böse sind, aber eine bekommt falsche Informationen.",
+        "ability": "Elke dag mogen 3 spelers je bezoeken. 's Nachts ontdekt elke bezoeker hoeveel bezoekers kwaad zijn, maar één krijgt valse informatie.",
         "special": null
     },
     {
@@ -2775,7 +2775,7 @@
     },
     {
         "id": "fibbin",
-        "name": "Flunkerer",
+        "name": "Leugenaar",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2783,15 +2783,15 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Used"
+            "Gebruikt"
         ],
         "setup": false,
-        "ability": "Einmal im Spiel könnte ein guter Spieler falsche Informationen bekommen.",
+        "ability": "Eenmaal in het spel zou een goede speler valse informatie kunnen krijgen.",
         "special": null
     },
     {
         "id": "fiddler",
-        "name": "Fiedler",
+        "name": "Vioolspeler",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2800,7 +2800,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Einmal im Spiel kann der Dämon geheim einen Spieler der anderen Seite wählen. Alle Spieler entscheiden, wer dieser zwei Spieler gewinnt.",
+        "ability": "Eenmaal in het spel kan de demon in het geheim een speler van de andere kant kiezen. Alle spelers beslissen wie van de twee spelers wint.",
         "special": null
     },
     {
@@ -2819,7 +2819,7 @@
     },
     {
         "id": "hellslibrarian",
-        "name": "Bibliothekar der Hölle",
+        "name": "Bibliothecaris van de Hel",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2827,15 +2827,15 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Something Bad"
+            "Iets Slechts"
         ],
         "setup": false,
-        "ability": "Etwas Schlechtes könnte dem zustoßen, der spricht, wenn der Erzähler um Ruhe bittet.",
+        "ability": "Iets slechts zou kunnen overkomen aan degene die spreekt als de verteller om stilte vraagt.",
         "special": null
     },
     {
         "id": "revolutionary",
-        "name": "Revolutionär",
+        "name": "Revolutionair",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2843,15 +2843,15 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Register Falsely?"
+            "Vals registreren?"
         ],
         "setup": false,
-        "ability": "Es wird bekannt, welche zwei benachbarten Spieler die gleiche Gesinnung haben. Einmal im Spiel wird einer der beiden falsch erkannt.",
+        "ability": "Het wordt bekend welke twee aangrenzende spelers dezelfde gezindheid hebben. Eenmaal in het spel wordt een van de twee onjuist herkend.",
         "special": null
     },
     {
         "id": "sentinel",
-        "name": "Wächter",
+        "name": "Wachter",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2860,12 +2860,12 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": true,
-        "ability": "Es kann sich ein Außenseiter mehr oder weniger im Spiel befinden.",
+        "ability": "Er kan één buitenstaander meer of minder in het spel zijn.",
         "special": null
     },
     {
         "id": "spiritofivory",
-        "name": "Elfenbeingeist",
+        "name": "Ivorengeest",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2873,15 +2873,15 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "No extra evil"
+            "Geen extra kwaad"
         ],
         "setup": false,
-        "ability": "Es kann nicht mehr als einen zusätzlichen bösen Spieler geben.",
+        "ability": "Er kan niet meer dan één extra kwade speler zijn.",
         "special": null
     },
     {
         "id": "stormcatcher",
-        "name": "Sturmfänger",
+        "name": "Stormvanger",
         "edition": "",
         "team": "fabled",
         "firstNight": 1,
@@ -2889,15 +2889,15 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Safe"
+            "Veilig"
         ],
         "setup": false,
-        "ability": "Nenne einen guten Charakter. Ist dieser im Spiel, kann er nur durch Exekution getötet werden. Böse Spieler erfahren allerdings um welchen Spieler es sich handelt.",
+        "ability": "Noem een goed karakter. Als die in het spel is, kan hij alleen door executie worden gedood. Kwade spelers ontdekken echter om welke speler het gaat.",
         "special": null
     },
     {
         "id": "toymaker",
-        "name": "Spielzeugmacher",
+        "name": "Speelgoedmaker",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2905,10 +2905,10 @@
         "otherNight": 1,
         "otherNightReminder": "",
         "reminders": [
-            "No Attack"
+            "Geen aanval"
         ],
         "setup": false,
-        "ability": "Der Dämon kann sich aussuchen, niemanden zu attackieren und muss das zmindest einmal im Spiel machen. Böse Spieler bekommen die normalen Startinformationen.",
+        "ability": "De demon kan ervoor kiezen niemand aan te vallen en moet dat minimaal eenmaal in het spel doen. Kwade spelers krijgen de normale startinformatie.",
         "special": null
     }
 ]
