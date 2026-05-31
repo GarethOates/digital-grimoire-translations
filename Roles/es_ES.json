@@ -350,7 +350,25 @@
         ],
         "setup": false,
         "ability": "Si hay 5 o más jugadores vivos y el Demonio muere, te conviertes en el Demonio. (No cuentan los viajeros)",
-        "special": null
+        "special": null,
+        "jinxes": [
+            {
+                "id": "fanggu",
+                "reason": "Si va a haber dos Demonios, uno de ellos la Mujer escarlata, la Mujer escarlata se mantiene como Mujer escarlata."
+            },
+            {
+                "id": "lilmonsta",
+                "reason": "Si Lil' Monsta muere con 5 o más jugadores vivos, la Mujer escarlata cuida a Lil' Monsta el resto de la partida."
+            },
+            {
+                "id": "alhaidikia",
+                "reason": "Si va a haber dos Demonios, uno de ellos la Mujer escarlata, la Mujer escarlata se convierte otra vez en Mujer escarlata."
+            },
+            {
+                "id": "plaguedoctor",
+                "reason": "Si el Narrador fuera a ganar la habilidad de Mujer escarlata, un Esbirro la gana y lo sabe."
+            }
+        ]
     },
     {
         "id": "baron",
@@ -2160,7 +2178,45 @@
         "reminders": [],
         "setup": false,
         "ability": "Todos los jugadores saben quián eres. No puedes morir durante el día. Si algún bueno vota, puedes elegir ejecutar inmediatamente.",
-        "special": null
+        "special": null,
+        "jinxes": [
+            {
+                "id": "magician",
+                "reason": "Si el Visir está en juego, el Mago no tiene habilidad pero es inmune a la habilidad del Visir."
+            },
+            {
+                "id": "alsaahir",
+                "reason": "El Narrador no informa de que el Visir está en juego."
+            },
+            {
+                "id": "courtier",
+                "reason": "Si el Visir pierde su habilidad, lo sabe y no puede morir por el día."
+            },
+            {
+                "id": "investigator",
+                "reason": "El Narrador no informa de que el Visir está en juego."
+            },
+            {
+                "id": "librarian",
+                "reason": "Si el Visir pierde su habilidad, lo sabe y no puede morir por el día."
+            },
+            {
+                "id": "politician",
+                "reason": "El Político puede aparecer como malo para el Visir."
+            },
+            {
+                "id": "zealot",
+                "reason": "El Fanático puede aparecer como malo para el Visir."
+            },
+            {
+                "id": "fearmonger",
+                "reason": "El Visir despierta con el Fearmonger, sabe a quién elige y no puede ejecutar a ese jugador."
+            },
+            {
+                "id": "lilmonsta",
+                "reason": "Si el Visir está cuidando a Lil' Monsta, muere cuando es ejecutado."
+            }
+        ]
     },
     {
         "id": "knight",
@@ -2669,6 +2725,16 @@
         "flavor": ""
     },
     {
+        "id": "knaves",
+        "reminders": [],
+        "setup": false,
+        "name": "Knaves (Truhanes)",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Hay 2 Narradores: uno miente y otro dice la verdad. Una vez por partida, en el crepúsculo, pueden cambiar.",
+        "flavor": "Cada muro es una puerta. Cada comida, un banquete."
+    },
+    {
         "id": "pope",
         "name": "Pope",
         "team": "loric",
@@ -2692,6 +2758,7 @@
         "reminders": [],
         "setup": false,
         "ability": "En los primeros 2 minutos del día, los jugadores veteranos no pueden hablar.",
+        "flavor": "Lanzas espinas. Caen en mi silencio y se transforman en flores",
         "special": null
     },
     {
