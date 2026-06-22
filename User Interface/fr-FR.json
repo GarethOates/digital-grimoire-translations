@@ -85,7 +85,7 @@
     },
     "settings": {
       "title": "Paramètres",
-      "token_size": "Taille des jeton",
+      "token_size": "Taille des jetons",
       "reminder_size": "Taille des rappels",
       "abilities": "Capacités",
       "travellers": "Voyageurs",
@@ -204,7 +204,7 @@
     "delete_town": {
       "title": "Supprimer le village ?",
       "confirm_delete": "Veuillez entrer le mot de passe pour supprimer le village : '{townId}' ?",
-      "town_deleted": "Village supprimée avec succès."
+      "town_deleted": "Village supprimé avec succès."
     },
     "discord": {
       "title": "Connexion",
@@ -411,7 +411,7 @@
     "fabled": "Légendaire",
     "loric": "Loric",
     "townsfolk_letter": "V",
-    "outsider_letter": "E",
+    "outsider_letter": "M",
     "minion_letter": "S",
     "demon_letter": "D",
     "traveller_letter": "Vo",
@@ -634,7 +634,7 @@
     "you_are_good": "TU ES BON",
     "you_are_evil": "TU ES MALÉFIQUE",
     "make_a_choice": "FAIS UN CHOIX",
-    "use_your_ability": "TU UTILISE TA CAPACITÉ ?",
+    "use_your_ability": "UTILISES-TU TA CAPACITÉ ?",
     "did_you_vote_today": "AS-TU VOTÉ AUJOURD'HUI ?",
     "did_you_nominate_today": "AS-TU NOMINÉ AUJOURD'HUI ?",
     "show_card": "Montrer une carte..",
