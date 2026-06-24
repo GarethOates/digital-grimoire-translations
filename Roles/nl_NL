@@ -458,7 +458,7 @@
     },
     {
         "id": "grandmother",
-        "name": "Grootmoeder",
+        "name": "Oma",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 50,
@@ -571,7 +571,7 @@
     },
     {
         "id": "courtier",
-        "name": "Hoveling",
+        "name": "Hofdienaar",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 26,
@@ -623,7 +623,7 @@
     },
     {
         "id": "tealady",
-        "name": "Theejuffrouw",
+        "name": "Thee Dame",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
@@ -654,7 +654,7 @@
     },
     {
         "id": "fool",
-        "name": "Nar",
+        "name": "Hofnar",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
@@ -670,7 +670,7 @@
     },
     {
         "id": "tinker",
-        "name": "Knutselaar",
+        "name": "Prutser",
         "edition": "bmr",
         "team": "outsider",
         "firstNight": 0,
@@ -702,7 +702,7 @@
     },
     {
         "id": "goon",
-        "name": "Gangster",
+        "name": "Zot",
         "edition": "bmr",
         "team": "outsider",
         "firstNight": 0,
@@ -736,7 +736,7 @@
     },
     {
         "id": "godfather",
-        "name": "Peetvader",
+        "name": "Mafioso",
         "edition": "bmr",
         "team": "minion",
         "firstNight": 29,
@@ -786,7 +786,7 @@
     },
     {
         "id": "mastermind",
-        "name": "Poppenspeler",
+        "name": "Meesterbrein",
         "edition": "bmr",
         "team": "minion",
         "firstNight": 0,
@@ -949,7 +949,7 @@
     },
     {
         "id": "clockmaker",
-        "name": "Horlogemaker",
+        "name": "Klokmaker",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 51,
@@ -977,7 +977,7 @@
     },
     {
         "id": "snakecharmer",
-        "name": "Slangenbezweerder",
+        "name": "Slangentemmer",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 28,
@@ -993,7 +993,7 @@
     },
     {
         "id": "mathematician",
-        "name": "Mathematiker",
+        "name": "Wiskundige",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 68,
@@ -1013,7 +1013,7 @@
     },
     {
         "id": "flowergirl",
-        "name": "Blumenmeisje",
+        "name": "Bloemenmeisje",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1030,7 +1030,7 @@
     },
     {
         "id": "towncrier",
-        "name": "Marktschreier",
+        "name": "Stadsomroeper",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1061,7 +1061,7 @@
     },
     {
         "id": "savant",
-        "name": "Gelehrter",
+        "name": "Geleerde",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1075,7 +1075,7 @@
     },
     {
         "id": "seamstress",
-        "name": "Schneiderin",
+        "name": "Naaister",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 53,
@@ -1091,7 +1091,7 @@
     },
     {
         "id": "philosopher",
-        "name": "Philosoph",
+        "name": "Filosoof",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 8,
@@ -1150,7 +1150,7 @@
     },
     {
         "id": "sage",
-        "name": "Weise",
+        "name": "Wijze",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1178,7 +1178,7 @@
     },
     {
         "id": "sweetheart",
-        "name": "Liebchen",
+        "name": "Schatje",
         "edition": "snv",
         "team": "outsider",
         "firstNight": 0,
@@ -1194,7 +1194,7 @@
     },
     {
         "id": "barber",
-        "name": "Friseur",
+        "name": "Barbier",
         "edition": "snv",
         "team": "outsider",
         "firstNight": 0,
@@ -1210,7 +1210,7 @@
     },
     {
         "id": "klutz",
-        "name": "Tollpatsch",
+        "name": "Kluns",
         "edition": "snv",
         "team": "outsider",
         "firstNight": 0,
@@ -1224,7 +1224,7 @@
     },
     {
         "id": "eviltwin",
-        "name": "Boze Tweeling",
+        "name": "Slechte Tweeling",
         "edition": "snv",
         "team": "minion",
         "firstNight": 32,
@@ -1272,7 +1272,7 @@
     },
     {
         "id": "pithag",
-        "name": "Groefheks",
+        "name": "Grotheks",
         "edition": "snv",
         "team": "minion",
         "firstNight": 0,
@@ -1377,8 +1377,8 @@
         "special": null
     },
     {
-        "id": "harlot",
-        "name": "Dirne",
+        "id": "Harlot",
+        "name": "Maîtresse",
         "edition": "snv",
         "team": "traveller",
         "firstNight": 0,
@@ -1634,7 +1634,7 @@
     },
     {
         "id": "fisherman",
-        "name": "Fischer",
+        "name": "Visser",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1760,7 +1760,7 @@
     },
     {
         "id": "cannibal",
-        "name": "Kannibale",
+        "name": "Kannibaal",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
