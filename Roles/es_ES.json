@@ -547,7 +547,7 @@
         "otherNightReminder": "Los jugadores de la noche anterior pierden sus marcadores (protegido, borracho). El Posadero señala a dos jugadores. Esos jugadores están protegidos. Uno está borracho.",
         "reminders": [
             "Borracho",
-            "Borracho",
+            "Protegido",
             "Protegido"
         ],
         "setup": false,
