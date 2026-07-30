@@ -1671,18 +1671,18 @@
     },
     {
         "id": "lilmonsta",
-        "name": "Mimi Monstrum",
+        "name": "Démoňátko",
         "edition": "carousel",
         "team": "demon",
-        "firstNightReminder": "Vzbuďte najednou všechny Přisluhovače. Ukažte jim žeton Mimi Monstra a nechte hlasovat jaký hráč bude zítra hlídat. :reminder:",
-        "otherNightReminder": "Vzbuďte najednou všechny Přisluhovače. Nechte hlasovat jaký hráč bude zítra hlídat. Jakýkoliv hráč může zemřít. :reminder: :reminder:",
+        "firstNightReminder": "Vzbuďte najednou všechny Přisluhovače. Ukažte jim žeton Démoňátka a nechte hlasovat jaký hráč bude zítra hlídat. :reminder: Vzbuďte vybraného hráče a ukažte mu *TY JSI*, žeton Démoňátka a palec dolů (pokud je Dobrý).",
+        "otherNightReminder": "Vzbuďte najednou všechny Přisluhovače. Nechte hlasovat jaký hráč bude zítra hlídat. Vzbuďte vybraného hráče a ukažte mu *TY JSI*, žeton Démoňátka a palec dolů (pokud je Dobrý). Jakýkoliv hráč může zemřít. :reminder: :reminder:",
         "reminders": [],
         "remindersGlobal": [
             "Je Démon",
             "Mrtvý"
         ],
         "setup": true,
-        "ability": "Každou noc si Přisluhovači zvolí, kdo bude hlídat Mimi Monstrum a bude Démonem. Každou noc* může zemřít 1 hráč. [+1 Přisluhovač]",
+        "ability": "Každou noc si Přisluhovači zvolí, kdo bude hlídat Démoňátko a bude Démonem. Každou noc* může zemřít 1 hráč. [+1 Přisluhovač]",
         "special": [
             {
                 "type": "ability",
