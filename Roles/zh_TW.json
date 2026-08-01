@@ -2,36 +2,36 @@
     {
         "id": "dusk",
         "edition": "special",
-        "name": "Dusk",
-        "firstNightReminder": "Start the Night Phase.",
-        "otherNightReminder": "Start the Night Phase.",
+        "name": "黃昏",
+        "firstNightReminder": "開始夜晚環節",
+        "otherNightReminder": "開始夜晚環節",
         "firstNight": 1,
         "otherNight": 1
     },
     {
         "id": "dawn",
         "edition": "special",
-        "name": "Dawn",
-        "firstNightReminder": "Wait for a few seconds. End the Night Phase.",
-        "otherNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "name": "黎明",
+        "firstNightReminder": "等待幾秒鐘，並結束夜晚環節。",
+        "otherNightReminder": "等待幾秒鐘，並結束夜晚環節。",
         "firstNight": 73,
         "otherNight": 93
     },
     {
         "id": "minioninfo",
         "edition": "special",
-        "name": "Minion Info",
+        "name": "爪牙資訊",
         "team": "minion",
-        "firstNightReminder": "If there are 7 or more players, wake all Minions:\n\tShow the *THIS IS THE DEMON* token. Point to the Demon.\n\tShow the *THESE ARE YOUR MINIONS* token. Point to the other Minions.",
+        "firstNightReminder": "如果有7位或更多玩家，喚醒所有爪牙：\n\t顯示*這是你的惡魔*令牌，並指向惡魔。\n\t顯示*這是你的爪牙*令牌，並指向其他爪牙。",
         "firstNight": 15,
         "otherNight": 0
     },
     {
         "id": "demoninfo",
         "edition": "special",
-        "name": "Demon Info",
+        "name": "惡魔資訊",
         "team": "demon",
-        "firstNightReminder": "If there are 7 or more players, wake the Demon:\n\tShow the *THESE ARE YOUR MINIONS* token. Point to all Minions.\n\tShow the *THESE CHARACTERS ARE NOT IN PLAY* token. Show 3 not-in-play good character tokens.",
+        "firstNightReminder": "如果有7位或更多玩家，喚醒惡魔：\n\t顯示*這是你的爪牙*令牌，並指向所有爪牙。\n\t顯示*這些角色不在遊戲中*令牌。顯示3個不在遊戲中的身份令牌。",
         "firstNight": 19,
         "otherNight": 0
     },
@@ -102,13 +102,13 @@
     },
     {
         "id": "empath",
-        "name": "靈媒",
+        "name": "共情者",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 47,
-        "firstNightReminder": "展示靈媒的邪惡鄰居數量。",
+        "firstNightReminder": "展示共情者的邪惡鄰居數量。",
         "otherNight": 69,
-        "otherNightReminder": "展示靈媒的邪惡鄰居數量。",
+        "otherNightReminder": "展示共情者的邪惡鄰居數量。",
         "reminders": [],
         "setup": false,
         "ability": "每天晚上，你得知你活著的鄰居中有幾位是邪惡的(0/1/2)。",
@@ -280,7 +280,7 @@
     },
     {
         "id": "recluse",
-        "name": "隱居者",
+        "name": "隱士",
         "edition": "tb",
         "team": "outsider",
         "firstNight": 0,
@@ -338,7 +338,7 @@
     },
     {
         "id": "scarletwoman",
-        "name": "淫魔",
+        "name": "紅唇女郎",
         "edition": "tb",
         "team": "minion",
         "firstNight": 0,
@@ -623,7 +623,7 @@
     },
     {
         "id": "tealady",
-        "name": "侍女",
+        "name": "茶藝師",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
@@ -654,7 +654,7 @@
     },
     {
         "id": "fool",
-        "name": "愚人",
+        "name": "弄臣",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
@@ -753,13 +753,13 @@
     },
     {
         "id": "devilsadvocate",
-        "name": "惡魔擁護者",
+        "name": "魔鬼代言人",
         "edition": "bmr",
         "team": "minion",
         "firstNight": 31,
-        "firstNightReminder": "惡魔擁護者指向一位活著的玩家，以「處決保護」標記該玩家。",
+        "firstNightReminder": "魔鬼代言人指向一位活著的玩家，以「處決保護」標記該玩家。",
         "otherNight": 21,
-        "otherNightReminder": "惡魔擁護者指向一位活著的玩家，以「處決保護」標記該玩家。",
+        "otherNightReminder": "魔鬼代言人指向一位活著的玩家，以「處決保護」標記該玩家。",
         "reminders": [
             "處決保護"
         ],
@@ -786,7 +786,7 @@
     },
     {
         "id": "mastermind",
-        "name": "策劃者",
+        "name": "主謀",
         "edition": "bmr",
         "team": "minion",
         "firstNight": 0,
