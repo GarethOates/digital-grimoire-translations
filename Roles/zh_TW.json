@@ -22,7 +22,7 @@
         "edition": "special",
         "name": "爪牙資訊",
         "team": "minion",
-        "firstNightReminder": "如果有7位或更多玩家，喚醒所有爪牙：\n\t顯示*這是你的惡魔*令牌，並指向惡魔。\n\t顯示*這是你的爪牙*令牌，並指向其他爪牙。",
+        "firstNightReminder": "如果有7位或更多玩家，喚醒所有爪牙：\n\t顯示*這是你的惡魔*提示卡，並指向惡魔。\n\t顯示*這是你的爪牙*提示卡，並指向其他爪牙。",
         "firstNight": 15,
         "otherNight": 0
     },
@@ -31,7 +31,7 @@
         "edition": "special",
         "name": "惡魔資訊",
         "team": "demon",
-        "firstNightReminder": "如果有7位或更多玩家，喚醒惡魔：\n\t顯示*這是你的爪牙*令牌，並指向所有爪牙。\n\t顯示*這些角色不在遊戲中*令牌。顯示3個不在遊戲中的身份令牌。",
+        "firstNightReminder": "如果有7位或更多玩家，喚醒惡魔：\n\t顯示*這是你的爪牙*提示卡，並指向所有爪牙。\n\t顯示*這些角色不在遊戲中*提示卡。顯示3個不在遊戲中的身份代幣。",
         "firstNight": 19,
         "otherNight": 0
     },
@@ -1532,9 +1532,9 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 16,
-        "firstNightReminder": "喚醒惡魔。顯示*此玩家是*令牌和國王令牌，然後指向國王。",
+        "firstNightReminder": "喚醒惡魔。顯示*此玩家是*提示卡和國王代幣，然後指向國王。",
         "otherNight": 80,
-        "otherNightReminder": "如果死者人數等於或超過生者，則顯示一個活著玩家的角色令牌。",
+        "otherNightReminder": "如果死者人數等於或超過生者，則顯示一個活著玩家的角色代幣。",
         "reminders": [],
         "setup": false,
         "ability": "每個夜晚，如果死者人數等於或超過生者，你就會得知1個活著的角色。惡魔知道你是國王。",
@@ -2230,9 +2230,9 @@
         "edition": "",
         "team": "minion",
         "firstNight": 36,
-        "firstNightReminder": "鷹身女妖選擇兩名玩家。 :提醒: :提醒: 讓鷹身女妖睡覺。喚醒第一個目標。顯示*此角色選擇了您*令牌，鷹身女妖令牌，然後指向第二個目標。",
+        "firstNightReminder": "鷹身女妖選擇兩名玩家。 :提醒: :提醒: 讓鷹身女妖睡覺。喚醒第一個目標。顯示*此角色選擇了您*提示卡，鷹身女妖代幣，然後指向第二個目標。",
         "otherNight": 26,
-        "otherNightReminder": "鷹身女妖選擇兩名玩家。 :提醒: :提醒: 讓鷹身女妖睡覺。喚醒第一個目標。顯示*此角色選擇了您*令牌，鷹身女妖令牌，然後指向第二個目標。",
+        "otherNightReminder": "鷹身女妖選擇兩名玩家。 :提醒: :提醒: 讓鷹身女妖睡覺。喚醒第一個目標。顯示*此角色選擇了您*提示卡，鷹身女妖代幣，然後指向第二個目標。",
         "reminders": [
             "瘋狂",
             "目標"
