@@ -18,3 +18,35 @@ jobs:
       - name: json-validate
         id: json-validate
         uses: GrantBirki/json-yaml-validate@v4.0.0
+
+  validate-translations:
+    runs-on: ubuntu-latest
+    steps:
+      # Full history so a pull request can be diffed against its base.
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect changed files
+        id: changed
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            # Three-dot against the base sha diffs from the merge base, so
+            # commits landed on main since the PR opened are not attributed
+            # to this contributor. NUL-delimited then translated, so paths
+            # containing a space (User Interface/) survive intact.
+            git diff -z --name-only --diff-filter=d \
+              "${{ github.event.pull_request.base.sha }}...HEAD" \
+              | tr '\0' '\n' > changed.txt
+          else
+            : > changed.txt
+          fi
+          echo "Changed files:"
+          cat changed.txt
+
+      - name: Validate translations
+        run: python3 .github/scripts/validate_translations.py @changed.txt

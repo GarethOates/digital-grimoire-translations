@@ -17,6 +17,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 - [Reporting Bugs](#reporting-bugs)
 - [Suggesting Enhancements](#suggesting-enhancements)
 - [Your First Code Contribution](#your-first-code-contribution)
+- [Translating](#translating)
 - [Styleguides](#styleguides)
 - [Commit Messages](#commit-messages)
 
@@ -100,3 +101,85 @@ Enhancement suggestions are tracked as [Discord threads](https://discord.gg/pfTU
 Create a fork of this repository and submit your pull request for review. In the description of your request please attempt to describe the changes you are making.
 
 Please ensure you are making changes based on the latest version of the base repository to avoid conflicts.
+
+
+## Translating
+
+### Where the files live
+
+| Folder | Contains | Filename format | Example |
+| --- | --- | --- | --- |
+| `Roles/` | Character names, abilities, night reminders | `xx_YY.json` (**underscore**) | `fr_FR.json` |
+| `User Interface/` | Every string in the app itself | `xx-YY.json` (**hyphen**) | `fr-FR.json` |
+
+The two folders genuinely use different separators — the app loads them through
+different systems. A file named with the wrong separator is silently ignored,
+so please copy the format of an existing file exactly.
+
+`xx` is the [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes)
+in lowercase, `YY` is the [ISO 3166-1 country code](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)
+in uppercase — the country the language is spoken in. Czech is `cs_CZ`, not
+`cs_CS`.
+
+### Starting a new language
+
+Copy an existing pair of files and translate the values, never the keys.
+
+- For `Roles/`, **copy `Roles/hu_HU.json`**. It is the most up-to-date file and
+  shows the current shape.
+- For `User Interface/`, copy `User Interface/en-US.json`.
+
+### What a complete file looks like
+
+**`Roles/` files** need an entry for every character in `Roles/roles.json`,
+plus four entries that are not characters but still appear on the night sheet:
+
+| id | What it is |
+| --- | --- |
+| `dusk` | Start of the night phase |
+| `dawn` | End of the night phase |
+| `minioninfo` | The Minions-wake-together handout |
+| `demoninfo` | The Demon's bluffs handout |
+
+Leaving these four out is the most common omission, and the result is a night
+sheet that switches to English mid-game.
+
+**`User Interface/` files** need every key that `User Interface/en-US.json`
+has. If a key is missing the app falls back to English for that one string.
+
+### Two things that must match English exactly
+
+**Curly-brace placeholders** are replaced with real values when the app runs.
+Keep every one of them, spelled identically — translate the words around them:
+
+```jsonc
+// en-US.json
+"unlock_throttled": "Too many attempts. Try again in {seconds}s."
+// correct
+"unlock_throttled": "Trop de tentatives. Réessayez dans {seconds}s."
+```
+
+**The `:reminder:` marker** in `firstNightReminder` / `otherNightReminder`
+becomes a purple dot telling the Storyteller to place a reminder token. Keep
+the same number of markers the English has. You may translate the word inside
+the colons (`:påminnelse:` is fine) — what matters is the count.
+
+### Before you open the pull request
+
+Every pull request is checked automatically. The check reports two things:
+
+- **Errors** block merging — invalid JSON, a wrong filename, or a mismatched
+  `{placeholder}`.
+- **Warnings** do not block merging — missing roles, missing keys, or
+  `:reminder:` counts that differ. These are a to-do list, not a rejection.
+  A partial translation is welcome and can be finished later.
+
+You can run the same check yourself from the repository root:
+
+```bash
+python3 .github/scripts/validate_translations.py
+```
+
+JSON does not allow comments. If you want to flag a phrase you are unsure
+about, please write it in the pull request description rather than putting
+`// not sure` in the file — it will stop the file from loading.
