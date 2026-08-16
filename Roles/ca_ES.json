@@ -3720,13 +3720,13 @@
         "name": "Informació de sequaç",
         "team": "minion",
         "edition": "special",
-        "firstNightReminder": "Si hi ha set o més jugadors, desperta tots els sequaços:\n\Mostra’ls la targeta *AQUEST ÉS EL DIMONI*. Assenya-la el dimoni.\n\Mostra’ls la targeta *AQUESTS SÓN ELS TEUS SEQUAÇOS*. Assenya-la els altres sequaços."
+        "firstNightReminder": "Si hi ha set o més jugadors, desperta tots els sequaços:\n\tMostra’ls la targeta *AQUEST ÉS EL DIMONI*. Assenya-la el dimoni.\n\tMostra’ls la targeta *AQUESTS SÓN ELS TEUS SEQUAÇOS*. Assenya-la els altres sequaços."
     },
     {
         "id": "demoninfo",
         "name": "Informació de dimoni",
         "team": "demon",
         "edition": "special",
-        "firstNightReminder": "Si hi ha set o més jugadors, desperta el dimoni:\n\Mostra-li la targeta *AQUESTS SÓN ELS TEUS SEQUAÇOS*. Assenya-la tots els sequaços.\n\Mostra-li la targeta *AQUESTS PERSONATGES NO SÓN A LA PARTIDA*. Mostra-li tres fitxes de personatge que no siguin a la partida."
+        "firstNightReminder": "Si hi ha set o més jugadors, desperta el dimoni:\n\tMostra-li la targeta *AQUESTS SÓN ELS TEUS SEQUAÇOS*. Assenya-la tots els sequaços.\n\tMostra-li la targeta *AQUESTS PERSONATGES NO SÓN A LA PARTIDA*. Mostra-li tres fitxes de personatge que no siguin a la partida."
     }
 ]
