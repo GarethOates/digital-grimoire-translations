@@ -15,6 +15,8 @@
     "loading": "Cargando…",
     "name": "Nombre",
     "version": "Versión",
+    "update_available": "Hay una nueva versión disponible.",
+    "reload": "Recargar",
     "all": "Todos",
     "layout": "Disposición",
     "leaves": "Hojas",
@@ -42,6 +44,7 @@
     "jinxes": "Gafes",
     "role": "Rol",
     "select_role": "Selecciona un rol...",
+    "select_icon": "Selecciona un icono...",
     "player": "Jugador",
     "ability": "Habilidad",
     "character_sheet": "Hoja de Personaje",
@@ -77,6 +80,15 @@
     "poisoned": "Envenenado",
     "drunk": "Borracho",
     "dead": "Muerto"
+  },
+  "radial_menu": {
+    "roles": "Roles",
+    "nominate": "Nominar",
+    "on_the_block": "En el patíbulo",
+    "revive": "Revivir",
+    "ghost_vote": "Voto fantasma",
+    "make_evil": "Hacer malvado",
+    "make_good": "Hacer bueno"
   },
   "nav": {
     "brand": "Grimorio Digital",
@@ -261,15 +273,14 @@
       "drag_to_reorder": "Arrastra para reordenar",
       "remove_from_playlist": "Eliminar de la lista de reproducción",
       "sfx_title": "Efectos de Sonido del Temporizador",
-      "sfx_description": "Selecciona qué sonido se reproduce cuando el temporizador llega a 00:00",
+      "sfx_description": "Selecciona qué sonido se reproduce en cada tiempo restante",
       "stop_sound": "Detener sonido",
       "preview_sound": "Vista previa del sonido",
       "remove_sfx": "Eliminar efecto de sonido",
       "no_sfx": "Sin efectos de sonido de temporizador",
-      "add_sfx_prompt": "Añade sonidos para reproducir cuando el temporizador llegue a 00:00",
+      "add_sfx_prompt": "Añade sonidos para reproducir durante la cuenta atrás del temporizador",
       "add_sfx_button": "Añadir Efecto de Sonido",
-      "select_for_timer": "Seleccionar para temporizador",
-      "timer_sound": "Sonido del temporizador",
+      "sfx_interval_label": "Reproducir en el tiempo restante",
       "auto_fade_phase": "Atenuar volumen en Día/Noche",
       "sfx_volume": "Volumen de efectos de sonido: {volume}%"
     },
@@ -456,6 +467,7 @@
     "demon_info_first_night_reminder": "Si hay 7 o más jugadores, despierta al Demonio:\n\tMuestra el token *ESTOS SON TUS ESBIRROS*. Señala a todos los Esbirros.\n\tMuestra el token *ESTOS PERSONAJES NO ESTÁN EN JUEGO*. Muestra 3 tokens de personajes buenos que no están en juego."
   },
   "setup": {
+    "marionette_adjacency_warning": "Configuración inválida: la Marioneta debe estar colocada junto al Demonio. El Demonio está actualmente entre los otros dos Esbirros.",
     "layout_help": "Elige la forma de disposición de los asientos.\nPuede ajustarse manualmente más adelante.",
     "choose_script": "Elige Tu Guión",
     "select_from_official": "Selecciona entre guiones oficiales o busca personalizados",
@@ -484,6 +496,8 @@
     "draw_view_token": "Fichas",
     "draw_view_bag": "Bolsa",
     "start_setup": "Iniciar Configuración",
+    "special_characters_help": "Fábula y Loric no se sortean en la bolsa. Las fichas seleccionadas se colocan en el Grimorio.",
+    "no_npcs_available": "Ninguno disponible.",
     "select_more_roles": "Selecciona {count} roles más para continuar",
     "too_many_roles": "Quita {count} roles para continuar",
     "too_many_travellers": "Quita {count} viajeros (máx. 5) para continuar",
@@ -500,7 +514,7 @@
     "by": "por",
     "view_bootlegger_info": "Ver Información del Contrabandista",
     "edit_names_optional": "Elegir jugadores",
-    "search_placeholder": "Buscar por nombre (ej. Uncertain Death)",
+    "search_placeholder": "Buscar por nombre o author: <autor>",
     "unknown": "desconocido",
     "no_matching_scripts": "No se encontraron guiones coincidentes",
     "clear_search": "Limpiar búsqueda",
@@ -779,5 +793,20 @@
     "other_nights": "Otras Noches",
     "end_night_phase": "Fin de noche",
     "no_night_actions": "Ningún personaje tiene acciones nocturnas"
+  },
+  "lock": {
+    "title": "Bloqueo del Narrador",
+    "description": "Requiere un PIN de 4 dígitos antes de que se pueda revelar el Grimorio.",
+    "arm": "Iniciar Pass & Play",
+    "exit": "Salir de Pass & Play",
+    "enrol_pin_prompt": "Elige un PIN de 4 dígitos",
+    "enrol_pin_confirm": "Confirma tu PIN",
+    "enrol_pin_mismatch": "Los PIN no coinciden",
+    "change_pin": "Cambiar PIN",
+    "unlock_title": "Solo el Narrador",
+    "unlock_pin_prompt": "Introduce tu PIN de 4 dígitos",
+    "unlock_pin_wrong": "PIN incorrecto",
+    "unlock_throttled": "Demasiados intentos. Inténtalo de nuevo en {seconds} s.",
+    "reset_hint": "¿Olvidaste tu PIN? Desactiva el Bloqueo del Narrador en Ajustes."
   }
 }

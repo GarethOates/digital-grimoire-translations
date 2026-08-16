@@ -15,6 +15,8 @@
     "loading": "Töltés…",
     "name": "Név",
     "version": "Verzió",
+    "update_available": "Új verzió érhető el.",
+    "reload": "Frissítés",
     "all": "Összes",
     "layout": "Elrendezés",
     "leaves": "Levelek",
@@ -42,6 +44,7 @@
     "jinxes": "Átkok",
     "role": "Karakter",
     "select_role": "Karakter választása...",
+    "select_icon": "Ikon választása...",
     "player": "Játékos",
     "ability": "Képesség",
     "character_sheet": "Karakterlap",
@@ -77,6 +80,15 @@
     "poisoned": "Mérgezett",
     "drunk": "Részeg",
     "dead": "Halott"
+  },
+  "radial_menu": {
+    "roles": "Karakterek",
+    "nominate": "Gyanúsítás",
+    "on_the_block": "A vérpadon",
+    "revive": "Feltámasztás",
+    "ghost_vote": "Szellemszavazat",
+    "make_evil": "Legyen gonosz",
+    "make_good": "Legyen jó"
   },
   "nav": {
     "brand": "Digitális Grimoár",
@@ -264,15 +276,14 @@
       "drag_to_reorder": "Húzd az átrendezéshez",
       "remove_from_playlist": "Törlés a lejátszási listáról",
       "sfx_title": "Időzítő hangeffektek",
-      "sfx_description": "Válaszd ki, melyik hang szólaljon meg, amikor az időzítő eléri a 00:00-t",
+      "sfx_description": "Válaszd ki, melyik hang szólaljon meg az egyes hátralévő időpontoknál",
       "stop_sound": "Hang leállítása",
       "preview_sound": "Hang előnézete",
       "remove_sfx": "Hangeffekt törlése",
       "no_sfx": "Nincs időzítő hangeffekt",
-      "add_sfx_prompt": "Adj hozzá hangot, ami lejátszódjon, amikor az időzítő eléri a 00:00-t",
+      "add_sfx_prompt": "Adj hozzá hangokat, amelyek az időzítő visszaszámlálása közben lejátszódnak",
       "add_sfx_button": "Hangeffekt hozzáadása",
-      "select_for_timer": "Kiválasztás időzítőhöz",
-      "timer_sound": "Időzítő hang",
+      "sfx_interval_label": "Lejátszás a hátralévő időnél",
       "auto_fade_phase": "Hangerő automatikus átállítása nappal/éjszaka",
       "sfx_volume": "Effektek hangereje: {volume}%"
     },
@@ -459,6 +470,7 @@
     "demon_info_first_night_reminder": "Ha 7 vagy több játékos van, ébreszd fel a démont.\n\tMutasd meg az *ŐK A CSATLÓSAID* lapkát, és egyesével mutass rá a csatlósokra.\n\tMutasd meg az *EZEK A KARAKTEREK NINCSENEK JÁTÉKBAN* lapkát, és 3 jó karakter jelölőjét, amelyek nincsenek játékban."
   },
   "setup": {
+    "marionette_adjacency_warning": "Érvénytelen előkészítés: a Marionettnek a Démon mellett kell ülnie. A Démon jelenleg a másik két Csatlós között van.",
     "layout_help": "Válaszd ki az ülésrend formáját.\nEz később manuálisan állítható.",
     "choose_script": "Válassz szkriptet",
     "select_from_official": "Válassz a hivatalos szkriptek közül, vagy keress egyedi szkriptet",
@@ -487,6 +499,8 @@
     "draw_view_token": "Jelölők",
     "draw_view_bag": "Zsák",
     "start_setup": "Játék előkészítése",
+    "special_characters_help": "A Meseszövők és a Loric nem kerülnek a zsákba. A kiválasztott jelölők a Grimoárba kerülnek.",
+    "no_npcs_available": "Nincs elérhető.",
     "select_more_roles": "Válassz ki {count} további karaktert a folytatáshoz",
     "too_many_roles": "Törölj {count} karaktert a folytatáshoz",
     "too_many_travellers": "Törölj {count} utazót (max 5) a folytatáshoz",
@@ -503,7 +517,7 @@
     "by": "által",
     "view_bootlegger_info": "Csempész információ megjelenítése",
     "edit_names_optional": "Játékosok kiválasztása",
-    "search_placeholder": "Keresés név alapján (pl.: Uncertain Death)",
+    "search_placeholder": "Keresés név vagy author: <szerző> alapján",
     "unknown": "ismeretlen",
     "no_matching_scripts": "Nem található a feltételeknek megfelelő szkript",
     "clear_search": "Keresés törlése",
@@ -781,5 +795,20 @@
     "other_nights": "További éjszakák",
     "end_night_phase": "Éjszaka vége",
     "no_night_actions": "Egy karakternek sincs éjszakai képessége"
+  },
+  "lock": {
+    "title": "Mesélői zárolás",
+    "description": "Egy 4 jegyű PIN-kód szükséges ahhoz, hogy a Grimoár felfedhető legyen.",
+    "arm": "Pass & Play indítása",
+    "exit": "Kilépés a Pass & Play módból",
+    "enrol_pin_prompt": "Válassz egy 4 jegyű PIN-kódot",
+    "enrol_pin_confirm": "Erősítsd meg a PIN-kódodat",
+    "enrol_pin_mismatch": "A PIN-kódok nem egyeznek",
+    "change_pin": "PIN-kód módosítása",
+    "unlock_title": "Csak a mesélőnek",
+    "unlock_pin_prompt": "Add meg a 4 jegyű PIN-kódodat",
+    "unlock_pin_wrong": "Hibás PIN-kód",
+    "unlock_throttled": "Túl sok próbálkozás. Próbáld újra {seconds} másodperc múlva.",
+    "reset_hint": "Elfelejtetted a PIN-kódodat? Kapcsold ki a Mesélői zárolást a Beállításokban."
   }
 }

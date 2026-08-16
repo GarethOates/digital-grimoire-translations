@@ -15,6 +15,8 @@
     "loading": "Laster inn…",
     "name": "Navn",
     "version": "Versjon",
+    "update_available": "En ny versjon er tilgjengelig.",
+    "reload": "Oppdater",
     "all": "Alle",
     "layout": "Oppsett",
     "leaves": "Blader",
@@ -41,6 +43,7 @@
     "jinxes": "Jinxer",
     "role": "Rolle",
     "select_role": "Velg en rolle...",
+    "select_icon": "Velg et ikon...",
     "player": "Spiller",
     "ability": "Evne",
     "character_sheet": "Karakterark",
@@ -253,15 +256,14 @@
       "drag_to_reorder": "Dra for å endre rekkefølge",
       "remove_from_playlist": "Fjern fra spilleliste",
       "sfx_title": "Tidtaker-lydeffekter",
-      "sfx_description": "Velg hvilken lyd som skal spilles av når tidtakeren når 00:00",
+      "sfx_description": "Velg hvilken lyd som skal spilles av for hver gjenværende tid",
       "stop_sound": "Stopp lyd",
       "preview_sound": "Forhåndsvis lyd",
       "remove_sfx": "Fjern lydeffekt",
       "no_sfx": "Ingen tidtaker-lydeffekter",
-      "add_sfx_prompt": "Legg til lyder som skal spilles av når tidtakeren når 00:00",
+      "add_sfx_prompt": "Legg til lyder som skal spilles av mens tidtakeren teller ned",
       "add_sfx_button": "Legg til lydeffekt",
-      "select_for_timer": "Velg for tidtaker",
-      "timer_sound": "Tidtakerlyd",
+      "sfx_interval_label": "Spill av ved gjenværende tid",
       "auto_fade_phase": "Demp volum ved Dag/Natt",
       "sfx_volume": "Lydeffektvolum: {volume}%"
     },
@@ -431,6 +433,15 @@
     "drunk": "Full",
     "dead": "Død"
   },
+  "radial_menu": {
+    "roles": "Roller",
+    "nominate": "Nominer",
+    "on_the_block": "På blokken",
+    "revive": "Gjenopplive",
+    "ghost_vote": "Spøkelsesstemme",
+    "make_evil": "Gjør ond",
+    "make_good": "Gjør god"
+  },
   "roles": {
     "townsfolk": "Byfolk",
     "outsider": "Utenforstående",
@@ -456,6 +467,7 @@
     "demon_info_first_night_reminder": "Hvis det er 7 eller flere spillere, vekk Demonen:\n\tVis *DETTE ER DINE LAKEIER*-kortet. Pek på alle Lakeier.\n\tVis *DISSE KARAKTERENE ER IKKE I SPILL*-kortet. Vis 3 gode roller som ikke er i spill."
   },
   "setup": {
+    "marionette_adjacency_warning": "Ugyldig oppsett: Tråddukken må sitte ved siden av Demonen. Demonen er for øyeblikket mellom de to andre Lakeiene.",
     "layout_help": "Velg formen på setearrangementet.\nDette kan justeres manuelt senere.",
     "choose_script": "Velg ditt skript",
     "select_from_official": "Velg fra offisielle skript eller søk etter egendefinerte",
@@ -484,6 +496,8 @@
     "draw_view_token": "Brikker",
     "draw_view_bag": "Pose",
     "start_setup": "Start oppsett",
+    "special_characters_help": "Fabel og Loric trekkes ikke inn i posen. Valgte brikker plasseres på Grimoiren.",
+    "no_npcs_available": "Ingen tilgjengelig.",
     "select_more_roles": "Velg {count} flere roller for å fortsette",
     "too_many_roles": "Fjern {count} roller for å fortsette",
     "too_many_travellers": "Fjern {count} reisende (maks 5) for å fortsette",
@@ -500,7 +514,7 @@
     "by": "av",
     "view_bootlegger_info": "Vis Hjemmebrenner-informasjon",
     "edit_names_optional": "Velg spillere",
-    "search_placeholder": "Søk etter navn (f.eks. Uncertain Death)",
+    "search_placeholder": "Søk etter navn eller author: <forfatter>",
     "unknown": "ukjent",
     "no_matching_scripts": "Ingen samsvarende skript funnet",
     "clear_search": "Tøm søk",
@@ -779,5 +793,20 @@
     "other_nights": "Andre Netter",
     "end_night_phase": "Avslutt natt",
     "no_night_actions": "Ingen karakterer har natthandlinger"
+  },
+  "lock": {
+    "title": "Historieforteller-lås",
+    "description": "Krever en 4-sifret PIN-kode før Grimoiren kan avsløres.",
+    "arm": "Start Pass & Play",
+    "exit": "Avslutt Pass & Play",
+    "enrol_pin_prompt": "Velg en 4-sifret PIN-kode",
+    "enrol_pin_confirm": "Bekreft PIN-koden din",
+    "enrol_pin_mismatch": "PIN-kodene stemmer ikke overens",
+    "change_pin": "Endre PIN-kode",
+    "unlock_title": "Kun for historiefortelleren",
+    "unlock_pin_prompt": "Skriv inn din 4-sifrede PIN-kode",
+    "unlock_pin_wrong": "Feil PIN-kode",
+    "unlock_throttled": "For mange forsøk. Prøv igjen om {seconds} s.",
+    "reset_hint": "Glemt PIN-koden? Slå av Historieforteller-lås i Innstillinger."
   }
 }

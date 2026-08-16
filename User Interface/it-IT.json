@@ -15,6 +15,8 @@
     "loading": "Caricamento…",
     "name": "Nome",
     "version": "Versione",
+    "update_available": "È disponibile una nuova versione.",
+    "reload": "Ricarica",
     "all": "Tutti",
     "layout": "Disposizione",
     "leaves": "Foglie",
@@ -42,6 +44,7 @@
     "jinxes": "Interazioni Speciali",
     "role": "Ruolo",
     "select_role": "Seleziona un ruolo...",
+    "select_icon": "Seleziona un'icona...",
     "player": "Giocatore",
     "ability": "Abilità",
     "character_sheet": "Scheda Personaggi",
@@ -77,6 +80,15 @@
     "poisoned": "Avvelenato",
     "drunk": "Ubriaco",
     "dead": "Morto"
+  },
+  "radial_menu": {
+    "roles": "Ruoli",
+    "nominate": "Nomina",
+    "on_the_block": "Sul patibolo",
+    "revive": "Resuscita",
+    "ghost_vote": "Voto fantasma",
+    "make_evil": "Rendi malvagio",
+    "make_good": "Rendi buono"
   },
   "nav": {
     "brand": "Grimorio Digitale",
@@ -261,15 +273,14 @@
       "drag_to_reorder": "Trascina per riordinare",
       "remove_from_playlist": "Rimuovi dalla playlist",
       "sfx_title": "Suoni Timer",
-      "sfx_description": "Seleziona il suono riprodotto allo scadere del timer",
+      "sfx_description": "Scegli quale suono viene riprodotto per ogni tempo rimanente",
       "stop_sound": "Ferma suono",
       "preview_sound": "Anteprima suono",
       "remove_sfx": "Rimuovi suono",
       "no_sfx": "Nessun suono timer",
-      "add_sfx_prompt": "Aggiungi suoni per lo scadere del timer",
+      "add_sfx_prompt": "Aggiungi suoni da riprodurre durante il conto alla rovescia del timer",
       "add_sfx_button": "Aggiungi Suono",
-      "select_for_timer": "Seleziona per timer",
-      "timer_sound": "Suono timer",
+      "sfx_interval_label": "Riproduci al tempo rimanente",
       "auto_fade_phase": "Dissolvi volume Giorno/Notte",
       "sfx_volume": "Volume effetti sonori: {volume}%"
     },
@@ -456,6 +467,7 @@
     "demon_info_first_night_reminder": "Se ci sono 7 o più giocatori, sveglia il Demone:\n\tMostra la carta *QUESTI SONO I TUOI SEGUACI*. Indica tutti gli Seguaci.\n\tMostra la carta *QUESTI PERSONAGGI NON SONO IN GIOCO*. Mostra i gettoni di 3 personaggi buoni non-in-gioco."
   },
   "setup": {
+    "marionette_adjacency_warning": "Configurazione non valida: la Marionetta deve essere posizionata accanto al Demone. Il Demone è attualmente tra gli altri due Seguaci.",
     "layout_help": "Scegli la forma della disposizione dei posti.\nPuò essere modificata manualmente in seguito.",
     "choose_script": "Scegli il Copione",
     "select_from_official": "Seleziona tra copioni ufficiali o cerca copioni personalizzati",
@@ -484,6 +496,8 @@
     "draw_view_token": "Gettoni",
     "draw_view_bag": "Sacchetto",
     "start_setup": "Avvia Configurazione",
+    "special_characters_help": "I Fiabeschi e i Folklorici non vengono pescati nel sacchetto. I gettoni selezionati vengono posizionati nel Grimorio.",
+    "no_npcs_available": "Nessuno disponibile.",
     "select_more_roles": "Seleziona altri {count} ruoli per continuare",
     "too_many_roles": "Rimuovi {count} ruoli per continuare",
     "too_many_travellers": "Rimuovi {count} viaggiatori (max 5) per continuare",
@@ -500,7 +514,7 @@
     "by": "di",
     "view_bootlegger_info": "Visualizza informazioni del Bootlegger",
     "edit_names_optional": "Scegli giocatori",
-    "search_placeholder": "Cerca per nome (e.g. Uncertain Death)",
+    "search_placeholder": "Cerca per nome o author: <autore>",
     "unknown": "sconosciuto",
     "no_matching_scripts": "Nessun copione trovato",
     "clear_search": "Pulisci ricerca",
@@ -779,5 +793,20 @@
     "other_nights": "Altre Notti",
     "end_night_phase": "Termina Notte",
     "no_night_actions": "Nessun personaggio ha azioni notturne"
+  },
+  "lock": {
+    "title": "Blocco Narratore",
+    "description": "Richiede un PIN a 4 cifre prima che il Grimorio possa essere rivelato.",
+    "arm": "Avvia Pass & Play",
+    "exit": "Esci da Pass & Play",
+    "enrol_pin_prompt": "Scegli un PIN a 4 cifre",
+    "enrol_pin_confirm": "Conferma il tuo PIN",
+    "enrol_pin_mismatch": "I PIN non corrispondono",
+    "change_pin": "Cambia PIN",
+    "unlock_title": "Solo Narratore",
+    "unlock_pin_prompt": "Inserisci il tuo PIN a 4 cifre",
+    "unlock_pin_wrong": "PIN errato",
+    "unlock_throttled": "Troppi tentativi. Riprova tra {seconds} s.",
+    "reset_hint": "Hai dimenticato il PIN? Disattiva il Blocco Narratore nelle Impostazioni."
   }
 }

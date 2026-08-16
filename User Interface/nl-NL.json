@@ -15,6 +15,8 @@
     "loading": "Laden…",
     "name": "Naam",
     "version": "Versie",
+    "update_available": "Er is een nieuwe versie beschikbaar.",
+    "reload": "Vernieuwen",
     "all": "Alle",
     "layout": "Indeling",
     "leaves": "Bladeren",
@@ -42,6 +44,7 @@
     "jinxes": "Vervloekingen",
     "role": "Rol",
     "select_role": "Selecteer een rol...",
+    "select_icon": "Selecteer een icoon...",
     "player": "Speler",
     "ability": "Vermogen",
     "character_sheet": "Personageblad",
@@ -78,6 +81,15 @@
     "poisoned": "Vergiftigd",
     "drunk": "Dronken",
     "dead": "Dood"
+  },
+  "radial_menu": {
+    "roles": "Rollen",
+    "nominate": "Nomineren",
+    "on_the_block": "Op het blok",
+    "revive": "Herleven",
+    "ghost_vote": "Geeststem",
+    "make_evil": "Kwaad maken",
+    "make_good": "Goed maken"
   },
   "nav": {
     "brand": "Digital Grimoire",
@@ -262,15 +274,14 @@
       "drag_to_reorder": "Slepen om te herschikken",
       "remove_from_playlist": "Verwijderen uit afspeellijst",
       "sfx_title": "Timer-geluidseffecten",
-      "sfx_description": "Kies welk geluid wordt afgespeeld wanneer de timer 00:00 bereikt",
+      "sfx_description": "Kies welk geluid wordt afgespeeld bij elke resterende tijd",
       "stop_sound": "Geluid stoppen",
       "preview_sound": "Geluid beluisteren",
       "remove_sfx": "Geluidseffect verwijderen",
       "no_sfx": "Geen timer-geluidseffecten",
-      "add_sfx_prompt": "Voeg geluiden toe die worden afgespeeld wanneer de timer 00:00 bereikt",
+      "add_sfx_prompt": "Voeg geluiden toe die worden afgespeeld terwijl de timer aftelt",
       "add_sfx_button": "Geluidseffect toevoegen",
-      "select_for_timer": "Selecteren voor timer",
-      "timer_sound": "Timergeluid",
+      "sfx_interval_label": "Afspelen bij resterende tijd",
       "auto_fade_phase": "Volume aanpassen bij Dag/Nacht",
       "sfx_volume": "Geluidseffect-volume: {volume}%"
     },
@@ -457,6 +468,7 @@
     "demon_info_first_night_reminder": "Als er 7 of meer spelers zijn, maak de Demon wakker:\n\tToon het *DIT ZIJN JOUW HANDLANGERS* token. Wijs naar alle Handlangers.\n\tToon het *DEZE PERSONAGES ZIJN NIET IN HET SPEL* token. Toon 3 niet-spelende goede personage-tokens."
   },
   "setup": {
+    "marionette_adjacency_warning": "Ongeldige setup: de Marionette moet naast de Demon zitten. De Demon bevindt zich momenteel tussen de andere twee Handlangers.",
     "layout_help": "Kies de vorm van de zitopstelling.\nDeze kan later handmatig worden aangepast.",
     "choose_script": "Kies je script",
     "select_from_official": "Kies uit officiële scripts of zoek naar aangepaste",
@@ -485,6 +497,8 @@
     "draw_view_token": "Tokens",
     "draw_view_bag": "Zak",
     "start_setup": "Setup starten",
+    "special_characters_help": "Legendarisch en Loric worden niet in de zak getrokken. Geselecteerde tokens worden in het Grimoire geplaatst.",
+    "no_npcs_available": "Geen beschikbaar.",
     "select_more_roles": "Selecteer {count} rollen meer om door te gaan",
     "too_many_roles": "Verwijder {count} rollen om door te gaan",
     "too_many_travellers": "Verwijder {count} reizigers (max. 5) om door te gaan",
@@ -501,7 +515,7 @@
     "by": "door",
     "view_bootlegger_info": "Bootlegger-informatie bekijken",
     "edit_names_optional": "Spelers kiezen",
-    "search_placeholder": "Zoeken op naam (bijv. Uncertain Death)",
+    "search_placeholder": "Zoeken op naam of author: <auteur>",
     "unknown": "onbekend",
     "no_matching_scripts": "Geen overeenkomende scripts gevonden",
     "clear_search": "Zoekopdracht wissen",
@@ -780,5 +794,20 @@
     "other_nights": "Andere Nachten",
     "end_night_phase": "Nacht beëindigen",
     "no_night_actions": "Geen personages hebben nachtacties"
+  },
+  "lock": {
+    "title": "Vertellersvergrendeling",
+    "description": "Vereist een pincode van 4 cijfers voordat het Grimoire getoond kan worden.",
+    "arm": "Start Pass & Play",
+    "exit": "Verlaat Pass & Play",
+    "enrol_pin_prompt": "Kies een pincode van 4 cijfers",
+    "enrol_pin_confirm": "Bevestig je pincode",
+    "enrol_pin_mismatch": "Deze pincodes komen niet overeen",
+    "change_pin": "Pincode wijzigen",
+    "unlock_title": "Alleen voor de Verteller",
+    "unlock_pin_prompt": "Voer je pincode van 4 cijfers in",
+    "unlock_pin_wrong": "Onjuiste pincode",
+    "unlock_throttled": "Te veel pogingen. Probeer het over {seconds} s opnieuw.",
+    "reset_hint": "Pincode vergeten? Schakel Vertellersvergrendeling uit in Instellingen."
   }
 }

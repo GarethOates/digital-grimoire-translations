@@ -15,6 +15,8 @@
     "loading": "Laden…",
     "name": "Name",
     "version": "Version",
+    "update_available": "Eine neue Version ist verfügbar.",
+    "reload": "Neu laden",
     "all": "Alle",
     "layout": "Layout",
     "leaves": "Blätter",
@@ -42,6 +44,7 @@
     "jinxes": "Verhexungen",
     "role": "Rolle",
     "select_role": "Wähle eine Rolle...",
+    "select_icon": "Wähle ein Symbol...",
     "player": "Spieler",
     "ability": "Fähigkeit",
     "character_sheet": "Charakterblatt",
@@ -77,6 +80,15 @@
     "poisoned": "Vergiftet",
     "drunk": "Betrunken",
     "dead": "Tot"
+  },
+  "radial_menu": {
+    "roles": "Rollen",
+    "nominate": "Nominieren",
+    "on_the_block": "Auf dem Richtblock",
+    "revive": "Wiederbeleben",
+    "ghost_vote": "Geisterstimme",
+    "make_evil": "Böse machen",
+    "make_good": "Gut machen"
   },
   "nav": {
     "brand": "Digital Grimoire",
@@ -261,15 +273,14 @@
       "drag_to_reorder": "Ziehen, um neu anzuordnen",
       "remove_from_playlist": "Aus der Wiedergabeliste entfernen",
       "sfx_title": "Timer-Soundeffekte",
-      "sfx_description": "Wählen Sie aus, welcher Sound abgespielt wird, wenn der Timer 00:00 erreicht",
+      "sfx_description": "Wählen Sie aus, welcher Sound bei welcher verbleibenden Zeit abgespielt wird",
       "stop_sound": "Sound stoppen",
       "preview_sound": "Sound testen",
       "remove_sfx": "Soundeffekt entfernen",
       "no_sfx": "Keine Timer-Soundeffekte",
-      "add_sfx_prompt": "Fügen Sie Sounds hinzu, die abgespielt werden, wenn der Timer 00:00 erreicht",
+      "add_sfx_prompt": "Fügen Sie Sounds hinzu, die abgespielt werden, während der Timer herunterzählt",
       "add_sfx_button": "Soundeffekt hinzufügen",
-      "select_for_timer": "Für Timer auswählen",
-      "timer_sound": "Timer-Sound",
+      "sfx_interval_label": "Abspielen bei verbleibender Zeit",
       "auto_fade_phase": "Lautstärke bei Tag/Nacht anpassen",
       "sfx_volume": "Soundeffekt-Lautstärke: {volume}%"
     },
@@ -456,6 +467,7 @@
     "demon_info_first_night_reminder": "Wenn 7 oder mehr Spieler vorhanden sind, wecke den Dämon:\n\tZeige das *DIES SIND DEINE SCHERGEN* Token. Zeige auf alle Schergen.\n\tZeige das *DIESE CHARAKTERE SIND NICHT IM SPIEL* Token. Zeige 3 nicht im Spiel befindliche gute Charakter-Token."
   },
   "setup": {
+    "marionette_adjacency_warning": "Ungültiges Setup: Die Marionette muss neben dem Dämon sitzen. Der Dämon befindet sich derzeit zwischen den anderen beiden Schergen.",
     "layout_help": "Wählen Sie die Form der Sitzanordnung.\nDiese kann später manuell angepasst werden.",
     "choose_script": "Wählen Sie Ihr Skript",
     "select_from_official": "Wählen Sie aus offiziellen Skripten oder suchen Sie nach benutzerdefinierten",
@@ -484,6 +496,8 @@
     "draw_view_token": "Token",
     "draw_view_bag": "Beutel",
     "start_setup": "Setup starten",
+    "special_characters_help": "Legende und Loric werden nicht in den Beutel gezogen. Ausgewählte Token werden im Grimoire platziert.",
+    "no_npcs_available": "Keine verfügbar.",
     "select_more_roles": "Wählen Sie {count} weitere Rollen aus, um fortzufahren",
     "too_many_roles": "Entfernen Sie {count} Rollen, um fortzufahren",
     "too_many_travellers": "Entfernen Sie {count} Reisende (max. 5), um fortzufahren",
@@ -500,7 +514,7 @@
     "by": "von",
     "view_bootlegger_info": "Bootlegger-Informationen anzeigen",
     "edit_names_optional": "Spieler auswählen",
-    "search_placeholder": "Suche nach Namen (z.B. Uncertain Death)",
+    "search_placeholder": "Suche nach Namen oder author: <Autor>",
     "unknown": "unbekannt",
     "no_matching_scripts": "Keine passenden Skripte gefunden",
     "clear_search": "Suche löschen",
@@ -779,5 +793,20 @@
     "other_nights": "Andere Nächte",
     "end_night_phase": "Nacht beenden",
     "no_night_actions": "Keine Charaktere haben Nachtaktionen"
+  },
+  "lock": {
+    "title": "Geschichtenerzähler-Sperre",
+    "description": "Ein 4-stelliger PIN-Code wird benötigt, bevor das Grimoire gezeigt werden kann.",
+    "arm": "Pass & Play starten",
+    "exit": "Pass & Play beenden",
+    "enrol_pin_prompt": "Wählen Sie einen 4-stelligen PIN-Code",
+    "enrol_pin_confirm": "Bestätigen Sie Ihren PIN-Code",
+    "enrol_pin_mismatch": "Die PIN-Codes stimmen nicht überein",
+    "change_pin": "PIN-Code ändern",
+    "unlock_title": "Nur für den Geschichtenerzähler",
+    "unlock_pin_prompt": "Geben Sie Ihren 4-stelligen PIN-Code ein",
+    "unlock_pin_wrong": "Falscher PIN-Code",
+    "unlock_throttled": "Zu viele Versuche. Versuchen Sie es in {seconds} s erneut.",
+    "reset_hint": "PIN-Code vergessen? Deaktivieren Sie die Geschichtenerzähler-Sperre in den Einstellungen."
   }
 }

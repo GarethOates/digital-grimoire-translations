@@ -15,6 +15,8 @@
     "loading": "Loading…",
     "name": "Name",
     "version": "Version",
+    "update_available": "A new version is available.",
+    "reload": "Reload",
     "all": "All",
     "layout": "Layout",
     "leaves": "Leaves",
@@ -42,6 +44,7 @@
     "jinxes": "Jinxes",
     "role": "Role",
     "select_role": "Select a role...",
+    "select_icon": "Select an icon...",
     "player": "Player",
     "ability": "Ability",
     "character_sheet": "Character Sheet",
@@ -77,6 +80,15 @@
     "poisoned": "Poisoned",
     "drunk": "Drunk",
     "dead": "Dead"
+  },
+  "radial_menu": {
+    "roles": "Roles",
+    "nominate": "Nominate",
+    "on_the_block": "On the Block",
+    "revive": "Revive",
+    "ghost_vote": "Ghost Vote",
+    "make_evil": "Make Evil",
+    "make_good": "Make Good"
   },
   "nav": {
     "brand": "Digital Grimoire",
@@ -264,15 +276,14 @@
       "drag_to_reorder": "Drag to reorder",
       "remove_from_playlist": "Remove from playlist",
       "sfx_title": "Timer Sound Effects",
-      "sfx_description": "Select which sound plays when timer reaches 00:00",
+      "sfx_description": "Choose which sound plays at each time remaining",
       "stop_sound": "Stop sound",
       "preview_sound": "Preview sound",
       "remove_sfx": "Remove sound effect",
       "no_sfx": "No timer sound effects",
-      "add_sfx_prompt": "Add sounds to play when timer reaches 00:00",
+      "add_sfx_prompt": "Add sounds to play as the timer counts down",
       "add_sfx_button": "Add Sound Effect",
-      "select_for_timer": "Select for timer",
-      "timer_sound": "Timer sound",
+      "sfx_interval_label": "Play at time remaining",
       "auto_fade_phase": "Fade volume on Day/Night",
       "sfx_volume": "SFX Volume: {volume}%"
     },
@@ -459,6 +470,7 @@
     "demon_info_first_night_reminder": "If there are 7 or more players, wake the Demon:\n\tShow the *THESE ARE YOUR MINIONS* token. Point to all Minions.\n\tShow the *THESE CHARACTERS ARE NOT IN PLAY* token. Show 3 not-in-play good character tokens."
   },
   "setup": {
+    "marionette_adjacency_warning": "Invalid setup: the Marionette must sit next to the Demon. The Demon is currently between the other two Minions.",
     "layout_help": "Choose the shape of the seating arrangement.\nThis can be manually adjusted later.",
     "choose_script": "Choose Your Script",
     "select_from_official": "Select from official scripts or search for custom ones",
@@ -487,6 +499,8 @@
     "draw_view_token": "Tokens",
     "draw_view_bag": "Bag",
     "start_setup": "Start Setup",
+    "special_characters_help": "Fabled and Loric are not drawn into the bag. Selected tokens are placed on the Grimoire.",
+    "no_npcs_available": "None available.",
     "select_more_roles": "Select {count} more roles to continue",
     "too_many_roles": "Remove {count} roles to continue",
     "too_many_travellers": "Remove {count} travellers (max 5) to continue",
@@ -503,7 +517,7 @@
     "by": "by",
     "view_bootlegger_info": "View Bootlegger Information",
     "edit_names_optional": "Choose Players",
-    "search_placeholder": "Search by name (e.g. Uncertain Death)",
+    "search_placeholder": "Search by name or author: <author>",
     "unknown": "unknown",
     "no_matching_scripts": "No matching scripts found",
     "clear_search": "Clear search",
@@ -781,5 +795,20 @@
     "other_nights": "Other Nights",
     "end_night_phase": "End Night",
     "no_night_actions": "No characters have night actions"
+  },
+  "lock": {
+    "title": "Storyteller Lock",
+    "description": "Require a 4-digit PIN before the grimoire can be revealed.",
+    "arm": "Start Pass & Play",
+    "exit": "Exit Pass & Play",
+    "enrol_pin_prompt": "Choose a 4-digit PIN",
+    "enrol_pin_confirm": "Confirm your PIN",
+    "enrol_pin_mismatch": "Those PINs don't match",
+    "change_pin": "Change PIN",
+    "unlock_title": "Storyteller only",
+    "unlock_pin_prompt": "Enter your 4-digit PIN",
+    "unlock_pin_wrong": "Incorrect PIN",
+    "unlock_throttled": "Too many attempts. Try again in {seconds}s.",
+    "reset_hint": "Forgotten your PIN? Turn off Storyteller Lock in Settings."
   }
 }

@@ -15,6 +15,8 @@
     "loading": "Chargement…",
     "name": "Nom",
     "version": "Version",
+    "update_available": "Une nouvelle version est disponible.",
+    "reload": "Actualiser",
     "all": "Tous",
     "layout": "Disposition",
     "leaves": "Feuilles",
@@ -60,6 +62,7 @@
     "send": "Envoyer",
     "jinxes": "Jinxes",
     "select_role": "Sélectionner un rôle...",
+    "select_icon": "Sélectionner une icône...",
     "enabled": "Activé",
     "disabled": "Désactivé",
     "end_game": "Fin de partie",
@@ -253,15 +256,14 @@
       "drag_to_reorder": "Glisser pour réorganiser",
       "remove_from_playlist": "Retirer de la liste de lecture",
       "sfx_title": "Effets sonores de la minuterie",
-      "sfx_description": "Sélectionnez le son à jouer lorsque la minuterie atteint 00:00",
+      "sfx_description": "Sélectionnez quel son est joué à chaque temps restant",
       "stop_sound": "Arrêter le son",
       "preview_sound": "Écouter le son",
       "remove_sfx": "Supprimer l'effet sonore",
       "no_sfx": "Aucun effet sonore de minuterie",
-      "add_sfx_prompt": "Ajoutez des sons à jouer lorsque la minuterie atteint 00:00",
+      "add_sfx_prompt": "Ajoutez des sons à jouer pendant que la minuterie décompte",
       "add_sfx_button": "Ajouter un effet sonore",
-      "select_for_timer": "Sélectionner pour minuterie",
-      "timer_sound": "Son de la minuterie",
+      "sfx_interval_label": "Jouer au temps restant",
       "auto_fade_phase": "Atténuer le volume Jour/Nuit",
       "sfx_volume": "Volume des effets sonores : {volume}%"
     },
@@ -431,6 +433,15 @@
     "drunk": "Ivre",
     "dead": "Assassiné"
   },
+  "radial_menu": {
+    "roles": "Rôles",
+    "nominate": "Nominer",
+    "on_the_block": "Sur le billot",
+    "revive": "Ressusciter",
+    "ghost_vote": "Vote fantôme",
+    "make_evil": "Rendre méchant",
+    "make_good": "Rendre bon"
+  },
   "roles": {
     "townsfolk": "Villageois",
     "outsider": "Marginaux",
@@ -456,6 +467,7 @@
     "demon_info_first_night_reminder": "S'il y a 7 joueurs ou plus, réveillez le Démon :\n\tMontrez le jeton *CE SONT VOS SBIRES*. Pointez vers tous les Sbires.\n\tMontrez le jeton *CES PERSONNAGES NE SONT PAS EN JEU*. Montrez 3 jetons de personnages gentils qui ne sont pas en jeu."
   },
   "setup": {
+    "marionette_adjacency_warning": "Configuration non valide : la Marionnette doit être placée à côté du Démon. Le Démon est actuellement entre les deux autres Sbires.",
     "layout_help": "Choisissez la disposition des places.\nCelle-ci peut être ajustée manuellement par la suite.",
     "choose_script": "Choisissez votre script",
     "select_from_official": "Sélectionnez parmi les scripts officiels ou recherchez des scripts personnalisés",
@@ -484,6 +496,8 @@
     "draw_view_token": "Jetons",
     "draw_view_bag": "Sac",
     "start_setup": "Démarrer la configuration",
+    "special_characters_help": "Légendaire et Loric ne sont pas tirés dans le sac. Les jetons sélectionnés sont placés sur le Grimoire.",
+    "no_npcs_available": "Aucun disponible.",
     "select_more_roles": "Sélectionnez {count} rôles de plus pour continuer",
     "too_many_roles": "Supprimez {count} rôles pour continuer",
     "too_many_travellers": "Supprimez {count} voyageurs (max. 5) pour continuer",
@@ -500,7 +514,7 @@
     "by": "par",
     "view_bootlegger_info": "Voir les informations du Contrebandier",
     "edit_names_optional": "Choisir les joueurs",
-    "search_placeholder": "Rechercher un nom (par ex. Uncertain Death)",
+    "search_placeholder": "Rechercher par nom ou author: <auteur>",
     "unknown": "inconnu",
     "no_matching_scripts": "Aucun script correspondant trouvé",
     "clear_search": "Effacer la recherche",
@@ -779,5 +793,20 @@
     "other_nights": "Autres Nuits",
     "end_night_phase": "Fin de nuit",
     "no_night_actions": "Aucun personnage n'a d'actions de nuit"
+  },
+  "lock": {
+    "title": "Verrouillage du Conteur",
+    "description": "Un code PIN à 4 chiffres est nécessaire avant que le Grimoire puisse être révélé.",
+    "arm": "Démarrer le Pass & Play",
+    "exit": "Quitter le Pass & Play",
+    "enrol_pin_prompt": "Choisissez un code PIN à 4 chiffres",
+    "enrol_pin_confirm": "Confirmez votre code PIN",
+    "enrol_pin_mismatch": "Les codes PIN ne correspondent pas",
+    "change_pin": "Changer le code PIN",
+    "unlock_title": "Réservé au Conteur",
+    "unlock_pin_prompt": "Entrez votre code PIN à 4 chiffres",
+    "unlock_pin_wrong": "Code PIN incorrect",
+    "unlock_throttled": "Trop de tentatives. Réessayez dans {seconds} s.",
+    "reset_hint": "Code PIN oublié ? Désactivez le verrouillage du Conteur dans les Paramètres."
   }
 }
