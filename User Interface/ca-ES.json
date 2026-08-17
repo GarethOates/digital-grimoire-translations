@@ -91,7 +91,7 @@
     "make_good": "Fes-lo bo"
   },
   "nav": {
-    "brand": "Grimori digital",
+    "brand": "Digital Grimoire",
     "offline": "Sense connexió",
     "game": {
       "title": "Partida",
@@ -138,21 +138,21 @@
     },
     "save_game": {
       "title": "Desa la partida",
-      "description": "Deseu aquí la partida del grimori digital per a consultar-la més endavant.",
+      "description": "Deseu aquí la partida del Digital Grimoire per a consultar-la més endavant.",
       "name_label": "Nom",
       "save_button": "Desa al perfil",
       "success": "S’ha desat la partida correctament."
     },
     "about": {
-      "title": "Quant al grimori digital",
+      "title": "Quant al Digital Grimoire",
       "about_tab": "Quant a",
       "special_thanks": "Agraïments especials",
-      "special_thanks_intro": "Un agraïment de tot cor a totes les persones que han ajudat a provar i donar forma al grimori digital al llarg dels anys:",
+      "special_thanks_intro": "Un agraïment de tot cor a totes les persones que han ajudat a provar i donar forma al Digital Grimoire al llarg dels anys:",
       "version": "Versió",
       "disclaimer": "Aquest projecte no està afiliat a The Pandemonium Institute. Tots els rols, les habilitats, etc. són propietat de Steven Medway i The Pandemonium Institute.",
       "privacy_policy": "En utilitzar aquest lloc web, accepteu la nostra",
       "privacy_link": "Política de privadesa",
-      "guide": "Per a consultar una guia sobre l’ús del grimori digital, mireu",
+      "guide": "Per a consultar una guia sobre l’ús del Digital Grimoire, mireu",
       "guide_link": "aquest vídeo de YouTube",
       "clear_cache": "Neteja la memòria cau",
       "clearing_cache": "S’està netejant la memòria cau…",
