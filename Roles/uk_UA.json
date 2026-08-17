@@ -2129,7 +2129,7 @@
             "День 3"
         ],
         "setup": false,
-        "ability": ""
+        "ability": "На 3-й день: міньони стають Заколотом; номіновані гравці помирають але мають одразу номінувати живого гравця."
     },
     {
         "id": "gangster",
@@ -2237,7 +2237,7 @@
             "2-й"
         ],
         "setup": false,
-        "ability": "",
+        "ability": "Щоночі оберіть 2-х гравців: завтра перший з них одержимий тим, що другий за зло, інакше обидва можуть померти.",
         "special": null
     },
     {
@@ -2462,16 +2462,16 @@
     },
     {
         "id": "cacklejack",
-        "name": "Cacklejack",
+        "name": "Штукар",
         "edition": "",
         "team": "traveller",
         "firstNightReminder": "",
-        "otherNightReminder": "Replace the character token of any player (besides the player the Cacklejack chose today) with a different character token. Wake that player and show them the 'You are' card and their new character token.",
+        "otherNightReminder": "До ранку оберіть гравця не позначеного *НЕ МЕНЕ*. Розбудіть обраного гравця; покажіть жетон *ЗАРАЗ ВИ -* і нового персонажа цього гравця.",
         "reminders": [
             "Not Me"
         ],
         "setup": false,
-        "ability": "Each day, choose a player: a different player changes character tonight.",
+        "ability": "Щодня оберіть гравця: вночі персонаж іншого гравця зміниться.",
         "firstNight": 0,
         "otherNight": 2.1
     },
@@ -2563,11 +2563,11 @@
     },
     {
         "id": "wraith",
-        "name": "Wraith",
+        "name": "Примара",
         "team": "minion",
         "edition": "",
-        "firstNightReminder": "Wake the Wraith whenever other evil players wake.",
-        "otherNightReminder": "Wake the Wraith whenever other evil players wake.",
+        "firstNightReminder": "Будіть Примару коли прокидаються гравці за зло.",
+        "otherNightReminder": "Будіть Примару коли прокидаються гравці за зло.",
         "reminders": [],
         "setup": false,
         "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
@@ -2619,25 +2619,25 @@
     },
     {
         "id": "tor",
-        "firstNightReminder": "Players don't learn character or alignment",
+        "firstNightReminder": "Пропустіть Дані міньйонів і Дані демона.",
         "otherNightReminder": "Learn character & alignment",
         "setup": true,
         "edition": "loric",
-        "name": "Tor",
+        "name": "Тора",
         "team": "loric",
         "reminders": [],
-        "ability": "Players don't know their character or alignment. They learn them when they die."
+        "ability": "Гравці не знають свого персонажа чи команди. Вони дізнаються їх коли помирають."
     },
     {
         "id": "bigwig",
-        "name": "Big Wig",
+        "name": "Пан Перука",
         "firstNightReminder": "",
         "otherNightReminder": "",
         "setup": false,
         "reminders": [],
         "edition": "loric",
         "team": "loric",
-        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+        "ability": "Кожен номінований обирає гравця: до голосувань лише він може говорити, і він одержимий тим, що номінований – за добро, інакше може померти."
     },
     {
         "id": "ventriloquist",
@@ -2647,7 +2647,7 @@
         "firstNightReminder": "",
         "otherNightReminder": "",
         "setup": false,
-        "name": "Ventriloquist",
+        "name": "Черевомовець",
         "team": "loric",
         "edition": "loric",
         "ability": "Якщо гравець марить, що він новий персонаж, під час своєї номінації, він може не померти, якщо буде страчений сьогодні."
@@ -2662,18 +2662,18 @@
             "Goal"
         ],
         "setup": false,
-        "name": "Zenomancer",
+        "name": "Зеномант",
         "team": "loric",
         "edition": "loric",
-        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "ability": "В одного чи кількох гравців є завдання. Якщо виконано, цей гравець дізнається правдиве твердження.",
         "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
     },
     {
         "id": "hindu",
-        "name": "Hindu",
+        "name": "Хінду",
         "team": "loric",
         "edition": "loric",
-        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "ability": "Перші 4 померші гравці одразу відроджуються в мандрівників тої ж команди.",
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2682,10 +2682,10 @@
     },
     {
         "id": "pope",
-        "name": "Pope",
+        "name": "Понтифік",
         "team": "loric",
         "edition": "loric",
-        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "ability": "В грі повторюються добрі персонажі. Ці персонажі також можуть бути в блефах.",
         "setup": true,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2770,7 +2770,7 @@
     },
     {
         "id": "ferryman",
-        "name": "Ferryman",
+        "name": "Перевізник",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2779,7 +2779,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "On the final day, all dead players regain their vote token.",
+        "ability": "Останнього дня всі мертві гравці відновлюють свої жетони голосування.",
         "special": null
     },
     {
@@ -2814,7 +2814,7 @@
     },
     {
         "id": "gardener",
-        "name": "Gardener",
+        "name": "Садівник",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
