@@ -1,4 +1,32 @@
-[
+[  
+	{
+    "id": "dusk",
+    "name": "Soumrak",
+    "edition": "special",
+    "firstNightReminder": "Začněte noční fázi.",
+    "otherNightReminder": "Začněte noční fázi."
+  },
+  {
+    "id": "dawn",
+    "name": "Úsvit",
+    "edition": "special",
+    "firstNightReminder": "Počkejte několik vteřin. Ukončete noční fázi.",
+    "otherNightReminder": "Počkejte několik vteřin. Ukončete noční fázi."
+  },
+  {
+    "id": "minioninfo",
+    "name": "Informace pro Přisluhovače",
+    "team": "minion",
+    "edition": "special",
+    "firstNightReminder": "Pokud je ve hře alespoň 7 hráčů, probuďte všechny Přisluhovače:\n\tUkažte jim žeton *TOTO JE DÉMON*. Ukažte na Démona.\n\tUkažte jim žeton *TOTO JSOU TVÍ PŘISLUHOVAČI*. Ukažte na ostatní Přisluhovače."
+  },
+  {
+    "id": "demoninfo",
+    "name": "Informace pro Démona",
+    "team": "demon",
+    "edition": "special",
+    "firstNightReminder": "Pokud je ve hře alespoň 7 hráčů, probuďte Démona:\n\tUkažte mu žeton *TOTO JSOU TVÍ PŘISLUHOVAČI*. Ukažte na všechny Přisluhovače.\n\tUkažte mu žeton *TYTO POSTAVY NEJSOU VE HŘE*. Ukažte mu 3 žetony dobrých postav, které nejsou ve hře."
+    },
     {
         "id": "steward",
         "name": "Správce",
@@ -2436,7 +2464,7 @@
         "team": "loric",
         "edition": "loric",
         "ability": "Vem Ug fez. Když máš Ug fez, smíš říct jen raz zvuk, však smíš dát dva hlas. Kdo zle to dá, Ug fez dál jde.",
-        "flavor": "",
+        "flavor": "Blessed are my children, for they see the beauty in simple things.",
         "special": [
             {
                 "type": "vote",
@@ -2467,7 +2495,7 @@
         "team": "loric",
         "edition": "loric",
         "ability": "Dva Vypravěči: jeden lže & druhý říká pravdu. Jednou za hru za soumraku si můžou role prohodit.",
-        "flavor": ""
+        "flavor": "Every wall is a door. Every meal is a feast."
     },
     {
         "id": "pope",
@@ -2524,7 +2552,7 @@
         "team": "loric",
         "edition": "loric",
         "ability": "Pokud je nominovaný hráč posedlý novou postavou během nominace, nemusí po popravě zemřít.",
-        "flavor": ""
+        "flavor": "Well, folks, gather ‘round! This here’s my pal Charlie, and he’s got a mouth on him that’d make a mule blush. But don’t worry folks, I do all the talkin’... or do I?"
     },
     {
         "id": "zenomancer",
