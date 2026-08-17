@@ -145,6 +145,9 @@
     },
     "about": {
       "title": "Über Digital Grimoire",
+      "about_tab": "Über",
+      "special_thanks": "Besonderer Dank",
+      "special_thanks_intro": "Ein herzliches Dankeschön an alle, die das Digital Grimoire über die Jahre getestet und mitgestaltet haben:",
       "version": "Version",
       "disclaimer": "Dieses Projekt ist nicht mit dem Pandemonium Institute verbunden. Alle Rollen, Fähigkeiten usw. sind Eigentum von Steven Medway und dem Pandemonium Institute.",
       "privacy_policy": "Durch die Nutzung dieser Website stimmen Sie unserer <link> zu.",
@@ -552,7 +555,6 @@
     "hide_spy_view": "Spionansicht ausblenden",
     "rearrange_tokens": "Spieler neu anordnen",
     "edit_background": "Hintergrund bearbeiten...",
-    "edit_night_icons": "Nachtordnung-Symbole bearbeiten...",
     "nominations": "Nominierungen",
     "create_town": "Stadt erstellen",
     "town_view": "Stadtansicht ({townId})",

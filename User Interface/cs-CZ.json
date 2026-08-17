@@ -15,7 +15,7 @@
     "loading": "Načítání…",
     "name": "Název",
     "version": "Verze",
-	"update_available": "Nová verze je k dispozici.",
+    "update_available": "Nová verze je k dispozici.",
     "reload": "Načíst znovu.",
     "all": "Vše",
     "layout": "Rozložení",
@@ -81,8 +81,8 @@
     "drunk": "Opilý",
     "dead": "Mrtvý"
   },
-	"radial_menu": {
-	"roles": "Role",
+  "radial_menu": {
+    "roles": "Role",
     "nominate": "Nominovat",
     "on_the_block": "Na špalku",
     "revive": "Oživit",
@@ -283,9 +283,7 @@
       "no_sfx": "Žádné zvukové efekty časovače",
       "add_sfx_prompt": "Přidejte zvuky, které se přehrají, když časovač dosáhne 00:00",
       "add_sfx_button": "Přidat zvukový efekt",
-      "select_for_timer": "Vybrat pro časovač",
-      "timer_sound": "Zvuk časovače",
-	  "sfx_interval_label": "Přehrát po zbývající čas",
+      "sfx_interval_label": "Přehrát po zbývající čas",
       "auto_fade_phase": "Ztlumit hlasitost ve dne/v noci",
       "sfx_volume": "Hlasitost SFX: {volume}%"
     },
@@ -473,7 +471,7 @@
   },
   "setup": {
     "marionette_adjacency_warning": "Neplatné nastavení: Loutka musí sedět vedle Démona. Démon je nyní mezi dvěma ostatními Přisluhovači.",
-	"layout_help": "Vyberte tvar zasedacího pořádku.\nToto lze později ručně upravit.",									
+    "layout_help": "Vyberte tvar zasedacího pořádku.\nToto lze později ručně upravit.",
     "choose_script": "Vyberte si svůj skript",
     "select_from_official": "Vyberte si z oficiálních skriptů nebo vyhledejte vlastní",
     "players": "{count} hráčů",
@@ -501,7 +499,7 @@
     "draw_view_token": "Žetony",
     "draw_view_bag": "Sáček",
     "start_setup": "Spustit nastavení",
-	"special_characters_help": "Legendy se nelosují do sáčku. Vybrané žetony se umístí na Grimoár.",
+    "special_characters_help": "Legendy se nelosují do sáčku. Vybrané žetony se umístí na Grimoár.",
     "no_npcs_available": "Žádný k dispozici",
     "select_more_roles": "Vyberte ještě {count} rolí pro pokračování",
     "too_many_roles": "Odstraňte {count} rolí pro pokračování",
@@ -811,6 +809,6 @@
     "unlock_pin_prompt": "Zadejte 4-místný PIN",
     "unlock_pin_wrong": "Nesprávný PIN",
     "unlock_throttled": "Moc pokusů. Vyčkejte {seconds} sekund.",
-    "reset_hint": "Zapomněli jste PIN? Vypněte Zámek pro Vypravěče v Nastavení."	  
+    "reset_hint": "Zapomněli jste PIN? Vypněte Zámek pro Vypravěče v Nastavení."
   }
 }

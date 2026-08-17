@@ -145,6 +145,9 @@
     },
     "about": {
       "title": "Informazioni sul Grimorio Digitale",
+      "about_tab": "Informazioni",
+      "special_thanks": "Ringraziamenti speciali",
+      "special_thanks_intro": "Un sentito ringraziamento a tutti coloro che negli anni hanno contribuito a testare e dare forma al Grimorio Digitale:",
       "version": "Versione",
       "disclaimer": "Questo progetto non è affiliato con The Pandemonium Institute. Tutti i ruoli, abilità ecc. sono proprietà di Steven Medway e The Pandemonium Institute.",
       "privacy_policy": "Usando questo sito, accetti la nostra",
@@ -552,7 +555,6 @@
     "hide_spy_view": "Nascondi Vista Spia",
     "rearrange_tokens": "Riordina i giocatori",
     "edit_background": "Modifica Sfondo...",
-    "edit_night_icons": "Modifica Icone Ordine Notte...",
     "nominations": "Nomine",
     "create_town": "Crea Città",
     "town_view": "Vista Città ({townId})",

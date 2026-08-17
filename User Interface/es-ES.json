@@ -145,6 +145,9 @@
     },
     "about": {
       "title": "Acerca del Grimorio Digital",
+      "about_tab": "Acerca de",
+      "special_thanks": "Agradecimientos especiales",
+      "special_thanks_intro": "Un sincero agradecimiento a todos los que han ayudado a probar y dar forma al Grimorio Digital a lo largo de los años:",
       "version": "Versión",
       "disclaimer": "Este proyecto no está afiliado a The Pandemonium Institute. Todos los roles y habilidades, etc. son propiedad de Steven Medway y The Pandemonium Institute.",
       "privacy_policy": "Al usar este sitio web, aceptas nuestra",
@@ -552,7 +555,6 @@
     "hide_spy_view": "Ocultar Vista de Espía",
     "rearrange_tokens": "Reorganizar Jugadores",
     "edit_background": "Editar Fondo...",
-    "edit_night_icons": "Editar Iconos del Orden Nocturno...",
     "nominations": "Nominaciones",
     "create_town": "Crear Pueblo",
     "town_view": "Vista del Pueblo ({townId})",

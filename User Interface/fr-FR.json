@@ -128,6 +128,9 @@
     },
     "about": {
       "title": "À propos du Grimoire Numérique",
+      "about_tab": "À propos",
+      "special_thanks": "Remerciements",
+      "special_thanks_intro": "Un grand merci à toutes les personnes qui ont aidé à tester et à façonner le Grimoire Numérique au fil des années :",
       "version": "Version",
       "disclaimer": "Ce projet n'est pas affilié a Pandemonium Institute. Tous les rôles, capacités, etc. sont la propriété de Steven Medway et de Pandemonium Institute.",
       "privacy_policy": "En utilisant ce site Web, vous acceptez notre",
@@ -552,7 +555,6 @@
     "hide_spy_view": "Cacher la vue espion",
     "rearrange_tokens": "Réorganiser les joueurs",
     "edit_background": "Modifier l'arrière-plan...",
-    "edit_night_icons": "Modifier les icônes de l'ordre de nuit...",
     "nominations": "Nominations",
     "create_town": "Créer un village",
     "town_view": "Vue du village ({townId})",
