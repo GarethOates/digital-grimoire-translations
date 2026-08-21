@@ -134,7 +134,8 @@
   "modals": {
     "return_home": {
       "title": "Volver al inicio",
-      "message": "¿Estás seguro que querés volver a la pantalla de inicio? Vas a perder la partida actual."
+      "message": "¿Estás seguro que querés volver a la pantalla de inicio? Vas a perder la partida actual.",
+      "keep_seating": "Mantener la disposición actual de los asientos para la próxima partida"
     },
     "save_game": {
       "title": "Guardar partida",

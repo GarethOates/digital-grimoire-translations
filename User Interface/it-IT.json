@@ -134,7 +134,8 @@
   "modals": {
     "return_home": {
       "title": "Torna alla Home",
-      "message": "Sei sicuro di voler tornare alla schermata iniziale? La partita attuale andrà persa."
+      "message": "Sei sicuro di voler tornare alla schermata iniziale? La partita attuale andrà persa.",
+      "keep_seating": "Mantieni la disposizione attuale dei posti per la prossima partita"
     },
     "save_game": {
       "title": "Salva Partita",

@@ -134,7 +134,8 @@
   "modals": {
     "return_home": {
       "title": "Torna a l’inici",
-      "message": "Esteu segur que voleu tornar a la pantalla d’inici? Es perdrà la partida actual."
+      "message": "Esteu segur que voleu tornar a la pantalla d’inici? Es perdrà la partida actual.",
+      "keep_seating": "Mantenir la disposició actual dels seients per a la propera partida"
     },
     "save_game": {
       "title": "Desa la partida",

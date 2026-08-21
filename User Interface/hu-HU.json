@@ -134,7 +134,8 @@
   "modals": {
     "return_home": {
       "title": "Vissza a Főoldalra",
-      "message": "Biztosan vissza akarsz lépni a főoldalra? A félbehagyott játék el fog veszni."
+      "message": "Biztosan vissza akarsz lépni a főoldalra? A félbehagyott játék el fog veszni.",
+      "keep_seating": "Az aktuális ülésrend megtartása a következő játékhoz"
     },
     "save_game": {
       "title": "Játék mentése",

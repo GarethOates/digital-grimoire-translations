@@ -117,7 +117,8 @@
   "modals": {
     "return_home": {
       "title": "Gå til forsiden",
-      "message": "Er du sikker på at du vil gå tilbake til forsiden? Det nåværende spillet vil gå tapt."
+      "message": "Er du sikker på at du vil gå tilbake til forsiden? Det nåværende spillet vil gå tapt.",
+      "keep_seating": "Behold det nåværende setearrangementet for neste spill"
     },
     "save_game": {
       "title": "Lagre spill",

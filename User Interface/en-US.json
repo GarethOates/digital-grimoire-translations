@@ -134,7 +134,8 @@
   "modals": {
     "return_home": {
       "title": "Return Home",
-      "message": "Are you sure you want to return to the home screen? Your current game will be lost."
+      "message": "Are you sure you want to return to the home screen? Your current game will be lost.",
+      "keep_seating": "Keep the current seat positions for the next game"
     },
     "save_game": {
       "title": "Save Game",

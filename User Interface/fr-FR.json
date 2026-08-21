@@ -117,7 +117,8 @@
   "modals": {
     "return_home": {
       "title": "Retour à l'accueil",
-      "message": "Êtes-vous sûr de vouloir retourner à l'écran d'accueil ? La partie en cours sera perdue."
+      "message": "Êtes-vous sûr de vouloir retourner à l'écran d'accueil ? La partie en cours sera perdue.",
+      "keep_seating": "Conserver la disposition actuelle des places pour la prochaine partie"
     },
     "save_game": {
       "title": "Enregistrer le jeu",

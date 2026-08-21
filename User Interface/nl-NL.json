@@ -134,7 +134,8 @@
   "modals": {
     "return_home": {
       "title": "Terug naar Beginscherm",
-      "message": "Weet je zeker dat je terug wilt naar het beginscherm? Je huidige spel gaat verloren."
+      "message": "Weet je zeker dat je terug wilt naar het beginscherm? Je huidige spel gaat verloren.",
+      "keep_seating": "Huidige zitopstelling behouden voor het volgende spel"
     },
     "save_game": {
       "title": "Spel opslaan",

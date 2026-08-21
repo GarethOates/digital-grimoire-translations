@@ -134,7 +134,8 @@
   "modals": {
     "return_home": {
       "title": "Návrat domů",
-      "message": "Opravdu se chcete vrátit na domovskou obrazovku? Vaše aktuální hra bude ztracena."
+      "message": "Opravdu se chcete vrátit na domovskou obrazovku? Vaše aktuální hra bude ztracena.",
+      "keep_seating": "Zachovat aktuální zasedací pořádek pro další hru"
     },
     "save_game": {
       "title": "Uložit hru",

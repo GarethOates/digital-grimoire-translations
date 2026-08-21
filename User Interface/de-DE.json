@@ -134,7 +134,8 @@
   "modals": {
     "return_home": {
       "title": "Zur Startseite",
-      "message": "Möchten Sie wirklich zur Startseite zurückkehren? Der aktuelle Spielstand geht verloren."
+      "message": "Möchten Sie wirklich zur Startseite zurückkehren? Der aktuelle Spielstand geht verloren.",
+      "keep_seating": "Aktuelle Sitzanordnung für das nächste Spiel beibehalten"
     },
     "save_game": {
       "title": "Spiel speichern",
