@@ -419,7 +419,7 @@
     },
     "night_icons": {
       "title": "Icônes de l'ordre de nuit",
-      "icon_size": "Taille des icônes",
+      "icon_size": "Taille maximale des icônes",
       "icon_position": "Position des icônes",
       "position_top": "Haut",
       "position_centered": "Centré",
@@ -589,6 +589,7 @@
     "invite_players_tokens": "Invitez vos joueurs un par un à choisir un jeton. Une fois sélectionné, entrez leur nom.",
     "tap_bag_prompt": "Tapez sur le sac pour tirer votre jeton",
     "tap_token_prompt": "Tapez sur un jeton pour le tirer",
+    "hold_to_reveal": "Maintenez pour révéler",
     "arrange_bag": "Organiser le sac",
     "arrange_bag_title": "Définir l'ordre de tirage",
     "confirm_order": "Confirmer l'ordre",
@@ -795,7 +796,8 @@
     "first_night": "Première Nuit",
     "other_nights": "Autres Nuits",
     "end_night_phase": "Fin de nuit",
-    "no_night_actions": "Aucun personnage n'a d'actions de nuit"
+    "no_night_actions": "Aucun personnage n'a d'actions de nuit",
+    "skip_dead": "Sauter les morts"
   },
   "lock": {
     "title": "Verrouillage du Conteur",

@@ -436,7 +436,7 @@
     },
     "night_icons": {
       "title": "Night Order Icons",
-      "icon_size": "Icon Size",
+      "icon_size": "Maximum Icon Size",
       "icon_position": "Icon Position",
       "position_top": "Top",
       "position_centered": "Centered",
@@ -589,6 +589,7 @@
     "invite_players_tokens": "Invite your players up one by one to choose a token. Once selected, enter their name.",
     "tap_bag_prompt": "Tap the bag to draw your token",
     "tap_token_prompt": "Tap a token to draw",
+    "hold_to_reveal": "Hold to reveal",
     "arrange_bag": "Arrange Bag",
     "arrange_bag_title": "Set the draw order",
     "confirm_order": "Confirm Order",
@@ -795,7 +796,8 @@
     "first_night": "First Night",
     "other_nights": "Other Nights",
     "end_night_phase": "End Night",
-    "no_night_actions": "No characters have night actions"
+    "no_night_actions": "No characters have night actions",
+    "skip_dead": "Skip Dead"
   },
   "lock": {
     "title": "Storyteller Lock",

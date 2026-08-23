@@ -436,7 +436,7 @@
     },
     "night_icons": {
       "title": "Icones de l’ordre nocturn",
-      "icon_size": "Mida de la icona",
+      "icon_size": "Mida màxima de la icona",
       "icon_position": "Posició de la icona",
       "position_top": "A dalt",
       "position_centered": "Centrada",
@@ -589,6 +589,7 @@
     "invite_players_tokens": "Convideu els jugadors, d’un en un, a triar una fitxa. Un cop l’hagin triada, introduïu el nom del jugador.",
     "tap_bag_prompt": "Toqueu la bossa per a extreure la fitxa",
     "tap_token_prompt": "Toqueu una fitxa per a extreure-la",
+    "hold_to_reveal": "Mantingueu premut per a revelar",
     "arrange_bag": "Organitza la bossa",
     "arrange_bag_title": "Estableix l’ordre d’extracció",
     "confirm_order": "Confirma l’ordre",
@@ -795,7 +796,8 @@
     "first_night": "Primera nit",
     "other_nights": "Altres nits",
     "end_night_phase": "Acaba la nit",
-    "no_night_actions": "Cap personatge té accions nocturnes"
+    "no_night_actions": "Cap personatge té accions nocturnes",
+    "skip_dead": "Omet els morts"
   },
   "lock": {
     "title": "Bloqueig del narrador",

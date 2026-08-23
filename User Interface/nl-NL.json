@@ -436,7 +436,7 @@
     },
     "night_icons": {
       "title": "Nachtvolgorde-iconen",
-      "icon_size": "Icoongrootte",
+      "icon_size": "Maximale icoongrootte",
       "icon_position": "Icoonpositie",
       "position_top": "Boven",
       "position_centered": "Gecentreerd",
@@ -589,6 +589,7 @@
     "invite_players_tokens": "Nodig je spelers één voor één uit om een token te kiezen. Voer na de selectie hun naam in.",
     "tap_bag_prompt": "Tik op de zak om je token te trekken",
     "tap_token_prompt": "Tik op een token om te trekken",
+    "hold_to_reveal": "Houd ingedrukt om te onthullen",
     "arrange_bag": "Zak ordenen",
     "arrange_bag_title": "Trekvolgorde instellen",
     "confirm_order": "Volgorde bevestigen",
@@ -795,7 +796,8 @@
     "first_night": "Eerste Nacht",
     "other_nights": "Andere Nachten",
     "end_night_phase": "Nacht beëindigen",
-    "no_night_actions": "Geen personages hebben nachtacties"
+    "no_night_actions": "Geen personages hebben nachtacties",
+    "skip_dead": "Doden overslaan"
   },
   "lock": {
     "title": "Vertellersvergrendeling",

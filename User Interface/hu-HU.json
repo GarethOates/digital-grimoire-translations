@@ -436,7 +436,7 @@
     },
     "night_icons": {
       "title": "Éjszakai sorrend ikonok",
-      "icon_size": "Ikonok mérete",
+      "icon_size": "Ikonok maximális mérete",
       "icon_position": "Ikonok pozíciója",
       "position_top": "Fent",
       "position_centered": "Középen",
@@ -589,6 +589,7 @@
     "invite_players_tokens": "Kérd meg egyesével a játékosaidat, hogy válasszanak egy tokent. Majd add meg a nevüket.",
     "tap_bag_prompt": "Nyomj a zsákra a húzáshoz",
     "tap_token_prompt": "Válassz egy tokent a húzáshoz",
+    "hold_to_reveal": "Tartsd nyomva a felfedéshez",
     "arrange_bag": "Zsák előkészítése",
     "arrange_bag_title": "Húzási sorrend beállítása",
     "confirm_order": "Sorrend megerősítése",
@@ -795,7 +796,8 @@
     "first_night": "Első éjszaka",
     "other_nights": "További éjszakák",
     "end_night_phase": "Éjszaka vége",
-    "no_night_actions": "Egy karakternek sincs éjszakai képessége"
+    "no_night_actions": "Egy karakternek sincs éjszakai képessége",
+    "skip_dead": "Halottak kihagyása"
   },
   "lock": {
     "title": "Mesélői zárolás",

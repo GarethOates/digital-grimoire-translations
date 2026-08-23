@@ -436,7 +436,7 @@
     },
     "night_icons": {
       "title": "Nachtordnung-Symbole",
-      "icon_size": "Symbolgröße",
+      "icon_size": "Maximale Symbolgröße",
       "icon_position": "Symbolposition",
       "position_top": "Oben",
       "position_centered": "Zentriert",
@@ -589,6 +589,7 @@
     "invite_players_tokens": "Laden Sie Ihre Spieler einzeln ein, ein Token auszuwählen. Geben Sie nach der Auswahl ihren Namen ein.",
     "tap_bag_prompt": "Tippe auf den Beutel, um dein Token zu ziehen",
     "tap_token_prompt": "Tippe auf ein Token, um es zu ziehen",
+    "hold_to_reveal": "Zum Aufdecken gedrückt halten",
     "arrange_bag": "Beutel anordnen",
     "arrange_bag_title": "Ziehreihenfolge festlegen",
     "confirm_order": "Reihenfolge bestätigen",
@@ -795,7 +796,8 @@
     "first_night": "Erste Nacht",
     "other_nights": "Andere Nächte",
     "end_night_phase": "Nacht beenden",
-    "no_night_actions": "Keine Charaktere haben Nachtaktionen"
+    "no_night_actions": "Keine Charaktere haben Nachtaktionen",
+    "skip_dead": "Tote überspringen"
   },
   "lock": {
     "title": "Geschichtenerzähler-Sperre",

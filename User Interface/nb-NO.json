@@ -419,7 +419,7 @@
     },
     "night_icons": {
       "title": "Nattrekkefølge-ikoner",
-      "icon_size": "Ikonstørrelse",
+      "icon_size": "Maksimal ikonstørrelse",
       "icon_position": "Ikonposisjon",
       "position_top": "Topp",
       "position_centered": "Sentrert",
@@ -589,6 +589,7 @@
     "invite_players_tokens": "Inviter spillerne dine én etter én til å velge en brikke. Når de har valgt, skriv inn navnet deres.",
     "tap_bag_prompt": "Trykk på posen for å trekke brikken din",
     "tap_token_prompt": "Trykk på en brikke for å trekke den",
+    "hold_to_reveal": "Hold inne for å avsløre",
     "arrange_bag": "Organiser posen",
     "arrange_bag_title": "Angi trekkerekkefølgen",
     "confirm_order": "Bekreft rekkefølgen",
@@ -795,7 +796,8 @@
     "first_night": "Første Natt",
     "other_nights": "Andre Netter",
     "end_night_phase": "Avslutt natt",
-    "no_night_actions": "Ingen karakterer har natthandlinger"
+    "no_night_actions": "Ingen karakterer har natthandlinger",
+    "skip_dead": "Hopp over døde"
   },
   "lock": {
     "title": "Historieforteller-lås",

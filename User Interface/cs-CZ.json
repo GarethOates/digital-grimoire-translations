@@ -436,7 +436,7 @@
     },
     "night_icons": {
       "title": "Ikony pořadí v noci",
-      "icon_size": "Velikost ikony",
+      "icon_size": "Maximální velikost ikony",
       "icon_position": "Pozice ikony",
       "position_top": "Nahoře",
       "position_centered": "Na střed",
@@ -589,6 +589,7 @@
     "invite_players_tokens": "Pozvěte své hráče jednoho po druhém, aby si vybrali žeton. Po výběru zadejte jejich jméno.",
     "tap_bag_prompt": "Klepnutím na sáček si vylosujete svůj žeton",
     "tap_token_prompt": "Klepnutím na žeton si ho vylosujete",
+    "hold_to_reveal": "Podržte pro odhalení",
     "arrange_bag": "Uspořádat sáček",
     "arrange_bag_title": "Nastavit pořadí losování",
     "confirm_order": "Potvrdit pořadí",
@@ -795,7 +796,8 @@
     "first_night": "První noc",
     "other_nights": "Další noci",
     "end_night_phase": "Konec noci",
-    "no_night_actions": "Postavy nemají noční akce"
+    "no_night_actions": "Postavy nemají noční akce",
+    "skip_dead": "Přeskočit mrtvé"
   },
   "lock": {
     "title": "Zámek pro Vypravěče",

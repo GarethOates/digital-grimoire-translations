@@ -436,7 +436,7 @@
     },
     "night_icons": {
       "title": "Iconos del orden nocturno",
-      "icon_size": "Tamaño del icono",
+      "icon_size": "Tamaño máximo del icono",
       "icon_position": "Posición del icono",
       "position_top": "Arriba",
       "position_centered": "Centrado",
@@ -589,6 +589,7 @@
     "invite_players_tokens": "Invitá a tus jugadores uno por uno para elegir una ficha. Una vez lo hagan, ingresen su nombre.",
     "tap_bag_prompt": "Tocá la bolsa para sacar tu ficha",
     "tap_token_prompt": "Tocá una ficha para sacarla",
+    "hold_to_reveal": "Mantené presionado para revelar",
     "arrange_bag": "Organizar bolsa",
     "arrange_bag_title": "Establecer el orden de sorteo",
     "confirm_order": "Confirmar orden",
@@ -795,7 +796,8 @@
     "first_night": "Primera noche",
     "other_nights": "Otras noches",
     "end_night_phase": "Terminar noche",
-    "no_night_actions": "No hay personajes con acciones nocturnas"
+    "no_night_actions": "No hay personajes con acciones nocturnas",
+    "skip_dead": "Saltear muertos"
   },
   "lock": {
     "title": "Bloqueo del Narrador",

@@ -436,7 +436,7 @@
     },
     "night_icons": {
       "title": "Icone Ordine Notte",
-      "icon_size": "Dimensione Icone",
+      "icon_size": "Dimensione Massima Icone",
       "icon_position": "Posizione icone",
       "position_top": "In alto",
       "position_centered": "Centrate",
@@ -589,6 +589,7 @@
     "invite_players_tokens": "Invita i giocatori uno alla volta a scegliere un gettone. Dopo, inserisci il loro nome.",
     "tap_bag_prompt": "Tocca il sacchetto per pescare il tuo gettone",
     "tap_token_prompt": "Tocca un gettone per pescarlo",
+    "hold_to_reveal": "Tieni premuto per rivelare",
     "arrange_bag": "Organizza Sacchetto",
     "arrange_bag_title": "Imposta l'ordine di pesca",
     "confirm_order": "Conferma Ordine",
@@ -795,7 +796,8 @@
     "first_night": "Prima Notte",
     "other_nights": "Altre Notti",
     "end_night_phase": "Termina Notte",
-    "no_night_actions": "Nessun personaggio ha azioni notturne"
+    "no_night_actions": "Nessun personaggio ha azioni notturne",
+    "skip_dead": "Salta i Morti"
   },
   "lock": {
     "title": "Blocco Narratore",
