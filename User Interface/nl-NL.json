@@ -71,15 +71,20 @@
     "size": "Grootte",
     "reminder": "Herinnering",
     "faq": "FAQ",
-    "discord": "Discord"
+    "discord": "Discord",
+    "notify": "Melden"
   },
   "errors": {
-    "translation_database_only": "Sorry. Alleen scripts uit de database kunnen op dit moment worden vertaald."
+    "translation_database_only": "Sorry. Alleen scripts uit de database kunnen op dit moment worden vertaald.",
+    "invalid_script_url": "Dat ziet er niet uit als een script-URL. Voer het volledige webadres in, beginnend met https://",
+    "mobile_session_failed": "De mobiele sessie kon niet worden gestart. Controleer je verbinding en probeer het opnieuw.",
+    "token_distribution_failed": "De tokens konden niet naar de apparaten van de spelers worden verzonden. Controleer je verbinding en probeer het opnieuw."
   },
   "status": {
     "poisoned": "Vergiftigd",
     "drunk": "Dronken",
-    "dead": "Dood"
+    "dead": "Dood",
+    "noability": "Geen vaardigheid"
   },
   "radial_menu": {
     "roles": "Rollen",
@@ -88,7 +93,9 @@
     "revive": "Herleven",
     "ghost_vote": "Geeststem",
     "make_evil": "Kwaad maken",
-    "make_good": "Goed maken"
+    "make_good": "Goed maken",
+    "bluff": "Bluf",
+    "back": "Terug"
   },
   "nav": {
     "brand": "Digital Grimoire",
@@ -360,7 +367,10 @@
       "apply_reminder_title": "Herinnering toepassen op {player}",
       "notes_for": "Notities voor {player}",
       "save_notes": "Notities opslaan",
-      "gain_ability": "Vermogen verkrijgen"
+      "gain_ability": "Vermogen verkrijgen",
+      "notify_nominated": "Wanneer genomineerd",
+      "notify_nominates": "Bij het nomineren",
+      "notify_marked_dead": "Wanneer gemarkeerd als dood"
     },
     "town_arrange": {
       "title": "Stadspelers herschikken",
@@ -640,6 +650,8 @@
     "choose_role": "Kies een rol",
     "manual_assign": "Handmatig toewijzen",
     "manual_assign_hint": "Geef een plaats een naam en wijs eventueel vooraf een rol toe, en druk dan op Toewijzen. De speler trekt nog steeds zijn eigen token — het vooraf toewijzen bepaalt alleen welke rol hij krijgt. Gebruik 'Alle overige automatisch toewijzen' om elke plaats te vullen en de trekking over te slaan.",
+    "drag_to_seat": "Sleep een naam of een rol naar een plaats om die toe te wijzen",
+    "all_names_seated": "Iedereen is geplaatst",
     "status_to_draw": "Te trekken",
     "status_seated": "Geplaatst",
     "pre_assign_role": "Rol vooraf toewijzen"
@@ -714,7 +726,9 @@
   },
   "accessibility": {
     "first_night_order": "Eerste nachtvolgorde",
-    "other_night_order": "Andere nachtvolgorde"
+    "other_night_order": "Andere nachtvolgorde",
+    "toggle_navigation": "Navigatie in-/uitschakelen",
+    "notification_armed": "Melding ingesteld"
   },
   "join": {
     "title": "Deelnemen aan spelsessie",
@@ -813,5 +827,10 @@
     "unlock_pin_wrong": "Onjuiste pincode",
     "unlock_throttled": "Te veel pogingen. Probeer het over {seconds} s opnieuw.",
     "reset_hint": "Pincode vergeten? Schakel Vertellersvergrendeling uit in Instellingen."
+  },
+  "notifications": {
+    "nominated": "{player} de {role} is genomineerd",
+    "nominates": "{player} de {role} nomineert",
+    "marked_dead": "{player} de {role} is gemarkeerd als dood"
   }
 }

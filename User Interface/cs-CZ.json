@@ -71,15 +71,20 @@
     "size": "Velikost",
     "reminder": "Připomínka",
     "faq": "FAQ",
-    "discord": "Discord"
+    "discord": "Discord",
+    "notify": "Upozornit"
   },
   "errors": {
-    "translation_database_only": "Omlouváme se. V současné době lze překládat pouze skripty načtené z databáze."
+    "translation_database_only": "Omlouváme se. V současné době lze překládat pouze skripty načtené z databáze.",
+    "invalid_script_url": "To nevypadá jako URL skriptu. Zadejte celou webovou adresu začínající na https://",
+    "mobile_session_failed": "Nepodařilo se spustit mobilní relaci. Zkontrolujte připojení a zkuste to znovu.",
+    "token_distribution_failed": "Nepodařilo se odeslat žetony do zařízení hráčů. Zkontrolujte připojení a zkuste to znovu."
   },
   "status": {
     "poisoned": "Otrávený",
     "drunk": "Opilý",
-    "dead": "Mrtvý"
+    "dead": "Mrtvý",
+    "noability": "Bez schopnosti"
   },
   "radial_menu": {
     "roles": "Role",
@@ -88,7 +93,9 @@
     "revive": "Oživit",
     "ghost_vote": "Hlas mrtvého",
     "make_evil": "Udělat zlým",
-    "make_good": "Udělat dobrým"
+    "make_good": "Udělat dobrým",
+    "bluff": "Blaf",
+    "back": "Zpět"
   },
   "nav": {
     "brand": "Digital Grimoire",
@@ -360,7 +367,10 @@
       "apply_reminder_title": "Přidat připomínku hráči {player}",
       "notes_for": "Poznámky pro {player}",
       "save_notes": "Uložit poznámky",
-      "gain_ability": "Získat schopnost"
+      "gain_ability": "Získat schopnost",
+      "notify_nominated": "Když nominován",
+      "notify_nominates": "Při nominování",
+      "notify_marked_dead": "Když označen jako mrtvý"
     },
     "town_arrange": {
       "title": "Uspořádat hráče města",
@@ -640,6 +650,8 @@
     "choose_role": "Vybrat roli",
     "manual_assign": "Manuální přiřazení",
     "manual_assign_hint": "Pojmenujte místo a volitelně mu předběžně přiřaďte roli, poté stiskněte Přiřadit. Hráč si stále losuje svůj vlastní žeton – předběžné přiřazení pouze určuje, jakou roli dostane. Použijte Automaticky přiřadit všechny k zaplnění každého místa a přeskočení losování.",
+    "drag_to_seat": "Přetažením přiřadíte jméno nebo roli na místo",
+    "all_names_seated": "Všichni jsou usazeni",
     "status_to_draw": "K losování",
     "status_seated": "Usazen",
     "pre_assign_role": "Předběžně přiřadit roli"
@@ -714,7 +726,9 @@
   },
   "accessibility": {
     "first_night_order": "Pořadí první noci",
-    "other_night_order": "Pořadí dalších nocí"
+    "other_night_order": "Pořadí dalších nocí",
+    "toggle_navigation": "Přepnout navigaci",
+    "notification_armed": "Upozornění nastaveno"
   },
   "join": {
     "title": "Připojit se k herní relaci",
@@ -813,5 +827,10 @@
     "unlock_pin_wrong": "Nesprávný PIN",
     "unlock_throttled": "Moc pokusů. Vyčkejte {seconds} sekund.",
     "reset_hint": "Zapomněli jste PIN? Vypněte Zámek pro Vypravěče v Nastavení."
+  },
+  "notifications": {
+    "nominated": "{player} ({role}) byl nominován",
+    "nominates": "{player} ({role}) nominuje",
+    "marked_dead": "{player} ({role}) byl označen jako mrtvý"
   }
 }

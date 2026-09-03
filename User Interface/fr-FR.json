@@ -71,7 +71,8 @@
     "size": "Taille",
     "reminder": "Rappel",
     "faq": "FAQ",
-    "discord": "Discord"
+    "discord": "Discord",
+    "notify": "Notifier"
   },
   "nav": {
     "brand": "Grimoire Numérique",
@@ -343,7 +344,10 @@
       "apply_reminder_title": "Attaché le rappel à {player}",
       "notes_for": "Notes pour {player}",
       "save_notes": "Enregistrer les notes",
-      "gain_ability": "Obtenir une capacité"
+      "gain_ability": "Obtenir une capacité",
+      "notify_nominated": "Quand nominé",
+      "notify_nominates": "Quand nominant",
+      "notify_marked_dead": "Quand marqué comme mort"
     },
     "town_arrange": {
       "title": "Organiser les joueurs du village",
@@ -430,12 +434,16 @@
     }
   },
   "errors": {
-    "translation_database_only": "Désolé. Seuls les scripts chargés depuis la base de données peuvent être traduits pour le moment."
+    "translation_database_only": "Désolé. Seuls les scripts chargés depuis la base de données peuvent être traduits pour le moment.",
+    "invalid_script_url": "Cela ne ressemble pas à une URL de script. Entrez l'adresse web complète, en commençant par https://",
+    "mobile_session_failed": "La session mobile n'a pas pu démarrer. Vérifiez votre connexion et réessayez.",
+    "token_distribution_failed": "Les jetons n'ont pas pu être envoyés aux appareils des joueurs. Vérifiez votre connexion et réessayez."
   },
   "status": {
     "poisoned": "Empoisonné",
     "drunk": "Ivre",
-    "dead": "Assassiné"
+    "dead": "Assassiné",
+    "noability": "Sans capacité"
   },
   "radial_menu": {
     "roles": "Rôles",
@@ -444,7 +452,9 @@
     "revive": "Ressusciter",
     "ghost_vote": "Vote fantôme",
     "make_evil": "Rendre méchant",
-    "make_good": "Rendre bon"
+    "make_good": "Rendre bon",
+    "bluff": "Bluff",
+    "back": "Retour"
   },
   "roles": {
     "townsfolk": "Villageois",
@@ -640,6 +650,8 @@
     "choose_role": "Choisissez un rôle",
     "manual_assign": "Attribuer manuellement",
     "manual_assign_hint": "Donnez un nom à une place et pré-attribuez éventuellement son rôle, puis appuyez sur Attribuer. Le joueur tire quand même son propre jeton — la pré-attribution indique seulement quel rôle il recevra. Utilisez Attribuer automatiquement tous les restants pour remplir toutes les places et sauter le tirage.",
+    "drag_to_seat": "Glisser un nom ou un rôle sur une place pour l'assigner",
+    "all_names_seated": "Tout le monde est assis",
     "status_to_draw": "À tirer",
     "status_seated": "Assis",
     "pre_assign_role": "Pré-attribuer un rôle"
@@ -714,7 +726,9 @@
   },
   "accessibility": {
     "first_night_order": "Ordre de la première nuit",
-    "other_night_order": "Autre ordre de nuit"
+    "other_night_order": "Autre ordre de nuit",
+    "toggle_navigation": "Basculer la navigation",
+    "notification_armed": "Notification activée"
   },
   "join": {
     "title": "Rejoindre la session de jeu",
@@ -813,5 +827,10 @@
     "unlock_pin_wrong": "Code PIN incorrect",
     "unlock_throttled": "Trop de tentatives. Réessayez dans {seconds} s.",
     "reset_hint": "Code PIN oublié ? Désactivez le verrouillage du Conteur dans les Paramètres."
+  },
+  "notifications": {
+    "nominated": "{player} le {role} a été nominé",
+    "nominates": "{player} le {role} nomine",
+    "marked_dead": "{player} le {role} a été marqué comme mort"
   }
 }

@@ -71,15 +71,20 @@
     "size": "Dimensione",
     "reminder": "Promemoria",
     "faq": "FAQ",
-    "discord": "Discord"
+    "discord": "Discord",
+    "notify": "Notifica"
   },
   "errors": {
-    "translation_database_only": "Solo gli script caricati dal database possono essere tradotti al momento."
+    "translation_database_only": "Solo gli script caricati dal database possono essere tradotti al momento.",
+    "invalid_script_url": "Non sembra l'URL di un copione. Inserisci l'indirizzo web completo, iniziando con https://",
+    "mobile_session_failed": "Impossibile avviare la sessione mobile. Controlla la connessione e riprova.",
+    "token_distribution_failed": "Impossibile inviare i gettoni ai dispositivi dei giocatori. Controlla la connessione e riprova."
   },
   "status": {
     "poisoned": "Avvelenato",
     "drunk": "Ubriaco",
-    "dead": "Morto"
+    "dead": "Morto",
+    "noability": "Nessuna Abilità"
   },
   "radial_menu": {
     "roles": "Ruoli",
@@ -88,7 +93,9 @@
     "revive": "Resuscita",
     "ghost_vote": "Voto fantasma",
     "make_evil": "Rendi malvagio",
-    "make_good": "Rendi buono"
+    "make_good": "Rendi buono",
+    "bluff": "Bluff",
+    "back": "Indietro"
   },
   "nav": {
     "brand": "Grimorio Digitale",
@@ -360,7 +367,10 @@
       "apply_reminder_title": "Applica Promemoria a {player}",
       "notes_for": "Note per {player}",
       "save_notes": "Salva Note",
-      "gain_ability": "Ottieni Abilità"
+      "gain_ability": "Ottieni Abilità",
+      "notify_nominated": "Quando nominato",
+      "notify_nominates": "Quando nomina",
+      "notify_marked_dead": "Quando segnato come morto"
     },
     "town_arrange": {
       "title": "Disponi i Giocatori nella Città",
@@ -640,6 +650,8 @@
     "choose_role": "Scegli un Ruolo",
     "manual_assign": "Assegna manualmente",
     "manual_assign_hint": "Dai un nome a un posto e, facoltativamente, pre-assegna il suo ruolo, poi premi Assegna. Il giocatore pesca comunque il proprio gettone — la pre-assegnazione indica solo quale ruolo riceverà. Usa Assegna Automaticamente Tutti i Rimanenti per riempire ogni posto e saltare la pesca.",
+    "drag_to_seat": "Trascina un nome o un ruolo su un posto per assegnarlo",
+    "all_names_seated": "Tutti sono assegnati",
     "status_to_draw": "Da pescare",
     "status_seated": "Assegnato",
     "pre_assign_role": "Pre-assegna ruolo"
@@ -714,7 +726,9 @@
   },
   "accessibility": {
     "first_night_order": "Ordine della Prima Notte",
-    "other_night_order": "Ordine delle Altre Notti"
+    "other_night_order": "Ordine delle Altre Notti",
+    "toggle_navigation": "Attiva/disattiva navigazione",
+    "notification_armed": "Notifica attivata"
   },
   "join": {
     "title": "Unisciti alla Sessione di Gioco",
@@ -813,5 +827,10 @@
     "unlock_pin_wrong": "PIN errato",
     "unlock_throttled": "Troppi tentativi. Riprova tra {seconds} s.",
     "reset_hint": "Hai dimenticato il PIN? Disattiva il Blocco Narratore nelle Impostazioni."
+  },
+  "notifications": {
+    "nominated": "{player} il {role} è stato nominato",
+    "nominates": "{player} il {role} sta nominando",
+    "marked_dead": "{player} il {role} è stato segnato come morto"
   }
 }

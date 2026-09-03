@@ -71,15 +71,20 @@
     "size": "Size",
     "reminder": "Reminder",
     "faq": "FAQ",
-    "discord": "Discord"
+    "discord": "Discord",
+    "notify": "Notify"
   },
   "errors": {
-    "translation_database_only": "Sorry. Only scripts loaded from the database can be translated at this time."
+    "translation_database_only": "Sorry. Only scripts loaded from the database can be translated at this time.",
+    "invalid_script_url": "That doesn't look like a script URL. Enter the full web address, starting with https://",
+    "mobile_session_failed": "Couldn't start the mobile session. Check your connection and try again.",
+    "token_distribution_failed": "Couldn't send tokens to players' devices. Check your connection and try again."
   },
   "status": {
     "poisoned": "Poisoned",
     "drunk": "Drunk",
-    "dead": "Dead"
+    "dead": "Dead",
+    "noability": "No Ability"
   },
   "radial_menu": {
     "roles": "Roles",
@@ -88,7 +93,9 @@
     "revive": "Revive",
     "ghost_vote": "Ghost Vote",
     "make_evil": "Make Evil",
-    "make_good": "Make Good"
+    "make_good": "Make Good",
+    "bluff": "Bluff",
+    "back": "Back"
   },
   "nav": {
     "brand": "Digital Grimoire",
@@ -360,7 +367,10 @@
       "apply_reminder_title": "Apply Reminder to {player}",
       "notes_for": "Notes for {player}",
       "save_notes": "Save Notes",
-      "gain_ability": "Gain Ability"
+      "gain_ability": "Gain Ability",
+      "notify_nominated": "When nominated",
+      "notify_nominates": "When nominating",
+      "notify_marked_dead": "When marked dead"
     },
     "town_arrange": {
       "title": "Arrange Town Players",
@@ -640,6 +650,8 @@
     "choose_role": "Choose a Role",
     "manual_assign": "Manual Assign",
     "manual_assign_hint": "Name a seat and optionally pre-assign its role, then press Assign. The player still draws their own token — pre-assigning only sets which role they'll get. Use Auto Assign All to fill every seat and skip the draw.",
+    "drag_to_seat": "Drag a name or role onto a seat to assign it",
+    "all_names_seated": "Everyone is seated",
     "status_to_draw": "To draw",
     "status_seated": "Seated",
     "pre_assign_role": "Pre-assign role"
@@ -714,7 +726,9 @@
   },
   "accessibility": {
     "first_night_order": "First Night Order",
-    "other_night_order": "Other Night Order"
+    "other_night_order": "Other Night Order",
+    "toggle_navigation": "Toggle navigation",
+    "notification_armed": "Notification set"
   },
   "join": {
     "title": "Join Game Session",
@@ -813,5 +827,10 @@
     "unlock_pin_wrong": "Incorrect PIN",
     "unlock_throttled": "Too many attempts. Try again in {seconds}s.",
     "reset_hint": "Forgotten your PIN? Turn off Storyteller Lock in Settings."
+  },
+  "notifications": {
+    "nominated": "{player} the {role} has been nominated",
+    "nominates": "{player} the {role} is nominating",
+    "marked_dead": "{player} the {role} has been marked as dead"
   }
 }

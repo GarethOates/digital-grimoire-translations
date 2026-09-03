@@ -71,15 +71,20 @@
     "size": "Tamaño",
     "reminder": "Recordatorio",
     "faq": "FAQ",
-    "discord": "Discord"
+    "discord": "Discord",
+    "notify": "Notificar"
   },
   "errors": {
-    "translation_database_only": "Lo siento. Solamente los guiones cargados desde la base de datos se pueden traducir por ahora."
+    "translation_database_only": "Lo siento. Solamente los guiones cargados desde la base de datos se pueden traducir por ahora.",
+    "invalid_script_url": "Eso no parece una URL de guión. Ingresá la dirección web completa, que empiece con https://",
+    "mobile_session_failed": "No se pudo iniciar la sesión móvil. Revisá tu conexión e intentá de nuevo.",
+    "token_distribution_failed": "No se pudieron enviar las fichas a los dispositivos de los jugadores. Revisá tu conexión e intentá de nuevo."
   },
   "status": {
     "poisoned": "Envenenado",
     "drunk": "Borracho",
-    "dead": "Muerto"
+    "dead": "Muerto",
+    "noability": "Sin habilidad"
   },
   "radial_menu": {
     "roles": "Roles",
@@ -88,7 +93,9 @@
     "revive": "Revivir",
     "ghost_vote": "Voto fantasma",
     "make_evil": "Hacer malvado",
-    "make_good": "Hacer bueno"
+    "make_good": "Hacer bueno",
+    "bluff": "Farsa",
+    "back": "Atrás"
   },
   "nav": {
     "brand": "Grimorio Digital",
@@ -360,7 +367,10 @@
       "apply_reminder_title": "Ponele recordatorio a {player}",
       "notes_for": "Notas para {player}",
       "save_notes": "Guardar notas",
-      "gain_ability": "Obtener habilidad"
+      "gain_ability": "Obtener habilidad",
+      "notify_nominated": "Al ser nominado",
+      "notify_nominates": "Al nominar",
+      "notify_marked_dead": "Al ser marcado como muerto"
     },
     "town_arrange": {
       "title": "Organizar los jugadores del pueblo",
@@ -640,6 +650,8 @@
     "choose_role": "Elegí un Rol",
     "manual_assign": "Asignar manualmente",
     "manual_assign_hint": "Dale nombre a un asiento y, opcionalmente, preasigná su rol; luego apretá Asignar. El jugador sigue sacando su propia ficha — la preasignación solo determina qué rol va a recibir. Usá Asignar automaticamente los restantes para ocupar todos los asientos y saltearse el sorteo.",
+    "drag_to_seat": "Arrastrá un nombre o un rol a un asiento para asignarlo",
+    "all_names_seated": "Todos están asignados",
     "status_to_draw": "Por sortear",
     "status_seated": "Asignado",
     "pre_assign_role": "Preasignar rol"
@@ -714,7 +726,9 @@
   },
   "accessibility": {
     "first_night_order": "Orden de la primera noche",
-    "other_night_order": "Orden de las otras noches"
+    "other_night_order": "Orden de las otras noches",
+    "toggle_navigation": "Alternar navegación",
+    "notification_armed": "Notificación habilitada"
   },
   "join": {
     "title": "Unirse a sesión de la partida",
@@ -813,5 +827,10 @@
     "unlock_pin_wrong": "PIN incorrecto",
     "unlock_throttled": "Demasiados intentos. Intentalo de nuevo en {seconds} s.",
     "reset_hint": "¿Olvidaste tu PIN? Desactivá el Bloqueo del Narrador en Opciones."
+  },
+  "notifications": {
+    "nominated": "{player} el {role} fue nominado",
+    "nominates": "{player} el {role} está nominando",
+    "marked_dead": "{player} el {role} fue marcado como muerto"
   }
 }

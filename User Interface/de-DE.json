@@ -71,15 +71,20 @@
     "size": "Größe",
     "reminder": "Erinnerung",
     "faq": "FAQ",
-    "discord": "Discord"
+    "discord": "Discord",
+    "notify": "Benachrichtigen"
   },
   "errors": {
-    "translation_database_only": "Entschuldigung. Nur Skripte aus der Datenbank können derzeit übersetzt werden."
+    "translation_database_only": "Entschuldigung. Nur Skripte aus der Datenbank können derzeit übersetzt werden.",
+    "invalid_script_url": "Das sieht nicht wie eine Skript-URL aus. Geben Sie die vollständige Webadresse ein, beginnend mit https://",
+    "mobile_session_failed": "Die mobile Sitzung konnte nicht gestartet werden. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+    "token_distribution_failed": "Die Token konnten nicht an die Geräte der Spieler gesendet werden. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut."
   },
   "status": {
     "poisoned": "Vergiftet",
     "drunk": "Betrunken",
-    "dead": "Tot"
+    "dead": "Tot",
+    "noability": "Keine Fähigkeit"
   },
   "radial_menu": {
     "roles": "Rollen",
@@ -88,7 +93,9 @@
     "revive": "Wiederbeleben",
     "ghost_vote": "Geisterstimme",
     "make_evil": "Böse machen",
-    "make_good": "Gut machen"
+    "make_good": "Gut machen",
+    "bluff": "Bluff",
+    "back": "Zurück"
   },
   "nav": {
     "brand": "Digital Grimoire",
@@ -360,7 +367,10 @@
       "apply_reminder_title": "Erinnerung auf {player} anwenden",
       "notes_for": "Notizen für {player}",
       "save_notes": "Notizen speichern",
-      "gain_ability": "Fähigkeit erhalten"
+      "gain_ability": "Fähigkeit erhalten",
+      "notify_nominated": "Wenn nominiert",
+      "notify_nominates": "Beim Nominieren",
+      "notify_marked_dead": "Wenn als tot markiert"
     },
     "town_arrange": {
       "title": "Stadtspieler anordnen",
@@ -640,6 +650,8 @@
     "choose_role": "Wähle eine Rolle",
     "manual_assign": "Manuell zuweisen",
     "manual_assign_hint": "Gib einem Platz einen Namen und weise optional eine Rolle vor, dann drücke Zuweisen. Der Spieler zieht noch immer sein eigenes Token – die Vorzuweisung legt nur fest, welche Rolle er erhalten wird. Nutze Alle verbleibenden automatisch zuweisen, um alle Plätze zu belegen und die Ziehung zu überspringen.",
+    "drag_to_seat": "Ziehen, um einem Platz einen Namen oder eine Rolle zuzuweisen",
+    "all_names_seated": "Alle sind platziert",
     "status_to_draw": "Zu ziehen",
     "status_seated": "Platziert",
     "pre_assign_role": "Rolle vorab zuweisen"
@@ -714,7 +726,9 @@
   },
   "accessibility": {
     "first_night_order": "Erste Nachtreihenfolge",
-    "other_night_order": "Andere Nachtreihenfolge"
+    "other_night_order": "Andere Nachtreihenfolge",
+    "toggle_navigation": "Navigation umschalten",
+    "notification_armed": "Benachrichtigung aktiviert"
   },
   "join": {
     "title": "Spielsitzung beitreten",
@@ -813,5 +827,10 @@
     "unlock_pin_wrong": "Falscher PIN-Code",
     "unlock_throttled": "Zu viele Versuche. Versuchen Sie es in {seconds} s erneut.",
     "reset_hint": "PIN-Code vergessen? Deaktivieren Sie die Geschichtenerzähler-Sperre in den Einstellungen."
+  },
+  "notifications": {
+    "nominated": "{player} der {role} wurde nominiert",
+    "nominates": "{player} der {role} nominiert",
+    "marked_dead": "{player} der {role} wurde als tot markiert"
   }
 }

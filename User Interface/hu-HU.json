@@ -71,15 +71,20 @@
     "size": "Méret",
     "reminder": "Emlékeztető",
     "faq": "GYIK",
-    "discord": "Discord"
+    "discord": "Discord",
+    "notify": "Értesítés"
   },
   "errors": {
-    "translation_database_only": "Sajnáljuk. Jelenleg csak az adatbázisból betöltött szkriptek fordítása lehetséges."
+    "translation_database_only": "Sajnáljuk. Jelenleg csak az adatbázisból betöltött szkriptek fordítása lehetséges.",
+    "invalid_script_url": "Ez nem tűnik szkript URL-nek. Add meg a teljes webcímet, ami https://-vel kezdődik.",
+    "mobile_session_failed": "Nem sikerült elindítani a mobil munkamenetet. Ellenőrizd a kapcsolatot, és próbáld újra.",
+    "token_distribution_failed": "Nem sikerült elküldeni a jelölőket a játékosok eszközeire. Ellenőrizd a kapcsolatot, és próbáld újra."
   },
   "status": {
     "poisoned": "Mérgezett",
     "drunk": "Részeg",
-    "dead": "Halott"
+    "dead": "Halott",
+    "noability": "Nincs képessége"
   },
   "radial_menu": {
     "roles": "Karakterek",
@@ -88,7 +93,9 @@
     "revive": "Feltámasztás",
     "ghost_vote": "Szellemszavazat",
     "make_evil": "Legyen gonosz",
-    "make_good": "Legyen jó"
+    "make_good": "Legyen jó",
+    "bluff": "Blöff",
+    "back": "Vissza"
   },
   "nav": {
     "brand": "Digitális Grimoár",
@@ -360,7 +367,10 @@
       "apply_reminder_title": "Emlékeztető hozzáadása {player} játékoshoz",
       "notes_for": "{player} jegyzetei",
       "save_notes": "Jegyzetek mentése",
-      "gain_ability": "Képesség szerzése"
+      "gain_ability": "Képesség szerzése",
+      "notify_nominated": "Amikor meggyanúsítják",
+      "notify_nominates": "Amikor gyanúsít",
+      "notify_marked_dead": "Amikor halottnak jelölik"
     },
     "town_arrange": {
       "title": "Város átrendezése",
@@ -640,6 +650,8 @@
     "choose_role": "Válassz egy karaktert",
     "manual_assign": "Kézi hozzárendelés",
     "manual_assign_hint": "Adj nevet egy ülőhelynek, és nyomj a Hozzárendel gombra, hogy leültesd a játékost (a karaktere majd kihúzásra kerül). Adj hozzá egy karaktert is, hogy hozzárendeld most, húzás helyett.",
+    "drag_to_seat": "Húzz egy nevet vagy karaktert egy ülőhelyre, hogy hozzárendeld",
+    "all_names_seated": "Mindenki le van ültetve",
     "status_to_draw": "Kihúzandó",
     "status_seated": "Leültetve",
     "pre_assign_role": "Karakter rögzítése"
@@ -714,7 +726,9 @@
   },
   "accessibility": {
     "first_night_order": "Első éjszaka sorrend",
-    "other_night_order": "További éjszaka sorrend"
+    "other_night_order": "További éjszaka sorrend",
+    "toggle_navigation": "Navigáció be- és kikapcsolása",
+    "notification_armed": "Értesítés beállítva"
   },
   "join": {
     "title": "Csatlakozz a játék munkamenethez",
@@ -813,5 +827,10 @@
     "unlock_pin_wrong": "Hibás PIN-kód",
     "unlock_throttled": "Túl sok próbálkozás. Próbáld újra {seconds} másodperc múlva.",
     "reset_hint": "Elfelejtetted a PIN-kódodat? Kapcsold ki a Mesélői zárolást a Beállításokban."
+  },
+  "notifications": {
+    "nominated": "{player} ({role}) meg lett gyanúsítva",
+    "nominates": "{player} ({role}) gyanúsít",
+    "marked_dead": "{player} ({role}) halottnak lett jelölve"
   }
 }

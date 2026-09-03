@@ -71,15 +71,20 @@
     "size": "Mida",
     "reminder": "Recordatori",
     "faq": "Preguntes més freqüents",
-    "discord": "Discord"
+    "discord": "Discord",
+    "notify": "Notifica"
   },
   "errors": {
-    "translation_database_only": "Actualment només es poden traduir els guions carregats des de la base de dades."
+    "translation_database_only": "Actualment només es poden traduir els guions carregats des de la base de dades.",
+    "invalid_script_url": "Això no sembla l'URL d'un guió. Introduïu l'adreça web completa, començant per https://",
+    "mobile_session_failed": "No s'ha pogut iniciar la sessió mòbil. Comproveu la connexió i torneu-ho a provar.",
+    "token_distribution_failed": "No s'han pogut enviar les fitxes als dispositius dels jugadors. Comproveu la connexió i torneu-ho a provar."
   },
   "status": {
     "poisoned": "Emmetzinat",
     "drunk": "Borratxo",
-    "dead": "Mort"
+    "dead": "Mort",
+    "noability": "Sense habilitat"
   },
   "radial_menu": {
     "roles": "Rols",
@@ -88,7 +93,9 @@
     "revive": "Ressuscita",
     "ghost_vote": "Vot fantasma",
     "make_evil": "Fes-lo malvat",
-    "make_good": "Fes-lo bo"
+    "make_good": "Fes-lo bo",
+    "bluff": "Coartada",
+    "back": "Enrere"
   },
   "nav": {
     "brand": "Digital Grimoire",
@@ -360,7 +367,10 @@
       "apply_reminder_title": "Aplica un recordatori a {player}",
       "notes_for": "Notes de {player}",
       "save_notes": "Desa les notes",
-      "gain_ability": "Obtén l’habilitat"
+      "gain_ability": "Obtén l’habilitat",
+      "notify_nominated": "En ser acusat",
+      "notify_nominates": "En acusar",
+      "notify_marked_dead": "En ser marcat com a mort"
     },
     "town_arrange": {
       "title": "Organitza els jugadors del poble",
@@ -640,6 +650,8 @@
     "choose_role": "Trieu un rol",
     "manual_assign": "Assigna manualment",
     "manual_assign_hint": "Poseu nom a un seient i, opcionalment, preassigneu-li un rol; després, premeu «Assigna». El jugador continuarà extraient la seva fitxa: la preassignació només determina quin rol rebrà. Utilitzeu «Assigna automàticament la resta» per a ocupar tots els seients i ometre l’extracció.",
+    "drag_to_seat": "Arrossegueu un nom o un rol a un seient per a assignar-lo",
+    "all_names_seated": "Tots estan assignats",
     "status_to_draw": "Pendent d’extreure",
     "status_seated": "Assignat",
     "pre_assign_role": "Preassigna el rol"
@@ -714,7 +726,9 @@
   },
   "accessibility": {
     "first_night_order": "Ordre de la primera nit",
-    "other_night_order": "Ordre de les altres nits"
+    "other_night_order": "Ordre de les altres nits",
+    "toggle_navigation": "Commuta la navegació",
+    "notification_armed": "Notificació activada"
   },
   "join": {
     "title": "Uneix-te a la sessió de joc",
@@ -813,5 +827,10 @@
     "unlock_pin_wrong": "PIN incorrecte",
     "unlock_throttled": "Hi ha hagut massa intents. Torneu-ho a provar d’aquí a {seconds} s.",
     "reset_hint": "Heu oblidat el PIN? Desactiveu «Bloqueig del narrador» a «Configuració»."
+  },
+  "notifications": {
+    "nominated": "{player}, el {role}, ha estat acusat",
+    "nominates": "{player}, el {role}, està acusant",
+    "marked_dead": "{player}, el {role}, ha estat marcat com a mort"
   }
 }

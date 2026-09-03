@@ -71,7 +71,8 @@
     "size": "Størrelse",
     "reminder": "Påminnelse",
     "faq": "FAQ",
-    "discord": "Discord"
+    "discord": "Discord",
+    "notify": "Varsle"
   },
   "nav": {
     "brand": "Digital Grimoire",
@@ -343,7 +344,10 @@
       "apply_reminder_title": "Bruk påminnelse på {player}",
       "notes_for": "Notater for {player}",
       "save_notes": "Lagre notater",
-      "gain_ability": "Få evne"
+      "gain_ability": "Få evne",
+      "notify_nominated": "Når nominert",
+      "notify_nominates": "Ved nominasjon",
+      "notify_marked_dead": "Når merket død"
     },
     "town_arrange": {
       "title": "Omorganiser byspillere",
@@ -430,12 +434,16 @@
     }
   },
   "errors": {
-    "translation_database_only": "Beklager. Kun skript lastet fra databasen kan oversettes for øyeblikket."
+    "translation_database_only": "Beklager. Kun skript lastet fra databasen kan oversettes for øyeblikket.",
+    "invalid_script_url": "Dette ser ikke ut som en skript-URL. Skriv inn hele webadressen, som starter med https://",
+    "mobile_session_failed": "Kunne ikke starte mobiløkten. Sjekk tilkoblingen og prøv igjen.",
+    "token_distribution_failed": "Kunne ikke sende brikker til spillernes enheter. Sjekk tilkoblingen og prøv igjen."
   },
   "status": {
     "poisoned": "Forgiftet",
     "drunk": "Full",
-    "dead": "Død"
+    "dead": "Død",
+    "noability": "Uten evne"
   },
   "radial_menu": {
     "roles": "Roller",
@@ -444,7 +452,9 @@
     "revive": "Gjenopplive",
     "ghost_vote": "Spøkelsesstemme",
     "make_evil": "Gjør ond",
-    "make_good": "Gjør god"
+    "make_good": "Gjør god",
+    "bluff": "Bløff",
+    "back": "Tilbake"
   },
   "roles": {
     "townsfolk": "Byfolk",
@@ -640,6 +650,8 @@
     "choose_role": "Velg en rolle",
     "manual_assign": "Tildel manuelt",
     "manual_assign_hint": "Gi et sete et navn og forhåndstildel eventuelt en rolle, trykk deretter Tildel. Spilleren trekker fortsatt sitt eget kort — forhåndstildelingen angir kun hvilken rolle vedkommende vil få. Bruk Tildel alle gjenværende automatisk for å fylle alle seter og hoppe over trekkingen.",
+    "drag_to_seat": "Dra for å tildele et sete et navn eller en rolle",
+    "all_names_seated": "Alle er plassert",
     "status_to_draw": "Til trekking",
     "status_seated": "Plassert",
     "pre_assign_role": "Forhåndstildel rolle"
@@ -714,7 +726,9 @@
   },
   "accessibility": {
     "first_night_order": "Rekkefølge for første natt",
-    "other_night_order": "Rekkefølge for andre netter"
+    "other_night_order": "Rekkefølge for andre netter",
+    "toggle_navigation": "Veksle navigasjon",
+    "notification_armed": "Varsel aktivert"
   },
   "join": {
     "title": "Bli med i spilløkten",
@@ -813,5 +827,10 @@
     "unlock_pin_wrong": "Feil PIN-kode",
     "unlock_throttled": "For mange forsøk. Prøv igjen om {seconds} s.",
     "reset_hint": "Glemt PIN-koden? Slå av Historieforteller-lås i Innstillinger."
+  },
+  "notifications": {
+    "nominated": "{player} {role} har blitt nominert",
+    "nominates": "{player} {role} nominerer",
+    "marked_dead": "{player} {role} har blitt merket som død"
   }
 }
