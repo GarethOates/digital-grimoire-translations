@@ -408,7 +408,9 @@
     "errors": {
         "translation_database_only": "Désolé. Seuls les scripts chargés depuis la base de données peuvent être traduits pour le moment.",
         "invalid_script_url": "Cela ne ressemble pas à une URL de script. Entrez l'adresse web complète, en commençant par https://",
-        "token_distribution_failed": "Les jetons n'ont pas pu être envoyés aux appareils des joueurs. Vérifiez votre connexion et réessayez."
+        "token_distribution_failed": "Les jetons n'ont pas pu être envoyés aux appareils des joueurs. Vérifiez votre connexion et réessayez.",
+        "script_roles_failed": "Impossible de charger les personnages de ce script. Vérifiez votre connexion et réessayez.",
+        "roles_not_found": "Ces personnages sont introuvables : {roles}"
     },
     "status": {
         "poisoned": "Empoisonné",

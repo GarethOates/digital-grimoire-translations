@@ -78,7 +78,9 @@
     "errors": {
         "translation_database_only": "Entschuldigung. Nur Skripte aus der Datenbank können derzeit übersetzt werden.",
         "invalid_script_url": "Das sieht nicht wie eine Skript-URL aus. Geben Sie die vollständige Webadresse ein, beginnend mit https://",
-        "token_distribution_failed": "Die Token konnten nicht an die Geräte der Spieler gesendet werden. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut."
+        "token_distribution_failed": "Die Token konnten nicht an die Geräte der Spieler gesendet werden. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+        "script_roles_failed": "Die Charaktere dieses Skripts konnten nicht geladen werden. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+        "roles_not_found": "Diese Charaktere konnten nicht gefunden werden: {roles}"
     },
     "status": {
         "poisoned": "Vergiftet",

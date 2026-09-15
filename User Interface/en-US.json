@@ -78,7 +78,9 @@
     "errors": {
         "translation_database_only": "Sorry. Only scripts loaded from the database can be translated at this time.",
         "invalid_script_url": "That doesn't look like a script URL. Enter the full web address, starting with https://",
-        "token_distribution_failed": "Couldn't send tokens to players' devices. Check your connection and try again."
+        "token_distribution_failed": "Couldn't send tokens to players' devices. Check your connection and try again.",
+        "script_roles_failed": "Couldn't load this script's characters. Check your connection and try again.",
+        "roles_not_found": "Couldn't find these characters: {roles}"
     },
     "status": {
         "poisoned": "Poisoned",

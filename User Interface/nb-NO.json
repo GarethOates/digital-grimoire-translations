@@ -408,7 +408,9 @@
     "errors": {
         "translation_database_only": "Beklager. Kun skript lastet fra databasen kan oversettes for øyeblikket.",
         "invalid_script_url": "Dette ser ikke ut som en skript-URL. Skriv inn hele webadressen, som starter med https://",
-        "token_distribution_failed": "Kunne ikke sende brikker til spillernes enheter. Sjekk tilkoblingen og prøv igjen."
+        "token_distribution_failed": "Kunne ikke sende brikker til spillernes enheter. Sjekk tilkoblingen og prøv igjen.",
+        "script_roles_failed": "Kunne ikke laste inn karakterene i dette skriptet. Sjekk tilkoblingen og prøv igjen.",
+        "roles_not_found": "Fant ikke disse karakterene: {roles}"
     },
     "status": {
         "poisoned": "Forgiftet",

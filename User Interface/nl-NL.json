@@ -78,7 +78,9 @@
     "errors": {
         "translation_database_only": "Sorry. Alleen scripts uit de database kunnen op dit moment worden vertaald.",
         "invalid_script_url": "Dat ziet er niet uit als een script-URL. Voer het volledige webadres in, beginnend met https://",
-        "token_distribution_failed": "De tokens konden niet naar de apparaten van de spelers worden verzonden. Controleer je verbinding en probeer het opnieuw."
+        "token_distribution_failed": "De tokens konden niet naar de apparaten van de spelers worden verzonden. Controleer je verbinding en probeer het opnieuw.",
+        "script_roles_failed": "De personages van dit script konden niet worden geladen. Controleer je verbinding en probeer het opnieuw.",
+        "roles_not_found": "Deze personages konden niet worden gevonden: {roles}"
     },
     "status": {
         "poisoned": "Vergiftigd",

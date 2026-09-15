@@ -78,7 +78,9 @@
     "errors": {
         "translation_database_only": "Actualment només es poden traduir els guions carregats des de la base de dades.",
         "invalid_script_url": "Això no sembla l'URL d'un guió. Introduïu l'adreça web completa, començant per https://",
-        "token_distribution_failed": "No s'han pogut enviar les fitxes als dispositius dels jugadors. Comproveu la connexió i torneu-ho a provar."
+        "token_distribution_failed": "No s'han pogut enviar les fitxes als dispositius dels jugadors. Comproveu la connexió i torneu-ho a provar.",
+        "script_roles_failed": "No s'han pogut carregar els personatges d'aquest guió. Comproveu la connexió i torneu-ho a provar.",
+        "roles_not_found": "No s'han trobat aquests personatges: {roles}"
     },
     "status": {
         "poisoned": "Emmetzinat",

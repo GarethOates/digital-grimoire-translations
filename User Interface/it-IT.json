@@ -78,7 +78,9 @@
     "errors": {
         "translation_database_only": "Solo gli script caricati dal database possono essere tradotti al momento.",
         "invalid_script_url": "Non sembra l'URL di un copione. Inserisci l'indirizzo web completo, iniziando con https://",
-        "token_distribution_failed": "Impossibile inviare i gettoni ai dispositivi dei giocatori. Controlla la connessione e riprova."
+        "token_distribution_failed": "Impossibile inviare i gettoni ai dispositivi dei giocatori. Controlla la connessione e riprova.",
+        "script_roles_failed": "Impossibile caricare i personaggi di questo copione. Controlla la connessione e riprova.",
+        "roles_not_found": "Impossibile trovare questi personaggi: {roles}"
     },
     "status": {
         "poisoned": "Avvelenato",

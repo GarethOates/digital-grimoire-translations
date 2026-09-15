@@ -78,7 +78,9 @@
     "errors": {
         "translation_database_only": "Omlouváme se. V současné době lze překládat pouze skripty načtené z databáze.",
         "invalid_script_url": "To nevypadá jako URL skriptu. Zadejte celou webovou adresu začínající na https://",
-        "token_distribution_failed": "Nepodařilo se odeslat žetony do zařízení hráčů. Zkontrolujte připojení a zkuste to znovu."
+        "token_distribution_failed": "Nepodařilo se odeslat žetony do zařízení hráčů. Zkontrolujte připojení a zkuste to znovu.",
+        "script_roles_failed": "Nepodařilo se načíst postavy tohoto skriptu. Zkontrolujte připojení a zkuste to znovu.",
+        "roles_not_found": "Tyto postavy nebyly nalezeny: {roles}"
     },
     "status": {
         "poisoned": "Otrávený",

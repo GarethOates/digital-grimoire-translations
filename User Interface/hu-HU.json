@@ -78,7 +78,9 @@
     "errors": {
         "translation_database_only": "Sajnáljuk. Jelenleg csak az adatbázisból betöltött szkriptek fordítása lehetséges.",
         "invalid_script_url": "Ez nem tűnik szkript URL-nek. Add meg a teljes webcímet, ami https://-vel kezdődik.",
-        "token_distribution_failed": "Nem sikerült elküldeni a jelölőket a játékosok eszközeire. Ellenőrizd a kapcsolatot, és próbáld újra."
+        "token_distribution_failed": "Nem sikerült elküldeni a jelölőket a játékosok eszközeire. Ellenőrizd a kapcsolatot, és próbáld újra.",
+        "script_roles_failed": "Nem sikerült betölteni ennek a szkriptnek a karaktereit. Ellenőrizd a kapcsolatot, és próbáld újra.",
+        "roles_not_found": "Ezek a karakterek nem találhatók: {roles}"
     },
     "status": {
         "poisoned": "Mérgezett",

@@ -78,7 +78,9 @@
     "errors": {
         "translation_database_only": "Lo sentimos. Solo los guiones cargados desde la base de datos pueden traducirse en este momento.",
         "invalid_script_url": "Eso no parece una URL de guión. Introduce la dirección web completa, que empiece por https://",
-        "token_distribution_failed": "No se pudieron enviar las fichas a los dispositivos de los jugadores. Comprueba tu conexión e inténtalo de nuevo."
+        "token_distribution_failed": "No se pudieron enviar las fichas a los dispositivos de los jugadores. Comprueba tu conexión e inténtalo de nuevo.",
+        "script_roles_failed": "No se pudieron cargar los personajes de este guión. Comprueba tu conexión e inténtalo de nuevo.",
+        "roles_not_found": "No se pudieron encontrar estos personajes: {roles}"
     },
     "status": {
         "poisoned": "Envenenado",
