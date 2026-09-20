@@ -123,7 +123,10 @@
             "enter_fullscreen": "Schermo intero",
             "exit_fullscreen": "Esci da Schermo intero",
             "about": "Informazioni...",
-            "official_icons": "Icone ufficiali"
+            "official_icons": "Icone ufficiali",
+            "clocktracker_url": "URL di destinazione",
+            "clocktracker_url_help": "Le partite completate vengono inviate qui. Modifica questo campo solo se ospiti il tuo Clocktracker personale.",
+            "clocktracker_url_invalid": "Inserisci un indirizzo https:// completo."
         },
         "login": "Accesso",
         "mobile": {
@@ -412,7 +415,8 @@
             "sending": "Invio...",
             "success": "Partita esportata con successo su Clocktracker!",
             "error": "Impossibile esportare la partita su Clocktracker",
-            "player_order": "Ordine Giocatori"
+            "player_order": "Ordine Giocatori",
+            "custom_destination": "Questa partita, inclusi i nomi dei giocatori, verrà inviata a {host} — non a clocktracker.app. Invia solo a partita conclusa."
         },
         "edit_night_order": {
             "title": "Modifica ordine notturno"
@@ -567,7 +571,7 @@
         "assign": "Assegna",
         "auto_assign": "Assegna Automaticamente",
         "auto_assign_all": "Salta la Fase di Pesca",
-        "auto_assign_all_confirm": "Ogni posto ancora senza ruolo verrà riempito ora — i ruoli già assegnati restano invariati, gli altri saranno casuali.",
+        "auto_assign_all_confirm": "Ogni posto ancora senza ruolo verrà riempito ora. I ruoli già assegnati restano invariati, gli altri saranno casuali.",
         "no_players_connected": "Nessun giocatore connesso",
         "no_tokens_available": "Nessun gettone disponibile",
         "distribute_to_devices": "Distribuisci ai dispositivi",

@@ -123,7 +123,10 @@
             "enter_fullscreen": "Teljes képernyő",
             "exit_fullscreen": "Teljes képernyő bezárása",
             "about": "Névjegy...",
-            "official_icons": "Hivatalos ikonok"
+            "official_icons": "Hivatalos ikonok",
+            "clocktracker_url": "Cél URL",
+            "clocktracker_url_help": "A befejezett játékok ide kerülnek elküldésre. Csak akkor módosítsd, ha saját Clocktrackert üzemeltetsz.",
+            "clocktracker_url_invalid": "Add meg a teljes https:// címet."
         },
         "login": "Belépés",
         "mobile": {
@@ -412,7 +415,8 @@
             "sending": "Küldés...",
             "success": "A játék sikeresen exportálva a Clocktrackerre!",
             "error": "Nem sikerült exportálni a játékot a Clocktrackerre",
-            "player_order": "Játékos sorrend"
+            "player_order": "Játékos sorrend",
+            "custom_destination": "Ez a játék, beleértve a játékosok neveit is, a következő címre lesz elküldve: {host} — nem a clocktracker.app oldalra. Kérjük, csak a játék befejezése után küldd el."
         },
         "edit_night_order": {
             "title": "Éjszakai sorrend módosítása"
@@ -567,7 +571,7 @@
         "assign": "Hozzárendel",
         "auto_assign": "Automatikus hozzárendelés",
         "auto_assign_all": "Húzási szakasz kihagyása",
-        "auto_assign_all_confirm": "Minden ülőhely, amelyhez még nincs karakter rendelve, most megtelik — a már hozzárendelt karakterek megmaradnak, a többi véletlenszerű lesz.",
+        "auto_assign_all_confirm": "Minden ülőhely, amelyhez még nincs karakter rendelve, most megtelik. A már hozzárendelt karakterek megmaradnak, a többi véletlenszerű lesz.",
         "no_players_connected": "Nincs csatlakozott játékos",
         "no_tokens_available": "Nincsenek jelölők",
         "distribute_to_devices": "Kiosztás az eszközökre",

@@ -123,7 +123,10 @@
             "enter_fullscreen": "Enter Fullscreen",
             "exit_fullscreen": "Exit Fullscreen",
             "about": "About...",
-            "official_icons": "Official Icons"
+            "official_icons": "Official Icons",
+            "clocktracker_url": "Destination URL",
+            "clocktracker_url_help": "Completed games are sent here. Only change this if you host your own Clocktracker.",
+            "clocktracker_url_invalid": "Enter a full https:// address."
         },
         "login": "Login",
         "mobile": {
@@ -412,7 +415,8 @@
             "sending": "Sending...",
             "success": "Game exported successfully to Clocktracker!",
             "error": "Failed to export game to Clocktracker",
-            "player_order": "Player Order"
+            "player_order": "Player Order",
+            "custom_destination": "This game, including player names, will be sent to {host} — not to clocktracker.app. Please only send once the game is finished."
         },
         "edit_night_order": {
             "title": "Edit Night Order"
@@ -567,7 +571,7 @@
         "assign": "Assign",
         "auto_assign": "Auto Assign",
         "auto_assign_all": "Skip Draw Phase",
-        "auto_assign_all_confirm": "Every seat still without a role will be filled now — reserved roles are kept, the rest are random.",
+        "auto_assign_all_confirm": "Every seat still without a role will be filled now. Reserved roles are kept, the rest are random.",
         "no_players_connected": "No players connected",
         "no_tokens_available": "No tokens available",
         "distribute_to_devices": "Distribute to Devices",

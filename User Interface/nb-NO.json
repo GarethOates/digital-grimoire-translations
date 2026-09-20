@@ -99,7 +99,10 @@
             "enter_fullscreen": "Gå til fullskjerm",
             "exit_fullscreen": "Avslutt fullskjerm",
             "about": "Om...",
-            "official_icons": "Offisielle ikoner"
+            "official_icons": "Offisielle ikoner",
+            "clocktracker_url": "Mål-URL",
+            "clocktracker_url_help": "Fullførte spill sendes hit. Endre dette bare hvis du er vert for din egen Clocktracker.",
+            "clocktracker_url_invalid": "Skriv inn en fullstendig https://-adresse."
         },
         "login": "Logg inn",
         "mobile": {
@@ -388,7 +391,8 @@
             "sending": "Sender...",
             "success": "Spillet ble eksportert til Clocktracker!",
             "error": "Kunne ikke eksportere spillet til Clocktracker",
-            "player_order": "Spillerrekkefølge"
+            "player_order": "Spillerrekkefølge",
+            "custom_destination": "Dette spillet, inkludert spillernavn, vil bli sendt til {host} — ikke til clocktracker.app. Vennligst send det først når spillet er ferdig."
         },
         "edit_night_order": {
             "title": "Rediger nattrekkefølge"
@@ -567,7 +571,7 @@
         "assign": "Tildel",
         "auto_assign": "Tildel automatisk",
         "auto_assign_all": "Hopp over trekkefasen",
-        "auto_assign_all_confirm": "Hvert sete som fortsatt mangler en rolle, blir fylt nå — allerede tildelte roller beholdes, resten blir tilfeldige.",
+        "auto_assign_all_confirm": "Hvert sete som fortsatt mangler en rolle, blir fylt nå. Allerede tildelte roller beholdes, resten blir tilfeldige.",
         "no_players_connected": "Ingen spillere er koblet til",
         "no_tokens_available": "Ingen brikker tilgjengelig",
         "distribute_to_devices": "Distribuer til enheter",

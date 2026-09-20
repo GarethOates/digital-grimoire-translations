@@ -99,7 +99,10 @@
             "enter_fullscreen": "Passer en plein écran",
             "exit_fullscreen": "Quitter le plein écran",
             "about": "À propos...",
-            "official_icons": "Icônes officielles"
+            "official_icons": "Icônes officielles",
+            "clocktracker_url": "URL de destination",
+            "clocktracker_url_help": "Les parties terminées sont envoyées ici. Ne modifiez ceci que si vous hébergez votre propre Clocktracker.",
+            "clocktracker_url_invalid": "Entrez une adresse https:// complète."
         },
         "login": "Connexion",
         "mobile": {
@@ -388,7 +391,8 @@
             "sending": "Envoi en cours...",
             "success": "Partie exportée avec succès vers Clocktracker !",
             "error": "Échec de l'export de la partie vers Clocktracker",
-            "player_order": "Ordre des joueurs"
+            "player_order": "Ordre des joueurs",
+            "custom_destination": "Cette partie, y compris les noms des joueurs, sera envoyée à {host} — et non à clocktracker.app. Veuillez l'envoyer seulement une fois la partie terminée."
         },
         "edit_night_order": {
             "title": "Modifier l'ordre de nuit"
@@ -567,7 +571,7 @@
         "assign": "Attribuer",
         "auto_assign": "Attribuer automatiquement",
         "auto_assign_all": "Passer la phase de tirage",
-        "auto_assign_all_confirm": "Toute place encore sans rôle sera pourvue maintenant — les rôles déjà attribués sont conservés, le reste est aléatoire.",
+        "auto_assign_all_confirm": "Toute place encore sans rôle sera pourvue maintenant. Les rôles déjà attribués sont conservés, le reste est aléatoire.",
         "no_players_connected": "Aucun joueur connecté",
         "no_tokens_available": "Aucun jeton disponible",
         "distribute_to_devices": "Distribuer aux appareils",

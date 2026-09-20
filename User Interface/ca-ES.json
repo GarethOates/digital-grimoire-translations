@@ -123,7 +123,10 @@
             "enter_fullscreen": "Entra en pantalla completa",
             "exit_fullscreen": "Surt de la pantalla completa",
             "about": "Quant a…",
-            "official_icons": "Icones oficials"
+            "official_icons": "Icones oficials",
+            "clocktracker_url": "URL de destinació",
+            "clocktracker_url_help": "Les partides completades s'envien aquí. Canvia-ho només si allotges el teu propi Clocktracker.",
+            "clocktracker_url_invalid": "Introduïu una adreça https:// completa."
         },
         "login": "Inicia la sessió",
         "mobile": {
@@ -412,7 +415,8 @@
             "sending": "S’està enviant…",
             "success": "S’ha exportat la partida correctament a Clocktracker.",
             "error": "No s’ha pogut exportar la partida a Clocktracker",
-            "player_order": "Ordre dels jugadors"
+            "player_order": "Ordre dels jugadors",
+            "custom_destination": "Aquesta partida, inclosos els noms dels jugadors, s’enviarà a {host} — no a clocktracker.app. Envieu-la només quan la partida hagi acabat."
         },
         "edit_night_order": {
             "title": "Edita l’ordre nocturn"
@@ -567,7 +571,7 @@
         "assign": "Assigna",
         "auto_assign": "Assigna automàticament",
         "auto_assign_all": "Omet la fase d'extracció",
-        "auto_assign_all_confirm": "Cada seient que encara no tingui rol s'omplirà ara — els rols ja assignats es mantenen, la resta seran a l'atzar.",
+        "auto_assign_all_confirm": "Cada seient que encara no tingui rol s'omplirà ara. Els rols ja assignats es mantenen, la resta seran a l'atzar.",
         "no_players_connected": "No hi ha cap jugador connectat",
         "no_tokens_available": "No hi ha cap fitxa disponible",
         "distribute_to_devices": "Distribueix les fitxes als dispositius",

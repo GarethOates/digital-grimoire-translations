@@ -123,7 +123,10 @@
             "enter_fullscreen": "Režim celé obrazovky",
             "exit_fullscreen": "Ukončit režim celé obrazovky",
             "about": "O aplikaci...",
-            "official_icons": "Oficiální ikony"
+            "official_icons": "Oficiální ikony",
+            "clocktracker_url": "Cílová URL",
+            "clocktracker_url_help": "Dokončené hry se odesílají sem. Změňte to pouze v případě, že hostujete vlastní Clocktracker.",
+            "clocktracker_url_invalid": "Zadejte úplnou adresu https://."
         },
         "login": "Přihlásit se",
         "mobile": {
@@ -412,7 +415,8 @@
             "sending": "Odesílání...",
             "success": "Hra byla úspěšně exportována do Clocktrackeru!",
             "error": "Export hry do Clocktrackeru se nezdařil",
-            "player_order": "Pořadí hráčů"
+            "player_order": "Pořadí hráčů",
+            "custom_destination": "Tato hra, včetně jmen hráčů, bude odeslána na {host} — nikoli na clocktracker.app. Odešlete ji prosím až po skončení hry."
         },
         "edit_night_order": {
             "title": "Upravit pořadí v noci"
@@ -567,7 +571,7 @@
         "assign": "Přiřadit",
         "auto_assign": "Automatické přiřazení",
         "auto_assign_all": "Přeskočit losování",
-        "auto_assign_all_confirm": "Každé místo, které ještě nemá roli, se nyní obsadí — již přiřazené role zůstanou zachovány, ostatní budou náhodné.",
+        "auto_assign_all_confirm": "Každé místo, které ještě nemá roli, se nyní obsadí. Již přiřazené role zůstanou zachovány, ostatní budou náhodné.",
         "no_players_connected": "Žádní připojení hráči",
         "no_tokens_available": "Žádné žetony k dispozici",
         "distribute_to_devices": "Rozdat do zařízení",

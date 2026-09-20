@@ -123,7 +123,10 @@
             "enter_fullscreen": "Volledig scherm",
             "exit_fullscreen": "Volledig scherm verlaten",
             "about": "Over...",
-            "official_icons": "Officiële Iconen"
+            "official_icons": "Officiële Iconen",
+            "clocktracker_url": "Bestemmings-URL",
+            "clocktracker_url_help": "Voltooide spellen worden hierheen gestuurd. Wijzig dit alleen als je je eigen Clocktracker host.",
+            "clocktracker_url_invalid": "Voer een volledig https://-adres in."
         },
         "login": "Inloggen",
         "mobile": {
@@ -412,7 +415,8 @@
             "sending": "Verzenden...",
             "success": "Spel succesvol geëxporteerd naar Clocktracker!",
             "error": "Exporteren naar Clocktracker mislukt",
-            "player_order": "Spelersvolgorde"
+            "player_order": "Spelersvolgorde",
+            "custom_destination": "Dit spel, inclusief spelersnamen, wordt verzonden naar {host} — niet naar clocktracker.app. Verstuur dit alleen wanneer het spel is afgelopen."
         },
         "edit_night_order": {
             "title": "Nachtvolgorde bewerken"
@@ -567,7 +571,7 @@
         "assign": "Toewijzen",
         "auto_assign": "Automatisch toewijzen",
         "auto_assign_all": "Trekfase overslaan",
-        "auto_assign_all_confirm": "Elke plaats die nog geen rol heeft, wordt nu gevuld — al toegewezen rollen blijven behouden, de rest wordt willekeurig.",
+        "auto_assign_all_confirm": "Elke plaats die nog geen rol heeft, wordt nu gevuld. Al toegewezen rollen blijven behouden, de rest wordt willekeurig.",
         "no_players_connected": "Geen spelers verbonden",
         "no_tokens_available": "Geen tokens beschikbaar",
         "distribute_to_devices": "Naar apparaten distribueren",

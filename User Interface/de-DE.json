@@ -123,7 +123,10 @@
             "enter_fullscreen": "Vollbildmodus aktivieren",
             "exit_fullscreen": "Vollbildmodus beenden",
             "about": "Über...",
-            "official_icons": "Offizielle Symbole"
+            "official_icons": "Offizielle Symbole",
+            "clocktracker_url": "Ziel-URL",
+            "clocktracker_url_help": "Abgeschlossene Spiele werden hierher gesendet. Ändern Sie dies nur, wenn Sie Ihren eigenen Clocktracker hosten.",
+            "clocktracker_url_invalid": "Geben Sie eine vollständige https://-Adresse ein."
         },
         "login": "Anmelden",
         "mobile": {
@@ -412,7 +415,8 @@
             "sending": "Wird gesendet...",
             "success": "Spiel erfolgreich an Clocktracker exportiert!",
             "error": "Export an Clocktracker fehlgeschlagen",
-            "player_order": "Spielerreihenfolge"
+            "player_order": "Spielerreihenfolge",
+            "custom_destination": "Dieses Spiel, einschließlich der Spielernamen, wird an {host} gesendet — nicht an clocktracker.app. Bitte senden Sie es erst, wenn das Spiel beendet ist."
         },
         "edit_night_order": {
             "title": "Nachtreihenfolge bearbeiten"
@@ -567,7 +571,7 @@
         "assign": "Zuweisen",
         "auto_assign": "Automatisch zuweisen",
         "auto_assign_all": "Ziehphase überspringen",
-        "auto_assign_all_confirm": "Jeder noch leere Platz wird jetzt besetzt — bereits zugewiesene Rollen bleiben erhalten, der Rest wird zufällig vergeben.",
+        "auto_assign_all_confirm": "Jeder noch leere Platz wird jetzt besetzt. Bereits zugewiesene Rollen bleiben erhalten, der Rest wird zufällig vergeben.",
         "no_players_connected": "Keine Spieler verbunden",
         "no_tokens_available": "Keine Token verfügbar",
         "distribute_to_devices": "An Geräte verteilen",

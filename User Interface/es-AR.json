@@ -123,7 +123,10 @@
             "enter_fullscreen": "Abrir pantalla completa",
             "exit_fullscreen": "Cerrar pantalla completa",
             "about": "Sobre...",
-            "official_icons": "Iconos oficiales"
+            "official_icons": "Iconos oficiales",
+            "clocktracker_url": "URL de destino",
+            "clocktracker_url_help": "Las partidas terminadas se mandan acá. Cambiá esto solo si hospedás tu propio Clocktracker.",
+            "clocktracker_url_invalid": "Ingresá una dirección https:// completa."
         },
         "login": "Ingresar",
         "mobile": {
@@ -412,7 +415,8 @@
             "sending": "Mandando...",
             "success": "¡Se exportó la partida a Clocktracker correctamente!",
             "error": "No se logró exportar la partida a Clocktracker",
-            "player_order": "Orden de jugadores"
+            "player_order": "Orden de jugadores",
+            "custom_destination": "Esta partida, incluyendo los nombres de los jugadores, se va a mandar a {host} — no a clocktracker.app. Por favor, mandala solo una vez que la partida haya terminado."
         },
         "edit_night_order": {
             "title": "Editar orden nocturno"
@@ -567,7 +571,7 @@
         "assign": "Asignar",
         "auto_assign": "Asignar automáticamente",
         "auto_assign_all": "Omitir fase de sorteo",
-        "auto_assign_all_confirm": "Todos los asientos que aún no tienen rol se llenarán ahora — los roles ya asignados se mantienen, el resto será aleatorio.",
+        "auto_assign_all_confirm": "Todos los asientos que aún no tienen rol se llenarán ahora. Los roles ya asignados se mantienen, el resto será aleatorio.",
         "no_players_connected": "No hay jugadores conectados",
         "no_tokens_available": "No hay fichas disponibles",
         "distribute_to_devices": "Repartir a dispositivos",
