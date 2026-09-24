@@ -2681,6 +2681,16 @@
         "flavor": ""
     },
     {
+        "id": "knaves",
+        "reminders": [],
+        "setup": false,
+        "name": "Pícaros",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Hay 2 Narradores: uno miente y otro dice la verdad. Una vez por partida, al atardecer, podrían intercambiarse.",
+        "flavor": "Every wall is a door. Every meal is a feast."
+    },
+    {
         "id": "pope",
         "name": "Pope",
         "team": "loric",
@@ -2825,6 +2835,29 @@
         "setup": false,
         "ability": "El Narrador decide el personaje de 1 o más jugadores.",
         "special": null
+    },
+    {
+        "id": "godofug",
+        "reminders": [
+            "Sombrero"
+        ],
+        "setup": false,
+        "name": "Dios de Ug",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Un sombrero Ug. Cuando llevar sombrero Ug, debés hablar un sonido cada vez, pero votás dos veces. Si fallar, pasar sombrero Ug.",
+        "flavor": "Blessed are my children, for they see the beauty in simple things.",
+        "special": [
+            {
+                "type": "vote",
+                "name": "multiplier",
+                "value": 2
+            },
+            {
+                "type": "reminder",
+                "name": "public"
+            }
+        ]
     },
     {
         "id": "hellslibrarian",

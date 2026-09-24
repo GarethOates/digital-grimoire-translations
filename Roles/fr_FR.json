@@ -2683,6 +2683,16 @@
         "flavor": ""
     },
     {
+        "id": "knaves",
+        "reminders": [],
+        "setup": false,
+        "name": "Fripons",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Il y a 2 Conteurs : l'un ment et l'autre dit la vérité. Une fois par partie, au crépuscule, ils pourraient échanger leurs rôles.",
+        "flavor": "Chaque mur est une porte. Chaque repas est un festin."
+    },
+    {
         "id": "pope",
         "name": "Pope",
         "team": "loric",
@@ -2827,6 +2837,29 @@
         "setup": false,
         "ability": "The Storyteller assigns 1 or more players' characters.",
         "flavor": null
+    },
+    {
+        "id": "godofug",
+        "reminders": [
+            "Chapeau"
+        ],
+        "setup": false,
+        "name": "Dieu d'Ug",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Un chapeau Ug. Quand porter chapeau Ug, devoir parler un son à la fois, mais voter deux fois. Si échouer, passer chapeau Ug.",
+        "flavor": "Bénis soient mes enfants, car ils voient la beauté dans les choses simples.",
+        "special": [
+            {
+                "type": "vote",
+                "name": "multiplier",
+                "value": 2
+            },
+            {
+                "type": "reminder",
+                "name": "public"
+            }
+        ]
     },
     {
         "id": "hellslibrarian",

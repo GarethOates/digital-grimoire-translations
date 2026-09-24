@@ -3315,6 +3315,16 @@
         "flavor": ""
     },
     {
+        "id": "knaves",
+        "reminders": [],
+        "setup": false,
+        "name": "Мошеници",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Има 2 Разказвачи: единият лъже, а другият казва истината. Веднъж в играта, по здрач, те може да се разменят.",
+        "flavor": "Всяка стена е врата. Всяко ядене е пир."
+    },
+    {
         "id": "pope",
         "name": "Папа",
         "team": "loric",
@@ -3464,6 +3474,29 @@
             }
         ],
         "flavor": "Oh now, this won't do. We've got the monkshood mixed in with the wolfsbane and the hemlock is smothering the hellebore! Oh dear me, we'd better start over. Fetch my shears."
+    },
+    {
+        "id": "godofug",
+        "reminders": [
+            "Шапка"
+        ],
+        "setup": false,
+        "name": "Богът на Уг",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Една шапка на Уг. Когато носиш шапка на Уг, говориш само по един звук, но гласуваш два пъти. Ако сбъркаш, даваш шапка на Уг.",
+        "flavor": "Благословени са децата ми, защото виждат красотата в простите неща.",
+        "special": [
+            {
+                "type": "vote",
+                "name": "multiplier",
+                "value": 2
+            },
+            {
+                "type": "reminder",
+                "name": "public"
+            }
+        ]
     },
     {
         "id": "hellslibrarian",

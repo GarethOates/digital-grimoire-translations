@@ -2681,6 +2681,16 @@
         "flavor": ""
     },
     {
+        "id": "knaves",
+        "reminders": [],
+        "setup": false,
+        "name": "Шахраї",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Є 2 Оповідачі: один бреше, а інший каже правду. Раз за гру, в сутінках, вони можуть помінятися.",
+        "flavor": "Every wall is a door. Every meal is a feast."
+    },
+    {
         "id": "pope",
         "name": "Понтифік",
         "team": "loric",
@@ -2825,6 +2835,29 @@
         "setup": false,
         "ability": "The Storyteller assigns 1 or more players' characters.",
         "special": null
+    },
+    {
+        "id": "godofug",
+        "reminders": [
+            "Капелюх"
+        ],
+        "setup": false,
+        "name": "Бог Уг",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Один капелюх Уг. Коли носити капелюх Уг, говорити лише один звук за раз, але голосувати двічі. Якщо схибити — передати капелюх Уг.",
+        "flavor": "Blessed are my children, for they see the beauty in simple things.",
+        "special": [
+            {
+                "type": "vote",
+                "name": "multiplier",
+                "value": 2
+            },
+            {
+                "type": "reminder",
+                "name": "public"
+            }
+        ]
     },
     {
         "id": "hellslibrarian",

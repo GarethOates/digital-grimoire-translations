@@ -2682,6 +2682,16 @@
         "flavor": ""
     },
     {
+        "id": "knaves",
+        "reminders": [],
+        "setup": false,
+        "name": "Düzenbazlar",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "2 Hikaye Anlatıcısı var: biri yalan söyler, biri doğruyu söyler. Oyunda bir kez, gün batımında, yer değiştirebilirler.",
+        "flavor": "Every wall is a door. Every meal is a feast."
+    },
+    {
         "id": "pope",
         "name": "Pope",
         "team": "loric",
@@ -2826,6 +2836,29 @@
         "setup": false,
         "ability": "The Storyteller assigns 1 or more players' characters.",
         "special": null
+    },
+    {
+        "id": "godofug",
+        "reminders": [
+            "Şapka"
+        ],
+        "setup": false,
+        "name": "Ug Tanrısı",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Bir Ug şapkası. Ug şapkası takınca, tek seferde tek ses konuşmak, ama iki kez oy vermek. Başaramazsa, Ug şapkası devretmek.",
+        "flavor": "Blessed are my children, for they see the beauty in simple things.",
+        "special": [
+            {
+                "type": "vote",
+                "name": "multiplier",
+                "value": 2
+            },
+            {
+                "type": "reminder",
+                "name": "public"
+            }
+        ]
     },
     {
         "id": "hellslibrarian",

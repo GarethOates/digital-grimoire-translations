@@ -2682,6 +2682,16 @@
         "flavor": ""
     },
     {
+        "id": "knaves",
+        "reminders": [],
+        "setup": false,
+        "name": "Patifes",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Há 2 Narradores: um mente e o outro diz a verdade. Uma vez por jogo, ao anoitecer, eles podem trocar.",
+        "flavor": "Every wall is a door. Every meal is a feast."
+    },
+    {
         "id": "pope",
         "name": "Pope",
         "team": "loric",
@@ -2826,6 +2836,29 @@
         "setup": false,
         "ability": "O Narrador escolhe os personagens de 1 ou mais jogadores.",
         "special": null
+    },
+    {
+        "id": "godofug",
+        "reminders": [
+            "Chapéu"
+        ],
+        "setup": false,
+        "name": "Deus de Ug",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Um chapéu Ug. Quando usar chapéu Ug, dever falar um som por vez, mas votar duas vezes. Se falhar, passar chapéu Ug.",
+        "flavor": "Blessed are my children, for they see the beauty in simple things.",
+        "special": [
+            {
+                "type": "vote",
+                "name": "multiplier",
+                "value": 2
+            },
+            {
+                "type": "reminder",
+                "name": "public"
+            }
+        ]
     },
     {
         "id": "hellslibrarian",

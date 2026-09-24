@@ -2682,6 +2682,16 @@
         "flavor": ""
     },
     {
+        "id": "knaves",
+        "reminders": [],
+        "setup": false,
+        "name": "Skojarna",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Det finns 2 Berättare: en ljuger & en talar sanning. En gång per spel, i skymningen, kan de byta.",
+        "flavor": "Every wall is a door. Every meal is a feast."
+    },
+    {
         "id": "pope",
         "name": "Pope",
         "team": "loric",
@@ -2826,6 +2836,29 @@
         "setup": false,
         "ability": "Berättaren bestämmer 1 eller flera spelares karaktär.",
         "special": null
+    },
+    {
+        "id": "godofug",
+        "reminders": [
+            "Hatt"
+        ],
+        "setup": false,
+        "name": "Ugs gud",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "En Ug-hatt. När ha på Ug-hatt, måste prata ett ljud i taget, men rösta två gånger. Om misslyckas, lämna över Ug-hatt.",
+        "flavor": "Blessed are my children, for they see the beauty in simple things.",
+        "special": [
+            {
+                "type": "vote",
+                "name": "multiplier",
+                "value": 2
+            },
+            {
+                "type": "reminder",
+                "name": "public"
+            }
+        ]
     },
     {
         "id": "hellslibrarian",

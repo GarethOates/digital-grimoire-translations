@@ -2682,6 +2682,16 @@
         "flavor": ""
     },
     {
+        "id": "knaves",
+        "reminders": [],
+        "setup": false,
+        "name": "พวกเจ้าเล่ห์",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "มีนักเล่าเรื่อง 2 คน: คนหนึ่งโกหก อีกคนพูดความจริง (ใช้ได้ครั้งเดียว) ในตอนหัวค่ำ พวกเขาอาจสลับกัน",
+        "flavor": "Every wall is a door. Every meal is a feast."
+    },
+    {
         "id": "pope",
         "name": "Pope",
         "team": "loric",
@@ -2826,6 +2836,29 @@
         "setup": false,
         "ability": "The Storyteller assigns 1 or more players' characters.",
         "special": null
+    },
+    {
+        "id": "godofug",
+        "reminders": [
+            "หมวก"
+        ],
+        "setup": false,
+        "name": "เทพแห่งอุก",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "หมวกอุกหนึ่งใบ ใส่หมวกอุก ต้องพูดทีละเสียง แต่โหวตได้สองครั้ง ถ้าพลาด ส่งหมวกอุกต่อ",
+        "flavor": "Blessed are my children, for they see the beauty in simple things.",
+        "special": [
+            {
+                "type": "vote",
+                "name": "multiplier",
+                "value": 2
+            },
+            {
+                "type": "reminder",
+                "name": "public"
+            }
+        ]
     },
     {
         "id": "hellslibrarian",

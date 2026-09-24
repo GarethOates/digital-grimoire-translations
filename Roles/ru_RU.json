@@ -2676,6 +2676,16 @@
         "flavor": ""
     },
     {
+        "id": "knaves",
+        "reminders": [],
+        "setup": false,
+        "name": "Плуты",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Рассказчиков двое: один лжёт, другой говорит правду. Один раз за игру, на закате, они могут поменяться.",
+        "flavor": "Every wall is a door. Every meal is a feast."
+    },
+    {
         "id": "pope",
         "name": "Pope",
         "team": "loric",
@@ -2820,6 +2830,29 @@
         "setup": false,
         "ability": "Рассказчик сам назначает роль одному или более игрокам.",
         "special": null
+    },
+    {
+        "id": "godofug",
+        "reminders": [
+            "Шапка"
+        ],
+        "setup": false,
+        "name": "Бог Уг",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Одна шапка Уг. Когда носить шапка Уг, говорить только один звук за раз, но голосовать дважды. Если ошибка — отдать шапка Уг.",
+        "flavor": "Blessed are my children, for they see the beauty in simple things.",
+        "special": [
+            {
+                "type": "vote",
+                "name": "multiplier",
+                "value": 2
+            },
+            {
+                "type": "reminder",
+                "name": "public"
+            }
+        ]
     },
     {
         "id": "hellslibrarian",

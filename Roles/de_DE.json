@@ -2676,6 +2676,16 @@
         "flavor": ""
     },
     {
+        "id": "knaves",
+        "reminders": [],
+        "setup": false,
+        "name": "Schurken",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Es gibt 2 Spielleiter: Einer lügt & einer sagt die Wahrheit. Einmal im Spiel, bei Einbruch der Dämmerung, könnten sie tauschen.",
+        "flavor": "Every wall is a door. Every meal is a feast."
+    },
+    {
         "id": "pope",
         "name": "Pope",
         "team": "loric",
@@ -2820,6 +2830,29 @@
         "setup": false,
         "ability": "The Storyteller assigns 1 or more players' characters.",
         "special": null
+    },
+    {
+        "id": "godofug",
+        "reminders": [
+            "Hut"
+        ],
+        "setup": false,
+        "name": "Gott von Ug",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Ein Ug-Hut. Wenn tragen Ug-Hut, nur ein Laut auf einmal sprechen, aber zweimal abstimmen. Wenn scheitern, Ug-Hut weitergeben.",
+        "flavor": "Blessed are my children, for they see the beauty in simple things.",
+        "special": [
+            {
+                "type": "vote",
+                "name": "multiplier",
+                "value": 2
+            },
+            {
+                "type": "reminder",
+                "name": "public"
+            }
+        ]
     },
     {
         "id": "hellslibrarian",

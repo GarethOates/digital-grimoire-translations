@@ -2676,6 +2676,16 @@
         "flavor": ""
     },
     {
+        "id": "knaves",
+        "reminders": [],
+        "setup": false,
+        "name": "Knaves",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Ada 2 Storyteller: satu berbohong & satu berkata jujur. Sekali per permainan, saat senja, mereka mungkin bertukar.",
+        "flavor": "Every wall is a door. Every meal is a feast."
+    },
+    {
         "id": "pope",
         "name": "Pope",
         "team": "loric",
@@ -2820,6 +2830,29 @@
         "setup": false,
         "ability": "Storyteller menetapkan 1 atau lebih karakter pemain..",
         "special": null
+    },
+    {
+        "id": "godofug",
+        "reminders": [
+            "Topi"
+        ],
+        "setup": false,
+        "name": "God of Ug",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Satu topi Ug. Saat pakai topi Ug, harus bicara satu bunyi sekali waktu, tapi memberi suara dua kali. Jika gagal, oper topi Ug.",
+        "flavor": "Blessed are my children, for they see the beauty in simple things.",
+        "special": [
+            {
+                "type": "vote",
+                "name": "multiplier",
+                "value": 2
+            },
+            {
+                "type": "reminder",
+                "name": "public"
+            }
+        ]
     },
     {
         "id": "hellslibrarian",
