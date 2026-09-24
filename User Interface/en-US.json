@@ -71,7 +71,6 @@
         "reminder": "Reminder",
         "faq": "FAQ",
         "discord": "Discord",
-        "notify": "Notify",
         "away": "Away",
         "scan_to_join": "Scan to join",
         "retry": "Try again"
@@ -345,9 +344,10 @@
             "notes_for": "Notes for {player}",
             "save_notes": "Save Notes",
             "gain_ability": "Gain Ability",
-            "notify_nominated": "When nominated",
-            "notify_nominates": "When nominating",
-            "notify_marked_dead": "When marked dead",
+            "notify_when": "Notify When",
+            "notify_nominated": "Nominated",
+            "notify_nominates": "Nominating",
+            "notify_marked_dead": "Dead",
             "notify_note": "Note to show with the alert",
             "notify_recurring": "Alert every time"
         },

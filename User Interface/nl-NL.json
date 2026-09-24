@@ -72,7 +72,6 @@
         "reminder": "Herinnering",
         "faq": "FAQ",
         "discord": "Discord",
-        "notify": "Melden",
         "away": "Afwezig",
         "retry": "Probeer het opnieuw"
     },
@@ -345,9 +344,10 @@
             "notes_for": "Notities voor {player}",
             "save_notes": "Notities opslaan",
             "gain_ability": "Vermogen verkrijgen",
-            "notify_nominated": "Wanneer genomineerd",
-            "notify_nominates": "Bij het nomineren",
-            "notify_marked_dead": "Wanneer gemarkeerd als dood",
+            "notify_when": "Melden wanneer",
+            "notify_nominated": "Genomineerd",
+            "notify_nominates": "Nominerend",
+            "notify_marked_dead": "Dood",
             "notify_note": "Notitie voor de melding",
             "notify_recurring": "Telkens melden"
         },

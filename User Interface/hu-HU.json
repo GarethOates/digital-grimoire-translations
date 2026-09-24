@@ -72,7 +72,6 @@
         "reminder": "Emlékeztető",
         "faq": "GYIK",
         "discord": "Discord",
-        "notify": "Értesítés",
         "away": "Távol",
         "retry": "Próbáld újra"
     },
@@ -345,9 +344,10 @@
             "notes_for": "{player} jegyzetei",
             "save_notes": "Jegyzetek mentése",
             "gain_ability": "Képesség szerzése",
-            "notify_nominated": "Amikor meggyanúsítják",
-            "notify_nominates": "Amikor gyanúsít",
-            "notify_marked_dead": "Amikor halottnak jelölik",
+            "notify_when": "Értesíts, amikor",
+            "notify_nominated": "Meggyanúsítva",
+            "notify_nominates": "Gyanúsító",
+            "notify_marked_dead": "Halott",
             "notify_note": "Jegyzet az értesítéshez",
             "notify_recurring": "Értesítés minden alkalommal"
         },

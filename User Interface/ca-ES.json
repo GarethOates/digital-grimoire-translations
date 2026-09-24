@@ -72,7 +72,6 @@
         "reminder": "Recordatori",
         "faq": "Preguntes més freqüents",
         "discord": "Discord",
-        "notify": "Notifica",
         "away": "Absent",
         "retry": "Torneu-ho a provar"
     },
@@ -345,9 +344,10 @@
             "notes_for": "Notes de {player}",
             "save_notes": "Desa les notes",
             "gain_ability": "Obtén l’habilitat",
-            "notify_nominated": "En ser acusat",
-            "notify_nominates": "En acusar",
-            "notify_marked_dead": "En ser marcat com a mort",
+            "notify_when": "Notifica quan",
+            "notify_nominated": "Acusat",
+            "notify_nominates": "Acusant",
+            "notify_marked_dead": "Mort",
             "notify_note": "Nota per a la notificació",
             "notify_recurring": "Notifica cada vegada"
         },

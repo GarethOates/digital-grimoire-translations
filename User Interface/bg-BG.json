@@ -72,7 +72,6 @@
         "reminder": "Напомняне",
         "faq": "ЧЗВ",
         "discord": "Discord",
-        "notify": "Уведоми",
         "away": "Отсъстващ",
         "retry": "Опитай отново"
     },
@@ -345,9 +344,10 @@
             "notes_for": "Бележки за {player}",
             "save_notes": "Запази бележката",
             "gain_ability": "Добави умението",
-            "notify_nominated": "Когато е номиниран",
-            "notify_nominates": "Когато номинира",
-            "notify_marked_dead": "Когато е отбелязан като мъртъв",
+            "notify_when": "Уведоми, когато",
+            "notify_nominated": "Номиниран",
+            "notify_nominates": "Номинира",
+            "notify_marked_dead": "Мъртъв",
             "notify_note": "Бележка за известието",
             "notify_recurring": "Уведомявай всеки път"
         },

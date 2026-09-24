@@ -72,7 +72,6 @@
         "reminder": "Připomínka",
         "faq": "FAQ",
         "discord": "Discord",
-        "notify": "Upozornit",
         "away": "Pryč",
         "retry": "Zkuste to znovu"
     },
@@ -345,9 +344,10 @@
             "notes_for": "Poznámky pro {player}",
             "save_notes": "Uložit poznámky",
             "gain_ability": "Získat schopnost",
-            "notify_nominated": "Když nominován",
-            "notify_nominates": "Při nominování",
-            "notify_marked_dead": "Když označen jako mrtvý",
+            "notify_when": "Upozornit, když",
+            "notify_nominated": "Nominován",
+            "notify_nominates": "Nominující",
+            "notify_marked_dead": "Mrtvý",
             "notify_note": "Poznámka k upozornění",
             "notify_recurring": "Upozornit pokaždé"
         },

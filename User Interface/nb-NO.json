@@ -72,7 +72,6 @@
         "reminder": "Påminnelse",
         "faq": "FAQ",
         "discord": "Discord",
-        "notify": "Varsle",
         "away": "Borte",
         "retry": "Prøv igjen"
     },
@@ -321,9 +320,10 @@
             "notes_for": "Notater for {player}",
             "save_notes": "Lagre notater",
             "gain_ability": "Få evne",
-            "notify_nominated": "Når nominert",
-            "notify_nominates": "Ved nominasjon",
-            "notify_marked_dead": "Når merket død",
+            "notify_when": "Varsle når",
+            "notify_nominated": "Nominert",
+            "notify_nominates": "Nominerende",
+            "notify_marked_dead": "Død",
             "notify_note": "Notat for varselet",
             "notify_recurring": "Varsle hver gang"
         },

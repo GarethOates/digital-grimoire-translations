@@ -72,7 +72,6 @@
         "reminder": "Erinnerung",
         "faq": "FAQ",
         "discord": "Discord",
-        "notify": "Benachrichtigen",
         "away": "Abwesend",
         "retry": "Versuchen Sie es erneut"
     },
@@ -345,9 +344,10 @@
             "notes_for": "Notizen für {player}",
             "save_notes": "Notizen speichern",
             "gain_ability": "Fähigkeit erhalten",
-            "notify_nominated": "Wenn nominiert",
-            "notify_nominates": "Beim Nominieren",
-            "notify_marked_dead": "Wenn als tot markiert",
+            "notify_when": "Benachrichtigen, wenn",
+            "notify_nominated": "Nominiert",
+            "notify_nominates": "Nominierend",
+            "notify_marked_dead": "Tot",
             "notify_note": "Notiz für die Benachrichtigung",
             "notify_recurring": "Jedes Mal benachrichtigen"
         },

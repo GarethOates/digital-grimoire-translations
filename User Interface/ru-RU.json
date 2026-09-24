@@ -72,7 +72,6 @@
         "reminder": "Напоминание",
         "faq": "FAQ",
         "discord": "Discord",
-        "notify": "Уведомить",
         "away": "Отошёл",
         "retry": "Попробуйте снова"
     },
@@ -345,9 +344,10 @@
             "notes_for": "Заметки игрока {player}",
             "save_notes": "Сохранить заметки",
             "gain_ability": "Получить способность",
-            "notify_nominated": "Когда номинирован",
-            "notify_nominates": "Когда номинирует",
-            "notify_marked_dead": "Когда отмечен мёртвым",
+            "notify_when": "Уведомить, когда",
+            "notify_nominated": "Номинирован",
+            "notify_nominates": "Номинирует",
+            "notify_marked_dead": "Мёртв",
             "notify_note": "Заметка для уведомления",
             "notify_recurring": "Уведомлять каждый раз"
         },
