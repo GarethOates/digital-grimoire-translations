@@ -18,6 +18,7 @@
     "update_available": "Uma nova versão está disponível.",
     "reload": "Recarregar",
     "all": "Tudo",
+    "none": "None",
     "layout": "Layout",
     "leaves": "Folhas",
     "player_numbers": "Números dos Jogadores",
@@ -35,9 +36,7 @@
     "tools": "Ferramentas",
     "notes": "Notas",
     "wiki": "Wiki",
-    "session_id": "ID da Sessão",
     "join_url": "URL para entrar",
-    "scan_to_join": "Escaneie para entrar",
     "ready": "Pronto",
     "waiting": "Aguardando",
     "connected": "Conectado",
@@ -71,15 +70,23 @@
     "size": "Tamanho",
     "reminder": "Lembrete",
     "faq": "Perguntas Frequentes",
-    "discord": "Discord"
+    "discord": "Discord",
+    "away": "Away",
+    "scan_to_join": "Escaneie para entrar",
+    "retry": "Try again"
   },
   "errors": {
-    "translation_database_only": "Desculpe. Apenas scripts carregados do banco de dados podem ser traduzidos no momento."
+    "translation_database_only": "Desculpe. Apenas scripts carregados do banco de dados podem ser traduzidos no momento.",
+    "invalid_script_url": "That doesn't look like a script URL. Enter the full web address, starting with https://",
+    "token_distribution_failed": "Couldn't send tokens to players' devices. Check your connection and try again.",
+    "script_roles_failed": "Couldn't load this script's characters. Check your connection and try again.",
+    "roles_not_found": "Couldn't find these characters: {roles}"
   },
   "status": {
     "poisoned": "Envenenado",
     "drunk": "Bêbado",
-    "dead": "Morto"
+    "dead": "Morto",
+    "noability": "No Ability"
   },
   "radial_menu": {
     "roles": "Personagens",
@@ -88,7 +95,9 @@
     "revive": "Reviver",
     "ghost_vote": "Voto Fantasma",
     "make_evil": "Transformar em Mau",
-    "make_good": "Transformar em Bom"
+    "make_good": "Transformar em Bom",
+    "bluff": "Bluff",
+    "back": "Back"
   },
   "nav": {
     "brand": "Grimório Digital",
@@ -98,7 +107,6 @@
       "home": "Novo...",
       "save": "Salvar...",
       "buy_grimoire": "Comprar um Grimório",
-      "send_to_clocktracker": "Enviar para o Clocktracker",
       "town_view": "Visão da Cidade"
     },
     "sheets": {
@@ -110,15 +118,15 @@
     },
     "settings": {
       "title": "Configurações",
-      "token_size": "Tamanho do token",
-      "reminder_size": "Tamanho do lembrete",
       "abilities": "Abilidades",
       "travellers": "Viajantes",
       "enter_fullscreen": "Entrar em Tela Cheia",
       "exit_fullscreen": "Sair de Tela Cheia",
       "about": "Sobre...",
       "official_icons": "Ícones Oficiais",
-      "playtest_icons": "Ícones de Teste"
+      "clocktracker_url": "Destination URL",
+      "clocktracker_url_help": "Completed games are sent here. Only change this if you host your own Clocktracker.",
+      "clocktracker_url_invalid": "Enter a full https:// address."
     },
     "login": "Login",
     "mobile": {
@@ -126,9 +134,7 @@
       "save_game": "Salvar Jogo",
       "character_sheet": "Ficha de Personagens",
       "night_order_sheet": "Ficha de Ordem da Noite",
-      "language": "Língua",
-      "profile_saved_games": "Perfil e Jogos Salvos",
-      "login_discord": "Login com Discord"
+      "language": "Língua"
     }
   },
   "modals": {
@@ -200,7 +206,6 @@
       "search": "Buscar",
       "clear": "Limpar",
       "loading": "Carregando…",
-      "invalid_conditions": "Condições inválidas.",
       "no_scripts_found": "Nenhum script encontrado.",
       "found_scripts": "Encontrados {total} scripts",
       "showing_results": "Mostrando {from}–{to} de {total}",
@@ -227,8 +232,7 @@
       "background_colour": "Cor do fundo",
       "text_colour": "Cor do texto",
       "select_character_enabled": "Escolha de personagens habilitada?",
-      "link_roles": "Vincular Personagens",
-      "linked_roles": "Personagens vinculados"
+      "link_roles": "Vincular Personagens"
     },
     "delete_town": {
       "title": "Deletar cidade?",
@@ -243,16 +247,7 @@
     },
     "distribution": {
       "title": "📱 Distrinuir tokens para dispositivos móveis",
-      "start_session_title": "Iniciar distribuição de token para dispositivos móveis",
-      "start_session_description": "Os jogadores poderão se juntar à sessão e receber seus tokens em seus dispositivos móveis.",
-      "start_session_button": "Iniciar sessão",
-      "qr_code_label": "QR Code para jogadores",
-      "session_details_label": "Detalhes da sessão",
-      "connected_players_label": "Jogadores conectados",
-      "no_players_connected": "Nenhum jogador conectado ainda",
-      "players_should_scan": "Jogadores devem escanear o QR code para entrar",
-      "send_tokens_button": "Enviar tokens aos dispositivos",
-      "stop_session_button": "Parar sessão"
+      "no_players_connected": "Nenhum jogador conectado ainda"
     },
     "file_preview": {
       "title": "Pré-visualização de arquivo",
@@ -273,7 +268,7 @@
       "add_music_button": "Adicionar arquivos de música",
       "playlist_title": "Playlist ({count} faixas)",
       "no_music_loaded": "Nenhuma música carregada",
-      "add_music_prompt": "Clique em \"Adicionar arquivos de música\" para iniciar",
+      "add_music_prompt": "Clique em 'Adicionar arquivos de música' para iniciar",
       "drag_to_reorder": "Arraste para reordenar",
       "remove_from_playlist": "Remover da playlist",
       "sfx_title": "Efeitos sonoros do temporizador",
@@ -292,22 +287,16 @@
       "select_target_title": "Selecione o alvo da nomeação",
       "nominating": "{player} está nomeando:",
       "already_nominated_warning": "{player} já nomeou hoje.",
-      "todays_nominations": "Nomeações de hoje:",
-      "nominated_by": "nomeado",
-      "no_players_available": "Sem jogadores disponíveis para nomeação (no players assigned).",
       "dead": "Morto",
-      "votes": "{count} votos",
-      "already_nominated_today": "Já nomeou hoje",
-      "all_players_nominated": "Todos os jogadores elegíveis já foram nomeados hoje.",
-      "clear_all_votes": "Limpar todos os votos"
+      "votes": "{count} votos"
     },
     "gameHistory": {
       "history_title": "Histórico de jogo",
       "setup_title": "Setup",
       "player_died": "{name} Morreu",
       "player_revived": "{name} Reviveu",
-      "reminder_applied": "\"{reminder}\" lembrete aplicado a {name}",
-      "reminder_removed": "\"{reminder}\" lembrete removido de {name}",
+      "reminder_applied": "'{reminder}' lembrete aplicado a {name}",
+      "reminder_removed": "'{reminder}' lembrete removido de {name}",
       "alignment_changed": "{name} agora é {alignment}",
       "roles_swapped": "{player1} e {player2} trocaram personagens ({role1} ↔ {role2})",
       "role_changed": "{name} mudou de {fromRole} para {toRole}",
@@ -327,12 +316,12 @@
     },
     "rules": {
       "title": "Regras",
-"content": "## Antes do Início do Jogo\n\nHá muito tempo, na pacata cidade de Ravenswood Bluff, durante uma tempestade infernal, quando o relógio marca meia-noite... você ouve um grito. Correndo até a Praça da Cidade para investigar, você descobre que seu amado Narrador, eu mesmo, foi assassinado... empalado pelo ponteiro das horas da torre do relógio, com sangue pingando sobre as pedras do calçamento abaixo. Você presume que isso seja obra de um Demônio, e está correto — um Demônio que mata à noite e assume forma humana durante o dia.\n\nVocê está prestes a receber uma ficha vermelha ou azul. Se for azul, você é do Bem. Se for vermelha, você é do Mal. Se você for do Bem, o objetivo do jogo é encontrar e executar o Demônio. Se o Demônio morrer, o Bem vence. Se você for do Mal, o objetivo do jogo é destruir a cidade. Se restarem apenas dois jogadores vivos, o Mal vence.\n\nO jogo é dividido em duas fases: uma fase do dia e uma fase da noite. Durante o dia, vocês conversam. Cada um de vocês terá uma identidade secreta, um personagem da lista. Em geral, os jogadores do Bem compartilham tudo o que sabem e tentam descobrir quem é quem. A maioria dos jogadores do Bem estará dizendo a verdade, mas alguns têm motivos para mentir. Se você for do Mal, definitivamente deve mentir! O melhor é escolher um personagem do Bem para fingir ser, espalhando o máximo possível de informações falsas.\n\nDurante a noite, todos fecham os olhos. Eu acordarei alguns jogadores para que possam usar suas habilidades ou obter algum tipo de informação. À noite, ficarei em silêncio, mas me comunicarei usando os seguintes sinais: (Demonstre os sinais a seguir enquanto fala.)\n\n* 2 toques no seu ombro ou joelho significam OLHOS ABERTOS\n* Isto significa OLHOS FECHADOS\n* Isto significa SIM e isto significa NÃO\n* Isto significa BEM e isto significa MAL\n* Isto significa 0, 1, 2, 3 e assim por diante\n* Para escolher um jogador à noite, basta apontar para ele assim: ASSIM\n\nA maioria de vocês vai morrer. Isso é uma coisa boa! Em Ravenswood Bluff, a morte não é o fim. Alguns jogadores podem até querer morrer, pois ganham informações quando isso acontece. Se você estiver morto, ainda participa do jogo, ainda pode falar e ainda vence ou perde quando sua equipe vencer ou perder.\n\nHá muitas informações neste jogo. No entanto, parte delas pode estar errada. Se você estiver bêbado ou envenenado, não terá nenhuma habilidade, mas eu fingirei que tem. Eu tenho permissão para mentir para você — qualquer informação que você receber pode estar incorreta, mas você não saberá se está bêbado ou envenenado. Por exemplo, se você for o Bêbado, terá retirado da sacola uma ficha de personagem diferente, e somente eu saberei que você é, na verdade, o Bêbado. Ou, se o Envenenador envenenar você, você ainda poderá acordar à noite para usar sua habilidade, mas ela não funcionará.\n\n## Quatro Regras\n\nIsso pode ser muita informação para absorver de uma vez, então, para manter as coisas simples, há apenas quatro coisas que você precisa lembrar:\n\n1) Você pode dizer o que quiser a qualquer momento. Este é um jogo de conversa. Você pode conversar publicamente com o grupo ou ter conversas privadas, fica a seu critério.\n\n2) Nada de espiar. Mantenha sua ficha de personagem em segredo e nunca olhe dentro do Grimório, pois ele contém todos os personagens do jogo. Se você vir algo que não deveria, isso vai estragar a diversão.\n\n3) Faça todas as perguntas que precisar. Se você ficar confuso, não entender como seu personagem funciona, não entender como funciona o personagem que você está fingindo ser, se algo acontecer durante a noite e você não entender, ou se simplesmente precisar de algum conselho de estratégia... seja o que for, pergunte. Eu sou neutro, e meu trabalho é ajudar você a entender as regras e se divertir jogando. Avise-me quando tiver uma pergunta, e podemos conversar em particular para que ninguém saiba o que você perguntou.\n\n4) Jogue com respeito. Este é um jogo sobre enganação e trapaça, então trate os outros com respeito e consideração. Mate com elegância e morra com dignidade.\n\n## Antes da Primeira Nomeação\n\nEstou prestes a pedir as nomeações.\nPara nomear um jogador, basta dizer quem. Por exemplo: "Eu nomeio Bob." Quando um jogador é nomeado, todos votam para decidir se ele deve ou não ser executado. Por exemplo: vou estender meu braço assim (aponte para Bob) e dizer "Votos para Bob, começando agora." Movo minha mão no sentido horário (demonstre isso) e, se sua mão estiver levantada quando eu chegar até você, isso é um voto, e, se sua mão estiver abaixada, não é um voto.\n\nA cada dia, você pode votar em quantos jogadores quiser, ou em nenhum, e quem tiver mais votos será executado. Esse jogador precisa receber votos de pelo menos 50% dos jogadores vivos ou nenhuma execução ocorrerá. Em caso de empate, nenhum dos jogadores será executado.\n\nSe você morrer, continuará sendo uma parte importante do jogo. Você ainda fala e ainda fecha os olhos durante a noite. Mais importante ainda, você continua vencendo ou perdendo junto com sua equipe. Na verdade, o jogo geralmente é decidido pelos votos e pelas opiniões dos jogadores mortos. Quando você morrer, perderá sua habilidade de personagem, não poderá mais fazer nomeações e terá apenas um voto pelo restante do jogo, então use-o com sabedoria."    },
+      "content": "## Antes do Início do Jogo\n\nHá muito tempo, na pacata cidade de Ravenswood Bluff, durante uma tempestade infernal, quando o relógio marca meia-noite... você ouve um grito. Correndo até a Praça da Cidade para investigar, você descobre que seu amado Narrador, eu mesmo, foi assassinado... empalado pelo ponteiro das horas da torre do relógio, com sangue pingando sobre as pedras do calçamento abaixo. Você presume que isso seja obra de um Demônio, e está correto — um Demônio que mata à noite e assume forma humana durante o dia.\n\nVocê está prestes a receber uma ficha vermelha ou azul. Se for azul, você é do Bem. Se for vermelha, você é do Mal. Se você for do Bem, o objetivo do jogo é encontrar e executar o Demônio. Se o Demônio morrer, o Bem vence. Se você for do Mal, o objetivo do jogo é destruir a cidade. Se restarem apenas dois jogadores vivos, o Mal vence.\n\nO jogo é dividido em duas fases: uma fase do dia e uma fase da noite. Durante o dia, vocês conversam. Cada um de vocês terá uma identidade secreta, um personagem da lista. Em geral, os jogadores do Bem compartilham tudo o que sabem e tentam descobrir quem é quem. A maioria dos jogadores do Bem estará dizendo a verdade, mas alguns têm motivos para mentir. Se você for do Mal, definitivamente deve mentir! O melhor é escolher um personagem do Bem para fingir ser, espalhando o máximo possível de informações falsas.\n\nDurante a noite, todos fecham os olhos. Eu acordarei alguns jogadores para que possam usar suas habilidades ou obter algum tipo de informação. À noite, ficarei em silêncio, mas me comunicarei usando os seguintes sinais: (Demonstre os sinais a seguir enquanto fala.)\n\n* 2 toques no seu ombro ou joelho significam OLHOS ABERTOS\n* Isto significa OLHOS FECHADOS\n* Isto significa SIM e isto significa NÃO\n* Isto significa BEM e isto significa MAL\n* Isto significa 0, 1, 2, 3 e assim por diante\n* Para escolher um jogador à noite, basta apontar para ele assim: ASSIM\n\nA maioria de vocês vai morrer. Isso é uma coisa boa! Em Ravenswood Bluff, a morte não é o fim. Alguns jogadores podem até querer morrer, pois ganham informações quando isso acontece. Se você estiver morto, ainda participa do jogo, ainda pode falar e ainda vence ou perde quando sua equipe vencer ou perder.\n\nHá muitas informações neste jogo. No entanto, parte delas pode estar errada. Se você estiver bêbado ou envenenado, não terá nenhuma habilidade, mas eu fingirei que tem. Eu tenho permissão para mentir para você — qualquer informação que você receber pode estar incorreta, mas você não saberá se está bêbado ou envenenado. Por exemplo, se você for o Bêbado, terá retirado da sacola uma ficha de personagem diferente, e somente eu saberei que você é, na verdade, o Bêbado. Ou, se o Envenenador envenenar você, você ainda poderá acordar à noite para usar sua habilidade, mas ela não funcionará.\n\n## Quatro Regras\n\nIsso pode ser muita informação para absorver de uma vez, então, para manter as coisas simples, há apenas quatro coisas que você precisa lembrar:\n\n1) Você pode dizer o que quiser a qualquer momento. Este é um jogo de conversa. Você pode conversar publicamente com o grupo ou ter conversas privadas, fica a seu critério.\n\n2) Nada de espiar. Mantenha sua ficha de personagem em segredo e nunca olhe dentro do Grimório, pois ele contém todos os personagens do jogo. Se você vir algo que não deveria, isso vai estragar a diversão.\n\n3) Faça todas as perguntas que precisar. Se você ficar confuso, não entender como seu personagem funciona, não entender como funciona o personagem que você está fingindo ser, se algo acontecer durante a noite e você não entender, ou se simplesmente precisar de algum conselho de estratégia... seja o que for, pergunte. Eu sou neutro, e meu trabalho é ajudar você a entender as regras e se divertir jogando. Avise-me quando tiver uma pergunta, e podemos conversar em particular para que ninguém saiba o que você perguntou.\n\n4) Jogue com respeito. Este é um jogo sobre enganação e trapaça, então trate os outros com respeito e consideração. Mate com elegância e morra com dignidade.\n\n## Antes da Primeira Nomeação\n\nEstou prestes a pedir as nomeações.\nPara nomear um jogador, basta dizer quem. Por exemplo: 'Eu nomeio Bob.' Quando um jogador é nomeado, todos votam para decidir se ele deve ou não ser executado. Por exemplo: vou estender meu braço assim (aponte para Bob) e dizer 'Votos para Bob, começando agora.' Movo minha mão no sentido horário (demonstre isso) e, se sua mão estiver levantada quando eu chegar até você, isso é um voto, e, se sua mão estiver abaixada, não é um voto.\n\nA cada dia, você pode votar em quantos jogadores quiser, ou em nenhum, e quem tiver mais votos será executado. Esse jogador precisa receber votos de pelo menos 50% dos jogadores vivos ou nenhuma execução ocorrerá. Em caso de empate, nenhum dos jogadores será executado.\n\nSe você morrer, continuará sendo uma parte importante do jogo. Você ainda fala e ainda fecha os olhos durante a noite. Mais importante ainda, você continua vencendo ou perdendo junto com sua equipe. Na verdade, o jogo geralmente é decidido pelos votos e pelas opiniões dos jogadores mortos. Quando você morrer, perderá sua habilidade de personagem, não poderá mais fazer nomeações e terá apenas um voto pelo restante do jogo, então use-o com sabedoria."
+    },
     "timer": {
       "title": "⏱️ Configuração do temporizador",
       "target": "Alvo",
       "quick_timers": "Temporizadores rápidos",
-      "custom_timer": "Temporizador personalizado",
       "minutes": "Minutos",
       "seconds": "Segundos",
       "set_timer": "Definir temporizador",
@@ -344,10 +333,6 @@
       "show": "Mostrar",
       "edit_notes": "Editar Notas",
       "reminders": "Lembretes",
-      "own_reminders": "Dono",
-      "no_own_reminders": "Sem lembretes de dono",
-      "tap_to_add": "Clique para adicionar ao grimório",
-      "applied_reminders": "Aplicado",
       "apply": "Aplicar",
       "become": "Tornar-se",
       "swap": "Trocar",
@@ -356,24 +341,30 @@
       "swap_role": "Personagem,",
       "delete_confirmation_title": "Deletar",
       "delete_confirmation_message": "Quer deletar {player} o/a {role}?",
-      "apply_reminder_title": "Aplicar lembrete a {player}",
       "notes_for": "Notas para {player}",
       "save_notes": "Salvar Notas",
-      "gain_ability": "Ganhar Abilidade"
+      "gain_ability": "Ganhar Abilidade",
+      "notify_when": "Notify When",
+      "notify_nominated": "Nominated",
+      "notify_nominates": "Nominating",
+      "notify_marked_dead": "Dead",
+      "notify_note": "Note to show with the alert",
+      "notify_recurring": "Alert every time"
     },
     "town_arrange": {
       "title": "Organizar jogadores na cidade",
       "u_shape": "Sorriso"
     },
     "town": {
-      "create_title": "Criar cidade",
       "view_title": "Ver cidade",
       "description": "Crie uma página pública voltada para a cidade para mostrar aos seus jogadores quem está vivo, quem está morto e quem ainda tem um voto de fantasma. Abra a URL em outro dispositivo e torne-a visível para todos os seus jogadores.",
-      "name_label": "Nome",
-      "open_town_view_1": "Abrir ",
-      "open_town_view_2": " para abir a visão da cidade.",
-      "create_button": "Criar",
-      "delete_button": "Deletar cidade..."
+      "delete_button": "Deletar cidade...",
+      "code_label": "Town code",
+      "open_on_screen": "Open the town view on a TV or spare tablet:",
+      "rename": "Rename town",
+      "title": "Town",
+      "phones_heading": "Players' phones",
+      "screen_heading": "Big screen"
     },
     "user": {
       "favourited_scripts": "Scripts favoritos",
@@ -394,12 +385,10 @@
       "no_friends": "Nenhum amigo adicionado ainda.",
       "friend_name_placeholder": "Escreva o nome do amigo...",
       "pronouns": "Pronomes",
-      "save_friends": "Salvar amigos",
       "logout": "Logout",
       "preferences": "Preferencias",
       "prefs_display": "Mostrar",
       "prefs_player_info": "Informação de jogador",
-      "prefs_grimoire": "Grimório",
       "load_disabled_in_game": "Não é possível carregar durante o jogo",
       "delete_game_confirmation_title": "Deletar jogo salvo",
       "delete_game_confirmation_message": "Você quer deletar <strong>{name}</strong>? Isso não pode ser desfeito.",
@@ -423,12 +412,12 @@
     "clocktracker_export": {
       "title": "Enviar para o Clocktracker",
       "info_text": "Ao clicar em enviar você enviará dados sobre o jogo atual para o site clocktracker.app. Envie apenas após o jogo acabar.",
-      "is_finished": "O jogo acabou?",
       "winning_team": "Qual time venceu?",
       "sending": "Enviando...",
       "success": "Jogo exportado com sucesso para o Clocktracker!",
       "error": "Falha ao exportar o jogo para o Clocktracker",
-      "player_order": "Ordem dos jogadores"
+      "player_order": "Ordem dos jogadores",
+      "custom_destination": "This game, including player names, will be sent to {host} — not to clocktracker.app. Please only send once the game is finished."
     },
     "edit_night_order": {
       "title": "Editar ordem da noite"
@@ -493,9 +482,6 @@
     "disallow": "Não permitir",
     "all": "Todos",
     "draw_tokens": "Comprar tokens",
-    "distribution_method": "Método de distribuição",
-    "storyteller_token_draw": "Narrador",
-    "mobile_token_distribution": "Móvel",
     "draw_view_token": "Tokens",
     "draw_view_bag": "Bolsa",
     "start_setup": "Iniciar Setup",
@@ -520,7 +506,6 @@
     "search_placeholder": "Procure por nome ou autor: <author>",
     "unknown": "desconhecido",
     "no_matching_scripts": "Nenhum script correspondente encontrado",
-    "clear_search": "Limpar busca",
     "no_script_loaded": "Nenhum script carregado",
     "download_only_database": "Download disponível apenas para scripts de banco de dados",
     "download_script_title": "Download {scriptName}",
@@ -556,7 +541,6 @@
     "rearrange_tokens": "Rearrumar jogadores",
     "edit_background": "Editar fundo...",
     "nominations": "Nomeações",
-    "create_town": "Criar cidade",
     "town_view": "Ver cidade ({townId})",
     "delete": "Deletar",
     "delete_confirm": "Quer mesmo deletar {player} o/a {role}?",
@@ -565,7 +549,6 @@
     "notes_placeholder": "Adicione notas personalizadas aqui...",
     "save_notes": "Salvar Notas",
     "game_notes": "Notas de jogo",
-    "history_tracking": "Ver histórico",
     "town_info_alive": "Vivo",
     "town_info_travellers": "Viajantes",
     "town_info_dead": "Morto",
@@ -574,74 +557,38 @@
     "start_game": "Iniciar jogo",
     "assign_progress": "{assigned} de {total} assentos ocupados",
     "tap_seat_to_assign": "Clique para designar um jogador para esse assento",
+    "tap_seat_hint": "Tap a seat to draw a role for it",
     "seat": "Assento"
   },
   "draw_tokens": {
-    "back_to_setup": "Voltar ao Setup",
-    "mobile_distribution": "Distribuição móvel",
     "mobile": "Móvel",
-    "manual_setup": "Setup manual",
     "manual": "Manual",
     "bag": "Bolsa",
     "tokens": "Tokens",
-    "invite_players_bag": "Convide seus jogadores a virem, um por um, tocar na bolsa de tokens para "tirar" seu token. Após a seleção, insira o nome do jogador.",
-    "invite_players_tokens": "Convide seus jogadores a virem, um por um, escolher um token. Após a escolha, insira o nome deles.",
     "tap_bag_prompt": "Toque na bolsa para comprar um token",
     "tap_token_prompt": "Toque em um token para comprar",
     "hold_to_reveal": "Segure para revelar",
-    "arrange_bag": "Arrumar a bolsa",
-    "arrange_bag_title": "Definir ordem de compra",
-    "confirm_order": "Confirmar Ordem",
-    "garden_draw": "Compra do jardim",
-    "garden_draw_description": "Arraste os tokens abaixo para criar uma ordem de compra pré-definida para a 'compra aleatória' da bolsa. Note que isso só funciona ao comprar da bolsa, não ao comprar tokens da visualização de tokens.",
-    "garden_game": "Jogo do Jardim",
-    "garden_game_description": "Atribua manualmente personagens aos jogadores aqui e pule a etapa de sorteio.",
-    "select_player": "Selecionar jogador...",
+    "draw_animation": "Draw animation",
     "player_name": "Nome do jogador",
     "assign": "Atribuir",
     "auto_assign": "Atribuir automaticamente",
     "auto_assign_all": "Atribuir automaticamente todos os restantes",
-    "start_mobile_title": "Iniciar a distribuição móvel de tokens",
-    "start_mobile_desc": "Os jogadores poderão participar desta sessão e receber seus tokens em seus dispositivos móveis.",
-    "start_mobile_session": "Iniciar sessão móvel",
-    "qr_code_session": "QR Code & detalhes da sessão",
+    "auto_assign_all_confirm": "Every seat still without a role will be filled now. Reserved roles are kept, the rest are random.",
     "no_players_connected": "Nenhum jogador conectado",
-    "scan_qr": "Os jogadores devem escanear o QR code para entrar",
-    "role_assignment": "Atribuição de personagens",
-    "player_assignments": "Atribuição de jogadores",
-    "drag_seating_order": "Arraste para definir a ordem dos assentos no Grimório.",
-    "no_manual_assignments": "Sem atribuições manuais por enquanto",
     "no_tokens_available": "Sem tokens disponíveis",
-    "tap_tokens_assign": "Toque para atribuir tokens manualmente",
-    "tokens_distributed": "Tokens distribuídos",
-    "all_players_received": "Todos os jogadores receberam personagens",
     "distribute_to_devices": "Distribuir para dispositivos",
-    "random_assignments": "Atribuição aleatória",
-    "waiting_all_ready": "Aguardando todos os jogadres estarem prontos",
-    "unassigned_available": "{unassigned} não atribuídos, {available} disponíveis",
-    "stop_session": "Parar sessão",
+    "name_every_seat_first": "Name every seat to send tokens to phones",
     "assign_role": "Atribuir {roleName}",
-    "select_player_assign": "Selecione um jogador para atribuir:",
-    "already_has": "Já possui {roleName}",
     "disconnect_confirm": "Você quer mesmo desconectar <strong>{playerName}</strong>?",
     "player_rejoin": "O jogador será removido da sessão e precisará entrar novamente.",
-    "choose_first_player": "Escolha o primeiro jogador a ser colocado no grimório {position}:",
-    "the_bottom_left": "(inferior esquerdo)",
-    "the_top_left": "(superior esquerdo)",
-    "the_top": "(superior)",
-    "start_game": "Iniciar jogo",
-    "roles_assigned": "{assigned} de {total} personagens atribuídos",
-    "role_remaining": "1 personagem restante",
-    "roles_remaining": "{count} personagens restantes",
     "enter_player_name": "Insira o nome do jogador",
-    "quick_select": "Seleção rápida:",
     "assign_role_button": "Atribuir personagem",
     "choose_role": "Escolher um personagem",
-    "manual_assign": "atribuir manualmente",
-    "manual_assign_hint": "Nomeie um assento e, opcionalmente, atribua previamente o personagem a ele; depois, pressione "Atribuir". O jogador ainda compra seu próprio token — a atribuição prévia apenas define qual personagem ele receberá. Use "Atribuir Todos Automaticamente" para preencher todos os assentos e pular a etapa de sorteio.",
-    "status_to_draw": "A comprar",
-    "status_seated": "Sentados",
-    "pre_assign_role": "Pré-atribuir personagem"
+    "prepare_game": "Names & Roles",
+    "drag_name_to_seat": "Drag a name onto a seat",
+    "drag_role_to_seat": "Drag a role onto a seat to give that player that role (optional)",
+    "all_names_seated": "Everyone is seated",
+    "preparing_town": "Preparing your town…"
   },
   "town": {
     "toggle_widgets": "Alternar widgets",
@@ -655,7 +602,6 @@
     "grim": "Grim",
     "town": "Cidade",
     "town_name_placeholder": "Nome da cidade",
-    "password_placeholder": "Senha",
     "join": "Entrar",
     "disconnect": "Disconectar",
     "disconnected": "Disconectado",
@@ -713,66 +659,24 @@
   },
   "accessibility": {
     "first_night_order": "Ordem da primeira noite",
-    "other_night_order": "Ordem das outras noites"
+    "other_night_order": "Ordem das outras noites",
+    "toggle_navigation": "Toggle navigation",
+    "notification_armed": "Notification set"
   },
   "join": {
     "title": "Entrar na sesão de jogo",
     "session_id": "ID da sessão",
-    "your_name": "Seu nome",
-    "enter_session_id": "Insira ID da sessão",
-    "enter_your_name": "Insira seu nome",
-    "join_session": "Entrar na sessão",
-    "error_enter_details": "Insira o ID da sessão e o seu nome",
-    "error_failed_connect": "Falha ao conectar a sessão",
-    "error_session_full": "Sessão cheia",
     "error_name_taken": "Este nome já está sendo usado nessa sessão",
-    "error_connection_lost": "Conexão com a sessão perdida",
-    "error_no_role": "Nenhum personagem atribuído a você",
-    "error_session_expired": "Sessão expirada ou não disponível",
     "connecting": "Conectando...",
-    "connecting_to_session": "Conectando a sessão...",
-    "connected_successfully": "Conectado com sucesso!",
-    "welcome": "Bem-vindo, {playerName}",
-    "ready_prompt": "Quando estiver pronto para receber seu token de personagem, clique no botão abaixo",
-    "im_ready": "Estou pronto!",
-    "leave_session": "Sair da sessão",
-    "ready_and_waiting": "Pronto e aguardando",
-    "storyteller_will_send": "O narrador vai enviar seu token em breve...",
-    "waiting_for_others": "Aguardando outros jogadores e o narrador",
-    "not_ready_yet": "Ainda não estou pronto",
     "connected": "Conectado",
-    "connection_failed": "Falha na conexão",
     "retry": "Tentar novamente",
-    "token_received": "Seu token foi recebido. Setup do jogo completo!",
-    "mark_ready_prompt": "Marque-se como pronto quando estiver preparado para receber seu token.",
-    "connected_banner": "Seu token foi recebido. Setup do jogo completo!",
-    "ready_banner": "Pronto e aguardando - O narrador vai enviar seu token em breve...",
-    "connected_mark_ready": "Conectado! Marque-se como pronto quando estiver preparado para receber seu token.",
-    "your_token": "Seu Token",
     "token": "Token",
-    "token_short": "Token",
     "character_sheet": "Ficha de personagens",
     "chars": "Personagens",
-    "chars_short": "Pers",
     "night_order": "Ordem da noite",
     "night": "Noite",
-    "night_short": "Noite",
-    "waiting_for_token": "Aguarando o Token",
-    "token_will_appear": "Seu token aparecerá aqui assim que o Narrador distribuir os personagens.",
-    "no_script_info": "Sem informação do script",
-    "character_info_unavailable": "As informações do personagem não estão disponíveis para esta sessão.",
-    "night_order_unavailable": "As informações da ordem da noite não estão disponíveis para esta sessão.",
-    "your_character": "Seu personagem",
-    "no_character_info": "Sem informação do personagem",
-    "enter_session_details": "Insira detalhes da sessão acima para conectar",
-    "connect_to_participate": "Conecte-se a uma sessão para participar de um jogo",
-    "your_seat": "Seu assento",
-    "select_seat": "Selecione um assento...",
     "seat_label": "Assento {number}",
-    "taken": "ocupado",
-    "loading_session": "Carregando informações da sessão...",
-    "error_session_not_found": "Sessão não encontrada. Cheque o ID da sessão.",
-    "error_seat_taken": "O assenta já foi escolhido. Escolha outro."
+    "taken": "ocupado"
   },
   "privacy": {
     "title": "Políticas de privacidade"
@@ -787,9 +691,7 @@
   },
   "drawer": {
     "edit_player_name": "Editar nome do jogador",
-    "delete_role": "Deletar personagem",
-    "become_role": "Se tornar personagem",
-    "swap_with_player": "trocar com jogador"
+    "delete_role": "Deletar personagem"
   },
   "night": {
     "first_night": "Primeira noite",
@@ -812,5 +714,10 @@
     "unlock_pin_wrong": "PIN incorreto",
     "unlock_throttled": "tentativas demais. tente em {seconds}s.",
     "reset_hint": "Esqueceu o PIN? Desligue a trava do narrador nas configurações."
+  },
+  "notifications": {
+    "nominated": "{player} the {role} has been nominated",
+    "nominates": "{player} the {role} is nominating",
+    "marked_dead": "{player} the {role} has been marked as dead"
   }
 }
