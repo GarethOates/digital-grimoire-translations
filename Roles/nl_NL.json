@@ -2676,6 +2676,16 @@
         "flavor": ""
     },
     {
+        "id": "knaves",
+        "reminders": [],
+        "setup": false,
+        "name": "Schurken",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Er zijn 2 spelleiders: één liegt en één spreekt de waarheid. Eenmaal in het spel, bij schemering, kunnen ze wisselen.",
+        "flavor": "Every wall is a door. Every meal is a feast."
+    },
+    {
         "id": "pope",
         "name": "Pope",
         "team": "loric",
@@ -2820,6 +2830,29 @@
         "setup": false,
         "ability": "The Storyteller assigns 1 or more players' characters.",
         "special": null
+    },
+    {
+        "id": "godofug",
+        "reminders": [
+            "Hoed"
+        ],
+        "setup": false,
+        "name": "God van Ug",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Eén Ug-hoed. Als dragen Ug-hoed, moet spreken één klank per keer, maar twee keer stemmen. Als falen, Ug-hoed doorgeven.",
+        "flavor": "Blessed are my children, for they see the beauty in simple things.",
+        "special": [
+            {
+                "type": "vote",
+                "name": "multiplier",
+                "value": 2
+            },
+            {
+                "type": "reminder",
+                "name": "public"
+            }
+        ]
     },
     {
         "id": "hellslibrarian",

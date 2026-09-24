@@ -2682,6 +2682,16 @@
         "flavor": ""
     },
     {
+        "id": "knaves",
+        "reminders": [],
+        "setup": false,
+        "name": "Łotrzy",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Jest dwóch Bajarzy: jeden kłamie, a drugi mówi prawdę. Raz w trakcie gry, o zmierzchu, mogą się zamienić.",
+        "flavor": "Every wall is a door. Every meal is a feast."
+    },
+    {
         "id": "pope",
         "name": "Pope",
         "team": "loric",
@@ -2826,6 +2836,29 @@
         "setup": false,
         "ability": "Bajarz przydziela przynajmniej jedną postać graczom.",
         "special": null
+    },
+    {
+        "id": "godofug",
+        "reminders": [
+            "Kapelusz"
+        ],
+        "setup": false,
+        "name": "Bóg Ug",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Jeden kapelusz Ug. Kiedy nosić kapelusz Ug, mówić jeden dźwięk naraz, ale głosować dwa razy. Jak pomylić, oddać kapelusz Ug.",
+        "flavor": "Blessed are my children, for they see the beauty in simple things.",
+        "special": [
+            {
+                "type": "vote",
+                "name": "multiplier",
+                "value": 2
+            },
+            {
+                "type": "reminder",
+                "name": "public"
+            }
+        ]
     },
     {
         "id": "hellslibrarian",

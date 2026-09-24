@@ -72,16 +72,20 @@ def report(bucket, path, message, line=None):
     bucket.append((rel(path), message, line))
 
 
+def in_scope(path):
+    # A pull request only hears about the files it touches; drift elsewhere
+    # is not the contributor's to fix.
+    return gated is None or rel(path) in gated
+
+
 def error(path, message, line=None):
-    # Only fail for files this run is gating; everything else is advisory.
-    if gated is None or rel(path) in gated:
+    if in_scope(path):
         report(errors, path, message, line)
-    else:
-        report(warnings, path, message, line)
 
 
 def warn(path, message, line=None):
-    report(warnings, path, message, line)
+    if in_scope(path):
+        report(warnings, path, message, line)
 
 
 def load_json(path):

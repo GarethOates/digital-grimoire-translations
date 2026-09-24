@@ -2682,6 +2682,16 @@
         "flavor": ""
     },
     {
+        "id": "knaves",
+        "reminders": [],
+        "setup": false,
+        "name": "Kẻ bịp bợm",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Có 2 Người kể chuyện: một người nói dối & một người nói thật. Một lần trong game, vào hoàng hôn, họ có thể đổi chỗ.",
+        "flavor": "Every wall is a door. Every meal is a feast."
+    },
+    {
         "id": "pope",
         "name": "Pope",
         "team": "loric",
@@ -2826,6 +2836,29 @@
         "setup": false,
         "ability": "The Storyteller assigns 1 or more players' characters.",
         "special": null
+    },
+    {
+        "id": "godofug",
+        "reminders": [
+            "Mũ"
+        ],
+        "setup": false,
+        "name": "Thần Ug",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Một mũ Ug. Khi đội mũ Ug, phải nói từng âm một, nhưng bỏ phiếu hai lần. Nếu sai, chuyền mũ Ug.",
+        "flavor": "Blessed are my children, for they see the beauty in simple things.",
+        "special": [
+            {
+                "type": "vote",
+                "name": "multiplier",
+                "value": 2
+            },
+            {
+                "type": "reminder",
+                "name": "public"
+            }
+        ]
     },
     {
         "id": "hellslibrarian",

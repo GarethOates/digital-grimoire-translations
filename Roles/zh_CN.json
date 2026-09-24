@@ -2682,6 +2682,16 @@
         "flavor": ""
     },
     {
+        "id": "knaves",
+        "reminders": [],
+        "setup": false,
+        "name": "无赖",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "有两名说书人：一名说谎，一名说真话。每局游戏限一次，在黄昏时，他们可能会互换。",
+        "flavor": "Every wall is a door. Every meal is a feast."
+    },
+    {
         "id": "pope",
         "name": "Pope",
         "team": "loric",
@@ -2826,6 +2836,29 @@
         "setup": false,
         "ability": "The Storyteller assigns 1 or more players' characters.",
         "special": null
+    },
+    {
+        "id": "godofug",
+        "reminders": [
+            "帽子"
+        ],
+        "setup": false,
+        "name": "乌格之神",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "一顶乌格帽。戴乌格帽，一次只说一个音，但投两票。失败，传乌格帽。",
+        "flavor": "Blessed are my children, for they see the beauty in simple things.",
+        "special": [
+            {
+                "type": "vote",
+                "name": "multiplier",
+                "value": 2
+            },
+            {
+                "type": "reminder",
+                "name": "public"
+            }
+        ]
     },
     {
         "id": "hellslibrarian",

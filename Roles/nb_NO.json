@@ -2676,6 +2676,16 @@
         "flavor": ""
     },
     {
+        "id": "knaves",
+        "reminders": [],
+        "setup": false,
+        "name": "Kjeltringer",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Det er 2 Fortellere: én lyver og én snakker sant. Én gang i løpet av spillet, ved skumring, kan de bytte.",
+        "flavor": "Every wall is a door. Every meal is a feast."
+    },
+    {
         "id": "pope",
         "name": "Pope",
         "team": "loric",
@@ -2820,6 +2830,29 @@
         "setup": false,
         "ability": "The Storyteller assigns 1 or more players' characters.",
         "special": null
+    },
+    {
+        "id": "godofug",
+        "reminders": [
+            "Hatt"
+        ],
+        "setup": false,
+        "name": "Ugs gud",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Én Ug-hatt. Når ha på Ug-hatt, må snakke én lyd om gangen, men stemme to ganger. Om feile, gi bort Ug-hatt.",
+        "flavor": "Blessed are my children, for they see the beauty in simple things.",
+        "special": [
+            {
+                "type": "vote",
+                "name": "multiplier",
+                "value": 2
+            },
+            {
+                "type": "reminder",
+                "name": "public"
+            }
+        ]
     },
     {
         "id": "hellslibrarian",

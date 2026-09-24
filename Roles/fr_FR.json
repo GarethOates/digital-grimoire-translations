@@ -54,8 +54,7 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez un rôle de Villageois en jeu parmi 2 joueurs.",
-        "flavor": "Il y a des taches de sang sur cette veste ! Ou alors, c'est de la sauce. C'est encore pire !",
-        "special": ""
+        "flavor": "Il y a des taches de sang sur cette veste ! Ou alors, c'est de la sauce. C'est encore pire !"
     },
     {
         "id": "librarian",
@@ -72,8 +71,7 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez un rôle de Marginal en jeu parmi 2 joueurs (ou qu'aucun Marginal n'est en jeu).",
-        "flavor": "Oui, Madame, nous avons bien le Codex Malificarium dans nos archives. Mais pour le consulter, il vous faut une autorisation.",
-        "special": ""
+        "flavor": "Oui, Madame, nous avons bien le Codex Malificarium dans nos archives. Mais pour le consulter, il vous faut une autorisation."
     },
     {
         "id": "investigator",
@@ -90,8 +88,7 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez un rôle de Sbire en jeu parmi 2 joueurs.",
-        "flavor": "Beau temps pour faire une promenade, n'est-ce pas, Monsieur Morozov ? Ou devrais-je dire... Monsieur le Baron ?",
-        "special": ""
+        "flavor": "Beau temps pour faire une promenade, n'est-ce pas, Monsieur Morozov ? Ou devrais-je dire... Monsieur le Baron ?"
     },
     {
         "id": "chef",
@@ -105,8 +102,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez le nombre de paires de joueurs maléfiques.",
-        "flavor": "Les réservations de ce soir sont bizarres. Je n'ai encore jamais vu Mlle Mayweather traîner avec ce garnement de Hudson Lane. Et pourtant, ils ont réservé une table pour deux. Étrange.",
-        "special": ""
+        "flavor": "Les réservations de ce soir sont bizarres. Je n'ai encore jamais vu Mlle Mayweather traîner avec ce garnement de Hudson Lane. Et pourtant, ils ont réservé une table pour deux. Étrange."
     },
     {
         "id": "empath",
@@ -120,8 +116,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque nuit, vous apprenez combien de vos 2 voisins en vie sont maléfiques.",
-        "flavor": "Des picotements dans la peau... Quelque chose n'est pas normal. Je le sens.",
-        "special": ""
+        "flavor": "Des picotements dans la peau... Quelque chose n'est pas normal. Je le sens."
     },
     {
         "id": "fortuneteller",
@@ -137,8 +132,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez 2 joueurs et apprenez si un Démon est parmi eux. Un des joueurs bons vous apparaît comme un Démon.",
-        "flavor": "Votre âme est habitée par le Mal ! Ou alors, c'est juste votre parfum. Je suis allergique à la cerise.",
-        "special": ""
+        "flavor": "Votre âme est habitée par le Mal ! Ou alors, c'est juste votre parfum. Je suis allergique à la cerise."
     },
     {
         "id": "undertaker",
@@ -154,8 +148,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, vous apprenez quel rôle est mort par exécution dans la journée.",
-        "flavor": "Alors, qu'est-ce qu'on a aujourd'hui ? Usure importante au talon de la botte gauche, des restes de pierre à fusil sous la langue... Un militaire, sans aucun doute.",
-        "special": ""
+        "flavor": "Alors, qu'est-ce qu'on a aujourd'hui ? Usure importante au talon de la botte gauche, des restes de pierre à fusil sous la langue... Un militaire, sans aucun doute."
     },
     {
         "id": "monk",
@@ -171,8 +164,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez un joueur (sauf vous-même) : il est protégé du Démon cette nuit.",
-        "flavor": "C'est un vent mauvais qui souffle sur le village ce soir. Viens trouver refuge à l'abbaye, mon frère. Le Mal ne viendra pas t'y trouver, je m'en porte garant.",
-        "special": ""
+        "flavor": "C'est un vent mauvais qui souffle sur le village ce soir. Viens trouver refuge à l'abbaye, mon frère. Le Mal ne viendra pas t'y trouver, je m'en porte garant."
     },
     {
         "id": "ravenkeeper",
@@ -186,8 +178,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Si vous mourez la nuit, vous êtes réveillée pour choisir un joueur et apprendre son rôle.",
-        "flavor": "Mes oiseaux me vengeront ! Volez ! Volez, mes sœurs, et faites votre devoir ! Volez au manoir ! Volez à la rivière ! Que vos ailes soient l'instrument de ma vengeance ! Volez !",
-        "special": ""
+        "flavor": "Mes oiseaux me vengeront ! Volez ! Volez, mes sœurs, et faites votre devoir ! Volez au manoir ! Volez à la rivière ! Que vos ailes soient l'instrument de ma vengeance ! Volez !"
     },
     {
         "id": "virgin",
@@ -203,8 +194,7 @@
         ],
         "setup": false,
         "ability": "La première fois qu'un joueur vous nomme, il est exécuté immédiatement s'il s'agit d'un Villageois.",
-        "flavor": "Je suis pure. Vous qui êtes si droits, jetez-vous à terre et souffrez à ma place. Ma réputation ne saurait être entachée par le venin de vos accusations.",
-        "special": ""
+        "flavor": "Je suis pure. Vous qui êtes si droits, jetez-vous à terre et souffrez à ma place. Ma réputation ne saurait être entachée par le venin de vos accusations."
     },
     {
         "id": "slayer",
@@ -220,8 +210,7 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, dans la journée, choisissez publiquement un joueur : s'il est le Démon, il meurt.",
-        "flavor": "Meurs !",
-        "special": ""
+        "flavor": "Meurs !"
     },
     {
         "id": "soldier",
@@ -235,8 +224,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Vous êtes protégé du Démon.",
-        "flavor": "Comme David a dit à Goliath, comme Thésée a dit au Minotaure, comme Arjuna a dit à Bhagadatta... Non.",
-        "special": ""
+        "flavor": "Comme David a dit à Goliath, comme Thésée a dit au Minotaure, comme Arjuna a dit à Bhagadatta... Non."
     },
     {
         "id": "mayor",
@@ -250,8 +238,7 @@
         "reminders": [],
         "setup": false,
         "ability": "S'il n'y a que 3 joueurs en vie et pas d'exécution, votre équipe gagne. Si vous mourez la nuit, un autre joueur pourrait mourir à votre place.",
-        "flavor": "Nous devons mettre nos différends de côté et cesser de nous entretuer. Tout le monde paie ses impôts ici, non ? Enfin presque.",
-        "special": ""
+        "flavor": "Nous devons mettre nos différends de côté et cesser de nous entretuer. Tout le monde paie ses impôts ici, non ? Enfin presque."
     },
     {
         "id": "butler",
@@ -267,8 +254,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur (sauf vous-même). Le lendemain, vous pouvez voter uniquement si ce joueur vote.",
-        "flavor": "Oui, Monsieur. Non, Monsieur. Certainement, Monsieur.",
-        "special": ""
+        "flavor": "Oui, Monsieur. Non, Monsieur. Certainement, Monsieur."
     },
     {
         "id": "drunk",
@@ -309,8 +295,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Vous pourriez apparaître comme maléfique et comme Sbire ou Démon, même morte.",
-        "flavor": "Feriez ben d'pas m'estancer avec cte stoire de Démon. Grr. Gardez don vot'nez cheu vous où qu'ç'a vous r'gad. Git ! Mi, j'm'occupe point d'vos affaires. F'tez-moi l'camp.",
-        "special": ""
+        "flavor": "Feriez ben d'pas m'estancer avec cte stoire de Démon. Grr. Gardez don vot'nez cheu vous où qu'ç'a vous r'gad. Git ! Mi, j'm'occupe point d'vos affaires. F'tez-moi l'camp."
     },
     {
         "id": "saint",
@@ -324,8 +309,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Si vous mourez par exécution, votre équipe perd.",
-        "flavor": "La sagesse engendre la paix. La patience engendre la sagesse. Ne craignez pas, car la crainte elle-même finira par passer. Prions, et que l'unité de notre vision nous transcende tous.",
-        "special": ""
+        "flavor": "La sagesse engendre la paix. La patience engendre la sagesse. Ne craignez pas, car la crainte elle-même finira par passer. Prions, et que l'unité de notre vision nous transcende tous."
     },
     {
         "id": "poisoner",
@@ -341,8 +325,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur. Il est empoisonné cette nuit et le jour suivant.",
-        "flavor": "Une pincée de cyanure... mais pas trop !",
-        "special": ""
+        "flavor": "Une pincée de cyanure... mais pas trop !"
     },
     {
         "id": "spy",
@@ -356,8 +339,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque nuit, vous voyez le Grimoire. Vous pourriez apparaître comme bonne et comme Villageois ou Marginal, même morte.",
-        "flavor": "Un agent double ? Je ne sers qu'une seule cause. Mais saurez-vous laquelle ?",
-        "special": ""
+        "flavor": "Un agent double ? Je ne sers qu'une seule cause. Mais saurez-vous laquelle ?"
     },
     {
         "id": "scarletwoman",
@@ -373,8 +355,7 @@
         ],
         "setup": false,
         "ability": "S'il y a au moins 5 joueurs en vie et que le Démon meurt, vous devenez le Démon. (Les Voyageurs ne comptent pas.)",
-        "flavor": "Vous m'avez montré les secrets du Conseil de la Flamme Pourpre. Nous avons communié ensemble dans le feu et la luxure, et je suis à jamais à votre service. Mais ce soir, mon cher, je suis votre maître.",
-        "special": ""
+        "flavor": "Vous m'avez montré les secrets du Conseil de la Flamme Pourpre. Nous avons communié ensemble dans le feu et la luxure, et je suis à jamais à votre service. Mais ce soir, mon cher, je suis votre maître."
     },
     {
         "id": "baron",
@@ -388,8 +369,7 @@
         "reminders": [],
         "setup": true,
         "ability": "Il y a deux Marginaux supplémentaires en jeu. *[+2 Marginaux]*",
-        "flavor": "Tout va à vau-l'eau dans ce village. Un peu de main-d'œuvre bon marché lui fera le plus grand bien. Tout le monde à la mine, voilà ce que je dis. Rien de tel que la vertu du labeur pour se remettre dans le droit chemin. Ça n'a jamais tué personne, non ?",
-        "special": ""
+        "flavor": "Tout va à vau-l'eau dans ce village. Un peu de main-d'œuvre bon marché lui fera le plus grand bien. Tout le monde à la mine, voilà ce que je dis. Rien de tel que la vertu du labeur pour se remettre dans le droit chemin. Ça n'a jamais tué personne, non ?"
     },
     {
         "id": "imp",
@@ -405,8 +385,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit *, choisissez un joueur : il meurt. Si vous vous tuez de cette façon, un Sbire devient le Diablotin.",
-        "flavor": "Nous devons garder l'esprit affûté, et nos lames prêtes. Le Mal est parmi nous et ne reculera devant rien pour nous détruire, nous, les bonnes gens, et notre beau village. Ne vous fiez à personne. Sauf à moi. Vous pouvez me faire confiance.",
-        "special": ""
+        "flavor": "Nous devons garder l'esprit affûté, et nos lames prêtes. Le Mal est parmi nous et ne reculera devant rien pour nous détruire, nous, les bonnes gens, et notre beau village. Ne vous fiez à personne. Sauf à moi. Vous pouvez me faire confiance."
     },
     {
         "id": "bureaucrat",
@@ -422,8 +401,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur (sauf vous-même) : son vote compte comme 3 votes le lendemain.",
-        "flavor": "Signez ici, je vous prie. Et là. Et là. Eeeeeeet là. Tout devrait être réglé d'ici ce soir, si tout le monde a signé correctement. Ça fait bien longtemps que nous n'avons pas eu de souci de paperasse. Depuis hier midi, je crois...",
-        "special": ""
+        "flavor": "Signez ici, je vous prie. Et là. Et là. Eeeeeeet là. Tout devrait être réglé d'ici ce soir, si tout le monde a signé correctement. Ça fait bien longtemps que nous n'avons pas eu de souci de paperasse. Depuis hier midi, je crois..."
     },
     {
         "id": "thief",
@@ -439,8 +417,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur (sauf vous-même) : son vote compte en négatif le lendemain.",
-        "flavor": "J'ai rin fait. J'tais même pas dans c'te ruelle hier soir ! S'pas moi qu'a volé la mallette du maire avec tous ces papiers. En plus, c'était trop lourd.",
-        "special": ""
+        "flavor": "J'ai rin fait. J'tais même pas dans c'te ruelle hier soir ! S'pas moi qu'a volé la mallette du maire avec tous ces papiers. En plus, c'était trop lourd."
     },
     {
         "id": "gunslinger",
@@ -454,8 +431,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque jour, après le décompte du 1er vote, vous pouvez choisir un joueur qui a voté : il meurt.",
-        "flavor": "Il est temps que quelqu'un prenne les choses en main. Ce quelqu'un... c'est moi.",
-        "special": ""
+        "flavor": "Il est temps que quelqu'un prenne les choses en main. Ce quelqu'un... c'est moi."
     },
     {
         "id": "scapegoat",
@@ -469,8 +445,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Si un joueur de votre alignement est exécuté, vous pourriez être exécuté à sa place.",
-        "flavor": "Bonsoir ! Merci de m'avoir invité au bal. Je ne suis pas d'ici, mais vous m'avez l'air fort sympathiques. Je suis sûr que nous allons bien nous entendre. La corde, là, c'est pour quoi faire ?",
-        "special": ""
+        "flavor": "Bonsoir ! Merci de m'avoir invité au bal. Je ne suis pas d'ici, mais vous m'avez l'air fort sympathiques. Je suis sûr que nous allons bien nous entendre. La corde, là, c'est pour quoi faire ?"
     },
     {
         "id": "beggar",
@@ -484,8 +459,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Vous devez utiliser un jeton de vote pour voter. Si un joueur mort vous donne le sien, vous apprenez son alignement. Vous êtes sobre et sain.",
-        "flavor": "À vot'bon cœur, Monsieur ! Une petite pièce, Madame ? Merci. Que Dieu vous bénisse ! Vous êtes quelqu'un de bien. Au moins, j'aurais à manger ce soir !",
-        "special": ""
+        "flavor": "À vot'bon cœur, Monsieur ! Une petite pièce, Madame ? Merci. Que Dieu vous bénisse ! Vous êtes quelqu'un de bien. Au moins, j'aurais à manger ce soir !"
     },
     {
         "id": "grandmother",
@@ -502,8 +476,7 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez un joueur bon et son rôle. Si le Démon tue ce joueur, vous mourez également.",
-        "flavor": "Si tu vas dehors, prends ton manteau, mon petit ! Et ton bonnet. Et ton écharpe. J'ai le cœur bien fragile... Je ne voudrais pas que tu attrapes la mort. Ça me tuerait !",
-        "special": ""
+        "flavor": "Si tu vas dehors, prends ton manteau, mon petit ! Et ton bonnet. Et ton écharpe. J'ai le cœur bien fragile... Je ne voudrais pas que tu attrapes la mort. Ça me tuerait !"
     },
     {
         "id": "sailor",
@@ -519,8 +492,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur en vie : lui ou vous être ivre jusqu'au crépuscule. Vous ne pouvez pas mourir.",
-        "flavor": "Je couche tout le monde ici ! Vous ! Le beau parleur, là. Z'êtes de taille à descendre une pinte ? Non ? Et vous, mamie ? Z'avez déjà goûté le rhum épicé du vieux McKilly ? Ça vous donne du cœur au ventre, allez ! À l'abordage, la vieille !",
-        "special": ""
+        "flavor": "Je couche tout le monde ici ! Vous ! Le beau parleur, là. Z'êtes de taille à descendre une pinte ? Non ? Et vous, mamie ? Z'avez déjà goûté le rhum épicé du vieux McKilly ? Ça vous donne du cœur au ventre, allez ! À l'abordage, la vieille !"
     },
     {
         "id": "chambermaid",
@@ -534,8 +506,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque nuit, choisissez 2 joueurs en vie (sauf vous-même) : vous apprenez combien d'entre eux se sont réveillés cette nuit à cause de leur capacité.",
-        "flavor": "Je n'ai rien vu d'anormal, Madame. Et certainement pas Monsieur, se faufilant vers onze heures, dans le laboratoire du professeur, pour préparer des potions bizarres, comme vous l'avez dit, Madame.",
-        "special": ""
+        "flavor": "Je n'ai rien vu d'anormal, Madame. Et certainement pas Monsieur, se faufilant vers onze heures, dans le laboratoire du professeur, pour préparer des potions bizarres, comme vous l'avez dit, Madame."
     },
     {
         "id": "exorcist",
@@ -551,8 +522,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez un joueur (différent de la nuit précédente) : si c'est le Démon, il apprend qui vous êtes puis ne se réveille pas cette nuit.",
-        "flavor": "Nous vous chassons, tous les esprits impurs, toutes les puissances sataniques, toutes les attaques de l'adversaire infernal, toutes les légions, tous les groupes et sectes diaboliques, au nom et par la puissance de Notre Seigneur Jésus-Christ. Nous vous ordonnons de partir et de vous éloigner de l'Église de Dieu, des âmes créées par Dieu à son image et rachetées par le sang précieux de l'Agneau divin.",
-        "special": ""
+        "flavor": "Nous vous chassons, tous les esprits impurs, toutes les puissances sataniques, toutes les attaques de l'adversaire infernal, toutes les légions, tous les groupes et sectes diaboliques, au nom et par la puissance de Notre Seigneur Jésus-Christ. Nous vous ordonnons de partir et de vous éloigner de l'Église de Dieu, des âmes créées par Dieu à son image et rachetées par le sang précieux de l'Agneau divin."
     },
     {
         "id": "innkeeper",
@@ -570,8 +540,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez 2 joueurs : ils ne peuvent pas mourir cette nuit, mais un d'entre eux est ivre jusqu'au crépuscule.",
-        "flavor": "Entrez, voyageur, et reposez-vous au coin du feu. Buvez et chassez vos soucis, car les légions de l'Obscur ne viendront pas vous troubler cette nuit.",
-        "special": ""
+        "flavor": "Entrez, voyageur, et reposez-vous au coin du feu. Buvez et chassez vos soucis, car les légions de l'Obscur ne viendront pas vous troubler cette nuit."
     },
     {
         "id": "gambler",
@@ -587,8 +556,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez un joueur et devinez son rôle. Si vous vous trompez, vous mourez.",
-        "flavor": "Pile, je gagne. Face, tu perds.",
-        "special": ""
+        "flavor": "Pile, je gagne. Face, tu perds."
     },
     {
         "id": "gossip",
@@ -604,8 +572,7 @@
         ],
         "setup": false,
         "ability": "Chaque jour, vous pouvez faire une annonce publiquement. Cette nuit, si elle était vraie, un joueur meurt.",
-        "flavor": "Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla. Bla.",
-        "special": ""
+        "flavor": "Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla. Bla."
     },
     {
         "id": "courtier",
@@ -624,8 +591,7 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, la nuit, choisissez un rôle : il est ivre pendant 3 nuits et 3 jours.",
-        "flavor": "Je crains davantage une armée de cent moutons menée par un lion qu'une armée de cent lions menée par un mouton.",
-        "special": ""
+        "flavor": "Je crains davantage une armée de cent moutons menée par un lion qu'une armée de cent lions menée par un mouton."
     },
     {
         "id": "professor",
@@ -642,8 +608,7 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, la nuit*, choisissez un joueur mort : si c'est un Villageois, il est ressuscité.",
-        "flavor": "Le processus est fort simple. Il suffit d'associer le confabulateur hydraulique à l'amplificateur matriciel chi, ajouter 20 cc de pseudodorafine tout en maintenant les niveaux Z de votre mari sous les 20%, et tout ira bien. À présent, il faut juste que la foudre tombe ici.",
-        "special": ""
+        "flavor": "Le processus est fort simple. Il suffit d'associer le confabulateur hydraulique à l'amplificateur matriciel chi, ajouter 20 cc de pseudodorafine tout en maintenant les niveaux Z de votre mari sous les 20%, et tout ira bien. À présent, il faut juste que la foudre tombe ici."
     },
     {
         "id": "minstrel",
@@ -659,8 +624,7 @@
         ],
         "setup": false,
         "ability": "Lorsqu'un Sbire meurt par exécution, tous les autres joueurs (sauf les Voyageurs) sont ivres jusqu'au crépuscule du lendemain.",
-        "flavor": "File la laine, File la laine, De mes moutons dondaine. Cousez mitaines, cousez mitaines, pour de belles capitaines.",
-        "special": ""
+        "flavor": "File la laine, File la laine, De mes moutons dondaine. Cousez mitaines, cousez mitaines, pour de belles capitaines."
     },
     {
         "id": "tealady",
@@ -677,8 +641,7 @@
         ],
         "setup": false,
         "ability": "Si vos deux voisins en vie sont bons, ils ne peuvent pas mourir.",
-        "flavor": "Si vous avez froid, le thé vous réchauffera. Si vous avez chaud, le thé vous rafraîchira. Si vous êtes triste, le thé vous réjouira. Si vous êtes énervé, le thé vous calmera.",
-        "special": ""
+        "flavor": "Si vous avez froid, le thé vous réchauffera. Si vous avez chaud, le thé vous rafraîchira. Si vous êtes triste, le thé vous réjouira. Si vous êtes énervé, le thé vous calmera."
     },
     {
         "id": "pacifist",
@@ -692,8 +655,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Les joueurs bons exécutés pourraient ne pas mourir.",
-        "flavor": "Ne faites jamais confiance à ceux qui manient la punition comme seule arme.",
-        "special": ""
+        "flavor": "Ne faites jamais confiance à ceux qui manient la punition comme seule arme."
     },
     {
         "id": "fool",
@@ -709,8 +671,7 @@
         ],
         "setup": false,
         "ability": "La première fois que vous mourez, vous ne mourez pas.",
-        "flavor": "… Et le roi dit, Quoi ?! » Je n'ai jamais possédé de pantalon en caoutchouc, et encore moins un canon à crème anglaise ! Ha ha ! Bonne journée !",
-        "special": ""
+        "flavor": "… Et le roi dit, Quoi ?! » Je n'ai jamais possédé de pantalon en caoutchouc, et encore moins un canon à crème anglaise ! Ha ha ! Bonne journée !"
     },
     {
         "id": "tinker",
@@ -726,8 +687,7 @@
         ],
         "setup": false,
         "ability": "Vous pourriez mourir à tout moment.",
-        "flavor": "Je vois où est le problème. Heureusement, j'ai la solution ! Cette catapulte va pouvoir tirer deux fois plus loin, si je fais attention à...",
-        "special": ""
+        "flavor": "Je vois où est le problème. Heureusement, j'ai la solution ! Cette catapulte va pouvoir tirer deux fois plus loin, si je fais attention à..."
     },
     {
         "id": "moonchild",
@@ -743,8 +703,7 @@
         ],
         "setup": false,
         "ability": "Lorsque vous apprenez que vous êtes morte, choisissez publiquement 1 joueur en vie. Cette nuit, si c'était un joueur bon, il meurt.",
-        "flavor": "Le Scorpion regarde les Gémeaux. Vous avez un choix à faire. De l'argent contre ma paume ? Votre Destin sera révélé. De l'acier contre ma gorge ? Votre Destin est scellé.",
-        "special": ""
+        "flavor": "Le Scorpion regarde les Gémeaux. Vous avez un choix à faire. De l'argent contre ma paume ? Votre Destin sera révélé. De l'acier contre ma gorge ? Votre Destin est scellé."
     },
     {
         "id": "goon",
@@ -760,8 +719,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, le premier joueur à vous choisir avec sa capacité est ivre jusqu'au crépuscule. Vous devenez de son alignement.",
-        "flavor": "Ouais, patron. J'y ai expliqué les choses à ma façon. L'a son compte, pour sûr. Nan, j'ai pas b'soin d'un docteur. J'me soigne seul. À demain.",
-        "special": ""
+        "flavor": "Ouais, patron. J'y ai expliqué les choses à ma façon. L'a son compte, pour sûr. Nan, j'ai pas b'soin d'un docteur. J'me soigne seul. À demain."
     },
     {
         "id": "lunatic",
@@ -779,8 +737,7 @@
         ],
         "setup": false,
         "ability": "Vous pensez que vous êtes un Démon. Le Démon sait qui vous êtes et qui vous choisissez la nuit.",
-        "flavor": "Je suis la nuit ! Enfin, je crois.",
-        "special": ""
+        "flavor": "Je suis la nuit ! Enfin, je crois."
     },
     {
         "id": "godfather",
@@ -797,8 +754,7 @@
         ],
         "setup": true,
         "ability": "Lors de votre première nuit, vous apprenez quels Marginaux sont en jeu. Si un Marginal meurt dans la journée, choisissez un joueur cette nuit : il meurt. *[-1 ou +1 Marginal]*",
-        "flavor": "Normalement, ce sont juste des affaires. Mais si tu insultes ma fille, tu m'insultes. Et quand tu m'insultes, tu insultes la famille. Fais bien attention où tu mets les pieds. Ce serait dommage qu'ils finissent dans le ciment.",
-        "special": ""
+        "flavor": "Normalement, ce sont juste des affaires. Mais si tu insultes ma fille, tu m'insultes. Et quand tu m'insultes, tu insultes la famille. Fais bien attention où tu mets les pieds. Ce serait dommage qu'ils finissent dans le ciment."
     },
     {
         "id": "devilsadvocate",
@@ -814,8 +770,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur en vie (différent de la nuit précédente) : s'il est exécuté le lendemain, il ne meurt pas.",
-        "flavor": "Mon client, si l'objection est rejetée, plaide non coupable en vertu du non-respect de l'article 27.B par l'accusation — conjugaison incorrecte ou trompeuse d'un verbe. Le fait que neuf membres du jury soient morts la nuit dernière est simplement prima facie, ce qui, comme l'a établi la jurisprudence Wills C. Thule, constitue un motif d'acquittement.",
-        "special": ""
+        "flavor": "Mon client, si l'objection est rejetée, plaide non coupable en vertu du non-respect de l'article 27.B par l'accusation — conjugaison incorrecte ou trompeuse d'un verbe. Le fait que neuf membres du jury soient morts la nuit dernière est simplement prima facie, ce qui, comme l'a établi la jurisprudence Wills C. Thule, constitue un motif d'acquittement."
     },
     {
         "id": "assassin",
@@ -832,8 +787,7 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, la nuit*, choisissez un joueur : il meurt, même s'il ne peut normalement pas mourir.",
-        "flavor": "Argh.",
-        "special": ""
+        "flavor": "Argh."
     },
     {
         "id": "mastermind",
@@ -847,8 +801,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Si le Démon meurt par exécution (mettant fin à la partie), vous jouez 1 jour de plus. Si un joueur est exécuté ce jour-là, son équipe perd.",
-        "flavor": "Les tentacules de ce monstre ont été cloués aux portes de l'église. Les mères et les enfants dansent dans la rue. Excellent. Tout se déroule exactement comme je l'avais prévu.",
-        "special": ""
+        "flavor": "Les tentacules de ce monstre ont été cloués aux portes de l'église. Les mères et les enfants dansent dans la rue. Excellent. Tout se déroule exactement comme je l'avais prévu."
     },
     {
         "id": "zombuul",
@@ -865,8 +818,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, si personne n'est mort dans la journée, choisissez un joueur : il meurt. La première fois que vous mourez, vous restez en vie, mais apparaissez comme mort.",
-        "flavor": "Je ne. Comprends pas. Tes coutumes. Ami humain. Montre-moi. La terre. Où le sacré. Repose. En paix. Moi aussi. Je dois dormir. Bientôt.",
-        "special": ""
+        "flavor": "Je ne. Comprends pas. Tes coutumes. Ami humain. Montre-moi. La terre. Où le sacré. Repose. En paix. Moi aussi. Je dois dormir. Bientôt."
     },
     {
         "id": "pukka",
@@ -884,8 +836,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur : il est empoisonné. Le joueur précédemment empoisonné meurt, puis devient sain.",
-        "flavor": "Encore désolé pour cette petite griffure accidentelle. Un bête accident...",
-        "special": ""
+        "flavor": "Encore désolé pour cette petite griffure accidentelle. Un bête accident..."
     },
     {
         "id": "shabaloth",
@@ -903,8 +854,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez 2 joueurs : ils meurent. Un joueur mort que vous avez choisi lors de la nuit précédente pourrait être recraché.",
-        "flavor": "Blarg f'taag nm mataan ! No sho gumtha m'sik na yuuuFluuuuuuuuurg h-sikkkh.",
-        "special": ""
+        "flavor": "Blarg f'taag nm mataan ! No sho gumtha m'sik na yuuuFluuuuuuuuurg h-sikkkh."
     },
     {
         "id": "po",
@@ -923,8 +873,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, vous pouvez choisir un joueur : il meurt. Si votre dernier choix était « personne », choisissez 3 joueurs cette nuit.",
-        "flavor": "Voulez-vous une fleur ? Je me sens si seul.",
-        "special": ""
+        "flavor": "Voulez-vous une fleur ? Je me sens si seul."
     },
     {
         "id": "apprentice",
@@ -940,8 +889,7 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous gagnez une capacité de Villageois (si bon) ou une capacité de Sbire (si maléfique).",
-        "flavor": "Pendant des années, j'ai voyagé pour étudier les méthodes de L'Art avec un grand A. Quel Art, dites-vous ? L'Art des gens simples. Pas de quoi s'inquiéter. Du moins, pas encore.",
-        "special": ""
+        "flavor": "Pendant des années, j'ai voyagé pour étudier les méthodes de L'Art avec un grand A. Quel Art, dites-vous ? L'Art des gens simples. Pas de quoi s'inquiéter. Du moins, pas encore."
     },
     {
         "id": "matron",
@@ -955,8 +903,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque jour, vous pouvez choisir jusqu'à 3 groupes de 2 joueurs pour échanger de place. Les joueurs ne peuvent pas quitter leur chaise pour parler en privé.",
-        "flavor": "Mademoiselle Featherbottom ! Silence, je vous prie. Maître Rutherford, votre auriculaire ne doit pas toucher la tasse. Je sais que vous êtes père de neuf enfants, mais l'âge, ou plutôt le manque d'âge, n'est jamais une excuse pour avoir de mauvaises manières.",
-        "special": ""
+        "flavor": "Mademoiselle Featherbottom ! Silence, je vous prie. Maître Rutherford, votre auriculaire ne doit pas toucher la tasse. Je sais que vous êtes père de neuf enfants, mais l'âge, ou plutôt le manque d'âge, n'est jamais une excuse pour avoir de mauvaises manières."
     },
     {
         "id": "judge",
@@ -972,8 +919,7 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, si un autre joueur nomme quelqu'un, vous pouvez choisir de forcer le succès ou l'échec de l'exécution.",
-        "flavor": "Je déclare l'accusé coupable des crimes de meurtre, de fraude, d'incendie criminel, de vol, d'usurpation d'identité d'un agent de la force publique, d'exercice illégal de la médecine, de diffamation, de régicide et de dépôt sauvage de déchets.",
-        "special": ""
+        "flavor": "Je déclare l'accusé coupable des crimes de meurtre, de fraude, d'incendie criminel, de vol, d'usurpation d'identité d'un agent de la force publique, d'exercice illégal de la médecine, de diffamation, de régicide et de dépôt sauvage de déchets."
     },
     {
         "id": "bishop",
@@ -990,8 +936,7 @@
         ],
         "setup": false,
         "ability": "Seul le Conteur peut nommer des joueurs. Au moins 1 joueur d'alignement opposé doit être nommé chaque jour.",
-        "flavor": "In nomine Patris, et Filii, et Spiritus Sancti… Nos mos Dei. Deus vult de nobis.",
-        "special": ""
+        "flavor": "In nomine Patris, et Filii, et Spiritus Sancti… Nos mos Dei. Deus vult de nobis."
     },
     {
         "id": "voudon",
@@ -1005,8 +950,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Seuls vous et les morts pouvez voter. Ils n'ont pas besoin de jeton de vote pour cela. La majorité n'est pas requise.",
-        "flavor": "Byen venu. Asseyez-vous. Respirez profondément. Entrez dans le royaume des morts. Voyez avec leurs yeux. Parlez avec leur voix. Yon sel lang se janm ase.",
-        "special": ""
+        "flavor": "Byen venu. Asseyez-vous. Respirez profondément. Entrez dans le royaume des morts. Voyez avec leurs yeux. Parlez avec leur voix. Yon sel lang se janm ase."
     },
     {
         "id": "clockmaker",
@@ -1020,8 +964,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez à combien de places du Démon est assis son Sbire le plus proche.",
-        "flavor": "Ne me dérangez pas. L'horloge doit tourner. Son cercle est celui de la vie, et ses mécanismes divins apportent toutes les réponses. Je dois travailler.",
-        "special": ""
+        "flavor": "Ne me dérangez pas. L'horloge doit tourner. Son cercle est celui de la vie, et ses mécanismes divins apportent toutes les réponses. Je dois travailler."
     },
     {
         "id": "dreamer",
@@ -1035,8 +978,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur (sauf vous-même, et sauf un Voyageur) : vous apprenez 1 rôle bon et 1 rôle maléfique. L'un des deux est correct.",
-        "flavor": "J'ai vu l'Horloger. Le ciel était rouge, et il pleuvait des fractales. L'air sentait la violette, et j'entendais un bouillonnement. Une femme aux yeux luisants et à la barbe hirsute hurlait à la mort. Ensuite, je me suis réveillé.",
-        "special": ""
+        "flavor": "J'ai vu l'Horloger. Le ciel était rouge, et il pleuvait des fractales. L'air sentait la violette, et j'entendais un bouillonnement. Une femme aux yeux luisants et à la barbe hirsute hurlait à la mort. Ensuite, je me suis réveillé."
     },
     {
         "id": "snakecharmer",
@@ -1052,8 +994,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur en vie : si c'est un Démon, il échange de rôle et d'alignement avec vous, puis est empoisonné.",
-        "flavor": "Effendi, je suis l'humilité même, mais un simple air de ma flûte est capable de dompter le plus enragé des Djinns.",
-        "special": ""
+        "flavor": "Effendi, je suis l'humilité même, mais un simple air de ma flûte est capable de dompter le plus enragé des Djinns."
     },
     {
         "id": "mathematician",
@@ -1073,8 +1014,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, vous apprenez combien de joueurs ont vu leur capacité dysfonctionner (depuis l'aube) à cause de la capacité d'un autre rôle.",
-        "flavor": "Tout système formel cohérent x, dans lequel un certain nombre d'opérations arithmétiques élémentaires peuvent être effectuées, est incomplet ; c'est-à-dire qu'il existe des énoncés du langage de x qui ne peuvent être ni prouvés ni réfutés dans x. Donc, vous êtes ivre.",
-        "special": ""
+        "flavor": "Tout système formel cohérent x, dans lequel un certain nombre d'opérations arithmétiques élémentaires peuvent être effectuées, est incomplet ; c'est-à-dire qu'il existe des énoncés du langage de x qui ne peuvent être ni prouvés ni réfutés dans x. Donc, vous êtes ivre."
     },
     {
         "id": "flowergirl",
@@ -1091,8 +1031,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, vous apprenez si un Démon a voté dans la journée.",
-        "flavor": "Les violettes d'hier sont fanées, mais aujourd'hui, mes coquelicots fleurissent.",
-        "special": ""
+        "flavor": "Les violettes d'hier sont fanées, mais aujourd'hui, mes coquelicots fleurissent."
     },
     {
         "id": "towncrier",
@@ -1109,8 +1048,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, vous apprenez si un Sbire a nommé quelqu'un dans la journée.",
-        "flavor": "Oyez ! Oyez ! La sorcellerie est à l'œuvre ! Un savant de génie révèle tout ! Le village est en danger ! Oyez !",
-        "special": ""
+        "flavor": "Oyez ! Oyez ! La sorcellerie est à l'œuvre ! Un savant de génie révèle tout ! Le village est en danger ! Oyez !"
     },
     {
         "id": "oracle",
@@ -1124,8 +1062,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque nuit*, vous apprenez combien de joueurs morts sont maléfiques.",
-        "flavor": "Seuls les élus peuvent voir à travers le voile. Les morts sont agités, et leurs mains indiquent le nord gelé.",
-        "special": ""
+        "flavor": "Seuls les élus peuvent voir à travers le voile. Les morts sont agités, et leurs mains indiquent le nord gelé."
     },
     {
         "id": "savant",
@@ -1139,8 +1076,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque jour, vous pouvez rendre visite au Conteur pour apprendre 2 informations en privé : 1 est vraie et 1 est fausse.",
-        "flavor": "Soixante-douze allumettes sur le sol... le soleil se lève tôt, mais la lune reste inchangée... un morceau de tissu déchiré... le Mal rôde dans le manoir… trois fois trois… ne pas se fier aux apparences... une lueur verte, c'est du magnésium... du moins un résidu, mais ce modèle n'est pas conforme... soixante-douze allumettes sur le sol...",
-        "special": ""
+        "flavor": "Soixante-douze allumettes sur le sol... le soleil se lève tôt, mais la lune reste inchangée... un morceau de tissu déchiré... le Mal rôde dans le manoir… trois fois trois… ne pas se fier aux apparences... une lueur verte, c'est du magnésium... du moins un résidu, mais ce modèle n'est pas conforme... soixante-douze allumettes sur le sol..."
     },
     {
         "id": "seamstress",
@@ -1156,8 +1092,7 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, la nuit, choisissez 2 joueurs (sauf vous-même) : vous apprenez s'ils sont du même alignement.",
-        "flavor": "Saviez-vous que l'inconnu avec le manteau de cachemire a fait sa déclaration à notre jeune Belle ? Et qu'elle a dit oui ? Et encore ! Ce n'est rien à côté de ce qu'ont préparé Harry et ce jongleur à la foire ! Heureusement que je ne suis pas une pipelette ! J'en sais, des choses...",
-        "special": ""
+        "flavor": "Saviez-vous que l'inconnu avec le manteau de cachemire a fait sa déclaration à notre jeune Belle ? Et qu'elle a dit oui ? Et encore ! Ce n'est rien à côté de ce qu'ont préparé Harry et ce jongleur à la foire ! Heureusement que je ne suis pas une pipelette ! J'en sais, des choses..."
     },
     {
         "id": "philosopher",
@@ -1199,8 +1134,7 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, dans la journée, posez en privé une question fermée (oui/non) au Conteur.",
-        "flavor": "Mon Dieu ! C'est lumineux ! Mon œuvre est... comment dire... magnifique ! Dieu est révélé ! Oui.",
-        "special": ""
+        "flavor": "Mon Dieu ! C'est lumineux ! Mon œuvre est... comment dire... magnifique ! Dieu est révélé ! Oui."
     },
     {
         "id": "juggler",
@@ -1220,8 +1154,7 @@
         ],
         "setup": false,
         "ability": "Lors de votre premier jour, devinez publiquement jusqu'à 5 rôles de joueurs. Cette nuit, vous apprenez combien étaient corrects.",
-        "flavor": "Voici mon prochain tour ! Il me faut une fleur, un sac de haricots, un serpent factice, un pinceau, et un taille-haie à moteur diesel. Je vous préviens, c'est peut-être mon dernier tour. Attention les yeux.",
-        "special": ""
+        "flavor": "Voici mon prochain tour ! Il me faut une fleur, un sac de haricots, un serpent factice, un pinceau, et un taille-haie à moteur diesel. Je vous préviens, c'est peut-être mon dernier tour. Attention les yeux."
     },
     {
         "id": "sage",
@@ -1235,8 +1168,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Si le Démon vous tue, vous apprenez qu'il est parmi 2 joueurs.",
-        "flavor": "Le secret se trouve quelque part dans ces énormes grimoires, j'en suis certain ! Il m'attend, bien caché entre deux lignes. Gamin ! Rapporte des bougies. Et de l'encre ! Ces notes peuvent paraître cryptiques, mais la clé de l'énigme s'y dessine.",
-        "special": ""
+        "flavor": "Le secret se trouve quelque part dans ces énormes grimoires, j'en suis certain ! Il m'attend, bien caché entre deux lignes. Gamin ! Rapporte des bougies. Et de l'encre ! Ces notes peuvent paraître cryptiques, mais la clé de l'énigme s'y dessine."
     },
     {
         "id": "mutant",
@@ -1250,8 +1182,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Si vous vous montrez « fou » d'être un Marginal, vous pourriez être exécuté.",
-        "flavor": "Je ne suis pas une bête ! Je suis un être humain ! Ayez pitié !",
-        "special": ""
+        "flavor": "Je ne suis pas une bête ! Je suis un être humain ! Ayez pitié !"
     },
     {
         "id": "sweetheart",
@@ -1267,8 +1198,7 @@
         ],
         "setup": false,
         "ability": "Lorsque vous mourez, 1 joueur est désormais ivre.",
-        "flavor": "Je ne l'oublierai jamais. Jamais. Hic !",
-        "special": ""
+        "flavor": "Je ne l'oublierai jamais. Jamais. Hic !"
     },
     {
         "id": "barber",
@@ -1284,8 +1214,7 @@
         ],
         "setup": false,
         "ability": "Si vous êtes mort dans la journée ou cette nuit, le Démon peut choisir 2 joueurs (mais pas un autre Démon) qui échangent alors leur rôle.",
-        "flavor": "Saviez-vous qu'autrefois, barbier et chirurgien, c'était le même métier ? Non ? Eh bien maintenant, vous le savez.",
-        "special": ""
+        "flavor": "Saviez-vous qu'autrefois, barbier et chirurgien, c'était le même métier ? Non ? Eh bien maintenant, vous le savez."
     },
     {
         "id": "klutz",
@@ -1299,8 +1228,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Lorsque vous apprenez que vous êtes mort, choisissez publiquement 1 joueur en vie. S'il est maléfique, votre équipe perd.",
-        "flavor": "Oups.",
-        "special": ""
+        "flavor": "Oups."
     },
     {
         "id": "eviltwin",
@@ -1316,8 +1244,7 @@
         ],
         "setup": false,
         "ability": "Vous et un joueur d'alignement opposé vous connaissez mutuellement. Si le joueur bon est exécuté, le Mal gagne. Le Bien ne peut pas gagner si vous restez tous les deux en vie.",
-        "flavor": "Je ne suis pas Sara ! Je suis Clara ! C'est elle, la méchante ! Pas moi !",
-        "special": ""
+        "flavor": "Je ne suis pas Sara ! Je suis Clara ! C'est elle, la méchante ! Pas moi !"
     },
     {
         "id": "witch",
@@ -1333,8 +1260,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur : s'il nomme quelqu'un le lendemain, il meurt. S'il ne reste que 3 joueurs en vie, vous perdez cette capacité.",
-        "flavor": "Trois gouttes généreuses des veines du lézard. Une boucle de cheveux arrachés par la haine. Le nom est prononcé. L'ombre arrive tôt ou tard. Arpente le chemin, ne ménage pas ta peine.",
-        "special": ""
+        "flavor": "Trois gouttes généreuses des veines du lézard. Une boucle de cheveux arrachés par la haine. Le nom est prononcé. L'ombre arrive tôt ou tard. Arpente le chemin, ne ménage pas ta peine."
     },
     {
         "id": "cerenovus",
@@ -1350,8 +1276,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur et un rôle bon : le lendemain, il doit être «fou» d'être ce rôle. Sinon, il pourrait être exécuté.",
-        "flavor": "La vérité n'est qu'une opinion. La mienne.",
-        "special": ""
+        "flavor": "La vérité n'est qu'une opinion. La mienne."
     },
     {
         "id": "pithag",
@@ -1365,8 +1290,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque nuit*, choisissez un joueur et le rôle qu'il devient (s'il n'est pas en jeu). Si un Démon naît de cette façon, les morts de cette nuit sont arbitraires.",
-        "flavor": "Quelques gouttes de ciguë, de la bave de sangsue, un scorpion coupé très fin, et un peu de poivre en grains.",
-        "special": ""
+        "flavor": "Quelques gouttes de ciguë, de la bave de sangsue, un scorpion coupé très fin, et un peu de poivre en grains."
     },
     {
         "id": "fanggu",
@@ -1383,8 +1307,7 @@
         ],
         "setup": true,
         "ability": "Chaque nuit*, choisissez un joueur : il meurt. Le premier Marginal tué ainsi devient un Fang Gu maléfique et vous mourez à sa place. *[+1 Marginal]*",
-        "flavor": "Vos murs et vos armes ne sont qu'illusions.",
-        "special": ""
+        "flavor": "Vos murs et vos armes ne sont qu'illusions."
     },
     {
         "id": "vigormortis",
@@ -1406,8 +1329,7 @@
         ],
         "setup": true,
         "ability": "Chaque nuit*, choisissez un joueur : il meurt. Les Sbires que vous tuez gardent leur capacité et empoisonnent 1 Villageois voisin. *[-1 Marginal]*",
-        "flavor": "Toutes les portes sont une seule porte. Toutes les clés sont une seule clé. Toutes les coupes sont une seule coupe, mais l'eau que j'y verse sera source de vie éternelle, et quiconque la boira n'aura plus jamais soif.",
-        "special": ""
+        "flavor": "Toutes les portes sont une seule porte. Toutes les clés sont une seule clé. Toutes les coupes sont une seule coupe, mais l'eau que j'y verse sera source de vie éternelle, et quiconque la boira n'aura plus jamais soif."
     },
     {
         "id": "nodashii",
@@ -1425,8 +1347,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez un joueur : il meurt. Vos 2 Villageois voisins sont empoisonnés.",
-        "flavor": "Par les péchés d'Arnoch, je perçois ton odeur nauséabonde. Par le soleil maudit et ses immondes légions de dieux trompeurs, que la corruption t'emporte. Par la nuit bénie et les abysses cachés de la mer profane, laisse-moi mettre un terme à la vie sordide que tu mènes ici-bas.",
-        "special": ""
+        "flavor": "Par les péchés d'Arnoch, je perçois ton odeur nauséabonde. Par le soleil maudit et ses immondes légions de dieux trompeurs, que la corruption t'emporte. Par la nuit bénie et les abysses cachés de la mer profane, laisse-moi mettre un terme à la vie sordide que tu mènes ici-bas."
     },
     {
         "id": "vortox",
@@ -1442,8 +1363,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez un joueur : il meurt. Les capacités des Villageois donnent de fausses informations. Chaque jour, si personne n'est exécuté, le Mal gagne.",
-        "flavor": "Le noir est blanc. Le bien est le mal. La gauche est la droite. Le haut est le long. Le bas est la vue. Le court est aveugle. Suivez-moi. Trouver réponses.",
-        "special": ""
+        "flavor": "Le noir est blanc. Le bien est le mal. La gauche est la droite. Le haut est le long. Le bas est la vue. Le court est aveugle. Suivez-moi. Trouver réponses."
     },
     {
         "id": "barista",
@@ -1462,8 +1382,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, jusqu'au crépuscule, 1) un joueur devient sobre, sain et obtient de vraies infos, ou 2) sa capacité fonctionne deux fois. Il apprend lequel des 2 effets il a reçu.",
-        "flavor": "Une tasse de café sans crème, Monsieur ? Je regrette, mais nous n'avons plus de crème. Sans lait, alors ?",
-        "special": ""
+        "flavor": "Une tasse de café sans crème, Monsieur ? Je regrette, mais nous n'avons plus de crème. Sans lait, alors ?"
     },
     {
         "id": "harlot",
@@ -1480,8 +1399,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez un joueur en vie : s'il est d'accord, vous apprenez son rôle, mais vous pourriez mourir tous les deux.",
-        "flavor": "Enchantée, fier marin. Tu as l'air d'avoir bien besoin de te confier à quelqu'un. Je suis une oreille attentive. Très attentive.",
-        "special": ""
+        "flavor": "Enchantée, fier marin. Tu as l'air d'avoir bien besoin de te confier à quelqu'un. Je suis une oreille attentive. Très attentive."
     },
     {
         "id": "butcher",
@@ -1495,8 +1413,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque jour, après la première exécution, vous pouvez à nouveau nommer un joueur.",
-        "flavor": "Ça a un goût de poulet. Vous en avez encore ?",
-        "special": ""
+        "flavor": "Ça a un goût de poulet. Vous en avez encore ?"
     },
     {
         "id": "bonecollector",
@@ -1513,8 +1430,7 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, la nuit*, choisissez un joueur mort : il regagne sa capacité jusqu'au crépuscule.",
-        "flavor": "Je collecte beaucoup de choses. Des cheveux. Des dents. Des vêtements. Des bribes de poèmes. Les rêves des amants éplorés. Vous n'avez pas à connaître mon art secret, mais mon tarif est modeste. Amenez-moi le sang d'une femme de haute lignée morte d'une crise cardiaque une nuit de pleine lune, et vous aurez vos réponses.",
-        "special": ""
+        "flavor": "Je collecte beaucoup de choses. Des cheveux. Des dents. Des vêtements. Des bribes de poèmes. Les rêves des amants éplorés. Vous n'avez pas à connaître mon art secret, mais mon tarif est modeste. Amenez-moi le sang d'une femme de haute lignée morte d'une crise cardiaque une nuit de pleine lune, et vous aurez vos réponses."
     },
     {
         "id": "deviant",
@@ -1528,8 +1444,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Si vous avez été drôle ce jour, vous ne pouvez pas mourir par exil.",
-        "flavor": "Qu'est-ce qui est jaune et qui attend ?",
-        "special": ""
+        "flavor": "Qu'est-ce qui est jaune et qui attend ?"
     },
     {
         "id": "noble",
@@ -1547,8 +1462,7 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez 3 joueurs, dont 1 uniquement est maléfique.",
-        "flavor": "Je connais toute la bonne société. Y compris ses membres les moins fréquentables.",
-        "special": ""
+        "flavor": "Je connais toute la bonne société. Y compris ses membres les moins fréquentables."
     },
     {
         "id": "bountyhunter",
@@ -1564,8 +1478,7 @@
         ],
         "setup": true,
         "ability": "Lors de votre première nuit, vous apprenez 1 joueur maléfique. S'il meurt, vous apprenez un autre joueur maléfique cette nuit, et ainsi de suite. *[1 Villageois est maléfique]*",
-        "flavor": "Je marche seul dans ces rues, pavées de l'odeur infâme de la corruption. Elle force son chemin jusque dans mes narines, qui frémissent de dégoût. Et d'impatience. Le mal qui frappe cet endroit désolé s'étend chaque nuit. Et moi… Je suis l'antidote.",
-        "special": ""
+        "flavor": "Je marche seul dans ces rues, pavées de l'odeur infâme de la corruption. Elle force son chemin jusque dans mes narines, qui frémissent de dégoût. Et d'impatience. Le mal qui frappe cet endroit désolé s'étend chaque nuit. Et moi… Je suis l'antidote."
     },
     {
         "id": "pixie",
@@ -1582,8 +1495,7 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez un rôle de Villageois en jeu. Si vous étiez fou d'être ce rôle, gagnez sa capacité à sa mort.",
-        "flavor": "La petite Pixie s'est cachée dans le jardin. Cherchez-moi, coucou coucou. Je suis cachée parmi vous. Tirant ses moustaches, le Démon passe et repasse mais ne trouve rien du tout. La Pixie l'envoie au trou.",
-        "special": ""
+        "flavor": "La petite Pixie s'est cachée dans le jardin. Cherchez-moi, coucou coucou. Je suis cachée parmi vous. Tirant ses moustaches, le Démon passe et repasse mais ne trouve rien du tout. La Pixie l'envoie au trou."
     },
     {
         "id": "general",
@@ -1597,8 +1509,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque nuit, vous apprenez quel alignement est en train de gagner selon le Conteur : bon, maléfique, ou aucun.",
-        "flavor": "Je n'ai pas le temps de vous donner une citation.",
-        "special": ""
+        "flavor": "Je n'ai pas le temps de vous donner une citation."
     },
     {
         "id": "preacher",
@@ -1616,8 +1527,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur : si c'est un Sbire, il l'apprend. Tous les Sbires choisis n'ont aucune capacité.",
-        "flavor": "Il vaut mieux être riche et en bonne santé que pauvre et malade.",
-        "special": ""
+        "flavor": "Il vaut mieux être riche et en bonne santé que pauvre et malade."
     },
     {
         "id": "king",
@@ -1631,8 +1541,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque nuit, s'il y a au moins autant de morts que de vivants, vous apprenez 1 rôle en vie. Le Démon sait que vous êtes le Roi.",
-        "flavor": "À peine les ont-ils déposés sur les planches, Que ces rois de l'azur, maladroits et honteux, Laissent piteusement leurs grandes ailes blanches, Comme des avirons traîner à côté d'eux.",
-        "special": ""
+        "flavor": "À peine les ont-ils déposés sur les planches, Que ces rois de l'azur, maladroits et honteux, Laissent piteusement leurs grandes ailes blanches, Comme des avirons traîner à côté d'eux."
     },
     {
         "id": "balloonist",
@@ -1648,8 +1557,7 @@
         ],
         "setup": true,
         "ability": "Chaque nuit, vous apprenez un joueur d'un type de rôle différent de la nuit précédente. *[+0 ou +1 Marginal]*",
-        "flavor": "Chauffe ! Plus haut ! Plus haut ! Piu alto ! Ahhh… la vue est magnifique d'ici, n'est-ce pas ? Tu vois les enfants qui pêchent au bord de la rivière, près du saule ? Tu vois les reflets du soleil sur les poteaux du cirque ? Et ça, c'est quoi ? Un type s'est évanoui au milieu des vignes. Baisse le feu ! Descends ! Descends ! Vai piu in basso !",
-        "special": ""
+        "flavor": "Chauffe ! Plus haut ! Plus haut ! Piu alto ! Ahhh… la vue est magnifique d'ici, n'est-ce pas ? Tu vois les enfants qui pêchent au bord de la rivière, près du saule ? Tu vois les reflets du soleil sur les poteaux du cirque ? Et ça, c'est quoi ? Un type s'est évanoui au milieu des vignes. Baisse le feu ! Descends ! Descends ! Vai piu in basso !"
     },
     {
         "id": "cultleader",
@@ -1663,8 +1571,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque nuit, vous devenez de l'alignement d'un voisin en vie. Si tous les joueurs bons rejoignent votre secte, votre équipe gagne.",
-        "flavor": "Ils se pensaient sages ; ils sont devenus fous.",
-        "special": ""
+        "flavor": "Ils se pensaient sages ; ils sont devenus fous."
     },
     {
         "id": "lycanthrope",
@@ -1681,8 +1588,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez un joueur en vie. S'il est bon, il meurt et le Démon ne tue pas cette nuit. Un joueur bon apparaît comme maléfique.",
-        "flavor": "Derrière la fine couche de vernis de la civilisation, il y a une bête en furie.",
-        "special": ""
+        "flavor": "Derrière la fine couche de vernis de la civilisation, il y a une bête en furie."
     },
     {
         "id": "amnesiac",
@@ -1700,8 +1606,7 @@
         ],
         "setup": false,
         "ability": "Vous ne connaissez pas votre capacité. Chaque jour, devinez-la en privé : vous apprenez à quel point vous chauffez.",
-        "flavor": "Attendez. On se connaît ? Qui ? Oh, d'accord. Attendez… … On se connaît ?",
-        "special": ""
+        "flavor": "Attendez. On se connaît ? Qui ? Oh, d'accord. Attendez… … On se connaît ?"
     },
     {
         "id": "nightwatchman",
@@ -1717,8 +1622,7 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, la nuit, choisissez un joueur : il apprend que vous êtes le Veilleur de nuit.",
-        "flavor": "La nuit est froide et solitaire, mais j'ai pour compagnons la lune, les étoiles, la brise nocturne et le bruit de mes pas sur les pavés. Là-bas, derrière un rideau, je vois une lueur vaciller…",
-        "special": ""
+        "flavor": "La nuit est froide et solitaire, mais j'ai pour compagnons la lune, les étoiles, la brise nocturne et le bruit de mes pas sur les pavés. Là-bas, derrière un rideau, je vois une lueur vaciller…"
     },
     {
         "id": "engineer",
@@ -1734,8 +1638,7 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, la nuit, choisissez quels Sbires ou quel Démon est en jeu.",
-        "flavor": "Je ne m'énerve pas ! J'explique pourquoi vous avez tort.",
-        "special": ""
+        "flavor": "Je ne m'énerve pas ! J'explique pourquoi vous avez tort."
     },
     {
         "id": "fisherman",
@@ -1751,8 +1654,7 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, dans la journée, demandez conseil au Conteur pour aider votre équipe à gagner.",
-        "flavor": "C'était une belle rivière, avant… tu vois l'arc-en-ciel que dessine la lumière du soleil entre le monastère et le marché ? C'est là qu'il y avait les meilleures truites. Et plus je vieillissais, plus elles grossissaient.",
-        "special": ""
+        "flavor": "C'était une belle rivière, avant… tu vois l'arc-en-ciel que dessine la lumière du soleil entre le monastère et le marché ? C'est là qu'il y avait les meilleures truites. Et plus je vieillissais, plus elles grossissaient."
     },
     {
         "id": "huntsman",
@@ -1768,8 +1670,7 @@
         ],
         "setup": true,
         "ability": "Une fois par partie, la nuit, choisissez un joueur en vie : si c'est la Demoiselle, elle devient un Villageois pas en jeu. *[+ Demoiselle]*",
-        "flavor": "Ma hutte est chaude et robuste. Voyez ma hache à la porte, mes bottes qui sèchent au coin du feu, et ce petit ragoût d'élan qui mijote… Écoutez ! Un cri dans la vallée ! La pluie, la boue et le vent glacial masquent l'odeur des loups, mais je connais tous les sentiers de cette forêt. J'arrive.",
-        "special": ""
+        "flavor": "Ma hutte est chaude et robuste. Voyez ma hache à la porte, mes bottes qui sèchent au coin du feu, et ce petit ragoût d'élan qui mijote… Écoutez ! Un cri dans la vallée ! La pluie, la boue et le vent glacial masquent l'odeur des loups, mais je connais tous les sentiers de cette forêt. J'arrive."
     },
     {
         "id": "alchemist",
@@ -1806,8 +1707,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Si vous mourez la nuit, un joueur bon en vie devient une Fermière.",
-        "flavor": "Même les princes ont besoin de nourriture. Sans nous, la ville meurt de faim.",
-        "special": ""
+        "flavor": "Même les princes ont besoin de nourriture. Sans nous, la ville meurt de faim."
     },
     {
         "id": "magician",
@@ -1821,8 +1721,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Le Démon pense que vous êtes un Sbire. Les Sbires pensent que vous êtes un Démon.",
-        "flavor": "1… 2… Abra… 3… 4… Cadabra… <Pouf !> Et, sous vos yeux ébahis, Mesdames et Messieurs, le sac plein d'or du Capitaine Farnsworth a disparu ! Parti ! Sans une trace ! Merci, et bonsoir !",
-        "special": ""
+        "flavor": "1… 2… Abra… 3… 4… Cadabra… <Pouf !> Et, sous vos yeux ébahis, Mesdames et Messieurs, le sac plein d'or du Capitaine Farnsworth a disparu ! Parti ! Sans une trace ! Merci, et bonsoir !"
     },
     {
         "id": "choirboy",
@@ -1836,8 +1735,7 @@
         "reminders": [],
         "setup": true,
         "ability": "Si le Démon tue le Roi, vous apprenez quel joueur est le Démon. *[+ Roi]*",
-        "flavor": "Vois sur ton chemin, démons oubliés égarés, donne-leur la main pour les mener vers des jours sans lendemain.",
-        "special": ""
+        "flavor": "Vois sur ton chemin, démons oubliés égarés, donne-leur la main pour les mener vers des jours sans lendemain."
     },
     {
         "id": "poppygrower",
@@ -1853,8 +1751,7 @@
         ],
         "setup": false,
         "ability": "Sbires et Démons ne se connaissent pas. Si vous mourez, ils apprennent qui ils sont cette nuit.",
-        "flavor": "C'est dans les bosquets cachés des profondeurs de la forêt que l'on trouve le pavot noir. Le voir pousser est un véritable enchantement. Une seule bouffée de son arôme intense suffit à vous perdre à jamais, esclave des divinités de la lumière et de l'obscurité.",
-        "special": ""
+        "flavor": "C'est dans les bosquets cachés des profondeurs de la forêt que l'on trouve le pavot noir. Le voir pousser est un véritable enchantement. Une seule bouffée de son arôme intense suffit à vous perdre à jamais, esclave des divinités de la lumière et de l'obscurité."
     },
     {
         "id": "atheist",
@@ -1868,8 +1765,7 @@
         "reminders": [],
         "setup": true,
         "ability": "Le Conteur peut enfreindre les règles. S'il est exécuté, le Bien gagne, même si vous êtes mort. *[Aucun rôle maléfique]*",
-        "flavor": "Ne nous perdons pas en conjectures et paranoïa ridicules. Tout a une explication parfaitement logique. Oui, il est possible qu'une tasse tourne en orbite autour de notre planète. Mais je continuerai de boire mon thé dans de la vraie porcelaine, avec mes vraies mains.",
-        "special": ""
+        "flavor": "Ne nous perdons pas en conjectures et paranoïa ridicules. Tout a une explication parfaitement logique. Oui, il est possible qu'une tasse tourne en orbite autour de notre planète. Mais je continuerai de boire mon thé dans de la vraie porcelaine, avec mes vraies mains."
     },
     {
         "id": "cannibal",
@@ -1886,8 +1782,7 @@
         ],
         "setup": false,
         "ability": "Vous avez la capacité du dernier mort exécuté. S'il est maléfique, vous êtes empoisonné jusqu'à ce qu'un joueur bon meure exécuté.",
-        "flavor": "Je n'aime pas les clowns. Ils ont un drôle de goût.",
-        "special": ""
+        "flavor": "Je n'aime pas les clowns. Ils ont un drôle de goût."
     },
     {
         "id": "snitch",
@@ -1901,8 +1796,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque Sbire reçoit 3 bluffs.",
-        "flavor": "C'est John qui a fait le coup.",
-        "special": ""
+        "flavor": "C'est John qui a fait le coup."
     },
     {
         "id": "acrobat",
@@ -1919,8 +1813,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez un joueur : s'il est ou devient ivre ou empoisonné cette nuit, vous mourez.",
-        "flavor": "Mesdames et messieurs, ouvrez grand vos yeux, car je vais défier les lois de la gravité et danser dans les airs avec autant d'audace que de souplesse, pour le plus grand plaisir de l'assistance !",
-        "special": ""
+        "flavor": "Mesdames et messieurs, ouvrez grand vos yeux, car je vais défier les lois de la gravité et danser dans les airs avec autant d'audace que de souplesse, pour le plus grand plaisir de l'assistance !"
     },
     {
         "id": "puzzlemaster",
@@ -1937,8 +1830,7 @@
         ],
         "setup": false,
         "ability": "Un joueur est ivre, même si vous mourez. Si vous devinez qui c'est (1 essai), apprenez quel joueur est le Démon. (Si erreur, recevez une fausse info.)",
-        "flavor": "Une pièce seule n'est qu'une énigme. C'est l'ensemble des pièces qui forme la résolution.",
-        "special": ""
+        "flavor": "Une pièce seule n'est qu'une énigme. C'est l'ensemble des pièces qui forme la résolution."
     },
     {
         "id": "heretic",
@@ -1952,8 +1844,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Quiconque gagne, perd, et quiconque perd, gagne, même si vous êtes mort.",
-        "flavor": "La grêle brisera le toit et les vitraux de la cathédrale, et fondra dans la terre comme l'agneau meurt dans le désert. Telle est la parabole que répète l'insensé.",
-        "special": ""
+        "flavor": "La grêle brisera le toit et les vitraux de la cathédrale, et fondra dans la terre comme l'agneau meurt dans le désert. Telle est la parabole que répète l'insensé."
     },
     {
         "id": "damsel",
@@ -1969,8 +1860,7 @@
         ],
         "setup": false,
         "ability": "Tous les Sbires savent qu'une Demoiselle est en jeu. Si un Sbire devine publiquement votre rôle (1 essai), votre équipe perd.",
-        "flavor": "Ne touche pas les cheveux, chéri.",
-        "special": ""
+        "flavor": "Ne touche pas les cheveux, chéri."
     },
     {
         "id": "golem",
@@ -1986,8 +1876,7 @@
         ],
         "setup": false,
         "ability": "Vous pouvez faire une seule nomination dans la partie. Quand vous le faites, si le nommé n'est pas le Démon, il meurt.",
-        "flavor": "Golem aide ? Golem écrase ! Golem aide.",
-        "special": ""
+        "flavor": "Golem aide ? Golem écrase ! Golem aide."
     },
     {
         "id": "politician",
@@ -2001,8 +1890,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Si vous êtes le plus responsable de la défaite de votre équipe, changez d'alignement et gagnez (même mort).",
-        "flavor": "Il y en a qui contestent, qui revendiquent et qui protestent. Moi, je ne fais qu'un seul geste…",
-        "special": ""
+        "flavor": "Il y en a qui contestent, qui revendiquent et qui protestent. Moi, je ne fais qu'un seul geste…"
     },
     {
         "id": "widow",
@@ -2019,8 +1907,7 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, consultez le Grimoire et choisissez un joueur : il est empoisonné. 1 joueur bon sait qu'une Veuve est en jeu.",
-        "flavor": "Goûtez-moi ce vin. Du Château d'Ergot 2007 ! Une cuvée très spéciale. Trrèèèèèès spéciale, croyez-moi.",
-        "special": ""
+        "flavor": "Goûtez-moi ce vin. Du Château d'Ergot 2007 ! Une cuvée très spéciale. Trrèèèèèès spéciale, croyez-moi."
     },
     {
         "id": "fearmonger",
@@ -2036,8 +1923,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez un joueur : si vous le nommez et l'exécutez, son équipe perd. Tous les joueurs savent si vous choisissez un nouveau joueur.",
-        "flavor": "Si vous regardez trop longtemps dans l'Abîme, c'est l'Abîme qui regardera en vous.",
-        "special": ""
+        "flavor": "Si vous regardez trop longtemps dans l'Abîme, c'est l'Abîme qui regardera en vous."
     },
     {
         "id": "psychopath",
@@ -2051,8 +1937,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque jour, avant les nominations, vous pouvez choisir publiquement un joueur : il meurt. Si exécuté, vous mourez uniquement si vous perdez au chifoumi.",
-        "flavor": "Surprise !",
-        "special": ""
+        "flavor": "Surprise !"
     },
     {
         "id": "goblin",
@@ -2068,8 +1953,7 @@
         ],
         "setup": false,
         "ability": "Si vous affirmez publiquement être le Gobelin quand vous êtes nommé puis êtes exécuté ce jour-là, votre équipe gagne.",
-        "flavor": "Ne vexez jamais le Gobelin. Jamais, au grand jamais. Sinon, ça n'a rien à voir, mais… Puis-je avoir un autre morceau de gâteau ?",
-        "special": ""
+        "flavor": "Ne vexez jamais le Gobelin. Jamais, au grand jamais. Sinon, ça n'a rien à voir, mais… Puis-je avoir un autre morceau de gâteau ?"
     },
     {
         "id": "mezepheles",
@@ -2086,8 +1970,7 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez un mot secret. Le premier joueur bon qui dit ce mot devient maléfique cette nuit.",
-        "flavor": "Ce qui vient du cœur pliera le cœur des autres à vos désirs.",
-        "special": ""
+        "flavor": "Ce qui vient du cœur pliera le cœur des autres à vos désirs."
     },
     {
         "id": "marionette",
@@ -2128,8 +2011,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Si vous êtes exécuté, tous, sauf 3, meurent. Après un décompte de 10 à 0, le joueur le plus désigné par les autres meurt.",
-        "flavor": "Tic… Tic… Tic… TOCK.",
-        "special": ""
+        "flavor": "Tic… Tic… Tic… TOCK."
     },
     {
         "id": "lilmonsta",
@@ -2174,8 +2056,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez un joueur : il meurt. Lors de votre première nuit, choisissez un joueur : il est empoisonné. Par la suite, vous mourez si et seulement si il est mort.",
-        "flavor": "Délicieux, délicieux, délicieux, délicieux, délicieux cerv… gâteau. Oui. Un gâteau. C'est ce que je voulais dire.",
-        "special": ""
+        "flavor": "Délicieux, délicieux, délicieux, délicieux, délicieux cerv… gâteau. Oui. Un gâteau. C'est ce que je voulais dire."
     },
     {
         "id": "alhadikhia",
@@ -2193,8 +2074,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, vous pouvez choisir 3 joueurs (le Conteur les annonce) : chacun choisit en secret la vie ou la mort, mais s'ils vivent tous, tous meurent.",
-        "flavor": "Alsukut min dhahab.",
-        "special": ""
+        "flavor": "Alsukut min dhahab."
     },
     {
         "id": "legion",
@@ -2211,8 +2091,7 @@
         ],
         "setup": true,
         "ability": "Chaque nuit*, un joueur pourrait mourir. Toute exécution échoue si seul le Mal a voté. Vous apparaissez aussi comme Sbire. *[La majorité des joueurs sont Légion]*",
-        "flavor": "Nous sommes le blizzard d'une journée d'hiver. Nous sommes l'ombre dans une nuit sans lune. Nous sommes le poison dans votre thé et le murmure dans votre oreille. Nous sommes légion.",
-        "special": ""
+        "flavor": "Nous sommes le blizzard d'une journée d'hiver. Nous sommes l'ombre dans une nuit sans lune. Nous sommes le poison dans votre thé et le murmure dans votre oreille. Nous sommes légion."
     },
     {
         "id": "leviathan",
@@ -2233,8 +2112,7 @@
         ],
         "setup": false,
         "ability": "Si plus d'un joueur bon est exécuté, le Mal gagne. Tous les joueurs savent que vous êtes en jeu. Après le jour 5, le Mal gagne.",
-        "flavor": "Jusqu'à la fin, je te traque. Du cœur des enfers, je te poignarde. Par haine, je te crache mon dernier souffle.",
-        "special": ""
+        "flavor": "Jusqu'à la fin, je te traque. Du cœur des enfers, je te poignarde. Par haine, je te crache mon dernier souffle."
     },
     {
         "id": "riot",
@@ -2252,8 +2130,7 @@
         ],
         "setup": true,
         "ability": "Le jour 3, les Sbires deviennent Émeute et les nommés meurent mais nomment immédiatement, et obligatoirement, un joueur en vie.",
-        "flavor": "Larga vida a la revolución ! Mi revolución !",
-        "special": ""
+        "flavor": "Larga vida a la revolución ! Mi revolución !"
     },
     {
         "id": "gangster",
@@ -2267,8 +2144,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Une fois par journée, vous pouvez choisir de tuer un voisin en vie, si votre autre voisin en vie est d'accord.",
-        "flavor": "Jolies chaussures que vous avez là. Ce serait dommage qu'il vous arrive malheur et que vous les salissiez. Oh, et vos boutons de manchette ! Très jolis, eux aussi..",
-        "special": ""
+        "flavor": "Jolies chaussures que vous avez là. Ce serait dommage qu'il vous arrive malheur et que vous les salissiez. Oh, et vos boutons de manchette ! Très jolis, eux aussi.."
     },
     {
         "id": "organgrinder",
@@ -2285,8 +2161,7 @@
         ],
         "setup": false,
         "ability": "Les joueurs gardent les yeux fermés lors des votes et leur décompte est secret. Chaque nuit, choisissez si vous êtes ivre jusqu'au crépuscule.",
-        "flavor": "Encore un petit tour, messieurs dames ? Capucin va passer parmi vous. À votre bon cœur !",
-        "special": ""
+        "flavor": "Encore un petit tour, messieurs dames ? Capucin va passer parmi vous. À votre bon cœur !"
     },
     {
         "id": "vizier",
@@ -2300,8 +2175,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Votre rôle est connu de tous. Vous ne pouvez pas mourir dans la journée. Si le Bien a voté, vous pouvez exécuter immédiatement.",
-        "flavor": "Une excellente décision, comme toujours, Sire. Un délit aussi insignifiant que celui de faire trébucher l'Évêque par mégarde mérite votre «justice» et votre «pardon». Promenez-vous dans les jardins. Visitez la galerie et admirez les sculptures de Von Strauf. Détendez-vous, Sire. Laissez-moi m'occuper du reste.",
-        "special": ""
+        "flavor": "Une excellente décision, comme toujours, Sire. Un délit aussi insignifiant que celui de faire trébucher l'Évêque par mégarde mérite votre «justice» et votre «pardon». Promenez-vous dans les jardins. Visitez la galerie et admirez les sculptures de Von Strauf. Détendez-vous, Sire. Laissez-moi m'occuper du reste."
     },
     {
         "id": "knight",
@@ -2318,8 +2192,7 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez 2 joueurs qui ne sont pas le Démon.",
-        "flavor": "Lorsqu'un homme ment, il tue une partie du monde.",
-        "special": ""
+        "flavor": "Lorsqu'un homme ment, il tue une partie du monde."
     },
     {
         "id": "steward",
@@ -2335,8 +2208,7 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez 1 joueur bon.",
-        "flavor": "Comment osez-vous l'accuser ? Quelle audace ! Je l'ai connue toute ma vie ! Cela fait bien… neuf ans !",
-        "special": ""
+        "flavor": "Comment osez-vous l'accuser ? Quelle audace ! Je l'ai connue toute ma vie ! Cela fait bien… neuf ans !"
     },
     {
         "id": "highpriestess",
@@ -2350,8 +2222,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque nuit, apprenez à quel joueur vous devriez parler en priorité, selon le Conteur.",
-        "flavor": "Il y a de la vie derrière la personnalité qui utilise les personnalités comme des masques. Il y a des moments où la vie fait tomber le masque et l'abîme répond à l'abîme.",
-        "special": ""
+        "flavor": "Il y a de la vie derrière la personnalité qui utilise les personnalités comme des masques. Il y a des moments où la vie fait tomber le masque et l'abîme répond à l'abîme."
     },
     {
         "id": "harpy",
@@ -2368,8 +2239,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit, choisissez 2 joueurs : le lendemain, le premier joueur est fou que le deuxième est maléfique, ou l'un des deux ou les deux pourraient mourir.",
-        "flavor": "Jamais je n'ai vu de si belle journée, ni jamais n'ai senti une présence si atroce.",
-        "special": ""
+        "flavor": "Jamais je n'ai vu de si belle journée, ni jamais n'ai senti une présence si atroce."
     },
     {
         "id": "plaguedoctor",
@@ -2385,8 +2255,7 @@
         ],
         "setup": false,
         "ability": "Lorsque vous mourez, le Conteur gagne une capacité de Sbire.",
-        "flavor": "Asseyez-vous, je vous prie. Dites : «Six cent soixante-six». Très bien.",
-        "special": ""
+        "flavor": "Asseyez-vous, je vous prie. Dites : «Six cent soixante-six». Très bien."
     },
     {
         "id": "shugenja",
@@ -2400,8 +2269,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez si le joueur maléfique le plus proche de vous l'est en sens horaire ou antihoraire. À distance égale, cette info est arbitraire.",
-        "flavor": "これは夢。それも夢。すべて夢です。",
-        "special": ""
+        "flavor": "これは夢。それも夢。すべて夢です。"
     },
     {
         "id": "ojo",
@@ -2417,8 +2285,7 @@
         ],
         "setup": false,
         "ability": "Chaque nuit*, choisissez un rôle : il meurt. S'il n'est pas en jeu, le Conteur choisit qui meurt.",
-        "flavor": "Comme un feu de joie par une nuit sans lune… Je te vois, mortel.",
-        "special": ""
+        "flavor": "Comme un feu de joie par une nuit sans lune… Je te vois, mortel."
     },
     {
         "id": "hatter",
@@ -2434,8 +2301,7 @@
         ],
         "setup": false,
         "ability": "Si vous êtes mort ce jour ou cette nuit, les Sbires et Démons peuvent choisir de nouveaux rôles de Sbire et Démon.",
-        "flavor": "Les rêves ne sont pas la réalité. Mais qui peut dire où commence l'un et où finit l'autre ?",
-        "special": ""
+        "flavor": "Les rêves ne sont pas la réalité. Mais qui peut dire où commence l'un et où finit l'autre ?"
     },
     {
         "id": "kazali",
@@ -2451,8 +2317,7 @@
         ],
         "setup": true,
         "ability": "Chaque nuit*, choisissez un joueur : il meurt. *[Vous choisissez quels joueurs sont quels Sbires. -? +? Marginaux]*",
-        "flavor": "Gon(z)a7les6. Fais attenti8n. Le méc4n1sme est iNvers10. E99eurs sy6tem3. Reco{7}fig.",
-        "special": ""
+        "flavor": "Gon(z)a7les6. Fais attenti8n. Le méc4n1sme est iNvers10. E99eurs sy6tem3. Reco{7}fig."
     },
     {
         "id": "villageidiot",
@@ -2468,8 +2333,7 @@
         ],
         "setup": true,
         "ability": "Chaque nuit, choisissez un joueur : vous apprenez son alignement. *[+0 ou +1 à +2 Idiots du village dont un ivre]*",
-        "flavor": "Au clair de la plume, mon ami Pierrot, prête-moi ta lune, pour écrire un mot. Flûte, je me suis trompé.",
-        "special": ""
+        "flavor": "Au clair de la plume, mon ami Pierrot, prête-moi ta lune, pour écrire un mot. Flûte, je me suis trompé."
     },
     {
         "id": "yaggababble",
@@ -2487,8 +2351,7 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, vous apprenez une phrase secrète. Pour chaque fois que vous l'aurez dite publiquement en journée, un joueur pourrait mourir.",
-        "flavor": "Un double assassinat dans la rue Morgue ? Фальшивые новости ! Des chiens dans la lande de Baskerville ? Фальшивые новости ! Un mort sur le Nil ? Фальшивые новости !",
-        "special": ""
+        "flavor": "Un double assassinat dans la rue Morgue ? Фальшивые новости ! Des chiens dans la lande de Baskerville ? Фальшивые новости ! Un mort sur le Nil ? Фальшивые новости !"
     },
     {
         "id": "summoner",
@@ -2506,8 +2369,7 @@
         ],
         "setup": true,
         "ability": "Recevez 3 bluffs. La troisième nuit, choisissez qui devient un Démon maléfique de votre choix. *[Aucun Démon]*",
-        "flavor": "Gloire aux gardiens du Nord ! Que mon esprit vous brise. Gloire aux Gardiens de l'Est ! Que ma volonté vous abatte. Gloire aux Gardiens du Sud ! Qu'ils révèlent le mystère de l'au-delà. Gloire aux Gardiens de l'Ouest ! Que leur main nous protège des ténèbres.",
-        "special": ""
+        "flavor": "Gloire aux gardiens du Nord ! Que mon esprit vous brise. Gloire aux Gardiens de l'Est ! Que ma volonté vous abatte. Gloire aux Gardiens du Sud ! Qu'ils révèlent le mystère de l'au-delà. Gloire aux Gardiens de l'Ouest ! Que leur main nous protège des ténèbres."
     },
     {
         "id": "banshee",
@@ -2523,8 +2385,7 @@
         ],
         "setup": false,
         "ability": "Si le Démon vous tue, tous les joueurs l'apprennent. Dès lors, vous pouvez nommer deux fois par jour et voter deux fois par nomination.",
-        "flavor": "Gorm do shuile, dearg do ghruaig, ni bheidh se i bhfad, is a mbeidh tu san uaigh.",
-        "special": ""
+        "flavor": "Gorm do shuile, dearg do ghruaig, ni bheidh se i bhfad, is a mbeidh tu san uaigh."
     },
     {
         "id": "ogre",
@@ -2540,8 +2401,7 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, choisissez un joueur (sauf vous-même) : vous devenez de son alignement (sans le connaître) même ivre ou empoisonné.",
-        "flavor": "Broudaf zog zog.",
-        "special": ""
+        "flavor": "Broudaf zog zog."
     },
     {
         "id": "alsaahir",
@@ -2555,8 +2415,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Chaque jour, si vous devinez publiquement qui sont des Sbires et qui sont des Démons, le Bien gagne.",
-        "flavor": "Je suis ici à cause de toi, et tu es ici à cause de moi.",
-        "special": ""
+        "flavor": "Je suis ici à cause de toi, et tu es ici à cause de moi."
     },
     {
         "id": "zealot",
@@ -2570,8 +2429,7 @@
         "reminders": [],
         "setup": false,
         "ability": "S'il y a au moins 5 joueurs en vie, vous devez voter pour chaque nomination.",
-        "flavor": "J'aime discuter avec vous. Votre esprit me plaît. Il ressemble à mon propre esprit, sauf que vous, vous êtes dingue.",
-        "special": ""
+        "flavor": "J'aime discuter avec vous. Votre esprit me plaît. Il ressemble à mon propre esprit, sauf que vous, vous êtes dingue."
     },
     {
         "id": "lordoftyphon",
@@ -2587,8 +2445,7 @@
         ],
         "setup": true,
         "ability": "Chaque nuit*, choisissez un joueur : il meurt. *[Les maléfiques forment une ligne. Vous êtes au milieu. +1 Sbire. -? à +? Marginaux]*",
-        "flavor": "Dans les recoins sombres et oubliés du cosmos, là où les étoiles murmurent des secrets au néant, se cache une vérité si profonde que les esprits mortels perdent la raison à sa simple évocation.",
-        "special": ""
+        "flavor": "Dans les recoins sombres et oubliés du cosmos, là où les étoiles murmurent des secrets au néant, se cache une vérité si profonde que les esprits mortels perdent la raison à sa simple évocation."
     },
     {
         "id": "boffin",
@@ -2602,8 +2459,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Le Démon (même ivre ou empoisonné) a la capacité d'un rôle bon pas en jeu. Vous savez tous les deux lequel.",
-        "flavor": "L'hydrogène stellaire, vaste, inerte ; le carbone, l'oxygène, le néon… plus rien. Le chaos moléculaire et l'entropie produisent de nouveaux phénomènes cosmiques. Le chaos atomique renaît, la matière s'effondre. Tout cela dans un si petit flacon.",
-        "special": ""
+        "flavor": "L'hydrogène stellaire, vaste, inerte ; le carbone, l'oxygène, le néon… plus rien. Le chaos moléculaire et l'entropie produisent de nouveaux phénomènes cosmiques. Le chaos atomique renaît, la matière s'effondre. Tout cela dans un si petit flacon."
     },
     {
         "id": "cacklejack",
@@ -2619,8 +2475,7 @@
         ],
         "setup": false,
         "ability": "Chaque jour, choisissez un joueur : un joueur différent change de rôle cette nuit.",
-        "flavor": "Le fil α sur le fil β. Di0de allumÉe. BuZZer désactivé. GAzOinks ! Bras teNdus. DoiGT dans 2 nez. Aaaattendez. BoiNgo-banGo ! Ha-ha-ha !",
-        "special": ""
+        "flavor": "Le fil α sur le fil β. Di0de allumÉe. BuZZer désactivé. GAzOinks ! Bras teNdus. DoiGT dans 2 nez. Aaaattendez. BoiNgo-banGo ! Ha-ha-ha !"
     },
     {
         "id": "gnome",
@@ -2636,8 +2491,7 @@
         ],
         "setup": false,
         "ability": "Lors de votre première nuit, tous les joueurs apprennent un joueur de votre alignement. Vous pouvez choisir de tuer quiconque le nomme.",
-        "flavor": "Oh ! Que de fois je l'ai entendu et vu, Scarbo, lorsqu'à minuit la lune brille dans le ciel comme un écu d'argent sur une bannière d'azur semée d'abeilles d'or ! Que de fois j'ai entendu bourdonner son rire dans l'ombre de mon alcôve, et grincer son ongle sur la soie des courtines de mon lit ! Que de fois je l'ai vu descendre du plancher, pirouetter sur un pied et rouler par la chambre comme le fuseau tombé de la quenouille d'une sorcière !",
-        "special": ""
+        "flavor": "Oh ! Que de fois je l'ai entendu et vu, Scarbo, lorsqu'à minuit la lune brille dans le ciel comme un écu d'argent sur une bannière d'azur semée d'abeilles d'or ! Que de fois j'ai entendu bourdonner son rire dans l'ombre de mon alcôve, et grincer son ongle sur la soie des courtines de mon lit ! Que de fois je l'ai vu descendre du plancher, pirouetter sur un pied et rouler par la chambre comme le fuseau tombé de la quenouille d'une sorcière !"
     },
     {
         "id": "xaan",
@@ -2656,8 +2510,7 @@
         ],
         "setup": true,
         "ability": "La nuit X, tous les Villageois sont empoisonnés jusqu'au crépuscule. *[X Marginaux]*",
-        "flavor": "Tels des mouches, ils tombent. Un par un. Par deux, par trois, par cinq.",
-        "special": ""
+        "flavor": "Tels des mouches, ils tombent. Un par un. Par deux, par trois, par cinq."
     },
     {
         "id": "wizard",
@@ -2674,8 +2527,7 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, choisissez de faire un vœu. S'il est exaucé, vous pourriez en payer le prix et un indice à son sujet pourrait être donné.",
-        "flavor": "Chaque homme et chaque femme est une étoile. L'amour est la loi, l'amour sous la volonté.",
-        "special": ""
+        "flavor": "Chaque homme et chaque femme est une étoile. L'amour est la loi, l'amour sous la volonté."
     },
     {
         "id": "hermit",
@@ -2693,8 +2545,7 @@
         ],
         "setup": true,
         "ability": "Vous avez les capacités de tous les Marginaux. *[-0 ou -1 Marginal]*",
-        "flavor": "Dans les lieux perdus et oubliés de la terre, la lumière de l'âme brille comme un phare dans la nuit.",
-        "special": ""
+        "flavor": "Dans les lieux perdus et oubliés de la terre, la lumière de l'âme brille comme un phare dans la nuit."
     },
     {
         "id": "princess",
@@ -2710,8 +2561,7 @@
         ],
         "setup": false,
         "ability": "Lors de votre premier jour, si vous avez nommé et exécuté un joueur, le Démon ne tue pas cette nuit.",
-        "flavor": "Nos mots sont des molosses retenus par de simples fils de soie, Messieurs. Que la bienveillance en tisse de véritables cordes, de peur que ces liens ne rompent et ne déchirent la cour.",
-        "special": ""
+        "flavor": "Nos mots sont des molosses retenus par de simples fils de soie, Messieurs. Que la bienveillance en tisse de véritables cordes, de peur que ces liens ne rompent et ne déchirent la cour."
     },
     {
         "id": "wraith",
@@ -2750,8 +2600,7 @@
         ],
         "setup": false,
         "ability": "Quelque chose de grave peut arriver à celui qui est le plus responsable de la mort d'un nouveau joueur.",
-        "flavor": null,
-        "special": ""
+        "flavor": null
     },
     {
         "id": "bootlegger",
@@ -2768,8 +2617,7 @@
         ],
         "setup": false,
         "ability": "Le script a des personnages ou règles personnalisés.",
-        "flavor": null,
-        "special": ""
+        "flavor": null
     },
     {
         "id": "tor",
@@ -2835,6 +2683,16 @@
         "flavor": ""
     },
     {
+        "id": "knaves",
+        "reminders": [],
+        "setup": false,
+        "name": "Fripons",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Il y a 2 Conteurs : l'un ment et l'autre dit la vérité. Une fois par partie, au crépuscule, ils pourraient échanger leurs rôles.",
+        "flavor": "Chaque mur est une porte. Chaque repas est un festin."
+    },
+    {
         "id": "pope",
         "name": "Pope",
         "team": "loric",
@@ -2858,8 +2716,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Pendant les 2 premières minutes de chaque journée, les joueurs vétérans ne peuvent pas parler.",
-        "flavor": null,
-        "special": ""
+        "flavor": null
     },
     {
         "id": "deusexfiasco",
@@ -2875,8 +2732,7 @@
         ],
         "setup": true,
         "ability": "Une fois par partie, le Conteur va faire une « erreur », la corriger, et l'admettre publiquement.",
-        "flavor": null,
-        "special": ""
+        "flavor": null
     },
     {
         "id": "djinn",
@@ -2890,8 +2746,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Utilisez la règle spéciale du Djinn. Tous les joueurs savent ce que c'est.",
-        "flavor": null,
-        "special": ""
+        "flavor": null
     },
     {
         "id": "doomsayer",
@@ -2905,8 +2760,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Si 4 joueurs ou plus sont en vie, chaque joueur vivant peut décider publiquement (une fois par partie) qu'un joueur de son propre alignement meurt.",
-        "flavor": null,
-        "special": ""
+        "flavor": null
     },
     {
         "id": "duchess",
@@ -2924,8 +2778,7 @@
         ],
         "setup": false,
         "ability": "Chaque jour, 3 joueurs peuvent choisir de vous rendre visite. La nuit*, chaque visiteur apprend combien de visiteurs sont maléfiques, mais 1 reçoit de fausses informations.",
-        "flavor": null,
-        "special": ""
+        "flavor": null
     },
     {
         "id": "ferryman",
@@ -2939,8 +2792,7 @@
         "reminders": [],
         "setup": false,
         "ability": "On the final day, all dead players regain their vote token.",
-        "flavor": null,
-        "special": ""
+        "flavor": null
     },
     {
         "id": "fibbin",
@@ -2956,8 +2808,7 @@
         ],
         "setup": false,
         "ability": "Une fois par partie, 1 joueur bon peut obtenir de fausses informations.",
-        "flavor": null,
-        "special": ""
+        "flavor": null
     },
     {
         "id": "fiddler",
@@ -2971,8 +2822,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Une fois par partie, le Démon choisit secrètement un joueur adverse : tous les joueurs choisissent lequel de ces 2 joueurs gagne.",
-        "flavor": null,
-        "special": ""
+        "flavor": null
     },
     {
         "id": "gardener",
@@ -2986,8 +2836,30 @@
         "reminders": [],
         "setup": false,
         "ability": "The Storyteller assigns 1 or more players' characters.",
-        "flavor": null,
-        "special": ""
+        "flavor": null
+    },
+    {
+        "id": "godofug",
+        "reminders": [
+            "Chapeau"
+        ],
+        "setup": false,
+        "name": "Dieu d'Ug",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Un chapeau Ug. Quand porter chapeau Ug, devoir parler un son à la fois, mais voter deux fois. Si échouer, passer chapeau Ug.",
+        "flavor": "Bénis soient mes enfants, car ils voient la beauté dans les choses simples.",
+        "special": [
+            {
+                "type": "vote",
+                "name": "multiplier",
+                "value": 2
+            },
+            {
+                "type": "reminder",
+                "name": "public"
+            }
+        ]
     },
     {
         "id": "hellslibrarian",
@@ -3003,8 +2875,7 @@
         ],
         "setup": false,
         "ability": "Quelque chose de grave peut arriver au joueur qui parle lorsque le conteur a demandé le silence.",
-        "flavor": null,
-        "special": ""
+        "flavor": null
     },
     {
         "id": "revolutionary",
@@ -3022,8 +2893,7 @@
         ],
         "setup": false,
         "ability": "2 joueurs voisins sont connus pour être du même alignement. Une fois par partie, l'un d'entre eux apparaîtra comme ayant l'alignement opposé",
-        "flavor": null,
-        "special": ""
+        "flavor": null
     },
     {
         "id": "sentinel",
@@ -3037,8 +2907,7 @@
         "reminders": [],
         "setup": true,
         "ability": "Il peut y avoir 1 Marginal de plus ou de moins en jeu.",
-        "flavor": null,
-        "special": ""
+        "flavor": null
     },
     {
         "id": "spiritofivory",
@@ -3054,8 +2923,7 @@
         ],
         "setup": false,
         "ability": "Il ne peut pas y avoir plus d'un joueur maléfique supplémentaire.",
-        "flavor": null,
-        "special": ""
+        "flavor": null
     },
     {
         "id": "stormcatcher",
@@ -3071,8 +2939,7 @@
         ],
         "setup": false,
         "ability": "Nommez un rôle bon. S'il est en jeu, le joueur qui l'incarne ne peut mourir que par exécution, mais les joueurs malfaisants apprennent de qui il s'agit.",
-        "flavor": null,
-        "special": ""
+        "flavor": null
     },
     {
         "id": "toymaker",
@@ -3088,7 +2955,6 @@
         ],
         "setup": false,
         "ability": "Le démon peut choisir de ne pas attaquer et doit le faire au moins une fois par partie. Les mauvais joueurs obtiennent des informations de départ normales.",
-        "flavor": null,
-        "special": ""
+        "flavor": null
     }
 ]

@@ -2676,6 +2676,16 @@
         "flavor": ""
     },
     {
+        "id": "knaves",
+        "reminders": [],
+        "setup": false,
+        "name": "Furfanti",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Ci sono 2 Narratori: uno mente e uno dice la verità. Una volta per partita, al tramonto, potrebbero scambiarsi.",
+        "flavor": "Every wall is a door. Every meal is a feast."
+    },
+    {
         "id": "pope",
         "name": "Pope",
         "team": "loric",
@@ -2820,6 +2830,29 @@
         "setup": false,
         "ability": "The Storyteller assigns 1 or more players' characters.",
         "special": null
+    },
+    {
+        "id": "godofug",
+        "reminders": [
+            "Cappello"
+        ],
+        "setup": false,
+        "name": "Dio di Ug",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Un cappello Ug. Quando indossare cappello Ug, dovere parlare un suono alla volta, ma votare due volte. Se sbagliare, passare cappello Ug.",
+        "flavor": "Blessed are my children, for they see the beauty in simple things.",
+        "special": [
+            {
+                "type": "vote",
+                "name": "multiplier",
+                "value": 2
+            },
+            {
+                "type": "reminder",
+                "name": "public"
+            }
+        ]
     },
     {
         "id": "hellslibrarian",

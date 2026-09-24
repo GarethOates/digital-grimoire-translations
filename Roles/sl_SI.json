@@ -2682,6 +2682,16 @@
         "flavor": ""
     },
     {
+        "id": "knaves",
+        "reminders": [],
+        "setup": false,
+        "name": "Prevaranti",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Sta 2 Pripovedovalca: eden laže, drugi govori resnico. Enkrat na igro se lahko ob mraku zamenjata.",
+        "flavor": "Every wall is a door. Every meal is a feast."
+    },
+    {
         "id": "pope",
         "name": "Pope",
         "team": "loric",
@@ -2826,6 +2836,29 @@
         "setup": false,
         "ability": "The Storyteller assigns 1 or more players' characters.",
         "special": null
+    },
+    {
+        "id": "godofug",
+        "reminders": [
+            "Klobuk"
+        ],
+        "setup": false,
+        "name": "Bog Ug",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "En Ug klobuk. Ko nositi Ug klobuk, govoriti samo en glas naenkrat, ampak glasovati dvakrat. Če zgrešiti, podati Ug klobuk.",
+        "flavor": "Blessed are my children, for they see the beauty in simple things.",
+        "special": [
+            {
+                "type": "vote",
+                "name": "multiplier",
+                "value": 2
+            },
+            {
+                "type": "reminder",
+                "name": "public"
+            }
+        ]
     },
     {
         "id": "hellslibrarian",

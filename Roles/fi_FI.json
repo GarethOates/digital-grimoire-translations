@@ -2676,6 +2676,16 @@
         "flavor": ""
     },
     {
+        "id": "knaves",
+        "reminders": [],
+        "setup": false,
+        "name": "Veijarit",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Tarinankertojia on 2: toinen valehtelee ja toinen puhuu totta. Kerran pelissä, iltahämärissä, he saattavat vaihtaa osia.",
+        "flavor": "Every wall is a door. Every meal is a feast."
+    },
+    {
         "id": "pope",
         "name": "Paavi",
         "team": "loric",
@@ -2820,6 +2830,29 @@
         "setup": false,
         "ability": "Tarinankertoja määrittää kaikkien pelaajien hahmot.",
         "special": null
+    },
+    {
+        "id": "godofug",
+        "reminders": [
+            "Hattu"
+        ],
+        "setup": false,
+        "name": "Ugin Jumala",
+        "team": "loric",
+        "edition": "loric",
+        "ability": "Yksi Ug-hattu. Kun pitää Ug-hattu, puhua vain yksi äänne kerrallaan, mutta äänestää kahdesti. Jos epäonnistua, antaa Ug-hattu eteenpäin.",
+        "flavor": "Blessed are my children, for they see the beauty in simple things.",
+        "special": [
+            {
+                "type": "vote",
+                "name": "multiplier",
+                "value": 2
+            },
+            {
+                "type": "reminder",
+                "name": "public"
+            }
+        ]
     },
     {
         "id": "hellslibrarian",
