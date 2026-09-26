@@ -421,7 +421,8 @@
         "poisoned": "Forgiftet",
         "drunk": "Full",
         "dead": "Død",
-        "noability": "Uten evne"
+        "noability": "Uten evne",
+        "lunch": "Lunsj"
     },
     "radial_menu": {
         "roles": "Roller",
@@ -555,7 +556,7 @@
         "town_info_votes": "Gjenværende stemmer",
         "town_info_majority": "Flertall",
         "start_game": "Start spill",
-        "assign_progress": "{assigned} av {total} seter fylt",
+        "assign_progress": "{assigned} av {total} seter trukket",
         "tap_seat_to_assign": "Trykk for å tildele en spiller til dette setet",
         "tap_seat_hint": "Trykk på et sete for å trekke en rolle til det",
         "seat": "Sete"
@@ -585,8 +586,8 @@
         "assign_role_button": "Tildel rolle",
         "choose_role": "Velg en rolle",
         "prepare_game": "Navn og roller",
-        "drag_name_to_seat": "Dra et navn til et sete",
-        "drag_role_to_seat": "Dra en rolle til et sete for å gi spilleren den rollen (valgfritt)",
+        "tap_name_to_seat": "Trykk på et navn for å fylle neste ledige sete. Trykk på et sete for å tømme det.",
+        "tap_role_then_seat": "Trykk på en rolle, og trykk deretter på et sete for å gi spilleren den rollen (valgfritt)",
         "all_names_seated": "Alle er plassert",
         "preparing_town": "Forbereder byen din…"
     },
@@ -711,6 +712,7 @@
         "change_pin": "Endre PIN-kode",
         "unlock_title": "Kun for historiefortelleren",
         "unlock_pin_prompt": "Skriv inn din 4-sifrede PIN-kode",
+        "check_pin_prompt": "Skriv inn PIN-koden din for å sjekke at du husker den",
         "unlock_pin_wrong": "Feil PIN-kode",
         "unlock_throttled": "For mange forsøk. Prøv igjen om {seconds} s.",
         "reset_hint": "Glemt PIN-koden? Slå av Historieforteller-lås i Innstillinger."

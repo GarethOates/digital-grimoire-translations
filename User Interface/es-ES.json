@@ -86,7 +86,8 @@
         "poisoned": "Envenenado",
         "drunk": "Borracho",
         "dead": "Muerto",
-        "noability": "Sin habilidad"
+        "noability": "Sin habilidad",
+        "lunch": "Almuerzo"
     },
     "radial_menu": {
         "roles": "Roles",
@@ -555,7 +556,7 @@
         "town_info_votes": "Votos Restantes",
         "town_info_majority": "Mayoría",
         "start_game": "Iniciar Juego",
-        "assign_progress": "{assigned} de {total} asientos ocupados",
+        "assign_progress": "{assigned} de {total} asientos sacados",
         "tap_seat_to_assign": "Toca para asignar un jugador a este asiento",
         "tap_seat_hint": "Toca un asiento para sacarle un rol",
         "seat": "Asiento"
@@ -585,8 +586,8 @@
         "assign_role_button": "Asignar Rol",
         "choose_role": "Elige un Rol",
         "prepare_game": "Nombres y Roles",
-        "drag_name_to_seat": "Arrastra un nombre a un asiento",
-        "drag_role_to_seat": "Arrastra un rol a un asiento para asignarle ese rol a ese jugador (opcional)",
+        "tap_name_to_seat": "Toca un nombre para llenar el próximo asiento vacío. Toca un asiento para limpiarlo.",
+        "tap_role_then_seat": "Toca un rol y luego toca un asiento para asignarle ese rol a ese jugador (opcional)",
         "all_names_seated": "Todos están asignados",
         "preparing_town": "Preparando tu pueblo…"
     },
@@ -711,6 +712,7 @@
         "change_pin": "Cambiar PIN",
         "unlock_title": "Solo el Narrador",
         "unlock_pin_prompt": "Introduce tu PIN de 4 dígitos",
+        "check_pin_prompt": "Introduce tu PIN para comprobar que lo recuerdas",
         "unlock_pin_wrong": "PIN incorrecto",
         "unlock_throttled": "Demasiados intentos. Inténtalo de nuevo en {seconds} s.",
         "reset_hint": "¿Olvidaste tu PIN? Desactiva el Bloqueo del Narrador en Ajustes."

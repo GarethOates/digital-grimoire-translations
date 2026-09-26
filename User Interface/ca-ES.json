@@ -86,7 +86,8 @@
         "poisoned": "Emmetzinat",
         "drunk": "Borratxo",
         "dead": "Mort",
-        "noability": "Sense habilitat"
+        "noability": "Sense habilitat",
+        "lunch": "Menjar"
     },
     "radial_menu": {
         "roles": "Rols",
@@ -555,7 +556,7 @@
         "town_info_votes": "Vots restants",
         "town_info_majority": "Majoria",
         "start_game": "Comença la partida",
-        "assign_progress": "{assigned} de {total} seients ocupats",
+        "assign_progress": "{assigned} de {total} seients extrets",
         "tap_seat_to_assign": "Toqueu aquest seient per a assignar-hi un jugador",
         "tap_seat_hint": "Toqueu un seient per a extreure-li un rol",
         "seat": "Seient"
@@ -585,8 +586,8 @@
         "assign_role_button": "Assigna el rol",
         "choose_role": "Trieu un rol",
         "prepare_game": "Noms i rols",
-        "drag_name_to_seat": "Arrossegueu un nom a un seient",
-        "drag_role_to_seat": "Arrossegueu un rol a un seient per a assignar aquest rol a aquest jugador (opcional)",
+        "tap_name_to_seat": "Toqueu un nom per a omplir el següent seient buit. Toqueu un seient per a netejar-lo.",
+        "tap_role_then_seat": "Toqueu un rol i després toqueu un seient per a assignar aquest rol a aquest jugador (opcional)",
         "all_names_seated": "Tots estan assignats",
         "preparing_town": "S’està preparant el vostre poble…"
     },
@@ -711,6 +712,7 @@
         "change_pin": "Canvia el PIN",
         "unlock_title": "Només per al narrador",
         "unlock_pin_prompt": "Introduïu el PIN de 4 dígits",
+        "check_pin_prompt": "Introduïu el PIN per comprovar que el recordeu",
         "unlock_pin_wrong": "PIN incorrecte",
         "unlock_throttled": "Hi ha hagut massa intents. Torneu-ho a provar d’aquí a {seconds} s.",
         "reset_hint": "Heu oblidat el PIN? Desactiveu «Bloqueig del narrador» a «Configuració»."

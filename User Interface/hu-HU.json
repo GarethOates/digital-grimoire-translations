@@ -86,7 +86,8 @@
         "poisoned": "Mérgezett",
         "drunk": "Részeg",
         "dead": "Halott",
-        "noability": "Nincs képessége"
+        "noability": "Nincs képessége",
+        "lunch": "Kaja"
     },
     "radial_menu": {
         "roles": "Karakterek",
@@ -555,7 +556,7 @@
         "town_info_votes": "Megmaradt szavazatok",
         "town_info_majority": "Többséghez szükséges",
         "start_game": "Játék indítása",
-        "assign_progress": "{assigned}/{total} ülőhely hozzárendelve",
+        "assign_progress": "{assigned}/{total} ülőhely húzva",
         "tap_seat_to_assign": "Koppints, hogy játékost rendelj ehhez az ülőhelyhez",
         "tap_seat_hint": "Koppints egy ülőhelyre, hogy karaktert húzz hozzá",
         "seat": "Ülőhely"
@@ -585,8 +586,8 @@
         "assign_role_button": "Karakter hozzárendelése",
         "choose_role": "Válassz egy karaktert",
         "prepare_game": "Nevek és karakterek",
-        "drag_name_to_seat": "Húzz egy nevet egy ülőhelyre",
-        "drag_role_to_seat": "Húzz egy karaktert egy ülőhelyre, hogy azt a karaktert hozzárendeld ahhoz a játékoshoz (opcionális)",
+        "tap_name_to_seat": "Koppints egy névre, hogy betöltsd a következő üres ülőhelyet. Koppints egy ülőhelyre, hogy töröld azt.",
+        "tap_role_then_seat": "Koppints egy karakterre, majd koppints egy ülőhelyre, hogy azt a karaktert hozzárendeld ahhoz a játékoshoz (opcionális)",
         "all_names_seated": "Mindenki le van ültetve",
         "preparing_town": "A városod előkészítése…"
     },
@@ -711,6 +712,7 @@
         "change_pin": "PIN-kód módosítása",
         "unlock_title": "Csak a mesélőnek",
         "unlock_pin_prompt": "Add meg a 4 jegyű PIN-kódodat",
+        "check_pin_prompt": "Add meg a PIN-kódodat, hogy ellenőrizd, emlékszel-e rá",
         "unlock_pin_wrong": "Hibás PIN-kód",
         "unlock_throttled": "Túl sok próbálkozás. Próbáld újra {seconds} másodperc múlva.",
         "reset_hint": "Elfelejtetted a PIN-kódodat? Kapcsold ki a Mesélői zárolást a Beállításokban."

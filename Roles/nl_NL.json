@@ -1770,8 +1770,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Vandaag gestorven",
-            "vergiftet"
+            "Lunch",
+            "Vergiftigd"
         ],
         "setup": false,
         "ability": "Je hebt de vaardigheid van de laatst geëxecuteerde dode speler. Is hij kwaad, dan ben je vergiftigd totdat een goede speler door executie sterft.",

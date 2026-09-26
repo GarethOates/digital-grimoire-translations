@@ -86,7 +86,8 @@
         "poisoned": "Poisoned",
         "drunk": "Drunk",
         "dead": "Dead",
-        "noability": "No Ability"
+        "noability": "No Ability",
+        "lunch": "Lunch"
     },
     "radial_menu": {
         "roles": "Roles",
@@ -555,7 +556,7 @@
         "town_info_votes": "Votes Remaining",
         "town_info_majority": "Majority",
         "start_game": "Start Game",
-        "assign_progress": "{assigned} of {total} seats filled",
+        "assign_progress": "{assigned} of {total} seats drawn",
         "tap_seat_to_assign": "Tap to assign a player to this seat",
         "tap_seat_hint": "Tap a seat to draw a role for it",
         "seat": "Seat"
@@ -585,8 +586,8 @@
         "assign_role_button": "Assign Role",
         "choose_role": "Choose a Role",
         "prepare_game": "Names & Roles",
-        "drag_name_to_seat": "Drag a name onto a seat",
-        "drag_role_to_seat": "Drag a role onto a seat to give that player that role (optional)",
+        "tap_name_to_seat": "Tap a name to fill the next empty seat. Tap a seat to clear it.",
+        "tap_role_then_seat": "Tap a role, then tap a seat to give that player that role (optional)",
         "all_names_seated": "Everyone is seated",
         "preparing_town": "Preparing your town…"
     },
@@ -711,6 +712,7 @@
         "change_pin": "Change PIN",
         "unlock_title": "Storyteller only",
         "unlock_pin_prompt": "Enter your 4-digit PIN",
+        "check_pin_prompt": "Enter your PIN to check you remember it",
         "unlock_pin_wrong": "Incorrect PIN",
         "unlock_throttled": "Too many attempts. Try again in {seconds}s.",
         "reset_hint": "Forgotten your PIN? Turn off Storyteller Lock in Settings."

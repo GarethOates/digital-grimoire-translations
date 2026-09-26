@@ -86,7 +86,8 @@
         "poisoned": "Vergiftet",
         "drunk": "Betrunken",
         "dead": "Tot",
-        "noability": "Keine Fähigkeit"
+        "noability": "Keine Fähigkeit",
+        "lunch": "Zuletzt hingerichtet"
     },
     "radial_menu": {
         "roles": "Rollen",
@@ -555,7 +556,7 @@
         "town_info_votes": "Verbleibende Stimmen",
         "town_info_majority": "Mehrheit",
         "start_game": "Spiel starten",
-        "assign_progress": "{assigned} von {total} Plätzen besetzt",
+        "assign_progress": "{assigned} von {total} Plätzen gezogen",
         "tap_seat_to_assign": "Tippen, um diesem Platz einen Spieler zuzuweisen",
         "tap_seat_hint": "Tippen, um für diesen Platz eine Rolle zu ziehen",
         "seat": "Platz"
@@ -585,8 +586,8 @@
         "assign_role_button": "Rolle zuweisen",
         "choose_role": "Wähle eine Rolle",
         "prepare_game": "Namen & Rollen",
-        "drag_name_to_seat": "Ziehen, um einem Platz einen Namen zuzuweisen",
-        "drag_role_to_seat": "Ziehen, um einem Platz eine Rolle zuzuweisen, damit dieser Spieler diese Rolle erhält (optional)",
+        "tap_name_to_seat": "Tippe auf einen Namen, um den nächsten leeren Platz zu besetzen. Tippe auf einen Platz, um ihn zu löschen.",
+        "tap_role_then_seat": "Tippe auf eine Rolle und dann auf einen Platz, um diesem Spieler diese Rolle zu geben (optional)",
         "all_names_seated": "Alle sind platziert",
         "preparing_town": "Ihre Stadt wird vorbereitet…"
     },
@@ -711,6 +712,7 @@
         "change_pin": "PIN-Code ändern",
         "unlock_title": "Nur für den Geschichtenerzähler",
         "unlock_pin_prompt": "Geben Sie Ihren 4-stelligen PIN-Code ein",
+        "check_pin_prompt": "Geben Sie Ihren PIN-Code ein, um zu prüfen, ob Sie sich noch daran erinnern",
         "unlock_pin_wrong": "Falscher PIN-Code",
         "unlock_throttled": "Zu viele Versuche. Versuchen Sie es in {seconds} s erneut.",
         "reset_hint": "PIN-Code vergessen? Deaktivieren Sie die Geschichtenerzähler-Sperre in den Einstellungen."

@@ -1770,8 +1770,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Heute gestorben",
-            "vergiftet"
+            "Zuletzt hingerichtet",
+            "Vergiftet"
         ],
         "setup": false,
         "ability": "Du hast die Fähigkeit des zuletzt hingerichteten toten Spielers. Ist er böse, bist du vergiftet, bis ein guter Spieler durch eine Hinrichtung stirbt.",

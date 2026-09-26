@@ -421,7 +421,8 @@
         "poisoned": "Empoisonné",
         "drunk": "Ivre",
         "dead": "Assassiné",
-        "noability": "Sans capacité"
+        "noability": "Sans capacité",
+        "lunch": "Miam"
     },
     "radial_menu": {
         "roles": "Rôles",
@@ -555,7 +556,7 @@
         "town_info_votes": "Votes Restants",
         "town_info_majority": "Majorité",
         "start_game": "Démarrer le jeu",
-        "assign_progress": "{assigned} sur {total} places remplies",
+        "assign_progress": "{assigned} sur {total} places tirées",
         "tap_seat_to_assign": "Appuyer pour assigner un joueur à cette place",
         "tap_seat_hint": "Appuyer sur une place pour lui tirer un rôle",
         "seat": "Place"
@@ -585,8 +586,8 @@
         "assign_role_button": "Attribuer le rôle",
         "choose_role": "Choisissez un rôle",
         "prepare_game": "Noms et rôles",
-        "drag_name_to_seat": "Glisser un nom sur une place",
-        "drag_role_to_seat": "Glisser un rôle sur une place pour attribuer ce rôle à ce joueur (facultatif)",
+        "tap_name_to_seat": "Tapez sur un nom pour remplir la prochaine place vide. Tapez sur une place pour l'effacer.",
+        "tap_role_then_seat": "Tapez sur un rôle, puis sur une place pour attribuer ce rôle à ce joueur (facultatif)",
         "all_names_seated": "Tout le monde est assis",
         "preparing_town": "Préparation de votre village…"
     },
@@ -711,6 +712,7 @@
         "change_pin": "Changer le code PIN",
         "unlock_title": "Réservé au Conteur",
         "unlock_pin_prompt": "Entrez votre code PIN à 4 chiffres",
+        "check_pin_prompt": "Entrez votre code PIN pour vérifier que vous vous en souvenez",
         "unlock_pin_wrong": "Code PIN incorrect",
         "unlock_throttled": "Trop de tentatives. Réessayez dans {seconds} s.",
         "reset_hint": "Code PIN oublié ? Désactivez le verrouillage du Conteur dans les Paramètres."

@@ -86,7 +86,8 @@
     "poisoned": "Envenenado",
     "drunk": "Bêbado",
     "dead": "Morto",
-    "noability": "No Ability"
+    "noability": "No Ability",
+    "lunch": "Habilidade adquirida"
   },
   "radial_menu": {
     "roles": "Personagens",
@@ -555,7 +556,7 @@
     "town_info_votes": "Votos restantes",
     "town_info_majority": "Maioria",
     "start_game": "Iniciar jogo",
-    "assign_progress": "{assigned} de {total} assentos ocupados",
+    "assign_progress": "{assigned} de {total} assentos comprados",
     "tap_seat_to_assign": "Clique para designar um jogador para esse assento",
     "tap_seat_hint": "Tap a seat to draw a role for it",
     "seat": "Assento"
@@ -585,8 +586,8 @@
     "assign_role_button": "Atribuir personagem",
     "choose_role": "Escolher um personagem",
     "prepare_game": "Names & Roles",
-    "drag_name_to_seat": "Drag a name onto a seat",
-    "drag_role_to_seat": "Drag a role onto a seat to give that player that role (optional)",
+    "tap_name_to_seat": "Toque em um nome para preencher o próximo assento vazio. Toque em um assento para limpá-lo.",
+    "tap_role_then_seat": "Toque em um personagem e depois toque em um assento para atribuir esse personagem a esse jogador (opcional)",
     "all_names_seated": "Everyone is seated",
     "preparing_town": "Preparing your town…"
   },
@@ -711,6 +712,7 @@
     "change_pin": "Mudar PIN",
     "unlock_title": "Apenas para o narrador",
     "unlock_pin_prompt": "Insira o PIN de 4 dígitos",
+    "check_pin_prompt": "Insira o PIN para verificar se você ainda se lembra dele",
     "unlock_pin_wrong": "PIN incorreto",
     "unlock_throttled": "tentativas demais. tente em {seconds}s.",
     "reset_hint": "Esqueceu o PIN? Desligue a trava do narrador nas configurações."

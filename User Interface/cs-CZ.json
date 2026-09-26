@@ -86,7 +86,8 @@
         "poisoned": "Otrávený",
         "drunk": "Opilý",
         "dead": "Mrtvý",
-        "noability": "Bez schopnosti"
+        "noability": "Bez schopnosti",
+        "lunch": "Dnes zemřel"
     },
     "radial_menu": {
         "roles": "Role",
@@ -555,7 +556,7 @@
         "town_info_votes": "Zbývající hlasy",
         "town_info_majority": "Většina",
         "start_game": "Spustit hru",
-        "assign_progress": "{assigned} z {total} míst obsazeno",
+        "assign_progress": "{assigned} z {total} míst vylosováno",
         "tap_seat_to_assign": "Klepnutím přiřadíte hráče na toto místo",
         "tap_seat_hint": "Klepnutím na místo pro něj vylosujete roli",
         "seat": "Místo"
@@ -585,8 +586,8 @@
         "assign_role_button": "Přiřadit roli",
         "choose_role": "Vybrat roli",
         "prepare_game": "Jména a role",
-        "drag_name_to_seat": "Přetažením přiřadíte jméno na místo",
-        "drag_role_to_seat": "Přetažením role na místo přiřadíte danou roli tomuto hráči (volitelné)",
+        "tap_name_to_seat": "Klepnutím na jméno obsadíte další prázdné místo. Klepnutím na místo ho vymažete.",
+        "tap_role_then_seat": "Klepněte na roli, poté na místo, abyste tomuto hráči přiřadili danou roli (volitelné)",
         "all_names_seated": "Všichni jsou usazeni",
         "preparing_town": "Připravuje se vaše město…"
     },
@@ -711,6 +712,7 @@
         "change_pin": "Změnit PIN",
         "unlock_title": "Jen pro Vypravěče",
         "unlock_pin_prompt": "Zadejte 4-místný PIN",
+        "check_pin_prompt": "Zadejte svůj PIN, abyste ověřili, že si ho pamatujete",
         "unlock_pin_wrong": "Nesprávný PIN",
         "unlock_throttled": "Moc pokusů. Vyčkejte {seconds} sekund.",
         "reset_hint": "Zapomněli jste PIN? Vypněte Zámek pro Vypravěče v Nastavení."

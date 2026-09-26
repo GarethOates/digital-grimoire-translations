@@ -86,7 +86,8 @@
         "poisoned": "Vergiftigd",
         "drunk": "Dronken",
         "dead": "Dood",
-        "noability": "Geen vaardigheid"
+        "noability": "Geen vaardigheid",
+        "lunch": "Lunch"
     },
     "radial_menu": {
         "roles": "Rollen",
@@ -555,7 +556,7 @@
         "town_info_votes": "Resterende stemmen",
         "town_info_majority": "Meerderheid",
         "start_game": "Spel starten",
-        "assign_progress": "{assigned} van {total} plaatsen bezet",
+        "assign_progress": "{assigned} van {total} plaatsen getrokken",
         "tap_seat_to_assign": "Tik om een speler aan deze plaats toe te wijzen",
         "tap_seat_hint": "Tik op een plaats om er een rol voor te trekken",
         "seat": "Plaats"
@@ -585,8 +586,8 @@
         "assign_role_button": "Rol toewijzen",
         "choose_role": "Kies een rol",
         "prepare_game": "Namen en rollen",
-        "drag_name_to_seat": "Sleep een naam naar een plaats",
-        "drag_role_to_seat": "Sleep een rol naar een plaats om die speler die rol te geven (optioneel)",
+        "tap_name_to_seat": "Tik op een naam om de volgende lege plaats te vullen. Tik op een plaats om deze te wissen.",
+        "tap_role_then_seat": "Tik op een rol en tik daarna op een plaats om die speler die rol te geven (optioneel)",
         "all_names_seated": "Iedereen is geplaatst",
         "preparing_town": "Je stad wordt voorbereid…"
     },
@@ -711,6 +712,7 @@
         "change_pin": "Pincode wijzigen",
         "unlock_title": "Alleen voor de Verteller",
         "unlock_pin_prompt": "Voer je pincode van 4 cijfers in",
+        "check_pin_prompt": "Voer je pincode in om te controleren of je hem nog weet",
         "unlock_pin_wrong": "Onjuiste pincode",
         "unlock_throttled": "Te veel pogingen. Probeer het over {seconds} s opnieuw.",
         "reset_hint": "Pincode vergeten? Schakel Vertellersvergrendeling uit in Instellingen."
