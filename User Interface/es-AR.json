@@ -79,8 +79,10 @@
         "translation_database_only": "Lo siento. Solamente los guiones cargados desde la base de datos se pueden traducir por ahora.",
         "invalid_script_url": "Eso no parece una URL de guión. Ingresá la dirección web completa, que empiece con https://",
         "token_distribution_failed": "No se pudieron enviar las fichas a los dispositivos de los jugadores. Revisá tu conexión e intentá de nuevo.",
-        "script_roles_failed": "No se pudieron cargar los personajes de este guión. Revisá tu conexión e intentá de nuevo.",
-        "roles_not_found": "No se pudieron encontrar estos personajes: {roles}"
+        "script_roles_failed": "No se pudieron cargar los roles de este guión. Revisá tu conexión e intentá de nuevo.",
+        "script_json_invalid": "No se pudo leer ese guión. Revisá que sea un JSON de guión válido.",
+        "roles_not_found": "No se pudieron encontrar estos roles: {roles}",
+        "invalid_import_link": "Este enlace de importación está roto o no es compatible, así que no se cargó nada."
     },
     "status": {
         "poisoned": "Envenenado",
@@ -102,7 +104,8 @@
     },
     "nav": {
         "brand": "Grimorio Digital",
-        "offline": "Offline",
+        "offline": "Sin conexión",
+        "companion": "Compañero del jugador",
         "game": {
             "title": "Partida",
             "home": "Nuevo...",
@@ -111,11 +114,7 @@
             "town_view": "Vista del pueblo"
         },
         "sheets": {
-            "title": "Hojas",
-            "character": "Personaje",
-            "night_order": "Orden nocturno",
-            "rules": "Reglas",
-            "script_tool": "Abrir en Script Tool"
+            "rules": "Reglas"
         },
         "settings": {
             "title": "Opciones",
@@ -133,8 +132,6 @@
         "mobile": {
             "home": "Nueva partida",
             "save_game": "Guardar partida",
-            "character_sheet": "Hoja de personaje",
-            "night_order_sheet": "Hoja de orden nocturno",
             "language": "Lenguaje"
         }
     },
@@ -142,7 +139,8 @@
         "return_home": {
             "title": "Volver al inicio",
             "message": "¿Estás seguro que querés volver a la pantalla de inicio? Vas a perder la partida actual.",
-            "keep_seating": "Mantener la disposición actual de los asientos para la próxima partida"
+            "keep_seating": "Mantener la disposición actual de los asientos para la próxima partida",
+            "keep_names": "Mantener los nombres en los mismos asientos"
         },
         "save_game": {
             "title": "Guardar partida",
@@ -232,7 +230,7 @@
             "message": "Mensaje",
             "background_colour": "Color del fondo",
             "text_colour": "Color del texto",
-            "select_character_enabled": "¿Permitir seleccionar personaje/s?",
+            "select_character_enabled": "¿Permitir seleccionar rol/es?",
             "link_roles": "Vincular roles"
         },
         "delete_town": {
@@ -267,7 +265,7 @@
             "volume": "Volumen: {volume}%",
             "volume_unsupported": "Usá los botones de tu dispositivo para controlar el volumen del audio",
             "add_music_button": "Añadir archivos de música",
-            "playlist_title": "Playlist ({count} tracks)",
+            "playlist_title": "Lista de reproducción ({count} pistas)",
             "no_music_loaded": "No hay música cargada",
             "add_music_prompt": "Apretá \"Añadir archivos de música\" para comenzar",
             "drag_to_reorder": "Arrastrá para reordenar",
@@ -358,13 +356,13 @@
         },
         "town": {
             "view_title": "Ver pueblo",
-            "description": "Tu pueblo es donde vive esta partida. Compartí el código y los jugadores van a poder obtener su personaje, leer el guión y seguir las reclamaciones desde su celular — o abrir la vista del pueblo en una tele para que todos la vean. Tu grimorio se guarda en nuestro servidor mientras un pueblo está activo.",
+            "description_phones": "Tu pueblo es donde vive esta partida. Compartí el código y los jugadores van a poder obtener su rol, leer el guión y seguir las reclamaciones desde su celular.",
+            "description_screen": "Tu pueblo es donde vive esta partida. Abrí la vista del pueblo en una tele para que todos la vean. Tu grimorio se guarda en nuestro servidor mientras un pueblo está activo.",
             "delete_button": "Borrar pueblo...",
             "code_label": "Código del pueblo",
             "open_on_screen": "Abrí la vista del pueblo en una tele o una tablet de repuesto:",
             "rename": "Renombrar pueblo",
             "title": "Pueblo",
-            "phones_heading": "Celulares de los jugadores",
             "screen_heading": "Pantalla grande"
         },
         "user": {
@@ -433,6 +431,10 @@
             "position_stretch": "Estirar",
             "use_icon_background": "Agregar fondo al icono",
             "icon_background_colour": "Color de fondo del icono"
+        },
+        "import_game": {
+            "title": "Importar partida",
+            "message": "¿Estás seguro que querés reemplazar tu partida actual por la importada? Vas a perder la partida actual."
         }
     },
     "roles": {
@@ -463,7 +465,6 @@
         "marionette_adjacency_warning": "Configuración inválida: la Marioneta debe estar colocada junto al Demonio. El Demonio está actualmente entre los otros dos Secuaces.",
         "layout_help": "Elegí la forma de disposición de los asientos.\nPodés ajustarla manualmente más tarde.",
         "choose_script": "Elegí tu guión",
-        "select_from_official": "Seleccioná un guión oficial o buscá uno personalizado.",
         "players": "{count} jugadores",
         "trouble_brewing": "Destilando Problemas",
         "trouble_brewing_desc": "El guión original. Perfecto para principiantes que están aprendiendo el juego.",
@@ -477,7 +478,6 @@
         "select_random_roles": "Seleccionar roles aleatorios",
         "shuffle_roles": "Mezclar roles",
         "travellers_to_show": "Viajeros a mostrar",
-        "edition": "Edición",
         "game_lock": "Múltiples copias",
         "allow": "Permitir",
         "disallow": "Impedir",
@@ -503,24 +503,16 @@
         "clear": "Limpiar",
         "by": "de",
         "view_bootlegger_info": "Ver información del Contrabandista",
-        "edit_names_optional": "Elegir jugadores",
-        "search_placeholder": "Buscar por nombre o author: <autor>",
+        "edit_names_optional": "Añadir nombres (opcional)",
+        "search_hint": "Buscar por nombre o URL.",
         "unknown": "desconocido",
         "no_matching_scripts": "No se encontraron guiones con ese nombre",
-        "no_script_loaded": "No se cargó un guión",
-        "download_only_database": "Sólo se permite la descarga de guiones de la base de datos",
-        "download_script_title": "Descargar {scriptName}",
-        "download_pdf_title": "Descargar PDF de {scriptName}",
-        "or_load_own_script": "o cargá tu propio guión",
-        "botc_scripts_available": "Todos los guiones de botcscripts.com disponibles",
-        "from_url": "Desde URL",
-        "from_file": "Desde archivo",
+        "botc_scripts_available": "Todos los guiones de botcscripts.com disponibles.",
+        "script_loaded": "{scriptName} cargado",
         "from_json": "Desde JSON",
-        "upload_script": "Subir guión",
-        "download_script": "Descargar guión",
-        "script_url": "URL del guión",
-        "enter_url": "Ingresar URL",
         "paste_json_placeholder": "Copiá y pegá el JSON de tu guión acá...",
+        "from_file": "Desde archivo",
+        "upload_script": "Subir guión",
         "not_in_bag_role": "Seleccioná una ficha adicional para reemplazar esta en la bolsa. Se pondrá un recordatorio en el Grimorio para este rol.",
         "add_travellers_to_bag": "Agregar Viajeros a la bolsa (No recomendado)"
     },
@@ -558,7 +550,6 @@
         "start_game": "Empezar partida",
         "assign_progress": "{assigned} de {total} asientos sacados",
         "tap_seat_to_assign": "Tocá para asignar un jugador a este asiento",
-        "tap_seat_hint": "Tocá un asiento para sacarle un rol",
         "seat": "Asiento"
     },
     "draw_tokens": {
@@ -577,19 +568,36 @@
         "auto_assign_all_confirm": "Todos los asientos que aún no tienen rol se llenarán ahora. Los roles ya asignados se mantienen, el resto será aleatorio.",
         "no_players_connected": "No hay jugadores conectados",
         "no_tokens_available": "No hay fichas disponibles",
-        "distribute_to_devices": "Repartir a dispositivos",
-        "name_every_seat_first": "Asigná un nombre a cada asiento para mandar las fichas a los dispositivos",
+        "distribute_to_devices": "Mandar fichas",
+        "send_partial_confirm": "Solo se unieron {joined} de {total} jugadores. Quien no tenga celular no va a recibir su rol. ¿Mandar igual?",
+        "invite_players": "Invitar jugadores",
         "assign_role": "Asignar {roleName}",
         "disconnect_confirm": "¿Estás seguro que querés desconectar a <strong>{playerName}</strong>?",
         "player_rejoin": "El jugador saldrá de la sesión y va a tener que unirse otra vez.",
         "enter_player_name": "Ingresá el nombre del jugador",
         "assign_role_button": "Asignar rol",
         "choose_role": "Elegí un Rol",
-        "prepare_game": "Nombres y Roles",
-        "tap_name_to_seat": "Tocá un nombre para llenar el próximo asiento vacío. Tocá un asiento para limpiarlo.",
+        "prepare_game": "Prepará los Asientos",
+        "tap_name_to_seat": "Tocá un nombre para llenar {seat}. Tocá un asiento para limpiarlo.",
+        "tap_seat_to_clear": "Tocá un asiento para limpiarlo.",
         "tap_role_then_seat": "Tocá un rol y después tocá un asiento para asignarle ese rol a ese jugador (opcional)",
-        "all_names_seated": "Todos están asignados",
-        "preparing_town": "Preparando tu pueblo…"
+        "preparing_town": "Preparando tu pueblo…",
+        "handout_question": "¿Cómo reciben los jugadores sus roles?",
+        "mode_phones": "En su celular",
+        "mode_phones_hint": "Los jugadores se unen desde su celular y después vos le mandás a cada uno su rol.",
+        "mode_sushi": "Sushi Buffet",
+        "mode_sushi_hint": "Cada asiento ya tiene su rol del draft. Nombrar los asientos es opcional antes de empezar la partida.",
+        "mode_call_up": "Vienen a mí",
+        "mode_call_up_hint": "Llamá a cada jugador por turno. Toca su asiento para ver su rol.",
+        "mode_pass": "Pasar el dispositivo",
+        "mode_pass_hint": "Cada jugador saca su rol y después pasa el dispositivo. Bloqueado con tu PIN.",
+        "join_instructions": "Los jugadores van a {url} e ingresan el código",
+        "players_joined": "{joined} de {total} unidos",
+        "start_passing": "Empezar a pasar",
+        "pass_to": "Pasar el dispositivo a",
+        "draw_my_character": "Sacar mi rol",
+        "hand_back": "Devolvé el dispositivo al Narrador",
+        "storyteller_unlock": "Soy el Narrador"
     },
     "town": {
         "toggle_widgets": "Alternar widgets",
@@ -635,7 +643,7 @@
         "show_card": "Mostrar tarjeta...",
         "create_custom_card": "Crear tarjeta personalizada",
         "cards": "Tarjetas",
-        "add_character": "Añadir personaje"
+        "add_character": "Añadir rol"
     },
     "controls": {
         "timer_expired_reset": "Terminó el temporizador - Tocalo para resetearlo",
@@ -662,7 +670,8 @@
         "first_night_order": "Orden de la primera noche",
         "other_night_order": "Orden de las otras noches",
         "toggle_navigation": "Alternar navegación",
-        "notification_armed": "Notificación habilitada"
+        "notification_armed": "Notificación habilitada",
+        "phase_controls": "Controles de día y noche"
     },
     "join": {
         "title": "Unirse a sesión de la partida",
@@ -698,7 +707,7 @@
         "first_night": "Primera noche",
         "other_nights": "Otras noches",
         "end_night_phase": "Terminar noche",
-        "no_night_actions": "No hay personajes con acciones nocturnas",
+        "no_night_actions": "No hay roles con acciones nocturnas",
         "skip_dead": "Saltear muertos"
     },
     "lock": {
@@ -721,5 +730,11 @@
         "nominated": "{player} el {role} fue nominado",
         "nominates": "{player} el {role} está nominando",
         "marked_dead": "{player} el {role} fue marcado como muerto"
+    },
+    "splash": {
+        "question": "¿Dirigís la partida o jugás en ella?",
+        "storyteller": "Narrador",
+        "storyteller_hint": "Preparás y dirigís la partida",
+        "player_hint": "Unite a un pueblo, mirá el guión y el orden nocturno"
     }
 }

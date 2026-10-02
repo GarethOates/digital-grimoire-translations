@@ -78,6 +78,7 @@
     "nav": {
         "brand": "Digital Grimoire",
         "offline": "Frakoblet",
+        "companion": "Spillerledsager",
         "game": {
             "title": "Spill",
             "home": "Ny...",
@@ -86,11 +87,7 @@
             "town_view": "Byvisning"
         },
         "sheets": {
-            "title": "Ark",
-            "character": "Karakter",
-            "night_order": "Nattens Rekkefølge",
-            "rules": "Regler",
-            "script_tool": "Åpne i Script Tool"
+            "rules": "Regler"
         },
         "settings": {
             "title": "Innstillinger",
@@ -108,8 +105,6 @@
         "mobile": {
             "home": "Nytt spill",
             "save_game": "Lagre spill",
-            "character_sheet": "Karakteroversikt",
-            "night_order_sheet": "Oversikt over Nattens Rekkefølge",
             "language": "Språk"
         }
     },
@@ -117,7 +112,8 @@
         "return_home": {
             "title": "Gå til forsiden",
             "message": "Er du sikker på at du vil gå tilbake til forsiden? Det nåværende spillet vil gå tapt.",
-            "keep_seating": "Behold det nåværende setearrangementet for neste spill"
+            "keep_seating": "Behold det nåværende setearrangementet for neste spill",
+            "keep_names": "Behold navnene på de samme setene"
         },
         "save_game": {
             "title": "Lagre spill",
@@ -207,7 +203,7 @@
             "message": "Melding",
             "background_colour": "Bakgrunnsfarge",
             "text_colour": "Tekstfarge",
-            "select_character_enabled": "Karaktervalg aktivert?",
+            "select_character_enabled": "Rollevalg aktivert?",
             "link_roles": "Lenke roller"
         },
         "delete_town": {
@@ -333,13 +329,13 @@
         },
         "town": {
             "view_title": "Vis by",
-            "description": "Byen din er der spillet ditt lever. Del koden, så kan spillerne hente karakteren sin, lese skriptet og følge med på påstander på telefonen sin — eller åpne byvisningen på en TV så alle kan se den. Grimoiren din lagres på serveren vår mens en by kjører.",
+            "description_phones": "Byen din er der spillet ditt lever. Del koden, så kan spillerne hente rollen sin, lese skriptet og følge med på påstander på mobilen sin.",
+            "description_screen": "Byen din er der spillet ditt lever. Åpne byvisningen på en TV så alle kan se den. Grimoiren din lagres på serveren vår mens en by kjører.",
             "delete_button": "Slett by...",
             "code_label": "Bykode",
             "open_on_screen": "Åpne byvisningen på en TV eller et ekstra nettbrett:",
             "rename": "Gi nytt navn til byen",
             "title": "By",
-            "phones_heading": "Spillernes mobiler",
             "screen_heading": "Stor skjerm"
         },
         "user": {
@@ -408,14 +404,20 @@
             "position_stretch": "Strekk",
             "use_icon_background": "Legg til ikonbakgrunn",
             "icon_background_colour": "Ikonbakgrunnsfarge"
+        },
+        "import_game": {
+            "title": "Importer spill",
+            "message": "Er du sikker på at du vil erstatte det nåværende spillet med det importerte? Det nåværende spillet vil gå tapt."
         }
     },
     "errors": {
         "translation_database_only": "Beklager. Kun skript lastet fra databasen kan oversettes for øyeblikket.",
         "invalid_script_url": "Dette ser ikke ut som en skript-URL. Skriv inn hele webadressen, som starter med https://",
         "token_distribution_failed": "Kunne ikke sende brikker til spillernes enheter. Sjekk tilkoblingen og prøv igjen.",
-        "script_roles_failed": "Kunne ikke laste inn karakterene i dette skriptet. Sjekk tilkoblingen og prøv igjen.",
-        "roles_not_found": "Fant ikke disse karakterene: {roles}"
+        "script_roles_failed": "Kunne ikke laste inn rollene i dette skriptet. Sjekk tilkoblingen og prøv igjen.",
+        "script_json_invalid": "Kunne ikke lese dette skriptet. Sjekk at det er gyldig skript-JSON.",
+        "roles_not_found": "Fant ikke disse rollene: {roles}",
+        "invalid_import_link": "Denne importlenken er ødelagt eller ikke støttet, så ingenting ble lastet inn."
     },
     "status": {
         "poisoned": "Forgiftet",
@@ -463,7 +465,6 @@
         "marionette_adjacency_warning": "Ugyldig oppsett: Tråddukken må sitte ved siden av Demonen. Demonen er for øyeblikket mellom de to andre Lakeiene.",
         "layout_help": "Velg formen på setearrangementet.\nDette kan justeres manuelt senere.",
         "choose_script": "Velg ditt skript",
-        "select_from_official": "Velg fra offisielle skript eller søk etter egendefinerte",
         "players": "{count} spillere",
         "trouble_brewing": "Ugler i Mosen",
         "trouble_brewing_desc": "Det originale skriptet. Perfekt for nybegynnere som lærer spillet.",
@@ -477,7 +478,6 @@
         "select_random_roles": "Velg tilfeldige roller",
         "shuffle_roles": "Stokk om på roller",
         "travellers_to_show": "Reisende som skal vises",
-        "edition": "Utgave",
         "game_lock": "Flere kopier",
         "allow": "Tillat",
         "disallow": "Ikke tillat",
@@ -503,24 +503,16 @@
         "clear": "Tøm",
         "by": "av",
         "view_bootlegger_info": "Vis Hjemmebrenner-informasjon",
-        "edit_names_optional": "Velg spillere",
-        "search_placeholder": "Søk etter navn eller author: <forfatter>",
+        "edit_names_optional": "Legg til navn (valgfritt)",
+        "search_hint": "Søk etter navn eller URL.",
         "unknown": "ukjent",
         "no_matching_scripts": "Ingen samsvarende skript funnet",
-        "no_script_loaded": "Ingen skript lastet inn",
-        "download_only_database": "Nedlasting er bare tilgjengelig for databaseskript",
-        "download_script_title": "Last ned {scriptName}",
-        "download_pdf_title": "Last ned PDF for {scriptName}",
-        "or_load_own_script": "eller last inn ditt eget skript",
-        "botc_scripts_available": "Alle skript fra botcscripts.com tilgjengelig",
-        "from_url": "Fra URL",
-        "from_file": "Fra fil",
+        "botc_scripts_available": "Alle skript fra botcscripts.com tilgjengelig.",
+        "script_loaded": "{scriptName} lastet inn",
         "from_json": "Fra JSON",
-        "upload_script": "Last opp skript",
-        "download_script": "Last ned skript",
-        "script_url": "Skript-URL",
-        "enter_url": "Skriv inn URL",
         "paste_json_placeholder": "Lim inn skript-JSON her...",
+        "from_file": "Fra fil",
+        "upload_script": "Last opp skript",
         "not_in_bag_role": "Velg en ekstra brikke som skal plasseres i posen i stedet for denne. En påminnelse vil bli plassert på Grimoiren for denne rollen.",
         "add_travellers_to_bag": "Legg til Reisende i posen (Ikke anbefalt)"
     },
@@ -558,7 +550,6 @@
         "start_game": "Start spill",
         "assign_progress": "{assigned} av {total} seter trukket",
         "tap_seat_to_assign": "Trykk for å tildele en spiller til dette setet",
-        "tap_seat_hint": "Trykk på et sete for å trekke en rolle til det",
         "seat": "Sete"
     },
     "draw_tokens": {
@@ -577,19 +568,36 @@
         "auto_assign_all_confirm": "Hvert sete som fortsatt mangler en rolle, blir fylt nå. Allerede tildelte roller beholdes, resten blir tilfeldige.",
         "no_players_connected": "Ingen spillere er koblet til",
         "no_tokens_available": "Ingen brikker tilgjengelig",
-        "distribute_to_devices": "Distribuer til enheter",
-        "name_every_seat_first": "Tildel hvert sete et navn for å sende brikker til enheter",
+        "distribute_to_devices": "Send brikker",
+        "send_partial_confirm": "Bare {joined} av {total} spillere har blitt med. De uten mobil får ikke rollen sin. Send likevel?",
+        "invite_players": "Inviter spillere",
         "assign_role": "Tildel {roleName}",
         "disconnect_confirm": "Er du sikker på at du vil frakoble {playerName}?",
         "player_rejoin": "Spilleren vil bli fjernet fra økten og må bli med på nytt.",
         "enter_player_name": "Skriv inn spillernavn",
         "assign_role_button": "Tildel rolle",
         "choose_role": "Velg en rolle",
-        "prepare_game": "Navn og roller",
-        "tap_name_to_seat": "Trykk på et navn for å fylle neste ledige sete. Trykk på et sete for å tømme det.",
+        "prepare_game": "Sett opp seter",
+        "tap_name_to_seat": "Trykk på et navn for å fylle {seat}. Trykk på et sete for å tømme det.",
+        "tap_seat_to_clear": "Trykk på et sete for å tømme det.",
         "tap_role_then_seat": "Trykk på en rolle, og trykk deretter på et sete for å gi spilleren den rollen (valgfritt)",
-        "all_names_seated": "Alle er plassert",
-        "preparing_town": "Forbereder byen din…"
+        "preparing_town": "Forbereder byen din…",
+        "handout_question": "Hvordan skal spillerne få rollene sine?",
+        "mode_phones": "På mobilen sin",
+        "mode_phones_hint": "Spillerne blir med på mobilen sin, så sender du rollen til hver enkelt.",
+        "mode_sushi": "Sushi Buffet",
+        "mode_sushi_hint": "Hvert sete har allerede fått rollen sin fra draften. Å navngi setene er valgfritt før du starter spillet.",
+        "mode_call_up": "De kommer til meg",
+        "mode_call_up_hint": "Kall opp hver spiller etter tur. De trykker på setet sitt for å se rollen sin.",
+        "mode_pass": "Send enheten videre",
+        "mode_pass_hint": "Hver spiller trekker rollen sin og sender så enheten videre. Låst med PIN-koden din.",
+        "join_instructions": "Spillerne går til {url} og skriver inn koden",
+        "players_joined": "{joined} av {total} har blitt med",
+        "start_passing": "Start videresending",
+        "pass_to": "Send enheten videre til",
+        "draw_my_character": "Trekk rollen min",
+        "hand_back": "Gi enheten tilbake til historiefortelleren",
+        "storyteller_unlock": "Jeg er historiefortelleren"
     },
     "town": {
         "toggle_widgets": "Veksle widgeter",
@@ -635,7 +643,7 @@
         "show_card": "Vis kort..",
         "create_custom_card": "Opprett egendefinert kort",
         "cards": "Kort",
-        "add_character": "Legg til karakter"
+        "add_character": "Legg til rolle"
     },
     "controls": {
         "timer_expired_reset": "Tidtaker utløpt - Klikk for å tilbakestille",
@@ -662,7 +670,8 @@
         "first_night_order": "Rekkefølge for første natt",
         "other_night_order": "Rekkefølge for andre netter",
         "toggle_navigation": "Veksle navigasjon",
-        "notification_armed": "Varsel aktivert"
+        "notification_armed": "Varsel aktivert",
+        "phase_controls": "Dag- og nattkontroller"
     },
     "join": {
         "title": "Bli med i spilløkten",
@@ -698,7 +707,7 @@
         "first_night": "Første Natt",
         "other_nights": "Andre Netter",
         "end_night_phase": "Avslutt natt",
-        "no_night_actions": "Ingen karakterer har natthandlinger",
+        "no_night_actions": "Ingen roller har natthandlinger",
         "skip_dead": "Hopp over døde"
     },
     "lock": {
@@ -721,5 +730,11 @@
         "nominated": "{player} {role} har blitt nominert",
         "nominates": "{player} {role} nominerer",
         "marked_dead": "{player} {role} har blitt merket som død"
+    },
+    "splash": {
+        "question": "Leder du spillet, eller spiller du i det?",
+        "storyteller": "Historieforteller",
+        "storyteller_hint": "Sett opp og led spillet",
+        "player_hint": "Bli med i en by, se skriptet og nattens rekkefølge"
     }
 }

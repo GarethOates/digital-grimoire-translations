@@ -80,7 +80,9 @@
         "invalid_script_url": "Ez nem tűnik szkript URL-nek. Add meg a teljes webcímet, ami https://-vel kezdődik.",
         "token_distribution_failed": "Nem sikerült elküldeni a jelölőket a játékosok eszközeire. Ellenőrizd a kapcsolatot, és próbáld újra.",
         "script_roles_failed": "Nem sikerült betölteni ennek a szkriptnek a karaktereit. Ellenőrizd a kapcsolatot, és próbáld újra.",
-        "roles_not_found": "Ezek a karakterek nem találhatók: {roles}"
+        "script_json_invalid": "Nem sikerült beolvasni ezt a szkriptet. Ellenőrizd, hogy érvényes szkript JSON-e.",
+        "roles_not_found": "Ezek a karakterek nem találhatók: {roles}",
+        "invalid_import_link": "Ez az importálási hivatkozás sérült vagy nem támogatott, ezért semmi sem töltődött be."
     },
     "status": {
         "poisoned": "Mérgezett",
@@ -103,6 +105,7 @@
     "nav": {
         "brand": "Digitális Grimoár",
         "offline": "Offline",
+        "companion": "Játékoskísérő",
         "game": {
             "title": "Játék",
             "home": "Új...",
@@ -111,11 +114,7 @@
             "town_view": "Város nézet"
         },
         "sheets": {
-            "title": "Segédletek",
-            "character": "Karakterlap",
-            "night_order": "Éjszakai segédlet",
-            "rules": "Szabályzat",
-            "script_tool": "Megnyitás a Script Toolban"
+            "rules": "Szabályzat"
         },
         "settings": {
             "title": "Beállítások",
@@ -133,8 +132,6 @@
         "mobile": {
             "home": "Új játék",
             "save_game": "Játék mentése",
-            "character_sheet": "Karakterlap",
-            "night_order_sheet": "Éjszakai segédlet",
             "language": "Nyelv"
         }
     },
@@ -142,7 +139,8 @@
         "return_home": {
             "title": "Vissza a Főoldalra",
             "message": "Biztosan vissza akarsz lépni a főoldalra? A félbehagyott játék el fog veszni.",
-            "keep_seating": "Az aktuális ülésrend megtartása a következő játékhoz"
+            "keep_seating": "Az aktuális ülésrend megtartása a következő játékhoz",
+            "keep_names": "A nevek megtartása ugyanazon ülőhelyeken"
         },
         "save_game": {
             "title": "Játék mentése",
@@ -358,13 +356,13 @@
         },
         "town": {
             "view_title": "Város nézet",
-            "description": "A városod az, ahol ez a játék zajlik. Oszd meg a kódot, és a játékosok megkaphatják a karakterüket, elolvashatják a szkriptet, és nyomon követhetik az állításokat a telefonjukon — vagy nyisd meg a város nézetet egy TV-n, hogy mindenki lássa. A Grimoárodat a szerverünkön tároljuk, amíg a város fut.",
+            "description_phones": "A városod az, ahol ez a játék zajlik. Oszd meg a kódot, és a játékosok megkaphatják a karakterüket, elolvashatják a szkriptet, és nyomon követhetik az állításokat a telefonjukon.",
+            "description_screen": "A városod az, ahol ez a játék zajlik. Nyisd meg a város nézetet egy TV-n, hogy mindenki lássa. A Grimoárodat a szerverünkön tároljuk, amíg a város fut.",
             "delete_button": "Város törlése...",
             "code_label": "Városkód",
             "open_on_screen": "Nyisd meg a város nézetet egy TV-n vagy tartalék táblagépen:",
             "rename": "Város átnevezése",
             "title": "Város",
-            "phones_heading": "Játékosok telefonjai",
             "screen_heading": "Nagy képernyő"
         },
         "user": {
@@ -433,6 +431,10 @@
             "position_stretch": "Kitöltés",
             "use_icon_background": "Ikon háttér beállítása",
             "icon_background_colour": "Ikon háttérszíne"
+        },
+        "import_game": {
+            "title": "Játék importálása",
+            "message": "Biztosan le akarod cserélni a jelenlegi játékodat az importáltra? A jelenlegi játékod el fog veszni."
         }
     },
     "roles": {
@@ -463,7 +465,6 @@
         "marionette_adjacency_warning": "Érvénytelen előkészítés: a Marionettnek a Démon mellett kell ülnie. A Démon jelenleg a másik két Csatlós között van.",
         "layout_help": "Válaszd ki az ülésrend formáját.\nEz később manuálisan állítható.",
         "choose_script": "Válassz szkriptet",
-        "select_from_official": "Válassz a hivatalos szkriptek közül, vagy keress egyedi szkriptet",
         "players": "{count} játékos",
         "trouble_brewing": "Gyülekező fellegek",
         "trouble_brewing_desc": "Az eredeti szkript. Tökéletes kezdőknek, akik most tanulják a játékot.",
@@ -477,7 +478,6 @@
         "select_random_roles": "Sorsolj karaktereket",
         "shuffle_roles": "Karakterek összekeverése",
         "travellers_to_show": "Utazók megjelenítése",
-        "edition": "Szkript szerint",
         "game_lock": "Ismétlődő karakterek",
         "allow": "Engedélyezve",
         "disallow": "Tiltva",
@@ -503,24 +503,16 @@
         "clear": "Törlés",
         "by": "által",
         "view_bootlegger_info": "Csempész információ megjelenítése",
-        "edit_names_optional": "Játékosok kiválasztása",
-        "search_placeholder": "Keresés név vagy author: <szerző> alapján",
+        "edit_names_optional": "Nevek hozzáadása (opcionális)",
+        "search_hint": "Keresés név vagy URL alapján.",
         "unknown": "ismeretlen",
         "no_matching_scripts": "Nem található a feltételeknek megfelelő szkript",
-        "no_script_loaded": "Nincs betöltött szkript",
-        "download_only_database": "A letöltés csak adatbázisbeli szkriptekhez érhető el",
-        "download_script_title": "{scriptName} letöltése",
-        "download_pdf_title": "{scriptName} PDF letöltése",
-        "or_load_own_script": "vagy töltsd be egy saját szkripted",
-        "botc_scripts_available": "A botcscripts.com összes szkriptje elérhető",
-        "from_url": "URL-ről",
-        "from_file": "Fájlból",
+        "botc_scripts_available": "A botcscripts.com összes szkriptje elérhető.",
+        "script_loaded": "{scriptName} betöltve",
         "from_json": "JSON-ból",
-        "upload_script": "Szkript feltöltése",
-        "download_script": "Szkript letöltése",
-        "script_url": "Szkript URL",
-        "enter_url": "Add meg az URL-t",
         "paste_json_placeholder": "Másold ide a JSON-t...",
+        "from_file": "Fájlból",
+        "upload_script": "Szkript feltöltése",
         "not_in_bag_role": "Válassz ki egy további tokent, amely e helyett a zsákba kerül. A Grimoárban meg fog jelenni egy emlékeztető ehhez a karakterhez.",
         "add_travellers_to_bag": "Utazók hozzáadása a húzózsákhoz (nem ajánlott)"
     },
@@ -558,7 +550,6 @@
         "start_game": "Játék indítása",
         "assign_progress": "{assigned}/{total} ülőhely húzva",
         "tap_seat_to_assign": "Koppints, hogy játékost rendelj ehhez az ülőhelyhez",
-        "tap_seat_hint": "Koppints egy ülőhelyre, hogy karaktert húzz hozzá",
         "seat": "Ülőhely"
     },
     "draw_tokens": {
@@ -577,19 +568,36 @@
         "auto_assign_all_confirm": "Minden ülőhely, amelyhez még nincs karakter rendelve, most megtelik. A már hozzárendelt karakterek megmaradnak, a többi véletlenszerű lesz.",
         "no_players_connected": "Nincs csatlakozott játékos",
         "no_tokens_available": "Nincsenek jelölők",
-        "distribute_to_devices": "Kiosztás az eszközökre",
-        "name_every_seat_first": "Rendelj nevet minden ülőhelyhez, hogy elküldhesd a jelölőket az eszközökre",
+        "distribute_to_devices": "Tokenek küldése",
+        "send_partial_confirm": "Csak {joined}/{total} játékos csatlakozott. Akinek nincs telefonja, nem kapja meg a karakterét. Mégis elküldöd?",
+        "invite_players": "Játékosok meghívása",
         "assign_role": "{roleName} hozzárendelése",
         "disconnect_confirm": "Biztos, hogy lecsatlakoztatod: <strong>{playerName}</strong>?",
         "player_rejoin": "A játékos eltávolításra kerül a munkamenetből, és újra kell csatlakoznia.",
         "enter_player_name": "Írd be a játékos nevét",
         "assign_role_button": "Karakter hozzárendelése",
         "choose_role": "Válassz egy karaktert",
-        "prepare_game": "Nevek és karakterek",
-        "tap_name_to_seat": "Koppints egy névre, hogy betöltsd a következő üres ülőhelyet. Koppints egy ülőhelyre, hogy töröld azt.",
+        "prepare_game": "Ülőhelyek előkészítése",
+        "tap_name_to_seat": "Koppints egy névre a(z) {seat} betöltéséhez. Koppints egy ülőhelyre, hogy töröld azt.",
+        "tap_seat_to_clear": "Koppints egy ülőhelyre, hogy töröld azt.",
         "tap_role_then_seat": "Koppints egy karakterre, majd koppints egy ülőhelyre, hogy azt a karaktert hozzárendeld ahhoz a játékoshoz (opcionális)",
-        "all_names_seated": "Mindenki le van ültetve",
-        "preparing_town": "A városod előkészítése…"
+        "preparing_town": "A városod előkészítése…",
+        "handout_question": "Hogyan kapják meg a játékosok a karakterüket?",
+        "mode_phones": "A telefonjukon",
+        "mode_phones_hint": "A játékosok a telefonjukon csatlakoznak, majd te elküldöd mindenkinek a karakterét.",
+        "mode_sushi": "Sushi Buffet",
+        "mode_sushi_hint": "Minden ülőhelyhez már hozzá van rendelve a karakter a draftból. Az ülőhelyek elnevezése opcionális, mielőtt elindítod a játékot.",
+        "mode_call_up": "Hozzám jönnek",
+        "mode_call_up_hint": "Hívd fel sorban a játékosokat. Megérintik az ülőhelyüket, hogy lássák a karakterüket.",
+        "mode_pass": "Az eszköz továbbadása",
+        "mode_pass_hint": "Minden játékos kihúzza a karakterét, majd továbbadja az eszközt. A PIN-kódoddal zárolva.",
+        "join_instructions": "A játékosok a(z) {url} címre mennek, és megadják a kódot",
+        "players_joined": "{joined}/{total} csatlakozott",
+        "start_passing": "Továbbadás indítása",
+        "pass_to": "Az eszköz továbbadása:",
+        "draw_my_character": "Karakterem kihúzása",
+        "hand_back": "Add vissza az eszközt a mesélőnek",
+        "storyteller_unlock": "Én vagyok a mesélő"
     },
     "town": {
         "toggle_widgets": "Megjelenő elemek",
@@ -662,7 +670,8 @@
         "first_night_order": "Első éjszaka sorrend",
         "other_night_order": "További éjszaka sorrend",
         "toggle_navigation": "Navigáció be- és kikapcsolása",
-        "notification_armed": "Értesítés beállítva"
+        "notification_armed": "Értesítés beállítva",
+        "phase_controls": "Nappali és éjszakai vezérlők"
     },
     "join": {
         "title": "Csatlakozz a játék munkamenethez",
@@ -721,5 +730,11 @@
         "nominated": "{player} ({role}) meg lett gyanúsítva",
         "nominates": "{player} ({role}) gyanúsít",
         "marked_dead": "{player} ({role}) halottnak lett jelölve"
+    },
+    "splash": {
+        "question": "Te vezeted a játékot, vagy játszol benne?",
+        "storyteller": "Mesélő",
+        "storyteller_hint": "Állítsd be és vezesd a játékot",
+        "player_hint": "Csatlakozz egy városhoz, nézd meg a szkriptet és az éjszakai sorrendet"
     }
 }

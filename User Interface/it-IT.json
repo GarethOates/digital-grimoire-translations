@@ -79,8 +79,10 @@
         "translation_database_only": "Solo gli script caricati dal database possono essere tradotti al momento.",
         "invalid_script_url": "Non sembra l'URL di un copione. Inserisci l'indirizzo web completo, iniziando con https://",
         "token_distribution_failed": "Impossibile inviare i gettoni ai dispositivi dei giocatori. Controlla la connessione e riprova.",
-        "script_roles_failed": "Impossibile caricare i personaggi di questo copione. Controlla la connessione e riprova.",
-        "roles_not_found": "Impossibile trovare questi personaggi: {roles}"
+        "script_roles_failed": "Impossibile caricare i ruoli di questo copione. Controlla la connessione e riprova.",
+        "script_json_invalid": "Impossibile leggere questo copione. Controlla che sia un JSON di copione valido.",
+        "roles_not_found": "Impossibile trovare questi ruoli: {roles}",
+        "invalid_import_link": "Questo link di importazione non è valido o non è supportato, quindi non è stato caricato nulla."
     },
     "status": {
         "poisoned": "Avvelenato",
@@ -103,6 +105,7 @@
     "nav": {
         "brand": "Grimorio Digitale",
         "offline": "Offline",
+        "companion": "Compagno del giocatore",
         "game": {
             "title": "Partita",
             "home": "Nuova...",
@@ -111,11 +114,7 @@
             "town_view": "Vista Città"
         },
         "sheets": {
-            "title": "Schede",
-            "character": "Personaggi",
-            "night_order": "Ordine-Notte",
-            "rules": "Regole",
-            "script_tool": "Apri nel Script Tool"
+            "rules": "Regole"
         },
         "settings": {
             "title": "Impostazioni",
@@ -133,8 +132,6 @@
         "mobile": {
             "home": "Nuova Partita",
             "save_game": "Salva Partita",
-            "character_sheet": "Scheda Personaggi",
-            "night_order_sheet": "Scheda Ordine-Notte",
             "language": "Lingua"
         }
     },
@@ -142,7 +139,8 @@
         "return_home": {
             "title": "Torna alla Home",
             "message": "Sei sicuro di voler tornare alla schermata iniziale? La partita attuale andrà persa.",
-            "keep_seating": "Mantieni la disposizione attuale dei posti per la prossima partita"
+            "keep_seating": "Mantieni la disposizione attuale dei posti per la prossima partita",
+            "keep_names": "Mantieni i nomi negli stessi posti"
         },
         "save_game": {
             "title": "Salva Partita",
@@ -232,7 +230,7 @@
             "message": "Messaggio",
             "background_colour": "Colore Sfondo",
             "text_colour": "Colore Testo",
-            "select_character_enabled": "Selezione Personaggio Abilitata?",
+            "select_character_enabled": "Selezione Ruolo Abilitata?",
             "link_roles": "Collega Ruoli"
         },
         "delete_town": {
@@ -358,13 +356,13 @@
         },
         "town": {
             "view_title": "Vedi Città",
-            "description": "La tua città è dove vive questa partita. Condividi il codice: i giocatori potranno ottenere il loro personaggio, leggere il copione e tenere traccia dei claim sul telefono — oppure apri la Vista Città su una TV perché tutti la vedano. Il tuo Grimorio viene salvato sul nostro server mentre una città è attiva.",
+            "description_phones": "La tua città è dove vive questa partita. Condividi il codice: i giocatori potranno ottenere il loro ruolo, leggere il copione e tenere traccia dei claim sul telefono.",
+            "description_screen": "La tua città è dove vive questa partita. Apri la Vista Città su una TV perché tutti la vedano. Il tuo Grimorio viene salvato sul nostro server mentre una città è attiva.",
             "delete_button": "Elimina Città...",
             "code_label": "Codice città",
             "open_on_screen": "Apri la Vista Città su una TV o un tablet di riserva:",
             "rename": "Rinomina città",
             "title": "Città",
-            "phones_heading": "Telefoni dei giocatori",
             "screen_heading": "Schermo grande"
         },
         "user": {
@@ -433,6 +431,10 @@
             "position_stretch": "Estendi",
             "use_icon_background": "Aggiungi sfondo icone",
             "icon_background_colour": "Colore sfondo icone"
+        },
+        "import_game": {
+            "title": "Importa Partita",
+            "message": "Sei sicuro di voler sostituire la partita attuale con quella importata? La partita attuale andrà persa."
         }
     },
     "roles": {
@@ -463,7 +465,6 @@
         "marionette_adjacency_warning": "Configurazione non valida: la Marionetta deve essere posizionata accanto al Demone. Il Demone è attualmente tra gli altri due Seguaci.",
         "layout_help": "Scegli la forma della disposizione dei posti.\nPuò essere modificata manualmente in seguito.",
         "choose_script": "Scegli il Copione",
-        "select_from_official": "Seleziona tra copioni ufficiali o cerca copioni personalizzati",
         "players": "{count} Giocatori",
         "trouble_brewing": "Trouble Brewing",
         "trouble_brewing_desc": "Il copione originale. Perfetto per i principianti.",
@@ -477,7 +478,6 @@
         "select_random_roles": "Seleziona Ruoli Casuali",
         "shuffle_roles": "Mescola i Ruoli",
         "travellers_to_show": "Viaggiatori da mostrare",
-        "edition": "Edizione",
         "game_lock": "Copie Multiple",
         "allow": "Consenti",
         "disallow": "Non consentire",
@@ -503,24 +503,16 @@
         "clear": "Cancella",
         "by": "di",
         "view_bootlegger_info": "Visualizza informazioni del Bootlegger",
-        "edit_names_optional": "Scegli giocatori",
-        "search_placeholder": "Cerca per nome o author: <autore>",
+        "edit_names_optional": "Aggiungi nomi (facoltativo)",
+        "search_hint": "Cerca per nome o URL.",
         "unknown": "sconosciuto",
         "no_matching_scripts": "Nessun copione trovato",
-        "no_script_loaded": "Nessun copione caricato",
-        "download_only_database": "Download disponibile solo per i copioni del database",
-        "download_script_title": "Scarica {scriptName}",
-        "download_pdf_title": "Scarica il PDF di {scriptName}",
-        "or_load_own_script": "oppure carica il tuo copione",
-        "botc_scripts_available": "Tutti i copioni di botcscripts.com disponibili",
-        "from_url": "Da URL",
-        "from_file": "Da File",
+        "botc_scripts_available": "Tutti i copioni di botcscripts.com disponibili.",
+        "script_loaded": "{scriptName} caricato",
         "from_json": "Da JSON",
-        "upload_script": "Carica Copione",
-        "download_script": "Scarica Copione",
-        "script_url": "URL Copione",
-        "enter_url": "Inserisci URL",
         "paste_json_placeholder": "Incolla qui il JSON del copione...",
+        "from_file": "Da File",
+        "upload_script": "Carica Copione",
         "not_in_bag_role": "Seleziona un gettone aggiuntivo da mettere nel sacchetto al posto di questo. Verrà aggiunto un promemoria nel Grimorio.",
         "add_travellers_to_bag": "Aggiungi Viaggiatori al sacchetto (Non Consigliato)"
     },
@@ -558,7 +550,6 @@
         "start_game": "Inizia Partita",
         "assign_progress": "{assigned} di {total} posti pescati",
         "tap_seat_to_assign": "Tocca per assegnare un giocatore a questo posto",
-        "tap_seat_hint": "Tocca un posto per pescargli un ruolo",
         "seat": "Posto"
     },
     "draw_tokens": {
@@ -577,19 +568,36 @@
         "auto_assign_all_confirm": "Ogni posto ancora senza ruolo verrà riempito ora. I ruoli già assegnati restano invariati, gli altri saranno casuali.",
         "no_players_connected": "Nessun giocatore connesso",
         "no_tokens_available": "Nessun gettone disponibile",
-        "distribute_to_devices": "Distribuisci ai dispositivi",
-        "name_every_seat_first": "Assegna un nome a ogni posto per inviare i gettoni ai dispositivi",
+        "distribute_to_devices": "Invia Gettoni",
+        "send_partial_confirm": "Si sono uniti solo {joined} giocatori su {total}. Chi non ha un telefono non riceverà il proprio ruolo. Inviare comunque?",
+        "invite_players": "Invita Giocatori",
         "assign_role": "Assegna {roleName}",
         "disconnect_confirm": "Sei sicuro di voler disconnettere <strong>{playerName}</strong>?",
         "player_rejoin": "Il giocatore verrà rimosso dalla sessione e dovrà rientrare.",
         "enter_player_name": "Inserisci nome giocatore",
         "assign_role_button": "Assegna Ruolo",
         "choose_role": "Scegli un Ruolo",
-        "prepare_game": "Nomi e Ruoli",
-        "tap_name_to_seat": "Tocca un nome per riempire il prossimo posto libero. Tocca un posto per cancellarlo.",
+        "prepare_game": "Prepara i Posti",
+        "tap_name_to_seat": "Tocca un nome per riempire {seat}. Tocca un posto per cancellarlo.",
+        "tap_seat_to_clear": "Tocca un posto per cancellarlo.",
         "tap_role_then_seat": "Tocca un ruolo, poi tocca un posto per assegnare quel ruolo a quel giocatore (facoltativo)",
-        "all_names_seated": "Tutti sono assegnati",
-        "preparing_town": "Preparazione della tua città…"
+        "preparing_town": "Preparazione della tua città…",
+        "handout_question": "Come ricevono i giocatori i loro ruoli?",
+        "mode_phones": "Sul proprio telefono",
+        "mode_phones_hint": "I giocatori si uniscono dal proprio telefono, poi tu invii a ciascuno il suo ruolo.",
+        "mode_sushi": "Sushi Buffet",
+        "mode_sushi_hint": "Ogni posto ha già il suo ruolo dal draft. Nominare i posti è facoltativo prima di iniziare la partita.",
+        "mode_call_up": "Vengono da me",
+        "mode_call_up_hint": "Chiama ogni giocatore uno alla volta. Tocca il proprio posto per vedere il ruolo.",
+        "mode_pass": "Passa il dispositivo",
+        "mode_pass_hint": "Ogni giocatore pesca il proprio ruolo, poi passa il dispositivo. Bloccato con il tuo PIN.",
+        "join_instructions": "I giocatori vanno su {url} e inseriscono il codice",
+        "players_joined": "{joined} di {total} uniti",
+        "start_passing": "Inizia a passare",
+        "pass_to": "Passa il dispositivo a",
+        "draw_my_character": "Pesca il mio ruolo",
+        "hand_back": "Restituisci il dispositivo al Narratore",
+        "storyteller_unlock": "Sono il Narratore"
     },
     "town": {
         "toggle_widgets": "Mostra/Nascondi Widgets",
@@ -635,7 +643,7 @@
         "show_card": "Mostra Carta..",
         "create_custom_card": "Crea Carta Personalizzata",
         "cards": "Carte",
-        "add_character": "Aggiungi Personaggio"
+        "add_character": "Aggiungi Ruolo"
     },
     "controls": {
         "timer_expired_reset": "Timer Scaduto - Clicca per Reimpostare",
@@ -662,7 +670,8 @@
         "first_night_order": "Ordine della Prima Notte",
         "other_night_order": "Ordine delle Altre Notti",
         "toggle_navigation": "Attiva/disattiva navigazione",
-        "notification_armed": "Notifica attivata"
+        "notification_armed": "Notifica attivata",
+        "phase_controls": "Controlli giorno e notte"
     },
     "join": {
         "title": "Unisciti alla Sessione di Gioco",
@@ -698,7 +707,7 @@
         "first_night": "Prima Notte",
         "other_nights": "Altre Notti",
         "end_night_phase": "Termina Notte",
-        "no_night_actions": "Nessun personaggio ha azioni notturne",
+        "no_night_actions": "Nessun ruolo ha azioni notturne",
         "skip_dead": "Salta i Morti"
     },
     "lock": {
@@ -721,5 +730,11 @@
         "nominated": "{player} il {role} è stato nominato",
         "nominates": "{player} il {role} sta nominando",
         "marked_dead": "{player} il {role} è stato segnato come morto"
+    },
+    "splash": {
+        "question": "Stai conducendo la partita o ci stai giocando?",
+        "storyteller": "Narratore",
+        "storyteller_hint": "Prepara e conduci la partita",
+        "player_hint": "Unisciti a una città, consulta il copione e l'ordine della notte"
     }
 }

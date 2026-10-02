@@ -18,12 +18,12 @@
     "update_available": "Uma nova versão está disponível.",
     "reload": "Recarregar",
     "all": "Tudo",
-    "none": "None",
+    "none": "Nenhum",
     "layout": "Layout",
     "leaves": "Folhas",
     "player_numbers": "Números dos Jogadores",
     "death_details": "Detalhes da Morte",
-    "type_icons": "Type Icons",
+    "type_icons": "Ícones de Tipo",
     "flip": "Virar Horizontalmente",
     "circle": "Círculo",
     "ellipse": "Elipse",
@@ -40,7 +40,7 @@
     "ready": "Pronto",
     "waiting": "Aguardando",
     "connected": "Conectado",
-    "jinxes": "Jinxes",
+    "jinxes": "Conflitos",
     "role": "Personagem",
     "select_role": "Selecione um personagem...",
     "select_icon": "Selecione um ícone...",
@@ -71,22 +71,24 @@
     "reminder": "Lembrete",
     "faq": "Perguntas Frequentes",
     "discord": "Discord",
-    "away": "Away",
+    "away": "Ausente",
     "scan_to_join": "Escaneie para entrar",
-    "retry": "Try again"
+    "retry": "Tentar novamente"
   },
   "errors": {
     "translation_database_only": "Desculpe. Apenas scripts carregados do banco de dados podem ser traduzidos no momento.",
-    "invalid_script_url": "That doesn't look like a script URL. Enter the full web address, starting with https://",
-    "token_distribution_failed": "Couldn't send tokens to players' devices. Check your connection and try again.",
-    "script_roles_failed": "Couldn't load this script's characters. Check your connection and try again.",
-    "roles_not_found": "Couldn't find these characters: {roles}"
+    "invalid_script_url": "Isso não parece ser a URL de um script. Insira o endereço completo da web, começando com https://",
+    "token_distribution_failed": "Não foi possível enviar os tokens para os dispositivos dos jogadores. Verifique sua conexão e tente novamente.",
+    "script_roles_failed": "Não foi possível carregar os personagens deste script. Verifique sua conexão e tente novamente.",
+    "script_json_invalid": "Não foi possível ler esse script. Verifique se é um JSON de script válido.",
+    "roles_not_found": "Não foi possível encontrar estes personagens: {roles}",
+    "invalid_import_link": "Este link de importação está quebrado ou não é suportado, então nada foi carregado."
   },
   "status": {
     "poisoned": "Envenenado",
     "drunk": "Bêbado",
     "dead": "Morto",
-    "noability": "No Ability",
+    "noability": "Sem Abilidade",
     "lunch": "Habilidade adquirida"
   },
   "radial_menu": {
@@ -97,12 +99,13 @@
     "ghost_vote": "Voto Fantasma",
     "make_evil": "Transformar em Mau",
     "make_good": "Transformar em Bom",
-    "bluff": "Bluff",
-    "back": "Back"
+    "bluff": "Blefe",
+    "back": "Voltar"
   },
   "nav": {
     "brand": "Grimório Digital",
     "offline": "Offline",
+    "companion": "Companheiro do jogador",
     "game": {
       "title": "Jogo",
       "home": "Novo...",
@@ -111,11 +114,7 @@
       "town_view": "Visão da Cidade"
     },
     "sheets": {
-      "title": "Fichas",
-      "character": "Personagem",
-      "night_order": "Ordem da Noite",
-      "rules": "Regras",
-      "script_tool": "Abrir na Ferramenta de Script"
+      "rules": "Regras"
     },
     "settings": {
       "title": "Configurações",
@@ -125,16 +124,14 @@
       "exit_fullscreen": "Sair de Tela Cheia",
       "about": "Sobre...",
       "official_icons": "Ícones Oficiais",
-      "clocktracker_url": "Destination URL",
-      "clocktracker_url_help": "Completed games are sent here. Only change this if you host your own Clocktracker.",
-      "clocktracker_url_invalid": "Enter a full https:// address."
+      "clocktracker_url": "URL de Destino",
+      "clocktracker_url_help": "Jogos concluídos são enviados para cá. Altere isso apenas se você hospedar seu próprio Clocktracker.",
+      "clocktracker_url_invalid": "Insira um endereço https:// completo."
     },
     "login": "Login",
     "mobile": {
       "home": "Novo Jogo",
       "save_game": "Salvar Jogo",
-      "character_sheet": "Ficha de Personagens",
-      "night_order_sheet": "Ficha de Ordem da Noite",
       "language": "Língua"
     }
   },
@@ -142,7 +139,8 @@
     "return_home": {
       "title": "Retornar ao Ínicio",
       "message": "Voltar para a Página Inicial? O jogo atual será perdido.",
-      "keep_seating": "Manter as posições dos jogadores para o próximo jogo"
+      "keep_seating": "Manter as posições dos jogadores para o próximo jogo",
+      "keep_names": "Manter os nomes nos mesmos assentos"
     },
     "save_game": {
       "title": "Salvar Jogo",
@@ -155,16 +153,16 @@
       "title": "Sobre o Grimório Digital",
       "about_tab": "Sobre",
       "special_thanks": "Agradecimentos especiais",
-      "special_thanks_intro": "A heartfelt thank you to everyone who has helped test and shape the Digital Grimoire over the years:",
-      "version": "Version",
-      "disclaimer": "This project is not affiliated with The Pandemonium Institute. All roles & abilities etc. are the property of Steven Medway and The Pandemonium Institute.",
-      "privacy_policy": "By using this website, you agree to our",
-      "privacy_link": "Privacy Policy",
-      "guide": "For a guide on how to use the Digital Grimoire, please watch",
-      "guide_link": "this video on YouTube",
-      "clear_cache": "Clear Cache",
-      "clearing_cache": "Clearing Cache...",
-      "cache_cleared": "Cache Cleared!"
+      "special_thanks_intro": "Um agradecimento sincero a todos que ajudaram a testar e moldar o Grimório Digital ao longo dos anos:",
+      "version": "Versão",
+      "disclaimer": "Este projeto não é afiliado ao The Pandemonium Institute. Todos os personagens e abilidades, etc., são propriedade de Steven Medway e do The Pandemonium Institute.",
+      "privacy_policy": "Ao usar este site, você concorda com a nossa",
+      "privacy_link": "Política de Privacidade",
+      "guide": "Para um guia sobre como usar o Grimório Digital, assista",
+      "guide_link": "este vídeo no YouTube",
+      "clear_cache": "Limpar Cache",
+      "clearing_cache": "Limpando Cache...",
+      "cache_cleared": "Cache Limpo!"
     },
     "add_reminder": {
       "title": "Adicionar Lembretes",
@@ -175,7 +173,7 @@
     },
     "add_role": {
       "title": "Adicionar Personagem",
-      "travellers_to_show": "Travellers to show",
+      "travellers_to_show": "Viajantes a aparecer",
       "edition": "Edição",
       "all": "Tudo",
       "on_script": "No Script",
@@ -345,12 +343,12 @@
       "notes_for": "Notas para {player}",
       "save_notes": "Salvar Notas",
       "gain_ability": "Ganhar Abilidade",
-      "notify_when": "Notify When",
-      "notify_nominated": "Nominated",
-      "notify_nominates": "Nominating",
-      "notify_marked_dead": "Dead",
-      "notify_note": "Note to show with the alert",
-      "notify_recurring": "Alert every time"
+      "notify_when": "Notificar Quando",
+      "notify_nominated": "Nomeado",
+      "notify_nominates": "Nomeando",
+      "notify_marked_dead": "Morto",
+      "notify_note": "Nota para mostrar com o alerta",
+      "notify_recurring": "Alertar todas as vezes"
     },
     "town_arrange": {
       "title": "Organizar jogadores na cidade",
@@ -358,14 +356,14 @@
     },
     "town": {
       "view_title": "Ver cidade",
-      "description": "Crie uma página pública voltada para a cidade para mostrar aos seus jogadores quem está vivo, quem está morto e quem ainda tem um voto de fantasma. Abra a URL em outro dispositivo e torne-a visível para todos os seus jogadores.",
+      "description_phones": "Sua cidade é onde este jogo vive. Compartilhe o código e os jogadores poderão obter seu personagem, ler o script e acompanhar as afirmações pelo celular.",
+      "description_screen": "Sua cidade é onde este jogo vive. Abra a cidade em uma TV para que todos vejam. Seu Grimório fica armazenado em nosso servidor enquanto uma cidade estiver em execução.",
       "delete_button": "Deletar cidade...",
-      "code_label": "Town code",
-      "open_on_screen": "Open the town view on a TV or spare tablet:",
-      "rename": "Rename town",
-      "title": "Town",
-      "phones_heading": "Players' phones",
-      "screen_heading": "Big screen"
+      "code_label": "Código da cidade",
+      "open_on_screen": "Abra a Visão da Cidade em uma TV ou tablet reserva:",
+      "rename": "Renomear cidade",
+      "title": "Cidade",
+      "screen_heading": "Tela grande"
     },
     "user": {
       "favourited_scripts": "Scripts favoritos",
@@ -401,7 +399,7 @@
       "url_label": "URL da imagem de fundo",
       "url_placeholder": "Inserir URL da imagem...",
       "fit_label": "Modo de exibição",
-      "fit_tile": "Tile",
+      "fit_tile": "Mosaico",
       "fit_cover": "Cobrir",
       "fit_fit": "Encaixar",
       "fit_center": "Centralizar",
@@ -418,7 +416,7 @@
       "success": "Jogo exportado com sucesso para o Clocktracker!",
       "error": "Falha ao exportar o jogo para o Clocktracker",
       "player_order": "Ordem dos jogadores",
-      "custom_destination": "This game, including player names, will be sent to {host} — not to clocktracker.app. Please only send once the game is finished."
+      "custom_destination": "Este jogo, incluindo os nomes dos jogadores, será enviado para {host}, não para clocktracker.app. Por favor, envie somente após o término do jogo."
     },
     "edit_night_order": {
       "title": "Editar ordem da noite"
@@ -433,6 +431,10 @@
       "position_stretch": "Esticar",
       "use_icon_background": "Adicionar fundo ao ícone",
       "icon_background_colour": "Cor do fundo do ícone"
+    },
+    "import_game": {
+      "title": "Importar jogo",
+      "message": "Substituir o jogo atual pelo importado? O jogo atual será perdido."
     }
   },
   "roles": {
@@ -463,7 +465,6 @@
     "marionette_adjacency_warning": "Setup inválido: a Marionete precisa sentar ao lado do demônio. O demônio está entre os outros dois lacaios.",
     "layout_help": "Escolha o formato da disposição dos assentos.\n Isso pode ser alterado manualmente depois.",
     "choose_script": "Escolha seu Script",
-    "select_from_official": "Selecione um script oficial ou procure por personalizados",
     "players": "{count} Jogadores",
     "trouble_brewing": "Trouble Brewing (Problemas à Vista)",
     "trouble_brewing_desc": "O script original. Perfeito para iniciantes que estão aprendendo o jogo.",
@@ -477,7 +478,6 @@
     "select_random_roles": "Selecione personagens aleatórios",
     "shuffle_roles": "Embaralhar personagens",
     "travellers_to_show": "Viajantes a aparecer",
-    "edition": "Edição",
     "game_lock": "Multiplas Cópias",
     "allow": "Permitir",
     "disallow": "Não permitir",
@@ -503,24 +503,16 @@
     "clear": "Limpar",
     "by": "por",
     "view_bootlegger_info": "Ver informação do Pirata",
-    "edit_names_optional": "Escolha jogadores",
-    "search_placeholder": "Procure por nome ou autor: <author>",
+    "edit_names_optional": "Adicionar nomes (opcional)",
+    "search_hint": "Procure por nome ou URL.",
     "unknown": "desconhecido",
     "no_matching_scripts": "Nenhum script correspondente encontrado",
-    "no_script_loaded": "Nenhum script carregado",
-    "download_only_database": "Download disponível apenas para scripts de banco de dados",
-    "download_script_title": "Download {scriptName}",
-    "download_pdf_title": "Download o PDF de  {scriptName}",
-    "or_load_own_script": "ou envie seu próprio script",
-    "botc_scripts_available": "Todos os scripts de botcscripts.com disponíveis",
-    "from_url": "de uma URL",
-    "from_file": "de um arquivo",
+    "botc_scripts_available": "Todos os scripts de botcscripts.com disponíveis.",
+    "script_loaded": "{scriptName} carregado",
     "from_json": "de um JSON",
-    "upload_script": "Enviar Script",
-    "download_script": "Baixar Script",
-    "script_url": "URL do Script",
-    "enter_url": "Insira a URL",
     "paste_json_placeholder": "Cole o JSON do script aqui...",
+    "from_file": "de um arquivo",
+    "upload_script": "Enviar Script",
     "not_in_bag_role": "Escolha um token adicional para colocar na bolsa no lugar deste. Um lembrete será colocado no Grimório para esta função.",
     "add_travellers_to_bag": "Adicionar viajantes à bolsa (Não Recomendado)"
   },
@@ -558,7 +550,6 @@
     "start_game": "Iniciar jogo",
     "assign_progress": "{assigned} de {total} assentos comprados",
     "tap_seat_to_assign": "Clique para designar um jogador para esse assento",
-    "tap_seat_hint": "Tap a seat to draw a role for it",
     "seat": "Assento"
   },
   "draw_tokens": {
@@ -569,27 +560,44 @@
     "tap_bag_prompt": "Toque na bolsa para comprar um token",
     "tap_token_prompt": "Toque em um token para comprar",
     "hold_to_reveal": "Segure para revelar",
-    "draw_animation": "Draw animation",
+    "draw_animation": "Animação de compra",
     "player_name": "Nome do jogador",
     "assign": "Atribuir",
     "auto_assign": "Atribuir automaticamente",
     "auto_assign_all": "Atribuir automaticamente todos os restantes",
-    "auto_assign_all_confirm": "Every seat still without a role will be filled now. Reserved roles are kept, the rest are random.",
+    "auto_assign_all_confirm": "Todos os assentos ainda sem um personagem serão preenchidos agora. Os personagens reservados são mantidos, o restante será aleatório.",
     "no_players_connected": "Nenhum jogador conectado",
     "no_tokens_available": "Sem tokens disponíveis",
-    "distribute_to_devices": "Distribuir para dispositivos",
-    "name_every_seat_first": "Name every seat to send tokens to phones",
+    "distribute_to_devices": "Enviar tokens",
+    "send_partial_confirm": "Apenas {joined} de {total} jogadores entraram. Quem não tiver celular não vai receber o personagem. Enviar mesmo assim?",
+    "invite_players": "Convidar Jogadores",
     "assign_role": "Atribuir {roleName}",
     "disconnect_confirm": "Você quer mesmo desconectar <strong>{playerName}</strong>?",
     "player_rejoin": "O jogador será removido da sessão e precisará entrar novamente.",
     "enter_player_name": "Insira o nome do jogador",
     "assign_role_button": "Atribuir personagem",
     "choose_role": "Escolher um personagem",
-    "prepare_game": "Names & Roles",
-    "tap_name_to_seat": "Toque em um nome para preencher o próximo assento vazio. Toque em um assento para limpá-lo.",
+    "prepare_game": "Preparar assentos",
+    "tap_name_to_seat": "Toque em um nome para preencher {seat}. Toque em um assento para limpá-lo.",
+    "tap_seat_to_clear": "Toque em um assento para limpá-lo.",
     "tap_role_then_seat": "Toque em um personagem e depois toque em um assento para atribuir esse personagem a esse jogador (opcional)",
-    "all_names_seated": "Everyone is seated",
-    "preparing_town": "Preparing your town…"
+    "preparing_town": "Preparando sua cidade…",
+    "handout_question": "Como os jogadores vão receber seus personagens?",
+    "mode_phones": "No celular",
+    "mode_phones_hint": "Os jogadores entram pelo celular e depois você envia o personagem de cada um.",
+    "mode_sushi": "Sushi Buffet",
+    "mode_sushi_hint": "Cada assento já tem o personagem definido pelo draft. Nomear os assentos é opcional antes de iniciar o jogo.",
+    "mode_call_up": "Eles vêm até mim",
+    "mode_call_up_hint": "Chame cada jogador por vez. Ele toca no assento dele para ver o personagem.",
+    "mode_pass": "Passar o dispositivo",
+    "mode_pass_hint": "Cada jogador compra o personagem e depois passa o dispositivo adiante. Bloqueado com o seu PIN.",
+    "join_instructions": "Os jogadores acessam {url} e digitam o código",
+    "players_joined": "{joined} de {total} entraram",
+    "start_passing": "Começar a passar",
+    "pass_to": "Passar o dispositivo para",
+    "draw_my_character": "Comprar meu personagem",
+    "hand_back": "Devolva o dispositivo para o narrador",
+    "storyteller_unlock": "Eu sou o narrador"
   },
   "town": {
     "toggle_widgets": "Alternar widgets",
@@ -661,8 +669,9 @@
   "accessibility": {
     "first_night_order": "Ordem da primeira noite",
     "other_night_order": "Ordem das outras noites",
-    "toggle_navigation": "Toggle navigation",
-    "notification_armed": "Notification set"
+    "toggle_navigation": "Alternar navegação",
+    "notification_armed": "Notificação ativada",
+    "phase_controls": "Controles de dia e noite"
   },
   "join": {
     "title": "Entrar na sesão de jogo",
@@ -718,8 +727,14 @@
     "reset_hint": "Esqueceu o PIN? Desligue a trava do narrador nas configurações."
   },
   "notifications": {
-    "nominated": "{player} the {role} has been nominated",
-    "nominates": "{player} the {role} is nominating",
-    "marked_dead": "{player} the {role} has been marked as dead"
+    "nominated": "{player} o/a {role} foi nomeado",
+    "nominates": "{player} o/a {role} está nomeando",
+    "marked_dead": "{player} o/a {role} foi marcado como morto"
+  },
+  "splash": {
+    "question": "Você está conduzindo o jogo ou jogando nele?",
+    "storyteller": "Narrador",
+    "storyteller_hint": "Prepare e conduza o jogo",
+    "player_hint": "Entre em uma cidade, veja o script e a ordem da noite"
   }
 }

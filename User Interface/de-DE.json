@@ -79,8 +79,10 @@
         "translation_database_only": "Entschuldigung. Nur Skripte aus der Datenbank können derzeit übersetzt werden.",
         "invalid_script_url": "Das sieht nicht wie eine Skript-URL aus. Geben Sie die vollständige Webadresse ein, beginnend mit https://",
         "token_distribution_failed": "Die Token konnten nicht an die Geräte der Spieler gesendet werden. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
-        "script_roles_failed": "Die Charaktere dieses Skripts konnten nicht geladen werden. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
-        "roles_not_found": "Diese Charaktere konnten nicht gefunden werden: {roles}"
+        "script_roles_failed": "Die Rollen dieses Skripts konnten nicht geladen werden. Überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+        "script_json_invalid": "Dieses Skript konnte nicht gelesen werden. Überprüfen Sie, ob es sich um gültiges Skript-JSON handelt.",
+        "roles_not_found": "Diese Rollen konnten nicht gefunden werden: {roles}",
+        "invalid_import_link": "Dieser Import-Link ist fehlerhaft oder wird nicht unterstützt, daher wurde nichts geladen."
     },
     "status": {
         "poisoned": "Vergiftet",
@@ -103,6 +105,7 @@
     "nav": {
         "brand": "Digital Grimoire",
         "offline": "Offline",
+        "companion": "Spielerbegleiter",
         "game": {
             "title": "Spiel",
             "home": "Neu...",
@@ -111,11 +114,7 @@
             "town_view": "Stadtansicht"
         },
         "sheets": {
-            "title": "Blätter",
-            "character": "Charakter",
-            "night_order": "Nachtreihenfolge",
-            "rules": "Regeln",
-            "script_tool": "Im Script Tool öffnen"
+            "rules": "Regeln"
         },
         "settings": {
             "title": "Einstellungen",
@@ -133,8 +132,6 @@
         "mobile": {
             "home": "Neues Spiel",
             "save_game": "Spiel speichern",
-            "character_sheet": "Charakterblatt",
-            "night_order_sheet": "Nachtreihenfolge-Blatt",
             "language": "Sprache"
         }
     },
@@ -142,7 +139,8 @@
         "return_home": {
             "title": "Zur Startseite",
             "message": "Möchten Sie wirklich zur Startseite zurückkehren? Der aktuelle Spielstand geht verloren.",
-            "keep_seating": "Aktuelle Sitzanordnung für das nächste Spiel beibehalten"
+            "keep_seating": "Aktuelle Sitzanordnung für das nächste Spiel beibehalten",
+            "keep_names": "Namen auf denselben Plätzen beibehalten"
         },
         "save_game": {
             "title": "Spiel speichern",
@@ -232,7 +230,7 @@
             "message": "Nachricht",
             "background_colour": "Hintergrundfarbe",
             "text_colour": "Textfarbe",
-            "select_character_enabled": "Charakterauswahl aktiviert?",
+            "select_character_enabled": "Rollenauswahl aktiviert?",
             "link_roles": "Rollen verknüpfen"
         },
         "delete_town": {
@@ -358,13 +356,13 @@
         },
         "town": {
             "view_title": "Stadt anzeigen",
-            "description": "Ihre Stadt ist der Ort, an dem dieses Spiel stattfindet. Teilen Sie den Code, und Ihre Spieler können ihren Charakter abrufen, das Skript lesen und Behauptungen auf ihrem Telefon verfolgen — oder öffnen Sie die Stadtansicht auf einem Fernseher, damit alle sie sehen können. Ihr Grimoire wird auf unserem Server gespeichert, solange eine Stadt läuft.",
+            "description_phones": "Ihre Stadt ist der Ort, an dem dieses Spiel stattfindet. Teilen Sie den Code, und Ihre Spieler können ihre Rolle abrufen, das Skript lesen und Behauptungen auf ihrem Telefon verfolgen.",
+            "description_screen": "Ihre Stadt ist der Ort, an dem dieses Spiel stattfindet. Öffnen Sie die Stadtansicht auf einem Fernseher, damit alle sie sehen können. Ihr Grimoire wird auf unserem Server gespeichert, solange eine Stadt läuft.",
             "delete_button": "Stadt löschen...",
             "code_label": "Stadtcode",
             "open_on_screen": "Öffnen Sie die Stadtansicht auf einem Fernseher oder einem Ersatz-Tablet:",
             "rename": "Stadt umbenennen",
             "title": "Stadt",
-            "phones_heading": "Telefone der Spieler",
             "screen_heading": "Großer Bildschirm"
         },
         "user": {
@@ -433,6 +431,10 @@
             "position_stretch": "Strecken",
             "use_icon_background": "Symbolhintergrund hinzufügen",
             "icon_background_colour": "Symbolhintergrundfarbe"
+        },
+        "import_game": {
+            "title": "Spiel importieren",
+            "message": "Möchten Sie wirklich Ihr aktuelles Spiel durch das importierte ersetzen? Der aktuelle Spielstand geht verloren."
         }
     },
     "roles": {
@@ -463,7 +465,6 @@
         "marionette_adjacency_warning": "Ungültiges Setup: Die Marionette muss neben dem Dämon sitzen. Der Dämon befindet sich derzeit zwischen den anderen beiden Schergen.",
         "layout_help": "Wählen Sie die Form der Sitzanordnung.\nDiese kann später manuell angepasst werden.",
         "choose_script": "Wählen Sie Ihr Skript",
-        "select_from_official": "Wählen Sie aus offiziellen Skripten oder suchen Sie nach benutzerdefinierten",
         "players": "{count} Spieler",
         "trouble_brewing": "Trouble Brewing",
         "trouble_brewing_desc": "Das ursprüngliche Skript. Perfekt für Anfänger, die das Spiel lernen.",
@@ -477,7 +478,6 @@
         "select_random_roles": "Zufällige Rollen auswählen",
         "shuffle_roles": "Rollen mischen",
         "travellers_to_show": "Anzuzeigende Reisende",
-        "edition": "Edition",
         "game_lock": "Mehrfache Kopien",
         "allow": "Erlauben",
         "disallow": "Verbieten",
@@ -503,24 +503,16 @@
         "clear": "Löschen",
         "by": "von",
         "view_bootlegger_info": "Bootlegger-Informationen anzeigen",
-        "edit_names_optional": "Spieler auswählen",
-        "search_placeholder": "Suche nach Namen oder author: <Autor>",
+        "edit_names_optional": "Namen hinzufügen (optional)",
+        "search_hint": "Suche nach Name oder URL.",
         "unknown": "unbekannt",
         "no_matching_scripts": "Keine passenden Skripte gefunden",
-        "no_script_loaded": "Kein Skript geladen",
-        "download_only_database": "Download nur für Datenbank-Skripte verfügbar",
-        "download_script_title": "{scriptName} herunterladen",
-        "download_pdf_title": "PDF für {scriptName} herunterladen",
-        "or_load_own_script": "oder laden Sie Ihr eigenes Skript",
-        "botc_scripts_available": "Alle Skripte von botcscripts.com verfügbar",
-        "from_url": "Von URL",
-        "from_file": "Von Datei",
+        "botc_scripts_available": "Alle Skripte von botcscripts.com verfügbar.",
+        "script_loaded": "{scriptName} geladen",
         "from_json": "Von JSON",
-        "upload_script": "Skript hochladen",
-        "download_script": "Skript herunterladen",
-        "script_url": "Skript-URL",
-        "enter_url": "URL eingeben",
         "paste_json_placeholder": "Fügen Sie hier Ihr Skript-JSON ein...",
+        "from_file": "Von Datei",
+        "upload_script": "Skript hochladen",
         "not_in_bag_role": "Wählen Sie einen zusätzlichen Token aus, um ihn anstelle dieses Tokens in den Beutel zu legen. Eine Erinnerung wird im Grimoire für diese Rolle platziert.",
         "add_travellers_to_bag": "Reisende zum Beutel hinzufügen (Nicht empfohlen)"
     },
@@ -558,7 +550,6 @@
         "start_game": "Spiel starten",
         "assign_progress": "{assigned} von {total} Plätzen gezogen",
         "tap_seat_to_assign": "Tippen, um diesem Platz einen Spieler zuzuweisen",
-        "tap_seat_hint": "Tippen, um für diesen Platz eine Rolle zu ziehen",
         "seat": "Platz"
     },
     "draw_tokens": {
@@ -577,19 +568,36 @@
         "auto_assign_all_confirm": "Jeder noch leere Platz wird jetzt besetzt. Bereits zugewiesene Rollen bleiben erhalten, der Rest wird zufällig vergeben.",
         "no_players_connected": "Keine Spieler verbunden",
         "no_tokens_available": "Keine Token verfügbar",
-        "distribute_to_devices": "An Geräte verteilen",
-        "name_every_seat_first": "Jedem Platz einen Namen zuweisen, um Token an Geräte zu senden",
+        "distribute_to_devices": "Token senden",
+        "send_partial_confirm": "Nur {joined} von {total} Spielern sind beigetreten. Wer kein Telefon hat, bekommt keine Rolle. Trotzdem senden?",
+        "invite_players": "Spieler einladen",
         "assign_role": "{roleName} zuweisen",
         "disconnect_confirm": "Möchten Sie wirklich <strong>{playerName}</strong> trennen?",
         "player_rejoin": "Der Spieler wird aus der Sitzung entfernt und muss erneut beitreten.",
         "enter_player_name": "Spielernamen eingeben",
         "assign_role_button": "Rolle zuweisen",
         "choose_role": "Wähle eine Rolle",
-        "prepare_game": "Namen & Rollen",
-        "tap_name_to_seat": "Tippe auf einen Namen, um den nächsten leeren Platz zu besetzen. Tippe auf einen Platz, um ihn zu löschen.",
+        "prepare_game": "Plätze einrichten",
+        "tap_name_to_seat": "Tippe auf einen Namen, um {seat} zu besetzen. Tippe auf einen Platz, um ihn zu löschen.",
+        "tap_seat_to_clear": "Tippe auf einen Platz, um ihn zu löschen.",
         "tap_role_then_seat": "Tippe auf eine Rolle und dann auf einen Platz, um diesem Spieler diese Rolle zu geben (optional)",
-        "all_names_seated": "Alle sind platziert",
-        "preparing_town": "Ihre Stadt wird vorbereitet…"
+        "preparing_town": "Ihre Stadt wird vorbereitet…",
+        "handout_question": "Wie bekommen die Spieler ihre Rollen?",
+        "mode_phones": "Auf ihrem Telefon",
+        "mode_phones_hint": "Die Spieler treten über ihr Telefon bei, dann sendest du jedem seine Rolle.",
+        "mode_sushi": "Sushi Buffet",
+        "mode_sushi_hint": "Jeder Platz hat bereits seine Rolle aus dem Draft. Die Plätze zu benennen ist optional, bevor du das Spiel startest.",
+        "mode_call_up": "Sie kommen zu mir",
+        "mode_call_up_hint": "Rufe jeden Spieler einzeln auf. Sie tippen auf ihren Platz, um ihre Rolle zu sehen.",
+        "mode_pass": "Gerät weitergeben",
+        "mode_pass_hint": "Jeder Spieler zieht seine Rolle und gibt das Gerät dann weiter. Mit deinem PIN-Code gesperrt.",
+        "join_instructions": "Die Spieler gehen zu {url} und geben den Code ein",
+        "players_joined": "{joined} von {total} beigetreten",
+        "start_passing": "Weitergeben starten",
+        "pass_to": "Gerät weitergeben an",
+        "draw_my_character": "Meine Rolle ziehen",
+        "hand_back": "Gib das Gerät an den Geschichtenerzähler zurück",
+        "storyteller_unlock": "Ich bin der Geschichtenerzähler"
     },
     "town": {
         "toggle_widgets": "Widgets umschalten",
@@ -609,7 +617,7 @@
         "connected_players": "Verbundene Spieler",
         "no_town_info": "Noch keine Stadtinformationen verfügbar..",
         "show_grim_title": "Grimoire anzeigen?",
-        "show_grim_message": "Möchten Sie wirklich das Grimoire zeigen? Dies wird allen Spielern alle Charakterrollen anzeigen.",
+        "show_grim_message": "Möchten Sie wirklich das Grimoire zeigen? Dies wird allen Spielern alle Rollen anzeigen.",
         "yes_show_grim": "Ja, Grimoire anzeigen",
         "reveal_separately": "Einzeln enthüllen",
         "tap_to_reveal": "Tippen Sie auf Token, um Rollen zu enthüllen",
@@ -635,7 +643,7 @@
         "show_card": "Karte anzeigen..",
         "create_custom_card": "Benutzerdefinierte Karte erstellen",
         "cards": "Karten",
-        "add_character": "Charakter hinzufügen"
+        "add_character": "Rolle hinzufügen"
     },
     "controls": {
         "timer_expired_reset": "Timer abgelaufen - Klicken zum Zurücksetzen",
@@ -662,7 +670,8 @@
         "first_night_order": "Erste Nachtreihenfolge",
         "other_night_order": "Andere Nachtreihenfolge",
         "toggle_navigation": "Navigation umschalten",
-        "notification_armed": "Benachrichtigung aktiviert"
+        "notification_armed": "Benachrichtigung aktiviert",
+        "phase_controls": "Tag- und Nachtsteuerung"
     },
     "join": {
         "title": "Spielsitzung beitreten",
@@ -673,7 +682,7 @@
         "retry": "Wiederholen",
         "token": "Token",
         "character_sheet": "Charakterblatt",
-        "chars": "Chars",
+        "chars": "Char.",
         "night_order": "Nachtreihenfolge",
         "night": "Nacht",
         "seat_label": "Platz {number}",
@@ -698,7 +707,7 @@
         "first_night": "Erste Nacht",
         "other_nights": "Andere Nächte",
         "end_night_phase": "Nacht beenden",
-        "no_night_actions": "Keine Charaktere haben Nachtaktionen",
+        "no_night_actions": "Keine Rollen haben Nachtaktionen",
         "skip_dead": "Tote überspringen"
     },
     "lock": {
@@ -721,5 +730,11 @@
         "nominated": "{player} der {role} wurde nominiert",
         "nominates": "{player} der {role} nominiert",
         "marked_dead": "{player} der {role} wurde als tot markiert"
+    },
+    "splash": {
+        "question": "Leiten Sie das Spiel, oder spielen Sie mit?",
+        "storyteller": "Geschichtenerzähler",
+        "storyteller_hint": "Spiel einrichten und leiten",
+        "player_hint": "Einer Stadt beitreten, das Skript lesen und die Nachtreihenfolge sehen"
     }
 }

@@ -79,8 +79,10 @@
         "translation_database_only": "Actualment només es poden traduir els guions carregats des de la base de dades.",
         "invalid_script_url": "Això no sembla l'URL d'un guió. Introduïu l'adreça web completa, començant per https://",
         "token_distribution_failed": "No s'han pogut enviar les fitxes als dispositius dels jugadors. Comproveu la connexió i torneu-ho a provar.",
-        "script_roles_failed": "No s'han pogut carregar els personatges d'aquest guió. Comproveu la connexió i torneu-ho a provar.",
-        "roles_not_found": "No s'han trobat aquests personatges: {roles}"
+        "script_roles_failed": "No s'han pogut carregar els rols d'aquest guió. Comproveu la connexió i torneu-ho a provar.",
+        "script_json_invalid": "No s'ha pogut llegir aquest guió. Comproveu que sigui un JSON de guió vàlid.",
+        "roles_not_found": "No s'han trobat aquests rols: {roles}",
+        "invalid_import_link": "Aquest enllaç d'importació està trencat o no és compatible, així que no s'ha carregat res."
     },
     "status": {
         "poisoned": "Emmetzinat",
@@ -103,6 +105,7 @@
     "nav": {
         "brand": "Digital Grimoire",
         "offline": "Sense connexió",
+        "companion": "Acompanyant del jugador",
         "game": {
             "title": "Partida",
             "home": "Nova…",
@@ -111,11 +114,7 @@
             "town_view": "Vista del poble"
         },
         "sheets": {
-            "title": "Fulls",
-            "character": "Personatge",
-            "night_order": "Ordre nocturn",
-            "rules": "Regles",
-            "script_tool": "Obre amb l’Eina de creació de guions"
+            "rules": "Regles"
         },
         "settings": {
             "title": "Configuració",
@@ -133,8 +132,6 @@
         "mobile": {
             "home": "Partida nova",
             "save_game": "Desa la partida",
-            "character_sheet": "Full de personatges",
-            "night_order_sheet": "Full de l’ordre nocturn",
             "language": "Llengua"
         }
     },
@@ -142,7 +139,8 @@
         "return_home": {
             "title": "Torna a l’inici",
             "message": "Esteu segur que voleu tornar a la pantalla d’inici? Es perdrà la partida actual.",
-            "keep_seating": "Mantenir la disposició actual dels seients per a la propera partida"
+            "keep_seating": "Mantenir la disposició actual dels seients per a la propera partida",
+            "keep_names": "Mantenir els noms als mateixos seients"
         },
         "save_game": {
             "title": "Desa la partida",
@@ -232,7 +230,7 @@
             "message": "Missatge",
             "background_colour": "Color de fons",
             "text_colour": "Color del text",
-            "select_character_enabled": "Voleu activar la selecció de personatges?",
+            "select_character_enabled": "Voleu activar la selecció de rols?",
             "link_roles": "Enllaça els rols"
         },
         "delete_town": {
@@ -358,13 +356,13 @@
         },
         "town": {
             "view_title": "Mostra el poble",
-            "description": "El vostre poble és on viu aquesta partida. Compartiu el codi i els jugadors podran obtenir el seu personatge, llegir el guió i seguir les reclamacions al telèfon — o obriu la vista del poble en un televisor perquè tothom la vegi. El vostre grimori es desa al nostre servidor mentre un poble està actiu.",
+            "description_phones": "El vostre poble és on viu aquesta partida. Compartiu el codi i els jugadors podran obtenir el seu rol, llegir el guió i seguir les reclamacions al telèfon.",
+            "description_screen": "El vostre poble és on viu aquesta partida. Obriu la vista del poble en un televisor perquè tothom la vegi. El vostre grimori es desa al nostre servidor mentre un poble està actiu.",
             "delete_button": "Elimina el poble…",
             "code_label": "Codi del poble",
             "open_on_screen": "Obriu la vista del poble en un televisor o una tauleta de recanvi:",
             "rename": "Reanomena el poble",
             "title": "Poble",
-            "phones_heading": "Telèfons dels jugadors",
             "screen_heading": "Pantalla gran"
         },
         "user": {
@@ -433,6 +431,10 @@
             "position_stretch": "Amplia",
             "use_icon_background": "Afegeix un fons a la icona",
             "icon_background_colour": "Color de fons de la icona"
+        },
+        "import_game": {
+            "title": "Importa la partida",
+            "message": "Esteu segur que voleu substituir la partida actual per la importada? Es perdrà la partida actual."
         }
     },
     "roles": {
@@ -463,7 +465,6 @@
         "marionette_adjacency_warning": "Preparació no vàlida: la Marioneta ha de seure al costat del Dimoni. Ara mateix, el Dimoni és entre els altres dos Sequaços.",
         "layout_help": "Trieu la forma de la disposició dels seients.\nLa podreu ajustar manualment més endavant.",
         "choose_script": "Trieu el guió",
-        "select_from_official": "Seleccioneu un dels guions oficials o cerqueu-ne de personalitzats",
         "players": "{count} jugadors",
         "trouble_brewing": "Trouble Brewing",
         "trouble_brewing_desc": "El guió original. Ideal per a aprendre a jugar.",
@@ -477,7 +478,6 @@
         "select_random_roles": "Selecciona rols aleatoris",
         "shuffle_roles": "Mescla els rols",
         "travellers_to_show": "Viatgers que s’han de mostrar",
-        "edition": "Edició",
         "game_lock": "Còpies múltiples",
         "allow": "Permet",
         "disallow": "No permetis",
@@ -503,24 +503,16 @@
         "clear": "Neteja",
         "by": "per",
         "view_bootlegger_info": "Mostra la informació del Contrabandista",
-        "edit_names_optional": "Trieu els jugadors",
-        "search_placeholder": "Cerca per nom o autor: <autor>",
+        "edit_names_optional": "Afegeix noms (opcional)",
+        "search_hint": "Cerca per nom o URL.",
         "unknown": "desconegut",
         "no_matching_scripts": "No s’ha trobat cap guió que coincideixi amb la cerca",
-        "no_script_loaded": "No hi ha cap guió carregat",
-        "download_only_database": "Només es poden baixar els guions de la base de dades",
-        "download_script_title": "Baixa {scriptName}",
-        "download_pdf_title": "Baixa el PDF de {scriptName}",
-        "or_load_own_script": "o carregueu un guió propi",
         "botc_scripts_available": "Hi ha disponibles tots els guions de botcscripts.com.",
-        "from_url": "Des d’un URL",
-        "from_file": "Des d’un fitxer",
+        "script_loaded": "{scriptName} carregat",
         "from_json": "Des d’un JSON",
-        "upload_script": "Penja un guió",
-        "download_script": "Baixa el guió",
-        "script_url": "URL del guió",
-        "enter_url": "Introduïu un URL",
         "paste_json_placeholder": "Enganxeu aquí el JSON del guió…",
+        "from_file": "Des d’un fitxer",
+        "upload_script": "Penja un guió",
         "not_in_bag_role": "Seleccioneu una fitxa addicional per a posar-la a la bossa en lloc d’aquesta. Es col·locarà al grimori un recordatori d’aquest rol.",
         "add_travellers_to_bag": "Afegeix viatgers a la bossa (no es recomana)"
     },
@@ -558,7 +550,6 @@
         "start_game": "Comença la partida",
         "assign_progress": "{assigned} de {total} seients extrets",
         "tap_seat_to_assign": "Toqueu aquest seient per a assignar-hi un jugador",
-        "tap_seat_hint": "Toqueu un seient per a extreure-li un rol",
         "seat": "Seient"
     },
     "draw_tokens": {
@@ -577,19 +568,36 @@
         "auto_assign_all_confirm": "Cada seient que encara no tingui rol s'omplirà ara. Els rols ja assignats es mantenen, la resta seran a l'atzar.",
         "no_players_connected": "No hi ha cap jugador connectat",
         "no_tokens_available": "No hi ha cap fitxa disponible",
-        "distribute_to_devices": "Distribueix les fitxes als dispositius",
-        "name_every_seat_first": "Assigneu un nom a cada seient per a enviar les fitxes als dispositius",
+        "distribute_to_devices": "Envia les fitxes",
+        "send_partial_confirm": "Només s’han unit {joined} de {total} jugadors. Qui no tingui telèfon no rebrà el seu rol. Voleu enviar-ho igualment?",
+        "invite_players": "Convida jugadors",
         "assign_role": "Assigna {roleName}",
         "disconnect_confirm": "Esteu segur que voleu desconnectar <strong>{playerName}</strong>?",
         "player_rejoin": "El jugador quedarà fora de la sessió i s’hi haurà de tornar a unir.",
         "enter_player_name": "Introduïu el nom del jugador",
         "assign_role_button": "Assigna el rol",
         "choose_role": "Trieu un rol",
-        "prepare_game": "Noms i rols",
-        "tap_name_to_seat": "Toqueu un nom per a omplir el següent seient buit. Toqueu un seient per a netejar-lo.",
+        "prepare_game": "Prepara els seients",
+        "tap_name_to_seat": "Toqueu un nom per a omplir {seat}. Toqueu un seient per a netejar-lo.",
+        "tap_seat_to_clear": "Toqueu un seient per a netejar-lo.",
         "tap_role_then_seat": "Toqueu un rol i després toqueu un seient per a assignar aquest rol a aquest jugador (opcional)",
-        "all_names_seated": "Tots estan assignats",
-        "preparing_town": "S’està preparant el vostre poble…"
+        "preparing_town": "S’està preparant el vostre poble…",
+        "handout_question": "Com rebran els jugadors els seus rols?",
+        "mode_phones": "Al seu telèfon",
+        "mode_phones_hint": "Els jugadors s’uneixen des del seu telèfon i després envieu a cadascú el seu rol.",
+        "mode_sushi": "Sushi Buffet",
+        "mode_sushi_hint": "Cada seient ja té el seu rol del draft. Posar nom als seients és opcional abans de començar la partida.",
+        "mode_call_up": "Vénen cap a mi",
+        "mode_call_up_hint": "Crideu cada jugador per torns. Toquen el seu seient per a veure el seu rol.",
+        "mode_pass": "Passa el dispositiu",
+        "mode_pass_hint": "Cada jugador extreu el seu rol i després passa el dispositiu. Bloquejat amb el vostre PIN.",
+        "join_instructions": "Els jugadors van a {url} i introdueixen el codi",
+        "players_joined": "{joined} de {total} units",
+        "start_passing": "Comença a passar",
+        "pass_to": "Passa el dispositiu a",
+        "draw_my_character": "Extreu el meu rol",
+        "hand_back": "Torneu el dispositiu al narrador",
+        "storyteller_unlock": "Sóc el narrador"
     },
     "town": {
         "toggle_widgets": "Mostra o amaga els ginys",
@@ -609,7 +617,7 @@
         "connected_players": "Jugadors connectats",
         "no_town_info": "Encara no hi ha informació disponible sobre el poble.",
         "show_grim_title": "Voleu mostrar el grimori?",
-        "show_grim_message": "Esteu segur que voleu revelar el grimori? Això mostrarà tots els personatges als jugadors.",
+        "show_grim_message": "Esteu segur que voleu revelar el grimori? Això mostrarà tots els rols als jugadors.",
         "yes_show_grim": "Sí, mostra el grimori",
         "reveal_separately": "Revela’ls per separat",
         "tap_to_reveal": "Toqueu les fitxes per a revelar els rols",
@@ -635,7 +643,7 @@
         "show_card": "Mostra la targeta…",
         "create_custom_card": "Crea una targeta personalitzada",
         "cards": "Targetes",
-        "add_character": "Afegeix un personatge"
+        "add_character": "Afegeix un rol"
     },
     "controls": {
         "timer_expired_reset": "S’ha esgotat el temps. Feu clic per a reiniciar el temporitzador.",
@@ -662,7 +670,8 @@
         "first_night_order": "Ordre de la primera nit",
         "other_night_order": "Ordre de les altres nits",
         "toggle_navigation": "Commuta la navegació",
-        "notification_armed": "Notificació activada"
+        "notification_armed": "Notificació activada",
+        "phase_controls": "Controls de dia i nit"
     },
     "join": {
         "title": "Uneix-te a la sessió de joc",
@@ -698,7 +707,7 @@
         "first_night": "Primera nit",
         "other_nights": "Altres nits",
         "end_night_phase": "Acaba la nit",
-        "no_night_actions": "Cap personatge té accions nocturnes",
+        "no_night_actions": "Cap rol té accions nocturnes",
         "skip_dead": "Omet els morts"
     },
     "lock": {
@@ -721,5 +730,11 @@
         "nominated": "{player}, el {role}, ha estat acusat",
         "nominates": "{player}, el {role}, està acusant",
         "marked_dead": "{player}, el {role}, ha estat marcat com a mort"
+    },
+    "splash": {
+        "question": "Esteu dirigint la partida o hi esteu jugant?",
+        "storyteller": "Narrador",
+        "storyteller_hint": "Prepareu i dirigiu la partida",
+        "player_hint": "Uniu-vos a un poble, consulteu el guió i l'ordre nocturn"
     }
 }

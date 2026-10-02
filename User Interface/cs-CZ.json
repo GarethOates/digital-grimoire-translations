@@ -79,8 +79,10 @@
         "translation_database_only": "Omlouváme se. V současné době lze překládat pouze skripty načtené z databáze.",
         "invalid_script_url": "To nevypadá jako URL skriptu. Zadejte celou webovou adresu začínající na https://",
         "token_distribution_failed": "Nepodařilo se odeslat žetony do zařízení hráčů. Zkontrolujte připojení a zkuste to znovu.",
-        "script_roles_failed": "Nepodařilo se načíst postavy tohoto skriptu. Zkontrolujte připojení a zkuste to znovu.",
-        "roles_not_found": "Tyto postavy nebyly nalezeny: {roles}"
+        "script_roles_failed": "Nepodařilo se načíst role tohoto skriptu. Zkontrolujte připojení a zkuste to znovu.",
+        "script_json_invalid": "Nepodařilo se přečíst tento skript. Zkontrolujte, že se jedná o platný JSON skriptu.",
+        "roles_not_found": "Tyto role nebyly nalezeny: {roles}",
+        "invalid_import_link": "Tento odkaz pro import je poškozený nebo nepodporovaný, takže se nic nenačetlo."
     },
     "status": {
         "poisoned": "Otrávený",
@@ -103,6 +105,7 @@
     "nav": {
         "brand": "Digital Grimoire",
         "offline": "Offline",
+        "companion": "Společník hráče",
         "game": {
             "title": "Hra",
             "home": "Nová...",
@@ -111,11 +114,7 @@
             "town_view": "Pohled města"
         },
         "sheets": {
-            "title": "Listy",
-            "character": "Postava",
-            "night_order": "Pořadí v noci",
-            "rules": "Pravidla",
-            "script_tool": "Otevřít v Nástroji skriptů"
+            "rules": "Pravidla"
         },
         "settings": {
             "title": "Nastavení",
@@ -133,8 +132,6 @@
         "mobile": {
             "home": "Nová hra",
             "save_game": "Uložit hru",
-            "character_sheet": "Karta postavy",
-            "night_order_sheet": "List pořadí v noci",
             "language": "Jazyk"
         }
     },
@@ -142,7 +139,8 @@
         "return_home": {
             "title": "Návrat domů",
             "message": "Opravdu se chcete vrátit na domovskou obrazovku? Vaše aktuální hra bude ztracena.",
-            "keep_seating": "Zachovat aktuální zasedací pořádek pro další hru"
+            "keep_seating": "Zachovat aktuální zasedací pořádek pro další hru",
+            "keep_names": "Zachovat jména na stejných místech"
         },
         "save_game": {
             "title": "Uložit hru",
@@ -232,7 +230,7 @@
             "message": "Zpráva",
             "background_colour": "Barva pozadí",
             "text_colour": "Barva textu",
-            "select_character_enabled": "Výběr postavy povolen?",
+            "select_character_enabled": "Výběr role povolen?",
             "link_roles": "Propojit role"
         },
         "delete_town": {
@@ -358,13 +356,13 @@
         },
         "town": {
             "view_title": "Zobrazit město",
-            "description": "Vaše město je místo, kde tato hra žije. Sdílejte kód a hráči si budou moci vzít svou postavu, přečíst skript a sledovat tvrzení na svém telefonu — nebo otevřete pohled města na televizi, aby ho viděli všichni. Váš Grimoár je uložen na našem serveru, dokud město běží.",
+            "description_phones": "Vaše město je místo, kde tato hra žije. Sdílejte kód a hráči si budou moci vzít svou roli, přečíst skript a sledovat tvrzení na svém telefonu.",
+            "description_screen": "Vaše město je místo, kde tato hra žije. Otevřete pohled města na televizi, aby ho viděli všichni. Váš Grimoár je uložen na našem serveru, dokud město běží.",
             "delete_button": "Smazat město...",
             "code_label": "Kód města",
             "open_on_screen": "Otevřete pohled města na televizi nebo náhradním tabletu:",
             "rename": "Přejmenovat město",
             "title": "Město",
-            "phones_heading": "Telefony hráčů",
             "screen_heading": "Velká obrazovka"
         },
         "user": {
@@ -433,6 +431,10 @@
             "position_stretch": "Roztáhnout",
             "use_icon_background": "Přidat pozadí ikony",
             "icon_background_colour": "Barva pozadí ikony"
+        },
+        "import_game": {
+            "title": "Importovat hru",
+            "message": "Opravdu chcete nahradit svou aktuální hru importovanou hrou? Vaše aktuální hra bude ztracena."
         }
     },
     "roles": {
@@ -463,7 +465,6 @@
         "marionette_adjacency_warning": "Neplatné nastavení: Loutka musí sedět vedle Démona. Démon je nyní mezi dvěma ostatními Přisluhovači.",
         "layout_help": "Vyberte tvar zasedacího pořádku.\nToto lze později ručně upravit.",
         "choose_script": "Vyberte si svůj skript",
-        "select_from_official": "Vyberte si z oficiálních skriptů nebo vyhledejte vlastní",
         "players": "{count} hráčů",
         "trouble_brewing": "Potíže Přicházejí",
         "trouble_brewing_desc": "Původní skript. Ideální pro začátečníky, kteří se učí hru.",
@@ -477,7 +478,6 @@
         "select_random_roles": "Vybrat náhodné role",
         "shuffle_roles": "Zamíchat role",
         "travellers_to_show": "Pocestní k zobrazení",
-        "edition": "Edice",
         "game_lock": "Více kopií",
         "allow": "Povolit",
         "disallow": "Zakázat",
@@ -503,24 +503,16 @@
         "clear": "Vymazat",
         "by": "od",
         "view_bootlegger_info": "Zobrazit informace o Bootleggerovi",
-        "edit_names_optional": "Vybrat hráče",
-        "search_placeholder": "Hledat podle jména (např. Uncertain Death)",
+        "edit_names_optional": "Přidat jména (volitelné)",
+        "search_hint": "Hledat podle jména nebo URL.",
         "unknown": "neznámé",
         "no_matching_scripts": "Nenalezeny žádné odpovídající skripty",
-        "no_script_loaded": "Není načten žádný skript",
-        "download_only_database": "Stahování je k dispozici pouze pro databázové skripty",
-        "download_script_title": "Stáhnout {scriptName}",
-        "download_pdf_title": "Stáhnout PDF pro {scriptName}",
-        "or_load_own_script": "nebo načtěte svůj vlastní skript",
-        "botc_scripts_available": "K dispozici jsou všechny skripty z botcscripts.com",
-        "from_url": "Z URL",
-        "from_file": "Ze souboru",
+        "botc_scripts_available": "K dispozici jsou všechny skripty z botcscripts.com.",
+        "script_loaded": "Načten {scriptName}",
         "from_json": "Z JSON",
-        "upload_script": "Nahrát skript",
-        "download_script": "Stáhnout skript",
-        "script_url": "URL skriptu",
-        "enter_url": "Zadejte URL",
         "paste_json_placeholder": "Zde vložte JSON vašeho skriptu...",
+        "from_file": "Ze souboru",
+        "upload_script": "Nahrát skript",
         "not_in_bag_role": "Vyberte další žeton, který umístíte do sáčku namísto tohoto. K této roli bude v Grimoáru přidána připomínka.",
         "add_travellers_to_bag": "Přidat Pocestné do sáčku (nedoporučuje se)"
     },
@@ -558,7 +550,6 @@
         "start_game": "Spustit hru",
         "assign_progress": "{assigned} z {total} míst vylosováno",
         "tap_seat_to_assign": "Klepnutím přiřadíte hráče na toto místo",
-        "tap_seat_hint": "Klepnutím na místo pro něj vylosujete roli",
         "seat": "Místo"
     },
     "draw_tokens": {
@@ -577,19 +568,36 @@
         "auto_assign_all_confirm": "Každé místo, které ještě nemá roli, se nyní obsadí. Již přiřazené role zůstanou zachovány, ostatní budou náhodné.",
         "no_players_connected": "Žádní připojení hráči",
         "no_tokens_available": "Žádné žetony k dispozici",
-        "distribute_to_devices": "Rozdat do zařízení",
-        "name_every_seat_first": "Přiřaďte jméno na každé místo, abyste mohli odeslat žetony do zařízení",
+        "distribute_to_devices": "Odeslat žetony",
+        "send_partial_confirm": "Připojilo se jen {joined} z {total} hráčů. Kdo nemá telefon, nedostane svou roli. Přesto odeslat?",
+        "invite_players": "Pozvat hráče",
         "assign_role": "Přiřadit {roleName}",
         "disconnect_confirm": "Opravdu chcete odpojit hráče <strong>{playerName}</strong>?",
         "player_rejoin": "Hráč bude z relace odebrán a bude se muset znovu připojit.",
         "enter_player_name": "Zadejte jméno hráče",
         "assign_role_button": "Přiřadit roli",
         "choose_role": "Vybrat roli",
-        "prepare_game": "Jména a role",
-        "tap_name_to_seat": "Klepnutím na jméno obsadíte další prázdné místo. Klepnutím na místo ho vymažete.",
+        "prepare_game": "Připravit místa",
+        "tap_name_to_seat": "Klepnutím na jméno obsadíte {seat}. Klepnutím na místo ho vymažete.",
+        "tap_seat_to_clear": "Klepnutím na místo ho vymažete.",
         "tap_role_then_seat": "Klepněte na roli, poté na místo, abyste tomuto hráči přiřadili danou roli (volitelné)",
-        "all_names_seated": "Všichni jsou usazeni",
-        "preparing_town": "Připravuje se vaše město…"
+        "preparing_town": "Připravuje se vaše město…",
+        "handout_question": "Jak hráči dostanou své role?",
+        "mode_phones": "Na svém telefonu",
+        "mode_phones_hint": "Hráči se připojí na svém telefonu, poté každému pošlete jeho roli.",
+        "mode_sushi": "Sushi Buffet",
+        "mode_sushi_hint": "Každé místo už má svoji roli z draftu. Pojmenování míst je volitelné, než spustíte hru.",
+        "mode_call_up": "Přijdou ke mně",
+        "mode_call_up_hint": "Vyvolávejte hráče jednoho po druhém. Klepnutím na své místo uvidí svou roli.",
+        "mode_pass": "Předat zařízení",
+        "mode_pass_hint": "Každý hráč si vylosuje svou roli a poté předá zařízení dál. Uzamčeno vaším PINem.",
+        "join_instructions": "Hráči přejdou na {url} a zadají kód",
+        "players_joined": "{joined} z {total} se připojilo",
+        "start_passing": "Zahájit předávání",
+        "pass_to": "Předejte zařízení:",
+        "draw_my_character": "Vylosovat svou roli",
+        "hand_back": "Vraťte zařízení Vypravěči",
+        "storyteller_unlock": "Jsem Vypravěč"
     },
     "town": {
         "toggle_widgets": "Přepnout widgety",
@@ -609,7 +617,7 @@
         "connected_players": "Připojení hráči",
         "no_town_info": "Zatím nejsou k dispozici žádné informace o městě..",
         "show_grim_title": "Zobrazit grimoár?",
-        "show_grim_message": "Opravdu chcete odhalit grimoár? Tím se hráčům zobrazí všechny role postav.",
+        "show_grim_message": "Opravdu chcete odhalit grimoár? Tím se hráčům zobrazí všechny role.",
         "yes_show_grim": "Ano, zobrazit grimoár",
         "reveal_separately": "Odhalit postupně",
         "tap_to_reveal": "Klepnutím na žetony odhalíte role",
@@ -635,7 +643,7 @@
         "show_card": "Zobrazit kartu..",
         "create_custom_card": "Vytvořit vlastní kartu",
         "cards": "Karty",
-        "add_character": "Přidat postavu"
+        "add_character": "Přidat roli"
     },
     "controls": {
         "timer_expired_reset": "Čas vypršel - Klepnutím resetujte",
@@ -662,7 +670,8 @@
         "first_night_order": "Pořadí první noci",
         "other_night_order": "Pořadí dalších nocí",
         "toggle_navigation": "Přepnout navigaci",
-        "notification_armed": "Upozornění nastaveno"
+        "notification_armed": "Upozornění nastaveno",
+        "phase_controls": "Ovládání dne a noci"
     },
     "join": {
         "title": "Připojit se k herní relaci",
@@ -698,7 +707,7 @@
         "first_night": "První noc",
         "other_nights": "Další noci",
         "end_night_phase": "Konec noci",
-        "no_night_actions": "Postavy nemají noční akce",
+        "no_night_actions": "Role nemají noční akce",
         "skip_dead": "Přeskočit mrtvé"
     },
     "lock": {
@@ -721,5 +730,11 @@
         "nominated": "{player} ({role}) byl nominován",
         "nominates": "{player} ({role}) nominuje",
         "marked_dead": "{player} ({role}) byl označen jako mrtvý"
+    },
+    "splash": {
+        "question": "Vedete hru, nebo v ní hrajete?",
+        "storyteller": "Vypravěč",
+        "storyteller_hint": "Připravte a veďte hru",
+        "player_hint": "Připojte se k městu, podívejte se na skript a pořadí v noci"
     }
 }

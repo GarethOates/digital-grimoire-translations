@@ -79,8 +79,10 @@
         "translation_database_only": "Sorry. Alleen scripts uit de database kunnen op dit moment worden vertaald.",
         "invalid_script_url": "Dat ziet er niet uit als een script-URL. Voer het volledige webadres in, beginnend met https://",
         "token_distribution_failed": "De tokens konden niet naar de apparaten van de spelers worden verzonden. Controleer je verbinding en probeer het opnieuw.",
-        "script_roles_failed": "De personages van dit script konden niet worden geladen. Controleer je verbinding en probeer het opnieuw.",
-        "roles_not_found": "Deze personages konden niet worden gevonden: {roles}"
+        "script_roles_failed": "De rollen van dit script konden niet worden geladen. Controleer je verbinding en probeer het opnieuw.",
+        "script_json_invalid": "Dit script kon niet worden gelezen. Controleer of het geldige script-JSON is.",
+        "roles_not_found": "Deze rollen konden niet worden gevonden: {roles}",
+        "invalid_import_link": "Deze importlink is kapot of wordt niet ondersteund, dus er is niets geladen."
     },
     "status": {
         "poisoned": "Vergiftigd",
@@ -103,6 +105,7 @@
     "nav": {
         "brand": "Digital Grimoire",
         "offline": "Offline",
+        "companion": "Spelersbegeleider",
         "game": {
             "title": "Spel",
             "home": "Nieuw...",
@@ -111,11 +114,7 @@
             "town_view": "Stadweergave"
         },
         "sheets": {
-            "title": "Bladen",
-            "character": "Personage",
-            "night_order": "Nachtvolgorde",
-            "rules": "Regels",
-            "script_tool": "Openen in Script Tool"
+            "rules": "Regels"
         },
         "settings": {
             "title": "Instellingen",
@@ -133,8 +132,6 @@
         "mobile": {
             "home": "Nieuw Spel",
             "save_game": "Spel opslaan",
-            "character_sheet": "Personageblad",
-            "night_order_sheet": "Nachtvolgordeblad",
             "language": "Taal"
         }
     },
@@ -142,7 +139,8 @@
         "return_home": {
             "title": "Terug naar Beginscherm",
             "message": "Weet je zeker dat je terug wilt naar het beginscherm? Je huidige spel gaat verloren.",
-            "keep_seating": "Huidige zitopstelling behouden voor het volgende spel"
+            "keep_seating": "Huidige zitopstelling behouden voor het volgende spel",
+            "keep_names": "Namen op dezelfde plaatsen behouden"
         },
         "save_game": {
             "title": "Spel opslaan",
@@ -232,7 +230,7 @@
             "message": "Bericht",
             "background_colour": "Achtergrondkleur",
             "text_colour": "Tekstkleur",
-            "select_character_enabled": "Personage selecteren ingeschakeld?",
+            "select_character_enabled": "Rol selecteren ingeschakeld?",
             "link_roles": "Rollen koppelen"
         },
         "delete_town": {
@@ -358,13 +356,13 @@
         },
         "town": {
             "view_title": "Stad bekijken",
-            "description": "Je stad is waar dit spel leeft. Deel de code en spelers kunnen hun personage ophalen, het script lezen en claims bijhouden op hun telefoon — of open de stadweergave op een tv zodat iedereen kan meekijken. Je Grimoire wordt opgeslagen op onze server zolang een stad actief is.",
+            "description_phones": "Je stad is waar dit spel leeft. Deel de code en spelers kunnen hun rol ophalen, het script lezen en claims bijhouden op hun telefoon.",
+            "description_screen": "Je stad is waar dit spel leeft. Open de stadweergave op een tv zodat iedereen kan meekijken. Je Grimoire wordt opgeslagen op onze server zolang een stad actief is.",
             "delete_button": "Stad verwijderen...",
             "code_label": "Stadscode",
             "open_on_screen": "Open de stadweergave op een tv of extra tablet:",
             "rename": "Stad hernoemen",
             "title": "Stad",
-            "phones_heading": "Telefoons van spelers",
             "screen_heading": "Groot scherm"
         },
         "user": {
@@ -433,6 +431,10 @@
             "position_stretch": "Uitrekken",
             "use_icon_background": "Icoonachtergrond toevoegen",
             "icon_background_colour": "Icoonachtergrondkleur"
+        },
+        "import_game": {
+            "title": "Spel importeren",
+            "message": "Weet je zeker dat je je huidige spel wilt vervangen door het geïmporteerde spel? Je huidige spel gaat verloren."
         }
     },
     "roles": {
@@ -463,7 +465,6 @@
         "marionette_adjacency_warning": "Ongeldige setup: de Marionette moet naast de Demon zitten. De Demon bevindt zich momenteel tussen de andere twee Handlangers.",
         "layout_help": "Kies de vorm van de zitopstelling.\nDeze kan later handmatig worden aangepast.",
         "choose_script": "Kies je script",
-        "select_from_official": "Kies uit officiële scripts of zoek naar aangepaste",
         "players": "{count} spelers",
         "trouble_brewing": "Trouble Brewing",
         "trouble_brewing_desc": "Het originele script. Perfect voor beginners die het spel leren.",
@@ -477,7 +478,6 @@
         "select_random_roles": "Willekeurige rollen selecteren",
         "shuffle_roles": "Rollen schudden",
         "travellers_to_show": "Reizigers tonen",
-        "edition": "Editie",
         "game_lock": "Meerdere kopieën",
         "allow": "Toestaan",
         "disallow": "Niet toestaan",
@@ -503,24 +503,16 @@
         "clear": "Wissen",
         "by": "door",
         "view_bootlegger_info": "Bootlegger-informatie bekijken",
-        "edit_names_optional": "Spelers kiezen",
-        "search_placeholder": "Zoeken op naam of author: <auteur>",
+        "edit_names_optional": "Namen toevoegen (optioneel)",
+        "search_hint": "Zoeken op naam of URL.",
         "unknown": "onbekend",
         "no_matching_scripts": "Geen overeenkomende scripts gevonden",
-        "no_script_loaded": "Geen script geladen",
-        "download_only_database": "Download alleen beschikbaar voor databasescripts",
-        "download_script_title": "{scriptName} downloaden",
-        "download_pdf_title": "PDF voor {scriptName} downloaden",
-        "or_load_own_script": "of laad je eigen script",
-        "botc_scripts_available": "Alle scripts van botcscripts.com beschikbaar",
-        "from_url": "Vanaf URL",
-        "from_file": "Vanaf bestand",
+        "botc_scripts_available": "Alle scripts van botcscripts.com beschikbaar.",
+        "script_loaded": "{scriptName} geladen",
         "from_json": "Vanaf JSON",
-        "upload_script": "Script uploaden",
-        "download_script": "Script downloaden",
-        "script_url": "Script-URL",
-        "enter_url": "Voer URL in",
         "paste_json_placeholder": "Plak hier je script-JSON...",
+        "from_file": "Vanaf bestand",
+        "upload_script": "Script uploaden",
         "not_in_bag_role": "Selecteer een extra token om in plaats van dit token in de zak te plaatsen. Er wordt een herinnering in het Grimoire geplaatst voor deze rol.",
         "add_travellers_to_bag": "Reizigers aan de zak toevoegen (Niet aanbevolen)"
     },
@@ -558,7 +550,6 @@
         "start_game": "Spel starten",
         "assign_progress": "{assigned} van {total} plaatsen getrokken",
         "tap_seat_to_assign": "Tik om een speler aan deze plaats toe te wijzen",
-        "tap_seat_hint": "Tik op een plaats om er een rol voor te trekken",
         "seat": "Plaats"
     },
     "draw_tokens": {
@@ -577,19 +568,36 @@
         "auto_assign_all_confirm": "Elke plaats die nog geen rol heeft, wordt nu gevuld. Al toegewezen rollen blijven behouden, de rest wordt willekeurig.",
         "no_players_connected": "Geen spelers verbonden",
         "no_tokens_available": "Geen tokens beschikbaar",
-        "distribute_to_devices": "Naar apparaten distribueren",
-        "name_every_seat_first": "Wijs elke plaats een naam toe om tokens naar apparaten te sturen",
+        "distribute_to_devices": "Tokens verzenden",
+        "send_partial_confirm": "Slechts {joined} van {total} spelers hebben meegedaan. Wie geen telefoon heeft, krijgt geen rol. Toch verzenden?",
+        "invite_players": "Spelers uitnodigen",
         "assign_role": "{roleName} toewijzen",
         "disconnect_confirm": "Weet je zeker dat je <strong>{playerName}</strong> wilt verbreken?",
         "player_rejoin": "De speler wordt uit de sessie verwijderd en moet opnieuw deelnemen.",
         "enter_player_name": "Spelersnaam invoeren",
         "assign_role_button": "Rol toewijzen",
         "choose_role": "Kies een rol",
-        "prepare_game": "Namen en rollen",
-        "tap_name_to_seat": "Tik op een naam om de volgende lege plaats te vullen. Tik op een plaats om deze te wissen.",
+        "prepare_game": "Plaatsen instellen",
+        "tap_name_to_seat": "Tik op een naam om {seat} te vullen. Tik op een plaats om deze te wissen.",
+        "tap_seat_to_clear": "Tik op een plaats om deze te wissen.",
         "tap_role_then_seat": "Tik op een rol en tik daarna op een plaats om die speler die rol te geven (optioneel)",
-        "all_names_seated": "Iedereen is geplaatst",
-        "preparing_town": "Je stad wordt voorbereid…"
+        "preparing_town": "Je stad wordt voorbereid…",
+        "handout_question": "Hoe krijgen de spelers hun rol?",
+        "mode_phones": "Op hun telefoon",
+        "mode_phones_hint": "Spelers nemen deel via hun telefoon, waarna jij iedereen zijn rol stuurt.",
+        "mode_sushi": "Sushi Buffet",
+        "mode_sushi_hint": "Elke plaats heeft al een rol vanuit de draft. De plaatsen een naam geven is optioneel voordat je het spel start.",
+        "mode_call_up": "Ze komen naar mij",
+        "mode_call_up_hint": "Roep elke speler om de beurt. Ze tikken op hun plaats om hun rol te zien.",
+        "mode_pass": "Apparaat doorgeven",
+        "mode_pass_hint": "Elke speler trekt zijn rol en geeft het apparaat daarna door. Vergrendeld met jouw pincode.",
+        "join_instructions": "Spelers gaan naar {url} en voeren de code in",
+        "players_joined": "{joined} van {total} meegedaan",
+        "start_passing": "Beginnen met doorgeven",
+        "pass_to": "Apparaat doorgeven aan",
+        "draw_my_character": "Mijn rol trekken",
+        "hand_back": "Geef het apparaat terug aan de Verteller",
+        "storyteller_unlock": "Ik ben de Verteller"
     },
     "town": {
         "toggle_widgets": "Widgets aan/uit",
@@ -609,7 +617,7 @@
         "connected_players": "Verbonden spelers",
         "no_town_info": "Nog geen stadsinformatie beschikbaar..",
         "show_grim_title": "Grimoire tonen?",
-        "show_grim_message": "Weet je zeker dat je het Grimoire wilt tonen? Dit toont alle personage-rollen aan alle spelers.",
+        "show_grim_message": "Weet je zeker dat je het Grimoire wilt tonen? Dit toont alle rollen aan de spelers.",
         "yes_show_grim": "Ja, toon Grimoire",
         "reveal_separately": "Apart onthullen",
         "tap_to_reveal": "Tik op tokens om rollen te onthullen",
@@ -635,7 +643,7 @@
         "show_card": "Kaart tonen..",
         "create_custom_card": "Aangepaste kaart maken",
         "cards": "Kaarten",
-        "add_character": "Personage toevoegen"
+        "add_character": "Rol toevoegen"
     },
     "controls": {
         "timer_expired_reset": "Timer verlopen - Klik om opnieuw in te stellen",
@@ -662,7 +670,8 @@
         "first_night_order": "Eerste nachtvolgorde",
         "other_night_order": "Andere nachtvolgorde",
         "toggle_navigation": "Navigatie in-/uitschakelen",
-        "notification_armed": "Melding ingesteld"
+        "notification_armed": "Melding ingesteld",
+        "phase_controls": "Dag- en nachtbediening"
     },
     "join": {
         "title": "Deelnemen aan spelsessie",
@@ -698,7 +707,7 @@
         "first_night": "Eerste Nacht",
         "other_nights": "Andere Nachten",
         "end_night_phase": "Nacht beëindigen",
-        "no_night_actions": "Geen personages hebben nachtacties",
+        "no_night_actions": "Geen rollen hebben nachtacties",
         "skip_dead": "Doden overslaan"
     },
     "lock": {
@@ -721,5 +730,11 @@
         "nominated": "{player} de {role} is genomineerd",
         "nominates": "{player} de {role} nomineert",
         "marked_dead": "{player} de {role} is gemarkeerd als dood"
+    },
+    "splash": {
+        "question": "Leid je het spel, of speel je mee?",
+        "storyteller": "Verteller",
+        "storyteller_hint": "Stel het spel in en leid het",
+        "player_hint": "Doe mee aan een stad, bekijk het script en de nachtvolgorde"
     }
 }
