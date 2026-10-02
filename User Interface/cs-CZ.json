@@ -735,6 +735,10 @@
         "question": "Vedete hru, nebo v ní hrajete?",
         "storyteller": "Vypravěč",
         "storyteller_hint": "Připravte a veďte hru",
-        "player_hint": "Připojte se k městu, podívejte se na skript a pořadí v noci"
+        "player_hint": "Připojte se k městu, podívejte se na skript a pořadí v noci",
+        "youtube": "Sledujte na YouTube",
+        "donation": "Pokud si vážíte práce, kterou jsem do tohoto nástroje vložil,",
+        "donation_link": "dary",
+        "donation_thanks": "jsou srdečně vítány. Děkuji."
     }
 }

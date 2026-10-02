@@ -735,6 +735,10 @@
         "question": "Stai conducendo la partita o ci stai giocando?",
         "storyteller": "Narratore",
         "storyteller_hint": "Prepara e conduci la partita",
-        "player_hint": "Unisciti a una città, consulta il copione e l'ordine della notte"
+        "player_hint": "Unisciti a una città, consulta il copione e l'ordine della notte",
+        "youtube": "Guarda su YouTube",
+        "donation": "Se apprezzi il lavoro svolto su questo strumento, le",
+        "donation_link": "donazioni",
+        "donation_thanks": "sono molto gradite. Grazie."
     }
 }

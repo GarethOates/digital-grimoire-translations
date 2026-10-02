@@ -735,6 +735,10 @@
     "question": "Você está conduzindo o jogo ou jogando nele?",
     "storyteller": "Narrador",
     "storyteller_hint": "Prepare e conduza o jogo",
-    "player_hint": "Entre em uma cidade, veja o script e a ordem da noite"
+    "player_hint": "Entre em uma cidade, veja o script e a ordem da noite",
+    "youtube": "Assistir no YouTube",
+    "donation": "Se você valoriza o trabalho que dediquei a esta ferramenta,",
+    "donation_link": "doações",
+    "donation_thanks": "são muito bem-vindas. Obrigado."
   }
 }

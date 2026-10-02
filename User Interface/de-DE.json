@@ -735,6 +735,10 @@
         "question": "Leiten Sie das Spiel, oder spielen Sie mit?",
         "storyteller": "Geschichtenerzähler",
         "storyteller_hint": "Spiel einrichten und leiten",
-        "player_hint": "Einer Stadt beitreten, das Skript lesen und die Nachtreihenfolge sehen"
+        "player_hint": "Einer Stadt beitreten, das Skript lesen und die Nachtreihenfolge sehen",
+        "youtube": "Auf YouTube ansehen",
+        "donation": "Wenn Sie die Arbeit schätzen, die ich in dieses Tool gesteckt habe,",
+        "donation_link": "Spenden",
+        "donation_thanks": "sind sehr willkommen. Vielen Dank."
     }
 }

@@ -735,6 +735,10 @@
         "question": "Are you running the game, or playing in it?",
         "storyteller": "Storyteller",
         "storyteller_hint": "Set up and run the game",
-        "player_hint": "Join a Town, See the Script and the Night Order"
+        "player_hint": "Join a Town, See the Script and the Night Order",
+        "youtube": "Watch on YouTube",
+        "donation": "If you appreciate the work I've put into this tool,",
+        "donation_link": "donations",
+        "donation_thanks": "are very welcome. Thank you."
     }
 }

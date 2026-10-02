@@ -735,6 +735,10 @@
         "question": "¿Diriges la partida o juegas en ella?",
         "storyteller": "Narrador",
         "storyteller_hint": "Prepara y dirige la partida",
-        "player_hint": "Únete a un pueblo, consulta el guión y el orden nocturno"
+        "player_hint": "Únete a un pueblo, consulta el guión y el orden nocturno",
+        "youtube": "Mira en YouTube",
+        "donation": "Si aprecias el trabajo que he puesto en esta herramienta,",
+        "donation_link": "las donaciones",
+        "donation_thanks": "son muy bienvenidas. Gracias."
     }
 }

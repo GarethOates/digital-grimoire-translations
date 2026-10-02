@@ -735,6 +735,10 @@
         "question": "Dirigez-vous la partie, ou y jouez-vous ?",
         "storyteller": "Conteur",
         "storyteller_hint": "Préparez et dirigez la partie",
-        "player_hint": "Rejoignez un village, consultez le script et l'ordre de nuit"
+        "player_hint": "Rejoignez un village, consultez le script et l'ordre de nuit",
+        "youtube": "Voir sur YouTube",
+        "donation": "Si vous appréciez le travail que j'ai consacré à cet outil,",
+        "donation_link": "les dons",
+        "donation_thanks": "sont les bienvenus. Merci."
     }
 }

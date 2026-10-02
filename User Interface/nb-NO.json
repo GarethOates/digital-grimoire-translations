@@ -735,6 +735,10 @@
         "question": "Leder du spillet, eller spiller du i det?",
         "storyteller": "Historieforteller",
         "storyteller_hint": "Sett opp og led spillet",
-        "player_hint": "Bli med i en by, se skriptet og nattens rekkefølge"
+        "player_hint": "Bli med i en by, se skriptet og nattens rekkefølge",
+        "youtube": "Se på YouTube",
+        "donation": "Hvis du setter pris på arbeidet jeg har lagt ned i dette verktøyet, er",
+        "donation_link": "donasjoner",
+        "donation_thanks": "hjertelig velkomne. Takk."
     }
 }

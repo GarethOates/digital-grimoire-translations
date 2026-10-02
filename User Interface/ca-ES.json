@@ -735,6 +735,10 @@
         "question": "Esteu dirigint la partida o hi esteu jugant?",
         "storyteller": "Narrador",
         "storyteller_hint": "Prepareu i dirigiu la partida",
-        "player_hint": "Uniu-vos a un poble, consulteu el guió i l'ordre nocturn"
+        "player_hint": "Uniu-vos a un poble, consulteu el guió i l'ordre nocturn",
+        "youtube": "Mireu a YouTube",
+        "donation": "Si valoreu la feina que he dedicat a aquesta eina,",
+        "donation_link": "les donacions",
+        "donation_thanks": "són molt benvingudes. Gràcies."
     }
 }
