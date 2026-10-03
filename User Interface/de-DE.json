@@ -493,6 +493,7 @@
         "too_many_travellers": "Entfernen Sie {count} Reisende (max. 5), um fortzufahren",
         "setup_warning": "Einige ausgewählte Rollen können die Stadtzusammensetzung ändern. Bitte überprüfen Sie dies, bevor Sie fortfahren.",
         "multiple_demons_warning": "Mehrere Dämonen erkannt, die keine mehrfachen Instanzen zulassen.",
+        "unread_setup_warning": "Der Setup-Text von {roles} konnte nicht gelesen werden. Bitte prüfen Sie deren Setup manuell.",
         "player_names": "Spielernamen",
         "player_placeholder": "Spieler {number}",
         "add_as_player": "Als Spieler hinzufügen",

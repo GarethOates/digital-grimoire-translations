@@ -493,6 +493,7 @@
         "too_many_travellers": "Fjern {count} reisende (maks 5) for å fortsette",
         "setup_warning": "Noen valgte roller kan endre byens sammensetning. Vennligst se over før du fortsetter.",
         "multiple_demons_warning": "Du har to demoner i posen.",
+        "unread_setup_warning": "Kunne ikke lese oppsettsteksten til {roles}. Sjekk oppsettet deres manuelt.",
         "player_names": "Spillernavn",
         "player_placeholder": "Spiller {number}",
         "add_as_player": "Legg til som spiller",

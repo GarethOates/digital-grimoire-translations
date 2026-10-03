@@ -493,6 +493,7 @@
         "too_many_travellers": "Traieu {count} viatgers (màx. 5) per a continuar",
         "setup_warning": "Alguns rols triats poden alterar la composició del poble. Reviseu-la abans de continuar.",
         "multiple_demons_warning": "S’han detectat diversos Dimonis que no admeten còpies múltiples.",
+        "unread_setup_warning": "No s’ha pogut llegir el text de preparació de {roles}. Reviseu-ne la preparació a mà.",
         "player_names": "Noms dels jugadors",
         "player_placeholder": "Jugador {number}",
         "add_as_player": "Afegeix com a jugador",

@@ -493,6 +493,7 @@
         "too_many_travellers": "Supprimez {count} voyageurs (max. 5) pour continuer",
         "setup_warning": "Certains rôles choisis peuvent modifier la composition du village. Veuillez vérifier avant de continuer.",
         "multiple_demons_warning": "Plusieurs démons détectés qui n'autorisent pas plusieurs instances.",
+        "unread_setup_warning": "Impossible de lire le texte de mise en place de {roles}. Veuillez vérifier leur mise en place manuellement.",
         "player_names": "Noms des joueurs",
         "player_placeholder": "Joueur {number}",
         "add_as_player": "Ajouter comme joueur",

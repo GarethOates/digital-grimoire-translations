@@ -493,6 +493,7 @@
     "too_many_travellers": "Remova {count} viajantes (max 5) para continuar",
     "setup_warning": "Alguns personagens escolhidos podem alterar a composição da cidade. Reveja antes de continuar.",
     "multiple_demons_warning": "Detectados múltiplos demônios que não permitem múltiplas instâncias..",
+    "unread_setup_warning": "Não foi possível ler o texto de preparação de {roles}. Verifique a preparação deles manualmente.",
     "player_names": "Nomes dos jogadores",
     "player_placeholder": "Jogador {number}",
     "add_as_player": "Adicionar como jogador",

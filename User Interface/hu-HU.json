@@ -493,6 +493,7 @@
         "too_many_travellers": "Törölj {count} utazót (max 5) a folytatáshoz",
         "setup_warning": "Néhány kiválasztott karakter megváltoztathatja a város összetételét. Kérlek ellenőrizd a folytatás előtt.",
         "multiple_demons_warning": "Több, ismétlődést nem támogató démon észlelve.",
+        "unread_setup_warning": "Nem sikerült beolvasni a következők előkészítési szövegét: {roles}. Ellenőrizd az előkészítésüket kézzel.",
         "player_names": "Játékos nevek",
         "player_placeholder": "{number}. játékos",
         "add_as_player": "Hozzáadás Játékosként",

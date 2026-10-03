@@ -493,6 +493,7 @@
         "too_many_travellers": "Rimuovi {count} viaggiatori (max 5) per continuare",
         "setup_warning": "Alcuni ruoli selezionati potrebbero modificare la composizione del villaggio. Controlla prima di continuare.",
         "multiple_demons_warning": "Rilevati più Demoni che non consentono istanze multiple.",
+        "unread_setup_warning": "Impossibile leggere il testo di preparazione di {roles}. Controlla la loro preparazione a mano.",
         "player_names": "Nomi dei Giocatori",
         "player_placeholder": "Giocatore {number}",
         "add_as_player": "Aggiungi come giocatore",

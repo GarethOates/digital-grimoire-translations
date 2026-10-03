@@ -493,6 +493,7 @@
         "too_many_travellers": "Odstraňte {count} cestovatelů (max 5) pro pokračování",
         "setup_warning": "Některé vybrané role mohou změnit složení města. Před pokračováním to prosím zkontrolujte.",
         "multiple_demons_warning": "Zjištěno více démonů, kteří neumožňují více instancí.",
+        "unread_setup_warning": "Nepodařilo se přečíst text přípravy u rolí: {roles}. Zkontrolujte jejich přípravu ručně.",
         "player_names": "Jména hráčů",
         "player_placeholder": "Hráč {number}",
         "add_as_player": "Přidat jako hráče",

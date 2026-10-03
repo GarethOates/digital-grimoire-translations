@@ -493,6 +493,7 @@
         "too_many_travellers": "Quitá {count} viajeros (máx. 5) para continuar",
         "setup_warning": "Algunos de los roles elegidos alteran la composición del pueblo. Por favor, revisalos antes de continuar.",
         "multiple_demons_warning": "Se detectaron múltiples Demonios sin justificación mecánica.",
+        "unread_setup_warning": "No se pudo leer el texto de preparación de {roles}. Revisá su preparación a mano.",
         "player_names": "Nombre de los jugadores",
         "player_placeholder": "Jugador {number}",
         "add_as_player": "Agregar como jugador",

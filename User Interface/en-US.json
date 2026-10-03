@@ -493,6 +493,7 @@
         "too_many_travellers": "Remove {count} travellers (max 5) to continue",
         "setup_warning": "Some chosen roles may alter the town composition. Please review before continuing.",
         "multiple_demons_warning": "Multiple demons detected that don't allow multiple instances.",
+        "unread_setup_warning": "Couldn't read the setup text of {roles}. Check their setup by hand.",
         "player_names": "Player Names",
         "player_placeholder": "Player {number}",
         "add_as_player": "Add as Player",

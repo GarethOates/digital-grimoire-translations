@@ -493,6 +493,7 @@
         "too_many_travellers": "Verwijder {count} reizigers (max. 5) om door te gaan",
         "setup_warning": "Sommige gekozen rollen kunnen de stadssamenstelling wijzigen. Controleer dit voordat je doorgaat.",
         "multiple_demons_warning": "Meerdere demonen gedetecteerd die geen meerdere instanties toestaan.",
+        "unread_setup_warning": "Kon de setuptekst van {roles} niet lezen. Controleer hun setup handmatig.",
         "player_names": "Spelersnamen",
         "player_placeholder": "Speler {number}",
         "add_as_player": "Toevoegen als speler",
