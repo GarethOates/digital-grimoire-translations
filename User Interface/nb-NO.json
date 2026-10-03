@@ -745,6 +745,10 @@
         "storyteller_hint": "Sett opp og led spillet",
         "player_hint": "Bli med i en by, se skriptet og nattens rekkefølge",
         "youtube": "Se på YouTube",
+        "video_setup_title": "Hurtigoppsett - Trouble Brewing",
+        "video_setup_description": "Start et spill Trouble Brewing med 7 spillere, fra å gi spillerne navn til å legge til påminnelser.",
+        "video_quick_actions_title": "Hurtighandlinger",
+        "video_quick_actions_description": "Dobbelttrykk på en spiller for å markere vedkommende som død, og igjen for å bruke spøkelsesstemmen.",
         "donation": "Hvis du setter pris på arbeidet jeg har lagt ned i dette verktøyet, er",
         "donation_link": "donasjoner",
         "donation_thanks": "hjertelig velkomne. Takk."

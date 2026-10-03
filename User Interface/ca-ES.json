@@ -745,6 +745,10 @@
         "storyteller_hint": "Prepareu i dirigiu la partida",
         "player_hint": "Uniu-vos a un poble, consulteu el guió i l'ordre nocturn",
         "youtube": "Mireu a YouTube",
+        "video_setup_title": "Configuració ràpida - Trouble Brewing",
+        "video_setup_description": "Comenceu una partida de Trouble Brewing amb 7 jugadors, des de posar nom als jugadors fins a afegir recordatoris.",
+        "video_quick_actions_title": "Accions ràpides",
+        "video_quick_actions_description": "Toqueu dues vegades un jugador per marcar-lo com a mort, i una altra vegada per gastar el seu vot fantasma.",
         "donation": "Si valoreu la feina que he dedicat a aquesta eina,",
         "donation_link": "les donacions",
         "donation_thanks": "són molt benvingudes. Gràcies."

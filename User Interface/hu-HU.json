@@ -745,6 +745,10 @@
         "storyteller_hint": "Állítsd be és vezesd a játékot",
         "player_hint": "Csatlakozz egy városhoz, nézd meg a szkriptet és az éjszakai sorrendet",
         "youtube": "Nézd meg a YouTube-on",
+        "video_setup_title": "Gyors beállítás - Trouble Brewing",
+        "video_setup_description": "Indíts el egy 7 fős Trouble Brewing játékot, a játékosok elnevezésétől az emlékeztetők hozzáadásáig.",
+        "video_quick_actions_title": "Gyorsműveletek",
+        "video_quick_actions_description": "Koppints duplán egy játékosra, hogy halottnak jelöld, majd még egyszer, hogy felhasználja a szellemszavazatát.",
         "donation": "Ha értékeled a munkát, amit ebbe az eszközbe fektettem, az",
         "donation_link": "adományokat",
         "donation_thanks": "szívesen fogadom. Köszönöm."

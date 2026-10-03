@@ -745,6 +745,10 @@
         "storyteller_hint": "Set up and run the game",
         "player_hint": "Join a Town, See the Script and the Night Order",
         "youtube": "Watch on YouTube",
+        "video_setup_title": "Quick Setup - Trouble Brewing",
+        "video_setup_description": "Start a 7-player game of Trouble Brewing, from naming players to adding reminders.",
+        "video_quick_actions_title": "Quick Actions",
+        "video_quick_actions_description": "Double-tap a player to mark them dead, and again to spend their dead vote.",
         "donation": "If you appreciate the work I've put into this tool,",
         "donation_link": "donations",
         "donation_thanks": "are very welcome. Thank you."

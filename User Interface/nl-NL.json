@@ -745,6 +745,10 @@
         "storyteller_hint": "Stel het spel in en leid het",
         "player_hint": "Doe mee aan een stad, bekijk het script en de nachtvolgorde",
         "youtube": "Bekijk op YouTube",
+        "video_setup_title": "Snelle installatie - Trouble Brewing",
+        "video_setup_description": "Start een spel Trouble Brewing met 7 spelers, van het benoemen van spelers tot het toevoegen van herinneringen.",
+        "video_quick_actions_title": "Snelle acties",
+        "video_quick_actions_description": "Tik dubbel op een speler om hem als dood te markeren, en nogmaals om zijn geeststem te gebruiken.",
         "donation": "Als je het werk waardeert dat ik in deze tool heb gestoken, zijn",
         "donation_link": "donaties",
         "donation_thanks": "van harte welkom. Dank je wel."

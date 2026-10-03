@@ -745,6 +745,10 @@
         "storyteller_hint": "Spiel einrichten und leiten",
         "player_hint": "Einer Stadt beitreten, das Skript lesen und die Nachtreihenfolge sehen",
         "youtube": "Auf YouTube ansehen",
+        "video_setup_title": "Schnelleinrichtung - Trouble Brewing",
+        "video_setup_description": "Starten Sie ein Spiel Trouble Brewing mit 7 Spielern, vom Benennen der Spieler bis zum Hinzufügen von Erinnerungen.",
+        "video_quick_actions_title": "Schnellaktionen",
+        "video_quick_actions_description": "Tippen Sie doppelt auf einen Spieler, um ihn als tot zu markieren, und erneut, um seine Geisterstimme zu nutzen.",
         "donation": "Wenn Sie die Arbeit schätzen, die ich in dieses Tool gesteckt habe,",
         "donation_link": "Spenden",
         "donation_thanks": "sind sehr willkommen. Vielen Dank."

@@ -745,6 +745,10 @@
         "storyteller_hint": "Prepara e conduci la partita",
         "player_hint": "Unisciti a una città, consulta il copione e l'ordine della notte",
         "youtube": "Guarda su YouTube",
+        "video_setup_title": "Configurazione rapida - Trouble Brewing",
+        "video_setup_description": "Avvia una partita di Trouble Brewing con 7 giocatori, dall'assegnazione dei nomi all'aggiunta dei promemoria.",
+        "video_quick_actions_title": "Azioni rapide",
+        "video_quick_actions_description": "Tocca due volte un giocatore per segnarlo come morto, e ancora una volta per usare il suo voto fantasma.",
         "donation": "Se apprezzi il lavoro svolto su questo strumento, le",
         "donation_link": "donazioni",
         "donation_thanks": "sono molto gradite. Grazie."

@@ -745,6 +745,10 @@
     "storyteller_hint": "Prepare e conduza o jogo",
     "player_hint": "Entre em uma cidade, veja o script e a ordem da noite",
     "youtube": "Assistir no YouTube",
+    "video_setup_title": "Configuração rápida - Trouble Brewing (Problemas à Vista)",
+    "video_setup_description": "Comece uma partida de Trouble Brewing (Problemas à Vista) com 7 jogadores, desde dar nome aos jogadores até adicionar lembretes.",
+    "video_quick_actions_title": "Ações rápidas",
+    "video_quick_actions_description": "Toque duas vezes em um jogador para marcá-lo como morto, e de novo para gastar seu voto fantasma.",
     "donation": "Se você valoriza o trabalho que dediquei a esta ferramenta,",
     "donation_link": "doações",
     "donation_thanks": "são muito bem-vindas. Obrigado."
