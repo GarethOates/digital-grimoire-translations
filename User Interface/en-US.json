@@ -747,7 +747,13 @@
         "donation_thanks": "are very welcome. Thank you."
     },
     "tour": {
-        "replay": "Tour",
+        "title": "Tours",
+        "seen_hint": "Tours you have seen are switched on. Switch one off to see it again.",
+        "names": {
+            "handout": "Handing out roles",
+            "phones": "Players' phones",
+            "grimoire": "Grimoire"
+        },
         "setup": {
             "script_search": {
                 "title": "Choose a script",
@@ -786,7 +792,7 @@
                 "body": "Pick how roles reach your players. You can change this later."
             },
             "call_up": {
-                "body": "Call each player up one at a time. They tap their seat on this screen to see their role."
+                "body": "Call each player up one at a time. You tap on their seat, they tap on the token bag to see their role."
             },
             "pass": {
                 "body": "Hand the device round the circle. Each player draws their role, then passes it on. Your PIN locks the Grimoire so nobody can peek."
@@ -821,6 +827,17 @@
                 "body": "Once every seat has a role, start the game."
             }
         },
+        "sushi": {
+            "handout_panel": {
+                "body": "Every seat already has its role from the draft, and the bluffs are already set."
+            },
+            "set_up_seats": {
+                "body": "Add player names to the seats here if you like. This is optional."
+            },
+            "start_game": {
+                "body": "Players already know their roles, so you can jump straight into the first night."
+            }
+        },
         "phones": {
             "town_code": {
                 "body": "Players type this code to join your town. Tap the pencil to change it."
@@ -849,8 +866,7 @@
                 "body": "Add demon bluffs, extra roles and reminder tokens."
             },
             "night_order": {
-                "title": "Night order",
-                "body": "See who wakes tonight, and in what order."
+                "body": "Opens the night order pane which guides you through who to wake each night."
             },
             "phase": {
                 "title": "Day and night",
@@ -862,7 +878,7 @@
             },
             "town": {
                 "title": "Town",
-                "body": "Let players join on their phones to see their role and take notes."
+                "body": "Open the Town view on a separate public display to show players who's alive/dead, has ghost vote, and do final reveal at the end of the game."
             },
             "preferences": {
                 "title": "Preferences",

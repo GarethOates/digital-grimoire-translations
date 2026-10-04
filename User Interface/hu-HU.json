@@ -747,7 +747,13 @@
         "donation_thanks": "szívesen fogadom. Köszönöm."
     },
     "tour": {
-        "replay": "Túra",
+        "title": "Túrák",
+        "seen_hint": "A már látott túrák be vannak kapcsolva. Kapcsolj ki egyet, hogy újra megnézd.",
+        "names": {
+            "handout": "Szerepek kiosztása",
+            "phones": "A játékosok telefonjai",
+            "grimoire": "Grimoár"
+        },
         "setup": {
             "script_search": {
                 "title": "Válassz szkriptet",
@@ -786,7 +792,7 @@
                 "body": "Válaszd ki, hogyan jutnak el a karakterek a játékosokhoz. Később megváltoztathatod."
             },
             "call_up": {
-                "body": "Hívd fel a játékosokat egyesével. Ezen a képernyőn az ülőhelyükre koppintva látják meg a karakterüket."
+                "body": "Hívd fel a játékosokat egyesével. Te az ülőhelyükre koppintasz, ők a húzózsákra koppintva látják meg a karakterüket."
             },
             "pass": {
                 "body": "Add tovább az eszközt a körben. Minden játékos húzza ki a karakterét, majd adja tovább. A PIN-kódod zárolja a Grimoárt, hogy senki se kukkanthasson bele."
@@ -821,6 +827,17 @@
                 "body": "Amint minden ülőhelynek van karaktere, indítsd el a játékot."
             }
         },
+        "sushi": {
+            "handout_panel": {
+                "body": "Minden ülőhelynek már megvan a karaktere a draftból, és a blöffök is be vannak állítva."
+            },
+            "set_up_seats": {
+                "body": "Ha szeretnéd, itt neveket adhatsz a játékosoknak az ülőhelyekhez. Ez opcionális."
+            },
+            "start_game": {
+                "body": "A játékosok már ismerik a karakterüket, így rögtön belevághatsz az első éjszakába."
+            }
+        },
         "phones": {
             "town_code": {
                 "body": "A játékosok ezt a kódot írják be, hogy csatlakozzanak a városodhoz. A ceruzára koppintva megváltoztathatod."
@@ -849,8 +866,7 @@
                 "body": "Adj hozzá démonblöfföket, extra karaktereket és emlékeztető jelölőket."
             },
             "night_order": {
-                "title": "Éjszakai sorrend",
-                "body": "Nézd meg, ki ébred fel ma éjjel, és milyen sorrendben."
+                "body": "Megnyitja az éjszakai sorrend panelt, amely végigvezet azon, hogy kit kell ébreszteni minden éjjel."
             },
             "phase": {
                 "title": "Nappal és éjszaka",
@@ -862,7 +878,7 @@
             },
             "town": {
                 "title": "Város",
-                "body": "Engedd, hogy a játékosok a telefonjukon csatlakozzanak, hogy lássák a karakterüket és jegyzeteljenek."
+                "body": "Nyisd meg a város nézetet egy külön nyilvános kijelzőn, hogy megmutasd a játékosoknak, ki él vagy halott, kinek van szellemszavazata, és a játék végén elvégezd a végső felfedést."
             },
             "preferences": {
                 "title": "Beállítások",

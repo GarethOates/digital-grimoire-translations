@@ -747,7 +747,13 @@
         "donation_thanks": "hjertelig velkomne. Takk."
     },
     "tour": {
-        "replay": "Omvisning",
+        "title": "Omvisninger",
+        "seen_hint": "Omvisninger du har sett, er slått på. Slå en av for å se den igjen.",
+        "names": {
+            "handout": "Utdeling av roller",
+            "phones": "Spillernes mobiler",
+            "grimoire": "Grimoire"
+        },
         "setup": {
             "script_search": {
                 "title": "Velg et skript",
@@ -786,7 +792,7 @@
                 "body": "Velg hvordan rollene når spillerne dine. Du kan endre dette senere."
             },
             "call_up": {
-                "body": "Kall opp spillerne én om gangen. De trykker på setet sitt på denne skjermen for å se rollen sin."
+                "body": "Kall opp spillerne én om gangen. Du trykker på setet deres, så trykker de på posen for å se rollen sin."
             },
             "pass": {
                 "body": "Send enheten videre rundt i sirkelen. Hver spiller trekker rollen sin og sender den videre. PIN-koden din låser Grimoiren slik at ingen kan titte."
@@ -821,6 +827,17 @@
                 "body": "Når hvert sete har en rolle, start spillet."
             }
         },
+        "sushi": {
+            "handout_panel": {
+                "body": "Hvert sete har allerede rollen sin fra draften, og bløffene er allerede satt."
+            },
+            "set_up_seats": {
+                "body": "Legg til spillernavn på setene her hvis du vil. Dette er valgfritt."
+            },
+            "start_game": {
+                "body": "Spillerne kjenner allerede rollene sine, så du kan hoppe rett til første natt."
+            }
+        },
         "phones": {
             "town_code": {
                 "body": "Spillerne skriver inn denne koden for å bli med i byen din. Trykk på blyanten for å endre den."
@@ -849,8 +866,7 @@
                 "body": "Legg til demonbløffer, ekstra roller og påminnelsesbrikker."
             },
             "night_order": {
-                "title": "Nattens Rekkefølge",
-                "body": "Se hvem som våkner i natt, og i hvilken rekkefølge."
+                "body": "Åpner panelet for nattens rekkefølge, som veileder deg i hvem du skal vekke hver natt."
             },
             "phase": {
                 "title": "Dag og natt",
@@ -862,7 +878,7 @@
             },
             "town": {
                 "title": "By",
-                "body": "La spillerne bli med fra mobilen sin for å se rollen sin og ta notater."
+                "body": "Åpne byvisningen på en egen offentlig skjerm for å vise spillerne hvem som er i live eller døde, hvem som har spøkelsesstemme, og for å gjøre den endelige avsløringen når spillet er over."
             },
             "preferences": {
                 "title": "Innstillinger",

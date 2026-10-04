@@ -747,7 +747,13 @@
         "donation_thanks": "són molt benvingudes. Gràcies."
     },
     "tour": {
-        "replay": "Visita",
+        "title": "Visites",
+        "seen_hint": "Les visites que has vist estan activades. Desactiva'n una per tornar-la a veure.",
+        "names": {
+            "handout": "Repartiment de rols",
+            "phones": "Telèfons dels jugadors",
+            "grimoire": "Grimori"
+        },
         "setup": {
             "script_search": {
                 "title": "Tria un guió",
@@ -786,7 +792,7 @@
                 "body": "Tria com arriben els rols als teus jugadors. Ho pots canviar més tard."
             },
             "call_up": {
-                "body": "Crida els jugadors d'un en un. Toquen el seu seient en aquesta pantalla per veure el seu rol."
+                "body": "Crida els jugadors d'un en un. Tu toques el seu seient, ells toquen la bossa per veure el seu rol."
             },
             "pass": {
                 "body": "Passa el dispositiu pel cercle. Cada jugador extreu el seu rol i el passa al següent. El teu PIN bloqueja el grimori perquè ningú pugui mirar."
@@ -821,6 +827,17 @@
                 "body": "Quan cada seient tingui un rol, comença la partida."
             }
         },
+        "sushi": {
+            "handout_panel": {
+                "body": "Cada seient ja té el seu rol del draft, i les coartades ja estan definides."
+            },
+            "set_up_seats": {
+                "body": "Afegeix aquí els noms dels jugadors als seients si vols. És opcional."
+            },
+            "start_game": {
+                "body": "Els jugadors ja coneixen el seu rol, així que pots passar directament a la primera nit."
+            }
+        },
         "phones": {
             "town_code": {
                 "body": "Els jugadors escriuen aquest codi per unir-se al teu poble. Toca el llapis per canviar-lo."
@@ -849,8 +866,7 @@
                 "body": "Afegeix coartades del dimoni, rols addicionals i fitxes de recordatori."
             },
             "night_order": {
-                "title": "Ordre nocturn",
-                "body": "Mira qui es desperta aquesta nit i en quin ordre."
+                "body": "Obre el panell de l'ordre nocturn, que et guia sobre a qui has de despertar cada nit."
             },
             "phase": {
                 "title": "Dia i nit",
@@ -862,7 +878,7 @@
             },
             "town": {
                 "title": "Poble",
-                "body": "Deixa que els jugadors s'hi uneixin des dels seus telèfons per veure el seu rol i prendre notes."
+                "body": "Obre la vista del poble en una pantalla pública independent per mostrar als jugadors qui està viu o mort, qui té el vot fantasma, i fer la revelació final al final de la partida."
             },
             "preferences": {
                 "title": "Preferències",

@@ -747,7 +747,13 @@
         "donation_thanks": "sont les bienvenus. Merci."
     },
     "tour": {
-        "replay": "Visite",
+        "title": "Visites",
+        "seen_hint": "Les visites que vous avez vues sont activées. Désactivez-en une pour la revoir.",
+        "names": {
+            "handout": "Distribution des rôles",
+            "phones": "Téléphones des joueurs",
+            "grimoire": "Grimoire"
+        },
         "setup": {
             "script_search": {
                 "title": "Choisir un script",
@@ -786,7 +792,7 @@
                 "body": "Choisissez comment les rôles parviennent à vos joueurs. Vous pourrez le changer plus tard."
             },
             "call_up": {
-                "body": "Appelez les joueurs un par un. Ils touchent leur place sur cet écran pour voir leur rôle."
+                "body": "Appelez les joueurs un par un. Vous touchez leur place, ils touchent le sac pour voir leur rôle."
             },
             "pass": {
                 "body": "Faites passer l'appareil dans le cercle. Chaque joueur tire son rôle, puis le passe au suivant. Votre code PIN verrouille le Grimoire pour que personne ne puisse regarder."
@@ -821,6 +827,17 @@
                 "body": "Une fois que chaque place a un rôle, démarrez la partie."
             }
         },
+        "sushi": {
+            "handout_panel": {
+                "body": "Chaque place a déjà son rôle issu du draft, et les bluffs sont déjà définis."
+            },
+            "set_up_seats": {
+                "body": "Ajoutez ici les noms des joueurs aux places si vous le souhaitez. C'est facultatif."
+            },
+            "start_game": {
+                "body": "Les joueurs connaissent déjà leur rôle, vous pouvez donc passer directement à la première nuit."
+            }
+        },
         "phones": {
             "town_code": {
                 "body": "Les joueurs saisissent ce code pour rejoindre votre village. Touchez le crayon pour le modifier."
@@ -849,8 +866,7 @@
                 "body": "Ajoutez des bluffs du démon, des rôles supplémentaires et des jetons de rappel."
             },
             "night_order": {
-                "title": "Ordre de nuit",
-                "body": "Voyez qui se réveille cette nuit, et dans quel ordre."
+                "body": "Ouvre le panneau de l'ordre de nuit, qui vous guide pour savoir qui réveiller chaque nuit."
             },
             "phase": {
                 "title": "Jour et nuit",
@@ -862,7 +878,7 @@
             },
             "town": {
                 "title": "Village",
-                "body": "Laissez les joueurs rejoindre depuis leurs téléphones pour voir leur rôle et prendre des notes."
+                "body": "Ouvrez la vue du village sur un écran public séparé pour montrer aux joueurs qui est vivant ou mort, qui a encore son vote fantôme, et faire la révélation finale à la fin de la partie."
             },
             "preferences": {
                 "title": "Préférences",

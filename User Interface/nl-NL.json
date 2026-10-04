@@ -747,7 +747,13 @@
         "donation_thanks": "van harte welkom. Dank je wel."
     },
     "tour": {
-        "replay": "Tour",
+        "title": "Tours",
+        "seen_hint": "Tours die je hebt gezien, staan aan. Zet er een uit om die opnieuw te zien.",
+        "names": {
+            "handout": "Rollen uitdelen",
+            "phones": "Telefoons van spelers",
+            "grimoire": "Grimoire"
+        },
         "setup": {
             "script_search": {
                 "title": "Kies een script",
@@ -786,7 +792,7 @@
                 "body": "Kies hoe rollen bij je spelers komen. Je kunt dit later wijzigen."
             },
             "call_up": {
-                "body": "Roep elke speler één voor één op. Ze tikken op dit scherm op hun plaats om hun rol te zien."
+                "body": "Roep elke speler één voor één op. Jij tikt op hun plaats, zij tikken op de zak om hun rol te zien."
             },
             "pass": {
                 "body": "Geef het apparaat door in de cirkel. Elke speler trekt zijn rol en geeft het dan door. Je pincode vergrendelt het Grimoire zodat niemand kan gluren."
@@ -821,6 +827,17 @@
                 "body": "Zodra elke plaats een rol heeft, start je het spel."
             }
         },
+        "sushi": {
+            "handout_panel": {
+                "body": "Elke plaats heeft al zijn rol uit de draft, en de bluffen staan al klaar."
+            },
+            "set_up_seats": {
+                "body": "Voeg hier spelersnamen toe aan de plaatsen als je wilt. Dit is optioneel."
+            },
+            "start_game": {
+                "body": "Spelers kennen hun rol al, dus je kunt meteen aan de eerste nacht beginnen."
+            }
+        },
         "phones": {
             "town_code": {
                 "body": "Spelers typen deze code om deel te nemen aan je stad. Tik op het potlood om hem te wijzigen."
@@ -849,8 +866,7 @@
                 "body": "Voeg demonbluffen, extra rollen en herinneringstokens toe."
             },
             "night_order": {
-                "title": "Nachtvolgorde",
-                "body": "Bekijk wie er vannacht wakker wordt en in welke volgorde."
+                "body": "Opent het nachtvolgordepaneel dat je begeleidt bij wie je elke nacht wakker maakt."
             },
             "phase": {
                 "title": "Dag en nacht",
@@ -862,7 +878,7 @@
             },
             "town": {
                 "title": "Stad",
-                "body": "Laat spelers op hun telefoon meedoen om hun rol te zien en notities te maken."
+                "body": "Open de stadweergave op een apart openbaar scherm om spelers te laten zien wie er leeft of dood is, wie een geeststem heeft, en om aan het einde van het spel de finale onthulling te doen."
             },
             "preferences": {
                 "title": "Instellingen",

@@ -747,7 +747,13 @@
         "donation_thanks": "son muy bienvenidas. Gracias."
     },
     "tour": {
-        "replay": "Guía",
+        "title": "Guías",
+        "seen_hint": "Las guías que has visto están activadas. Desactiva una para volver a verla.",
+        "names": {
+            "handout": "Reparto de roles",
+            "phones": "Teléfonos de los jugadores",
+            "grimoire": "Grimorio"
+        },
         "setup": {
             "script_search": {
                 "title": "Elige un guión",
@@ -786,7 +792,7 @@
                 "body": "Elige cómo llegan los roles a tus jugadores. Puedes cambiarlo más tarde."
             },
             "call_up": {
-                "body": "Llama a los jugadores de uno en uno. Tocan su asiento en esta pantalla para ver su rol."
+                "body": "Llama a los jugadores de uno en uno. Tú tocas su asiento y ellos tocan la bolsa para ver su rol."
             },
             "pass": {
                 "body": "Pasa el dispositivo por el círculo. Cada jugador saca su rol y lo pasa al siguiente. Tu PIN bloquea el Grimorio para que nadie pueda mirar."
@@ -821,6 +827,17 @@
                 "body": "Cuando todos los asientos tengan un rol, inicia la partida."
             }
         },
+        "sushi": {
+            "handout_panel": {
+                "body": "Cada asiento ya tiene su rol del draft, y los faroles ya están definidos."
+            },
+            "set_up_seats": {
+                "body": "Añade aquí nombres de jugadores a los asientos si quieres. Es opcional."
+            },
+            "start_game": {
+                "body": "Los jugadores ya conocen su rol, así que puedes pasar directamente a la primera noche."
+            }
+        },
         "phones": {
             "town_code": {
                 "body": "Los jugadores escriben este código para unirse a tu pueblo. Toca el lápiz para cambiarlo."
@@ -849,8 +866,7 @@
                 "body": "Añade faroles del demonio, roles extra y fichas de recordatorio."
             },
             "night_order": {
-                "title": "Orden Nocturno",
-                "body": "Mira quién se despierta esta noche y en qué orden."
+                "body": "Abre el panel del orden nocturno, que te guía sobre a quién despertar cada noche."
             },
             "phase": {
                 "title": "Día y noche",
@@ -862,7 +878,7 @@
             },
             "town": {
                 "title": "Pueblo",
-                "body": "Deja que los jugadores se unan desde sus teléfonos para ver su rol y tomar notas."
+                "body": "Abre la vista del pueblo en una pantalla pública aparte para mostrar a los jugadores quién está vivo o muerto, quién tiene voto fantasma, y hacer la revelación final al terminar la partida."
             },
             "preferences": {
                 "title": "Preferencias",

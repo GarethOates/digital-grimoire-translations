@@ -747,7 +747,13 @@
     "donation_thanks": "são muito bem-vindas. Obrigado."
   },
   "tour": {
-    "replay": "Tour",
+    "title": "Tours",
+    "seen_hint": "Os tours que você já viu estão ativados. Desative um para vê-lo de novo.",
+    "names": {
+      "handout": "Distribuindo personagens",
+      "phones": "Celulares dos jogadores",
+      "grimoire": "Grimório"
+    },
     "setup": {
       "script_search": {
         "title": "Escolha um script",
@@ -786,7 +792,7 @@
         "body": "Escolha como os personagens chegam aos seus jogadores. Você pode mudar isso depois."
       },
       "call_up": {
-        "body": "Chame cada jogador, um de cada vez. Eles tocam no próprio assento nesta tela para ver seu personagem."
+        "body": "Chame cada jogador, um de cada vez. Você toca no assento dele, e ele toca na bolsa para ver seu personagem."
       },
       "pass": {
         "body": "Passe o dispositivo pelo círculo. Cada jogador sorteia seu personagem e depois o repassa. Seu PIN bloqueia o Grimório para que ninguém possa espiar."
@@ -821,6 +827,17 @@
         "body": "Quando todos os assentos tiverem um personagem, inicie o jogo."
       }
     },
+    "sushi": {
+      "handout_panel": {
+        "body": "Cada assento já tem seu personagem do draft, e os blefes já estão definidos."
+      },
+      "set_up_seats": {
+        "body": "Adicione aqui os nomes dos jogadores aos assentos, se quiser. É opcional."
+      },
+      "start_game": {
+        "body": "Os jogadores já sabem seus personagens, então você pode ir direto para a primeira noite."
+      }
+    },
     "phones": {
       "town_code": {
         "body": "Os jogadores digitam este código para entrar na sua cidade. Toque no lápis para alterá-lo."
@@ -849,8 +866,7 @@
         "body": "Adicione blefes do demônio, personagens extras e marcadores de lembrete."
       },
       "night_order": {
-        "title": "Ordem da Noite",
-        "body": "Veja quem acorda esta noite e em que ordem."
+        "body": "Abre o painel da ordem da noite, que guia você sobre quem acordar a cada noite."
       },
       "phase": {
         "title": "Dia e noite",
@@ -862,7 +878,7 @@
       },
       "town": {
         "title": "Cidade",
-        "body": "Deixe os jogadores entrarem pelos celulares para ver seu personagem e fazer anotações."
+        "body": "Abra a cidade em uma tela pública separada para mostrar aos jogadores quem está vivo ou morto, quem tem voto fantasma, e fazer a revelação final no fim do jogo."
       },
       "preferences": {
         "title": "Preferências",

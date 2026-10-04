@@ -747,7 +747,13 @@
         "donation_thanks": "sono molto gradite. Grazie."
     },
     "tour": {
-        "replay": "Tour",
+        "title": "Tour",
+        "seen_hint": "I tour che hai visto sono attivati. Disattivane uno per rivederlo.",
+        "names": {
+            "handout": "Distribuzione dei ruoli",
+            "phones": "Telefoni dei giocatori",
+            "grimoire": "Grimorio"
+        },
         "setup": {
             "script_search": {
                 "title": "Scegli un copione",
@@ -786,7 +792,7 @@
                 "body": "Scegli come i ruoli arrivano ai tuoi giocatori. Puoi cambiarlo in seguito."
             },
             "call_up": {
-                "body": "Chiama i giocatori uno alla volta. Toccano il proprio posto su questo schermo per vedere il loro ruolo."
+                "body": "Chiama i giocatori uno alla volta. Tu tocchi il loro posto, loro toccano il sacchetto per vedere il loro ruolo."
             },
             "pass": {
                 "body": "Fai girare il dispositivo nel cerchio. Ogni giocatore pesca il proprio ruolo e poi lo passa. Il tuo PIN blocca il Grimorio così nessuno può sbirciare."
@@ -821,6 +827,17 @@
                 "body": "Quando ogni posto ha un ruolo, inizia la partita."
             }
         },
+        "sushi": {
+            "handout_panel": {
+                "body": "Ogni posto ha già il suo ruolo dal draft, e i bluff sono già impostati."
+            },
+            "set_up_seats": {
+                "body": "Aggiungi qui i nomi dei giocatori ai posti, se vuoi. È facoltativo."
+            },
+            "start_game": {
+                "body": "I giocatori conoscono già i loro ruoli, quindi puoi passare direttamente alla prima notte."
+            }
+        },
         "phones": {
             "town_code": {
                 "body": "I giocatori digitano questo codice per entrare nella tua città. Tocca la matita per cambiarlo."
@@ -849,8 +866,7 @@
                 "body": "Aggiungi i bluff del demone, ruoli extra e segnalini promemoria."
             },
             "night_order": {
-                "title": "Ordine Notte",
-                "body": "Guarda chi si sveglia stanotte e in quale ordine."
+                "body": "Apre il pannello dell'ordine della notte, che ti guida su chi svegliare ogni notte."
             },
             "phase": {
                 "title": "Giorno e notte",
@@ -862,7 +878,7 @@
             },
             "town": {
                 "title": "Città",
-                "body": "Lascia che i giocatori entrino dai loro telefoni per vedere il proprio ruolo e prendere appunti."
+                "body": "Apri la Vista Città su uno schermo pubblico separato per mostrare ai giocatori chi è vivo o morto, chi ha il voto fantasma, e fare la rivelazione finale a fine partita."
             },
             "preferences": {
                 "title": "Preferenze",

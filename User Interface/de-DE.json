@@ -747,7 +747,13 @@
         "donation_thanks": "sind sehr willkommen. Vielen Dank."
     },
     "tour": {
-        "replay": "Tour",
+        "title": "Touren",
+        "seen_hint": "Touren, die du gesehen hast, sind eingeschaltet. Schalte eine aus, um sie erneut zu sehen.",
+        "names": {
+            "handout": "Rollen verteilen",
+            "phones": "Telefone der Spieler",
+            "grimoire": "Grimoire"
+        },
         "setup": {
             "script_search": {
                 "title": "Skript wählen",
@@ -786,7 +792,7 @@
                 "body": "Wähle, wie die Rollen zu deinen Spielern gelangen. Du kannst das später ändern."
             },
             "call_up": {
-                "body": "Rufe jeden Spieler einzeln auf. Er tippt auf diesem Bildschirm auf seinen Platz, um seine Rolle zu sehen."
+                "body": "Rufe jeden Spieler einzeln auf. Du tippst auf seinen Platz, er tippt auf den Beutel, um seine Rolle zu sehen."
             },
             "pass": {
                 "body": "Gib das Gerät im Kreis weiter. Jeder Spieler zieht seine Rolle und reicht das Gerät dann weiter. Deine PIN sperrt das Grimoire, damit niemand spähen kann."
@@ -821,6 +827,17 @@
                 "body": "Sobald jeder Platz eine Rolle hat, starte das Spiel."
             }
         },
+        "sushi": {
+            "handout_panel": {
+                "body": "Jeder Platz hat bereits seine Rolle aus dem Draft, und die Bluffs sind bereits festgelegt."
+            },
+            "set_up_seats": {
+                "body": "Füge hier Spielernamen zu den Plätzen hinzu, wenn du möchtest. Das ist optional."
+            },
+            "start_game": {
+                "body": "Die Spieler kennen ihre Rollen bereits, du kannst also direkt in die erste Nacht starten."
+            }
+        },
         "phones": {
             "town_code": {
                 "body": "Die Spieler geben diesen Code ein, um deiner Stadt beizutreten. Tippe auf den Stift, um ihn zu ändern."
@@ -849,8 +866,7 @@
                 "body": "Füge Dämonen-Bluffs, zusätzliche Rollen und Erinnerungsmarker hinzu."
             },
             "night_order": {
-                "title": "Nachtreihenfolge",
-                "body": "Sieh, wer heute Nacht aufwacht und in welcher Reihenfolge."
+                "body": "Öffnet das Nachtreihenfolge-Fenster, das dich dabei leitet, wen du jede Nacht aufweckst."
             },
             "phase": {
                 "title": "Tag und Nacht",
@@ -862,7 +878,7 @@
             },
             "town": {
                 "title": "Stadt",
-                "body": "Lass Spieler auf ihren Telefonen beitreten, um ihre Rolle zu sehen und Notizen zu machen."
+                "body": "Öffne die Stadtansicht auf einem separaten öffentlichen Bildschirm, um den Spielern zu zeigen, wer lebt oder tot ist, wer eine Geisterstimme hat, und um am Ende des Spiels die finale Enthüllung durchzuführen."
             },
             "preferences": {
                 "title": "Einstellungen",

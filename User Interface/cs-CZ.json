@@ -747,7 +747,13 @@
         "donation_thanks": "jsou srdečně vítány. Děkuji."
     },
     "tour": {
-        "replay": "Prohlídka",
+        "title": "Prohlídky",
+        "seen_hint": "Prohlídky, které jste viděli, jsou zapnuté. Vypněte některou, abyste ji viděli znovu.",
+        "names": {
+            "handout": "Rozdávání rolí",
+            "phones": "Telefony hráčů",
+            "grimoire": "Grimoár"
+        },
         "setup": {
             "script_search": {
                 "title": "Vyberte skript",
@@ -786,7 +792,7 @@
                 "body": "Vyberte, jak se role dostanou k hráčům. Můžete to později změnit."
             },
             "call_up": {
-                "body": "Voláte hráče jednoho po druhém. Na této obrazovce klepnou na své místo a uvidí svou roli."
+                "body": "Voláte hráče jednoho po druhém. Vy klepnete na jejich místo, oni klepnou na sáček a uvidí svou roli."
             },
             "pass": {
                 "body": "Podávejte zařízení po kruhu. Každý hráč si vylosuje svou roli a pošle zařízení dál. Váš PIN zamyká Grimoár, aby nikdo nemohl nahlížet."
@@ -821,6 +827,17 @@
                 "body": "Jakmile má každé místo roli, spusťte hru."
             }
         },
+        "sushi": {
+            "handout_panel": {
+                "body": "Každé místo už má svou roli z draftu a blafy jsou už nastavené."
+            },
+            "set_up_seats": {
+                "body": "Pokud chcete, přidejte sem jména hráčů k místům. Je to volitelné."
+            },
+            "start_game": {
+                "body": "Hráči už své role znají, takže můžete rovnou přejít k první noci."
+            }
+        },
         "phones": {
             "town_code": {
                 "body": "Hráči zadají tento kód, aby se připojili do vašeho města. Klepnutím na tužku ho změníte."
@@ -849,8 +866,7 @@
                 "body": "Přidejte blafy démona, další role a žetony připomínek."
             },
             "night_order": {
-                "title": "Pořadí v noci",
-                "body": "Podívejte se, kdo se dnes v noci budí a v jakém pořadí."
+                "body": "Otevře panel pořadí v noci, který vás provede tím, koho každou noc budit."
             },
             "phase": {
                 "title": "Den a noc",
@@ -862,7 +878,7 @@
             },
             "town": {
                 "title": "Město",
-                "body": "Nechte hráče připojit se na telefonech, aby viděli svou roli a psali si poznámky."
+                "body": "Otevřete pohled města na samostatné veřejné obrazovce, aby hráči viděli, kdo žije a kdo je mrtvý, kdo má hlas mrtvého, a na konci hry proveďte závěrečné odhalení."
             },
             "preferences": {
                 "title": "Předvolby",
