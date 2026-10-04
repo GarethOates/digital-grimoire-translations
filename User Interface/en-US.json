@@ -46,9 +46,7 @@
         "select_icon": "Select an icon...",
         "player": "Player",
         "ability": "Ability",
-        "character_sheet": "Character Sheet",
         "night_order": "Night Order",
-        "night_order_sheet": "Night-Order Sheet",
         "yes": "Yes",
         "no": "No",
         "stopwatch": "Stopwatch",
@@ -72,7 +70,6 @@
         "faq": "FAQ",
         "discord": "Discord",
         "away": "Away",
-        "scan_to_join": "Scan to join",
         "retry": "Try again"
     },
     "errors": {
@@ -612,10 +609,6 @@
         "info": "Info",
         "composition": "Composition",
         "day_night": "Day/Night",
-        "character_sheet_qr": "Character Sheet QR",
-        "night_order_sheet_qr": "Night-Order Sheet QR",
-        "mobile_session_qr": "Mobile Distribution QR",
-        "no_mobile_session": "No Mobile Distribution Session",
         "grim": "Grim",
         "town": "Town",
         "town_name_placeholder": "Town Name",

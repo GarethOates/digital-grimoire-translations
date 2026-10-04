@@ -46,9 +46,7 @@
     "select_icon": "Selecione um ícone...",
     "player": "Jogador",
     "ability": "Abilidade",
-    "character_sheet": "Ficha de Personagens",
     "night_order": "Ordem da Noite",
-    "night_order_sheet": "Ficha de Ordem da Noite",
     "yes": "Sim",
     "no": "Não",
     "stopwatch": "Cronômetro",
@@ -72,7 +70,6 @@
     "faq": "Perguntas Frequentes",
     "discord": "Discord",
     "away": "Ausente",
-    "scan_to_join": "Escaneie para entrar",
     "retry": "Tentar novamente"
   },
   "errors": {
@@ -612,10 +609,6 @@
     "info": "Informação",
     "composition": "Composição",
     "day_night": "Dia/Noite",
-    "character_sheet_qr": "QR code da ficha de personagens",
-    "night_order_sheet_qr": "QR code da ficha de ordem da noite",
-    "mobile_session_qr": "QR code de distribuição móvel",
-    "no_mobile_session": "Nenhuma sessão de distribuicáo móvel",
     "grim": "Grim",
     "town": "Cidade",
     "town_name_placeholder": "Nome da cidade",
