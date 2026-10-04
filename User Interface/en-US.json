@@ -745,5 +745,150 @@
         "donation": "If you appreciate the work I've put into this tool,",
         "donation_link": "donations",
         "donation_thanks": "are very welcome. Thank you."
+    },
+    "tour": {
+        "replay": "Tour",
+        "setup": {
+            "script_search": {
+                "title": "Choose a script",
+                "body": "Search for a script by name, paste a URL or upload your own."
+            },
+            "advanced_search": {
+                "body": "Refine your search here by author, name or included or excluded roles."
+            },
+            "player_count": {
+                "title": "How many players?",
+                "body": "Set the number of players. The edit button lets you enter their names."
+            },
+            "random_roles": {
+                "title": "Random roles",
+                "body": "Let the Grimoire pick roles for you, with the right number of each type."
+            },
+            "token_selector": {
+                "title": "Pick the roles",
+                "body": "Tap roles to put them in the bag. The counts show what this player count needs."
+            },
+            "travellers": {
+                "title": "Travellers",
+                "body": "Add Travellers for players who arrive late or leave early."
+            },
+            "npcs": {
+                "title": "Fabled and Loric",
+                "body": "Add any Fabled or Loric this game uses."
+            },
+            "start_setup": {
+                "title": "Start",
+                "body": "Choose how the seats are laid out, then move on to the draw phase."
+            }
+        },
+        "handout": {
+            "handout_panel": {
+                "body": "Pick how roles reach your players. You can change this later."
+            },
+            "call_up": {
+                "body": "Call each player up one at a time. They tap their seat on this screen to see their role."
+            },
+            "pass": {
+                "body": "Hand the device round the circle. Each player draws their role, then passes it on. Your PIN locks the Grimoire so nobody can peek."
+            },
+            "phones": {
+                "body": "Players join the town on their own phone. Once everyone is in, you send each player their role."
+            }
+        },
+        "seating": {
+            "change_mode": {
+                "body": "Tap here to pick a different way of handing out roles."
+            },
+            "invite_players": {
+                "body": "Open this to get players onto their phones."
+            },
+            "set_up_seats": {
+                "body": "Assign player names to seats, manually assign roles to seats (travellers for instance). Both are optional."
+            },
+            "names": {
+                "body": "Tap a name to put that player in the next empty seat. Tap a seat to clear it."
+            },
+            "add_names": {
+                "body": "Tap here to add names if you don't see any below."
+            },
+            "roles": {
+                "body": "Tap a role, then a seat, to assign that role to the seat. Handy for travellers."
+            },
+            "skip_draw": {
+                "body": "Give every empty seat a random role and skip the draw."
+            },
+            "start_game": {
+                "body": "Once every seat has a role, start the game."
+            }
+        },
+        "phones": {
+            "town_code": {
+                "body": "Players type this code to join your town. Tap the pencil to change it."
+            },
+            "join_link": {
+                "body": "Players can scan this to join straight away, or you can copy or share the link."
+            },
+            "connected_players": {
+                "body": "Players appear here as they join, with their seat number once they have one. Tap the cross to remove someone."
+            },
+            "send_tokens": {
+                "body": "Send each player their role. If not everyone has joined yet, you'll be asked to confirm first."
+            }
+        },
+        "grimoire": {
+            "seats": {
+                "title": "Your players",
+                "body": "Tap a player to open their menu. Drag to move them."
+            },
+            "seat_menu": {
+                "title": "Player menu",
+                "body": "Show Fullscreen, Add Reminders, Mark as Dead, Swap, Change Alignment and open the tools menu. Tap outside the menu to close it."
+            },
+            "add": {
+                "title": "Add",
+                "body": "Add demon bluffs, extra roles and reminder tokens."
+            },
+            "night_order": {
+                "title": "Night order",
+                "body": "See who wakes tonight, and in what order."
+            },
+            "phase": {
+                "title": "Day and night",
+                "body": "Move the game forward to the next day or night."
+            },
+            "view": {
+                "title": "View",
+                "body": "Rearrange seats, open the Spy view, read the game history or change the background."
+            },
+            "town": {
+                "title": "Town",
+                "body": "Let players join on their phones to see their role and take notes."
+            },
+            "preferences": {
+                "title": "Preferences",
+                "body": "Change token sizes, what is shown on each player, and more. You can replay this tour from here."
+            },
+            "end_game": {
+                "title": "End game",
+                "body": "Declare the winner when the game is over."
+            }
+        },
+        "night": {
+            "night_cards": {
+                "body": "Open the Cards menu to show a player a card, or make your own."
+            },
+            "show_role": {
+                "title": "Show any role",
+                "body": "Pick any role on the script, even one not in play, then tap expand to show it fullscreen. Roles in play are marked with a dot."
+            },
+            "placed_reminders": {
+                "title": "Placed reminders",
+                "body": "This role's reminders in the Grimoire, with the player each one is on. Tap one to show that player's role fullscreen."
+            },
+            "unplaced_reminders": {
+                "title": "Unplaced reminders",
+                "body": "The number is how many of this role's reminders are not in the Grimoire yet. Tap to see them, then drag one onto a player."
+            }
+        }
     }
 }

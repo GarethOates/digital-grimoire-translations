@@ -745,5 +745,150 @@
         "donation": "Ha értékeled a munkát, amit ebbe az eszközbe fektettem, az",
         "donation_link": "adományokat",
         "donation_thanks": "szívesen fogadom. Köszönöm."
+    },
+    "tour": {
+        "replay": "Túra",
+        "setup": {
+            "script_search": {
+                "title": "Válassz szkriptet",
+                "body": "Keress szkriptet név alapján, illessz be egy URL-t, vagy tölts fel sajátot."
+            },
+            "advanced_search": {
+                "body": "Szűkítsd itt a keresést szerző, név, illetve belefoglalt vagy kizárt karakterek szerint."
+            },
+            "player_count": {
+                "title": "Hány játékos?",
+                "body": "Add meg a játékosok számát. A szerkesztés gombbal beírhatod a nevüket."
+            },
+            "random_roles": {
+                "title": "Véletlen karakterek",
+                "body": "Hagyd, hogy a Grimoár válassza ki a karaktereket, minden típusból a megfelelő számban."
+            },
+            "token_selector": {
+                "title": "Válaszd ki a karaktereket",
+                "body": "Koppints a karakterekre, hogy a zsákba tedd őket. A számlálók mutatják, mire van szüksége ennek a játékosszámnak."
+            },
+            "travellers": {
+                "title": "Utazók",
+                "body": "Adj hozzá Utazókat a későn érkező vagy korán távozó játékosoknak."
+            },
+            "npcs": {
+                "title": "Meseszövők és Loric",
+                "body": "Add hozzá a játékban használt Meseszövőket vagy Loricot."
+            },
+            "start_setup": {
+                "title": "Indítás",
+                "body": "Válaszd ki, hogyan legyenek elrendezve az ülőhelyek, majd lépj tovább a húzási szakaszra."
+            }
+        },
+        "handout": {
+            "handout_panel": {
+                "body": "Válaszd ki, hogyan jutnak el a karakterek a játékosokhoz. Később megváltoztathatod."
+            },
+            "call_up": {
+                "body": "Hívd fel a játékosokat egyesével. Ezen a képernyőn az ülőhelyükre koppintva látják meg a karakterüket."
+            },
+            "pass": {
+                "body": "Add tovább az eszközt a körben. Minden játékos húzza ki a karakterét, majd adja tovább. A PIN-kódod zárolja a Grimoárt, hogy senki se kukkanthasson bele."
+            },
+            "phones": {
+                "body": "A játékosok a saját telefonjukon csatlakoznak a városhoz. Amint mindenki bent van, elküldöd mindenkinek a karakterét."
+            }
+        },
+        "seating": {
+            "change_mode": {
+                "body": "Koppints ide, hogy másik módot válassz a karakterek kiosztására."
+            },
+            "invite_players": {
+                "body": "Nyisd meg ezt, hogy a játékosok a telefonjukra kerüljenek."
+            },
+            "set_up_seats": {
+                "body": "Rendelj játékosneveket az ülőhelyekhez, és kézzel rendelj karaktereket az ülőhelyekhez (például utazókat). Mindkettő opcionális."
+            },
+            "names": {
+                "body": "Koppints egy névre, hogy a játékost a következő üres ülőhelyre ültesd. Koppints egy ülőhelyre, hogy kiürítsd."
+            },
+            "add_names": {
+                "body": "Koppints ide nevek hozzáadásához, ha lent nem látsz egyet sem."
+            },
+            "roles": {
+                "body": "Koppints egy karakterre, majd egy ülőhelyre, hogy a karaktert az ülőhelyhez rendeld. Hasznos az utazóknál."
+            },
+            "skip_draw": {
+                "body": "Adj minden üres ülőhelynek egy véletlen karaktert, és hagyd ki a húzást."
+            },
+            "start_game": {
+                "body": "Amint minden ülőhelynek van karaktere, indítsd el a játékot."
+            }
+        },
+        "phones": {
+            "town_code": {
+                "body": "A játékosok ezt a kódot írják be, hogy csatlakozzanak a városodhoz. A ceruzára koppintva megváltoztathatod."
+            },
+            "join_link": {
+                "body": "A játékosok beolvashatják, hogy azonnal csatlakozzanak, vagy másolhatod vagy megoszthatod a hivatkozást."
+            },
+            "connected_players": {
+                "body": "A játékosok itt jelennek meg, ahogy csatlakoznak, az ülőhelyük számával, amint van nekik. Koppints a keresztre valaki eltávolításához."
+            },
+            "send_tokens": {
+                "body": "Küldd el mindenkinek a karakterét. Ha még nem csatlakozott mindenki, előbb megerősítést kérünk tőled."
+            }
+        },
+        "grimoire": {
+            "seats": {
+                "title": "A játékosaid",
+                "body": "Koppints egy játékosra a menüjének megnyitásához. Húzással mozgathatod."
+            },
+            "seat_menu": {
+                "title": "Játékosmenü",
+                "body": "Teljes képernyő, emlékeztetők hozzáadása, megjelölés halottként, csere, hovatartozás módosítása, és az eszköztár megnyitása. Koppints a menün kívülre a bezáráshoz."
+            },
+            "add": {
+                "title": "Hozzáadás",
+                "body": "Adj hozzá démonblöfföket, extra karaktereket és emlékeztető jelölőket."
+            },
+            "night_order": {
+                "title": "Éjszakai sorrend",
+                "body": "Nézd meg, ki ébred fel ma éjjel, és milyen sorrendben."
+            },
+            "phase": {
+                "title": "Nappal és éjszaka",
+                "body": "Léptesd tovább a játékot a következő nappalra vagy éjszakára."
+            },
+            "view": {
+                "title": "Nézet",
+                "body": "Rendezd át az ülőhelyeket, nyisd meg a Kém nézetet, olvasd el a játéktörténetet, vagy változtasd meg a hátteret."
+            },
+            "town": {
+                "title": "Város",
+                "body": "Engedd, hogy a játékosok a telefonjukon csatlakozzanak, hogy lássák a karakterüket és jegyzeteljenek."
+            },
+            "preferences": {
+                "title": "Beállítások",
+                "body": "Módosítsd a jelölők méretét, azt, hogy mi látszik az egyes játékosokon, és még sok mást. Ezt a túrát innen újra lejátszhatod."
+            },
+            "end_game": {
+                "title": "Játék vége",
+                "body": "Hirdesd ki a győztest, amikor a játék véget ért."
+            }
+        },
+        "night": {
+            "night_cards": {
+                "body": "Nyisd meg a Lapkák menüt, hogy megmutass egy lapot egy játékosnak, vagy készíts egy sajátot."
+            },
+            "show_role": {
+                "title": "Bármely karakter megjelenítése",
+                "body": "Válaszd ki a forgatókönyv bármelyik karakterét, akár olyat is, amely nincs játékban, majd koppints a kinagyításra, hogy teljes képernyőn mutasd meg. A játékban lévő karaktereket pont jelöli."
+            },
+            "placed_reminders": {
+                "title": "Elhelyezett emlékeztetők",
+                "body": "A karakter emlékeztetői a Grimoárban, azzal a játékossal, akinél éppen vannak. Koppints egyre, hogy teljes képernyőn megmutasd az adott játékos karakterét."
+            },
+            "unplaced_reminders": {
+                "title": "Nem elhelyezett emlékeztetők",
+                "body": "A szám azt mutatja, hány emlékeztetője nincs még a Grimoárban ennek a karakternek. Koppints a megtekintésükhöz, majd húzz egyet egy játékosra."
+            }
+        }
     }
 }

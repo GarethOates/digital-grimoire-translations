@@ -745,5 +745,150 @@
         "donation": "Si apreciás el laburo que le puse a esta herramienta,",
         "donation_link": "las donaciones",
         "donation_thanks": "son más que bienvenidas. Gracias."
+    },
+    "tour": {
+        "replay": "Guía",
+        "setup": {
+            "script_search": {
+                "title": "Elegí un guión",
+                "body": "Buscá un guión por nombre, pegá una URL o subí el tuyo."
+            },
+            "advanced_search": {
+                "body": "Afiná la búsqueda acá por autor, nombre o roles incluidos o excluidos."
+            },
+            "player_count": {
+                "title": "¿Cuántos jugadores?",
+                "body": "Definí la cantidad de jugadores. El botón de edición te deja ingresar sus nombres."
+            },
+            "random_roles": {
+                "title": "Roles al azar",
+                "body": "Dejá que el Grimorio elija los roles por vos, con la cantidad justa de cada tipo."
+            },
+            "token_selector": {
+                "title": "Elegí los roles",
+                "body": "Tocá los roles para ponerlos en la bolsa. Los contadores muestran lo que necesita esta cantidad de jugadores."
+            },
+            "travellers": {
+                "title": "Viajeros",
+                "body": "Agregá Viajeros para los jugadores que llegan tarde o se van temprano."
+            },
+            "npcs": {
+                "title": "Fabulado y Folclórico",
+                "body": "Agregá los Fabulados o Folclóricos que use esta partida."
+            },
+            "start_setup": {
+                "title": "Empezar",
+                "body": "Elegí cómo se distribuyen los asientos y pasá a la fase de sorteo."
+            }
+        },
+        "handout": {
+            "handout_panel": {
+                "body": "Elegí cómo les llegan los roles a tus jugadores. Lo podés cambiar después."
+            },
+            "call_up": {
+                "body": "Llamá a los jugadores de a uno. Tocan su asiento en esta pantalla para ver su rol."
+            },
+            "pass": {
+                "body": "Pasá el dispositivo por el círculo. Cada jugador saca su rol y lo pasa al siguiente. Tu PIN bloquea el Grimorio para que nadie espíe."
+            },
+            "phones": {
+                "body": "Los jugadores se unen al pueblo desde su propio celular. Cuando ya están todos adentro, le mandás a cada jugador su rol."
+            }
+        },
+        "seating": {
+            "change_mode": {
+                "body": "Tocá acá para elegir otra forma de repartir los roles."
+            },
+            "invite_players": {
+                "body": "Abrí esto para que los jugadores entren desde sus celulares."
+            },
+            "set_up_seats": {
+                "body": "Asigná nombres de jugadores a los asientos y asigná roles a los asientos a mano (viajeros, por ejemplo). Ambas cosas son opcionales."
+            },
+            "names": {
+                "body": "Tocá un nombre para poner a ese jugador en el próximo asiento vacío. Tocá un asiento para vaciarlo."
+            },
+            "add_names": {
+                "body": "Tocá acá para agregar nombres si no ves ninguno abajo."
+            },
+            "roles": {
+                "body": "Tocá un rol y después un asiento para asignarle ese rol al asiento. Práctico para los viajeros."
+            },
+            "skip_draw": {
+                "body": "Dale un rol al azar a cada asiento vacío y omití el sorteo."
+            },
+            "start_game": {
+                "body": "Cuando todos los asientos tengan un rol, empezá la partida."
+            }
+        },
+        "phones": {
+            "town_code": {
+                "body": "Los jugadores escriben este código para unirse a tu pueblo. Tocá el lápiz para cambiarlo."
+            },
+            "join_link": {
+                "body": "Los jugadores pueden escanearlo para unirse enseguida, o podés copiar o compartir el enlace."
+            },
+            "connected_players": {
+                "body": "Los jugadores aparecen acá a medida que se unen, con su número de asiento cuando ya tienen uno. Tocá la cruz para sacar a alguien."
+            },
+            "send_tokens": {
+                "body": "Mandale a cada jugador su rol. Si todavía no se unieron todos, primero te va a pedir confirmación."
+            }
+        },
+        "grimoire": {
+            "seats": {
+                "title": "Tus jugadores",
+                "body": "Tocá un jugador para abrir su menú. Arrastralo para moverlo."
+            },
+            "seat_menu": {
+                "title": "Menú del jugador",
+                "body": "Abrir pantalla completa, agregar recordatorios, marcar como muerto, intercambiar, cambiar alineación y abrir el menú de herramientas. Tocá afuera del menú para cerrarlo."
+            },
+            "add": {
+                "title": "Agregar",
+                "body": "Agregá farsas del demonio, roles extra y fichas de recordatorio."
+            },
+            "night_order": {
+                "title": "Orden nocturno",
+                "body": "Mirá quién se despierta esta noche y en qué orden."
+            },
+            "phase": {
+                "title": "Día y noche",
+                "body": "Avanzá la partida al próximo día o a la próxima noche."
+            },
+            "view": {
+                "title": "Vista",
+                "body": "Reordená los asientos, abrí la vista del Espía, leé el historial de la partida o cambiá el fondo."
+            },
+            "town": {
+                "title": "Pueblo",
+                "body": "Dejá que los jugadores se unan desde sus celulares para ver su rol y tomar notas."
+            },
+            "preferences": {
+                "title": "Preferencias",
+                "body": "Cambiá el tamaño de las fichas, lo que se muestra en cada jugador y más. Podés repetir esta guía desde acá."
+            },
+            "end_game": {
+                "title": "Terminar partida",
+                "body": "Declará al ganador cuando termine la partida."
+            }
+        },
+        "night": {
+            "night_cards": {
+                "body": "Abrí el menú Tarjetas para mostrarle una tarjeta a un jugador o crear la tuya."
+            },
+            "show_role": {
+                "title": "Mostrar cualquier rol",
+                "body": "Elegí cualquier rol del guion, incluso uno que no esté en juego, y tocá expandir para mostrarlo en pantalla completa. Los roles en juego están marcados con un punto."
+            },
+            "placed_reminders": {
+                "title": "Recordatorios colocados",
+                "body": "Los recordatorios de este rol en el Grimorio, con el jugador que tiene cada uno. Tocá uno para mostrar el rol de ese jugador en pantalla completa."
+            },
+            "unplaced_reminders": {
+                "title": "Recordatorios sin colocar",
+                "body": "El número indica cuántos recordatorios de este rol todavía no están en el Grimorio. Tocá para verlos y arrastrá uno hasta un jugador."
+            }
+        }
     }
 }

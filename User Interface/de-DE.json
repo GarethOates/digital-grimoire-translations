@@ -745,5 +745,150 @@
         "donation": "Wenn Sie die Arbeit schätzen, die ich in dieses Tool gesteckt habe,",
         "donation_link": "Spenden",
         "donation_thanks": "sind sehr willkommen. Vielen Dank."
+    },
+    "tour": {
+        "replay": "Tour",
+        "setup": {
+            "script_search": {
+                "title": "Skript wählen",
+                "body": "Suche nach einem Skript über den Namen, füge eine URL ein oder lade dein eigenes hoch."
+            },
+            "advanced_search": {
+                "body": "Verfeinere deine Suche hier nach Autor, Name oder enthaltenen und ausgeschlossenen Rollen."
+            },
+            "player_count": {
+                "title": "Wie viele Spieler?",
+                "body": "Lege die Anzahl der Spieler fest. Mit dem Bearbeiten-Button kannst du ihre Namen eingeben."
+            },
+            "random_roles": {
+                "title": "Zufällige Rollen",
+                "body": "Lass das Grimoire die Rollen für dich auswählen, mit der richtigen Anzahl pro Typ."
+            },
+            "token_selector": {
+                "title": "Rollen auswählen",
+                "body": "Tippe auf Rollen, um sie in den Beutel zu legen. Die Zähler zeigen, was diese Spielerzahl braucht."
+            },
+            "travellers": {
+                "title": "Reisende",
+                "body": "Füge Reisende für Spieler hinzu, die später kommen oder früher gehen."
+            },
+            "npcs": {
+                "title": "Legenden und Loric",
+                "body": "Füge alle Legenden oder Loric hinzu, die dieses Spiel verwendet."
+            },
+            "start_setup": {
+                "title": "Start",
+                "body": "Wähle, wie die Plätze angeordnet werden, und gehe dann zur Ziehphase über."
+            }
+        },
+        "handout": {
+            "handout_panel": {
+                "body": "Wähle, wie die Rollen zu deinen Spielern gelangen. Du kannst das später ändern."
+            },
+            "call_up": {
+                "body": "Rufe jeden Spieler einzeln auf. Er tippt auf diesem Bildschirm auf seinen Platz, um seine Rolle zu sehen."
+            },
+            "pass": {
+                "body": "Gib das Gerät im Kreis weiter. Jeder Spieler zieht seine Rolle und reicht das Gerät dann weiter. Deine PIN sperrt das Grimoire, damit niemand spähen kann."
+            },
+            "phones": {
+                "body": "Die Spieler treten der Stadt auf ihrem eigenen Telefon bei. Sobald alle drin sind, sendest du jedem Spieler seine Rolle."
+            }
+        },
+        "seating": {
+            "change_mode": {
+                "body": "Tippe hier, um eine andere Art der Rollenverteilung zu wählen."
+            },
+            "invite_players": {
+                "body": "Öffne dies, um die Spieler auf ihre Telefone zu bringen."
+            },
+            "set_up_seats": {
+                "body": "Weise Plätzen Spielernamen zu und weise Plätzen Rollen manuell zu (zum Beispiel Reisende). Beides ist optional."
+            },
+            "names": {
+                "body": "Tippe auf einen Namen, um diesen Spieler auf den nächsten freien Platz zu setzen. Tippe auf einen Platz, um ihn zu leeren."
+            },
+            "add_names": {
+                "body": "Tippe hier, um Namen hinzuzufügen, falls unten keine zu sehen sind."
+            },
+            "roles": {
+                "body": "Tippe auf eine Rolle und dann auf einen Platz, um dem Platz diese Rolle zuzuweisen. Praktisch für Reisende."
+            },
+            "skip_draw": {
+                "body": "Gib jedem leeren Platz eine zufällige Rolle und überspringe das Ziehen."
+            },
+            "start_game": {
+                "body": "Sobald jeder Platz eine Rolle hat, starte das Spiel."
+            }
+        },
+        "phones": {
+            "town_code": {
+                "body": "Die Spieler geben diesen Code ein, um deiner Stadt beizutreten. Tippe auf den Stift, um ihn zu ändern."
+            },
+            "join_link": {
+                "body": "Die Spieler können dies scannen, um sofort beizutreten, oder du kannst den Link kopieren oder teilen."
+            },
+            "connected_players": {
+                "body": "Die Spieler erscheinen hier, sobald sie beitreten, mit ihrer Platznummer, sobald sie eine haben. Tippe auf das Kreuz, um jemanden zu entfernen."
+            },
+            "send_tokens": {
+                "body": "Sende jedem Spieler seine Rolle. Wenn noch nicht alle beigetreten sind, wirst du zuerst um Bestätigung gebeten."
+            }
+        },
+        "grimoire": {
+            "seats": {
+                "title": "Deine Spieler",
+                "body": "Tippe auf einen Spieler, um sein Menü zu öffnen. Ziehe, um ihn zu bewegen."
+            },
+            "seat_menu": {
+                "title": "Spielermenü",
+                "body": "Vollbildmodus aktivieren, Erinnerungen hinzufügen, als tot markieren, tauschen, Gesinnung ändern und das Werkzeugmenü öffnen. Tippe außerhalb des Menüs, um es zu schließen."
+            },
+            "add": {
+                "title": "Hinzufügen",
+                "body": "Füge Dämonen-Bluffs, zusätzliche Rollen und Erinnerungsmarker hinzu."
+            },
+            "night_order": {
+                "title": "Nachtreihenfolge",
+                "body": "Sieh, wer heute Nacht aufwacht und in welcher Reihenfolge."
+            },
+            "phase": {
+                "title": "Tag und Nacht",
+                "body": "Bringe das Spiel zum nächsten Tag oder zur nächsten Nacht."
+            },
+            "view": {
+                "title": "Ansicht",
+                "body": "Ordne die Plätze neu an, öffne die Spionansicht, lies den Spielverlauf oder ändere den Hintergrund."
+            },
+            "town": {
+                "title": "Stadt",
+                "body": "Lass Spieler auf ihren Telefonen beitreten, um ihre Rolle zu sehen und Notizen zu machen."
+            },
+            "preferences": {
+                "title": "Einstellungen",
+                "body": "Ändere Tokengrößen, was bei jedem Spieler angezeigt wird, und mehr. Du kannst diese Tour von hier aus erneut starten."
+            },
+            "end_game": {
+                "title": "Spiel beenden",
+                "body": "Verkünde den Gewinner, wenn das Spiel vorbei ist."
+            }
+        },
+        "night": {
+            "night_cards": {
+                "body": "Öffne das Karten-Menü, um einem Spieler eine Karte zu zeigen oder eine eigene zu erstellen."
+            },
+            "show_role": {
+                "title": "Beliebige Rolle zeigen",
+                "body": "Wähle eine beliebige Rolle des Skripts, auch eine, die nicht im Spiel ist, und tippe auf Vergrößern, um sie im Vollbild zu zeigen. Rollen im Spiel sind mit einem Punkt markiert."
+            },
+            "placed_reminders": {
+                "title": "Platzierte Erinnerungen",
+                "body": "Die Erinnerungen dieser Rolle im Grimoire, mit dem Spieler, bei dem sie jeweils liegen. Tippe auf eine, um die Rolle dieses Spielers im Vollbild zu zeigen."
+            },
+            "unplaced_reminders": {
+                "title": "Nicht platzierte Erinnerungen",
+                "body": "Die Zahl zeigt, wie viele Erinnerungen dieser Rolle noch nicht im Grimoire sind. Tippe darauf, um sie zu sehen, und ziehe dann eine auf einen Spieler."
+            }
+        }
     }
 }

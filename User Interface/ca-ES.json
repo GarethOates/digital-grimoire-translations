@@ -745,5 +745,150 @@
         "donation": "Si valoreu la feina que he dedicat a aquesta eina,",
         "donation_link": "les donacions",
         "donation_thanks": "són molt benvingudes. Gràcies."
+    },
+    "tour": {
+        "replay": "Visita",
+        "setup": {
+            "script_search": {
+                "title": "Tria un guió",
+                "body": "Cerca un guió pel nom, enganxa una URL o puja el teu."
+            },
+            "advanced_search": {
+                "body": "Afina la cerca aquí per autor, nom o rols inclosos o exclosos."
+            },
+            "player_count": {
+                "title": "Quants jugadors?",
+                "body": "Defineix el nombre de jugadors. El botó d'edició et permet introduir-ne els noms."
+            },
+            "random_roles": {
+                "title": "Rols aleatoris",
+                "body": "Deixa que el grimori triï els rols per tu, amb el nombre correcte de cada tipus."
+            },
+            "token_selector": {
+                "title": "Tria els rols",
+                "body": "Toca els rols per posar-los a la bossa. Els comptadors mostren què cal per a aquest nombre de jugadors."
+            },
+            "travellers": {
+                "title": "Viatgers",
+                "body": "Afegeix Viatgers per als jugadors que arriben tard o se'n van aviat."
+            },
+            "npcs": {
+                "title": "Faula i Lòric",
+                "body": "Afegeix la Faula o el Lòric que faci servir aquesta partida."
+            },
+            "start_setup": {
+                "title": "Comença",
+                "body": "Tria com es disposen els seients i passa a la fase d'extracció."
+            }
+        },
+        "handout": {
+            "handout_panel": {
+                "body": "Tria com arriben els rols als teus jugadors. Ho pots canviar més tard."
+            },
+            "call_up": {
+                "body": "Crida els jugadors d'un en un. Toquen el seu seient en aquesta pantalla per veure el seu rol."
+            },
+            "pass": {
+                "body": "Passa el dispositiu pel cercle. Cada jugador extreu el seu rol i el passa al següent. El teu PIN bloqueja el grimori perquè ningú pugui mirar."
+            },
+            "phones": {
+                "body": "Els jugadors s'uneixen al poble des del seu telèfon. Quan tothom hi és, envies a cada jugador el seu rol."
+            }
+        },
+        "seating": {
+            "change_mode": {
+                "body": "Toca aquí per triar una altra manera de repartir els rols."
+            },
+            "invite_players": {
+                "body": "Obre això per portar els jugadors als seus telèfons."
+            },
+            "set_up_seats": {
+                "body": "Assigna noms de jugadors als seients i assigna rols als seients manualment (viatgers, per exemple). Tots dos són opcionals."
+            },
+            "names": {
+                "body": "Toca un nom per posar aquest jugador al proper seient buit. Toca un seient per buidar-lo."
+            },
+            "add_names": {
+                "body": "Toca aquí per afegir noms si no en veus cap a sota."
+            },
+            "roles": {
+                "body": "Toca un rol i després un seient per assignar-li aquest rol. Útil per als viatgers."
+            },
+            "skip_draw": {
+                "body": "Dona un rol aleatori a cada seient buit i omet l'extracció."
+            },
+            "start_game": {
+                "body": "Quan cada seient tingui un rol, comença la partida."
+            }
+        },
+        "phones": {
+            "town_code": {
+                "body": "Els jugadors escriuen aquest codi per unir-se al teu poble. Toca el llapis per canviar-lo."
+            },
+            "join_link": {
+                "body": "Els jugadors poden escanejar-ho per unir-s'hi a l'instant, o pots copiar o compartir l'enllaç."
+            },
+            "connected_players": {
+                "body": "Els jugadors apareixen aquí a mesura que s'hi uneixen, amb el número de seient quan en tinguin. Toca la creu per treure algú."
+            },
+            "send_tokens": {
+                "body": "Envia a cada jugador el seu rol. Si encara no s'hi han unit tots, primer se't demanarà confirmació."
+            }
+        },
+        "grimoire": {
+            "seats": {
+                "title": "Els teus jugadors",
+                "body": "Toca un jugador per obrir-ne el menú. Arrossega per moure'l."
+            },
+            "seat_menu": {
+                "title": "Menú del jugador",
+                "body": "Entra en pantalla completa, afegeix recordatoris, marca com a mort, intercanvia, canvia l'alineació i obre el menú d'eines. Toca fora del menú per tancar-lo."
+            },
+            "add": {
+                "title": "Afegeix",
+                "body": "Afegeix coartades del dimoni, rols addicionals i fitxes de recordatori."
+            },
+            "night_order": {
+                "title": "Ordre nocturn",
+                "body": "Mira qui es desperta aquesta nit i en quin ordre."
+            },
+            "phase": {
+                "title": "Dia i nit",
+                "body": "Fes avançar la partida cap al dia o la nit següent."
+            },
+            "view": {
+                "title": "Mostra",
+                "body": "Reordena els seients, obre la vista de l'Espia, llegeix l'historial de la partida o canvia el fons."
+            },
+            "town": {
+                "title": "Poble",
+                "body": "Deixa que els jugadors s'hi uneixin des dels seus telèfons per veure el seu rol i prendre notes."
+            },
+            "preferences": {
+                "title": "Preferències",
+                "body": "Canvia la mida de les fitxes, què es mostra a cada jugador i més coses. Pots repetir aquesta visita des d'aquí."
+            },
+            "end_game": {
+                "title": "Acaba la partida",
+                "body": "Declara el guanyador quan la partida s'hagi acabat."
+            }
+        },
+        "night": {
+            "night_cards": {
+                "body": "Obre el menú Targetes per mostrar una targeta a un jugador o crear-ne una de pròpia."
+            },
+            "show_role": {
+                "title": "Mostra qualsevol rol",
+                "body": "Tria qualsevol rol del guió, fins i tot un que no sigui a la partida, i toca el botó d'ampliar per mostrar-lo a pantalla completa. Els rols en joc estan marcats amb un punt."
+            },
+            "placed_reminders": {
+                "title": "Recordatoris col·locats",
+                "body": "Els recordatoris d'aquest rol al grimori, amb el jugador que té cadascun. Toca'n un per mostrar el rol d'aquest jugador a pantalla completa."
+            },
+            "unplaced_reminders": {
+                "title": "Recordatoris sense col·locar",
+                "body": "El número indica quants recordatoris d'aquest rol encara no són al grimori. Toca per veure'ls i arrossega'n un fins a un jugador."
+            }
+        }
     }
 }

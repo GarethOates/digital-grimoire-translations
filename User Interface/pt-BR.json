@@ -745,5 +745,150 @@
     "donation": "Se você valoriza o trabalho que dediquei a esta ferramenta,",
     "donation_link": "doações",
     "donation_thanks": "são muito bem-vindas. Obrigado."
+  },
+  "tour": {
+    "replay": "Tour",
+    "setup": {
+      "script_search": {
+        "title": "Escolha um script",
+        "body": "Procure um script pelo nome, cole uma URL ou envie o seu."
+      },
+      "advanced_search": {
+        "body": "Refine sua busca aqui por autor, nome ou personagens incluídos ou excluídos."
+      },
+      "player_count": {
+        "title": "Quantos jogadores?",
+        "body": "Defina o número de jogadores. O botão de edição permite digitar os nomes deles."
+      },
+      "random_roles": {
+        "title": "Personagens aleatórios",
+        "body": "Deixe o Grimório escolher os personagens para você, com o número certo de cada tipo."
+      },
+      "token_selector": {
+        "title": "Escolha os personagens",
+        "body": "Toque nos personagens para colocá-los na bolsa. Os contadores mostram o que esse número de jogadores precisa."
+      },
+      "travellers": {
+        "title": "Viajantes",
+        "body": "Adicione Viajantes para jogadores que chegam tarde ou saem cedo."
+      },
+      "npcs": {
+        "title": "Lendários e Lóricos",
+        "body": "Adicione os Lendários ou Lóricos que este jogo usa."
+      },
+      "start_setup": {
+        "title": "Começar",
+        "body": "Escolha como os assentos são dispostos e depois siga para a fase de sorteio."
+      }
+    },
+    "handout": {
+      "handout_panel": {
+        "body": "Escolha como os personagens chegam aos seus jogadores. Você pode mudar isso depois."
+      },
+      "call_up": {
+        "body": "Chame cada jogador, um de cada vez. Eles tocam no próprio assento nesta tela para ver seu personagem."
+      },
+      "pass": {
+        "body": "Passe o dispositivo pelo círculo. Cada jogador sorteia seu personagem e depois o repassa. Seu PIN bloqueia o Grimório para que ninguém possa espiar."
+      },
+      "phones": {
+        "body": "Os jogadores entram na cidade pelo próprio celular. Quando todos estiverem dentro, você envia a cada jogador o seu personagem."
+      }
+    },
+    "seating": {
+      "change_mode": {
+        "body": "Toque aqui para escolher outra forma de distribuir os personagens."
+      },
+      "invite_players": {
+        "body": "Abra isto para colocar os jogadores nos celulares deles."
+      },
+      "set_up_seats": {
+        "body": "Atribua nomes de jogadores aos assentos e atribua personagens aos assentos manualmente (viajantes, por exemplo). Ambos são opcionais."
+      },
+      "names": {
+        "body": "Toque em um nome para colocar esse jogador no próximo assento vazio. Toque em um assento para esvaziá-lo."
+      },
+      "add_names": {
+        "body": "Toque aqui para adicionar nomes se você não vir nenhum abaixo."
+      },
+      "roles": {
+        "body": "Toque em um personagem e depois em um assento para atribuir esse personagem ao assento. Útil para viajantes."
+      },
+      "skip_draw": {
+        "body": "Dê um personagem aleatório a cada assento vazio e pule o sorteio."
+      },
+      "start_game": {
+        "body": "Quando todos os assentos tiverem um personagem, inicie o jogo."
+      }
+    },
+    "phones": {
+      "town_code": {
+        "body": "Os jogadores digitam este código para entrar na sua cidade. Toque no lápis para alterá-lo."
+      },
+      "join_link": {
+        "body": "Os jogadores podem escanear isto para entrar na hora, ou você pode copiar ou compartilhar o link."
+      },
+      "connected_players": {
+        "body": "Os jogadores aparecem aqui conforme entram, com o número do assento quando já tiverem um. Toque no X para remover alguém."
+      },
+      "send_tokens": {
+        "body": "Envie a cada jogador o seu personagem. Se nem todos entraram ainda, será pedida uma confirmação antes."
+      }
+    },
+    "grimoire": {
+      "seats": {
+        "title": "Seus jogadores",
+        "body": "Toque em um jogador para abrir o menu dele. Arraste para movê-lo."
+      },
+      "seat_menu": {
+        "title": "Menu do jogador",
+        "body": "Entrar em Tela Cheia, adicionar lembretes, marcar como morto, trocar, mudar alinhamento e abrir o menu de ferramentas. Toque fora do menu para fechá-lo."
+      },
+      "add": {
+        "title": "Adicionar",
+        "body": "Adicione blefes do demônio, personagens extras e marcadores de lembrete."
+      },
+      "night_order": {
+        "title": "Ordem da Noite",
+        "body": "Veja quem acorda esta noite e em que ordem."
+      },
+      "phase": {
+        "title": "Dia e noite",
+        "body": "Avance o jogo para o próximo dia ou noite."
+      },
+      "view": {
+        "title": "Visualizar",
+        "body": "Reorganize os assentos, abra a visão do Espião, leia o histórico de jogo ou mude o plano de fundo."
+      },
+      "town": {
+        "title": "Cidade",
+        "body": "Deixe os jogadores entrarem pelos celulares para ver seu personagem e fazer anotações."
+      },
+      "preferences": {
+        "title": "Preferências",
+        "body": "Mude o tamanho dos tokens, o que aparece em cada jogador e mais. Você pode rever este tour a partir daqui."
+      },
+      "end_game": {
+        "title": "Terminar o Jogo",
+        "body": "Declare o vencedor quando o jogo acabar."
+      }
+    },
+    "night": {
+      "night_cards": {
+        "body": "Abra o menu Cartões para mostrar um cartão a um jogador ou criar o seu."
+      },
+      "show_role": {
+        "title": "Mostrar qualquer personagem",
+        "body": "Escolha qualquer personagem do script, mesmo um que não esteja em jogo, e toque em expandir para mostrá-lo em tela cheia. Os personagens em jogo são marcados com um ponto."
+      },
+      "placed_reminders": {
+        "title": "Lembretes colocados",
+        "body": "Os lembretes deste personagem no Grimório, com o jogador em que cada um está. Toque em um para mostrar o personagem desse jogador em tela cheia."
+      },
+      "unplaced_reminders": {
+        "title": "Lembretes não colocados",
+        "body": "O número indica quantos lembretes deste personagem ainda não estão no Grimório. Toque para vê-los e arraste um até um jogador."
+      }
+    }
   }
 }

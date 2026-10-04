@@ -745,5 +745,150 @@
         "donation": "Als je het werk waardeert dat ik in deze tool heb gestoken, zijn",
         "donation_link": "donaties",
         "donation_thanks": "van harte welkom. Dank je wel."
+    },
+    "tour": {
+        "replay": "Tour",
+        "setup": {
+            "script_search": {
+                "title": "Kies een script",
+                "body": "Zoek een script op naam, plak een URL of upload je eigen script."
+            },
+            "advanced_search": {
+                "body": "Verfijn hier je zoekopdracht op auteur, naam of opgenomen of uitgesloten rollen."
+            },
+            "player_count": {
+                "title": "Hoeveel spelers?",
+                "body": "Stel het aantal spelers in. Met de bewerkknop kun je hun namen invoeren."
+            },
+            "random_roles": {
+                "title": "Willekeurige rollen",
+                "body": "Laat het Grimoire rollen voor je kiezen, met het juiste aantal van elk type."
+            },
+            "token_selector": {
+                "title": "Kies de rollen",
+                "body": "Tik op rollen om ze in de zak te doen. De tellers laten zien wat dit aantal spelers nodig heeft."
+            },
+            "travellers": {
+                "title": "Reizigers",
+                "body": "Voeg Reizigers toe voor spelers die later komen of eerder weggaan."
+            },
+            "npcs": {
+                "title": "Legendarisch en Loric",
+                "body": "Voeg de Legendarische of Loric toe die dit spel gebruikt."
+            },
+            "start_setup": {
+                "title": "Start",
+                "body": "Kies hoe de plaatsen zijn ingedeeld en ga dan door naar de trekfase."
+            }
+        },
+        "handout": {
+            "handout_panel": {
+                "body": "Kies hoe rollen bij je spelers komen. Je kunt dit later wijzigen."
+            },
+            "call_up": {
+                "body": "Roep elke speler één voor één op. Ze tikken op dit scherm op hun plaats om hun rol te zien."
+            },
+            "pass": {
+                "body": "Geef het apparaat door in de cirkel. Elke speler trekt zijn rol en geeft het dan door. Je pincode vergrendelt het Grimoire zodat niemand kan gluren."
+            },
+            "phones": {
+                "body": "Spelers doen mee met de stad op hun eigen telefoon. Zodra iedereen binnen is, stuur je elke speler zijn rol."
+            }
+        },
+        "seating": {
+            "change_mode": {
+                "body": "Tik hier om een andere manier van rollen uitdelen te kiezen."
+            },
+            "invite_players": {
+                "body": "Open dit om spelers op hun telefoon binnen te krijgen."
+            },
+            "set_up_seats": {
+                "body": "Wijs spelersnamen aan plaatsen toe en wijs handmatig rollen aan plaatsen toe (bijvoorbeeld reizigers). Beide zijn optioneel."
+            },
+            "names": {
+                "body": "Tik op een naam om die speler op de volgende lege plaats te zetten. Tik op een plaats om deze leeg te maken."
+            },
+            "add_names": {
+                "body": "Tik hier om namen toe te voegen als je er hieronder geen ziet."
+            },
+            "roles": {
+                "body": "Tik op een rol en dan op een plaats om die rol aan de plaats toe te wijzen. Handig voor reizigers."
+            },
+            "skip_draw": {
+                "body": "Geef elke lege plaats een willekeurige rol en sla het trekken over."
+            },
+            "start_game": {
+                "body": "Zodra elke plaats een rol heeft, start je het spel."
+            }
+        },
+        "phones": {
+            "town_code": {
+                "body": "Spelers typen deze code om deel te nemen aan je stad. Tik op het potlood om hem te wijzigen."
+            },
+            "join_link": {
+                "body": "Spelers kunnen dit scannen om meteen mee te doen, of je kunt de link kopiëren of delen."
+            },
+            "connected_players": {
+                "body": "Spelers verschijnen hier zodra ze meedoen, met hun plaatsnummer zodra ze er een hebben. Tik op het kruisje om iemand te verwijderen."
+            },
+            "send_tokens": {
+                "body": "Stuur elke speler zijn rol. Als nog niet iedereen meedoet, word je eerst om bevestiging gevraagd."
+            }
+        },
+        "grimoire": {
+            "seats": {
+                "title": "Jouw spelers",
+                "body": "Tik op een speler om zijn menu te openen. Sleep om hem te verplaatsen."
+            },
+            "seat_menu": {
+                "title": "Spelersmenu",
+                "body": "Volledig scherm, herinneringen toevoegen, als dood markeren, wisselen, gezindheid wijzigen en het hulpmiddelenmenu openen. Tik buiten het menu om het te sluiten."
+            },
+            "add": {
+                "title": "Toevoegen",
+                "body": "Voeg demonbluffen, extra rollen en herinneringstokens toe."
+            },
+            "night_order": {
+                "title": "Nachtvolgorde",
+                "body": "Bekijk wie er vannacht wakker wordt en in welke volgorde."
+            },
+            "phase": {
+                "title": "Dag en nacht",
+                "body": "Zet het spel door naar de volgende dag of nacht."
+            },
+            "view": {
+                "title": "Weergave",
+                "body": "Herschik plaatsen, open de Spionweergave, lees de spelgeschiedenis of wijzig de achtergrond."
+            },
+            "town": {
+                "title": "Stad",
+                "body": "Laat spelers op hun telefoon meedoen om hun rol te zien en notities te maken."
+            },
+            "preferences": {
+                "title": "Instellingen",
+                "body": "Wijzig de tokengrootte, wat er bij elke speler wordt getoond, en meer. Je kunt deze tour vanaf hier opnieuw afspelen."
+            },
+            "end_game": {
+                "title": "Spel beëindigen",
+                "body": "Roep de winnaar uit als het spel voorbij is."
+            }
+        },
+        "night": {
+            "night_cards": {
+                "body": "Open het Kaarten-menu om een speler een kaart te tonen of er zelf een te maken."
+            },
+            "show_role": {
+                "title": "Toon elke rol",
+                "body": "Kies een willekeurige rol uit het script, ook een die niet in het spel zit, en tik op uitvouwen om hem op volledig scherm te tonen. Rollen in het spel zijn gemarkeerd met een stip."
+            },
+            "placed_reminders": {
+                "title": "Geplaatste herinneringen",
+                "body": "De herinneringen van deze rol in het Grimoire, met de speler bij wie elke herinnering ligt. Tik op een herinnering om de rol van die speler op volledig scherm te tonen."
+            },
+            "unplaced_reminders": {
+                "title": "Niet geplaatste herinneringen",
+                "body": "Het getal geeft aan hoeveel herinneringen van deze rol nog niet in het Grimoire liggen. Tik om ze te bekijken en sleep er dan een naar een speler."
+            }
+        }
     }
 }

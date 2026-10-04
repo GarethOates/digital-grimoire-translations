@@ -745,5 +745,150 @@
         "donation": "Hvis du setter pris på arbeidet jeg har lagt ned i dette verktøyet, er",
         "donation_link": "donasjoner",
         "donation_thanks": "hjertelig velkomne. Takk."
+    },
+    "tour": {
+        "replay": "Omvisning",
+        "setup": {
+            "script_search": {
+                "title": "Velg et skript",
+                "body": "Søk etter et skript med navn, lim inn en URL eller last opp ditt eget."
+            },
+            "advanced_search": {
+                "body": "Finjuster søket her etter forfatter, navn eller inkluderte og ekskluderte roller."
+            },
+            "player_count": {
+                "title": "Hvor mange spillere?",
+                "body": "Angi antall spillere. Med redigeringsknappen kan du skrive inn navnene deres."
+            },
+            "random_roles": {
+                "title": "Tilfeldige roller",
+                "body": "La Grimoiren velge roller for deg, med riktig antall av hver type."
+            },
+            "token_selector": {
+                "title": "Velg rollene",
+                "body": "Trykk på roller for å legge dem i posen. Tellerne viser hva dette antallet spillere trenger."
+            },
+            "travellers": {
+                "title": "Reisende",
+                "body": "Legg til Reisende for spillere som kommer sent eller drar tidlig."
+            },
+            "npcs": {
+                "title": "Fabel og Loric",
+                "body": "Legg til Fabel eller Loric som dette spillet bruker."
+            },
+            "start_setup": {
+                "title": "Start",
+                "body": "Velg hvordan setene settes opp, og gå videre til trekkefasen."
+            }
+        },
+        "handout": {
+            "handout_panel": {
+                "body": "Velg hvordan rollene når spillerne dine. Du kan endre dette senere."
+            },
+            "call_up": {
+                "body": "Kall opp spillerne én om gangen. De trykker på setet sitt på denne skjermen for å se rollen sin."
+            },
+            "pass": {
+                "body": "Send enheten videre rundt i sirkelen. Hver spiller trekker rollen sin og sender den videre. PIN-koden din låser Grimoiren slik at ingen kan titte."
+            },
+            "phones": {
+                "body": "Spillerne blir med i byen på sin egen mobil. Når alle er inne, sender du hver spiller rollen sin."
+            }
+        },
+        "seating": {
+            "change_mode": {
+                "body": "Trykk her for å velge en annen måte å dele ut roller på."
+            },
+            "invite_players": {
+                "body": "Åpne dette for å få spillerne inn på mobilene sine."
+            },
+            "set_up_seats": {
+                "body": "Tildel spillernavn til seter og tildel roller til seter manuelt (for eksempel reisende). Begge deler er valgfritt."
+            },
+            "names": {
+                "body": "Trykk på et navn for å plassere spilleren på neste tomme sete. Trykk på et sete for å tømme det."
+            },
+            "add_names": {
+                "body": "Trykk her for å legge til navn hvis du ikke ser noen under."
+            },
+            "roles": {
+                "body": "Trykk på en rolle, deretter på et sete, for å tildele setet den rollen. Praktisk for reisende."
+            },
+            "skip_draw": {
+                "body": "Gi hvert tomme sete en tilfeldig rolle og hopp over trekkingen."
+            },
+            "start_game": {
+                "body": "Når hvert sete har en rolle, start spillet."
+            }
+        },
+        "phones": {
+            "town_code": {
+                "body": "Spillerne skriver inn denne koden for å bli med i byen din. Trykk på blyanten for å endre den."
+            },
+            "join_link": {
+                "body": "Spillerne kan skanne dette for å bli med med en gang, eller du kan kopiere eller dele lenken."
+            },
+            "connected_players": {
+                "body": "Spillerne dukker opp her etter hvert som de blir med, med setenummeret sitt når de har fått et. Trykk på krysset for å fjerne noen."
+            },
+            "send_tokens": {
+                "body": "Send hver spiller rollen sin. Hvis ikke alle har blitt med ennå, blir du bedt om å bekrefte først."
+            }
+        },
+        "grimoire": {
+            "seats": {
+                "title": "Spillerne dine",
+                "body": "Trykk på en spiller for å åpne menyen deres. Dra for å flytte dem."
+            },
+            "seat_menu": {
+                "title": "Spillermeny",
+                "body": "Gå til fullskjerm, legg til påminnelser, marker som død, bytt, endre tilhørighet og åpne verktøymenyen. Trykk utenfor menyen for å lukke den."
+            },
+            "add": {
+                "title": "Legg til",
+                "body": "Legg til demonbløffer, ekstra roller og påminnelsesbrikker."
+            },
+            "night_order": {
+                "title": "Nattens Rekkefølge",
+                "body": "Se hvem som våkner i natt, og i hvilken rekkefølge."
+            },
+            "phase": {
+                "title": "Dag og natt",
+                "body": "Flytt spillet videre til neste dag eller natt."
+            },
+            "view": {
+                "title": "Visning",
+                "body": "Omorganiser setene, åpne spionvisning, les spillhistorikken eller endre bakgrunnen."
+            },
+            "town": {
+                "title": "By",
+                "body": "La spillerne bli med fra mobilen sin for å se rollen sin og ta notater."
+            },
+            "preferences": {
+                "title": "Innstillinger",
+                "body": "Endre størrelsen på brikkene, hva som vises på hver spiller, og mer. Du kan se denne omvisningen på nytt herfra."
+            },
+            "end_game": {
+                "title": "Avslutt spill",
+                "body": "Erklær vinneren når spillet er over."
+            }
+        },
+        "night": {
+            "night_cards": {
+                "body": "Åpne Kort-menyen for å vise en spiller et kort, eller lag ditt eget."
+            },
+            "show_role": {
+                "title": "Vis hvilken som helst rolle",
+                "body": "Velg en hvilken som helst rolle på manuset, selv en som ikke er i spill, og trykk på utvid for å vise den i fullskjerm. Roller i spill er merket med en prikk."
+            },
+            "placed_reminders": {
+                "title": "Plasserte påminnelser",
+                "body": "Denne rollens påminnelser i Grimoiren, med spilleren hver av dem ligger på. Trykk på en for å vise den spillerens rolle i fullskjerm."
+            },
+            "unplaced_reminders": {
+                "title": "Ikke plasserte påminnelser",
+                "body": "Tallet viser hvor mange av denne rollens påminnelser som ikke er i Grimoiren ennå. Trykk for å se dem, og dra så en over på en spiller."
+            }
+        }
     }
 }

@@ -745,5 +745,150 @@
         "donation": "Si vous appréciez le travail que j'ai consacré à cet outil,",
         "donation_link": "les dons",
         "donation_thanks": "sont les bienvenus. Merci."
+    },
+    "tour": {
+        "replay": "Visite",
+        "setup": {
+            "script_search": {
+                "title": "Choisir un script",
+                "body": "Recherchez un script par son nom, collez une URL ou importez le vôtre."
+            },
+            "advanced_search": {
+                "body": "Affinez ici votre recherche par auteur, nom ou rôles inclus ou exclus."
+            },
+            "player_count": {
+                "title": "Combien de joueurs ?",
+                "body": "Définissez le nombre de joueurs. Le bouton de modification vous permet de saisir leurs noms."
+            },
+            "random_roles": {
+                "title": "Rôles aléatoires",
+                "body": "Laissez le Grimoire choisir les rôles pour vous, avec le bon nombre de chaque type."
+            },
+            "token_selector": {
+                "title": "Choisir les rôles",
+                "body": "Touchez des rôles pour les mettre dans le sac. Les compteurs indiquent ce qu'il faut pour ce nombre de joueurs."
+            },
+            "travellers": {
+                "title": "Voyageurs",
+                "body": "Ajoutez des Voyageurs pour les joueurs qui arrivent en retard ou partent tôt."
+            },
+            "npcs": {
+                "title": "Légendaires et Loric",
+                "body": "Ajoutez les Légendaires ou Loric utilisés dans cette partie."
+            },
+            "start_setup": {
+                "title": "Commencer",
+                "body": "Choisissez la disposition des places, puis passez à la phase de tirage."
+            }
+        },
+        "handout": {
+            "handout_panel": {
+                "body": "Choisissez comment les rôles parviennent à vos joueurs. Vous pourrez le changer plus tard."
+            },
+            "call_up": {
+                "body": "Appelez les joueurs un par un. Ils touchent leur place sur cet écran pour voir leur rôle."
+            },
+            "pass": {
+                "body": "Faites passer l'appareil dans le cercle. Chaque joueur tire son rôle, puis le passe au suivant. Votre code PIN verrouille le Grimoire pour que personne ne puisse regarder."
+            },
+            "phones": {
+                "body": "Les joueurs rejoignent le village sur leur propre téléphone. Une fois que tout le monde est là, vous envoyez à chaque joueur son rôle."
+            }
+        },
+        "seating": {
+            "change_mode": {
+                "body": "Touchez ici pour choisir une autre façon de distribuer les rôles."
+            },
+            "invite_players": {
+                "body": "Ouvrez ceci pour faire venir les joueurs sur leurs téléphones."
+            },
+            "set_up_seats": {
+                "body": "Attribuez des noms de joueurs aux places et attribuez manuellement des rôles aux places (des voyageurs par exemple). Les deux sont facultatifs."
+            },
+            "names": {
+                "body": "Touchez un nom pour placer ce joueur sur la prochaine place libre. Touchez une place pour la vider."
+            },
+            "add_names": {
+                "body": "Touchez ici pour ajouter des noms si vous n'en voyez aucun en dessous."
+            },
+            "roles": {
+                "body": "Touchez un rôle, puis une place, pour attribuer ce rôle à la place. Pratique pour les voyageurs."
+            },
+            "skip_draw": {
+                "body": "Donnez un rôle aléatoire à chaque place vide et passez le tirage."
+            },
+            "start_game": {
+                "body": "Une fois que chaque place a un rôle, démarrez la partie."
+            }
+        },
+        "phones": {
+            "town_code": {
+                "body": "Les joueurs saisissent ce code pour rejoindre votre village. Touchez le crayon pour le modifier."
+            },
+            "join_link": {
+                "body": "Les joueurs peuvent le scanner pour rejoindre immédiatement, ou vous pouvez copier ou partager le lien."
+            },
+            "connected_players": {
+                "body": "Les joueurs apparaissent ici à mesure qu'ils rejoignent, avec leur numéro de place dès qu'ils en ont une. Touchez la croix pour retirer quelqu'un."
+            },
+            "send_tokens": {
+                "body": "Envoyez à chaque joueur son rôle. Si tout le monde n'a pas encore rejoint, une confirmation vous sera d'abord demandée."
+            }
+        },
+        "grimoire": {
+            "seats": {
+                "title": "Vos joueurs",
+                "body": "Touchez un joueur pour ouvrir son menu. Faites glisser pour le déplacer."
+            },
+            "seat_menu": {
+                "title": "Menu du joueur",
+                "body": "Passer en plein écran, ajouter des rappels, marquer comme mort, échanger, changer l'alignement et ouvrir le menu des outils. Touchez en dehors du menu pour le fermer."
+            },
+            "add": {
+                "title": "Ajouter",
+                "body": "Ajoutez des bluffs du démon, des rôles supplémentaires et des jetons de rappel."
+            },
+            "night_order": {
+                "title": "Ordre de nuit",
+                "body": "Voyez qui se réveille cette nuit, et dans quel ordre."
+            },
+            "phase": {
+                "title": "Jour et nuit",
+                "body": "Faites avancer la partie vers le jour ou la nuit suivante."
+            },
+            "view": {
+                "title": "Affichage",
+                "body": "Réorganisez les places, ouvrez la vue espion, lisez l'historique de la partie ou changez l'arrière-plan."
+            },
+            "town": {
+                "title": "Village",
+                "body": "Laissez les joueurs rejoindre depuis leurs téléphones pour voir leur rôle et prendre des notes."
+            },
+            "preferences": {
+                "title": "Préférences",
+                "body": "Modifiez la taille des jetons, ce qui s'affiche sur chaque joueur, et plus encore. Vous pouvez relancer cette visite depuis ici."
+            },
+            "end_game": {
+                "title": "Fin de partie",
+                "body": "Déclarez le vainqueur quand la partie est terminée."
+            }
+        },
+        "night": {
+            "night_cards": {
+                "body": "Ouvrez le menu Cartes pour montrer une carte à un joueur ou créer la vôtre."
+            },
+            "show_role": {
+                "title": "Montrer n'importe quel rôle",
+                "body": "Choisissez n'importe quel rôle du script, même un rôle absent de la partie, puis touchez agrandir pour l'afficher en plein écran. Les rôles en jeu sont marqués d'un point."
+            },
+            "placed_reminders": {
+                "title": "Rappels placés",
+                "body": "Les rappels de ce rôle dans le Grimoire, avec le joueur qui porte chacun d'eux. Touchez-en un pour afficher le rôle de ce joueur en plein écran."
+            },
+            "unplaced_reminders": {
+                "title": "Rappels non placés",
+                "body": "Le nombre indique combien de rappels de ce rôle ne sont pas encore dans le Grimoire. Touchez pour les voir, puis faites glisser l'un d'eux sur un joueur."
+            }
+        }
     }
 }

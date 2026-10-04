@@ -745,5 +745,150 @@
         "donation": "Pokud si vážíte práce, kterou jsem do tohoto nástroje vložil,",
         "donation_link": "dary",
         "donation_thanks": "jsou srdečně vítány. Děkuji."
+    },
+    "tour": {
+        "replay": "Prohlídka",
+        "setup": {
+            "script_search": {
+                "title": "Vyberte skript",
+                "body": "Vyhledejte skript podle názvu, vložte URL nebo nahrajte vlastní."
+            },
+            "advanced_search": {
+                "body": "Zde upřesněte hledání podle autora, názvu nebo zahrnutých či vyloučených rolí."
+            },
+            "player_count": {
+                "title": "Kolik hráčů?",
+                "body": "Nastavte počet hráčů. Tlačítkem pro úpravy můžete zadat jejich jména."
+            },
+            "random_roles": {
+                "title": "Náhodné role",
+                "body": "Nechte Grimoár vybrat role za vás se správným počtem od každého typu."
+            },
+            "token_selector": {
+                "title": "Vyberte role",
+                "body": "Klepnutím na role je vložíte do pytlíku. Počty ukazují, co tento počet hráčů potřebuje."
+            },
+            "travellers": {
+                "title": "Cestovatelé",
+                "body": "Přidejte Cestovatele pro hráče, kteří přijdou pozdě nebo odejdou dříve."
+            },
+            "npcs": {
+                "title": "Legendy (Fabled) a Loric",
+                "body": "Přidejte všechny Legendy (Fabled) nebo Loric, které tato hra používá."
+            },
+            "start_setup": {
+                "title": "Začít",
+                "body": "Vyberte, jak budou místa rozmístěna, a pokračujte k fázi losování."
+            }
+        },
+        "handout": {
+            "handout_panel": {
+                "body": "Vyberte, jak se role dostanou k hráčům. Můžete to později změnit."
+            },
+            "call_up": {
+                "body": "Voláte hráče jednoho po druhém. Na této obrazovce klepnou na své místo a uvidí svou roli."
+            },
+            "pass": {
+                "body": "Podávejte zařízení po kruhu. Každý hráč si vylosuje svou roli a pošle zařízení dál. Váš PIN zamyká Grimoár, aby nikdo nemohl nahlížet."
+            },
+            "phones": {
+                "body": "Hráči se připojí do města na svém telefonu. Až budou všichni uvnitř, pošlete každému hráči jeho roli."
+            }
+        },
+        "seating": {
+            "change_mode": {
+                "body": "Klepnutím zde zvolíte jiný způsob rozdávání rolí."
+            },
+            "invite_players": {
+                "body": "Otevřete to, abyste dostali hráče na jejich telefony."
+            },
+            "set_up_seats": {
+                "body": "Přiřaďte jména hráčů k místům a ručně přiřaďte role k místům (například cestovatele). Obojí je volitelné."
+            },
+            "names": {
+                "body": "Klepnutím na jméno posadíte hráče na další volné místo. Klepnutím na místo ho uvolníte."
+            },
+            "add_names": {
+                "body": "Klepnutím zde přidáte jména, pokud žádná níže nevidíte."
+            },
+            "roles": {
+                "body": "Klepněte na roli a pak na místo, čímž roli k místu přiřadíte. Šikovné pro cestovatele."
+            },
+            "skip_draw": {
+                "body": "Dejte každému volnému místu náhodnou roli a přeskočte losování."
+            },
+            "start_game": {
+                "body": "Jakmile má každé místo roli, spusťte hru."
+            }
+        },
+        "phones": {
+            "town_code": {
+                "body": "Hráči zadají tento kód, aby se připojili do vašeho města. Klepnutím na tužku ho změníte."
+            },
+            "join_link": {
+                "body": "Hráči mohou kód naskenovat a připojit se hned, nebo můžete odkaz zkopírovat či sdílet."
+            },
+            "connected_players": {
+                "body": "Hráči se tu objevují, jak se připojují, spolu s číslem místa, jakmile ho mají. Klepnutím na křížek někoho odeberete."
+            },
+            "send_tokens": {
+                "body": "Pošlete každému hráči jeho roli. Pokud se ještě nepřipojili všichni, budete nejdřív požádáni o potvrzení."
+            }
+        },
+        "grimoire": {
+            "seats": {
+                "title": "Vaši hráči",
+                "body": "Klepnutím na hráče otevřete jeho nabídku. Přetažením ho přesunete."
+            },
+            "seat_menu": {
+                "title": "Nabídka hráče",
+                "body": "Režim celé obrazovky, přidat připomínky, označit jako mrtvého, vyměnit, změnit příslušnost a otevřít nabídku nástrojů. Klepnutím mimo nabídku ji zavřete."
+            },
+            "add": {
+                "title": "Přidat",
+                "body": "Přidejte blafy démona, další role a žetony připomínek."
+            },
+            "night_order": {
+                "title": "Pořadí v noci",
+                "body": "Podívejte se, kdo se dnes v noci budí a v jakém pořadí."
+            },
+            "phase": {
+                "title": "Den a noc",
+                "body": "Posuňte hru k dalšímu dni nebo noci."
+            },
+            "view": {
+                "title": "Zobrazit",
+                "body": "Přeuspořádejte místa, otevřete pohled Špeha, přečtěte si historii hry nebo změňte pozadí."
+            },
+            "town": {
+                "title": "Město",
+                "body": "Nechte hráče připojit se na telefonech, aby viděli svou roli a psali si poznámky."
+            },
+            "preferences": {
+                "title": "Předvolby",
+                "body": "Změňte velikost žetonů, co se zobrazuje u každého hráče, a další. Tuto prohlídku odsud můžete spustit znovu."
+            },
+            "end_game": {
+                "title": "Ukončit hru",
+                "body": "Vyhlaste vítěze, až bude hra u konce."
+            }
+        },
+        "night": {
+            "night_cards": {
+                "body": "Otevřete nabídku Karty, abyste hráči ukázali kartu nebo vytvořili vlastní."
+            },
+            "show_role": {
+                "title": "Ukažte libovolnou roli",
+                "body": "Vyberte libovolnou roli ze scénáře, i takovou, která ve hře není, a klepnutím na rozbalení ji zobrazte na celou obrazovku. Role ve hře jsou označeny tečkou."
+            },
+            "placed_reminders": {
+                "title": "Umístěné připomínky",
+                "body": "Připomínky této role v Grimoáru s hráčem, u něhož je každá z nich. Klepnutím na některou zobrazíte roli tohoto hráče na celou obrazovku."
+            },
+            "unplaced_reminders": {
+                "title": "Neumístěné připomínky",
+                "body": "Číslo udává, kolik připomínek této role ještě není v Grimoáru. Klepnutím je zobrazíte a pak některou přetáhněte na hráče."
+            }
+        }
     }
 }

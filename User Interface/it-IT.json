@@ -745,5 +745,150 @@
         "donation": "Se apprezzi il lavoro svolto su questo strumento, le",
         "donation_link": "donazioni",
         "donation_thanks": "sono molto gradite. Grazie."
+    },
+    "tour": {
+        "replay": "Tour",
+        "setup": {
+            "script_search": {
+                "title": "Scegli un copione",
+                "body": "Cerca un copione per nome, incolla un URL o carica il tuo."
+            },
+            "advanced_search": {
+                "body": "Affina qui la ricerca per autore, nome o ruoli inclusi o esclusi."
+            },
+            "player_count": {
+                "title": "Quanti giocatori?",
+                "body": "Imposta il numero di giocatori. Il pulsante di modifica ti permette di inserire i loro nomi."
+            },
+            "random_roles": {
+                "title": "Ruoli casuali",
+                "body": "Lascia che il Grimorio scelga i ruoli per te, con il numero giusto per ogni tipo."
+            },
+            "token_selector": {
+                "title": "Scegli i ruoli",
+                "body": "Tocca i ruoli per metterli nel sacchetto. I contatori mostrano ciò che serve per questo numero di giocatori."
+            },
+            "travellers": {
+                "title": "Viaggiatori",
+                "body": "Aggiungi Viaggiatori per i giocatori che arrivano tardi o se ne vanno presto."
+            },
+            "npcs": {
+                "title": "Fiabeschi e Folklorici",
+                "body": "Aggiungi i Fiabeschi o i Folklorici usati in questa partita."
+            },
+            "start_setup": {
+                "title": "Inizia",
+                "body": "Scegli come disporre i posti, poi passa alla fase di pesca."
+            }
+        },
+        "handout": {
+            "handout_panel": {
+                "body": "Scegli come i ruoli arrivano ai tuoi giocatori. Puoi cambiarlo in seguito."
+            },
+            "call_up": {
+                "body": "Chiama i giocatori uno alla volta. Toccano il proprio posto su questo schermo per vedere il loro ruolo."
+            },
+            "pass": {
+                "body": "Fai girare il dispositivo nel cerchio. Ogni giocatore pesca il proprio ruolo e poi lo passa. Il tuo PIN blocca il Grimorio così nessuno può sbirciare."
+            },
+            "phones": {
+                "body": "I giocatori entrano nella città dal proprio telefono. Quando sono tutti dentro, invii a ogni giocatore il suo ruolo."
+            }
+        },
+        "seating": {
+            "change_mode": {
+                "body": "Tocca qui per scegliere un altro modo di distribuire i ruoli."
+            },
+            "invite_players": {
+                "body": "Aprilo per far entrare i giocatori dai loro telefoni."
+            },
+            "set_up_seats": {
+                "body": "Assegna i nomi dei giocatori ai posti e assegna manualmente i ruoli ai posti (i viaggiatori, per esempio). Entrambe le cose sono facoltative."
+            },
+            "names": {
+                "body": "Tocca un nome per mettere quel giocatore nel prossimo posto libero. Tocca un posto per svuotarlo."
+            },
+            "add_names": {
+                "body": "Tocca qui per aggiungere i nomi se non ne vedi nessuno qui sotto."
+            },
+            "roles": {
+                "body": "Tocca un ruolo, poi un posto, per assegnare quel ruolo al posto. Utile per i viaggiatori."
+            },
+            "skip_draw": {
+                "body": "Dai un ruolo casuale a ogni posto vuoto e salta la pesca."
+            },
+            "start_game": {
+                "body": "Quando ogni posto ha un ruolo, inizia la partita."
+            }
+        },
+        "phones": {
+            "town_code": {
+                "body": "I giocatori digitano questo codice per entrare nella tua città. Tocca la matita per cambiarlo."
+            },
+            "join_link": {
+                "body": "I giocatori possono inquadrarlo per entrare subito, oppure puoi copiare o condividere il link."
+            },
+            "connected_players": {
+                "body": "I giocatori appaiono qui man mano che entrano, con il numero del loro posto quando ne hanno uno. Tocca la croce per rimuovere qualcuno."
+            },
+            "send_tokens": {
+                "body": "Invia a ogni giocatore il suo ruolo. Se non sono ancora entrati tutti, ti verrà prima chiesta una conferma."
+            }
+        },
+        "grimoire": {
+            "seats": {
+                "title": "I tuoi giocatori",
+                "body": "Tocca un giocatore per aprire il suo menu. Trascina per spostarlo."
+            },
+            "seat_menu": {
+                "title": "Menu del giocatore",
+                "body": "Schermo intero, aggiungi promemoria, segna come morto, scambia, cambia allineamento e apri il menu degli strumenti. Tocca fuori dal menu per chiuderlo."
+            },
+            "add": {
+                "title": "Aggiungi",
+                "body": "Aggiungi i bluff del demone, ruoli extra e segnalini promemoria."
+            },
+            "night_order": {
+                "title": "Ordine Notte",
+                "body": "Guarda chi si sveglia stanotte e in quale ordine."
+            },
+            "phase": {
+                "title": "Giorno e notte",
+                "body": "Fai avanzare la partita al giorno o alla notte successiva."
+            },
+            "view": {
+                "title": "Vista",
+                "body": "Riordina i posti, apri la Vista Spia, leggi la cronologia della partita o cambia lo sfondo."
+            },
+            "town": {
+                "title": "Città",
+                "body": "Lascia che i giocatori entrino dai loro telefoni per vedere il proprio ruolo e prendere appunti."
+            },
+            "preferences": {
+                "title": "Preferenze",
+                "body": "Cambia la dimensione dei gettoni, cosa viene mostrato su ogni giocatore e altro. Puoi rivedere questo tour da qui."
+            },
+            "end_game": {
+                "title": "Termina Partita",
+                "body": "Dichiara il vincitore quando la partita è finita."
+            }
+        },
+        "night": {
+            "night_cards": {
+                "body": "Apri il menu Carte per mostrare una carta a un giocatore o crearne una tua."
+            },
+            "show_role": {
+                "title": "Mostra qualsiasi ruolo",
+                "body": "Scegli qualsiasi ruolo dello script, anche uno che non è in gioco, poi tocca espandi per mostrarlo a schermo intero. I ruoli in gioco sono segnati con un punto."
+            },
+            "placed_reminders": {
+                "title": "Promemoria posizionati",
+                "body": "I promemoria di questo ruolo nel Grimorio, con il giocatore a cui è assegnato ciascuno. Toccane uno per mostrare il ruolo di quel giocatore a schermo intero."
+            },
+            "unplaced_reminders": {
+                "title": "Promemoria non posizionati",
+                "body": "Il numero indica quanti promemoria di questo ruolo non sono ancora nel Grimorio. Tocca per vederli, poi trascinane uno su un giocatore."
+            }
+        }
     }
 }
