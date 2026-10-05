@@ -84,8 +84,9 @@
     "status": {
         "poisoned": "Отровен",
         "drunk": "Пиян",
-        "dead": "Мъртъв",
+        "dead": "Убит",
         "noability": "Няма умение",
+        "mad": "Луд",
         "lunch": "Обяд"
     },
     "radial_menu": {

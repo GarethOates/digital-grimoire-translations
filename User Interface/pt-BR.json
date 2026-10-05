@@ -85,7 +85,8 @@
     "poisoned": "Envenenado",
     "drunk": "Bêbado",
     "dead": "Morto",
-    "noability": "Sem Abilidade",
+    "noability": "Sem Habilidade",
+    "mad": "Alucinando",
     "lunch": "Habilidade adquirida"
   },
   "radial_menu": {
