@@ -86,7 +86,6 @@
         "drunk": "Drunk",
         "dead": "Dead",
         "noability": "No Ability",
-        "mad": "Mad",
         "lunch": "Lunch"
     },
     "radial_menu": {
@@ -123,7 +122,7 @@
             "about": "About...",
             "official_icons": "Official Icons",
             "clocktracker_url": "Destination URL",
-            "clocktracker_url_help": "Completed games are sent here. Only change this if you host your own Clocktracker.",
+            "clocktracker_url_help": "Completed games are optionally sent here. Only change this if you host your own Clocktracker.",
             "clocktracker_url_invalid": "Enter a full https:// address."
         },
         "login": "Login",
@@ -303,8 +302,7 @@
             "game_result": "{team} wins",
             "phase_started": "{phase} {number} Started",
             "setup_started": "Setup started",
-            "game_started": "Game started",
-            "savant_told": "{name} was told:"
+            "game_started": "Game started"
         },
         "notes": {
             "title": "Notes",
@@ -715,7 +713,7 @@
     },
     "lock": {
         "title": "Storyteller Lock",
-        "description": "Require a 4-digit PIN before the grimoire can be revealed.",
+        "description": "Require a 4-digit PIN before the grimoire can be revealed. This PIN is also used for Pass & Play mode.",
         "arm": "Start Pass & Play",
         "exit": "Exit Pass & Play",
         "enrol_pin_prompt": "Choose a 4-digit PIN",
@@ -757,6 +755,10 @@
             "grimoire": "Grimoire"
         },
         "setup": {
+            "welcome": {
+                "title": "Welcome",
+                "body": "This is the guided tour. You can mark any tour as seen or unseen in Preferences, under Tours."
+            },
             "script_search": {
                 "title": "Choose a script",
                 "body": "Search for a script by name, paste a URL or upload your own."
@@ -855,13 +857,18 @@
             }
         },
         "grimoire": {
-            "seats": {
-                "title": "Your players",
-                "body": "Tap a player to open their menu. Drag to move them."
+            "good_player": {
+                "title": "A good player",
+                "body": "This player is on the good team. Tap a player to open their menu. Drag to move them."
+            },
+            "evil_player": {
+                "title": "An evil player",
+                "body": "This player is on the evil team. Each token's artwork shows which team that player is on."
             },
             "seat_menu": {
                 "title": "Player menu",
-                "body": "Show Fullscreen, Add Reminders, Mark as Dead, Swap, Change Alignment and open the tools menu. Tap outside the menu to close it."
+                "body": "Show Fullscreen, Add Reminders, Mark as Dead, Swap, Change Alignment and open the tools menu. Tap outside the menu to close it.",
+                "body_evil": "Show Fullscreen, Add Reminders, Add a Bluff Reminder, Mark as Dead, Swap, Change Alignment and open the tools menu. Tap outside the menu to close it."
             },
             "add": {
                 "title": "Add",
@@ -884,7 +891,35 @@
             },
             "preferences": {
                 "title": "Preferences",
-                "body": "Change token sizes, what is shown on each player, and more. You can replay this tour from here."
+                "body": "Change token sizes, what is shown on each player, and more."
+            },
+            "gr_details": {
+                "body": "Hide every role in the Grimoire, so you can turn the screen round without giving anything away. Tap it again to show them."
+            },
+            "gr_lock": {
+                "title": "Lock tokens",
+                "body": "Lock the tokens in place so they can't be dragged by accident. They lock by themselves when the game ends."
+            },
+            "gr_notes": {
+                "body": "Your own notes for the whole game. Notes about one player go in that player's token menu."
+            },
+            "gr_timer": {
+                "body": "Set a countdown for the day, or run a stopwatch. Once it's set, tap the time to pause it or carry on."
+            },
+            "gr_music": {
+                "title": "Music",
+                "body": "Play your own music files in the background. Add sound effects too, and set them to play when the timer reaches 1:00, 0:30 or 0:00."
+            },
+            "gr_type_icons": {
+                "body": "Hold this down to show a letter on each token for its type: Townsfolk, Outsider, Minion or Demon."
+            },
+            "town_composition": {
+                "title": "Town composition",
+                "body": "The script's name, then how many Townsfolk, Outsiders, Minions and Demons this many players should have, each in its own colour. On smaller screens, tap the banner to see them."
+            },
+            "town_state": {
+                "title": "Town state",
+                "body": "The person icon shows the number of living players. It turns yellow at 4 and red at 3 or fewer. The suitcase denotes the number of travellers. The skull is dead players. The hand shows how many votes are remaining, ghost votes included. It turns red when there aren't enough votes left to exceed the current on-the-block total. The tick shows the number of votes required to lift the current person off the block."
             },
             "end_game": {
                 "title": "End game",
@@ -907,58 +942,58 @@
                 "title": "Unplaced reminders",
                 "body": "The number is how many of this role's reminders are not in the Grimoire yet. Tap to see them, then drag one onto a player."
             }
+        },
+        "preferences": {
+            "pref_display": {
+                "body": "Fullscreen hides the browser's own bars. Official icons uses the official TPI icons instead of community created artwork. Draw animation shuffles through roles before a drawn token is revealed."
+            },
+            "pref_sizes": {
+                "body": "Change how big tokens and reminders are. The link button keeps the ratio between the two sizes the same."
+            },
+            "pref_token_info": {
+                "body": "Choose what each token shows: the leaves for reminders, night order and setup instructions, its ability, how and when a dead player died, and its place in the night order. Skip dead lets the night order pass over dead players."
+            },
+            "pref_player_info": {
+                "body": "Choose what each player's name badge shows: their name, pronouns and seat number."
+            },
+            "pref_footer": {
+                "title": "Help and more",
+                "body": "About shows what's new in each version and lets you clear the cache. FAQ answers common questions. Tours lets you see any tour again. Discord opens our Discord server for help and feedback."
+            }
+        },
+        "token": {
+            "tok_header": {
+                "body": "The pencil renames this player and sets their pronouns. The bin removes this player and their role from the Grimoire."
+            },
+            "tok_role": {
+                "body": "Show puts this role fullscreen for a player to see. Notes keeps your own notes on this player. Wiki opens the role's wiki page."
+            },
+            "tok_jinxes": {
+                "body": "How this role interacts with the other roles in play."
+            },
+            "tok_tools": {
+                "body": "Pick a role from the list. Become turns this player into that role. Gain Ability gives them that role's ability as well as their own (think Philosopher)."
+            },
+            "tok_notify": {
+                "body": "Get an alert when this player is nominated, nominates someone or dies. For deaths, choose day, night or both. Add a note to show with the alert, and choose whether it fires every time or just once."
+            }
+        },
+        "account": {
+            "usr_favourites": {
+                "body": "Scripts you've starred on the setup screen. Tap one to load it. Add coloured tags to sort them, then tap a tag to filter the list."
+            },
+            "usr_friends": {
+                "body": "People you play with. Their names are ready to pick when you seat players, so you don't have to type them each time."
+            },
+            "usr_games": {
+                "body": "Games you've saved from the Game menu. Load one on the setup screen to carry on where you left off."
+            },
+            "usr_homebrew": {
+                "body": "Homebrew scripts you've added to search. Tap one to load it, or tap the cross to remove it from search."
+            },
+            "usr_logout": {
+                "body": "Log out of your Discord account on this device."
+            }
         }
-    },
-    "savant": {
-        "another": "Another statement",
-        "save": "Save to Game History",
-        "droisoned": "The Savant is drunk or poisoned, so any two statements will do.",
-        "vortox": "The Vortox is in play, so both statements are false.",
-        "chef": "A Chef would learn {count}.",
-        "townsfolk_pairs": "{count, plural, =0 {No Townsfolk sit next to another Townsfolk.} one {There is # pair of Townsfolk sitting next to each other.} other {There are # pairs of Townsfolk sitting next to each other.}}",
-        "demon_townsfolk": "The Demon sits next to {count} Townsfolk.",
-        "demon_next_to_minion": "The Demon sits next to a Minion.",
-        "demon_next_to_outsider": "The Demon sits next to an Outsider.",
-        "same_team": "{player1} and {player2} are on the same team.",
-        "neighbours_same_team": "Your living neighbours are on the same team.",
-        "neighbours_different_teams": "Your living neighbours are on different teams.",
-        "chain_evil": "The longest row of evil players sitting together is {count} long.",
-        "chain_good": "The longest row of good players sitting together is {count} long.",
-        "dead_evil": "{count, plural, one {At least # dead player is evil.} other {At least # dead players are evil.}}",
-        "all_evil_alive": "All evil players are alive.",
-        "evil_dead": "At least one evil player is dead.",
-        "sit_together": "The {role1} and the {role2} sit next to each other.",
-        "either_in_play": "The {role1} or the {role2} is in play.",
-        "not_in_play": "The {role} is not in play.",
-        "demon_bluff": "The {role} is one of the Demon's bluffs.",
-        "unaware_of_role": "{count, plural, =0 {Every player knows their real character.} one {# player does not know their real character.} other {# players do not know their real character.}}",
-        "minion_unaware": "At least one Minion did not learn who the Demon is.",
-        "minions_aware": "Every Minion learnt who the Demon is.",
-        "noble": "Exactly one of {player1}, {player2} and {player3} is evil.",
-        "nominated_yesterday": "The {role} nominated yesterday.",
-        "evil_nominated_yesterday": "An evil player was nominated yesterday.",
-        "outsider_nominated_yesterday": "An Outsider was nominated yesterday.",
-        "minion_nominated_yesterday": "A Minion was nominated yesterday.",
-        "character_changed": "A player changed character last night.",
-        "no_character_changed": "Nobody changed character last night.",
-        "alignment_changed": "A player changed team last night.",
-        "no_alignment_changed": "Nobody changed team last night.",
-        "droisoned_neighbours": "{count, plural, one {At least one of your living neighbours is drunk or poisoned.} other {Both of your living neighbours are drunk or poisoned.}}",
-        "poisoned_neighbours": "{count, plural, =0 {Neither of your living neighbours is poisoned.} one {Exactly one of your living neighbours is poisoned.} other {Both of your living neighbours are poisoned.}}",
-        "witch_cursed": "You are cursed by the Witch.",
-        "no_madness_roles": "There are no madness characters in play.",
-        "madness_roles": "A madness character is in play.",
-        "mad_players": "{count, plural, one {At least # player is mad.} other {At least # players are mad.}}",
-        "good_player_mad": "A good player is mad today.",
-        "evil_player_mad": "An evil player is mad today.",
-        "once_per_game_used": "{count, plural, =0 {No once-per-game ability has been used yet.} one {# once-per-game ability has been used.} other {# once-per-game abilities have been used.}}",
-        "died_not_to_demon": "{player} died last night, but not to the Demon.",
-        "lunatic_demon_different": "The Lunatic and the Demon chose different players last night.",
-        "more_evil_odd": "More evil players sit in odd-numbered seats than in even-numbered seats.",
-        "more_evil_even": "More evil players sit in even-numbered seats than in odd-numbered seats.",
-        "evil_odd_even_equal": "Odd-numbered and even-numbered seats have the same number of evil players.",
-        "nobody_mad": "Nobody is mad today.",
-        "outsiders_changed": "The number of Outsiders has been changed.",
-        "outsiders_unchanged": "The number of Outsiders has not been changed."
     }
 }

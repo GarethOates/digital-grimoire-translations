@@ -86,7 +86,6 @@
         "drunk": "Opilý",
         "dead": "Mrtvý",
         "noability": "Bez schopnosti",
-        "mad": "Posedlý",
         "lunch": "Dnes zemřel"
     },
     "radial_menu": {
@@ -123,7 +122,7 @@
             "about": "O aplikaci...",
             "official_icons": "Oficiální ikony",
             "clocktracker_url": "Cílová URL",
-            "clocktracker_url_help": "Dokončené hry se odesílají sem. Změňte to pouze v případě, že hostujete vlastní Clocktracker.",
+            "clocktracker_url_help": "Dokončené hry se sem volitelně odesílají. Změňte to pouze v případě, že hostujete vlastní Clocktracker.",
             "clocktracker_url_invalid": "Zadejte úplnou adresu https://."
         },
         "login": "Přihlásit se",
@@ -714,7 +713,7 @@
     },
     "lock": {
         "title": "Zámek pro Vypravěče",
-        "description": "Pro odhalení Grimoáru je nutný 4-místný PIN.",
+        "description": "Pro odhalení Grimoáru je nutný 4-místný PIN. Tento PIN se používá také pro režim Hra na jednom zařízení.",
         "arm": "Začít Hru na jednom zařízení",
         "exit": "Ukončit Hru na jednom zařízení",
         "enrol_pin_prompt": "Zvolte 4-místný PIN",
@@ -756,6 +755,10 @@
             "grimoire": "Grimoár"
         },
         "setup": {
+            "welcome": {
+                "title": "Vítejte",
+                "body": "Toto je průvodce prohlídkou. Libovolnou prohlídku můžete označit jako zhlédnutou nebo nezhlédnutou v Předvolbách, v části Prohlídky."
+            },
             "script_search": {
                 "title": "Vyberte skript",
                 "body": "Vyhledejte skript podle názvu, vložte URL nebo nahrajte vlastní."
@@ -854,13 +857,18 @@
             }
         },
         "grimoire": {
-            "seats": {
-                "title": "Vaši hráči",
-                "body": "Klepnutím na hráče otevřete jeho nabídku. Přetažením ho přesunete."
+            "good_player": {
+                "title": "Dobrý hráč",
+                "body": "Tento hráč je v týmu dobra. Klepnutím na hráče otevřete jeho nabídku. Přetažením ho přesunete."
+            },
+            "evil_player": {
+                "title": "Zlý hráč",
+                "body": "Tento hráč je v týmu zla. Obrázek na každém žetonu ukazuje, v jakém týmu hráč je."
             },
             "seat_menu": {
                 "title": "Nabídka hráče",
-                "body": "Režim celé obrazovky, přidat připomínky, označit jako mrtvého, vyměnit, změnit příslušnost a otevřít nabídku nástrojů. Klepnutím mimo nabídku ji zavřete."
+                "body": "Režim celé obrazovky, přidat připomínky, označit jako mrtvého, vyměnit, změnit příslušnost a otevřít nabídku nástrojů. Klepnutím mimo nabídku ji zavřete.",
+                "body_evil": "Režim celé obrazovky, přidat připomínky, přidat připomínku blafu, označit jako mrtvého, vyměnit, změnit příslušnost a otevřít nabídku nástrojů. Klepnutím mimo nabídku ji zavřete."
             },
             "add": {
                 "title": "Přidat",
@@ -883,7 +891,35 @@
             },
             "preferences": {
                 "title": "Předvolby",
-                "body": "Změňte velikost žetonů, co se zobrazuje u každého hráče, a další. Tuto prohlídku odsud můžete spustit znovu."
+                "body": "Změňte velikost žetonů, co se zobrazuje u každého hráče, a další."
+            },
+            "gr_details": {
+                "body": "Skryjte všechny role v Grimoáru, abyste mohli otočit obrazovku, aniž byste cokoli prozradili. Dalším klepnutím je znovu zobrazíte."
+            },
+            "gr_lock": {
+                "title": "Zamknout žetony",
+                "body": "Zamkněte žetony na místě, aby je nešlo přetáhnout omylem. Po skončení hry se zamknou samy."
+            },
+            "gr_notes": {
+                "body": "Vaše vlastní poznámky k celé hře. Poznámky k jednomu hráči patří do nabídky žetonu tohoto hráče."
+            },
+            "gr_timer": {
+                "body": "Nastavte odpočet pro den nebo spusťte stopky. Po nastavení klepnutím na čas odpočet pozastavíte nebo budete pokračovat."
+            },
+            "gr_music": {
+                "title": "Hudba",
+                "body": "Přehrávejte na pozadí vlastní hudební soubory. Přidejte také zvukové efekty a nastavte, aby se přehrály, když časovač dosáhne 1:00, 0:30 nebo 0:00."
+            },
+            "gr_type_icons": {
+                "body": "Podržením zobrazíte na každém žetonu písmeno označující jeho typ: Měšťan, Podivín, Přisluhovač nebo Démon."
+            },
+            "town_composition": {
+                "title": "Složení města",
+                "body": "Název skriptu, poté kolik Měšťanů, Podivínů, Přisluhovačů a Démonů by měl mít tento počet hráčů, každý svou barvou. Na menších obrazovkách je zobrazíte klepnutím na banner."
+            },
+            "town_state": {
+                "title": "Stav města",
+                "body": "Ikona člověka ukazuje počet živých hráčů. Při 4 zežloutne a při 3 nebo méně zčervená. Kufr označuje počet pocestných. Lebka jsou mrtví hráči. Ruka ukazuje, kolik zbývá hlasů, včetně hlasů mrtvých. Zčervená, když nezbývá dost hlasů na překonání aktuálního součtu na špalku. Fajfka ukazuje počet hlasů potřebných ke sundání aktuální osoby ze špalku."
             },
             "end_game": {
                 "title": "Ukončit hru",
@@ -905,6 +941,58 @@
             "unplaced_reminders": {
                 "title": "Neumístěné připomínky",
                 "body": "Číslo udává, kolik připomínek této role ještě není v Grimoáru. Klepnutím je zobrazíte a pak některou přetáhněte na hráče."
+            }
+        },
+        "preferences": {
+            "pref_display": {
+                "body": "Režim celé obrazovky skryje vlastní lišty prohlížeče. Oficiální ikony používají oficiální ikony TPI místo grafiky vytvořené komunitou. Animace losování promíchá role, než se vylosovaný žeton odhalí."
+            },
+            "pref_sizes": {
+                "body": "Změňte velikost žetonů a připomínek. Tlačítko propojení udržuje stejný poměr mezi oběma velikostmi."
+            },
+            "pref_token_info": {
+                "body": "Vyberte, co každý žeton zobrazuje: listy pro připomínky, pořadí v noci a pokyny k nastavení, jeho schopnost, jak a kdy mrtvý hráč zemřel a jeho místo v pořadí v noci. Přeskočit mrtvé umožní pořadí v noci přeskakovat mrtvé hráče."
+            },
+            "pref_player_info": {
+                "body": "Vyberte, co zobrazuje jmenovka každého hráče: jméno, zájmena a číslo místa."
+            },
+            "pref_footer": {
+                "title": "Nápověda a další",
+                "body": "O aplikaci ukazuje novinky v každé verzi a umožňuje vymazat mezipaměť. FAQ odpovídá na časté dotazy. Prohlídky umožňují znovu zobrazit kteroukoli prohlídku. Discord otevře náš server Discord pro pomoc a zpětnou vazbu."
+            }
+        },
+        "token": {
+            "tok_header": {
+                "body": "Tužka přejmenuje tohoto hráče a nastaví jeho zájmena. Koš odebere tohoto hráče a jeho roli z Grimoáru."
+            },
+            "tok_role": {
+                "body": "Zobrazit ukáže tuto roli hráči na celou obrazovku. Poznámky uchovávají vaše vlastní poznámky k tomuto hráči. Wiki otevře wiki stránku role."
+            },
+            "tok_jinxes": {
+                "body": "Jak tato role spolupůsobí s ostatními rolemi ve hře."
+            },
+            "tok_tools": {
+                "body": "Vyberte roli ze seznamu. Stát se promění tohoto hráče v tuto roli. Získat schopnost mu dá schopnost této role navíc k jeho vlastní (představte si Filozofa)."
+            },
+            "tok_notify": {
+                "body": "Dostanete upozornění, když je tento hráč nominován, někoho nominuje nebo zemře. U úmrtí vyberte den, noc, nebo obojí. Přidejte poznámku, která se zobrazí s upozorněním, a vyberte, zda se spustí pokaždé, nebo jen jednou."
+            }
+        },
+        "account": {
+            "usr_favourites": {
+                "body": "Skripty, které jste označili hvězdičkou na obrazovce nastavení. Klepnutím na skript ho načtete. Přidejte barevné štítky pro jejich třídění a klepnutím na štítek filtrujte seznam."
+            },
+            "usr_friends": {
+                "body": "Lidé, se kterými hrajete. Jejich jména jsou připravená k výběru, když rozsazujete hráče, takže je nemusíte pokaždé psát."
+            },
+            "usr_games": {
+                "body": "Hry, které jste uložili z nabídky Hra. Načtěte hru na obrazovce nastavení a pokračujte tam, kde jste skončili."
+            },
+            "usr_homebrew": {
+                "body": "Vlastní skripty, které jste přidali do hledání. Klepnutím na skript ho načtete, klepnutím na křížek ho z hledání odeberete."
+            },
+            "usr_logout": {
+                "body": "Odhlaste se na tomto zařízení ze svého účtu Discord."
             }
         }
     }

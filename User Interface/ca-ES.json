@@ -86,7 +86,6 @@
         "drunk": "Borratxo",
         "dead": "Mort",
         "noability": "Sense habilitat",
-        "mad": "Boig",
         "lunch": "Menjar"
     },
     "radial_menu": {
@@ -123,7 +122,7 @@
             "about": "Quant a…",
             "official_icons": "Icones oficials",
             "clocktracker_url": "URL de destinació",
-            "clocktracker_url_help": "Les partides completades s'envien aquí. Canvia-ho només si allotges el teu propi Clocktracker.",
+            "clocktracker_url_help": "Les partides completades s'envien aquí de manera opcional. Canvia-ho només si allotges el teu propi Clocktracker.",
             "clocktracker_url_invalid": "Introduïu una adreça https:// completa."
         },
         "login": "Inicia la sessió",
@@ -714,7 +713,7 @@
     },
     "lock": {
         "title": "Bloqueig del narrador",
-        "description": "Cal un PIN de 4 dígits per a poder mostrar el grimori.",
+        "description": "Cal un PIN de 4 dígits per a poder mostrar el grimori. Aquest PIN també s'utilitza en el mode «Passa i juga».",
         "arm": "Inicia «Passa i juga»",
         "exit": "Surt de «Passa i juga»",
         "enrol_pin_prompt": "Trieu un PIN de 4 dígits",
@@ -756,6 +755,10 @@
             "grimoire": "Grimori"
         },
         "setup": {
+            "welcome": {
+                "title": "Benvingut",
+                "body": "Aquesta és la visita guiada. Pots marcar qualsevol visita com a vista o no vista a Preferències, a Visites."
+            },
             "script_search": {
                 "title": "Tria un guió",
                 "body": "Cerca un guió pel nom, enganxa una URL o puja el teu."
@@ -854,13 +857,18 @@
             }
         },
         "grimoire": {
-            "seats": {
-                "title": "Els teus jugadors",
-                "body": "Toca un jugador per obrir-ne el menú. Arrossega per moure'l."
+            "good_player": {
+                "title": "Un jugador bo",
+                "body": "Aquest jugador és a l'equip del bé. Toca un jugador per obrir-ne el menú. Arrossega per moure'l."
+            },
+            "evil_player": {
+                "title": "Un jugador malvat",
+                "body": "Aquest jugador és a l'equip del mal. L'il·lustració de cada fitxa mostra a quin equip és aquest jugador."
             },
             "seat_menu": {
                 "title": "Menú del jugador",
-                "body": "Entra en pantalla completa, afegeix recordatoris, marca com a mort, intercanvia, canvia l'alineació i obre el menú d'eines. Toca fora del menú per tancar-lo."
+                "body": "Entra en pantalla completa, afegeix recordatoris, marca com a mort, intercanvia, canvia l'alineació i obre el menú d'eines. Toca fora del menú per tancar-lo.",
+                "body_evil": "Entra en pantalla completa, afegeix recordatoris, afegeix un recordatori de coartada, marca com a mort, intercanvia, canvia l'alineació i obre el menú d'eines. Toca fora del menú per tancar-lo."
             },
             "add": {
                 "title": "Afegeix",
@@ -883,7 +891,35 @@
             },
             "preferences": {
                 "title": "Preferències",
-                "body": "Canvia la mida de les fitxes, què es mostra a cada jugador i més coses. Pots repetir aquesta visita des d'aquí."
+                "body": "Canvia la mida de les fitxes, què es mostra a cada jugador i més coses."
+            },
+            "gr_details": {
+                "body": "Amaga tots els rols del grimori per poder girar la pantalla sense revelar res. Torna a tocar per mostrar-los."
+            },
+            "gr_lock": {
+                "title": "Bloqueja les fitxes",
+                "body": "Bloqueja les fitxes al seu lloc perquè no s'arrosseguin per accident. Es bloquegen soles quan acaba la partida."
+            },
+            "gr_notes": {
+                "body": "Les teves notes per a tota la partida. Les notes sobre un jugador van al menú de la fitxa d'aquest jugador."
+            },
+            "gr_timer": {
+                "body": "Defineix un compte enrere per al dia o inicia un cronòmetre. Un cop definit, toca el temps per posar-lo en pausa o continuar."
+            },
+            "gr_music": {
+                "title": "Música",
+                "body": "Reprodueix els teus propis fitxers de música de fons. Afegeix també efectes de so i fes que sonin quan el temporitzador arribi a 1:00, 0:30 o 0:00."
+            },
+            "gr_type_icons": {
+                "body": "Mantén premut per mostrar a cada fitxa una lletra amb el seu tipus: Vilatà, Foraster, Sequaç o Dimoni."
+            },
+            "town_composition": {
+                "title": "Composició del poble",
+                "body": "El nom del guió i després quants Vilatans, Forasters, Sequaços i Dimonis hauria de tenir aquest nombre de jugadors, cadascun del seu color. En pantalles més petites, toca el bàner per veure'ls."
+            },
+            "town_state": {
+                "title": "Estat del poble",
+                "body": "La icona de la persona mostra el nombre de jugadors vius. Es posa groga a 4 i vermella a 3 o menys. La maleta indica el nombre de viatgers. La calavera són els jugadors morts. La mà mostra quants vots queden, comptant-hi els vots fantasma. Es posa vermella quan no queden prou vots per superar el total actual de marcats per a executar. La marca de verificació mostra el nombre de vots necessaris per retirar la persona actual dels marcats per a executar."
             },
             "end_game": {
                 "title": "Acaba la partida",
@@ -905,6 +941,58 @@
             "unplaced_reminders": {
                 "title": "Recordatoris sense col·locar",
                 "body": "El número indica quants recordatoris d'aquest rol encara no són al grimori. Toca per veure'ls i arrossega'n un fins a un jugador."
+            }
+        },
+        "preferences": {
+            "pref_display": {
+                "body": "Pantalla completa amaga les barres pròpies del navegador. Icones oficials fa servir les icones oficials de TPI en lloc d'il·lustracions creades per la comunitat. Animació d'extracció barreja els rols abans que es reveli una fitxa extreta."
+            },
+            "pref_sizes": {
+                "body": "Canvia la mida de les fitxes i dels recordatoris. El botó d'enllaç manté la mateixa proporció entre les dues mides."
+            },
+            "pref_token_info": {
+                "body": "Tria què mostra cada fitxa: les fulles per als recordatoris, l'ordre nocturn i les instruccions de preparació, la seva habilitat, com i quan va morir un jugador mort, i el seu lloc a l'ordre nocturn. Omet els morts permet que l'ordre nocturn salti els jugadors morts."
+            },
+            "pref_player_info": {
+                "body": "Tria què mostra la xapa de nom de cada jugador: el nom, els pronoms i el número de seient."
+            },
+            "pref_footer": {
+                "title": "Ajuda i més",
+                "body": "Quant a mostra les novetats de cada versió i et permet esborrar la memòria cau. Preguntes més freqüents respon les preguntes habituals. Visites et permet tornar a veure qualsevol visita. Discord obre el nostre servidor de Discord per a ajuda i comentaris."
+            }
+        },
+        "token": {
+            "tok_header": {
+                "body": "El llapis canvia el nom d'aquest jugador i defineix els seus pronoms. La paperera treu aquest jugador i el seu rol del grimori."
+            },
+            "tok_role": {
+                "body": "Mostra posa aquest rol a pantalla completa perquè el vegi un jugador. Notes guarda les teves pròpies notes sobre aquest jugador. Wiki obre la pàgina wiki del rol."
+            },
+            "tok_jinxes": {
+                "body": "Com interactua aquest rol amb els altres rols en joc."
+            },
+            "tok_tools": {
+                "body": "Tria un rol de la llista. Converteix-lo transforma aquest jugador en aquest rol. Obtén l’habilitat li dona l'habilitat d'aquest rol a més de la seva (pensa en el Filòsof)."
+            },
+            "tok_notify": {
+                "body": "Rep un avís quan aquest jugador sigui acusat, acusi algú o mori. Per a les morts, tria dia, nit o tots dos. Afegeix una nota per mostrar amb l'avís i tria si salta cada vegada o només una."
+            }
+        },
+        "account": {
+            "usr_favourites": {
+                "body": "Els guions que has marcat amb una estrella a la pantalla de preparació. Toca'n un per carregar-lo. Afegeix etiquetes de colors per ordenar-los i després toca una etiqueta per filtrar la llista."
+            },
+            "usr_friends": {
+                "body": "Les persones amb qui jugues. Els seus noms estan a punt per triar quan asseus els jugadors, així no cal que els escriguis cada vegada."
+            },
+            "usr_games": {
+                "body": "Les partides que has desat des del menú Joc. Carrega'n una a la pantalla de preparació per continuar on ho vas deixar."
+            },
+            "usr_homebrew": {
+                "body": "Els guions homebrew que has afegit a la cerca. Toca'n un per carregar-lo o toca la creu per treure'l de la cerca."
+            },
+            "usr_logout": {
+                "body": "Finalitza la sessió del teu compte de Discord en aquest dispositiu."
             }
         }
     }

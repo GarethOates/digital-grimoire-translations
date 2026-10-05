@@ -95,7 +95,7 @@
             "about": "À propos...",
             "official_icons": "Icônes officielles",
             "clocktracker_url": "URL de destination",
-            "clocktracker_url_help": "Les parties terminées sont envoyées ici. Ne modifiez ceci que si vous hébergez votre propre Clocktracker.",
+            "clocktracker_url_help": "Les parties terminées sont envoyées ici de façon facultative. Ne modifiez ceci que si vous hébergez votre propre Clocktracker.",
             "clocktracker_url_invalid": "Entrez une adresse https:// complète."
         },
         "login": "Connexion",
@@ -422,9 +422,8 @@
     "status": {
         "poisoned": "Empoisonné",
         "drunk": "Ivre",
-        "dead": "Mort",
+        "dead": "Assassiné",
         "noability": "Sans capacité",
-        "mad": "Fou",
         "lunch": "Miam"
     },
     "radial_menu": {
@@ -714,7 +713,7 @@
     },
     "lock": {
         "title": "Verrouillage du Conteur",
-        "description": "Un code PIN à 4 chiffres est nécessaire avant que le Grimoire puisse être révélé.",
+        "description": "Un code PIN à 4 chiffres est nécessaire avant que le Grimoire puisse être révélé. Ce code PIN sert aussi pour le mode Pass & Play.",
         "arm": "Démarrer le Pass & Play",
         "exit": "Quitter le Pass & Play",
         "enrol_pin_prompt": "Choisissez un code PIN à 4 chiffres",
@@ -756,6 +755,10 @@
             "grimoire": "Grimoire"
         },
         "setup": {
+            "welcome": {
+                "title": "Bienvenue",
+                "body": "Voici la visite guidée. Vous pouvez marquer n'importe quelle visite comme vue ou non vue dans les Préférences, sous Visites."
+            },
             "script_search": {
                 "title": "Choisir un script",
                 "body": "Recherchez un script par son nom, collez une URL ou importez le vôtre."
@@ -854,13 +857,18 @@
             }
         },
         "grimoire": {
-            "seats": {
-                "title": "Vos joueurs",
-                "body": "Touchez un joueur pour ouvrir son menu. Faites glisser pour le déplacer."
+            "good_player": {
+                "title": "Un bon joueur",
+                "body": "Ce joueur est dans l'équipe du bien. Touchez un joueur pour ouvrir son menu. Faites glisser pour le déplacer."
+            },
+            "evil_player": {
+                "title": "Un joueur méchant",
+                "body": "Ce joueur est dans l'équipe du mal. L'illustration de chaque jeton indique de quelle équipe fait partie le joueur."
             },
             "seat_menu": {
                 "title": "Menu du joueur",
-                "body": "Passer en plein écran, ajouter des rappels, marquer comme mort, échanger, changer l'alignement et ouvrir le menu des outils. Touchez en dehors du menu pour le fermer."
+                "body": "Passer en plein écran, ajouter des rappels, marquer comme mort, échanger, changer l'alignement et ouvrir le menu des outils. Touchez en dehors du menu pour le fermer.",
+                "body_evil": "Passer en plein écran, ajouter des rappels, ajouter un rappel de bluff, marquer comme mort, échanger, changer l'alignement et ouvrir le menu des outils. Touchez en dehors du menu pour le fermer."
             },
             "add": {
                 "title": "Ajouter",
@@ -883,7 +891,35 @@
             },
             "preferences": {
                 "title": "Préférences",
-                "body": "Modifiez la taille des jetons, ce qui s'affiche sur chaque joueur, et plus encore. Vous pouvez relancer cette visite depuis ici."
+                "body": "Modifiez la taille des jetons, ce qui s'affiche sur chaque joueur, et plus encore."
+            },
+            "gr_details": {
+                "body": "Masquez tous les rôles du Grimoire pour pouvoir tourner l'écran sans rien révéler. Touchez à nouveau pour les afficher."
+            },
+            "gr_lock": {
+                "title": "Verrouiller les jetons",
+                "body": "Verrouillez les jetons en place pour qu'ils ne soient pas déplacés par accident. Ils se verrouillent d'eux-mêmes à la fin de la partie."
+            },
+            "gr_notes": {
+                "body": "Vos propres notes pour toute la partie. Les notes sur un joueur vont dans le menu du jeton de ce joueur."
+            },
+            "gr_timer": {
+                "body": "Réglez un compte à rebours pour le jour, ou lancez un chronomètre. Une fois réglé, touchez le temps pour le mettre en pause ou le reprendre."
+            },
+            "gr_music": {
+                "title": "Musique",
+                "body": "Jouez vos propres fichiers musicaux en arrière-plan. Ajoutez aussi des effets sonores et faites-les jouer quand le minuteur atteint 1:00, 0:30 ou 0:00."
+            },
+            "gr_type_icons": {
+                "body": "Maintenez ceci enfoncé pour afficher sur chaque jeton une lettre indiquant son type : Villageois, Marginaux, Sbires ou Démon."
+            },
+            "town_composition": {
+                "title": "Composition du village",
+                "body": "Le nom du script, puis le nombre de Villageois, de Marginaux, de Sbires et de Démons que ce nombre de joueurs devrait avoir, chacun dans sa propre couleur. Sur les petits écrans, touchez la bannière pour les voir."
+            },
+            "town_state": {
+                "title": "État du village",
+                "body": "L'icône de personne indique le nombre de joueurs en vie. Elle devient jaune à 4 et rouge à 3 ou moins. La valise indique le nombre de voyageurs. Le crâne représente les joueurs morts. La main indique combien de votes il reste, votes fantômes compris. Elle devient rouge quand il ne reste pas assez de votes pour dépasser le total actuel sur le billot. La coche indique le nombre de votes nécessaires pour faire descendre la personne actuelle du billot."
             },
             "end_game": {
                 "title": "Fin de partie",
@@ -905,6 +941,58 @@
             "unplaced_reminders": {
                 "title": "Rappels non placés",
                 "body": "Le nombre indique combien de rappels de ce rôle ne sont pas encore dans le Grimoire. Touchez pour les voir, puis faites glisser l'un d'eux sur un joueur."
+            }
+        },
+        "preferences": {
+            "pref_display": {
+                "body": "Plein écran masque les barres du navigateur. Icônes officielles utilise les icônes officielles de TPI à la place des illustrations créées par la communauté. Animation de tirage fait défiler les rôles avant qu'un jeton tiré soit révélé."
+            },
+            "pref_sizes": {
+                "body": "Modifiez la taille des jetons et des rappels. Le bouton de lien conserve le même rapport entre les deux tailles."
+            },
+            "pref_token_info": {
+                "body": "Choisissez ce que chaque jeton affiche : les feuilles pour les rappels, l'ordre de nuit et les instructions de mise en place, sa capacité, comment et quand un joueur mort est mort, et sa place dans l'ordre de nuit. Sauter les morts permet à l'ordre de nuit de passer les joueurs morts."
+            },
+            "pref_player_info": {
+                "body": "Choisissez ce qu'affiche le badge de nom de chaque joueur : son nom, ses pronoms et son numéro de place."
+            },
+            "pref_footer": {
+                "title": "Aide et plus",
+                "body": "À propos montre les nouveautés de chaque version et permet de vider le cache. FAQ répond aux questions courantes. Visites permet de revoir n'importe quelle visite. Discord ouvre notre serveur Discord pour obtenir de l'aide et donner votre avis."
+            }
+        },
+        "token": {
+            "tok_header": {
+                "body": "Le crayon renomme ce joueur et définit ses pronoms. La corbeille retire ce joueur et son rôle du Grimoire."
+            },
+            "tok_role": {
+                "body": "Afficher met ce rôle en plein écran pour qu'un joueur le voie. Notes conserve vos propres notes sur ce joueur. Wiki ouvre la page wiki du rôle."
+            },
+            "tok_jinxes": {
+                "body": "Comment ce rôle interagit avec les autres rôles en jeu."
+            },
+            "tok_tools": {
+                "body": "Choisissez un rôle dans la liste. Devenir transforme ce joueur en ce rôle. Obtenir une capacité lui donne la capacité de ce rôle en plus de la sienne (pensez au Philosophe)."
+            },
+            "tok_notify": {
+                "body": "Recevez une alerte quand ce joueur est nominé, nomine quelqu'un ou meurt. Pour les morts, choisissez jour, nuit ou les deux. Ajoutez une note à afficher avec l'alerte, et choisissez si elle se déclenche à chaque fois ou une seule fois."
+            }
+        },
+        "account": {
+            "usr_favourites": {
+                "body": "Les scripts que vous avez mis en favoris sur l'écran de mise en place. Touchez-en un pour le charger. Ajoutez des tags colorés pour les trier, puis touchez un tag pour filtrer la liste."
+            },
+            "usr_friends": {
+                "body": "Les personnes avec qui vous jouez. Leurs noms sont prêts à être choisis quand vous placez les joueurs, pour ne pas avoir à les saisir à chaque fois."
+            },
+            "usr_games": {
+                "body": "Les parties que vous avez sauvegardées depuis le menu Partie. Chargez-en une sur l'écran de mise en place pour reprendre là où vous vous étiez arrêté."
+            },
+            "usr_homebrew": {
+                "body": "Les scripts homebrew que vous avez ajoutés à la recherche. Touchez-en un pour le charger, ou touchez la croix pour le retirer de la recherche."
+            },
+            "usr_logout": {
+                "body": "Déconnectez-vous de votre compte Discord sur cet appareil."
             }
         }
     }

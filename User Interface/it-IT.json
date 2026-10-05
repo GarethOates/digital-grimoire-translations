@@ -86,7 +86,6 @@
         "drunk": "Ubriaco",
         "dead": "Morto",
         "noability": "Nessuna Abilità",
-        "mad": "Folle",
         "lunch": "Pranzo"
     },
     "radial_menu": {
@@ -123,7 +122,7 @@
             "about": "Informazioni...",
             "official_icons": "Icone ufficiali",
             "clocktracker_url": "URL di destinazione",
-            "clocktracker_url_help": "Le partite completate vengono inviate qui. Modifica questo campo solo se ospiti il tuo Clocktracker personale.",
+            "clocktracker_url_help": "Le partite completate vengono inviate qui in modo facoltativo. Modifica questo campo solo se ospiti il tuo Clocktracker personale.",
             "clocktracker_url_invalid": "Inserisci un indirizzo https:// completo."
         },
         "login": "Accesso",
@@ -714,7 +713,7 @@
     },
     "lock": {
         "title": "Blocco Narratore",
-        "description": "Richiede un PIN a 4 cifre prima che il Grimorio possa essere rivelato.",
+        "description": "Richiede un PIN a 4 cifre prima che il Grimorio possa essere rivelato. Questo PIN è usato anche per la modalità Pass & Play.",
         "arm": "Avvia Pass & Play",
         "exit": "Esci da Pass & Play",
         "enrol_pin_prompt": "Scegli un PIN a 4 cifre",
@@ -756,6 +755,10 @@
             "grimoire": "Grimorio"
         },
         "setup": {
+            "welcome": {
+                "title": "Benvenuto",
+                "body": "Questo è il tour guidato. Puoi segnare qualsiasi tour come visto o non visto in Preferenze, sotto Tour."
+            },
             "script_search": {
                 "title": "Scegli un copione",
                 "body": "Cerca un copione per nome, incolla un URL o carica il tuo."
@@ -854,13 +857,18 @@
             }
         },
         "grimoire": {
-            "seats": {
-                "title": "I tuoi giocatori",
-                "body": "Tocca un giocatore per aprire il suo menu. Trascina per spostarlo."
+            "good_player": {
+                "title": "Un giocatore buono",
+                "body": "Questo giocatore è nella squadra dei buoni. Tocca un giocatore per aprire il suo menu. Trascina per spostarlo."
+            },
+            "evil_player": {
+                "title": "Un giocatore malvagio",
+                "body": "Questo giocatore è nella squadra dei malvagi. L'illustrazione di ogni gettone mostra in quale squadra si trova quel giocatore."
             },
             "seat_menu": {
                 "title": "Menu del giocatore",
-                "body": "Schermo intero, aggiungi promemoria, segna come morto, scambia, cambia allineamento e apri il menu degli strumenti. Tocca fuori dal menu per chiuderlo."
+                "body": "Schermo intero, aggiungi promemoria, segna come morto, scambia, cambia allineamento e apri il menu degli strumenti. Tocca fuori dal menu per chiuderlo.",
+                "body_evil": "Schermo intero, aggiungi promemoria, aggiungi un promemoria di bluff, segna come morto, scambia, cambia allineamento e apri il menu degli strumenti. Tocca fuori dal menu per chiuderlo."
             },
             "add": {
                 "title": "Aggiungi",
@@ -883,7 +891,35 @@
             },
             "preferences": {
                 "title": "Preferenze",
-                "body": "Cambia la dimensione dei gettoni, cosa viene mostrato su ogni giocatore e altro. Puoi rivedere questo tour da qui."
+                "body": "Cambia la dimensione dei gettoni, cosa viene mostrato su ogni giocatore e altro."
+            },
+            "gr_details": {
+                "body": "Nascondi tutti i ruoli nel Grimorio, così puoi girare lo schermo senza svelare nulla. Tocca di nuovo per mostrarli."
+            },
+            "gr_lock": {
+                "title": "Blocca i gettoni",
+                "body": "Blocca i gettoni al loro posto per evitare di trascinarli per sbaglio. Si bloccano da soli quando la partita finisce."
+            },
+            "gr_notes": {
+                "body": "Le tue note personali per tutta la partita. Le note su un giocatore vanno nel menu del gettone di quel giocatore."
+            },
+            "gr_timer": {
+                "body": "Imposta un conto alla rovescia per il giorno, oppure avvia un cronometro. Una volta impostato, tocca il tempo per metterlo in pausa o riprendere."
+            },
+            "gr_music": {
+                "title": "Musica",
+                "body": "Riproduci i tuoi file musicali in sottofondo. Aggiungi anche effetti sonori e impostali perché partano quando il timer arriva a 1:00, 0:30 o 0:00."
+            },
+            "gr_type_icons": {
+                "body": "Tieni premuto per mostrare su ogni gettone una lettera con il suo tipo: Cittadino, Emarginato, Seguace o Demone."
+            },
+            "town_composition": {
+                "title": "Composizione della città",
+                "body": "Il nome del copione, poi quanti Cittadini, Emarginati, Seguaci e Demoni dovrebbe avere questo numero di giocatori, ognuno nel suo colore. Su schermi più piccoli, tocca il banner per vederli."
+            },
+            "town_state": {
+                "title": "Stato della città",
+                "body": "L'icona della persona mostra il numero di giocatori vivi. Diventa gialla a 4 e rossa a 3 o meno. La valigia indica il numero di viaggiatori. Il teschio indica i giocatori morti. La mano mostra quanti voti restano, compresi i voti fantasma. Diventa rossa quando non restano abbastanza voti per superare il totale attuale sul patibolo. La spunta mostra il numero di voti necessari per togliere dal patibolo la persona attuale."
             },
             "end_game": {
                 "title": "Termina Partita",
@@ -905,6 +941,58 @@
             "unplaced_reminders": {
                 "title": "Promemoria non posizionati",
                 "body": "Il numero indica quanti promemoria di questo ruolo non sono ancora nel Grimorio. Tocca per vederli, poi trascinane uno su un giocatore."
+            }
+        },
+        "preferences": {
+            "pref_display": {
+                "body": "Schermo intero nasconde le barre del browser. Icone ufficiali usa le icone ufficiali TPI al posto delle illustrazioni create dalla community. Animazione di pesca mescola i ruoli prima che un gettone pescato venga rivelato."
+            },
+            "pref_sizes": {
+                "body": "Cambia la dimensione di gettoni e promemoria. Il pulsante di collegamento mantiene uguale il rapporto tra le due dimensioni."
+            },
+            "pref_token_info": {
+                "body": "Scegli cosa mostra ogni gettone: le foglie per promemoria, ordine della notte e istruzioni di preparazione, la sua abilità, come e quando è morto un giocatore morto, e il suo posto nell'ordine della notte. Salta i Morti permette all'ordine della notte di saltare i giocatori morti."
+            },
+            "pref_player_info": {
+                "body": "Scegli cosa mostra il badge con il nome di ogni giocatore: nome, pronomi e numero del posto."
+            },
+            "pref_footer": {
+                "title": "Aiuto e altro",
+                "body": "Informazioni mostra le novità di ogni versione e permette di svuotare la cache. FAQ risponde alle domande comuni. Tour permette di rivedere qualsiasi tour. Discord apre il nostro server Discord per aiuto e feedback."
+            }
+        },
+        "token": {
+            "tok_header": {
+                "body": "La matita rinomina questo giocatore e imposta i suoi pronomi. Il cestino rimuove questo giocatore e il suo ruolo dal Grimorio."
+            },
+            "tok_role": {
+                "body": "Mostra mette questo ruolo a schermo intero per un giocatore. Note conserva le tue note su questo giocatore. Wiki apre la pagina wiki del ruolo."
+            },
+            "tok_jinxes": {
+                "body": "Come questo ruolo interagisce con gli altri ruoli in gioco."
+            },
+            "tok_tools": {
+                "body": "Scegli un ruolo dall'elenco. Diventa trasforma questo giocatore in quel ruolo. Ottieni Abilità gli dà l'abilità di quel ruolo oltre alla sua (pensa al Filosofo)."
+            },
+            "tok_notify": {
+                "body": "Ricevi un avviso quando questo giocatore viene nominato, nomina qualcuno o muore. Per le morti, scegli giorno, notte o entrambi. Aggiungi una nota da mostrare con l'avviso e scegli se scatta ogni volta o solo una volta."
+            }
+        },
+        "account": {
+            "usr_favourites": {
+                "body": "I copioni a cui hai messo la stella nella schermata di preparazione. Tocca un copione per caricarlo. Aggiungi tag colorati per ordinarli, poi tocca un tag per filtrare l'elenco."
+            },
+            "usr_friends": {
+                "body": "Le persone con cui giochi. I loro nomi sono pronti da scegliere quando assegni i posti, così non devi scriverli ogni volta."
+            },
+            "usr_games": {
+                "body": "Le partite che hai salvato dal menu Partita. Caricane una nella schermata di preparazione per riprendere da dove avevi lasciato."
+            },
+            "usr_homebrew": {
+                "body": "I copioni homebrew che hai aggiunto alla ricerca. Tocca un copione per caricarlo, oppure tocca la croce per rimuoverlo dalla ricerca."
+            },
+            "usr_logout": {
+                "body": "Esci dal tuo account Discord su questo dispositivo."
             }
         }
     }

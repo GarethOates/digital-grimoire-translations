@@ -95,7 +95,7 @@
             "about": "Om...",
             "official_icons": "Offisielle ikoner",
             "clocktracker_url": "Mål-URL",
-            "clocktracker_url_help": "Fullførte spill sendes hit. Endre dette bare hvis du er vert for din egen Clocktracker.",
+            "clocktracker_url_help": "Fullførte spill sendes eventuelt hit. Endre dette bare hvis du er vert for din egen Clocktracker.",
             "clocktracker_url_invalid": "Skriv inn en fullstendig https://-adresse."
         },
         "login": "Logg inn",
@@ -424,7 +424,6 @@
         "drunk": "Full",
         "dead": "Død",
         "noability": "Uten evne",
-        "mad": "Manisk",
         "lunch": "Lunsj"
     },
     "radial_menu": {
@@ -714,7 +713,7 @@
     },
     "lock": {
         "title": "Historieforteller-lås",
-        "description": "Krever en 4-sifret PIN-kode før Grimoiren kan avsløres.",
+        "description": "Krever en 4-sifret PIN-kode før Grimoiren kan avsløres. Denne PIN-koden brukes også i Pass & Play-modus.",
         "arm": "Start Pass & Play",
         "exit": "Avslutt Pass & Play",
         "enrol_pin_prompt": "Velg en 4-sifret PIN-kode",
@@ -756,6 +755,10 @@
             "grimoire": "Grimoire"
         },
         "setup": {
+            "welcome": {
+                "title": "Velkommen",
+                "body": "Dette er den guidede omvisningen. Du kan markere hvilken som helst omvisning som sett eller ikke sett i Innstillinger, under Omvisninger."
+            },
             "script_search": {
                 "title": "Velg et skript",
                 "body": "Søk etter et skript med navn, lim inn en URL eller last opp ditt eget."
@@ -854,13 +857,18 @@
             }
         },
         "grimoire": {
-            "seats": {
-                "title": "Spillerne dine",
-                "body": "Trykk på en spiller for å åpne menyen deres. Dra for å flytte dem."
+            "good_player": {
+                "title": "En god spiller",
+                "body": "Denne spilleren er på det gode laget. Trykk på en spiller for å åpne menyen deres. Dra for å flytte dem."
+            },
+            "evil_player": {
+                "title": "En ond spiller",
+                "body": "Denne spilleren er på det onde laget. Illustrasjonen på hver brikke viser hvilket lag spilleren er på."
             },
             "seat_menu": {
                 "title": "Spillermeny",
-                "body": "Gå til fullskjerm, legg til påminnelser, marker som død, bytt, endre tilhørighet og åpne verktøymenyen. Trykk utenfor menyen for å lukke den."
+                "body": "Gå til fullskjerm, legg til påminnelser, marker som død, bytt, endre tilhørighet og åpne verktøymenyen. Trykk utenfor menyen for å lukke den.",
+                "body_evil": "Gå til fullskjerm, legg til påminnelser, legg til en bløffpåminnelse, marker som død, bytt, endre tilhørighet og åpne verktøymenyen. Trykk utenfor menyen for å lukke den."
             },
             "add": {
                 "title": "Legg til",
@@ -883,7 +891,35 @@
             },
             "preferences": {
                 "title": "Innstillinger",
-                "body": "Endre størrelsen på brikkene, hva som vises på hver spiller, og mer. Du kan se denne omvisningen på nytt herfra."
+                "body": "Endre størrelsen på brikkene, hva som vises på hver spiller, og mer."
+            },
+            "gr_details": {
+                "body": "Skjul alle rollene i Grimoiren, så du kan snu skjermen uten å avsløre noe. Trykk igjen for å vise dem."
+            },
+            "gr_lock": {
+                "title": "Lås brikker",
+                "body": "Lås brikkene på plass så de ikke dras ved et uhell. De låses av seg selv når spillet er over."
+            },
+            "gr_notes": {
+                "body": "Dine egne notater for hele spillet. Notater om én spiller ligger i brikkemenyen til den spilleren."
+            },
+            "gr_timer": {
+                "body": "Sett en nedtelling for dagen, eller start en stoppeklokke. Når den er satt, trykk på tiden for å pause eller fortsette."
+            },
+            "gr_music": {
+                "title": "Musikk",
+                "body": "Spill dine egne musikkfiler i bakgrunnen. Legg også til lydeffekter, og sett dem til å spilles når tidtakeren når 1:00, 0:30 eller 0:00."
+            },
+            "gr_type_icons": {
+                "body": "Hold nede for å vise en bokstav på hver brikke for typen: Byfolk, Utenforstående, Lakei eller Demon."
+            },
+            "town_composition": {
+                "title": "Byens sammensetning",
+                "body": "Navnet på skriptet, deretter hvor mange Byfolk, Utenforstående, Lakeier og Demoner dette antallet spillere bør ha, hver i sin egen farge. På mindre skjermer trykker du på banneret for å se dem."
+            },
+            "town_state": {
+                "title": "Byens tilstand",
+                "body": "Personikonet viser antall spillere i live. Det blir gult ved 4 og rødt ved 3 eller færre. Kofferten viser antall reisende. Hodeskallen er døde spillere. Hånden viser hvor mange stemmer som er igjen, inkludert spøkelsesstemmer. Den blir rød når det ikke er nok stemmer igjen til å overgå det nåværende totalet på blokken. Haken viser antall stemmer som trengs for å løfte den nåværende personen av blokken."
             },
             "end_game": {
                 "title": "Avslutt spill",
@@ -905,6 +941,58 @@
             "unplaced_reminders": {
                 "title": "Ikke plasserte påminnelser",
                 "body": "Tallet viser hvor mange av denne rollens påminnelser som ikke er i Grimoiren ennå. Trykk for å se dem, og dra så en over på en spiller."
+            }
+        },
+        "preferences": {
+            "pref_display": {
+                "body": "Fullskjerm skjuler nettleserens egne felt. Offisielle ikoner bruker de offisielle TPI-ikonene i stedet for kunst laget av fellesskapet. Trekkeanimasjon blander gjennom roller før en trukket brikke avsløres."
+            },
+            "pref_sizes": {
+                "body": "Endre hvor store brikker og påminnelser er. Lenkeknappen holder forholdet mellom de to størrelsene likt."
+            },
+            "pref_token_info": {
+                "body": "Velg hva hver brikke viser: bladene for påminnelser, nattens rekkefølge og oppsettinstruksjoner, evnen, hvordan og når en død spiller døde, og plassen i nattens rekkefølge. Hopp over døde lar nattens rekkefølge gå forbi døde spillere."
+            },
+            "pref_player_info": {
+                "body": "Velg hva navneskiltet til hver spiller viser: navn, pronomen og setenummer."
+            },
+            "pref_footer": {
+                "title": "Hjelp og mer",
+                "body": "Om viser hva som er nytt i hver versjon og lar deg tømme hurtigbufferen. FAQ svarer på vanlige spørsmål. Omvisninger lar deg se hvilken som helst omvisning igjen. Discord åpner Discord-serveren vår for hjelp og tilbakemeldinger."
+            }
+        },
+        "token": {
+            "tok_header": {
+                "body": "Blyanten gir spilleren nytt navn og setter pronomenene. Søppelkassen fjerner spilleren og rollen fra Grimoiren."
+            },
+            "tok_role": {
+                "body": "Vis viser rollen i fullskjerm for en spiller. Notater lagrer dine egne notater om spilleren. Wiki åpner rollens wiki-side."
+            },
+            "tok_jinxes": {
+                "body": "Hvordan denne rollen samspiller med de andre rollene i spill."
+            },
+            "tok_tools": {
+                "body": "Velg en rolle fra listen. Bli gjør spilleren om til den rollen. Få evne gir spilleren evnen til den rollen i tillegg til sin egen (tenk Filosofen)."
+            },
+            "tok_notify": {
+                "body": "Få et varsel når spilleren nomineres, nominerer noen eller dør. For dødsfall velger du dag, natt eller begge. Legg til et notat som vises sammen med varselet, og velg om det utløses hver gang eller bare én gang."
+            }
+        },
+        "account": {
+            "usr_favourites": {
+                "body": "Skript du har stjernemerket på oppsettskjermen. Trykk på ett for å laste det. Legg til fargede tagger for å sortere dem, og trykk deretter på en tagg for å filtrere listen."
+            },
+            "usr_friends": {
+                "body": "Folk du spiller med. Navnene deres er klare til å velges når du setter spillere på seter, så du slipper å skrive dem inn hver gang."
+            },
+            "usr_games": {
+                "body": "Spill du har lagret fra Spill-menyen. Last ett på oppsettskjermen for å fortsette der du slapp."
+            },
+            "usr_homebrew": {
+                "body": "Homebrew-skript du har lagt til i søket. Trykk på ett for å laste det, eller trykk på krysset for å fjerne det fra søket."
+            },
+            "usr_logout": {
+                "body": "Logg ut av Discord-kontoen din på denne enheten."
             }
         }
     }

@@ -86,7 +86,6 @@
         "drunk": "Részeg",
         "dead": "Halott",
         "noability": "Nincs képessége",
-        "mad": "Rögeszmés",
         "lunch": "Kaja"
     },
     "radial_menu": {
@@ -123,7 +122,7 @@
             "about": "Névjegy...",
             "official_icons": "Hivatalos ikonok",
             "clocktracker_url": "Cél URL",
-            "clocktracker_url_help": "A befejezett játékok ide kerülnek elküldésre. Csak akkor módosítsd, ha saját Clocktrackert üzemeltetsz.",
+            "clocktracker_url_help": "A befejezett játékok opcionálisan ide kerülnek elküldésre. Csak akkor módosítsd, ha saját Clocktrackert üzemeltetsz.",
             "clocktracker_url_invalid": "Add meg a teljes https:// címet."
         },
         "login": "Belépés",
@@ -714,7 +713,7 @@
     },
     "lock": {
         "title": "Mesélői zárolás",
-        "description": "Egy 4 jegyű PIN-kód szükséges ahhoz, hogy a Grimoár felfedhető legyen.",
+        "description": "Egy 4 jegyű PIN-kód szükséges ahhoz, hogy a Grimoár felfedhető legyen. Ez a PIN-kód a Pass & Play módhoz is használatos.",
         "arm": "Pass & Play indítása",
         "exit": "Kilépés a Pass & Play módból",
         "enrol_pin_prompt": "Válassz egy 4 jegyű PIN-kódot",
@@ -756,6 +755,10 @@
             "grimoire": "Grimoár"
         },
         "setup": {
+            "welcome": {
+                "title": "Üdvözlünk",
+                "body": "Ez az útmutató túra. Bármelyik túrát megjelölheted láttként vagy nem láttként a Beállításokban, a Túrák alatt."
+            },
             "script_search": {
                 "title": "Válassz szkriptet",
                 "body": "Keress szkriptet név alapján, illessz be egy URL-t, vagy tölts fel sajátot."
@@ -854,13 +857,18 @@
             }
         },
         "grimoire": {
-            "seats": {
-                "title": "A játékosaid",
-                "body": "Koppints egy játékosra a menüjének megnyitásához. Húzással mozgathatod."
+            "good_player": {
+                "title": "Egy jó játékos",
+                "body": "Ez a játékos a jó csapatban van. Koppints egy játékosra a menüjének megnyitásához. Húzással mozgathatod."
+            },
+            "evil_player": {
+                "title": "Egy gonosz játékos",
+                "body": "Ez a játékos a gonosz csapatban van. Az egyes jelölők grafikája mutatja, melyik csapatban van a játékos."
             },
             "seat_menu": {
                 "title": "Játékosmenü",
-                "body": "Teljes képernyő, emlékeztetők hozzáadása, megjelölés halottként, csere, hovatartozás módosítása, és az eszköztár megnyitása. Koppints a menün kívülre a bezáráshoz."
+                "body": "Teljes képernyő, emlékeztetők hozzáadása, megjelölés halottként, csere, hovatartozás módosítása, és az eszköztár megnyitása. Koppints a menün kívülre a bezáráshoz.",
+                "body_evil": "Teljes képernyő, emlékeztetők hozzáadása, blöff emlékeztető hozzáadása, megjelölés halottként, csere, hovatartozás módosítása, és az eszköztár megnyitása. Koppints a menün kívülre a bezáráshoz."
             },
             "add": {
                 "title": "Hozzáadás",
@@ -883,7 +891,35 @@
             },
             "preferences": {
                 "title": "Beállítások",
-                "body": "Módosítsd a jelölők méretét, azt, hogy mi látszik az egyes játékosokon, és még sok mást. Ezt a túrát innen újra lejátszhatod."
+                "body": "Módosítsd a jelölők méretét, azt, hogy mi látszik az egyes játékosokon, és még sok mást."
+            },
+            "gr_details": {
+                "body": "Rejtsd el az összes karaktert a Grimoárban, hogy elfordíthasd a képernyőt anélkül, hogy bármit elárulnál. Koppints újra a megjelenítésükhöz."
+            },
+            "gr_lock": {
+                "title": "Jelölők zárolása",
+                "body": "Zárold a jelölőket a helyükön, hogy véletlenül se lehessen elhúzni őket. A játék végén maguktól zárolódnak."
+            },
+            "gr_notes": {
+                "body": "Saját jegyzeteid az egész játékhoz. Az egy játékosra vonatkozó jegyzetek az adott játékos jelölőmenüjébe kerülnek."
+            },
+            "gr_timer": {
+                "body": "Állíts be visszaszámlálást a nappalhoz, vagy indíts stoppert. Beállítás után koppints az időre a szüneteltetéshez vagy a folytatáshoz."
+            },
+            "gr_music": {
+                "title": "Zene",
+                "body": "Játszd le saját zenefájljaidat a háttérben. Adj hozzá hangeffekteket is, és állítsd be, hogy az időzítő 1:00, 0:30 vagy 0:00 elérésekor szólaljanak meg."
+            },
+            "gr_type_icons": {
+                "body": "Tartsd nyomva, hogy minden jelölőn megjelenjen a típusát jelölő betű: Városlakó, Kívülálló, Csatlós vagy Démon."
+            },
+            "town_composition": {
+                "title": "A város összetétele",
+                "body": "A szkript neve, majd hogy ennyi játékosnál hány Városlakó, Kívülálló, Csatlós és Démon legyen, mindegyik a saját színében. Kisebb képernyőkön koppints a szalagra a megtekintésükhöz."
+            },
+            "town_state": {
+                "title": "A város állapota",
+                "body": "A személy ikon az élő játékosok számát mutatja. 4-nél sárgára, 3 vagy kevesebb esetén pirosra vált. A bőrönd az utazók számát jelzi. A koponya a halott játékosokat jelenti. A kéz azt mutatja, hány szavazat maradt, a szellemszavazatokat is beleértve. Pirosra vált, ha nem marad elég szavazat a vérpadon lévő aktuális összeg túllépéséhez. A pipa azt mutatja, hány szavazat kell az aktuális személy levételéhez a vérpadról."
             },
             "end_game": {
                 "title": "Játék vége",
@@ -905,6 +941,58 @@
             "unplaced_reminders": {
                 "title": "Nem elhelyezett emlékeztetők",
                 "body": "A szám azt mutatja, hány emlékeztetője nincs még a Grimoárban ennek a karakternek. Koppints a megtekintésükhöz, majd húzz egyet egy játékosra."
+            }
+        },
+        "preferences": {
+            "pref_display": {
+                "body": "A Teljes képernyő elrejti a böngésző saját sávjait. A Hivatalos ikonok a hivatalos TPI ikonokat használja a közösség által készített grafikák helyett. A Húzási animáció végigpörgeti a karaktereket, mielőtt a kihúzott jelölő felfedésre kerül."
+            },
+            "pref_sizes": {
+                "body": "Módosítsd, mekkorák a jelölők és az emlékeztetők. A hivatkozás gomb azonos arányban tartja a két méretet."
+            },
+            "pref_token_info": {
+                "body": "Válaszd ki, mit mutasson az egyes jelölők: a leveleket az emlékeztetőkhöz, az éjszakai sorrendhez és a beállítási utasításokhoz, a képességét, azt, hogyan és mikor halt meg egy halott játékos, valamint az éjszakai sorrendben elfoglalt helyét. A Halottak kihagyása lehetővé teszi, hogy az éjszakai sorrend átlépje a halott játékosokat."
+            },
+            "pref_player_info": {
+                "body": "Válaszd ki, mit mutasson az egyes játékosok névtáblája: a nevüket, névmásukat és ülőhelyük számát."
+            },
+            "pref_footer": {
+                "title": "Súgó és még több",
+                "body": "A Névjegy megmutatja, mi újdonság minden verzióban, és lehetővé teszi a gyorsítótár törlését. A GYIK a gyakori kérdésekre válaszol. A Túrák lehetővé teszik bármelyik túra újbóli megtekintését. A Discord megnyitja a Discord szerverünket segítségért és visszajelzésért."
+            }
+        },
+        "token": {
+            "tok_header": {
+                "body": "A ceruza átnevezi ezt a játékost, és beállítja a névmását. A kuka eltávolítja ezt a játékost és a karakterét a Grimoárból."
+            },
+            "tok_role": {
+                "body": "A Mutat teljes képernyőn megjeleníti ezt a karaktert egy játékosnak. A Jegyzetek a saját jegyzeteidet őrzi erről a játékosról. A Wiki megnyitja a karakter wiki oldalát."
+            },
+            "tok_jinxes": {
+                "body": "Hogyan hat egymásra ez a karakter a játékban lévő többi karakterrel."
+            },
+            "tok_tools": {
+                "body": "Válassz egy karaktert a listából. Az Átváltoztat ezzé a karakterré változtatja ezt a játékost. A Képesség szerzése megadja neki ennek a karakternek a képességét a sajátja mellé (gondolj a Filozófusra)."
+            },
+            "tok_notify": {
+                "body": "Kapj értesítést, ha ezt a játékost meggyanúsítják, ő gyanúsít valakit, vagy meghal. Halálnál válaszd a nappalt, az éjszakát vagy mindkettőt. Adj hozzá jegyzetet, amely megjelenik az értesítéssel, és válaszd ki, hogy minden alkalommal vagy csak egyszer jelenjen-e meg."
+            }
+        },
+        "account": {
+            "usr_favourites": {
+                "body": "A beállítási képernyőn csillagozott szkriptek. Koppints egyre a betöltéséhez. Adj hozzá színes címkéket a rendezésükhöz, majd koppints egy címkére a lista szűréséhez."
+            },
+            "usr_friends": {
+                "body": "A játékostársaid. A nevük kiválasztásra készen áll, amikor leülteted a játékosokat, így nem kell minden alkalommal begépelned őket."
+            },
+            "usr_games": {
+                "body": "A Játék menüből elmentett játékaid. Tölts be egyet a beállítási képernyőn, hogy ott folytasd, ahol abbahagytad."
+            },
+            "usr_homebrew": {
+                "body": "A keresésedhez hozzáadott saját készítésű szkriptek. Koppints egyre a betöltéséhez, vagy a keresztre, hogy eltávolítsd a keresésből."
+            },
+            "usr_logout": {
+                "body": "Jelentkezz ki a Discord-fiókodból ezen az eszközön."
             }
         }
     }

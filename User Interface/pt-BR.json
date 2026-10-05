@@ -85,8 +85,7 @@
     "poisoned": "Envenenado",
     "drunk": "Bêbado",
     "dead": "Morto",
-    "noability": "Sem Habilidade",
-    "mad": "Alucinando",
+    "noability": "Sem Abilidade",
     "lunch": "Habilidade adquirida"
   },
   "radial_menu": {
@@ -123,7 +122,7 @@
       "about": "Sobre...",
       "official_icons": "Ícones Oficiais",
       "clocktracker_url": "URL de Destino",
-      "clocktracker_url_help": "Jogos concluídos são enviados para cá. Altere isso apenas se você hospedar seu próprio Clocktracker.",
+      "clocktracker_url_help": "Jogos concluídos são enviados para cá opcionalmente. Altere isso apenas se você hospedar seu próprio Clocktracker.",
       "clocktracker_url_invalid": "Insira um endereço https:// completo."
     },
     "login": "Login",
@@ -714,7 +713,7 @@
   },
   "lock": {
     "title": "Trava do narrador",
-    "description": "Requer um PIN de 4 dígitos para revelar o gimório.",
+    "description": "Requer um PIN de 4 dígitos para revelar o gimório. Este PIN também é usado no modo Passar & Jogar.",
     "arm": "Iniciar Passar & Jogar",
     "exit": "Encerrar Passar & Jogar",
     "enrol_pin_prompt": "Selecione um PIN de 4 dígitos",
@@ -756,6 +755,10 @@
       "grimoire": "Grimório"
     },
     "setup": {
+      "welcome": {
+        "title": "Boas-vindas",
+        "body": "Este é o tour guiado. Você pode marcar qualquer tour como visto ou não visto em Preferências, em Tours."
+      },
       "script_search": {
         "title": "Escolha um script",
         "body": "Procure um script pelo nome, cole uma URL ou envie o seu."
@@ -854,13 +857,18 @@
       }
     },
     "grimoire": {
-      "seats": {
-        "title": "Seus jogadores",
-        "body": "Toque em um jogador para abrir o menu dele. Arraste para movê-lo."
+      "good_player": {
+        "title": "Um jogador bom",
+        "body": "Este jogador está no time do bem. Toque em um jogador para abrir o menu dele. Arraste para movê-lo."
+      },
+      "evil_player": {
+        "title": "Um jogador mau",
+        "body": "Este jogador está no time do mal. A arte de cada token mostra em qual time o jogador está."
       },
       "seat_menu": {
         "title": "Menu do jogador",
-        "body": "Entrar em Tela Cheia, adicionar lembretes, marcar como morto, trocar, mudar alinhamento e abrir o menu de ferramentas. Toque fora do menu para fechá-lo."
+        "body": "Entrar em Tela Cheia, adicionar lembretes, marcar como morto, trocar, mudar alinhamento e abrir o menu de ferramentas. Toque fora do menu para fechá-lo.",
+        "body_evil": "Entrar em Tela Cheia, adicionar lembretes, adicionar um lembrete de blefe, marcar como morto, trocar, mudar alinhamento e abrir o menu de ferramentas. Toque fora do menu para fechá-lo."
       },
       "add": {
         "title": "Adicionar",
@@ -883,7 +891,35 @@
       },
       "preferences": {
         "title": "Preferências",
-        "body": "Mude o tamanho dos tokens, o que aparece em cada jogador e mais. Você pode rever este tour a partir daqui."
+        "body": "Mude o tamanho dos tokens, o que aparece em cada jogador e mais."
+      },
+      "gr_details": {
+        "body": "Esconda todos os personagens no Grimório para poder virar a tela sem revelar nada. Toque de novo para mostrá-los."
+      },
+      "gr_lock": {
+        "title": "Travar tokens",
+        "body": "Trave os tokens no lugar para que não sejam arrastados sem querer. Eles travam sozinhos quando o jogo termina."
+      },
+      "gr_notes": {
+        "body": "Suas próprias notas para o jogo todo. Notas sobre um jogador ficam no menu do token desse jogador."
+      },
+      "gr_timer": {
+        "body": "Defina uma contagem regressiva para o dia, ou inicie um cronômetro. Depois de definido, toque no tempo para pausar ou continuar."
+      },
+      "gr_music": {
+        "title": "Música",
+        "body": "Toque seus próprios arquivos de música ao fundo. Adicione também efeitos sonoros e configure para tocarem quando o temporizador chegar a 1:00, 0:30 ou 0:00."
+      },
+      "gr_type_icons": {
+        "body": "Mantenha pressionado para mostrar em cada token uma letra com o tipo dele: Cidadão, Forasteiro, Lacaio ou Demônio."
+      },
+      "town_composition": {
+        "title": "Composição da cidade",
+        "body": "O nome do script, depois quantos Cidadãos, Forasteiros, Lacaios e Demônios esse número de jogadores deve ter, cada um com sua cor. Em telas menores, toque no banner para vê-los."
+      },
+      "town_state": {
+        "title": "Estado da cidade",
+        "body": "O ícone da pessoa mostra o número de jogadores vivos. Ele fica amarelo com 4 e vermelho com 3 ou menos. A mala indica o número de viajantes. A caveira são os jogadores mortos. A mão mostra quantos votos restam, incluindo votos fantasma. Ela fica vermelha quando não restam votos suficientes para superar o total atual dos marcados para execução. O visto mostra o número de votos necessários para tirar a pessoa atual dos marcados para execução."
       },
       "end_game": {
         "title": "Terminar o Jogo",
@@ -905,6 +941,58 @@
       "unplaced_reminders": {
         "title": "Lembretes não colocados",
         "body": "O número indica quantos lembretes deste personagem ainda não estão no Grimório. Toque para vê-los e arraste um até um jogador."
+      }
+    },
+    "preferences": {
+      "pref_display": {
+        "body": "Tela cheia esconde as barras do próprio navegador. Ícones oficiais usa os ícones oficiais da TPI em vez de arte criada pela comunidade. Animação de compra embaralha os personagens antes de revelar um token comprado."
+      },
+      "pref_sizes": {
+        "body": "Mude o tamanho dos tokens e dos lembretes. O botão de vínculo mantém a mesma proporção entre os dois tamanhos."
+      },
+      "pref_token_info": {
+        "body": "Escolha o que cada token mostra: as folhas para lembretes, ordem da noite e instruções de preparação, a abilidade dele, como e quando um jogador morto morreu e o lugar dele na ordem da noite. Pular mortos faz a ordem da noite passar direto pelos jogadores mortos."
+      },
+      "pref_player_info": {
+        "body": "Escolha o que a etiqueta de nome de cada jogador mostra: o nome, os pronomes e o número do assento."
+      },
+      "pref_footer": {
+        "title": "Ajuda e mais",
+        "body": "Sobre mostra as novidades de cada versão e permite limpar o cache. Perguntas Frequentes responde às dúvidas comuns. Tours permite rever qualquer tour. Discord abre nosso servidor do Discord para ajuda e feedback."
+      }
+    },
+    "token": {
+      "tok_header": {
+        "body": "O lápis renomeia este jogador e define os pronomes dele. A lixeira remove este jogador e o personagem dele do Grimório."
+      },
+      "tok_role": {
+        "body": "Mostrar coloca este personagem em tela cheia para um jogador ver. Notas guarda suas próprias notas sobre este jogador. Wiki abre a página wiki do personagem."
+      },
+      "tok_jinxes": {
+        "body": "Como este personagem interage com os outros personagens em jogo."
+      },
+      "tok_tools": {
+        "body": "Escolha um personagem da lista. Tornar-se transforma este jogador nesse personagem. Ganhar Abilidade dá a ele a abilidade desse personagem além da sua própria (pense no Filósofo)."
+      },
+      "tok_notify": {
+        "body": "Receba um alerta quando este jogador for nomeado, nomear alguém ou morrer. Para mortes, escolha dia, noite ou ambos. Adicione uma nota para mostrar com o alerta e escolha se ele dispara toda vez ou só uma vez."
+      }
+    },
+    "account": {
+      "usr_favourites": {
+        "body": "Scripts que você marcou com estrela na tela de preparação. Toque em um para carregá-lo. Adicione tags coloridas para organizá-los e depois toque em uma tag para filtrar a lista."
+      },
+      "usr_friends": {
+        "body": "Pessoas com quem você joga. Os nomes delas ficam prontos para escolher quando você posiciona os jogadores, para você não precisar digitar toda vez."
+      },
+      "usr_games": {
+        "body": "Jogos que você salvou no menu Jogo. Carregue um na tela de preparação para continuar de onde parou."
+      },
+      "usr_homebrew": {
+        "body": "Scripts homebrew que você adicionou à busca. Toque em um para carregá-lo, ou toque no X para removê-lo da busca."
+      },
+      "usr_logout": {
+        "body": "Saia da sua conta do Discord neste dispositivo."
       }
     }
   }

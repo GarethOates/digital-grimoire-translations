@@ -86,7 +86,6 @@
         "drunk": "Betrunken",
         "dead": "Tot",
         "noability": "Keine Fähigkeit",
-        "mad": "Besessen",
         "lunch": "Zuletzt hingerichtet"
     },
     "radial_menu": {
@@ -123,7 +122,7 @@
             "about": "Über...",
             "official_icons": "Offizielle Symbole",
             "clocktracker_url": "Ziel-URL",
-            "clocktracker_url_help": "Abgeschlossene Spiele werden hierher gesendet. Ändern Sie dies nur, wenn Sie Ihren eigenen Clocktracker hosten.",
+            "clocktracker_url_help": "Abgeschlossene Spiele werden optional hierher gesendet. Ändern Sie dies nur, wenn Sie Ihren eigenen Clocktracker hosten.",
             "clocktracker_url_invalid": "Geben Sie eine vollständige https://-Adresse ein."
         },
         "login": "Anmelden",
@@ -714,7 +713,7 @@
     },
     "lock": {
         "title": "Geschichtenerzähler-Sperre",
-        "description": "Ein 4-stelliger PIN-Code wird benötigt, bevor das Grimoire gezeigt werden kann.",
+        "description": "Ein 4-stelliger PIN-Code wird benötigt, bevor das Grimoire gezeigt werden kann. Dieser PIN-Code wird auch für den Pass & Play-Modus verwendet.",
         "arm": "Pass & Play starten",
         "exit": "Pass & Play beenden",
         "enrol_pin_prompt": "Wählen Sie einen 4-stelligen PIN-Code",
@@ -756,6 +755,10 @@
             "grimoire": "Grimoire"
         },
         "setup": {
+            "welcome": {
+                "title": "Willkommen",
+                "body": "Das ist die geführte Tour. Du kannst jede Tour in den Einstellungen unter Touren als gesehen oder ungesehen markieren."
+            },
             "script_search": {
                 "title": "Skript wählen",
                 "body": "Suche nach einem Skript über den Namen, füge eine URL ein oder lade dein eigenes hoch."
@@ -854,13 +857,18 @@
             }
         },
         "grimoire": {
-            "seats": {
-                "title": "Deine Spieler",
-                "body": "Tippe auf einen Spieler, um sein Menü zu öffnen. Ziehe, um ihn zu bewegen."
+            "good_player": {
+                "title": "Ein guter Spieler",
+                "body": "Dieser Spieler gehört zum guten Team. Tippe auf einen Spieler, um sein Menü zu öffnen. Ziehe, um ihn zu bewegen."
+            },
+            "evil_player": {
+                "title": "Ein böser Spieler",
+                "body": "Dieser Spieler gehört zum bösen Team. Das Artwork jedes Tokens zeigt, zu welchem Team der Spieler gehört."
             },
             "seat_menu": {
                 "title": "Spielermenü",
-                "body": "Vollbildmodus aktivieren, Erinnerungen hinzufügen, als tot markieren, tauschen, Gesinnung ändern und das Werkzeugmenü öffnen. Tippe außerhalb des Menüs, um es zu schließen."
+                "body": "Vollbildmodus aktivieren, Erinnerungen hinzufügen, als tot markieren, tauschen, Gesinnung ändern und das Werkzeugmenü öffnen. Tippe außerhalb des Menüs, um es zu schließen.",
+                "body_evil": "Vollbildmodus aktivieren, Erinnerungen hinzufügen, Bluff-Erinnerung hinzufügen, als tot markieren, tauschen, Gesinnung ändern und das Werkzeugmenü öffnen. Tippe außerhalb des Menüs, um es zu schließen."
             },
             "add": {
                 "title": "Hinzufügen",
@@ -883,7 +891,35 @@
             },
             "preferences": {
                 "title": "Einstellungen",
-                "body": "Ändere Tokengrößen, was bei jedem Spieler angezeigt wird, und mehr. Du kannst diese Tour von hier aus erneut starten."
+                "body": "Ändere Tokengrößen, was bei jedem Spieler angezeigt wird, und mehr."
+            },
+            "gr_details": {
+                "body": "Verberge alle Rollen im Grimoire, damit du den Bildschirm drehen kannst, ohne etwas zu verraten. Tippe erneut, um sie wieder zu zeigen."
+            },
+            "gr_lock": {
+                "title": "Tokens sperren",
+                "body": "Sperre die Tokens an ihrem Platz, damit sie nicht versehentlich verschoben werden. Sie sperren sich von selbst, wenn das Spiel endet."
+            },
+            "gr_notes": {
+                "body": "Deine eigenen Notizen für das ganze Spiel. Notizen zu einem Spieler gehören ins Token-Menü dieses Spielers."
+            },
+            "gr_timer": {
+                "body": "Lege einen Countdown für den Tag fest oder starte eine Stoppuhr. Sobald er eingestellt ist, tippe auf die Zeit, um zu pausieren oder fortzufahren."
+            },
+            "gr_music": {
+                "title": "Musik",
+                "body": "Spiele deine eigenen Musikdateien im Hintergrund ab. Füge auch Soundeffekte hinzu und lasse sie abspielen, wenn der Timer 1:00, 0:30 oder 0:00 erreicht."
+            },
+            "gr_type_icons": {
+                "body": "Halte dies gedrückt, um auf jedem Token einen Buchstaben für seinen Typ anzuzeigen: Bürger, Außenseiter, Scherge oder Dämon."
+            },
+            "town_composition": {
+                "title": "Stadtzusammensetzung",
+                "body": "Der Name des Skripts, dann wie viele Bürger, Außenseiter, Schergen und Dämonen diese Spielerzahl haben sollte, jeweils in eigener Farbe. Auf kleineren Bildschirmen tippe auf das Banner, um sie zu sehen."
+            },
+            "town_state": {
+                "title": "Stadtstatus",
+                "body": "Das Personensymbol zeigt die Anzahl lebender Spieler. Es wird bei 4 gelb und bei 3 oder weniger rot. Der Koffer steht für die Anzahl der Reisenden. Der Totenkopf steht für tote Spieler. Die Hand zeigt, wie viele Stimmen übrig sind, Geisterstimmen eingeschlossen. Sie wird rot, wenn nicht mehr genug Stimmen übrig sind, um die aktuelle Zahl auf dem Richtblock zu übertreffen. Das Häkchen zeigt die Anzahl der Stimmen, die nötig sind, um die aktuelle Person vom Richtblock zu holen."
             },
             "end_game": {
                 "title": "Spiel beenden",
@@ -905,6 +941,58 @@
             "unplaced_reminders": {
                 "title": "Nicht platzierte Erinnerungen",
                 "body": "Die Zahl zeigt, wie viele Erinnerungen dieser Rolle noch nicht im Grimoire sind. Tippe darauf, um sie zu sehen, und ziehe dann eine auf einen Spieler."
+            }
+        },
+        "preferences": {
+            "pref_display": {
+                "body": "Vollbildmodus blendet die eigenen Leisten des Browsers aus. Offizielle Symbole verwendet die offiziellen TPI-Symbole statt von der Community erstellter Artworks. Ziehanimation mischt durch die Rollen, bevor ein gezogener Token enthüllt wird."
+            },
+            "pref_sizes": {
+                "body": "Ändere, wie groß Tokens und Erinnerungen sind. Der Verknüpfungs-Button hält das Verhältnis der beiden Größen gleich."
+            },
+            "pref_token_info": {
+                "body": "Wähle, was jeder Token zeigt: die Blätter für Erinnerungen, Nachtreihenfolge und Setup-Anweisungen, seine Fähigkeit, wie und wann ein toter Spieler gestorben ist, und seinen Platz in der Nachtreihenfolge. Tote überspringen lässt die Nachtreihenfolge tote Spieler auslassen."
+            },
+            "pref_player_info": {
+                "body": "Wähle, was das Namensschild jedes Spielers zeigt: Name, Pronomen und Platznummer."
+            },
+            "pref_footer": {
+                "title": "Hilfe und mehr",
+                "body": "Über zeigt, was in jeder Version neu ist, und lässt dich den Cache leeren. FAQ beantwortet häufige Fragen. Touren lässt dich jede Tour erneut ansehen. Discord öffnet unseren Discord-Server für Hilfe und Feedback."
+            }
+        },
+        "token": {
+            "tok_header": {
+                "body": "Der Stift benennt diesen Spieler um und legt seine Pronomen fest. Der Papierkorb entfernt diesen Spieler und seine Rolle aus dem Grimoire."
+            },
+            "tok_role": {
+                "body": "Anzeigen zeigt diese Rolle im Vollbild für einen Spieler. Notizen speichert deine eigenen Notizen zu diesem Spieler. Wiki öffnet die Wiki-Seite der Rolle."
+            },
+            "tok_jinxes": {
+                "body": "Wie diese Rolle mit den anderen Rollen im Spiel zusammenwirkt."
+            },
+            "tok_tools": {
+                "body": "Wähle eine Rolle aus der Liste. Werden verwandelt diesen Spieler in diese Rolle. Fähigkeit erhalten gibt ihm die Fähigkeit dieser Rolle zusätzlich zu seiner eigenen (denk an den Philosophen)."
+            },
+            "tok_notify": {
+                "body": "Erhalte eine Benachrichtigung, wenn dieser Spieler nominiert wird, jemanden nominiert oder stirbt. Bei Toden wähle Tag, Nacht oder beides. Füge eine Notiz hinzu, die mit der Benachrichtigung erscheint, und wähle, ob sie jedes Mal oder nur einmal ausgelöst wird."
+            }
+        },
+        "account": {
+            "usr_favourites": {
+                "body": "Skripte, die du auf dem Setup-Bildschirm mit einem Stern markiert hast. Tippe auf eines, um es zu laden. Füge farbige Tags hinzu, um sie zu sortieren, und tippe dann auf einen Tag, um die Liste zu filtern."
+            },
+            "usr_friends": {
+                "body": "Leute, mit denen du spielst. Ihre Namen stehen bereit, wenn du Spieler setzt, sodass du sie nicht jedes Mal eintippen musst."
+            },
+            "usr_games": {
+                "body": "Spiele, die du im Spielmenü gespeichert hast. Lade eines auf dem Setup-Bildschirm, um dort weiterzumachen, wo du aufgehört hast."
+            },
+            "usr_homebrew": {
+                "body": "Eigenbau-Skripte, die du zur Suche hinzugefügt hast. Tippe auf eines, um es zu laden, oder auf das Kreuz, um es aus der Suche zu entfernen."
+            },
+            "usr_logout": {
+                "body": "Melde dich auf diesem Gerät von deinem Discord-Konto ab."
             }
         }
     }

@@ -86,7 +86,6 @@
         "drunk": "Dronken",
         "dead": "Dood",
         "noability": "Geen vaardigheid",
-        "mad": "Bezeten",
         "lunch": "Lunch"
     },
     "radial_menu": {
@@ -123,7 +122,7 @@
             "about": "Over...",
             "official_icons": "Officiële Iconen",
             "clocktracker_url": "Bestemmings-URL",
-            "clocktracker_url_help": "Voltooide spellen worden hierheen gestuurd. Wijzig dit alleen als je je eigen Clocktracker host.",
+            "clocktracker_url_help": "Voltooide spellen worden optioneel hierheen gestuurd. Wijzig dit alleen als je je eigen Clocktracker host.",
             "clocktracker_url_invalid": "Voer een volledig https://-adres in."
         },
         "login": "Inloggen",
@@ -714,7 +713,7 @@
     },
     "lock": {
         "title": "Vertellersvergrendeling",
-        "description": "Vereist een pincode van 4 cijfers voordat het Grimoire getoond kan worden.",
+        "description": "Vereist een pincode van 4 cijfers voordat het Grimoire getoond kan worden. Deze pincode wordt ook gebruikt voor de Pass & Play-modus.",
         "arm": "Start Pass & Play",
         "exit": "Verlaat Pass & Play",
         "enrol_pin_prompt": "Kies een pincode van 4 cijfers",
@@ -756,6 +755,10 @@
             "grimoire": "Grimoire"
         },
         "setup": {
+            "welcome": {
+                "title": "Welkom",
+                "body": "Dit is de begeleide tour. Je kunt elke tour als gezien of ongezien markeren in Instellingen, onder Tours."
+            },
             "script_search": {
                 "title": "Kies een script",
                 "body": "Zoek een script op naam, plak een URL of upload je eigen script."
@@ -854,13 +857,18 @@
             }
         },
         "grimoire": {
-            "seats": {
-                "title": "Jouw spelers",
-                "body": "Tik op een speler om zijn menu te openen. Sleep om hem te verplaatsen."
+            "good_player": {
+                "title": "Een goede speler",
+                "body": "Deze speler zit in het goede team. Tik op een speler om zijn menu te openen. Sleep om hem te verplaatsen."
+            },
+            "evil_player": {
+                "title": "Een kwade speler",
+                "body": "Deze speler zit in het kwade team. De afbeelding op elke token laat zien in welk team die speler zit."
             },
             "seat_menu": {
                 "title": "Spelersmenu",
-                "body": "Volledig scherm, herinneringen toevoegen, als dood markeren, wisselen, gezindheid wijzigen en het hulpmiddelenmenu openen. Tik buiten het menu om het te sluiten."
+                "body": "Volledig scherm, herinneringen toevoegen, als dood markeren, wisselen, gezindheid wijzigen en het hulpmiddelenmenu openen. Tik buiten het menu om het te sluiten.",
+                "body_evil": "Volledig scherm, herinneringen toevoegen, een bluffherinnering toevoegen, als dood markeren, wisselen, gezindheid wijzigen en het hulpmiddelenmenu openen. Tik buiten het menu om het te sluiten."
             },
             "add": {
                 "title": "Toevoegen",
@@ -883,7 +891,35 @@
             },
             "preferences": {
                 "title": "Instellingen",
-                "body": "Wijzig de tokengrootte, wat er bij elke speler wordt getoond, en meer. Je kunt deze tour vanaf hier opnieuw afspelen."
+                "body": "Wijzig de tokengrootte, wat er bij elke speler wordt getoond, en meer."
+            },
+            "gr_details": {
+                "body": "Verberg alle rollen in het Grimoire, zodat je het scherm kunt omdraaien zonder iets te verklappen. Tik nogmaals om ze te tonen."
+            },
+            "gr_lock": {
+                "title": "Tokens vergrendelen",
+                "body": "Vergrendel de tokens op hun plek zodat ze niet per ongeluk versleept worden. Ze vergrendelen vanzelf als het spel eindigt."
+            },
+            "gr_notes": {
+                "body": "Je eigen notities voor het hele spel. Notities over één speler staan in het tokenmenu van die speler."
+            },
+            "gr_timer": {
+                "body": "Stel een aftelling in voor de dag, of start een stopwatch. Zodra die is ingesteld, tik je op de tijd om te pauzeren of door te gaan."
+            },
+            "gr_music": {
+                "title": "Muziek",
+                "body": "Speel je eigen muziekbestanden op de achtergrond af. Voeg ook geluidseffecten toe en laat ze afspelen wanneer de timer 1:00, 0:30 of 0:00 bereikt."
+            },
+            "gr_type_icons": {
+                "body": "Houd dit ingedrukt om op elke token een letter voor het type te tonen: Dorpeling, Buitenstaander, Handlanger of Demon."
+            },
+            "town_composition": {
+                "title": "Samenstelling van de stad",
+                "body": "De naam van het script, dan hoeveel Dorpelingen, Buitenstaanders, Handlangers en Demonen dit aantal spelers zou moeten hebben, elk in een eigen kleur. Tik op kleinere schermen op de banner om ze te zien."
+            },
+            "town_state": {
+                "title": "Stadsstatus",
+                "body": "Het persoonicoon toont het aantal levende spelers. Het wordt geel bij 4 en rood bij 3 of minder. De koffer geeft het aantal reizigers aan. De schedel zijn dode spelers. De hand toont hoeveel stemmen er nog over zijn, geeststemmen inbegrepen. Hij wordt rood als er niet genoeg stemmen over zijn om het huidige totaal op het blok te overtreffen. Het vinkje toont het aantal stemmen dat nodig is om de huidige persoon van het blok te halen."
             },
             "end_game": {
                 "title": "Spel beëindigen",
@@ -905,6 +941,58 @@
             "unplaced_reminders": {
                 "title": "Niet geplaatste herinneringen",
                 "body": "Het getal geeft aan hoeveel herinneringen van deze rol nog niet in het Grimoire liggen. Tik om ze te bekijken en sleep er dan een naar een speler."
+            }
+        },
+        "preferences": {
+            "pref_display": {
+                "body": "Volledig scherm verbergt de eigen balken van de browser. Officiële iconen gebruikt de officiële TPI-iconen in plaats van door de community gemaakte afbeeldingen. Trekanimatie schudt door de rollen voordat een getrokken token wordt onthuld."
+            },
+            "pref_sizes": {
+                "body": "Wijzig hoe groot tokens en herinneringen zijn. De koppelknop houdt de verhouding tussen de twee groottes gelijk."
+            },
+            "pref_token_info": {
+                "body": "Kies wat elke token toont: de bladeren voor herinneringen, nachtvolgorde en opstelinstructies, het vermogen, hoe en wanneer een dode speler is gestorven, en de plek in de nachtvolgorde. Doden overslaan laat de nachtvolgorde dode spelers overslaan."
+            },
+            "pref_player_info": {
+                "body": "Kies wat het naamplaatje van elke speler toont: naam, voornaamwoorden en plaatsnummer."
+            },
+            "pref_footer": {
+                "title": "Hulp en meer",
+                "body": "Over toont wat er nieuw is in elke versie en laat je de cache wissen. FAQ beantwoordt veelgestelde vragen. Tours laat je elke tour opnieuw bekijken. Discord opent onze Discord-server voor hulp en feedback."
+            }
+        },
+        "token": {
+            "tok_header": {
+                "body": "Het potlood hernoemt deze speler en stelt zijn voornaamwoorden in. De prullenbak verwijdert deze speler en zijn rol uit het Grimoire."
+            },
+            "tok_role": {
+                "body": "Tonen zet deze rol op volledig scherm voor een speler. Notities bewaart je eigen notities over deze speler. Wiki opent de wikipagina van de rol."
+            },
+            "tok_jinxes": {
+                "body": "Hoe deze rol samenwerkt met de andere rollen in het spel."
+            },
+            "tok_tools": {
+                "body": "Kies een rol uit de lijst. Worden verandert deze speler in die rol. Vermogen verkrijgen geeft hem het vermogen van die rol naast zijn eigen (denk aan de Filosoof)."
+            },
+            "tok_notify": {
+                "body": "Krijg een melding wanneer deze speler wordt genomineerd, iemand nomineert of sterft. Kies bij sterfgevallen dag, nacht of beide. Voeg een notitie toe die bij de melding wordt getoond, en kies of die elke keer of maar één keer afgaat."
+            }
+        },
+        "account": {
+            "usr_favourites": {
+                "body": "Scripts die je op het instelscherm met een ster hebt gemarkeerd. Tik op een script om het te laden. Voeg gekleurde tags toe om ze te sorteren en tik dan op een tag om de lijst te filteren."
+            },
+            "usr_friends": {
+                "body": "Mensen met wie je speelt. Hun namen staan klaar om te kiezen wanneer je spelers laat plaatsnemen, zodat je ze niet elke keer hoeft te typen."
+            },
+            "usr_games": {
+                "body": "Spellen die je hebt opgeslagen via het Spel-menu. Laad er een op het instelscherm om verder te gaan waar je gebleven was."
+            },
+            "usr_homebrew": {
+                "body": "Homebrew-scripts die je aan de zoekopdracht hebt toegevoegd. Tik op een script om het te laden, of tik op het kruisje om het uit de zoekopdracht te verwijderen."
+            },
+            "usr_logout": {
+                "body": "Log op dit apparaat uit bij je Discord-account."
             }
         }
     }
