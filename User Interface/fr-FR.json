@@ -422,8 +422,9 @@
     "status": {
         "poisoned": "Empoisonné",
         "drunk": "Ivre",
-        "dead": "Assassiné",
+        "dead": "Mort",
         "noability": "Sans capacité",
+        "mad": "Fou",
         "lunch": "Miam"
     },
     "radial_menu": {
