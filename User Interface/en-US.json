@@ -347,6 +347,7 @@
             "notify_nominated": "Nominated",
             "notify_nominates": "Nominating",
             "notify_marked_dead": "Dead",
+            "notify_player_chosen": "Chosen",
             "notify_note": "Note to show with the alert",
             "notify_recurring": "Alert every time"
         },
@@ -734,7 +735,8 @@
     "notifications": {
         "nominated": "{player} the {role} has been nominated",
         "nominates": "{player} the {role} is nominating",
-        "marked_dead": "{player} the {role} has been marked as dead"
+        "marked_dead": "{player} the {role} has been marked as dead",
+        "player_chosen": "{player} the {role} has been chosen at night"
     },
     "splash": {
         "question": "Are you running the game, or playing in it?",
@@ -979,7 +981,7 @@
                 "body": "Pick a role from the list. Become turns this player into that role. Gain Ability gives them that role's ability as well as their own (think Philosopher)."
             },
             "tok_notify": {
-                "body": "Get an alert when this player is nominated, nominates someone or dies. For deaths, choose day, night or both. Add a note to show with the alert, and choose whether it fires every time or just once."
+                "body": "Get an alert when this player is nominated, nominates someone, dies or is chosen at night. For deaths, choose day, night or both. Add a note to show with the alert, and choose whether it fires every time or just once."
             }
         },
         "account": {
