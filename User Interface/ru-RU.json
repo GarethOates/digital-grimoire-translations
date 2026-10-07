@@ -84,9 +84,8 @@
     "status": {
         "poisoned": "Отравлен",
         "drunk": "Пьян",
-        "dead": "Мертв",
+        "dead": "Мёртв",
         "noability": "Истрачено",
-        "mad": "Помешан",
         "lunch": "Обед"
     },
     "radial_menu": {
@@ -303,7 +302,9 @@
             "game_result": "{team} побеждает",
             "phase_started": "{phase} {number} — начало",
             "setup_started": "Настройка началась",
-            "game_started": "Игра началась"
+            "game_started": "Игра началась",
+            "night_choice": "{name} ({role}) выбрал {targets}",
+            "night_choice_none": "{name} ({role}) никого не выбрал"
         },
         "notes": {
             "title": "Заметки",
@@ -556,6 +557,8 @@
         "start_game": "Начать игру",
         "assign_progress": "Роздано {assigned} из {total} мест",
         "tap_seat_to_assign": "Нажмите, чтобы назначить игрока на это место",
+        "select_chosen_players": "Нажмите на того, кого выбрал {role}",
+        "tonights_choice": "Выбор этой ночи",
         "seat": "Место"
     },
     "draw_tokens": {

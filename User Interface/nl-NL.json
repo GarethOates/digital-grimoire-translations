@@ -86,7 +86,6 @@
         "drunk": "Dronken",
         "dead": "Dood",
         "noability": "Geen vaardigheid",
-        "mad": "Bezeten",
         "lunch": "Lunch"
     },
     "radial_menu": {
@@ -303,7 +302,9 @@
             "game_result": "{team} wint",
             "phase_started": "{phase} {number} gestart",
             "setup_started": "Setup gestart",
-            "game_started": "Spel gestart"
+            "game_started": "Spel gestart",
+            "night_choice": "{name} ({role}) heeft {targets} gekozen",
+            "night_choice_none": "{name} ({role}) heeft niemand gekozen"
         },
         "notes": {
             "title": "Notities",
@@ -556,6 +557,8 @@
         "start_game": "Spel starten",
         "assign_progress": "{assigned} van {total} plaatsen getrokken",
         "tap_seat_to_assign": "Tik om een speler aan deze plaats toe te wijzen",
+        "select_chosen_players": "Tik op wie {role} heeft gekozen",
+        "tonights_choice": "Keuze van vannacht",
         "seat": "Plaats"
     },
     "draw_tokens": {

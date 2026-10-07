@@ -86,7 +86,6 @@
         "drunk": "Borratxo",
         "dead": "Mort",
         "noability": "Sense habilitat",
-        "mad": "Boig",
         "lunch": "Menjar"
     },
     "radial_menu": {
@@ -303,7 +302,9 @@
             "game_result": "Guanya el bàndol {team}",
             "phase_started": "Ha començat {phase} {number}",
             "setup_started": "Ha començat la preparació",
-            "game_started": "Ha començat la partida"
+            "game_started": "Ha començat la partida",
+            "night_choice": "{name} ({role}) ha triat {targets}",
+            "night_choice_none": "{name} ({role}) no ha triat ningú"
         },
         "notes": {
             "title": "Notes",
@@ -556,6 +557,8 @@
         "start_game": "Comença la partida",
         "assign_progress": "{assigned} de {total} seients extrets",
         "tap_seat_to_assign": "Toqueu aquest seient per a assignar-hi un jugador",
+        "select_chosen_players": "Toqueu qui el {role} ha triat",
+        "tonights_choice": "L'elecció d'aquesta nit",
         "seat": "Seient"
     },
     "draw_tokens": {

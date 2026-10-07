@@ -86,7 +86,6 @@
         "drunk": "Borracho",
         "dead": "Muerto",
         "noability": "Sin habilidad",
-        "mad": "Enloquecido",
         "lunch": "Almuerzo"
     },
     "radial_menu": {
@@ -303,7 +302,9 @@
             "game_result": "{team} gana",
             "phase_started": "{phase} {number} empezó",
             "setup_started": "La configuración empezó",
-            "game_started": "La partida empezó"
+            "game_started": "La partida empezó",
+            "night_choice": "{name} ({role}) eligió a {targets}",
+            "night_choice_none": "{name} ({role}) no eligió a nadie"
         },
         "notes": {
             "title": "Notas",
@@ -556,6 +557,8 @@
         "start_game": "Empezar partida",
         "assign_progress": "{assigned} de {total} asientos sacados",
         "tap_seat_to_assign": "Tocá para asignar un jugador a este asiento",
+        "select_chosen_players": "Tocá a quien el/la {role} eligió",
+        "tonights_choice": "Elección de esta noche",
         "seat": "Asiento"
     },
     "draw_tokens": {

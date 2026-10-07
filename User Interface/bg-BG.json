@@ -84,9 +84,8 @@
     "status": {
         "poisoned": "Отровен",
         "drunk": "Пиян",
-        "dead": "Убит",
+        "dead": "Мъртъв",
         "noability": "Няма умение",
-        "mad": "Луд",
         "lunch": "Обяд"
     },
     "radial_menu": {
@@ -303,7 +302,9 @@
             "game_result": "{team} побеждава",
             "phase_started": "{phase} {number} — начало",
             "setup_started": "Настройката започна",
-            "game_started": "Играта започна"
+            "game_started": "Играта започна",
+            "night_choice": "{name} ({role}) посочи {targets}",
+            "night_choice_none": "{name} ({role}) не посочи никого"
         },
         "notes": {
             "title": "Бележки",
@@ -556,6 +557,8 @@
         "start_game": "Започни игра",
         "assign_progress": "{assigned} от {total} места изтеглени",
         "tap_seat_to_assign": "Натисни, за да зачислиш играч на това място",
+        "select_chosen_players": "Натисни когото посочи {role}",
+        "tonights_choice": "Изборът тази нощ",
         "seat": "Място"
     },
     "draw_tokens": {

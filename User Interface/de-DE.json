@@ -86,7 +86,6 @@
         "drunk": "Betrunken",
         "dead": "Tot",
         "noability": "Keine Fähigkeit",
-        "mad": "Besessen",
         "lunch": "Zuletzt hingerichtet"
     },
     "radial_menu": {
@@ -303,7 +302,9 @@
             "game_result": "{team} gewinnt",
             "phase_started": "{phase} {number} gestartet",
             "setup_started": "Setup gestartet",
-            "game_started": "Spiel gestartet"
+            "game_started": "Spiel gestartet",
+            "night_choice": "{name} ({role}) hat {targets} ausgewählt",
+            "night_choice_none": "{name} ({role}) hat niemanden ausgewählt"
         },
         "notes": {
             "title": "Notizen",
@@ -556,6 +557,8 @@
         "start_game": "Spiel starten",
         "assign_progress": "{assigned} von {total} Plätzen gezogen",
         "tap_seat_to_assign": "Tippen, um diesem Platz einen Spieler zuzuweisen",
+        "select_chosen_players": "Tippen, um zu markieren, wen der {role} ausgewählt hat",
+        "tonights_choice": "Wahl dieser Nacht",
         "seat": "Platz"
     },
     "draw_tokens": {

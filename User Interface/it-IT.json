@@ -86,7 +86,6 @@
         "drunk": "Ubriaco",
         "dead": "Morto",
         "noability": "Nessuna Abilità",
-        "mad": "Folle",
         "lunch": "Pranzo"
     },
     "radial_menu": {
@@ -303,7 +302,9 @@
             "game_result": "{team} vince",
             "phase_started": "Inizio {phase} {number}",
             "setup_started": "Inizio Configurazione",
-            "game_started": "Inizio Partita"
+            "game_started": "Inizio Partita",
+            "night_choice": "{name} ({role}) ha scelto {targets}",
+            "night_choice_none": "{name} ({role}) non ha scelto nessuno"
         },
         "notes": {
             "title": "Note",
@@ -556,6 +557,8 @@
         "start_game": "Inizia Partita",
         "assign_progress": "{assigned} di {total} posti pescati",
         "tap_seat_to_assign": "Tocca per assegnare un giocatore a questo posto",
+        "select_chosen_players": "Tocca chi il {role} ha scelto",
+        "tonights_choice": "Scelta di stanotte",
         "seat": "Posto"
     },
     "draw_tokens": {

@@ -85,8 +85,7 @@
     "poisoned": "Envenenado",
     "drunk": "Bêbado",
     "dead": "Morto",
-    "noability": "Sem Habilidade",
-    "mad": "Alucinando",
+    "noability": "Sem Abilidade",
     "lunch": "Habilidade adquirida"
   },
   "radial_menu": {
@@ -303,7 +302,9 @@
       "game_result": "{team} venceu",
       "phase_started": "{phase} {number} começous",
       "setup_started": "Setup iniciado",
-      "game_started": "Jogo iniciado"
+      "game_started": "Jogo iniciado",
+      "night_choice": "{name} ({role}) escolheu {targets}",
+      "night_choice_none": "{name} ({role}) não escolheu ninguém"
     },
     "notes": {
       "title": "Notas",
@@ -556,6 +557,8 @@
     "start_game": "Iniciar jogo",
     "assign_progress": "{assigned} de {total} assentos comprados",
     "tap_seat_to_assign": "Clique para designar um jogador para esse assento",
+    "select_chosen_players": "Toque em quem {role} escolheu",
+    "tonights_choice": "Escolha desta noite",
     "seat": "Assento"
   },
   "draw_tokens": {

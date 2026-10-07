@@ -275,7 +275,9 @@
             "game_result": "{team} gagne",
             "phase_started": "{phase} {number} a démarré",
             "setup_started": "La configuration a démarré",
-            "game_started": "Le jeu a démarré"
+            "game_started": "Le jeu a démarré",
+            "night_choice": "{name} ({role}) a choisi {targets}",
+            "night_choice_none": "{name} ({role}) n'a choisi personne"
         },
         "notes": {
             "title": "Notes",
@@ -422,9 +424,8 @@
     "status": {
         "poisoned": "Empoisonné",
         "drunk": "Ivre",
-        "dead": "Mort",
+        "dead": "Assassiné",
         "noability": "Sans capacité",
-        "mad": "Fou",
         "lunch": "Miam"
     },
     "radial_menu": {
@@ -556,6 +557,8 @@
         "start_game": "Démarrer le jeu",
         "assign_progress": "{assigned} sur {total} places tirées",
         "tap_seat_to_assign": "Appuyer pour assigner un joueur à cette place",
+        "select_chosen_players": "Toucher pour sélectionner les joueurs que le {role} a choisis",
+        "tonights_choice": "Choix de cette nuit",
         "seat": "Place"
     },
     "draw_tokens": {

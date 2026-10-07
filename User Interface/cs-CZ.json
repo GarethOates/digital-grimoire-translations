@@ -86,7 +86,6 @@
         "drunk": "Opilý",
         "dead": "Mrtvý",
         "noability": "Bez schopnosti",
-        "mad": "Posedlý",
         "lunch": "Dnes zemřel"
     },
     "radial_menu": {
@@ -303,7 +302,9 @@
             "game_result": "{team} vyhrává",
             "phase_started": "Začala {phase} {number}",
             "setup_started": "Nastavení zahájeno",
-            "game_started": "Hra začala"
+            "game_started": "Hra začala",
+            "night_choice": "{name} ({role}) vybral {targets}",
+            "night_choice_none": "{name} ({role}) nikoho nevybral"
         },
         "notes": {
             "title": "Poznámky",
@@ -556,6 +557,8 @@
         "start_game": "Spustit hru",
         "assign_progress": "{assigned} z {total} míst vylosováno",
         "tap_seat_to_assign": "Klepnutím přiřadíte hráče na toto místo",
+        "select_chosen_players": "Klepněte na ty, které vybral {role}",
+        "tonights_choice": "Dnešní noční volba",
         "seat": "Místo"
     },
     "draw_tokens": {

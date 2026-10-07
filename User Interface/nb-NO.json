@@ -275,7 +275,9 @@
             "game_result": "{team} vinner",
             "phase_started": "{phase} {number} startet",
             "setup_started": "Oppsett startet",
-            "game_started": "Spill startet"
+            "game_started": "Spill startet",
+            "night_choice": "{name} ({role}) valgte {targets}",
+            "night_choice_none": "{name} ({role}) valgte ingen"
         },
         "notes": {
             "title": "Notater",
@@ -424,7 +426,6 @@
         "drunk": "Full",
         "dead": "Død",
         "noability": "Uten evne",
-        "mad": "Manisk",
         "lunch": "Lunsj"
     },
     "radial_menu": {
@@ -556,6 +557,8 @@
         "start_game": "Start spill",
         "assign_progress": "{assigned} av {total} seter trukket",
         "tap_seat_to_assign": "Trykk for å tildele en spiller til dette setet",
+        "select_chosen_players": "Trykk på de som {role} valgte",
+        "tonights_choice": "Nattens valg",
         "seat": "Sete"
     },
     "draw_tokens": {

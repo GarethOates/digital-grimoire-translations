@@ -86,7 +86,6 @@
         "drunk": "Részeg",
         "dead": "Halott",
         "noability": "Nincs képessége",
-        "mad": "Rögeszmés",
         "lunch": "Kaja"
     },
     "radial_menu": {
@@ -303,7 +302,9 @@
             "game_result": "{team} nyer",
             "phase_started": "{phase} {number} kezdődött",
             "setup_started": "Előkészítés kezdődött",
-            "game_started": "Játék kezdődött"
+            "game_started": "Játék kezdődött",
+            "night_choice": "{name} ({role}) ezt választotta: {targets}",
+            "night_choice_none": "{name} ({role}) nem választott senkit"
         },
         "notes": {
             "title": "Jegyzetek",
@@ -556,6 +557,8 @@
         "start_game": "Játék indítása",
         "assign_progress": "{assigned}/{total} ülőhely húzva",
         "tap_seat_to_assign": "Koppints, hogy játékost rendelj ehhez az ülőhelyhez",
+        "select_chosen_players": "Koppints azokra, akiket a {role} választott",
+        "tonights_choice": "Mai éjszaka választása",
         "seat": "Ülőhely"
     },
     "draw_tokens": {
