@@ -18,8 +18,9 @@ Usage:
     validate_translations.py FILE [FILE ...] # gate the listed files
     validate_translations.py @list.txt       # gate paths listed one per line
 
-The @list form exists because 'User Interface/' contains a space, which makes
-piping `git diff --name-only` through a shell argument list unreliable.
+The @list form exists because 'User Interface/' and 'Player Companion/' contain a
+space, which makes piping `git diff --name-only` through a shell argument list
+unreliable.
 """
 
 import json
@@ -29,8 +30,10 @@ import sys
 
 ROLES_DIR = "Roles"
 UI_DIR = "User Interface"
+COMPANION_DIR = "Player Companion"
 BASE_ROLES = os.path.join(ROLES_DIR, "roles.json")
 BASE_UI = os.path.join(UI_DIR, "en-US.json")
+BASE_COMPANION = os.path.join(COMPANION_DIR, "en-US.json")
 
 # Entries every language file carries that are not characters: the night phase
 # bookends and the two info handouts. They are absent from roles.json but drive
@@ -134,11 +137,11 @@ def check_filename(path):
             )
             return
         region = name[3:5]
-    elif directory == UI_DIR:
+    elif directory in (UI_DIR, COMPANION_DIR):
         if not UI_NAME.match(name):
             error(
                 path,
-                f"'{name}' does not match the User Interface/ naming convention "
+                f"'{name}' does not match the {directory}/ naming convention "
                 "'xx-YY.json' (hyphen, lowercase language, uppercase region).",
             )
             return
@@ -293,19 +296,32 @@ def main():
         return 1
     base = flatten(base_data)
 
+    directories = [ROLES_DIR, UI_DIR]
+    companion_base = None
+    if os.path.isdir(COMPANION_DIR):
+        companion_data, problem = load_json(BASE_COMPANION)
+        if problem:
+            print(f"::error file={BASE_COMPANION}::{problem}")
+            return 1
+        companion_base = flatten(companion_data)
+        directories.append(COMPANION_DIR)
+
     targets = []
-    for directory in (ROLES_DIR, UI_DIR):
+    for directory in directories:
         for name in sorted(os.listdir(directory)):
             if name.endswith(".json"):
                 targets.append(os.path.join(directory, name))
 
     for path in targets:
         check_filename(path)
-        if rel(path) == BASE_UI:
+        if rel(path) in (BASE_UI, BASE_COMPANION):
             continue
-        if os.path.dirname(path) == ROLES_DIR:
+        directory = os.path.dirname(path)
+        if directory == ROLES_DIR:
             if os.path.basename(path) != "roles.json":
                 check_roles_file(path, canon)
+        elif directory == COMPANION_DIR:
+            check_ui_file(path, companion_base)
         else:
             check_ui_file(path, base)
 

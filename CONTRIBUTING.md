@@ -111,8 +111,9 @@ Please ensure you are making changes based on the latest version of the base rep
 | --- | --- | --- | --- |
 | `Roles/` | Character names, abilities, night reminders | `xx_YY.json` (**underscore**) | `fr_FR.json` |
 | `User Interface/` | Every string in the app itself | `xx-YY.json` (**hyphen**) | `fr-FR.json` |
+| `Player Companion/` | The page players open on their own phone: character sheets, joining a town, notes | `xx-YY.json` (**hyphen**) | `fr-FR.json` |
 
-The two folders genuinely use different separators — the app loads them through
+The folders genuinely use different separators — the app loads them through
 different systems. A file named with the wrong separator is silently ignored,
 so please copy the format of an existing file exactly.
 
@@ -128,6 +129,7 @@ Copy an existing pair of files and translate the values, never the keys.
 - For `Roles/`, **copy `Roles/hu_HU.json`**. It is the most up-to-date file and
   shows the current shape.
 - For `User Interface/`, copy `User Interface/en-US.json`.
+- For `Player Companion/`, copy `Player Companion/en-US.json`.
 
 ### What a complete file looks like
 
@@ -144,8 +146,9 @@ plus four entries that are not characters but still appear on the night sheet:
 Leaving these four out is the most common omission, and the result is a night
 sheet that switches to English mid-game.
 
-**`User Interface/` files** need every key that `User Interface/en-US.json`
-has. If a key is missing the app falls back to English for that one string.
+**`User Interface/` and `Player Companion/` files** need every key that the
+`en-US.json` in the same folder has. If a key is missing the app falls back to
+English for that one string.
 
 ### Two things that must match English exactly
 
