@@ -347,6 +347,7 @@
       "notify_nominated": "Nomeado",
       "notify_nominates": "Nomeando",
       "notify_marked_dead": "Morto",
+      "notify_player_chosen": "Escolhido",
       "notify_note": "Nota para mostrar com o alerta",
       "notify_recurring": "Alertar todas as vezes"
     },
@@ -734,7 +735,8 @@
   "notifications": {
     "nominated": "{player} o/a {role} foi nomeado",
     "nominates": "{player} o/a {role} está nomeando",
-    "marked_dead": "{player} o/a {role} foi marcado como morto"
+    "marked_dead": "{player} o/a {role} foi marcado como morto",
+    "player_chosen": "{player} o/a {role} foi escolhido durante a noite"
   },
   "splash": {
     "question": "Você está conduzindo o jogo ou jogando nele?",
@@ -979,7 +981,7 @@
         "body": "Escolha um personagem da lista. Tornar-se transforma este jogador nesse personagem. Ganhar Abilidade dá a ele a abilidade desse personagem além da sua própria (pense no Filósofo)."
       },
       "tok_notify": {
-        "body": "Receba um alerta quando este jogador for nomeado, nomear alguém ou morrer. Para mortes, escolha dia, noite ou ambos. Adicione uma nota para mostrar com o alerta e escolha se ele dispara toda vez ou só uma vez."
+        "body": "Receba um alerta quando este jogador for nomeado, nomear alguém, morrer ou for escolhido durante a noite. Para mortes, escolha dia, noite ou ambos. Adicione uma nota para mostrar com o alerta e escolha se ele dispara toda vez ou só uma vez."
       }
     },
     "account": {

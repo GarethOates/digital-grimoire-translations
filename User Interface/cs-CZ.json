@@ -347,6 +347,7 @@
             "notify_nominated": "Nominován",
             "notify_nominates": "Nominující",
             "notify_marked_dead": "Mrtvý",
+            "notify_player_chosen": "Vybraný",
             "notify_note": "Poznámka k upozornění",
             "notify_recurring": "Upozornit pokaždé"
         },
@@ -734,7 +735,8 @@
     "notifications": {
         "nominated": "{player} ({role}) byl nominován",
         "nominates": "{player} ({role}) nominuje",
-        "marked_dead": "{player} ({role}) byl označen jako mrtvý"
+        "marked_dead": "{player} ({role}) byl označen jako mrtvý",
+        "player_chosen": "{player} ({role}) byl v noci vybrán"
     },
     "splash": {
         "question": "Vedete hru, nebo v ní hrajete?",
@@ -979,7 +981,7 @@
                 "body": "Vyberte roli ze seznamu. Stát se promění tohoto hráče v tuto roli. Získat schopnost mu dá schopnost této role navíc k jeho vlastní (představte si Filozofa)."
             },
             "tok_notify": {
-                "body": "Dostanete upozornění, když je tento hráč nominován, někoho nominuje nebo zemře. U úmrtí vyberte den, noc, nebo obojí. Přidejte poznámku, která se zobrazí s upozorněním, a vyberte, zda se spustí pokaždé, nebo jen jednou."
+                "body": "Dostanete upozornění, když je tento hráč nominován, někoho nominuje, zemře nebo je v noci vybrán. U úmrtí vyberte den, noc, nebo obojí. Přidejte poznámku, která se zobrazí s upozorněním, a vyberte, zda se spustí pokaždé, nebo jen jednou."
             }
         },
         "account": {

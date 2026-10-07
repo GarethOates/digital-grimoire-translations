@@ -320,6 +320,7 @@
             "notify_nominated": "Nominé",
             "notify_nominates": "Nominant",
             "notify_marked_dead": "Mort",
+            "notify_player_chosen": "Choisi",
             "notify_note": "Note pour la notification",
             "notify_recurring": "Notifier à chaque fois"
         },
@@ -734,7 +735,8 @@
     "notifications": {
         "nominated": "{player} le {role} a été nominé",
         "nominates": "{player} le {role} nomine",
-        "marked_dead": "{player} le {role} a été marqué comme mort"
+        "marked_dead": "{player} le {role} a été marqué comme mort",
+        "player_chosen": "{player} le {role} a été choisi pendant la nuit"
     },
     "splash": {
         "question": "Dirigez-vous la partie, ou y jouez-vous ?",
@@ -979,7 +981,7 @@
                 "body": "Choisissez un rôle dans la liste. Devenir transforme ce joueur en ce rôle. Obtenir une capacité lui donne la capacité de ce rôle en plus de la sienne (pensez au Philosophe)."
             },
             "tok_notify": {
-                "body": "Recevez une alerte quand ce joueur est nominé, nomine quelqu'un ou meurt. Pour les morts, choisissez jour, nuit ou les deux. Ajoutez une note à afficher avec l'alerte, et choisissez si elle se déclenche à chaque fois ou une seule fois."
+                "body": "Recevez une alerte quand ce joueur est nominé, nomine quelqu'un, meurt ou est choisi pendant la nuit. Pour les morts, choisissez jour, nuit ou les deux. Ajoutez une note à afficher avec l'alerte, et choisissez si elle se déclenche à chaque fois ou une seule fois."
             }
         },
         "account": {

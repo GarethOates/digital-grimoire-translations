@@ -347,6 +347,7 @@
             "notify_nominated": "Meggyanúsítva",
             "notify_nominates": "Gyanúsító",
             "notify_marked_dead": "Halott",
+            "notify_player_chosen": "Kiválasztva",
             "notify_note": "Jegyzet az értesítéshez",
             "notify_recurring": "Értesítés minden alkalommal"
         },
@@ -734,7 +735,8 @@
     "notifications": {
         "nominated": "{player} ({role}) meg lett gyanúsítva",
         "nominates": "{player} ({role}) gyanúsít",
-        "marked_dead": "{player} ({role}) halottnak lett jelölve"
+        "marked_dead": "{player} ({role}) halottnak lett jelölve",
+        "player_chosen": "{player} ({role}) ki lett választva éjszaka"
     },
     "splash": {
         "question": "Te vezeted a játékot, vagy játszol benne?",
@@ -979,7 +981,7 @@
                 "body": "Válassz egy karaktert a listából. Az Átváltoztat ezzé a karakterré változtatja ezt a játékost. A Képesség szerzése megadja neki ennek a karakternek a képességét a sajátja mellé (gondolj a Filozófusra)."
             },
             "tok_notify": {
-                "body": "Kapj értesítést, ha ezt a játékost meggyanúsítják, ő gyanúsít valakit, vagy meghal. Halálnál válaszd a nappalt, az éjszakát vagy mindkettőt. Adj hozzá jegyzetet, amely megjelenik az értesítéssel, és válaszd ki, hogy minden alkalommal vagy csak egyszer jelenjen-e meg."
+                "body": "Kapj értesítést, ha ezt a játékost meggyanúsítják, ő gyanúsít valakit, meghal, vagy éjszaka kiválasztják. Halálnál válaszd a nappalt, az éjszakát vagy mindkettőt. Adj hozzá jegyzetet, amely megjelenik az értesítéssel, és válaszd ki, hogy minden alkalommal vagy csak egyszer jelenjen-e meg."
             }
         },
         "account": {

@@ -347,6 +347,7 @@
             "notify_nominated": "Nominiert",
             "notify_nominates": "Nominierend",
             "notify_marked_dead": "Tot",
+            "notify_player_chosen": "Gewählt",
             "notify_note": "Notiz für die Benachrichtigung",
             "notify_recurring": "Jedes Mal benachrichtigen"
         },
@@ -734,7 +735,8 @@
     "notifications": {
         "nominated": "{player} der {role} wurde nominiert",
         "nominates": "{player} der {role} nominiert",
-        "marked_dead": "{player} der {role} wurde als tot markiert"
+        "marked_dead": "{player} der {role} wurde als tot markiert",
+        "player_chosen": "{player} der {role} wurde in der Nacht gewählt"
     },
     "splash": {
         "question": "Leiten Sie das Spiel, oder spielen Sie mit?",
@@ -979,7 +981,7 @@
                 "body": "Wähle eine Rolle aus der Liste. Werden verwandelt diesen Spieler in diese Rolle. Fähigkeit erhalten gibt ihm die Fähigkeit dieser Rolle zusätzlich zu seiner eigenen (denk an den Philosophen)."
             },
             "tok_notify": {
-                "body": "Erhalte eine Benachrichtigung, wenn dieser Spieler nominiert wird, jemanden nominiert oder stirbt. Bei Toden wähle Tag, Nacht oder beides. Füge eine Notiz hinzu, die mit der Benachrichtigung erscheint, und wähle, ob sie jedes Mal oder nur einmal ausgelöst wird."
+                "body": "Erhalte eine Benachrichtigung, wenn dieser Spieler nominiert wird, jemanden nominiert, stirbt oder in der Nacht gewählt wird. Bei Toden wähle Tag, Nacht oder beides. Füge eine Notiz hinzu, die mit der Benachrichtigung erscheint, und wähle, ob sie jedes Mal oder nur einmal ausgelöst wird."
             }
         },
         "account": {

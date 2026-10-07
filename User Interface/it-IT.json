@@ -347,6 +347,7 @@
             "notify_nominated": "Nominato",
             "notify_nominates": "Nominante",
             "notify_marked_dead": "Morto",
+            "notify_player_chosen": "Scelto",
             "notify_note": "Nota per la notifica",
             "notify_recurring": "Notifica ogni volta"
         },
@@ -734,7 +735,8 @@
     "notifications": {
         "nominated": "{player} il {role} è stato nominato",
         "nominates": "{player} il {role} sta nominando",
-        "marked_dead": "{player} il {role} è stato segnato come morto"
+        "marked_dead": "{player} il {role} è stato segnato come morto",
+        "player_chosen": "{player} il {role} è stato scelto di notte"
     },
     "splash": {
         "question": "Stai conducendo la partita o ci stai giocando?",
@@ -979,7 +981,7 @@
                 "body": "Scegli un ruolo dall'elenco. Diventa trasforma questo giocatore in quel ruolo. Ottieni Abilità gli dà l'abilità di quel ruolo oltre alla sua (pensa al Filosofo)."
             },
             "tok_notify": {
-                "body": "Ricevi un avviso quando questo giocatore viene nominato, nomina qualcuno o muore. Per le morti, scegli giorno, notte o entrambi. Aggiungi una nota da mostrare con l'avviso e scegli se scatta ogni volta o solo una volta."
+                "body": "Ricevi un avviso quando questo giocatore viene nominato, nomina qualcuno, muore o viene scelto di notte. Per le morti, scegli giorno, notte o entrambi. Aggiungi una nota da mostrare con l'avviso e scegli se scatta ogni volta o solo una volta."
             }
         },
         "account": {
