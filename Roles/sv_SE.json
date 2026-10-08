@@ -973,10 +973,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Varje natt väljer du en spelare (inte dig själv eller Resenärer); du får veta 1 god och 1 ond roll som hen kan vara.",
-        "special": null,
-        "remindersGlobal": [
-            "Śniączka wskazuje gracza. Pokaż 1 token dobrej postaci i 1 złej"
-        ]
+        "special": null
     },
     {
         "id": "snakecharmer",
@@ -2109,10 +2106,7 @@
         ],
         "setup": false,
         "ability": "Om mer än 1 god spelare avrättas vinner de onda. Alla spelare vet att du är i spel. Efter dag 5 vinner de onda.",
-        "special": null,
-        "remindersGlobal": [
-            "Zmień token przypomnienia Dnia Lewiatana na następny dzień."
-        ]
+        "special": null
     },
     {
         "id": "riot",

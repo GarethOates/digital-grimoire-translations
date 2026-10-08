@@ -973,10 +973,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Щоночі обирай гравця (окрім себе й Мандрівників) і дізнайтеся одного доброго й одного злого персонажа; один з них правильний.",
-        "special": null,
-        "remindersGlobal": [
-            "Śniączka wskazuje gracza. Pokaż 1 token dobrej postaci i 1 złej"
-        ]
+        "special": null
     },
     {
         "id": "snakecharmer",
@@ -2109,10 +2106,7 @@
         ],
         "setup": false,
         "ability": "Як більше одного доброго гравця страчено - зло перемагає. Всі гравці знають що ти в грі. Наприкінці 5-го дня зло перемагає.",
-        "special": null,
-        "remindersGlobal": [
-            "Zmień token przypomnienia Dnia Lewiatana na następny dzień."
-        ]
+        "special": null
     },
     {
         "id": "riot",

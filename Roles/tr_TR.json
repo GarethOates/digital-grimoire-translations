@@ -973,10 +973,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Her gece, bir oyuncu seçin (kendiniz veya Gezginler hariç): 1 iyi ve 1 kötü karakter öğrenirsiniz, bunlardan biri doğrudur.",
-        "special": null,
-        "remindersGlobal": [
-            "Śniączka wskazuje gracza. Pokaż 1 token dobrej postaci i 1 złej"
-        ]
+        "special": null
     },
     {
         "id": "snakecharmer",
@@ -2109,10 +2106,7 @@
         ],
         "setup": false,
         "ability": "1'den fazla iyi oyuncu idam edilirse, siz kazanırsınız. Tüm oyuncular oyunda olduğunuzu bilir. 5. günden sonra, kötüler kazanır.",
-        "special": null,
-        "remindersGlobal": [
-            "Zmień token przypomnienia Dnia Lewiatana na następny dzień."
-        ]
+        "special": null
     },
     {
         "id": "riot",

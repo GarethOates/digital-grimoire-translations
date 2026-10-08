@@ -973,10 +973,7 @@
         "reminders": [],
         "setup": false,
         "ability": "ในทุกคืน เลือกผู้เล่นหนึ่งคน (ห้ามเลือกตัวเอง) คุณจะรู้หนึ่งตัวละครดีและหนึ่งตัวละครร้าย มีข้อใดข้อหนึ่งถูก",
-        "special": null,
-        "remindersGlobal": [
-            "Śniączka wskazuje gracza. Pokaż 1 token dobrej postaci i 1 złej"
-        ]
+        "special": null
     },
     {
         "id": "snakecharmer",
@@ -2109,10 +2106,7 @@
         ],
         "setup": false,
         "ability": "ถ้าผู้เล่นฝ่ายดีถูกประหารมากกว่าหนึ่งคน, ฝ่ายร้ายชนะ ทุกคนรู้ว่าเลวีอาธานอยู่ในเกม เมื่อจบวันที่ 5, ฝ่ายร้ายชนะ",
-        "special": null,
-        "remindersGlobal": [
-            "Zmień token przypomnienia Dnia Lewiatana na następny dzień."
-        ]
+        "special": null
     },
     {
         "id": "riot",

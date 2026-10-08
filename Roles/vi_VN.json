@@ -973,10 +973,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Mỗi đêm, chọn 1 người (không phải mình hay Lữ Khách): được biết 1 chức năng tốt và 1 chức năng xấu, 1 trong số đó là đúng.",
-        "special": null,
-        "remindersGlobal": [
-            "Śniączka wskazuje gracza. Pokaż 1 token dobrej postaci i 1 złej"
-        ]
+        "special": null
     },
     {
         "id": "snakecharmer",
@@ -2109,10 +2106,7 @@
         ],
         "setup": false,
         "ability": "Nếu nhiều hơn 1 người tốt bị hành quyết, bạn thắng. Tất cả người biết bạn trong cuộc. Sau ngày 5, xấu thắng.",
-        "special": null,
-        "remindersGlobal": [
-            "Zmień token przypomnienia Dnia Lewiatana na następny dzień."
-        ]
+        "special": null
     },
     {
         "id": "riot",

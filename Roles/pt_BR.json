@@ -973,10 +973,7 @@
         "reminders": [],
         "setup": false,
         "ability": "A cada noite, escolha um jogador (exceto você ou Viajantes): aprenda 1 personagem do bem e 1 do mal, um deles corresponde ao jogador escolhido.",
-        "special": null,
-        "remindersGlobal": [
-            "Śniączka wskazuje gracza. Pokaż 1 token dobrej postaci i 1 złej"
-        ]
+        "special": null
     },
     {
         "id": "snakecharmer",
@@ -2109,10 +2106,7 @@
         ],
         "setup": false,
         "ability": "Se mais de um jogador do bem for executado, o Mal vence. Todos sabem que você está em jogo. Após o dia 5, o Mal vence.",
-        "special": null,
-        "remindersGlobal": [
-            "Zmień token przypomnienia Dnia Lewiatana na następny dzień."
-        ]
+        "special": null
     },
     {
         "id": "riot",

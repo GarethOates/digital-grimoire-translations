@@ -973,10 +973,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Każdej nocy wybierz gracza (nie siebie, nie Podróżnego). Zobaczysz 1 dobrą i 1 złą postać, jedna z nich jest prawdziwa.",
-        "special": null,
-        "remindersGlobal": [
-            "Śniączka wskazuje gracza. Pokaż 1 token dobrej postaci i 1 złej"
-        ]
+        "special": null
     },
     {
         "id": "snakecharmer",
@@ -2109,10 +2106,7 @@
         ],
         "setup": false,
         "ability": "Jeśli więcej niż 1 dobry gracz zostanie stracony, wygrywasz. Wszyscy gracze wiedzą, że jesteś w grze. Po piątym dniu zło zwycięża.",
-        "special": null,
-        "remindersGlobal": [
-            "Zmień token przypomnienia Dnia Lewiatana na następny dzień."
-        ]
+        "special": null
     },
     {
         "id": "riot",

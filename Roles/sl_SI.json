@@ -973,10 +973,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Vsako noč izbereš enega igralca (ne sebe ali Popotnika). Izveš dve vlogi, eno dobro in eno zlobno, ena izmed katerih je prava.",
-        "special": null,
-        "remindersGlobal": [
-            "Śniączka wskazuje gracza. Pokaż 1 token dobrej postaci i 1 złej"
-        ]
+        "special": null
     },
     {
         "id": "snakecharmer",
@@ -2109,10 +2106,7 @@
         ],
         "setup": false,
         "ability": "Če usmrtite več kot enega dobrega igralca, zlo zmaga. Ko se peti dan konča, zlo zmaga. Vsi igralci vedo, da si v igri.",
-        "special": null,
-        "remindersGlobal": [
-            "Zmień token przypomnienia Dnia Lewiatana na następny dzień."
-        ]
+        "special": null
     },
     {
         "id": "riot",
