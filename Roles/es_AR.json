@@ -1110,8 +1110,7 @@
             }
         ],
         "remindersGlobal": [
-            "Es el Filósofo",
-            "Borracho"
+            "Es el Filósofo"
         ]
     },
     {
@@ -1900,10 +1899,7 @@
         ],
         "setup": false,
         "ability": "En tu 1era noche, mirá el Grimorio y elegí un jugador: está envenenado. 1 jugador bueno sabe que la Viuda está en juego.",
-        "special": null,
-        "remindersGlobal": [
-            "Sabe"
-        ]
+        "special": null
     },
     {
         "id": "fearmonger",

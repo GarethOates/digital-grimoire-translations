@@ -275,7 +275,7 @@
             }
         ],
         "remindersGlobal": [
-            "Betrunken"
+            "On Juoppo"
         ]
     },
     {
@@ -1110,8 +1110,7 @@
             }
         ],
         "remindersGlobal": [
-            "ist der Philosoph",
-            "Betrunken"
+            "On Filosofi"
         ]
     },
     {
@@ -1685,7 +1684,7 @@
             }
         ],
         "remindersGlobal": [
-            "Ist der Alchemist"
+            "On Alkemisti"
         ]
     },
     {
@@ -1900,10 +1899,7 @@
         ],
         "setup": false,
         "ability": "1. yönäsi, katso Loitsukirjaa & valitse pelaaja: tämä on myrkytetty. 1 hyvä pelaaja tietää, että Leski on pelissä.",
-        "special": null,
-        "remindersGlobal": [
-            "Kennt die Witwe"
-        ]
+        "special": null
     },
     {
         "id": "fearmonger",
@@ -1991,7 +1987,7 @@
             }
         ],
         "remindersGlobal": [
-            "Ist die Marionette"
+            "On Sätkynukke"
         ]
     },
     {
@@ -2031,8 +2027,8 @@
             }
         ],
         "remindersGlobal": [
-            "Tot",
-            "Ist der Dämon"
+            "Kuollut",
+            "On demoni"
         ]
     },
     {

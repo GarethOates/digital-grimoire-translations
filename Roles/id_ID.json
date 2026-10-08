@@ -547,7 +547,7 @@
         "otherNight": 16,
         "otherNightReminder": "Gambler menunjuk ke seorang pemain, dan karakter di list lembar karakter mereka. Jika salah, Gambler mati.",
         "reminders": [
-            "Mort"
+            "Mati"
         ],
         "setup": false,
         "ability": "Setiap malam*, pilih seorang pemain & tebak karakternya: jika tebakanmu salah, kamu mati.",
@@ -1110,8 +1110,7 @@
             }
         ],
         "remindersGlobal": [
-            "Is the Philosopher",
-            "Drunk"
+            "Is the Philosopher"
         ]
     },
     {
@@ -1900,10 +1899,7 @@
         ],
         "setup": false,
         "ability": "Pada malam pertama, lihat Grimoire dan pilih seorang pemain: mereka diracuni. 1 pemain baik tahu bahwa seorang Widow ada dalam permainan.",
-        "special": null,
-        "remindersGlobal": [
-            "Knows"
-        ]
+        "special": null
     },
     {
         "id": "fearmonger",

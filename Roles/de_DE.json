@@ -1110,8 +1110,7 @@
             }
         ],
         "remindersGlobal": [
-            "ist der Philosoph",
-            "Betrunken"
+            "ist der Philosoph"
         ]
     },
     {
@@ -1900,10 +1899,7 @@
         ],
         "setup": false,
         "ability": "Schaue in deiner ersten Nacht in das Grimoire & wähle 1 Spieler: Er ist vergiftet. 1 guter Spieler weiß, dass die Witwe im Spiel ist.",
-        "special": null,
-        "remindersGlobal": [
-            "Kennt die Witwe"
-        ]
+        "special": null
     },
     {
         "id": "fearmonger",

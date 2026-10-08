@@ -1110,8 +1110,7 @@
             }
         ],
         "remindersGlobal": [
-            "is de Filosoof",
-            "Dronken"
+            "is de Filosoof"
         ]
     },
     {
@@ -1900,10 +1899,7 @@
         ],
         "setup": false,
         "ability": "Kijk in je eerste nacht in het Grimoire en kies 1 speler: hij is vergiftigd. 1 goede speler weet dat de Weduwe in het spel is.",
-        "special": null,
-        "remindersGlobal": [
-            "Kent de weduwe"
-        ]
+        "special": null
     },
     {
         "id": "fearmonger",

@@ -1110,8 +1110,7 @@
             }
         ],
         "remindersGlobal": [
-            "Er Filosofen",
-            "Full"
+            "Er Filosofen"
         ]
     },
     {
@@ -1900,10 +1899,7 @@
         ],
         "setup": false,
         "ability": "Under den fyrste natta di, sjå inn i Boka & vel ein spelar: dei vert forgifta. 1 god spelar veit at ei Enke er i spel.",
-        "special": null,
-        "remindersGlobal": [
-            "Veit"
-        ]
+        "special": null
     },
     {
         "id": "fearmonger",
@@ -2391,7 +2387,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Amico"
+            "Venn"
         ],
         "setup": false,
         "ability": "Under den første natta din, vel ein spelar utanom deg sjølv: du får lojaliteten deira (sjølv når du er full eller forgifta), men veit ikkje kva han er.",

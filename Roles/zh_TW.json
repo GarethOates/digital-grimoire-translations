@@ -1110,8 +1110,7 @@
             }
         ],
         "remindersGlobal": [
-            "是哲學家",
-            "醉酒"
+            "是哲學家"
         ]
     },
     {
@@ -1900,10 +1899,7 @@
         ],
         "setup": false,
         "ability": "在你的第一晚，查看魔典並且選擇一位玩家，該玩家中毒。一位好人玩家知道寡婦在遊戲中。",
-        "special": null,
-        "remindersGlobal": [
-            "得知寡婦"
-        ]
+        "special": null
     },
     {
         "id": "fearmonger",

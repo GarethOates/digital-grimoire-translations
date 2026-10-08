@@ -1110,8 +1110,7 @@
             }
         ],
         "remindersGlobal": [
-            "É o Filósofo",
-            "Bêbado"
+            "É o Filósofo"
         ]
     },
     {
@@ -1900,10 +1899,7 @@
         ],
         "setup": false,
         "ability": "Na sua primeira noite, veja o Grimório e escolha um jogador: ele fica envenenado. 1 jogador do bem sabe que a Viúva está em jogo.",
-        "special": null,
-        "remindersGlobal": [
-            "Sabe"
-        ]
+        "special": null
     },
     {
         "id": "fearmonger",

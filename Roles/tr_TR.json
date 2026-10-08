@@ -1110,8 +1110,7 @@
             }
         ],
         "remindersGlobal": [
-            "Filozof",
-            "Sarhoş"
+            "Filozof"
         ]
     },
     {
@@ -1900,10 +1899,7 @@
         ],
         "setup": false,
         "ability": "İlk gecenizde, Grimoire'a bakın ve bir oyuncu seçin: o zehirlenir. 1 iyi oyuncu bir Dul'un oyunda olduğunu bilir.",
-        "special": null,
-        "remindersGlobal": [
-            "Bilir"
-        ]
+        "special": null
     },
     {
         "id": "fearmonger",
@@ -2391,7 +2387,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "เพื่อน"
+            "Arkadaş"
         ],
         "setup": false,
         "ability": "İlk gecenizde, bir oyuncu seçin (kendiniz değil): sarhoş veya zehirlenmiş olsanız bile onların bağlılığına geçersiniz (hangisi olduğunu bilmiyorsunuz).",

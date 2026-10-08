@@ -1110,8 +1110,7 @@
             }
         ],
         "remindersGlobal": [
-            "jest Filozofem",
-            "Pijany"
+            "jest Filozofem"
         ]
     },
     {
@@ -1900,10 +1899,7 @@
         ],
         "setup": false,
         "ability": "Pierwszej nocy zajrzyj do Grymuaru i wybierz gracza: jest zatruty. 1 dobry gracz wie, że w grze jest Wdowa.",
-        "special": null,
-        "remindersGlobal": [
-            "Znany"
-        ]
+        "special": null
     },
     {
         "id": "fearmonger",
@@ -2097,12 +2093,12 @@
         "otherNight": 90,
         "otherNightReminder": "to jest Dzień 1.'",
         "reminders": [
-            "Dag 1",
-            "Dag 2",
-            "Dag 3",
-            "Dag 4",
-            "Dag 5",
-            "God spelar avretta"
+            "Dzień 1",
+            "Dzień 2",
+            "Dzień 3",
+            "Dzień 4",
+            "Dzień 5",
+            "Dobry gracz został stracony"
         ],
         "setup": false,
         "ability": "Jeśli więcej niż 1 dobry gracz zostanie stracony, wygrywasz. Wszyscy gracze wiedzą, że jesteś w grze. Po piątym dniu zło zwycięża.",

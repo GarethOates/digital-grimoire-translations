@@ -1110,8 +1110,7 @@
             }
         ],
         "remindersGlobal": [
-            "là Triết gia",
-            "Say"
+            "là Triết gia"
         ]
     },
     {
@@ -1900,10 +1899,7 @@
         ],
         "setup": false,
         "ability": "Trong đêm đầu của bạn, nhìn Grimore & chọn 1 người: họ bị trúng độc. 1 người tốt biết có Góa phụ trong cuộc.",
-        "special": null,
-        "remindersGlobal": [
-            "Biết"
-        ]
+        "special": null
     },
     {
         "id": "fearmonger",

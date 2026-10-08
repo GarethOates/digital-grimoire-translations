@@ -1110,8 +1110,7 @@
             }
         ],
         "remindersGlobal": [
-            "È il Filosofo",
-            "Ubriaco"
+            "È il Filosofo"
         ]
     },
     {
@@ -1900,10 +1899,7 @@
         ],
         "setup": false,
         "ability": "Nella tua prima notte, guarda il Grimorio e scegli un giocatore: è avvelenato. 1 giocatore buono sa che la Vedova è in gioco.",
-        "special": null,
-        "remindersGlobal": [
-            "Conosce"
-        ]
+        "special": null
     },
     {
         "id": "fearmonger",

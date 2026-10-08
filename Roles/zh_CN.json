@@ -1110,8 +1110,7 @@
             }
         ],
         "remindersGlobal": [
-            "是哲学家",
-            "醉酒"
+            "是哲学家"
         ]
     },
     {
@@ -1900,10 +1899,7 @@
         ],
         "setup": false,
         "ability": "在你的首个夜晚，你能查看魔典并选择一名玩家：他中毒。随后，始终会有一名善良玩家知道寡妇在场。",
-        "special": null,
-        "remindersGlobal": [
-            "被知晓"
-        ]
+        "special": null
     },
     {
         "id": "fearmonger",

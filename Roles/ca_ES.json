@@ -2079,9 +2079,7 @@
         "team": "minion",
         "firstNightReminder": "Mostra el grimori a la Vídua tant de temps com ho necessiti. La Vídua tria un jugador. :reminder: Adorm la Vídua. Desperta el jugador marcat com a *HO SAP* i mostra-li la fitxa de la Vídua. :reminder:",
         "reminders": [
-            "Emmetzinat"
-        ],
-        "remindersGlobal": [
+            "Emmetzinat",
             "Ho sap"
         ],
         "setup": false,
@@ -3183,6 +3181,7 @@
         "reminders": [
             "Sobri i sa",
             "Habilitat doble",
+            "?",
             "?"
         ],
         "setup": false,
@@ -3196,6 +3195,7 @@
         "team": "traveller",
         "otherNightReminder": "La Meretriu tria un jugador viu. Adorm la Meretriu. Desperta el jugador triat, mostra-li la targeta *AQUEST PERSONATGE T’HA SELECCIONAT* i la fitxa de la Meretriu. Si el jugador assenteix, desperta la Meretriu i mostra-li la fitxa de personatge del jugador triat. Tots dos jugadors podrien morir. :reminder: :reminder:",
         "reminders": [
+            "Mort",
             "Mort"
         ],
         "setup": false,
@@ -3500,7 +3500,9 @@
     {
         "id": "revolutionary",
         "reminders": [
-            "Percebut falsament?"
+            "Percebut falsament?",
+            "Mateix bàndol",
+            "Mateix bàndol"
         ],
         "setup": false,
         "name": "Revolucionari",

@@ -1110,8 +1110,7 @@
             }
         ],
         "remindersGlobal": [
-            "Är Filosofen",
-            "Full"
+            "Är Filosofen"
         ]
     },
     {
@@ -1900,10 +1899,7 @@
         ],
         "setup": false,
         "ability": "Din första natt ser du Spelboken och väljer en spelare; hen blir förgiftad. 1 god spelare vet att Änkan är i spel.",
-        "special": null,
-        "remindersGlobal": [
-            "Vet"
-        ]
+        "special": null
     },
     {
         "id": "fearmonger",

@@ -1110,8 +1110,7 @@
             }
         ],
         "remindersGlobal": [
-            "Je filozof",
-            "Pijan"
+            "Je filozof"
         ]
     },
     {
@@ -1900,10 +1899,7 @@
         ],
         "setup": false,
         "ability": "Prvo noč lahko pogledaš v Pripovedovalčevo Buklo in zastrupiš enega igralca. En dober igralec ve, da je Vdova v igri.",
-        "special": null,
-        "remindersGlobal": [
-            "Videl Vdovo"
-        ]
+        "special": null
     },
     {
         "id": "fearmonger",
