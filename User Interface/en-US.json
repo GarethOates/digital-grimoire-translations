@@ -378,7 +378,6 @@
             "saved_games": "Saved Games",
             "homebrew_scripts": "Published Scripts",
             "no_homebrew_scripts": "You haven't added any homebrew scripts to search yet.",
-            "created": "Created",
             "delete_saved_game": "Delete saved game",
             "no_games_saved": "No games saved yet.",
             "friends": "Friends",
@@ -392,10 +391,15 @@
             "prefs_display": "Display",
             "prefs_player_info": "Player Info",
             "load_disabled_in_game": "Can't load while a game is in progress",
-            "delete_game_confirmation_title": "Delete Saved Game",
-            "delete_game_confirmation_message": "Are you sure you want to delete <strong>{name}</strong>? This action cannot be undone.",
             "login_sync_message": "Log in to sync your favourite scripts, friends list, and saved games across all your devices.",
-            "prefs_token_info": "Token Info"
+            "prefs_token_info": "Token Info",
+            "edit_tags": "Edit tags",
+            "sort": "Sort",
+            "sort_name": "A to Z",
+            "sort_recent": "Most recent",
+            "no_matches": "Nothing matches your search.",
+            "removed": "{name} removed",
+            "undo": "Undo"
         },
         "background": {
             "title": "Edit Background",
@@ -438,6 +442,10 @@
         "import_game": {
             "title": "Import Game",
             "message": "Replace your current game with the imported one? Your current game will be lost."
+        },
+        "saved_alerts": {
+            "title": "Notifications",
+            "empty": "No saved notifications yet."
         }
     },
     "roles": {
