@@ -378,7 +378,6 @@
             "saved_games": "Mentett játékok",
             "homebrew_scripts": "Közzétett szkriptek",
             "no_homebrew_scripts": "Még nem adtál hozzá saját készítésű szkriptet a kereséshez.",
-            "created": "Létrehozva",
             "delete_saved_game": "Mentett játék törlése",
             "no_games_saved": "Még nincs mentett játék.",
             "friends": "Barátok",
@@ -392,10 +391,19 @@
             "prefs_display": "Megjelenítés",
             "prefs_player_info": "Játékos adatok",
             "load_disabled_in_game": "Játék közben nem lehet betölteni",
-            "delete_game_confirmation_title": "Mentett játék törlése",
-            "delete_game_confirmation_message": "Biztos, hogy törölni szeretnéd ezt: <strong>{name}</strong>? Ez a művelet nem visszavonható.",
             "login_sync_message": "Jelentkezz be, hogy szinkronizáld a kedvenc szkripteidet, a barátlistádat és a mentett játékaidat az összes eszközödön.",
-            "prefs_token_info": "Token információ"
+            "prefs_token_info": "Token információ",
+            "edit_tags": "Címkék szerkesztése",
+            "sort": "Rendezés",
+            "sort_name": "A-tól Z-ig",
+            "sort_recent": "Legutóbbi",
+            "no_matches": "Nincs a keresésnek megfelelő találat.",
+            "removed": "{name} eltávolítva",
+            "undo": "Visszavonás"
+        },
+        "saved_alerts": {
+            "title": "Értesítések",
+            "empty": "Még nincsenek mentett értesítések."
         },
         "background": {
             "title": "Háttérkép váltása",

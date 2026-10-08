@@ -378,7 +378,6 @@
             "saved_games": "Partite Salvate",
             "homebrew_scripts": "Copioni pubblicati",
             "no_homebrew_scripts": "Non hai ancora aggiunto copioni homebrew alla ricerca.",
-            "created": "Creato",
             "delete_saved_game": "Elimina partita salvata",
             "no_games_saved": "Nessuna partita salvata.",
             "friends": "Amici",
@@ -392,10 +391,19 @@
             "prefs_display": "Visualizzazione",
             "prefs_player_info": "Info Giocatore",
             "load_disabled_in_game": "Impossibile caricare durante una partita in corso",
-            "delete_game_confirmation_title": "Elimina Partita Salvata",
-            "delete_game_confirmation_message": "Sei sicuro di voler eliminare <strong>{name}</strong>? Questa azione non può essere annullata.",
             "login_sync_message": "Accedi per sincronizzare i tuoi copioni preferiti, la lista degli amici e le partite salvate su tutti i tuoi dispositivi.",
-            "prefs_token_info": "Info Token"
+            "prefs_token_info": "Info Token",
+            "edit_tags": "Modifica tag",
+            "sort": "Ordina",
+            "sort_name": "Dalla A alla Z",
+            "sort_recent": "Più recenti",
+            "no_matches": "Nessun risultato per la tua ricerca.",
+            "removed": "{name} rimosso",
+            "undo": "Annulla"
+        },
+        "saved_alerts": {
+            "title": "Notifiche",
+            "empty": "Ancora nessuna notifica salvata."
         },
         "background": {
             "title": "Modifica Sfondo",

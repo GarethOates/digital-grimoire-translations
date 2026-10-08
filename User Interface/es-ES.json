@@ -378,7 +378,6 @@
             "saved_games": "Juegos Guardados",
             "homebrew_scripts": "Guiones publicados",
             "no_homebrew_scripts": "Aún no has añadido ningún guion homebrew a la búsqueda.",
-            "created": "Creado",
             "delete_saved_game": "Eliminar juego guardado",
             "no_games_saved": "Ningún juego guardado todavía.",
             "friends": "Amigos",
@@ -392,10 +391,19 @@
             "prefs_display": "Pantalla",
             "prefs_player_info": "Info del Jugador",
             "load_disabled_in_game": "No se puede cargar durante una partida en curso",
-            "delete_game_confirmation_title": "Eliminar Juego Guardado",
-            "delete_game_confirmation_message": "¿Estás seguro de que quieres eliminar <strong>{name}</strong>? Esta acción no se puede deshacer.",
             "login_sync_message": "Inicia sesión para sincronizar tus guiones favoritos, lista de amigos y juegos guardados en todos tus dispositivos.",
-            "prefs_token_info": "Info de Tokens"
+            "prefs_token_info": "Info de Tokens",
+            "edit_tags": "Editar etiquetas",
+            "sort": "Ordenar",
+            "sort_name": "De la A a la Z",
+            "sort_recent": "Más recientes",
+            "no_matches": "Nada coincide con tu búsqueda.",
+            "removed": "{name} eliminado",
+            "undo": "Deshacer"
+        },
+        "saved_alerts": {
+            "title": "Notificaciones",
+            "empty": "Aún no hay notificaciones guardadas."
         },
         "background": {
             "title": "Editar Fondo",

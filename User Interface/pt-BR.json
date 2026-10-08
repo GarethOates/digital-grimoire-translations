@@ -378,7 +378,6 @@
       "saved_games": "Jogos salvos",
       "homebrew_scripts": "Scripts publicados",
       "no_homebrew_scripts": "Você ainda não adicionou nenhum script homebrew à busca.",
-      "created": "Criado",
       "delete_saved_game": "Deletar jogo salvo",
       "no_games_saved": "Nenhum jogo salvo ainda.",
       "friends": "Amigos",
@@ -392,10 +391,19 @@
       "prefs_display": "Mostrar",
       "prefs_player_info": "Informação de jogador",
       "load_disabled_in_game": "Não é possível carregar durante o jogo",
-      "delete_game_confirmation_title": "Deletar jogo salvo",
-      "delete_game_confirmation_message": "Você quer deletar <strong>{name}</strong>? Isso não pode ser desfeito.",
       "login_sync_message": "Faça login para sincronizar seus scripts favoritos, lista de amigos, e jogos salvos em todos os seus dispositivos.",
-      "prefs_token_info": "Informação do token"
+      "prefs_token_info": "Informação do token",
+      "edit_tags": "Editar tags",
+      "sort": "Ordenar",
+      "sort_name": "A a Z",
+      "sort_recent": "Mais recentes",
+      "no_matches": "Nada corresponde à sua busca.",
+      "removed": "{name} removido",
+      "undo": "Desfazer"
+    },
+    "saved_alerts": {
+      "title": "Notificações",
+      "empty": "Nenhuma notificação salva ainda."
     },
     "background": {
       "title": "Editar imagem de fundo",

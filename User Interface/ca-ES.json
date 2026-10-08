@@ -378,7 +378,6 @@
             "saved_games": "Partides desades",
             "homebrew_scripts": "Guions publicats",
             "no_homebrew_scripts": "Encara no heu afegit cap guió homebrew a la cerca.",
-            "created": "Creada",
             "delete_saved_game": "Elimina la partida desada",
             "no_games_saved": "Encara no hi ha cap partida desada.",
             "friends": "Amics",
@@ -392,10 +391,19 @@
             "prefs_display": "Visualització",
             "prefs_player_info": "Informació del jugador",
             "load_disabled_in_game": "No es pot carregar durant una partida en curs",
-            "delete_game_confirmation_title": "Elimina la partida desada",
-            "delete_game_confirmation_message": "Esteu segur que voleu eliminar <strong>{name}</strong>? Aquesta acció no es pot desfer.",
             "login_sync_message": "Inicieu la sessió per a sincronitzar els guions preferits, la llista d’amics i les partides desades en tots els dispositius.",
-            "prefs_token_info": "Informació de les fitxes"
+            "prefs_token_info": "Informació de les fitxes",
+            "edit_tags": "Edita les etiquetes",
+            "sort": "Ordena",
+            "sort_name": "De la A a la Z",
+            "sort_recent": "Més recents",
+            "no_matches": "Res coincideix amb la teva cerca.",
+            "removed": "{name} eliminat",
+            "undo": "Desfés"
+        },
+        "saved_alerts": {
+            "title": "Notificacions",
+            "empty": "Encara no hi ha notificacions desades."
         },
         "background": {
             "title": "Edita el fons",

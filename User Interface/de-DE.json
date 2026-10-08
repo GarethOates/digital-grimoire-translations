@@ -378,7 +378,6 @@
             "saved_games": "Gespeicherte Spiele",
             "homebrew_scripts": "Veröffentlichte Skripte",
             "no_homebrew_scripts": "Sie haben noch keine Eigenbau-Skripte zur Suche hinzugefügt.",
-            "created": "Erstellt",
             "delete_saved_game": "Gespeichertes Spiel löschen",
             "no_games_saved": "Noch keine Spiele gespeichert.",
             "friends": "Freunde",
@@ -392,10 +391,19 @@
             "prefs_display": "Anzeige",
             "prefs_player_info": "Spielerinfo",
             "load_disabled_in_game": "Laden während einer laufenden Partie nicht möglich",
-            "delete_game_confirmation_title": "Gespeichertes Spiel löschen",
-            "delete_game_confirmation_message": "Sind Sie sicher, dass Sie <strong>{name}</strong> löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
             "login_sync_message": "Melde dich an, um deine favorisierten Skripte, deine Freundesliste und deine gespeicherten Spiele auf all deinen Geräten zu synchronisieren.",
-            "prefs_token_info": "Token-Info"
+            "prefs_token_info": "Token-Info",
+            "edit_tags": "Tags bearbeiten",
+            "sort": "Sortieren",
+            "sort_name": "A bis Z",
+            "sort_recent": "Neueste zuerst",
+            "no_matches": "Nichts entspricht deiner Suche.",
+            "removed": "{name} entfernt",
+            "undo": "Rückgängig"
+        },
+        "saved_alerts": {
+            "title": "Benachrichtigungen",
+            "empty": "Noch keine Benachrichtigungen gespeichert."
         },
         "background": {
             "title": "Hintergrund bearbeiten",

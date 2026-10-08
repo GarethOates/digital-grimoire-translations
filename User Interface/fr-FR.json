@@ -351,7 +351,6 @@
             "saved_games": "Parties sauvegardées",
             "homebrew_scripts": "Scripts publiés",
             "no_homebrew_scripts": "Vous n'avez pas encore ajouté de scripts homebrew à la recherche.",
-            "created": "Créé le",
             "delete_saved_game": "Supprimer la partie sauvegardée",
             "no_games_saved": "Aucune partie sauvegardée pour le moment.",
             "friends": "Amis",
@@ -365,10 +364,19 @@
             "prefs_display": "Affichage",
             "prefs_player_info": "Infos du Joueur",
             "load_disabled_in_game": "Impossible de charger pendant une partie en cours",
-            "delete_game_confirmation_title": "Supprimer la partie sauvegardée",
-            "delete_game_confirmation_message": "Êtes-vous sûr de vouloir supprimer <strong>{name}</strong> ? Cette action est irréversible.",
             "login_sync_message": "Connectez-vous pour synchroniser vos scripts favoris, votre liste d'amis et vos parties sauvegardées sur tous vos appareils.",
-            "prefs_token_info": "Infos des jetons"
+            "prefs_token_info": "Infos des jetons",
+            "edit_tags": "Modifier les étiquettes",
+            "sort": "Trier",
+            "sort_name": "A à Z",
+            "sort_recent": "Plus récent",
+            "no_matches": "Aucun résultat pour votre recherche.",
+            "removed": "{name} supprimé",
+            "undo": "Annuler"
+        },
+        "saved_alerts": {
+            "title": "Notifications",
+            "empty": "Aucune notification enregistrée pour le moment."
         },
         "background": {
             "title": "Modifier l'arrière-plan",

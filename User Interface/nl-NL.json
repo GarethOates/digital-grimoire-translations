@@ -378,7 +378,6 @@
             "saved_games": "Opgeslagen spellen",
             "homebrew_scripts": "Gepubliceerde scripts",
             "no_homebrew_scripts": "Je hebt nog geen homebrew-scripts aan zoeken toegevoegd.",
-            "created": "Aangemaakt",
             "delete_saved_game": "Opgeslagen spel verwijderen",
             "no_games_saved": "Nog geen spellen opgeslagen.",
             "friends": "Vrienden",
@@ -392,10 +391,19 @@
             "prefs_display": "Weergave",
             "prefs_player_info": "Spelerinfo",
             "load_disabled_in_game": "Kan niet laden terwijl er een spel bezig is",
-            "delete_game_confirmation_title": "Opgeslagen spel verwijderen",
-            "delete_game_confirmation_message": "Weet je zeker dat je <strong>{name}</strong> wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
             "login_sync_message": "Log in om je favoriete scripts, vriendenlijst en opgeslagen spellen op al je apparaten te synchroniseren.",
-            "prefs_token_info": "Token-info"
+            "prefs_token_info": "Token-info",
+            "edit_tags": "Tags bewerken",
+            "sort": "Sorteren",
+            "sort_name": "A tot Z",
+            "sort_recent": "Meest recent",
+            "no_matches": "Niets komt overeen met je zoekopdracht.",
+            "removed": "{name} verwijderd",
+            "undo": "Ongedaan maken"
+        },
+        "saved_alerts": {
+            "title": "Meldingen",
+            "empty": "Nog geen opgeslagen meldingen."
         },
         "background": {
             "title": "Achtergrond bewerken",

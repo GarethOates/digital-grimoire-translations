@@ -378,7 +378,6 @@
             "saved_games": "Uložené hry",
             "homebrew_scripts": "Zveřejněné skripty",
             "no_homebrew_scripts": "Zatím jste do vyhledávání nepřidali žádný skript vlastní tvorby.",
-            "created": "Vytvořeno",
             "delete_saved_game": "Smazat uloženou hru",
             "no_games_saved": "Zatím žádné uložené hry.",
             "friends": "Přátelé",
@@ -392,10 +391,19 @@
             "prefs_display": "Zobrazení",
             "prefs_player_info": "Informace o hráči",
             "load_disabled_in_game": "Nelze načíst, dokud probíhá hra",
-            "delete_game_confirmation_title": "Smazat uloženou hru",
-            "delete_game_confirmation_message": "Opravdu chcete smazat <strong>{name}</strong>? Tuto akci nelze vrátit zpět.",
             "login_sync_message": "Přihlaste se k synchronizaci vašich oblíbených skriptů, seznamu přátel a uložených her na všech vašich zařízeních.",
-            "prefs_token_info": "Informace o žetonu"
+            "prefs_token_info": "Informace o žetonu",
+            "edit_tags": "Upravit štítky",
+            "sort": "Seřadit",
+            "sort_name": "A až Z",
+            "sort_recent": "Nejnovější",
+            "no_matches": "Nic neodpovídá vašemu hledání.",
+            "removed": "{name} odebráno",
+            "undo": "Zpět"
+        },
+        "saved_alerts": {
+            "title": "Oznámení",
+            "empty": "Zatím žádná uložená oznámení."
         },
         "background": {
             "title": "Upravit pozadí",

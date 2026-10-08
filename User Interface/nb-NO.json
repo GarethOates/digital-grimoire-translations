@@ -351,7 +351,6 @@
             "saved_games": "Lagrede spill",
             "homebrew_scripts": "Publiserte skript",
             "no_homebrew_scripts": "Du har ikke lagt til noen homebrew-skript i søket ennå.",
-            "created": "Opprettet",
             "delete_saved_game": "Slett lagret spill",
             "no_games_saved": "Ingen spill lagret ennå.",
             "friends": "Venner",
@@ -365,10 +364,19 @@
             "prefs_display": "Visning",
             "prefs_player_info": "Spillerinfo",
             "load_disabled_in_game": "Kan ikke laste inn mens et spill pågår",
-            "delete_game_confirmation_title": "Slett lagret spill",
-            "delete_game_confirmation_message": "Er du sikker på at du vil slette <strong>{name}</strong>? Denne handlingen kan ikke angres.",
             "login_sync_message": "Logg inn for å synkronisere favorittskriptene dine, vennelisten din og lagrede spill på tvers av alle enhetene dine.",
-            "prefs_token_info": "Token-info"
+            "prefs_token_info": "Token-info",
+            "edit_tags": "Rediger tagger",
+            "sort": "Sorter",
+            "sort_name": "A til Å",
+            "sort_recent": "Nyeste først",
+            "no_matches": "Ingenting samsvarer med søket ditt.",
+            "removed": "{name} fjernet",
+            "undo": "Angre"
+        },
+        "saved_alerts": {
+            "title": "Varsler",
+            "empty": "Ingen lagrede varsler ennå."
         },
         "background": {
             "title": "Rediger bakgrunn",
