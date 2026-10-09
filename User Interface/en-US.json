@@ -567,6 +567,7 @@
         "assign_progress": "{assigned} of {total} seats drawn",
         "tap_seat_to_assign": "Tap to assign a player to this seat",
         "select_chosen_players": "Tap who the {role} chose",
+        "select_reminders_to_apply": "Select reminders to apply",
         "tonights_choice": "Tonight's choice",
         "seat": "Seat"
     },

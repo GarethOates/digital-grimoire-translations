@@ -567,6 +567,7 @@
         "assign_progress": "{assigned} sur {total} places tirées",
         "tap_seat_to_assign": "Appuyer pour assigner un joueur à cette place",
         "select_chosen_players": "Toucher pour sélectionner les joueurs que le {role} a choisis",
+        "select_reminders_to_apply": "Sélectionner les rappels à appliquer",
         "tonights_choice": "Choix de cette nuit",
         "seat": "Place"
     },

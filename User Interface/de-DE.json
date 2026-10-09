@@ -567,6 +567,7 @@
         "assign_progress": "{assigned} von {total} Plätzen gezogen",
         "tap_seat_to_assign": "Tippen, um diesem Platz einen Spieler zuzuweisen",
         "select_chosen_players": "Tippen, um zu markieren, wen der {role} ausgewählt hat",
+        "select_reminders_to_apply": "Erinnerungen zum Anwenden auswählen",
         "tonights_choice": "Wahl dieser Nacht",
         "seat": "Platz"
     },

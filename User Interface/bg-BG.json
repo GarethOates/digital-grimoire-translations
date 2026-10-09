@@ -567,6 +567,7 @@
         "assign_progress": "{assigned} от {total} места изтеглени",
         "tap_seat_to_assign": "Натисни, за да зачислиш играч на това място",
         "select_chosen_players": "Натисни когото посочи {role}",
+        "select_reminders_to_apply": "Избери напомняния за поставяне",
         "tonights_choice": "Изборът тази нощ",
         "seat": "Място"
     },

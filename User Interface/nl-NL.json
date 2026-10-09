@@ -567,6 +567,7 @@
         "assign_progress": "{assigned} van {total} plaatsen getrokken",
         "tap_seat_to_assign": "Tik om een speler aan deze plaats toe te wijzen",
         "select_chosen_players": "Tik op wie {role} heeft gekozen",
+        "select_reminders_to_apply": "Selecteer herinneringen om toe te passen",
         "tonights_choice": "Keuze van vannacht",
         "seat": "Plaats"
     },

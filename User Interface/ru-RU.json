@@ -567,6 +567,7 @@
         "assign_progress": "Роздано {assigned} из {total} мест",
         "tap_seat_to_assign": "Нажмите, чтобы назначить игрока на это место",
         "select_chosen_players": "Нажмите на того, кого выбрал {role}",
+        "select_reminders_to_apply": "Выберите напоминания для применения",
         "tonights_choice": "Выбор этой ночи",
         "seat": "Место"
     },

@@ -567,6 +567,7 @@
         "assign_progress": "{assigned} av {total} seter trukket",
         "tap_seat_to_assign": "Trykk for å tildele en spiller til dette setet",
         "select_chosen_players": "Trykk på de som {role} valgte",
+        "select_reminders_to_apply": "Velg påminnelser som skal brukes",
         "tonights_choice": "Nattens valg",
         "seat": "Sete"
     },

@@ -567,6 +567,7 @@
         "assign_progress": "{assigned}/{total} ülőhely húzva",
         "tap_seat_to_assign": "Koppints, hogy játékost rendelj ehhez az ülőhelyhez",
         "select_chosen_players": "Koppints azokra, akiket a {role} választott",
+        "select_reminders_to_apply": "Válaszd ki az alkalmazandó emlékeztetőket",
         "tonights_choice": "Mai éjszaka választása",
         "seat": "Ülőhely"
     },

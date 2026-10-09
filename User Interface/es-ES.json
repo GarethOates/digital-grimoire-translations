@@ -567,6 +567,7 @@
         "assign_progress": "{assigned} de {total} asientos sacados",
         "tap_seat_to_assign": "Toca para asignar un jugador a este asiento",
         "select_chosen_players": "Toca a quien el {role} seleccionó",
+        "select_reminders_to_apply": "Selecciona los recordatorios a aplicar",
         "tonights_choice": "Elección de esta noche",
         "seat": "Asiento"
     },

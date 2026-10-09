@@ -567,6 +567,7 @@
         "assign_progress": "{assigned} z {total} míst vylosováno",
         "tap_seat_to_assign": "Klepnutím přiřadíte hráče na toto místo",
         "select_chosen_players": "Klepněte na ty, které vybral {role}",
+        "select_reminders_to_apply": "Vyberte připomínky k použití",
         "tonights_choice": "Dnešní noční volba",
         "seat": "Místo"
     },

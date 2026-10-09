@@ -567,6 +567,7 @@
         "assign_progress": "{assigned} di {total} posti pescati",
         "tap_seat_to_assign": "Tocca per assegnare un giocatore a questo posto",
         "select_chosen_players": "Tocca chi il {role} ha scelto",
+        "select_reminders_to_apply": "Seleziona i promemoria da applicare",
         "tonights_choice": "Scelta di stanotte",
         "seat": "Posto"
     },

@@ -567,6 +567,7 @@
         "assign_progress": "{assigned} de {total} seients extrets",
         "tap_seat_to_assign": "Toqueu aquest seient per a assignar-hi un jugador",
         "select_chosen_players": "Toqueu qui el {role} ha triat",
+        "select_reminders_to_apply": "Seleccioneu els recordatoris a aplicar",
         "tonights_choice": "L'elecció d'aquesta nit",
         "seat": "Seient"
     },
