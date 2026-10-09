@@ -958,6 +958,15 @@
                 "body": "Het getal geeft aan hoeveel herinneringen van deze rol nog niet in het Grimoire liggen. Tik om ze te bekijken en sleep er dan een naar een speler."
             }
         },
+        "night_choice": {
+            "tonights_choice": {
+                "body": "Leg vast wie deze rol vannacht koos. Tik hier om te beginnen. De keuze wordt opgeslagen in de Spelgeschiedenis."
+            },
+            "choice_banner": {
+                "title": "Leg de keuze vast",
+                "body": "Tik op de spelers die gekozen zijn, in volgorde. Elk krijgt een nummer. Kies daarna de herinneringen die geplaatst moeten worden en tik op het vinkje. Elke herinnering komt in die volgorde bij de gekozen spelers te liggen, tot ze op zijn."
+            }
+        },
         "preferences": {
             "pref_display": {
                 "body": "Volledig scherm verbergt de eigen balken van de browser. Officiële iconen gebruikt de officiële TPI-iconen in plaats van door de community gemaakte afbeeldingen. Trekanimatie schudt door de rollen voordat een getrokken token wordt onthuld."

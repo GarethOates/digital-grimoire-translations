@@ -958,6 +958,15 @@
                 "body": "El número indica cuántos recordatorios de este rol todavía no están en el Grimorio. Tocá para verlos y arrastrá uno hasta un jugador."
             }
         },
+        "night_choice": {
+            "tonights_choice": {
+                "body": "Registrá a quién eligió este rol esta noche. Tocá acá para empezar. La elección se guarda en el Historial de la partida."
+            },
+            "choice_banner": {
+                "title": "Registrá la elección",
+                "body": "Tocá a los jugadores elegidos, en orden. Cada uno recibe un número. Después elegí los recordatorios que querés colocar y tocá la tilde. Cada recordatorio se coloca en los jugadores elegidos en ese orden, hasta que se acaban."
+            }
+        },
         "preferences": {
             "pref_display": {
                 "body": "Pantalla completa oculta las barras propias del navegador. Iconos oficiales usa los iconos oficiales de TPI en lugar de ilustraciones creadas por la comunidad. Animación de sorteo recorre los roles antes de revelar una ficha sacada."

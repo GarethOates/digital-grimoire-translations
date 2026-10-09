@@ -958,6 +958,15 @@
         "body": "O número indica quantos lembretes deste personagem ainda não estão no Grimório. Toque para vê-los e arraste um até um jogador."
       }
     },
+    "night_choice": {
+      "tonights_choice": {
+        "body": "Registre quem este personagem escolheu esta noite. Toque aqui para começar. A escolha é salva no Histórico de jogo."
+      },
+      "choice_banner": {
+        "title": "Registre a escolha",
+        "body": "Toque nos jogadores escolhidos, em ordem. Cada um recebe um número. Depois escolha os lembretes a colocar e toque na marca de verificação. Cada lembrete é colocado nos jogadores escolhidos nessa ordem, até acabarem."
+      }
+    },
     "preferences": {
       "pref_display": {
         "body": "Tela cheia esconde as barras do próprio navegador. Ícones oficiais usa os ícones oficiais da TPI em vez de arte criada pela comunidade. Animação de compra embaralha os personagens antes de revelar um token comprado."

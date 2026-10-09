@@ -958,6 +958,15 @@
                 "body": "Il numero indica quanti promemoria di questo ruolo non sono ancora nel Grimorio. Tocca per vederli, poi trascinane uno su un giocatore."
             }
         },
+        "night_choice": {
+            "tonights_choice": {
+                "body": "Registra chi ha scelto questo ruolo stanotte. Tocca qui per iniziare. La scelta viene salvata nella Cronologia Partita."
+            },
+            "choice_banner": {
+                "title": "Registra la scelta",
+                "body": "Tocca i giocatori scelti, in ordine. Ognuno riceve un numero. Poi scegli i promemoria da posizionare e tocca la spunta. Ogni promemoria viene posizionato sui giocatori scelti in quell'ordine, finché non finiscono."
+            }
+        },
         "preferences": {
             "pref_display": {
                 "body": "Schermo intero nasconde le barre del browser. Icone ufficiali usa le icone ufficiali TPI al posto delle illustrazioni create dalla community. Animazione di pesca mescola i ruoli prima che un gettone pescato venga rivelato."

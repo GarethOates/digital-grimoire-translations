@@ -958,6 +958,15 @@
                 "body": "El número indica quants recordatoris d'aquest rol encara no són al grimori. Toca per veure'ls i arrossega'n un fins a un jugador."
             }
         },
+        "night_choice": {
+            "tonights_choice": {
+                "body": "Registra qui ha triat aquest rol aquesta nit. Toca aquí per començar. L'elecció es desa a l'Historial de la partida."
+            },
+            "choice_banner": {
+                "title": "Registra l'elecció",
+                "body": "Toca els jugadors triats, per ordre. Cadascun rep un número. Després tria els recordatoris que vols col·locar i toca la marca de verificació. Cada recordatori es col·loca sobre els jugadors triats en aquest ordre, fins que s'acaben."
+            }
+        },
         "preferences": {
             "pref_display": {
                 "body": "Pantalla completa amaga les barres pròpies del navegador. Icones oficials fa servir les icones oficials de TPI en lloc d'il·lustracions creades per la comunitat. Animació d'extracció barreja els rols abans que es reveli una fitxa extreta."

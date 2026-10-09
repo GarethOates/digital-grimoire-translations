@@ -958,6 +958,15 @@
                 "body": "The number is how many of this role's reminders are not in the Grimoire yet. Tap to see them, then drag one onto a player."
             }
         },
+        "night_choice": {
+            "tonights_choice": {
+                "body": "Record who this character chose tonight. Tap here to start. The choice is saved to Game History."
+            },
+            "choice_banner": {
+                "title": "Record the choice",
+                "body": "Tap the players they chose, in order. Each one gets a number. Then pick the reminders to place and tap the tick. Each reminder goes on the chosen players in that order, until it runs out."
+            }
+        },
         "preferences": {
             "pref_display": {
                 "body": "Fullscreen hides the browser's own bars. Official icons uses the official TPI icons instead of community created artwork. Draw animation shuffles through roles before a drawn token is revealed."

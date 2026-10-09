@@ -958,6 +958,15 @@
                 "body": "Le nombre indique combien de rappels de ce rôle ne sont pas encore dans le Grimoire. Touchez pour les voir, puis faites glisser l'un d'eux sur un joueur."
             }
         },
+        "night_choice": {
+            "tonights_choice": {
+                "body": "Notez qui ce rôle a choisi cette nuit. Touchez ici pour commencer. Le choix est enregistré dans l'historique de la partie."
+            },
+            "choice_banner": {
+                "title": "Noter le choix",
+                "body": "Touchez les joueurs choisis, dans l'ordre. Chacun reçoit un numéro. Choisissez ensuite les rappels à placer et touchez la coche. Chaque rappel est placé sur les joueurs choisis dans cet ordre, jusqu'à épuisement."
+            }
+        },
         "preferences": {
             "pref_display": {
                 "body": "Plein écran masque les barres du navigateur. Icônes officielles utilise les icônes officielles de TPI à la place des illustrations créées par la communauté. Animation de tirage fait défiler les rôles avant qu'un jeton tiré soit révélé."

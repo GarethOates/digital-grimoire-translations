@@ -958,6 +958,15 @@
                 "body": "A szám azt mutatja, hány emlékeztetője nincs még a Grimoárban ennek a karakternek. Koppints a megtekintésükhöz, majd húzz egyet egy játékosra."
             }
         },
+        "night_choice": {
+            "tonights_choice": {
+                "body": "Jegyezd fel, kit választott ez a karakter ma éjjel. Koppints ide a kezdéshez. A választás elmentődik a Játéktörténetben."
+            },
+            "choice_banner": {
+                "title": "A választás rögzítése",
+                "body": "Koppints a választott játékosokra, sorrendben. Mindegyik kap egy számot. Ezután válaszd ki az elhelyezendő emlékeztetőket, és koppints a pipára. Minden emlékeztető ebben a sorrendben kerül a választott játékosokra, amíg el nem fogynak."
+            }
+        },
         "preferences": {
             "pref_display": {
                 "body": "A Teljes képernyő elrejti a böngésző saját sávjait. A Hivatalos ikonok a hivatalos TPI ikonokat használja a közösség által készített grafikák helyett. A Húzási animáció végigpörgeti a karaktereket, mielőtt a kihúzott jelölő felfedésre kerül."

@@ -958,6 +958,15 @@
                 "body": "Die Zahl zeigt, wie viele Erinnerungen dieser Rolle noch nicht im Grimoire sind. Tippe darauf, um sie zu sehen, und ziehe dann eine auf einen Spieler."
             }
         },
+        "night_choice": {
+            "tonights_choice": {
+                "body": "Halte fest, wen diese Rolle heute Nacht gewählt hat. Tippe hier, um zu beginnen. Die Wahl wird im Spielverlauf gespeichert."
+            },
+            "choice_banner": {
+                "title": "Wahl festhalten",
+                "body": "Tippe die gewählten Spieler der Reihe nach an. Jeder bekommt eine Nummer. Wähle dann die Erinnerungen, die platziert werden sollen, und tippe auf das Häkchen. Jede Erinnerung kommt der Reihe nach auf die gewählten Spieler, bis sie aufgebraucht sind."
+            }
+        },
         "preferences": {
             "pref_display": {
                 "body": "Vollbildmodus blendet die eigenen Leisten des Browsers aus. Offizielle Symbole verwendet die offiziellen TPI-Symbole statt von der Community erstellter Artworks. Ziehanimation mischt durch die Rollen, bevor ein gezogener Token enthüllt wird."

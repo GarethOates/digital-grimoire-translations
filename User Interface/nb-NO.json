@@ -958,6 +958,15 @@
                 "body": "Tallet viser hvor mange av denne rollens påminnelser som ikke er i Grimoiren ennå. Trykk for å se dem, og dra så en over på en spiller."
             }
         },
+        "night_choice": {
+            "tonights_choice": {
+                "body": "Registrer hvem denne rollen valgte i natt. Trykk her for å starte. Valget lagres i spillhistorikken."
+            },
+            "choice_banner": {
+                "title": "Registrer valget",
+                "body": "Trykk på spillerne de valgte, i rekkefølge. Hver av dem får et nummer. Velg deretter påminnelsene som skal plasseres, og trykk på haken. Hver påminnelse legges på de valgte spillerne i den rekkefølgen, til de er brukt opp."
+            }
+        },
         "preferences": {
             "pref_display": {
                 "body": "Fullskjerm skjuler nettleserens egne felt. Offisielle ikoner bruker de offisielle TPI-ikonene i stedet for kunst laget av fellesskapet. Trekkeanimasjon blander gjennom roller før en trukket brikke avsløres."

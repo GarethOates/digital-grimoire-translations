@@ -958,6 +958,15 @@
                 "body": "Číslo udává, kolik připomínek této role ještě není v Grimoáru. Klepnutím je zobrazíte a pak některou přetáhněte na hráče."
             }
         },
+        "night_choice": {
+            "tonights_choice": {
+                "body": "Zaznamenejte, koho si tato role dnes v noci vybrala. Klepnutím sem začnete. Volba se uloží do Historie hry."
+            },
+            "choice_banner": {
+                "title": "Zaznamenejte volbu",
+                "body": "Klepejte na vybrané hráče v pořadí. Každý dostane číslo. Poté vyberte připomínky k umístění a klepněte na zatržítko. Každá připomínka se umístí na vybrané hráče v tomto pořadí, dokud nedojdou."
+            }
+        },
         "preferences": {
             "pref_display": {
                 "body": "Režim celé obrazovky skryje vlastní lišty prohlížeče. Oficiální ikony používají oficiální ikony TPI místo grafiky vytvořené komunitou. Animace losování promíchá role, než se vylosovaný žeton odhalí."
