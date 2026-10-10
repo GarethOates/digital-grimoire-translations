@@ -1576,8 +1576,8 @@
         "otherNight": 32,
         "otherNightReminder": "Lykantropen peker mot en levende spiller: om de er god, dør de. I så fall kan ingen andre dø i natt.",
         "reminders": [
-            "Død",
-            "Faux pote"
+            "Faux pote",
+            "Død"
         ],
         "setup": false,
         "ability": "Hver natt*, velg en levende spiller. Om de er god, dør de og Demonen dreper ikke i natt. Én god spiller registreres som ond.",
@@ -2146,8 +2146,8 @@
         "otherNight": 20,
         "otherNightReminder": "",
         "reminders": [
-            "Full",
-            "I ferd med å dø"
+            "I ferd med å dø",
+            "Full"
         ],
         "setup": false,
         "ability": "Alle spillere holder øynene lukket når de stemmer, og avstemningen er hemmelig. Hver natt velger du om du er full eller ikke.",

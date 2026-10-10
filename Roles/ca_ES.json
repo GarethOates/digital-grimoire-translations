@@ -480,8 +480,8 @@
         "team": "townsfolk",
         "otherNightReminder": "Assenteix o nega amb el cap.",
         "reminders": [
-            "Algun sequaç ha acusat",
-            "Cap sequaç no ha acusat"
+            "Cap sequaç no ha acusat",
+            "Algun sequaç ha acusat"
         ],
         "setup": false,
         "ability": "Cada nit,* descobreixes si un sequaç ha acusat algú avui.",
@@ -620,8 +620,8 @@
         "team": "townsfolk",
         "otherNightReminder": "El Licàntrop tria un jugador. :reminder:",
         "reminders": [
-            "Mort",
-            "Pota en fals"
+            "Pota en fals",
+            "Mort"
         ],
         "setup": false,
         "ability": "Cada nit,* tria un jugador viu. Si és bo, mor i el dimoni no mata aquesta nit. Un jugador bo és percebut com a malvat.",
@@ -712,9 +712,9 @@
         "firstNightReminder": "El Cortesà pot triar un personatge. :reminder: :reminder:",
         "otherNightReminder": "El Cortesà pot triar un personatge. :reminder: :reminder:",
         "reminders": [
-            "Borratxo 1",
-            "Borratxo 2",
             "Borratxo 3",
+            "Borratxo 2",
+            "Borratxo 1",
             "Sense habilitat"
         ],
         "setup": false,
@@ -3428,9 +3428,9 @@
         "id": "duchess",
         "otherNightReminder": "Un per un, desperta cada jugador marcat com a *VISITANT* o *INFORMACIÓ FALSA*. Mostra-li la targeta *AQUEST PERSONATGE T’HA SELECCIONAT* i la fitxa de la Duquessa i, després, fes un senyal amb els dits.",
         "reminders": [
-            "Informació falsa",
             "Visitant",
-            "Visitant"
+            "Visitant",
+            "Informació falsa"
         ],
         "setup": false,
         "name": "Duquessa",

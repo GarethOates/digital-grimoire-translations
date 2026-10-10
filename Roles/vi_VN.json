@@ -1576,8 +1576,8 @@
         "otherNight": 32,
         "otherNightReminder": "Người sói chỉ người sống: nếu là tốt, họ chết và những người khác không thế chết đêm nay.",
         "reminders": [
-            "Chết",
-            "Móng giả"
+            "Móng giả",
+            "Chết"
         ],
         "setup": false,
         "ability": "Mỗi đêm*, chọn 1 người sống. Nếu là tốt, họ chết & Quỷ không giết đêm nay. Một người tốt được ghi là ác.",
@@ -2146,8 +2146,8 @@
         "otherNight": 20,
         "otherNightReminder": "",
         "reminders": [
-            "Say",
-            "Sắp chết"
+            "Sắp chết",
+            "Say"
         ],
         "setup": false,
         "ability": "Tất cả người chơi đều nhắm mắt khi bỏ phiếu và số phiếu bầu sẽ được giữ bí mật. Mỗi đêm, hãy chọn xem bạn có say hay không.",

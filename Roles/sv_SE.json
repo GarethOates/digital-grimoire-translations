@@ -2146,8 +2146,8 @@
         "otherNight": 20,
         "otherNightReminder": "",
         "reminders": [
-            "Full",
-            "Nära döden"
+            "Nära döden",
+            "Full"
         ],
         "setup": false,
         "ability": "Alla spelare blundar under röstningen & resultatet är hemligt. Varje natt väljer du om du ska vara full till skymningen.",

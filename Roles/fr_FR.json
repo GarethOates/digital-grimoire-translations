@@ -1043,8 +1043,8 @@
         "otherNight": 74,
         "otherNightReminder": "Faites oui ou non de la tête.",
         "reminders": [
-            "Un Sbire a nommé",
-            "Aucun Sbire n'a nommé"
+            "Aucun Sbire n'a nommé",
+            "Un Sbire a nommé"
         ],
         "setup": false,
         "ability": "Chaque nuit*, vous apprenez si un Sbire a nommé quelqu'un dans la journée.",
@@ -1824,8 +1824,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Supposition utilisée",
-            "Ivre"
+            "Ivre",
+            "Supposition utilisée"
         ],
         "setup": false,
         "ability": "Un joueur est ivre, même si vous mourez. Si vous devinez qui c'est (1 essai), apprenez quel joueur est le Démon. (Si erreur, recevez une fausse info.)",
@@ -2036,8 +2036,8 @@
             }
         ],
         "remindersGlobal": [
-            "Mort",
-            "Est le Démon"
+            "Est le Démon",
+            "Mort"
         ]
     },
     {

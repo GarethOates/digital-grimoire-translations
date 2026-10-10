@@ -1295,8 +1295,8 @@
         "otherNight": 40,
         "otherNightReminder": "Der Fang Gu zeigt auf einen Spieler. Dieser Spieler stirbt. Falls dieser Spieler ein Außenseiter war nud kein anderer Fang Gu im Spiel ist: Der Fang Gu stirbt an seiner Stelle. Der ausgewählte Spieler wird der neue Fang Gu. Wecke den neuen Fang Gu. Zeige ihm die 'Du bist' Karte und den Token des Fang Gu. Danach zeige ihm die 'Du bist' Karte und ein Daumen nach unten (böse) Zeichen",
         "reminders": [
-            "Einmalig",
-            "Tot"
+            "Tot",
+            "Einmalig"
         ],
         "setup": true,
         "ability": "Wähle jede Nacht* 1 Spieler: Er stirbt. Der erste Außenseiter, den du so tötest, wird zum bösen Fang Gu & du stirbst stattdessen. [+1 Außenseiter]",
@@ -1368,8 +1368,8 @@
         "otherNight": 1,
         "otherNightReminder": "Wähle einen Spieler, wecke ihn und sage ihm welche Fähigkeit des Baristas ihn betrifft. Behandle die Fähigkeit dementsprechend (nüchtern/gesund/wahre Info oder Fähigkeit zweimal einsetzen).",
         "reminders": [
-            "Fähigkeit zweimal",
             "Nüchtern und Gesund",
+            "Fähigkeit zweimal",
             "?",
             "?"
         ],
@@ -1769,8 +1769,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Zuletzt hingerichtet",
-            "Vergiftet"
+            "Vergiftet",
+            "Zuletzt hingerichtet"
         ],
         "setup": false,
         "ability": "Du hast die Fähigkeit des zuletzt hingerichteten toten Spielers. Ist er böse, bist du vergiftet, bis ein guter Spieler durch eine Hinrichtung stirbt.",
@@ -2027,8 +2027,8 @@
             }
         ],
         "remindersGlobal": [
-            "Tot",
-            "Ist der Dämon"
+            "Ist der Dämon",
+            "Tot"
         ]
     },
     {

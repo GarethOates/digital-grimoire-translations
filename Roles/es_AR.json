@@ -1576,8 +1576,8 @@
         "otherNight": 32,
         "otherNightReminder": "El Licántropo apunta a un jugador vivo: si es bueno, muere y el Demonio no mata esta noche.",
         "reminders": [
-            "Muerto",
-            "Faux pata"
+            "Faux pata",
+            "Muerto"
         ],
         "setup": false,
         "ability": "Cada noche*, elegí un jugador vivo. Si es bueno, muere y el Demonio no mata esta noche. Un jugador bueno registra como malvado.",
@@ -2153,8 +2153,8 @@
         "otherNight": 20,
         "otherNightReminder": "El Organillero puede asentir si quiere emborracharse.",
         "reminders": [
-            "Borracho",
-            "Por morir"
+            "Por morir",
+            "Borracho"
         ],
         "setup": false,
         "ability": "Todos los jugadores mantienen los ojos cerrados cuando votan y el recuento de votos es secreto. Cada noche, elegí si estás borracho o no.",

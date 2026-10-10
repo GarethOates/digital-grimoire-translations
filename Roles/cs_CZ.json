@@ -508,8 +508,8 @@
         "team": "townsfolk",
         "otherNightReminder": "Vlkodlak vybere hráče. :reminder:",
         "reminders": [
-            "Mrtvý",
-            "Vlkodlakova návnada"
+            "Vlkodlakova návnada",
+            "Mrtvý"
         ],
         "setup": false,
         "ability": "Každou noc* vybereš 1 živého hráče: pokud je na straně dobra, zemře, ale Démon tuto noc nezabíjí. Jeden dobrý hráč se jeví jako zlý.",

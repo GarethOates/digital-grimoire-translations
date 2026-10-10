@@ -926,8 +926,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Nomineer kwaad",
-            "Nomineer goed"
+            "Nomineer goed",
+            "Nomineer kwaad"
         ],
         "setup": false,
         "ability": "Alleen de spelleider kan nomineren. Minimaal 1 speler van het andere team moet worden genomineerd.",
@@ -1295,8 +1295,8 @@
         "otherNight": 40,
         "otherNightReminder": "De Fang Gu wijst naar een speler. Die speler sterft. Als die speler een buitenstaander was en er geen andere Fang Gu in het spel is: de Fang Gu sterft in zijn plaats. De geselecteerde speler wordt de nieuwe Fang Gu. Wek de nieuwe Fang Gu. Toon hem de 'Jij bent'-kaart en het token van de Fang Gu. Toon hem daarna de 'Jij bent'-kaart en een duim omlaag (kwaad) teken.",
         "reminders": [
-            "Einmalig",
-            "Dood"
+            "Dood",
+            "Einmalig"
         ],
         "setup": true,
         "ability": "Kies elke nacht* 1 speler: hij sterft. De eerste buitenstaander die je zo doodt, wordt de kwade Fang Gu en jij sterft in zijn plaats. [+1 buitenstaander]",
@@ -1368,8 +1368,8 @@
         "otherNight": 1,
         "otherNightReminder": "Kies een speler, wek hem en vertel hem welke vaardigheid van de Barista op hem van toepassing is. Behandel de vaardigheid dienovereenkomstig (nuchter/gezond/ware info of vaardigheid tweemaal gebruiken).",
         "reminders": [
-            "Vaardigheid tweemaal",
             "Nuchter en gezond",
+            "Vaardigheid tweemaal",
             "?",
             "?"
         ],
@@ -1483,8 +1483,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Heeft vaardigheid",
-            "Bezeten"
+            "Bezeten",
+            "Heeft vaardigheid"
         ],
         "setup": false,
         "ability": "Je ontdekt aan het begin 1 dorpelingenrol die in het spel is. Als je er bezeten van was dat je die rol hebt, krijg je haar vaardigheid als hij sterft.",
@@ -1769,8 +1769,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Lunch",
-            "Vergiftigd"
+            "Vergiftigd",
+            "Lunch"
         ],
         "setup": false,
         "ability": "Je hebt de vaardigheid van de laatst geëxecuteerde dode speler. Is hij kwaad, dan ben je vergiftigd totdat een goede speler door executie sterft.",
@@ -1957,8 +1957,8 @@
         "otherNight": 27,
         "otherNightReminder": "Wek de eerste goede speler die het geheime woord van de Mezepheles heeft uitgesproken en toon hem de 'Jij bent'-kaart en daarna het duim-omlaag signaal om te tonen dat hij voortaan kwaad is.",
         "reminders": [
-            "Geen vaardigheid",
-            "Wordt kwaad"
+            "Wordt kwaad",
+            "Geen vaardigheid"
         ],
         "setup": false,
         "ability": "Je ontdekt aan het begin een geheim woord. De eerste goede speler die het uitspreekt, wordt 's nachts kwaad.",
@@ -2027,8 +2027,8 @@
             }
         ],
         "remindersGlobal": [
-            "Dood",
-            "Is de demon"
+            "Is de demon",
+            "Dood"
         ]
     },
     {
@@ -2146,8 +2146,8 @@
         "otherNight": 20,
         "otherNightReminder": "",
         "reminders": [
-            "Dronken",
-            "Staat op sterven"
+            "Staat op sterven",
+            "Dronken"
         ],
         "setup": false,
         "ability": "Alle spelers houden tijdens het stemmen hun ogen gesloten en de uitslag van de stemming is geheim. Kies elke nacht of je dronken bent of niet.",

@@ -1038,8 +1038,8 @@
         "otherNight": 74,
         "otherNightReminder": "Annuisci per \"Sì\" o scuoti la testa per \"No\" per comunicare se un Seguace abbia accusato o no. Posiziona i gettoni \"Seguace accusa\" o \"Seguace non accusa\" a seconda della situazione.",
         "reminders": [
-            "Seguace accusa",
-            "Seguace non accusa"
+            "Seguace non accusa",
+            "Seguace accusa"
         ],
         "setup": false,
         "ability": "Ogni notte*, scopri se oggi un Seguace ha nominato.",
@@ -1368,8 +1368,8 @@
         "otherNight": 1,
         "otherNightReminder": "Scegli un giocatore, sveglialo e digli quale potere del Barista lo colpisce. Trattalo di conseguenza (Sobrio/Salubre/Informazione veritiera OPPURE Abilità doppia).",
         "reminders": [
-            "Abilità Doppia",
             "Sobrio e Salubre",
+            "Abilità Doppia",
             "?",
             "?"
         ],
@@ -1483,8 +1483,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Ha abilità",
-            "Folle"
+            "Folle",
+            "Ha abilità"
         ],
         "setup": false,
         "ability": "Cominci sapendo un Cittadino che è in gioco. Se tu fossi \"Folle\" di essere quel personaggio, ottieni la sua abilità quando muore.",
@@ -1817,8 +1817,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Tentativo usato",
-            "Ubriaco"
+            "Ubriaco",
+            "Tentativo usato"
         ],
         "setup": false,
         "ability": "1 giocatore è ubriaco, anche se muori. Se indovini (1 volta) chi è, scopri quale giocatore è il demone, ma se sbagli ricevi informazioni false.",
@@ -2027,8 +2027,8 @@
             }
         ],
         "remindersGlobal": [
-            "Morto",
-            "È il Demone"
+            "È il Demone",
+            "Morto"
         ]
     },
     {
@@ -2093,12 +2093,12 @@
         "otherNight": 90,
         "otherNightReminder": "Cambia il promemoria Leviatano dal giorno attuale al giorno successivo.",
         "reminders": [
-            "Buono Giustiziato",
             "Giorno 1",
             "Giorno 2",
             "Giorno 3",
             "Giorno 4",
-            "Giorno 5"
+            "Giorno 5",
+            "Buono Giustiziato"
         ],
         "setup": false,
         "ability": "Se più di 1 giocatore buono viene giustiziato, la squadra malvagia vince. Tutti i giocatori sanno che sei in gioco. Dopo il 5° giorno, la squadra malvagia vince.",

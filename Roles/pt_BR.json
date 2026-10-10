@@ -62,8 +62,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Errado",
-            "Forasteiro"
+            "Forasteiro",
+            "Errado"
         ],
         "setup": false,
         "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Forasteiro específico.(Ou que há 'zero' Forasteiro em jogo.)",
@@ -79,8 +79,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Errado",
-            "Lacaio"
+            "Lacaio",
+            "Errado"
         ],
         "setup": false,
         "ability": "Você começa sabendo que 1 dentre 2 jogadores é um Lacaio específico.",
@@ -1021,8 +1021,8 @@
         "otherNight": 73,
         "otherNightReminder": "Sinalize com a cabeça (sim ou não).",
         "reminders": [
-            "Demônio Não Votou",
-            "Demônio Votou"
+            "Demônio Votou",
+            "Demônio Não Votou"
         ],
         "setup": false,
         "ability": "A cada noite*, saiba se um Demônio votou hoje.",
@@ -1038,8 +1038,8 @@
         "otherNight": 74,
         "otherNightReminder": "Faça 'sim' ou 'não' com a cabeça para indicar se algum Lacaio nomeou hoje. Coloque o lembrete 'Lacaios Não Nomearam' (remova o lembrete 'Lacaio Nomeou', se for o caso).",
         "reminders": [
-            "Lacaio Nomeou",
-            "Lacaios Não Nomearam"
+            "Lacaios Não Nomearam",
+            "Lacaio Nomeou"
         ],
         "setup": false,
         "ability": "A cada noite*, saiba se um Lacaio nomeou hoje.",
@@ -1368,8 +1368,8 @@
         "otherNight": 1,
         "otherNightReminder": "Escolha um jogador, acorde-o e informe-o qual dos poderes da Barista está o afetando. Trate-o da forma correspondente (sóbrio, são e informação verdadeira ou ative a habilidade duas vezes)",
         "reminders": [
-            "Habilidade 2x",
             "Sóbrio e Desenvenenado",
+            "Habilidade 2x",
             "?",
             "?"
         ],
@@ -1957,8 +1957,8 @@
         "otherNight": 27,
         "otherNightReminder": "Acorde o primeiro jogador a dizer a palavra secreta. Mostre o token 'Você é' e sinalize 'mau' (polegar para baixo).",
         "reminders": [
-            "Sem Habilidade",
-            "Vira mau"
+            "Vira mau",
+            "Sem Habilidade"
         ],
         "setup": false,
         "ability": "Você começa sabendo uma palavra secreta. O 1º jogador do bem a dizer a palavra se torna do mal naquela noite.",
@@ -2093,12 +2093,12 @@
         "otherNight": 90,
         "otherNightReminder": "Coloque o lembrete com o número do dia que irá amanhecer. Se ainda não anunciou que o Leviatã está em jogo, faça isso ao amanhcer, anunciando também o número correspondente ao dia.",
         "reminders": [
-            "Bom Executado",
             "Dia 1",
             "Dia 2",
             "Dia 3",
             "Dia 4",
-            "Dia 5"
+            "Dia 5",
+            "Bom Executado"
         ],
         "setup": false,
         "ability": "Se mais de um jogador do bem for executado, o Mal vence. Todos sabem que você está em jogo. Após o dia 5, o Mal vence.",

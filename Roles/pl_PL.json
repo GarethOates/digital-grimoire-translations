@@ -579,9 +579,9 @@
         "otherNight": 13,
         "otherNightReminder": "Jeśli Dworzanin nie wykorzystał jeszcze swojej umiejętności: Dworzanin albo kręci głową na \"nie\" albo wskazuje na postać w rozpisce postaci. Jeśli Dworzanin użył swoich umiejętności: Jeśli ta postać jest w grze, ten gracz jest pijany.",
         "reminders": [
-            "Pijany 1",
-            "Pijany 2",
             "Pijany 3",
+            "Pijany 2",
+            "Pijany 1",
             "Brak zdolności"
         ],
         "setup": false,
@@ -744,8 +744,8 @@
         "otherNight": 52,
         "otherNightReminder": "Jeśli dzisiaj zmarł Outsider: Ojciec Chrzestny wskazuje na gracza. Ten gracz umiera.",
         "reminders": [
-            "Ginie",
-            "Zginął dzisiaj"
+            "Zginął dzisiaj",
+            "Ginie"
         ],
         "setup": true,
         "ability": "Zaczynasz wiedząc jacy Outsiderzy są w grze. Jeśli dzisiaj któryś z nich umarł, dzisiejszą nocą wybierz gracza: ten gracz umiera. [-1 lub +1 Outsider]",
@@ -808,8 +808,8 @@
         "otherNight": 36,
         "otherNightReminder": "Jeśli nikt nie umarł w ciągu dnia: Zombuul wskazuje na gracza. Ten gracz umiera.",
         "reminders": [
-            "Ginie",
-            "Zginął dzisiaj"
+            "Zginął dzisiaj",
+            "Ginie"
         ],
         "setup": false,
         "ability": "Każdej nocy*, jeśli dziś nikt nie zginął: wybierz gracza, który umrze. Kiedy umrzesz po raz pierwszy, będziesz nadal żyć, ale będziesz rejestrowany jako martwy.",
@@ -926,8 +926,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Nominowany Zły",
-            "Nominowany Dobry"
+            "Nominowany Dobry",
+            "Nominowany Zły"
         ],
         "setup": false,
         "ability": "Tylko Bajarz może nominować. Co najmniej jeden przeciwny gracz musi być nominowany każdego dnia.",
@@ -1368,8 +1368,8 @@
         "otherNight": 1,
         "otherNightReminder": "Wybierz gracza, obudź go i powiedz, która moc Baristy ma na niego wpływ. Potraktuj go zgodnie z tą mocą (trzeźwy/zdrowy/prawdziwe informacle lub aktywuj ich zdolność dwa razy).",
         "reminders": [
-            "2x Zdolność",
             "Trzeźwy i Zdrowy",
+            "2x Zdolność",
             "?",
             "?"
         ],
@@ -1483,8 +1483,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Ma zdolność",
-            "Szaleje"
+            "Szaleje",
+            "Ma zdolność"
         ],
         "setup": false,
         "ability": "Zaczynasz znając 1 postać Mieszczanina w grze. Jeśli 'szalejesz', że jesteś tą postacią, zyskujesz jej zdolność, gdy umrze.",
@@ -1957,8 +1957,8 @@
         "otherNight": 27,
         "otherNightReminder": "Obudź pierwszego dobrego gracza, który wypowiedział sekretne słowo Mezofelesa i pokaż mu kartę 'Jesteś' oraz kciukiem w dół sygnał zła",
         "reminders": [
-            "Brak zdolności",
-            "Będzie zły"
+            "Będzie zły",
+            "Brak zdolności"
         ],
         "setup": false,
         "ability": "Zaczynasz znając sekretne słowo. Pierwszy dobry gracz, który wypowie to słowo, tej nocy staje się zły.",
@@ -2027,8 +2027,8 @@
             }
         ],
         "remindersGlobal": [
-            "Ginie",
-            "jest Demonem"
+            "jest Demonem",
+            "Ginie"
         ]
     },
     {
@@ -2076,8 +2076,8 @@
         "otherNight": 34,
         "otherNightReminder": "Wybierz gracza, ten gracz umiera.",
         "reminders": [
-            "Zaraz zginie",
-            "Ginie"
+            "Ginie",
+            "Zaraz zginie"
         ],
         "setup": true,
         "ability": "Każdej nocy* gracz może umrzeć. Egzekucje kończą się niepowodzeniem, jeśli tylko zło głosowało. Jesteś rejestrowany zarówno jako Demon jak i Sługus. [Większość graczy to Legion].",

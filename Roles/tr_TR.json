@@ -579,9 +579,9 @@
         "otherNight": 13,
         "otherNightReminder": "İşaretli oyuncunun zehirlendiği kalan gün sayısını azalt. Eğer Nedim henüz yeteneğini kullanmamışsa: Nedim ya 'hayır' işareti yapar ya da kâğıttaki bir karakteri işaret eder. Eğer nedim yeteneğini kullandıysa: Eğer o karakter oyundaysa, o oyuncu sarhoş olur.",
         "reminders": [
-            "Sarhoş 1",
-            "Sarhoş 2",
             "Sarhoş 3",
+            "Sarhoş 2",
+            "Sarhoş 1",
             "Yetenek yok"
         ],
         "setup": false,
@@ -1021,8 +1021,8 @@
         "otherNight": 73,
         "otherNightReminder": "İblis'in bugün oy verip vermediği için 'evet' işareti yapın veya başınızı 'hayır' anlamında sallayın. 'İblis oy vermedi' işaretleyicisini yerleştirin ('İblis oy verdi' işaretleyicisini kaldırın, varsa).",
         "reminders": [
-            "İblis Oy Vermedi",
-            "İblis Oy Verdi"
+            "İblis Oy Verdi",
+            "İblis Oy Vermedi"
         ],
         "setup": false,
         "ability": "Her gece*, bir İblis'in bugün oy verip vermediğini öğrenirsiniz.",
@@ -1038,8 +1038,8 @@
         "otherNight": 74,
         "otherNightReminder": "Bir Minyon'un bugün aday gösterip göstermediği için 'evet' işareti yapın veya başınızı 'hayır' anlamında sallayın. 'Minyon aday göstermedi' işaretleyicisini yerleştirin ('Minyon aday gösterdi' işaretleyicisini kaldırın, varsa).",
         "reminders": [
-            "Minyon Aday Gösterdi",
-            "Minyon Aday Göstermedi"
+            "Minyon Aday Göstermedi",
+            "Minyon Aday Gösterdi"
         ],
         "setup": false,
         "ability": "Her gece*, bir Minyon'un bugün aday gösterip göstermediğini öğrenirsiniz.",
@@ -1368,8 +1368,8 @@
         "otherNight": 1,
         "otherNightReminder": "Bir oyuncu seçin, onu uyandırın ve hangi Barista gücünün onu etkilediğini söyleyin. Onlara buna göre davranın (ayık/sağlıklı/gerçek bilgi veya yeteneklerini iki kez etkinleştirin).",
         "reminders": [
-            "İki Defa Yetenek",
             "Ayık & Sağlıklı",
+            "İki Defa Yetenek",
             "?",
             "?"
         ],
@@ -1418,8 +1418,8 @@
         "otherNight": 5,
         "otherNightReminder": "Kemik Toplayıcı ya başını hayır anlamında sallar ya da herhangi bir ölü oyuncuyu işaret eder. Eğer ölü bir oyuncuyu işaret ederse, Kemik Toplayıcısı'nın 'Yeteneği Var' hatırlatıcısını seçilen oyuncunun karakter simgesinin yanına koyun. (Bunu kullanmak için bu gece uyandırılmaları gerekebilir).",
         "reminders": [
-            "Yetenek var",
-            "Yetenek yok"
+            "Yetenek yok",
+            "Yetenek var"
         ],
         "setup": false,
         "ability": "Oyun başına bir kez, gece, ölü bir oyuncu seçin: gün batımına kadar yeteneklerini yeniden kazanırlar.",
@@ -1483,8 +1483,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Yeteneği Var",
-            "Deli"
+            "Deli",
+            "Yeteneği Var"
         ],
         "setup": false,
         "ability": "Oyunda olan 1 Kasabalı'yı bilerek başlarsınız. Eğer bu karakter olmak konusunda \"deli\"yseniz, öldüklerinde yeteneklerini kazanırsınız.",
@@ -1576,8 +1576,8 @@
         "otherNight": 32,
         "otherNightReminder": "Kurtadam hayatta olan bir oyuncuyu işaret eder: eğer iyiyse, ölür ve bu gece başka kimse ölemez.",
         "reminders": [
-            "Ölü",
-            "Sahte Pençe"
+            "Sahte Pençe",
+            "Ölü"
         ],
         "setup": false,
         "ability": "Her gece*, hayatta olan bir oyuncu seçin. Eğer iyiyse, ölür ve İblis bu gece öldürmez. Bir iyi oyuncu kötü olarak kaydedilir.",
@@ -1769,8 +1769,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Bugün öldü",
-            "Zehirlendi"
+            "Zehirlendi",
+            "Bugün öldü"
         ],
         "setup": false,
         "ability": "Yakın zamanda idam edilen kişinin yeteneğine sahipsiniz. Eğer kötülerse, iyi bir oyuncu idam edilerek ölene kadar zehirlenirsiniz.",
@@ -1957,8 +1957,8 @@
         "otherNight": 27,
         "otherNightReminder": "Mezepheles'in gizli kelimesini söyleyen ilk iyi oyuncuyu uyandırın ve ona 'Sen şusun' kartını ve başparmak aşağı kötü işaretini gösterin.",
         "reminders": [
-            "Yetenek Yok",
-            "Kötü Oluyor"
+            "Kötü Oluyor",
+            "Yetenek Yok"
         ],
         "setup": false,
         "ability": "Gizli bir kelime bilerek başlarsınız. Bu kelimeyi söyleyen ilk iyi oyuncu o gece kötü olur.",
@@ -2027,8 +2027,8 @@
             }
         ],
         "remindersGlobal": [
-            "Ölü",
-            "İblis"
+            "İblis",
+            "Ölü"
         ]
     },
     {
@@ -2076,8 +2076,8 @@
         "otherNight": 34,
         "otherNightReminder": "Bir oyuncu seçin, o oyuncu ölür.",
         "reminders": [
-            "Ölüme Yakın",
-            "Ölü"
+            "Ölü",
+            "Ölüme Yakın"
         ],
         "setup": true,
         "ability": "Her gece*, bir oyuncu ölebilir. Sadece kötüler oy verirse idamlar başarısız olur. Siz de bir Minyon olarak görünürsünüz. [Çoğu oyuncu Lejyon'dur]",
@@ -2146,8 +2146,8 @@
         "otherNight": 20,
         "otherNightReminder": "",
         "reminders": [
-            "Sarhoş",
-            "Ölüme Yakın"
+            "Ölüme Yakın",
+            "Sarhoş"
         ],
         "setup": false,
         "ability": "Tüm oyuncular oylama sırasında gözlerini kapalı tutar ve oy sayısı gizlidir. Her gece, sarhoş olup olmadığınızı seçin.",
