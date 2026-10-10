@@ -1576,8 +1576,8 @@
         "otherNight": 32,
         "otherNightReminder": "Likantrop wskazuje na żywego gracza: jeśli ten gracz jest dobry, to umiera i nikt inny nie może umrzeć dzisiejszej nocy.",
         "reminders": [
-            "Ginie",
-            "Martwy"
+            "Faux Paw",
+            "Ginie"
         ],
         "setup": false,
         "ability": "Każdej nocy* wybierz żywego gracza. Jeśli jest dobry, umiera i Demon nie zabija tej nocy. Jeden dobry gracz jest rejestrowany jako zły.",
@@ -2717,7 +2717,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "W górę"
+            "Whoopsie"
         ],
         "setup": true,
         "ability": "Raz w grze Bajarz zrobi \"błąd\", popraw go i publicznie przyznaj się do niego.",

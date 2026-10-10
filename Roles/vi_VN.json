@@ -2216,19 +2216,19 @@
     },
     {
         "id": "harpy",
-        "name": "Người chim",
+        "name": "Harpy",
         "edition": "",
         "team": "minion",
         "firstNight": 36,
-        "firstNightReminder": "Harpy chọn hai người chơi. :lời nhắc: :lời nhắc:",
+        "firstNightReminder": "Harpy chọn 2 người. :reminder: :reminder: Cho Harpy đi ngủ. Gọi mục tiêu đầu tiên dậy. Cho xem token *NHÂN VẬT NÀY CHỌN BẠN*, token Harpy, và chỉ vào mục tiêu thứ hai.",
         "otherNight": 26,
-        "otherNightReminder": "Harpy chọn hai người chơi. :lời nhắc: :lời nhắc:",
+        "otherNightReminder": "Harpy chọn 2 người. :reminder: :reminder: Cho Harpy đi ngủ. Gọi mục tiêu đầu tiên dậy. Cho xem token *NHÂN VẬT NÀY CHỌN BẠN*, token Harpy, và chỉ vào mục tiêu thứ hai.",
         "reminders": [
-            "Được chọn",
-            "Được chọn"
+            "Điên",
+            "Nhì"
         ],
         "setup": false,
-        "ability": "Mỗi đêm, chọn 2 người chơi. Ngày mai, nếu một trong hai người được đề cử, bạn có thể hỏi riêng Người kể chuyện xem nhân vật của họ là ai.",
+        "ability": "Mỗi đêm, chọn 2 người: sáng mai, người thứ nhất phải điên rằng người thứ hai là người xấu, hoặc một hoặc cả hai chết.",
         "special": null
     },
     {

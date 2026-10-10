@@ -1517,7 +1517,7 @@
         "edition": "carousel",
         "otherNightReminder": "Si el Metge de la pesta ha mort, el narrador ha obtingut l’habilitat d’un sequaç. Si encara no ho has fet, fes-ho ara. :reminder:",
         "reminders": [
-            "Duplicat"
+            "Habilitat del narrador"
         ],
         "setup": false,
         "ability": "Quan mors, el narrador obté l’habilitat d’un sequaç.",

@@ -2216,19 +2216,19 @@
     },
     {
         "id": "harpy",
-        "name": "女巫",
+        "name": "鹰身女妖",
         "edition": "",
         "team": "minion",
         "firstNight": 36,
-        "firstNightReminder": "鹰身女妖选择两名玩家。 :提醒: :提醒:",
+        "firstNightReminder": "鹰身女妖先后选择两名玩家。:reminder: :reminder: 让鹰身女妖重新入睡。唤醒第一名玩家。对他展示“该角色的能力对你生效”信息标记，以及鹰身女妖的角色标记。然后指向第二名玩家。",
         "otherNight": 26,
-        "otherNightReminder": "鹰身女妖选择两名玩家。 :提醒: :提醒:",
+        "otherNightReminder": "鹰身女妖先后选择两名玩家。:reminder: :reminder: 让鹰身女妖重新入睡。唤醒第一名玩家。对他展示“该角色的能力对你生效”信息标记，以及鹰身女妖的角色标记。然后指向第二名玩家。",
         "reminders": [
-            "被选中",
-            "被选中"
+            "疯狂",
+            "第二名"
         ],
         "setup": false,
-        "ability": "每个夜晚，选择2名玩家。明天，如果其中一名玩家被提名，你可以私下询问说书人他们的角色是什么。",
+        "ability": "每个夜晚，你要选择两名玩家：明天第一名玩家需要“疯狂”地证明第二名玩家是邪恶的，否则他们之中可能会有人死亡。",
         "special": null
     },
     {
