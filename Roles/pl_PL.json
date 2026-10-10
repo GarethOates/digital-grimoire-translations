@@ -1769,8 +1769,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Zginął",
-            "Zatruty"
+            "Zatruty",
+            "Zginął"
         ],
         "setup": false,
         "ability": "Masz zdolność postaci ostatniego straconego gracza. Jeśli była zła, zostajesz zatruty dopóki dobry gracz nie umrze w wyniku egzekucji.",
