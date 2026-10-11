@@ -3266,7 +3266,7 @@
             "Té l’habilitat"
         ],
         "setup": false,
-        "ability": "Una vegada per partida, a la nit, tria un jugador mort; aquest recupera la seva habilitat fins al capvespre.",
+        "ability": "Una vegada per partida, a la nit*, tria un jugador mort; aquest recupera la seva habilitat fins al capvespre.",
         "flavor": "Col·lecciono moltes coses. Cabells. Dents. Roba. Fragments de poemes. Els somnis d’amants perduts. Les meves arts secretes no us incumbeixen, però els meus honoraris són una misèria. Porteu-me la sang d’una noble que morís de desamor sota la lluna plena i tindreu les vostres respostes."
     },
     {
@@ -3370,9 +3370,9 @@
         "id": "angel",
         "firstNightReminder": "Anuncia quins jugadors estan protegits per l’Àngel. :reminder:",
         "reminders": [
-            "Protected",
-            "Protected",
-            "Something Bad"
+            "Protegit",
+            "Protegit",
+            "Alguna cosa dolenta"
         ],
         "setup": false,
         "name": "Àngel",
@@ -3459,7 +3459,7 @@
     {
         "id": "fibbin",
         "reminders": [
-            "Utilitzat"
+            "Sense habilitat"
         ],
         "setup": false,
         "name": "Barater",
@@ -3538,7 +3538,7 @@
         "firstNightReminder": "Resol les fases d’informació de sequaços i de dimoni, encara que hi hagi menys de set jugadors.",
         "otherNightReminder": "Si un atac del dimoni podria acabar la partida i el dimoni està marcat amb la fitxa *DARRERA NIT: SENSE ATAC*, no despertis el dimoni.",
         "reminders": [
-            "Sense atac"
+            "Darrera nit: sense atac"
         ],
         "setup": false,
         "name": "Joguinaire",
@@ -3579,7 +3579,7 @@
         "name": "Jardiner",
         "team": "loric",
         "edition": "loric",
-        "ability": "El narrador assigna els personatges d’un o més jugadors.",
+        "ability": "El narrador assigna els personatges de tots els jugadors.",
         "special": [
             {
                 "name": "distribute-roles",
@@ -3656,7 +3656,7 @@
         "id": "stormcatcher",
         "firstNightReminder": "Anuncia quin personatge ha estat atrapat per la tempesta. Si aquest personatge és a la partida, marca el jugador com a *ATRAPAT PER LA TEMPESTA*. Desperta cada jugador malvat i mostra-li la fitxa del personatge i, després, assenyala el jugador marcat. Si no és a la partida, desperta cada jugador malvat i mostra-li la targeta *AQUESTS PERSONATGES NO SÓN A LA PARTIDA* i la fitxa del personatge corresponent.",
         "reminders": [
-            "Stormcaught"
+            "Atrapat per la tempesta"
         ],
         "setup": false,
         "name": "Caçador de tempestes",
@@ -3680,7 +3680,7 @@
     {
         "id": "ventriloquist",
         "reminders": [
-            "Mad"
+            "Boig"
         ],
         "setup": false,
         "name": "Ventríloc",
@@ -3692,9 +3692,9 @@
     {
         "id": "zenomancer",
         "reminders": [
-            "Goal",
-            "Goal",
-            "Goal"
+            "Objectiu",
+            "Objectiu",
+            "Objectiu"
         ],
         "setup": false,
         "name": "Zenomant",

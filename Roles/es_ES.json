@@ -49,7 +49,7 @@
             "Incorrecto"
         ],
         "setup": false,
-        "ability": "Empiezas sabiendo que uno de cada 2 jugadores es un Aldeano en particular.",
+        "ability": "Empiezas sabiendo que 1 de 2 jugadores es un Aldeano en particular.",
         "special": null,
         "flavor": "¿Manchas de sangre en una chaqueta de smoking? No, esto es jerez de cocina. Qué descuido."
     },
@@ -1183,7 +1183,7 @@
             "Es el Aprendiz"
         ],
         "setup": false,
-        "ability": "En tu primera noche, obtienes una habilidad de Aldeanos del pueblo (si es buena), o una habilidad de esbirro (si es malvada).",
+        "ability": "En tu primera noche, obtienes una habilidad de Aldeano (si eres bueno) o una habilidad de Esbirro (si eres malvado).",
         "special": null,
         "flavor": "Durante años he viajado, estudiando los caminos del Oficio. ¿Qué nave, preguntas? Simplemente la de la gente sencilla. No hay nada de qué preocuparse. Todavía no."
     },
@@ -1372,11 +1372,11 @@
         "otherNight": 74,
         "otherNightReminder": "O asientes o niegas con la cabeza.",
         "reminders": [
-            "Esbirros no nominados",
-            "Esbirro nominado"
+            "Los Esbirros no han nominado",
+            "Un Esbirro ha nominado"
         ],
         "setup": false,
-        "ability": "Cada noche*, aprendes si un Esbirro ha sido nominado hoy.",
+        "ability": "Cada noche*, aprendes si un Esbirro ha nominado hoy.",
         "special": null,
         "flavor": "¡Escuchad! ¡Escuchad! ¡Brujería en el laberinto! ¡Genio sabio lo revela todo! ¡Pueblo en peligro! ¡Escuchad!"
     },
@@ -1542,7 +1542,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Si estás loco por ser un Forastero, podrías ser ejecutado.",
+        "ability": "Si estás \"loco\" creyendo que eres un Forastero, podrías ser ejecutado.",
         "special": null,
         "flavor": "¡No soy un bicho raro! ¡Soy un ser humano! ¡Ten piedad!"
     },
@@ -1648,7 +1648,7 @@
             "Loco"
         ],
         "setup": false,
-        "ability": "Cada noche, elige un jugador y un personaje bueno: este personaje mañana está \"loco\", o podría ser ejecutado.",
+        "ability": "Cada noche, elige un jugador y un personaje bueno: mañana está \"loco\" creyendo que es este personaje, o podría ser ejecutado.",
         "special": null,
         "flavor": "La realidad es solo una opinión. Específicamente, mi opinión.",
         "jinxes": [
@@ -1840,7 +1840,7 @@
             "Muerto"
         ],
         "setup": false,
-        "ability": "Cada noche*, elige un jugador vivo: si está de acuerdo, aprendes su carácter, pero ambos podríais morir.",
+        "ability": "Cada noche*, elige un jugador vivo: si está de acuerdo, aprendes su personaje, pero ambos podríais morir.",
         "special": null,
         "flavor": "Encantada, marinero. Parece que necesitas a alguien que realmente escuche tus problemas. Soy buen oyente. Muy, muy buena."
     },
@@ -1873,7 +1873,7 @@
             "Tiene habilidad"
         ],
         "setup": false,
-        "ability": "Una vez por partida, por la noche, elige 1 jugador muerto: vuelve a ganar su habilidad hasta el crepúsculo.",
+        "ability": "Una vez por partida, por la noche*, elige 1 jugador muerto: vuelve a ganar su habilidad hasta el crepúsculo.",
         "special": null,
         "flavor": "Colecciono muchas cosas. Pelo. Dientes. Ropa. Fragmentos de poemas. Sueños de amantes perdidos. Mis artes secretas no son para ser conocidas, pero mis honorarios son una miseria. Tráeme la sangre de una noble que muriera de desamor bajo la luna llena, y tendrás tus respuestas."
     },
@@ -1888,7 +1888,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Si hoy fueras gracioso, no puedes morir en el exilio.",
+        "ability": "Si hoy has sido gracioso, no puedes morir por exilio.",
         "special": null,
         "flavor": "Fue una broma de la Doncella, por supuesto."
     },
@@ -3309,7 +3309,7 @@
             "Segundo"
         ],
         "setup": false,
-        "ability": "Cada noche, elige 2 jugadores: mañana, el primer jugador se vuelve loco porque el segundo es malvado, o uno o ambos podrían morir.",
+        "ability": "Cada noche, elige 2 jugadores: mañana, el primer jugador está loco creyendo que el segundo es malvado, o uno o ambos podrían morir.",
         "special": null,
         "flavor": "Un día tan hermoso que nunca vi, ni una presencia tan inquieta que me envolviera."
     },
@@ -3448,7 +3448,7 @@
             "Muerto"
         ],
         "setup": true,
-        "ability": "Cada noche*, elige un jugador: muere. [Eliges qué jugadores son qué Esbirros. -? ¿a +? Forasteros]",
+        "ability": "Cada noche*, elige un jugador: muere. [Eliges qué jugadores son qué Esbirros. -? a +? Forasteros]",
         "special": null,
         "flavor": "Gonzales. Ten cuida-do. El mecanis-mo está inverti-do. Error-es en el sis-tema. Reconfigu-ra.",
         "jinxes": [
@@ -3608,7 +3608,7 @@
             "Tiene habilidad"
         ],
         "setup": false,
-        "ability": "Si el Demonio te mata, todos los jugadores aprenden esto. A partir de ahora, podéis nominar dos veces al día y votar dos veces por nominación.",
+        "ability": "Si el Demonio te mata, todos los jugadores aprenden esto. A partir de ahora, puedes nominar dos veces al día y votar dos veces por nominación.",
         "special": [],
         "flavor": "Tu pelo será azul, tu pelo será rojo, no será tan largo como en la tumba.",
         "jinxes": [
@@ -3672,7 +3672,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Cada día, si adivinas públicamente quiénes jugadores son Esbirro(s) y cuáles son Demonio(s), gana bien.",
+        "ability": "Cada día, si adivinas públicamente qué jugadores son Esbirro(s) y cuáles son Demonio(s), el bien gana.",
         "special": [],
         "flavor": "Estoy aquí por ti, y tú estás aquí por mí.",
         "jinxes": [
@@ -3724,7 +3724,7 @@
             "Muerto"
         ],
         "setup": true,
-        "ability": "Cada noche*, elige un jugador: muere. [Los personajes malvados están en fila. Estás en medio. +1 Esbirro. -? ¿a +? Forasteros]",
+        "ability": "Cada noche*, elige un jugador: muere. [Los personajes malvados están en fila. Estás en medio. +1 Esbirro. -? a +? Forasteros]",
         "special": [],
         "flavor": "En los rincones sombríos y olvidados del cosmos, donde las estrellas susurran secretos al vacío, yace una verdad tan profunda que el más mínimo atisbo de ella deshace la cordura de las mentes mortales.",
         "jinxes": [
@@ -3993,7 +3993,7 @@
         "reminders": [],
         "edition": "loric",
         "team": "loric",
-        "ability": "Cada nominado elige a un jugador: hasta votar, solo él puede hablar y está loco porque el nominado es bueno o podría morir.",
+        "ability": "Cada nominado elige a un jugador: hasta votar, solo él puede hablar y está loco creyendo que el nominado es bueno o podría morir.",
         "flavor": "La vanidad pregunta \"¿Es popular?\" La cobardía pregunta \"¿Es seguro?\" La conciencia pregunta \"¿Es correcto?\" ¿Quién de nosotros preguntará: \"¿Es verdad?\""
     },
     {
@@ -4199,7 +4199,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "El Narrador asigna a uno o más personajes de los jugadores.",
+        "ability": "El Narrador asigna los personajes de todos los jugadores.",
         "special": null,
         "flavor": "Cuando el sofisma se convierte en estupidez y la hipocresía en crueldad, retiraos al jardín. El amor final de los viejos son las flores y las piedras."
     },
@@ -4264,7 +4264,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "No quedan malvados"
+            "No más malvados"
         ],
         "setup": false,
         "ability": "No puede haber más de un jugador malvado extra.",

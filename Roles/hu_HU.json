@@ -803,7 +803,7 @@
             "Mindenki részeg"
         ],
         "setup": false,
-        "ability": "Amikor egy csatlóst kivégeznek, az összes többi játékos (az utazók kivételével) részeg lesz másnap alkonyatig.",
+        "ability": "Amikor egy csatlóst kivégeznek és emiatt meghal, az összes többi játékos (az utazók kivételével) részeg lesz másnap alkonyatig.",
         "flavor": "And I shall hear, tho' soft you tread above me... And all my dreams will warm and sweeter be... If you'll not fail to tell me that you love me... I simply sleep in peace until you come to me."
     },
     {
@@ -814,7 +814,7 @@
         "otherNightReminder": "Ha ma éjjel halt meg, kiválaszt egy játékost. Mutasd meg neki a játékos karakterjelőlőjét.",
         "reminders": [],
         "setup": false,
-        "ability": "Ha éjjel meghalsz, felébredsz, hogy válassz egy másik játékost, akinek megismered a karakterét.",
+        "ability": "Ha éjjel meghalsz, felébredsz, hogy válassz egy játékost, akinek megismered a karakterét.",
         "flavor": "My birds will avenge me! Fly! Fly, my sweet and dutiful pets! To the manor and to the river! To the alleys and to the salons! Fly!"
     },
     {
@@ -1097,7 +1097,7 @@
         "edition": "carousel",
         "otherNightReminder": "Ha a pestisdoktor meghalt, a mesélő kapott egy csatlós képességet. Ha még nem tetted meg, most tedd meg. :reminder:",
         "reminders": [
-            "Storyteller Ability"
+            "Mesélő képessége"
         ],
         "setup": false,
         "ability": "Ha meghalsz, a mesélő kap egy csatlós képességet.",
@@ -1571,7 +1571,7 @@
         "team": "minion",
         "reminders": [],
         "setup": false,
-        "ability": "Ha a démont kivégzik, és meghal, a játék még egy napig folytatódik. Ha ekkor kivégeznek egy játékost, annak a csapata veszít.",
+        "ability": "Ha a démont kivégzik, és emiatt meghal (vége lenne a játéknak), a játék még egy napig folytatódik. Ha ekkor kivégeznek egy játékost, a csapata veszít.",
         "flavor": "The tentacles of that monster are nailed to the doors of the church. Mothers and children are dancing in the street. Excellent. Everything is proceeding exactly as I have planned."
     },
     {
@@ -1843,7 +1843,7 @@
             "Meg fog halni"
         ],
         "setup": true,
-        "ability": "A 3. napon a csatlósok lázadóvá válnak, a gyanúsítottak meghalnak, de rögtön gyanúsítanak egy élő játékost. Ezt kötelező megtenni.",
+        "ability": "Minden éjjel* meghalhat egy játékos. Ha csak gonoszok szavaznak, a kivégzés sikertelen. Csatlósnak is tűnsz. [A legtöbb játékos légió]",
         "special": [
             {
                 "type": "selection",
@@ -2155,7 +2155,7 @@
             "Amigo"
         ],
         "setup": false,
-        "ability": "Mindenki megtudja az egyik játékosról, hogy a te oldaladhoz tartozik. Bárkit megolhetsz, aki gyanúsítja.",
+        "ability": "Mindenki megtudja az egyik játékosról, hogy a te oldaladhoz tartozik. Bárkit megölhetsz, aki gyanúsítja.",
         "flavor": "Four the score or seven beers, no shows are goes for me and my. A prank to crack the cranks and planks o’ the floor foundation length, so incontravertabubbilly mini. The large essays down streams of joyse, no greater than is scene, not inherdt. Ha-urrumph."
     },
     {
@@ -2315,9 +2315,9 @@
     {
         "id": "revolutionary",
         "reminders": [
-            "Register Falsely?",
-            "Aligned",
-            "Aligned"
+            "Másnak tűnik?",
+            "Csapattárs",
+            "Csapattárs"
         ],
         "setup": false,
         "name": "Forradalmár",
@@ -2394,7 +2394,7 @@
         "name": "Kertész",
         "team": "loric",
         "edition": "loric",
-        "ability": "A mesélő jelöli ki egy vagy több játékos karakterét.",
+        "ability": "A mesélő jelöli ki az összes játékos karakterét.",
         "special": [
             {
                 "name": "distribute-roles",
@@ -2444,7 +2444,7 @@
         "name": "Lovagok",
         "team": "loric",
         "edition": "loric",
-        "ability": "Két mesélő van: az egyik igazat mond, a másik hazudik. Játékonként egyszer, hajnalban cserélhetnek.",
+        "ability": "Két mesélő van: az egyik igazat mond, a másik hazudik. Játékonként egyszer, alkonyatkor cserélhetnek.",
         "flavor": "Every wall is a door. Every meal is a feast."
     },
     {

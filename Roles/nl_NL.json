@@ -275,7 +275,7 @@
             }
         ],
         "remindersGlobal": [
-            "Dronken"
+            "Is de Dronkaard"
         ]
     },
     {
@@ -930,7 +930,7 @@
             "Nomineer kwaad"
         ],
         "setup": false,
-        "ability": "Alleen de spelleider kan nomineren. Minimaal 1 speler van het andere team moet worden genomineerd.",
+        "ability": "Alleen de spelleider kan nomineren. Elke dag moet minimaal 1 speler van het andere team worden genomineerd.",
         "special": null
     },
     {
@@ -972,7 +972,7 @@
         "otherNightReminder": "De Dromer wijst naar een speler. Toon 1 goed en 1 kwaad karaktertoken: één van de tokens is juist.",
         "reminders": [],
         "setup": false,
-        "ability": "Kies elke nacht 1 speler (behalve jezelf): je ontdekt 1 goede en 1 kwade rol. Een daarvan is juist.",
+        "ability": "Kies elke nacht 1 speler (behalve jezelf of reizigers): je ontdekt 1 goede en 1 kwade rol. Een daarvan is juist.",
         "special": null
     },
     {
@@ -1001,11 +1001,11 @@
         "otherNight": 89,
         "otherNightReminder": "Toon met de hand het aantal spelers van wie de vaardigheden zijn aangetast.",
         "reminders": [
-            "Abnormal",
-            "Abnormal",
-            "Abnormal",
-            "Abnormal",
-            "Abnormal"
+            "Abnormaal",
+            "Abnormaal",
+            "Abnormaal",
+            "Abnormaal",
+            "Abnormaal"
         ],
         "setup": false,
         "ability": "Je ontdekt elke nacht hoeveel vaardigheden (sinds het begin van de vorige dag) niet zo hebben gewerkt als ze zouden moeten, door de vaardigheid van een andere rol.",
@@ -1139,11 +1139,11 @@
         "otherNight": 77,
         "otherNightReminder": "Als vandaag de eerste dag van de Jongleur was: toon met de hand hoeveel karakters de Jongleur correct heeft geraden.",
         "reminders": [
-            "Korrekt",
-            "Korrekt",
-            "Korrekt",
-            "Korrekt",
-            "Korrekt"
+            "Correct",
+            "Correct",
+            "Correct",
+            "Correct",
+            "Correct"
         ],
         "setup": false,
         "ability": "Je mag op je eerste dag openlijk proberen maximaal 5 rollen van spelers te raden. Die nacht ontdek je hoeveel je er goed had.",
@@ -1203,10 +1203,10 @@
         "otherNight": 55,
         "otherNightReminder": "Als de Kapper vandaag is gestorven: wek de demon. Toon hem de 'Dit karakter heeft jou gekozen'-kaart en dan het Kapper-token. De demon knikt (ja) of schudt zijn hoofd (nee). Als hij ja knikt: wijs naar twee spelers. Zij wisselen van rol.",
         "reminders": [
-            "Heute gibt's Haarschnitte!"
+            "Geknipt vanavond"
         ],
         "setup": false,
-        "ability": "Als je sterft, mag de demon 's nachts 2 spelers kiezen: zij wisselen van rol.",
+        "ability": "Als je vandaag of vannacht bent gestorven, mag de demon 2 spelers kiezen (geen andere demon): zij wisselen van rol.",
         "special": null
     },
     {
@@ -1296,7 +1296,7 @@
         "otherNightReminder": "De Fang Gu wijst naar een speler. Die speler sterft. Als die speler een buitenstaander was en er geen andere Fang Gu in het spel is: de Fang Gu sterft in zijn plaats. De geselecteerde speler wordt de nieuwe Fang Gu. Wek de nieuwe Fang Gu. Toon hem de 'Jij bent'-kaart en het token van de Fang Gu. Toon hem daarna de 'Jij bent'-kaart en een duim omlaag (kwaad) teken.",
         "reminders": [
             "Dood",
-            "Einmalig"
+            "Eenmalig"
         ],
         "setup": true,
         "ability": "Kies elke nacht* 1 speler: hij sterft. De eerste buitenstaander die je zo doodt, wordt de kwade Fang Gu en jij sterft in zijn plaats. [+1 buitenstaander]",
@@ -1514,9 +1514,9 @@
         "otherNight": 10,
         "otherNightReminder": "De Prediker kiest een speler. Als een minion is gekozen, wek de minion en toon hem de 'Dit karakter heeft jou gekozen'-kaart en daarna het token van de Prediker.",
         "reminders": [
-            "Bij een preek",
-            "Bij een preek",
-            "Bij een preek"
+            "Geen vaardigheid",
+            "Geen vaardigheid",
+            "Geen vaardigheid"
         ],
         "setup": false,
         "ability": "Kies elke nacht 1 speler: is hij een minion, dan ontdekt hij dat. Alle gekozen minions hebben geen vaardigheid.",
@@ -1576,7 +1576,7 @@
         "otherNight": 32,
         "otherNightReminder": "De Weerwolf wijst naar een levende speler. Is hij goed, dan sterft hij en sterft niemand anders die nacht.",
         "reminders": [
-            "Faux Paw",
+            "Valse Poot",
             "Dood"
         ],
         "setup": false,
@@ -1662,7 +1662,7 @@
             "Geen vaardigheid"
         ],
         "setup": true,
-        "ability": "Je mag eenmaal in het spel 's nachts een levende speler kiezen: is hij de Jonkvrouw, dan krijgt hij een dorpelingenrol die niet in het spel is en is hij niet meer de Jonkvrouw.",
+        "ability": "Je mag eenmaal in het spel 's nachts een levende speler kiezen: is hij de Jonkvrouw, dan krijgt hij een dorpelingenrol die niet in het spel is en is hij niet meer de Jonkvrouw. [+Jonkvrouw]",
         "special": null
     },
     {
@@ -1756,7 +1756,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": true,
-        "ability": "De spelleider mag de spelregels breken. Als hij wordt geëxecuteerd, wint het goede team, zelfs als je dood bent.",
+        "ability": "De spelleider mag de spelregels breken. Als hij wordt geëxecuteerd, wint het goede team, zelfs als je dood bent. [Geen kwade rollen]",
         "special": null
     },
     {
@@ -2133,7 +2133,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Je mag eenmaal in het spel een levende buur doden, als je andere levende buur instemt.",
+        "ability": "Je mag eenmaal per dag een levende buur doden, als je andere levende buur instemt.",
         "special": null
     },
     {
@@ -2241,10 +2241,10 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Storyteller Ability"
+            "Verteller Vaardigheid"
         ],
         "setup": false,
-        "ability": "Als je sterft, krijgt de verteller de vaardigheid van een minion die niet in het spel is.",
+        "ability": "Als je sterft, krijgt de verteller een minionsvaardigheid.",
         "special": null
     },
     {
@@ -2258,7 +2258,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Je begint het spel met de wetenschap in welke richting de dichtstbijzijnde kwade speler zit. Als twee spelers even ver van je verwijderd zijn, wordt je dat medegedeeld.",
+        "ability": "Je begint het spel met de wetenschap of de dichtstbijzijnde kwade speler met de klok mee of tegen de klok in zit. Als er twee even ver weg zitten, is deze informatie willekeurig.",
         "special": null
     },
     {
@@ -2271,7 +2271,7 @@
         "otherNight": 45,
         "otherNightReminder": "The Ojo points to a character on the sheet; if in play, that player dies. If it is not in play, the Storyteller chooses who dies instead.",
         "reminders": [
-            "Dead"
+            "Dood"
         ],
         "setup": false,
         "ability": "Elke nacht*, kies 1 karakter: hij sterft. Is hij niet in het spel, dan kiest de verteller wie sterft.",
@@ -2287,7 +2287,7 @@
         "otherNight": 54,
         "otherNightReminder": "Als de Hoedenmaker vandaag is gestorven: wek de minions en de demon. Toon hen de informatiemarkering en een aantal minions- en demonkarakters waarnaar zij eventueel willen wisselen. Elk van hen kan kiezen of hij naar een van die karakters wisselt.",
         "reminders": [
-            "Heute Abend Teeparty"
+            "Vanavond Theekransje"
         ],
         "setup": false,
         "ability": "Als je vandaag of vannacht bent gestorven, kunnen de minion- en demonspelers nieuwe minion- en demonkarakters kiezen.",
@@ -2340,7 +2340,7 @@
             "Dood"
         ],
         "setup": false,
-        "ability": "Je ontdekt aan het begin 1 geheime uitdrukking. Voor elke keer dat je hem openlijk uitspreekt, zou een speler kunnen sterven.",
+        "ability": "Je ontdekt aan het begin 1 geheime uitdrukking. Voor elke keer dat je hem vandaag openlijk hebt uitgesproken, zou een speler kunnen sterven.",
         "special": null
     },
     {
@@ -2387,10 +2387,10 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Freund"
+            "Vriend"
         ],
         "setup": false,
-        "ability": "Kies in je eerste nacht 1 speler (niet jezelf): je krijgt zijn gezindheid (je weet niet welke), zelfs als je dood bent.",
+        "ability": "Kies in je eerste nacht 1 speler (niet jezelf): je krijgt zijn gezindheid (je weet niet welke), zelfs als je dronken of vergiftigd bent.",
         "special": []
     },
     {
@@ -2459,10 +2459,10 @@
         "firstNightReminder": "",
         "otherNightReminder": "Replace the character token of any player (besides the player the Cacklejack chose today) with a different character token. Wake that player and show them the 'You are' card and their new character token.",
         "reminders": [
-            "Not Me"
+            "Niet ik"
         ],
         "setup": false,
-        "ability": "Each day, choose a player: a different player changes character tonight.",
+        "ability": "Kies elke dag een speler: vanavond verandert een andere speler van karakter.",
         "firstNight": 0,
         "otherNight": 2.1
     },
@@ -2561,7 +2561,7 @@
         "otherNightReminder": "Wake the Wraith whenever other evil players wake.",
         "reminders": [],
         "setup": false,
-        "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
+        "ability": "Je mag ervoor kiezen om 's nachts je ogen te openen. Je wordt gewekt wanneer andere kwade spelers worden gewekt.",
         "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
         "special": [
             {
@@ -2583,8 +2583,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Bescherm",
-            "Bescherm",
+            "Beschermd",
+            "Beschermd",
             "Iets Slechts"
         ],
         "setup": false,
@@ -2617,7 +2617,7 @@
         "name": "Tor",
         "team": "loric",
         "reminders": [],
-        "ability": "Players don't know their character or alignment. They learn them when they die."
+        "ability": "Spelers kennen hun rol en gezindheid niet. Ze ontdekken die wanneer ze sterven."
     },
     {
         "id": "bigwig",
@@ -2628,7 +2628,7 @@
         "reminders": [],
         "edition": "loric",
         "team": "loric",
-        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+        "ability": "Elke genomineerde kiest een speler: tot de stemming mag alleen die speler spreken en is hij bezeten van het idee dat de genomineerde goed is, anders zou hij kunnen sterven."
     },
     {
         "id": "ventriloquist",
@@ -2656,7 +2656,7 @@
         "name": "Zenomancer",
         "team": "loric",
         "edition": "loric",
-        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "ability": "Een of meer spelers hebben elk een doel. Wanneer dat bereikt is, ontdekt die speler een stuk ware informatie.",
         "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
     },
     {
@@ -2664,7 +2664,7 @@
         "name": "Hindu",
         "team": "loric",
         "edition": "loric",
-        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "ability": "De eerste 4 spelers die sterven, worden onmiddellijk gereïncarneerd als reizigers met dezelfde gezindheid.",
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2686,7 +2686,7 @@
         "name": "Pope",
         "team": "loric",
         "edition": "loric",
-        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "ability": "Er zijn dubbele goede rollen in het spel. Het kunnen ook bluffs zijn.",
         "setup": true,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2720,7 +2720,7 @@
             "Oeps"
         ],
         "setup": true,
-        "ability": "Once per game, the Storyteller will make a \"mistake\", correct it and publicly admit to it.",
+        "ability": "Minstens 1 keer per spel zal de Verteller een fout maken, deze oplossen en dit publiekelijk toegeven.",
         "special": null
     },
     {
@@ -2748,7 +2748,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Als meer dan 4 spelers leven: elke levende speler kan openlijk (eenmaal per spel) bepalen dat een speler van zijn eigen gezindheid (goed of kwaad) sterft.",
+        "ability": "Als 4 of meer spelers leven: elke levende speler kan openlijk (eenmaal per spel) bepalen dat een speler van zijn eigen gezindheid (goed of kwaad) sterft.",
         "special": null
     },
     {
@@ -2780,7 +2780,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "On the final day, all dead players regain their vote token.",
+        "ability": "Op de laatste dag krijgen alle dode spelers hun stemtoken terug.",
         "special": null
     },
     {
@@ -2793,7 +2793,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Gebruikt"
+            "Geen vaardigheid"
         ],
         "setup": false,
         "ability": "Eenmaal in het spel zou een goede speler valse informatie kunnen krijgen.",
@@ -2824,7 +2824,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "The Storyteller assigns 1 or more players' characters.",
+        "ability": "De Spelleider wijst de karakters van alle spelers toe.",
         "special": null
     },
     {
@@ -2940,7 +2940,7 @@
         "otherNight": 1,
         "otherNightReminder": "",
         "reminders": [
-            "Geen aanval"
+            "Laatste nacht: Geen Aanval"
         ],
         "setup": false,
         "ability": "De demon kan ervoor kiezen niemand aan te vallen en moet dat minimaal eenmaal in het spel doen. Kwade spelers krijgen de normale startinformatie.",

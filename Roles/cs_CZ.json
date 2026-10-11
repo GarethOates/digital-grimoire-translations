@@ -485,7 +485,7 @@
             "Vybraný"
         ],
         "setup": false,
-        "ability": "Každou noc* vybereš 1 hráče. Pokud se tento hráč stane opilým nebo otráveným tuto noc, zemřeš. ",
+        "ability": "Každou noc* vybereš 1 hráče. Pokud tento hráč je nebo se stane tuto noc opilým nebo otráveným, zemřeš.",
         "flavor": "Welcome, one and all, to the greatest show on earth."
     },
     {
@@ -849,7 +849,7 @@
             "Má schopnost"
         ],
         "setup": false,
-        "ability": "Pokud tě zabije Démon, všichni se to dozvědí. Od té chvíle můžeš nominovat dvakrát a v každé nominaci dvakrát hlasovat.",
+        "ability": "Pokud tě zabije Démon, všichni se to dozvědí. Od té chvíle můžeš nominovat dvakrát za den a v každé nominaci dvakrát hlasovat.",
         "flavor": "Gorm do shúile, dearg do ghruaig, ní bheidh sé i bhfad, is a mbeidh tú san uaigh."
     },
     {
@@ -1163,7 +1163,7 @@
             "Čajový dýchánek"
         ],
         "setup": false,
-        "ability": "Pokud zemřeš, Přisluhovači a Démon si můžou zvolit nové postavy Prisluhovačů a Démona, kterými se stanou.",
+        "ability": "Pokud jsi tento den nebo tuto noc zemřel, Přisluhovači a Démon si můžou zvolit nové postavy Přisluhovačů a Démona, kterými se stanou.",
         "flavor": "One Hat. Too Hat. Three Hat. Tea Hat. Fore Hat. Thrive Hat. Six Hat. Sticks Hat."
     },
     {
@@ -1871,7 +1871,7 @@
             "Jednou"
         ],
         "setup": true,
-        "ability": "Každou noc* vybereš 1 hráče: ten zemře. Když takto poprvé zabiješ Podivína, stane se Fang Guem a ty zemřeš namísto něj. [+1 Podivín]",
+        "ability": "Každou noc* vybereš 1 hráče: ten zemře. Když takto poprvé zabiješ Podivína, stane se zlým Fang Guem a ty zemřeš namísto něj. [+1 Podivín]",
         "flavor": "Your walls and your weapons are but smoke in dreams."
     },
     {
@@ -2331,7 +2331,7 @@
         "name": "Revolucionář",
         "team": "fabled",
         "edition": "fabled",
-        "ability": "2 vybraní sousedící hráči vědí, že jsou stejné příslušnosti. Jednou za hru se jeden z nich může jevit falešně.",
+        "ability": "O 2 sousedících hráčích je známo, že jsou stejné příslušnosti. Jednou za hru se jeden z nich může jevit falešně.",
         "flavor": "United we feigned. Divided, we stalled."
     },
     {
@@ -2367,7 +2367,7 @@
         "name": "Hračkář",
         "team": "fabled",
         "edition": "fabled",
-        "ability": "Démon se může rozhodnout, že nezaútočí; musí tak učinit alespoň jednou za hru. Zlí hráči o sobě vědí.",
+        "ability": "Démon se může rozhodnout, že nezaútočí; musí tak učinit alespoň jednou za hru. Zlí hráči dostávají běžné úvodní informace.",
         "flavor": "It buzzes! It walks down stairs! It keeps you warm at night! It tastes like sugar! The kiddies love it! Introducing... the brand new... Warm'o-buzzy-wuzzy-walk'a'bot-thingy-contraption! Fun for all ages!"
     },
     {

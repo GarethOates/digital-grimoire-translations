@@ -516,7 +516,7 @@
             "Vald"
         ],
         "setup": false,
-        "ability": "Varje natt väljer du en spelare (inte samma som sist); om du väljer Demonen kan hen inte agera inatt, men får veta vem du är.",
+        "ability": "Varje natt* väljer du en spelare (inte samma som sist); om du väljer Demonen vaknar hen inte inatt, men får veta vem du är.",
         "special": null
     },
     {
@@ -602,7 +602,7 @@
             "Ingen förmåga"
         ],
         "setup": false,
-        "ability": "En gång per spel, på natten, kan du välja en död spelare; om du väljer en Bybo börjar hen leva igen.",
+        "ability": "En gång per spel, på natten*, kan du välja en död spelare; om du väljer en Bybo återupplivas hen.",
         "special": null
     },
     {
@@ -764,7 +764,7 @@
             "Överlever avrättning"
         ],
         "setup": false,
-        "ability": "Varje natt* väljer du en levande spelare (inte samma som sist); om hen avrättas imorgon dör hen inte.",
+        "ability": "Varje natt väljer du en levande spelare (inte samma som sist); om hen avrättas imorgon dör hen inte.",
         "special": null
     },
     {
@@ -1190,7 +1190,7 @@
             "Full"
         ],
         "setup": false,
-        "ability": "Om du dör blir 1 spelare full.",
+        "ability": "När du dör blir 1 spelare full för resten av spelet.",
         "special": null
     },
     {
@@ -1374,7 +1374,7 @@
             "?"
         ],
         "setup": false,
-        "ability": "Varje natt, till skymningen, blir en spelare frisk och får sann info, eller kan använda sin förmåga två gånger. Hen får veta vilket.",
+        "ability": "Varje natt, fram till skymningen, 1) blir en spelare frisk, nykter & får sann info, eller 2) dubblerar sin förmåga. Hen får veta vilket.",
         "special": null
     },
     {
@@ -2274,7 +2274,7 @@
             "Död"
         ],
         "setup": false,
-        "ability": "Varje natt väljer du en roll*; hen dör. Om rollen inte är i spel väljer Berättaren vem som dör.",
+        "ability": "Varje natt* väljer du en roll; hen dör. Om rollen inte är i spel väljer Berättaren vem som dör.",
         "special": null
     },
     {
@@ -2306,7 +2306,7 @@
             "Död"
         ],
         "setup": true,
-        "ability": "Varje natt* väljer du en spelare; hen dör. [Du väljer vilka spelare som är Kumpaner. ±? Utbölingar]",
+        "ability": "Varje natt* väljer du en spelare; hen dör. [Du väljer vilka spelare som är vilka Kumpaner. ±? Utbölingar]",
         "special": null
     },
     {
@@ -2459,10 +2459,10 @@
         "firstNightReminder": "",
         "otherNightReminder": "Replace the character token of any player (besides the player the Cacklejack chose today) with a different character token. Wake that player and show them the 'You are' card and their new character token.",
         "reminders": [
-            "Not Me"
+            "Inte mig"
         ],
         "setup": false,
-        "ability": "Each day, choose a player: a different player changes character tonight.",
+        "ability": "Varje dag väljer du en spelare; en annan spelare byter roll inatt.",
         "firstNight": 0,
         "otherNight": 2.1
     },
@@ -2533,7 +2533,7 @@
             "3"
         ],
         "setup": true,
-        "ability": "Du har alla Outsider-förmågor. [-0 eller -1 Outsider]",
+        "ability": "Du har alla Utbölingars förmågor. [-0 eller -1 Utböling]",
         "special": []
     },
     {
@@ -2561,7 +2561,7 @@
         "otherNightReminder": "Wake the Wraith whenever other evil players wake.",
         "reminders": [],
         "setup": false,
-        "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
+        "ability": "Du får öppna ögonen på natten. Du vaknar med andra onda spelare.",
         "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
         "special": [
             {
@@ -2617,7 +2617,7 @@
         "name": "Tor",
         "team": "loric",
         "reminders": [],
-        "ability": "Players don't know their character or alignment. They learn them when they die."
+        "ability": "Spelare vet inte sin roll eller sitt lag. De får veta det när de har dött."
     },
     {
         "id": "bigwig",
@@ -2628,7 +2628,7 @@
         "reminders": [],
         "edition": "loric",
         "team": "loric",
-        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+        "ability": "Nominerade väljer en spelare; fram till röstning får bara hen prata & hen är rabiat om att den nominerade är god, annars kanske hen dör."
     },
     {
         "id": "ventriloquist",
@@ -2648,15 +2648,15 @@
         "firstNightReminder": "",
         "otherNightReminder": "",
         "reminders": [
-            "Goal",
-            "Goal",
-            "Goal"
+            "Mål",
+            "Mål",
+            "Mål"
         ],
         "setup": false,
         "name": "Zenomancer",
         "team": "loric",
         "edition": "loric",
-        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "ability": "En eller flera spelare har varsitt mål. När man uppnått sitt mål får man någon sann info.",
         "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
     },
     {
@@ -2664,7 +2664,7 @@
         "name": "Hindu",
         "team": "loric",
         "edition": "loric",
-        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "ability": "De första 4 spelarna som dör återupplivas omedelbart som Resenärer på samma lag.",
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2686,7 +2686,7 @@
         "name": "Pope",
         "team": "loric",
         "edition": "loric",
-        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "ability": "Dubbletter av goda roller är i spel. De kan också vara bluffar.",
         "setup": true,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2720,7 +2720,7 @@
             "Hoppsan!"
         ],
         "setup": true,
-        "ability": "En gång per spel begår Berättaren ett ”misstag”, rättar till det och erkänner.",
+        "ability": "Minst en gång per spel begår Berättaren ett misstag, rättar till det och erkänner detta öppet.",
         "special": null
     },
     {
@@ -2824,7 +2824,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Berättaren bestämmer 1 eller flera spelares karaktär.",
+        "ability": "Berättaren bestämmer alla spelares roller.",
         "special": null
     },
     {
@@ -2940,7 +2940,7 @@
         "otherNight": 1,
         "otherNightReminder": "Om Demonens attack skulle avsluta spelet inatt och Demonen inte är märkt med brickan ”Ingen attack” så får Demonen inte vakna och agera inatt.",
         "reminders": [
-            "Ingen attack"
+            "Sista natten: Ingen attack"
         ],
         "setup": false,
         "ability": "Demonen kan välja att inte attackera, och måste välja detta minst en gång per spel. De onda får vanlig startinfo.",

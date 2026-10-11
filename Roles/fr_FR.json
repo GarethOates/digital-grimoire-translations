@@ -491,7 +491,7 @@
             "Ivre"
         ],
         "setup": false,
-        "ability": "Chaque nuit, choisissez un joueur en vie : lui ou vous être ivre jusqu'au crépuscule. Vous ne pouvez pas mourir.",
+        "ability": "Chaque nuit, choisissez un joueur en vie : lui ou vous êtes ivre jusqu'au crépuscule. Vous ne pouvez pas mourir.",
         "flavor": "Je couche tout le monde ici ! Vous ! Le beau parleur, là. Z'êtes de taille à descendre une pinte ? Non ? Et vous, mamie ? Z'avez déjà goûté le rhum épicé du vieux McKilly ? Ça vous donne du cœur au ventre, allez ! À l'abordage, la vieille !"
     },
     {
@@ -2593,9 +2593,9 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "A protégé",
-            "A protégé",
-            "Quelquechose de mal"
+            "Protégé",
+            "Protégé",
+            "Quelque chose de mal"
         ],
         "setup": false,
         "ability": "Quelque chose de grave peut arriver à celui qui est le plus responsable de la mort d'un nouveau joueur.",
@@ -2627,7 +2627,7 @@
         "name": "Tor",
         "team": "loric",
         "reminders": [],
-        "ability": "Players don't know their character or alignment. They learn them when they die."
+        "ability": "Les joueurs ne connaissent ni leur rôle ni leur alignement. Ils les apprennent lorsqu'ils meurent."
     },
     {
         "id": "bigwig",
@@ -2638,7 +2638,7 @@
         "reminders": [],
         "edition": "loric",
         "team": "loric",
-        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+        "ability": "Chaque joueur nommé choisit un joueur : jusqu'au vote, seul ce joueur peut parler et il est « fou » que le joueur nommé est bon. Sinon, il pourrait mourir."
     },
     {
         "id": "ventriloquist",
@@ -2658,15 +2658,15 @@
         "firstNightReminder": "",
         "otherNightReminder": "",
         "reminders": [
-            "Goal",
-            "Goal",
-            "Goal"
+            "Objectif",
+            "Objectif",
+            "Objectif"
         ],
         "setup": false,
         "name": "Zenomancer",
         "team": "loric",
         "edition": "loric",
-        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "ability": "Un ou plusieurs joueurs ont chacun un objectif. Lorsqu'un joueur atteint le sien, il apprend une vraie info.",
         "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
     },
     {
@@ -2674,7 +2674,7 @@
         "name": "Hindu",
         "team": "loric",
         "edition": "loric",
-        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "ability": "Les 4 premiers joueurs à mourir sont immédiatement réincarnés en Voyageurs du même alignement.",
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2696,7 +2696,7 @@
         "name": "Pope",
         "team": "loric",
         "edition": "loric",
-        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "ability": "Plusieurs joueurs peuvent avoir les mêmes rôles bons. Des rôles bons en jeu peuvent également être des bluffs.",
         "setup": true,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2730,7 +2730,7 @@
             "Oups"
         ],
         "setup": true,
-        "ability": "Une fois par partie, le Conteur va faire une « erreur », la corriger, et l'admettre publiquement.",
+        "ability": "Au moins une fois par partie, le Conteur va faire une erreur, la corriger, puis l'admettre publiquement.",
         "flavor": null
     },
     {
@@ -2790,7 +2790,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "On the final day, all dead players regain their vote token.",
+        "ability": "Le dernier jour, tous les joueurs morts regagnent leur jeton de vote.",
         "flavor": null
     },
     {
@@ -2803,7 +2803,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Utilisé"
+            "Sans capacité"
         ],
         "setup": false,
         "ability": "Une fois par partie, 1 joueur bon peut obtenir de fausses informations.",
@@ -2834,7 +2834,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "The Storyteller assigns 1 or more players' characters.",
+        "ability": "Le Conteur attribue leur rôle à tous les joueurs.",
         "flavor": null
     },
     {
@@ -2891,7 +2891,7 @@
             "Aligné"
         ],
         "setup": false,
-        "ability": "2 joueurs voisins sont connus pour être du même alignement. Une fois par partie, l'un d'entre eux apparaîtra comme ayant l'alignement opposé",
+        "ability": "2 joueurs voisins sont connus pour être du même alignement. Une fois par partie, l'un d'entre eux apparaît faussement.",
         "flavor": null
     },
     {
@@ -2950,10 +2950,10 @@
         "otherNight": 1,
         "otherNightReminder": "",
         "reminders": [
-            "Pas attaqué"
+            "Dernière nuit : Aucune attaque"
         ],
         "setup": false,
-        "ability": "Le démon peut choisir de ne pas attaquer et doit le faire au moins une fois par partie. Les mauvais joueurs obtiennent des informations de départ normales.",
+        "ability": "Le Démon peut choisir de ne pas attaquer et doit faire cela au moins une fois par partie. Les joueurs maléfiques reçoivent normalement leurs infos de départ.",
         "flavor": null
     }
 ]

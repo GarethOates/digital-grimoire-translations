@@ -926,11 +926,11 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Accusato Bene",
-            "Accusato Male"
+            "Accusa un Buono",
+            "Accusa un Malvagio"
         ],
         "setup": false,
-        "ability": "Quando sei in gioco e vivo, solo il Narratore può accusare (e di conseguenza i giocatori possono votare o meno solo il giocatore accusato dal Narratore). Il Narratore deve accusare almeno 1 giocatore di allineamento opposto al tuo ogni giorno.",
+        "ability": "Solo il Narratore può lanciare un'accusa. Almeno 1 giocatore dell'allineamento opposto deve essere accusato ogni giorno.",
         "special": null
     },
     {
@@ -1206,7 +1206,7 @@
             "Taglio Stanotte"
         ],
         "setup": false,
-        "ability": "Quando muori (sia durante la notte che di giorno), la notte successiva il Demone può scegliere 2 giocatori (che non siano altri Demoni) per scambiare i loro ruoli.",
+        "ability": "Se sei morto oggi o stanotte, il Demone può scegliere 2 giocatori (non un altro Demone) che scambiano personaggi.",
         "special": null
     },
     {
@@ -1296,7 +1296,7 @@
         "otherNightReminder": "Il Fang Gu indica un giocatore. Quel giocatore muore. Altrimenti, se quel giocatore era un Forestiero e non ci sono altri Fang Gu in gioco: il Fang Gu muore al posto del giocatore scelto. Il giocatore scelto è ora un Fang Gu malvagio. Sveglia il nuovo Fang Gu. Mostragli la carta \"Tu sei\", poi il gettone Fang Gu. Mostragli la carta \"Tu sei\" con il segno del pollice in giù \"malvagio\".",
         "reminders": [
             "Morto",
-            "Uno"
+            "Una Volta"
         ],
         "setup": true,
         "ability": "Ogni notte*, scegli un giocatore: muore. Il 1° Emarginato che questa abilità uccide diventa un Fang Gu malvagio e tu muori al suo posto. [+1 Emarginato]",
@@ -1374,7 +1374,7 @@
             "?"
         ],
         "setup": false,
-        "ability": "Grazie alla tua presenza, ogni notte, fino al tramonto, un giocatore: 1) Diventa sobrio, salubre e ottiene informazioni corrette, oppure 2) La sua abilità funziona due volte. Egli apprende quale delle due cose, ma tu no. Sta al Narratore decidere quale dei tuoi due vantaggi viene attivato ogni notte.",
+        "ability": "Ogni notte, fino al tramonto, 1) un giocatore diventa sobrio, sano e ottiene informazioni vere, o 2) la sua abilità è attivata due volte. Il giocatore in questione scopre quale delle due opzioni.",
         "special": null
     },
     {
@@ -1422,7 +1422,7 @@
             "Ha Abilità"
         ],
         "setup": false,
-        "ability": "Una volta durante la partita, di notte, scegli un giocatore morto: egli riacquisisce la sua abilità fino al tramonto.",
+        "ability": "Una volta durante la partita, di notte*, scegli un giocatore morto: egli riacquisisce la sua abilità fino al tramonto.",
         "special": null
     },
     {
@@ -1436,7 +1436,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Se oggi sei stato simpatico, non puoi essere esiliato.",
+        "ability": "Se oggi sei stato divertente, non puoi morire tramite esilio.",
         "special": null
     },
     {
@@ -1514,9 +1514,9 @@
         "otherNight": 10,
         "otherNightReminder": "Il Predicatore sceglie un giocatore. Se viene scelto un Seguace, sveglia il Seguace e mostragli la carta \"Questo personaggio ha scelto te\" e il gettone Predicatore.",
         "reminders": [
-            "Ad un sermone",
-            "Ad un sermone",
-            "Ad un sermone"
+            "Nessuna abilità",
+            "Nessuna abilità",
+            "Nessuna abilità"
         ],
         "setup": false,
         "ability": "Ogni notte, scegli un giocatore: un Seguace, se scelto, lo viene a sapere. Tutti i Seguaci scelti non hanno abilità.",
@@ -1576,7 +1576,7 @@
         "otherNight": 32,
         "otherNightReminder": "Il Licantropo indica un giocatore in vita: se il giocatore è buono, muore e nessun altro può morire questa notte.",
         "reminders": [
-            "Faux Paw",
+            "Risulta malvagio",
             "Morto"
         ],
         "setup": false,
@@ -1756,7 +1756,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": true,
-        "ability": "Quando sei in gioco, non ci sono malvagi (nè Demoni nè Seguaci). Il bene vince se il Narratore viene giustiziato, anche se sei morto. Il Narratore può, tuttavia, violare le regole del gioco (es.Uccidere giocatori).",
+        "ability": "Il Narratore può infrangere le regole e se giustiziato, i buoni vincono, anche se sei morto. [Nessun personaggio malvagio]",
         "special": null
     },
     {
@@ -1773,7 +1773,7 @@
             "Pranzo"
         ],
         "setup": false,
-        "ability": "Hai l'abilità dell'ultimo giustiziato. Se è malvagio, sei avvelenato finché un giocatore buono non viene giustiziato.",
+        "ability": "Hai l'abilità dell'ultimo giocatore giustiziato e morto. Se è malvagio, sei avvelenato finché un giocatore buono non viene giustiziato e muore.",
         "special": null
     },
     {
@@ -1961,7 +1961,7 @@
             "Nessuna abilità"
         ],
         "setup": false,
-        "ability": "Inizi sapendo una parola segreta. Il 1° giocatore a dirla diventa malvagio quella notte.",
+        "ability": "Inizi sapendo una parola segreta. Il 1° giocatore buono a dirla diventa malvagio quella notte.",
         "special": null
     },
     {
@@ -2063,7 +2063,7 @@
             "3"
         ],
         "setup": false,
-        "ability": "Ogni notte*, scegli 3 giocatori (tutti scoprono chi): ognuno di loro sceglie silenziosamente se vivere o morire, ma se tutti vivono, tutti muoiono.",
+        "ability": "Ogni notte*, puoi scegliere 3 giocatori (tutti scoprono chi): ognuno di loro sceglie silenziosamente se vivere o morire, ma se tutti vivono, tutti muoiono.",
         "special": null
     },
     {
@@ -2080,7 +2080,7 @@
             "Sta per morire"
         ],
         "setup": true,
-        "ability": "Ogni notte*, un giocatore potrebbe morire. Le esecuzioni falliscono se solo cattivi hanno votato. Appari anche come un Seguace. [Il numero di buoni e cattivi è invertito. [La maggior parte dei giocatori sono Legione]",
+        "ability": "Ogni notte*, un giocatore potrebbe morire. Le esecuzioni falliscono se solo cattivi hanno votato. Appari anche come un Seguace. [La maggior parte dei giocatori sono Legione]",
         "special": null
     },
     {
@@ -2431,10 +2431,10 @@
         "otherNight": 43,
         "otherNightReminder": "Il Signore di Tifone indica un giocatore. Quel giocatore muore.",
         "reminders": [
-            "Dead"
+            "Morto"
         ],
         "setup": true,
-        "ability": "Ogni notte*, scegli un giocatore: muore. [I personaggi malvagi sono in fila. Tu sei nel mezzo. +1 Minion. -? A +? Emarginati]",
+        "ability": "Ogni notte*, scegli un giocatore: muore. [I personaggi malvagi sono in fila. Tu sei nel mezzo. +1 Seguace. Da -? a +? Emarginati]",
         "special": []
     },
     {
@@ -2459,10 +2459,10 @@
         "firstNightReminder": "",
         "otherNightReminder": "Replace the character token of any player (besides the player the Cacklejack chose today) with a different character token. Wake that player and show them the 'You are' card and their new character token.",
         "reminders": [
-            "Not Me"
+            "Non Io"
         ],
         "setup": false,
-        "ability": "Each day, choose a player: a different player changes character tonight.",
+        "ability": "Ogni giorno, scegli un giocatore: un giocatore diverso cambia personaggio stanotte.",
         "firstNight": 0,
         "otherNight": 2.1
     },
@@ -2583,12 +2583,12 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Protect",
-            "Protect",
-            "Something Bad"
+            "Protetto",
+            "Protetto",
+            "Qualcosa di brutto"
         ],
         "setup": false,
-        "ability": "Qualcosa di brutto potrebbe accadere a chi è responsabile della morte di un nuovo giocatore.",
+        "ability": "Qualcosa di brutto potrebbe succedere a chi è il più responsabile della morte di un nuovo giocatore.",
         "special": null
     },
     {
@@ -2617,7 +2617,7 @@
         "name": "Tor",
         "team": "loric",
         "reminders": [],
-        "ability": "Players don't know their character or alignment. They learn them when they die."
+        "ability": "I giocatori non conoscono il loro personaggio o allineamento. Li scoprono quando muoiono."
     },
     {
         "id": "bigwig",
@@ -2628,7 +2628,7 @@
         "reminders": [],
         "edition": "loric",
         "team": "loric",
-        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+        "ability": "Ogni nominato sceglie un giocatore: fino al voto, solo quel giocatore può parlare ed è \"Folle\" che il nominato sia buono, o potrebbe morire."
     },
     {
         "id": "ventriloquist",
@@ -2648,15 +2648,15 @@
         "firstNightReminder": "",
         "otherNightReminder": "",
         "reminders": [
-            "Goal",
-            "Goal",
-            "Goal"
+            "Obiettivo",
+            "Obiettivo",
+            "Obiettivo"
         ],
         "setup": false,
         "name": "Zenomancer",
         "team": "loric",
         "edition": "loric",
-        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "ability": "Uno o più giocatori hanno un obiettivo. Quando è raggiunto, quel giocatore apprende un'informazione vera.",
         "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
     },
     {
@@ -2664,7 +2664,7 @@
         "name": "Hindu",
         "team": "loric",
         "edition": "loric",
-        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "ability": "I primi 4 giocatori che muoiono sono reincarnati immediatamente come Viaggiatori dello stesso allineamento.",
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2686,7 +2686,7 @@
         "name": "Pope",
         "team": "loric",
         "edition": "loric",
-        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "ability": "Ci sono copie di personaggi buoni in gioco. Potrebbero anche essere bluff.",
         "setup": true,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2720,7 +2720,7 @@
             "Ops"
         ],
         "setup": true,
-        "ability": "Una volta per partita, il Narratore farà un \"errore\", lo correggerà e lo ammetterà pubblicamente.",
+        "ability": "Almeno una volta a partita, il Narratore commetterà un errore, lo rettificherà e lo ammetterà pubblicamente.",
         "special": null
     },
     {
@@ -2734,7 +2734,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Usa l'abilità speciale del Genio. Tutti i giocatori sanno qual è.",
+        "ability": "Usa la regola speciale del Genio. Tutti i giocatori sanno qual è.",
         "special": null
     },
     {
@@ -2780,7 +2780,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "On the final day, all dead players regain their vote token.",
+        "ability": "Durante il giorno finale, tutti i giocatori morti riottengono il loro gettone voto.",
         "special": null
     },
     {
@@ -2793,7 +2793,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Utilizzato"
+            "Nessuna abilità"
         ],
         "setup": false,
         "ability": "Una volta per partita, un giocatore buono potrebbe ottenere informazioni sbagliate.",
@@ -2824,7 +2824,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "The Storyteller assigns 1 or more players' characters.",
+        "ability": "Il Narratore assegna il personaggio a tutti i giocatori.",
         "special": null
     },
     {
@@ -2940,7 +2940,7 @@
         "otherNight": 1,
         "otherNightReminder": "",
         "reminders": [
-            "Nessun attacco"
+            "Notte Finale: Nessun Attacco"
         ],
         "setup": false,
         "ability": "Il Demone può scegliere di non attaccare e deve fare questa scelta almeno una volta a partita. I giocatori malvagi ricevono informazioni iniziali regolarmente. ",

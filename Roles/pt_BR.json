@@ -275,7 +275,7 @@
             }
         ],
         "remindersGlobal": [
-            "Bêbado"
+            "É o Bêbado"
         ]
     },
     {
@@ -346,7 +346,7 @@
         "otherNight": 28,
         "otherNightReminder": "Se a Mulher Escarlate se tornou o Demônio hoje, avise-a mostrando a ficha 'Vocé É', seguido da ficha de personagem do Demônio.",
         "reminders": [
-            "Demônio"
+            "É o Demônio"
         ],
         "setup": false,
         "ability": "Se há 5 ou mais jogadores vivos e o Demônio morrer, você se torna o Demônio. (Viajantes não contam)",
@@ -1206,7 +1206,7 @@
             "Dia de Fazer a Barba"
         ],
         "setup": false,
-        "ability": "Se você morreu hoje, o Demônio poderá escolher dois jogadores (exceto outro Demônio): eles trocam de personagens entre si.",
+        "ability": "Se você morreu hoje ou esta noite, o Demônio poderá escolher dois jogadores (exceto outro Demônio): eles trocam de personagens entre si.",
         "special": null
     },
     {
@@ -1470,7 +1470,7 @@
             "Alvo"
         ],
         "setup": true,
-        "ability": "\"Você começa sabendo 1 jogador do mal. Se esse jogador morrer, saiba outro jogador do mal esta noite. [1 Cidadão é do mal]",
+        "ability": "Você começa sabendo 1 jogador do mal. Se esse jogador morrer, saiba outro jogador do mal esta noite. [1 Cidadão é do mal]",
         "special": null
     },
     {
@@ -1576,7 +1576,7 @@
         "otherNight": 32,
         "otherNightReminder": "O Licantropo escolhe um jogador vivo: se o alvo for bom, morre e ninguém mais pode morrer esta noite. Se por algum motivo o jogador escolhido for bom, mas não morrer, ahabilidade do Licantropo não impede outras mortes esta noite.",
         "reminders": [
-            "Faux Paw",
+            "Pata Falsa",
             "Morto"
         ],
         "setup": false,
@@ -1787,7 +1787,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Cada Lacaio recebe 3 bluffs.",
+        "ability": "Cada Lacaio recebe 3 blefes.",
         "special": null
     },
     {
@@ -2063,7 +2063,7 @@
             "3"
         ],
         "setup": false,
-        "ability": "A cada noite*, escolha 3 jogadores (todos sabem quem são): em silêncio, cada alvo decide se vive ou morre, mas se todos viverem, todos morrem.",
+        "ability": "A cada noite*, você pode escolher 3 jogadores (todos sabem quem são): em silêncio, cada alvo decide se vive ou morre, mas se todos viverem, todos morrem.",
         "special": null
     },
     {
@@ -2290,7 +2290,7 @@
             "Chá Esta Noite"
         ],
         "setup": false,
-        "ability": "Se você morreu hoje, os Lacaios e Demônio(s) podem escolher novos personagens de seu tipo para ser.",
+        "ability": "Se você morreu hoje ou esta noite, os Lacaios e Demônio(s) podem escolher novos personagens de seu tipo para ser.",
         "special": null
     },
     {
@@ -2303,7 +2303,7 @@
         "otherNight": 50,
         "otherNightReminder": "O Kazali aponta para um jogador: O alvo morre.",
         "reminders": [
-            "Dead"
+            "Morto"
         ],
         "setup": true,
         "ability": "A cada noite*, escolha um jogador: ele morre. [Você escolhe quais jogadores são Lacaios. -? a +? Forasteiros]",
@@ -2431,7 +2431,7 @@
         "otherNight": 43,
         "otherNightReminder": "Lorde do Tifao escolhe um jogador: o alvo morre.",
         "reminders": [
-            "Dead"
+            "Morto"
         ],
         "setup": true,
         "ability": "A cada noite* escolha um jogador: ele morre. [Jogadores do mal estão em linha. Voce está no meio. +1 Lacaio. -? a +? Forasteiros]",
@@ -2459,10 +2459,10 @@
         "firstNightReminder": "",
         "otherNightReminder": "Replace the character token of any player (besides the player the Cacklejack chose today) with a different character token. Wake that player and show them the 'You are' card and their new character token.",
         "reminders": [
-            "Not Me"
+            "Eu não"
         ],
         "setup": false,
-        "ability": "Each day, choose a player: a different player changes character tonight.",
+        "ability": "A cada dia, escolha um jogador: um jogador diferente muda de personagem esta noite.",
         "firstNight": 0,
         "otherNight": 2.1
     },
@@ -2533,7 +2533,7 @@
             "3"
         ],
         "setup": true,
-        "ability": "Você tem todas as habilidades de Estranho. [-0 ou -1 Estranho]",
+        "ability": "Você tem todas as habilidades de Forasteiro. [-0 ou -1 Forasteiro]",
         "special": []
     },
     {
@@ -2561,7 +2561,7 @@
         "otherNightReminder": "Wake the Wraith whenever other evil players wake.",
         "reminders": [],
         "setup": false,
-        "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
+        "ability": "Você pode escolher abrir os olhos à noite. Você acorda quando os outros jogadores do mal acordam.",
         "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
         "special": [
             {
@@ -2617,7 +2617,7 @@
         "name": "Tor",
         "team": "loric",
         "reminders": [],
-        "ability": "Players don't know their character or alignment. They learn them when they die."
+        "ability": "Os jogadores não sabem seu personagem nem seu alinhamento. Eles descobrem quando morrem."
     },
     {
         "id": "bigwig",
@@ -2628,7 +2628,7 @@
         "reminders": [],
         "edition": "loric",
         "team": "loric",
-        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+        "ability": "Cada nomeado escolhe um jogador: até a votação, só esse jogador pode falar e deve alucinar que o nomeado é do bem, ou pode morrer."
     },
     {
         "id": "ventriloquist",
@@ -2648,15 +2648,15 @@
         "firstNightReminder": "",
         "otherNightReminder": "",
         "reminders": [
-            "Goal",
-            "Goal",
-            "Goal"
+            "Objetivo",
+            "Objetivo",
+            "Objetivo"
         ],
         "setup": false,
         "name": "Zenomancer",
         "team": "loric",
         "edition": "loric",
-        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "ability": "Um ou mais jogadores têm, cada um, um objetivo. Ao alcançá-lo, esse jogador descobre uma informação verdadeira.",
         "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
     },
     {
@@ -2664,7 +2664,7 @@
         "name": "Hindu",
         "team": "loric",
         "edition": "loric",
-        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "ability": "Os 4 primeiros jogadores a morrer reencarnam imediatamente como Viajantes do mesmo alinhamento.",
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2686,7 +2686,7 @@
         "name": "Pope",
         "team": "loric",
         "edition": "loric",
-        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "ability": "Há personagens do bem duplicados em jogo. Eles também podem ser blefes.",
         "setup": true,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2717,10 +2717,10 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Whoops"
+            "Ops"
         ],
         "setup": true,
-        "ability": "Uma vez por jogo, o Narrador cometerá um \"erro\", irá corrigí-lo e admitir publicamente.",
+        "ability": "Pelo menos uma vez por jogo, o Narrador cometerá um erro, irá corrigi-lo e admiti-lo publicamente.",
         "special": null
     },
     {
@@ -2748,7 +2748,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Se 4 ou mais jogadores estiverm vivos, cada jogador vivo pode (uma vez por jogo) escolher que um jogador do mesmo alinhamento morra.",
+        "ability": "Se 4 ou mais jogadores estiverem vivos, cada jogador vivo pode escolher publicamente (uma vez por jogo) que um jogador do mesmo alinhamento morra.",
         "special": null
     },
     {
@@ -2766,7 +2766,7 @@
             "Informação Falsa"
         ],
         "setup": false,
-        "ability": "A cada dia, 3 jogadores podem escolher visitar o Narrador. À noite*, cada visitante aprende quantos dos visitantes são do mal, mas um deles recebe informações falsas.",
+        "ability": "A cada dia, 3 jogadores podem escolher visitar você. À noite*, cada visitante aprende quantos dos visitantes são do mal, mas um deles recebe informações falsas.",
         "special": null
     },
     {
@@ -2793,7 +2793,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Usado"
+            "Sem Habilidade"
         ],
         "setup": false,
         "ability": "Uma vez por jogo, 1 jogador do bem pode receber informações falsas.",
@@ -2824,7 +2824,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "O Narrador escolhe os personagens de 1 ou mais jogadores.",
+        "ability": "O Narrador escolhe os personagens de todos os jogadores.",
         "special": null
     },
     {
@@ -2940,7 +2940,7 @@
         "otherNight": 1,
         "otherNightReminder": "",
         "reminders": [
-            "Não Ataca"
+            "Última Noite: Não Ataca"
         ],
         "setup": false,
         "ability": "O Demônio pode escolher não atacar e deve fazer isso pelo menos uma vez no jogo. Demônio e Lacaios começam sabendo uns aos outros.",

@@ -275,7 +275,7 @@
             }
         ],
         "remindersGlobal": [
-            "Betrunken"
+            "Ist der Trunkenbold"
         ]
     },
     {
@@ -930,7 +930,7 @@
             "Nominiere Böse"
         ],
         "setup": false,
-        "ability": "Nur der Spielleiter kann nominieren. Mindestens 1 Spieler des anderen Teams muss nominiert werden.",
+        "ability": "Nur der Erzähler kann nominieren. Unter den Nominierten muss jeden Tag mindestens 1 Spieler aus der gegnerischen Fraktion sein.",
         "special": null
     },
     {
@@ -972,7 +972,7 @@
         "otherNightReminder": "Der Träumer zeigt auf einen Spieler. Zeige 1 guten und 1 bösen Charaktertoken: einer der Tokens ist richtig.",
         "reminders": [],
         "setup": false,
-        "ability": "Wähle jede Nacht 1 Spieler (außer dich selbst): Du erfährst 1 gute & 1 böse Rolle. Eine davon ist richtig.",
+        "ability": "Wähle jede Nacht 1 Spieler (nicht dich selbst oder Reisende): Du erfährst 1 guten & 1 bösen Charakter, 1 davon ist korrekt.",
         "special": null
     },
     {
@@ -1206,7 +1206,7 @@
             "Heute gibt's Haarschnitte!"
         ],
         "setup": false,
-        "ability": "Wenn du stirbst, darf der Dämon in der Nacht 2 Spieler wählen: Sie tauschen Rollen.",
+        "ability": "Wenn du heute oder heute Nacht gestorben bist, darf der Dämon 2 Spieler (keinen anderen Dämon) wählen: Sie tauschen Rollen.",
         "special": null
     },
     {
@@ -1422,7 +1422,7 @@
             "Hat Fähigkeit"
         ],
         "setup": false,
-        "ability": "Du darfst einmal im Spiel in der Nacht einen toten Spieler wählen: Er erhält bis zum Ende des nächsten Tages seine Fähigkeit zurück.",
+        "ability": "Einmal im Spiel, in der Nacht*, wähle 1 toten Spieler: Er erhält bis zur Abenddämmerung seine Fähigkeit zurück.",
         "special": null
     },
     {
@@ -1514,9 +1514,9 @@
         "otherNight": 10,
         "otherNightReminder": "Der Priester wählt einen Spieler. Wenn ein Scherge gewählt wurde, wecke den Schergen und zeige ihm die 'Dieser Charakter hat dich ausgewählt' Karte und danach den Token des Priester.",
         "reminders": [
-            "Bei einer Predigt",
-            "Bei einer Predigt",
-            "Bei einer Predigt"
+            "Keine Fähigkeit",
+            "Keine Fähigkeit",
+            "Keine Fähigkeit"
         ],
         "setup": false,
         "ability": "Wähle jede Nacht 1 Spieler: Ist er ein Scherge, erfährt er davon. Alle gewählten Schergen haben keine Fähigkeit.",
@@ -1576,7 +1576,7 @@
         "otherNight": 32,
         "otherNightReminder": "Der Werwolf zeigt auf einen lebenden Spieler. Ist er gut, stirbt er und niemand sonst stirbt in der Nacht",
         "reminders": [
-            "Faux Paw",
+            "Falsche Pfote",
             "Tot"
         ],
         "setup": false,
@@ -1804,7 +1804,7 @@
             "Gewählt"
         ],
         "setup": false,
-        "ability": "Jede Nacht*, wähle einen Spieler: Wenn er heute Nacht betrunken oder vergiftet wird, stirbst du.",
+        "ability": "Wähle jede Nacht* 1 Spieler: Falls er heute Nacht betrunken oder vergiftet ist oder wird, stirbst du.",
         "special": null
     },
     {
@@ -1821,7 +1821,7 @@
             "Rateversuch verbraucht"
         ],
         "setup": false,
-        "ability": "1 Spieler ist betrunken, sogar wenn du tot bist. Du darfst einem im Spiel erraten, wer es ist, um zu erfahren, wer der Dämon ist: Liegst du falsch, ist auch die Information falsch.",
+        "ability": "1 Spieler ist betrunken, sogar wenn du tot bist. Du darfst einmal im Spiel erraten, wer es ist, um zu erfahren, wer der Dämon ist: Liegst du falsch, ist auch die Information falsch.",
         "special": null
     },
     {
@@ -1975,7 +1975,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": true,
-        "ability": "Du weißt nicht, dass du die Marionette bist. Du denkst, du seist eine gute Rolle, bist es aber nicht. Der Dämon weiß, wer du bist. [Du sitzt neben dem Dämon]",
+        "ability": "Du denkst, dass du ein guter Charakter bist, aber das stimmt nicht. Der Dämon weiß, wer du bist. [Du sitzt neben dem Dämon]",
         "special": [
             {
                 "type": "selection",
@@ -2133,7 +2133,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Du darfst einmal im Spiel einen lebenden Nachbarn töten, wenn dein anderer lebender Nachbar zustimmt.",
+        "ability": "Einmal pro Tag darfst du 1 lebendigen Nachbarn töten, falls dein anderer lebendiger Nachbar zustimmt.",
         "special": null
     },
     {
@@ -2146,11 +2146,11 @@
         "otherNight": 20,
         "otherNightReminder": "",
         "reminders": [
-            "About to die",
+            "Stirbt bald",
             "Betrunken"
         ],
         "setup": false,
-        "ability": "Alle Spieler halten beim Abstimmen die Augen geschlossen und das Ergebnis der Abstimmung ist geheim. Wählen Sie jede Nacht, ob Sie betrunken sind oder nicht.",
+        "ability": "Alle Spieler halten beim Abstimmen die Augen geschlossen und das Ergebnis der Abstimmung ist geheim. Wähle jede Nacht, ob du bis zum Ende des nächsten Tages betrunken bist.",
         "special": null
     },
     {
@@ -2194,7 +2194,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Know"
+            "Gesehen"
         ],
         "setup": false,
         "ability": "Du beginnst das Spiel mit dem Wissen, dass 1 Spieler gut ist.",
@@ -2224,8 +2224,8 @@
         "otherNight": 26,
         "otherNightReminder": "Die Harpyie wählt zwei Spieler. :reminder: :reminder: Lege die Harpyie schlafen. Wecke das 1. Ziel. Zeige den *DIESER CHARAKTER HAT DICH AUSGEWÄHLT* Token, den Harpyien-Token, dann zeige auf das 2. Ziel.",
         "reminders": [
-            "Mad",
-            "2nd"
+            "Besessen",
+            "Zweiter"
         ],
         "setup": false,
         "ability": "Jede Nacht, wähle 2 Spieler: morgen ist der 1. Spieler verrückt danach, dass der 2. böse ist, oder einer oder beide könnten sterben.",
@@ -2241,10 +2241,10 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Storyteller Ability"
+            "Erzählerfähigkeit"
         ],
         "setup": false,
-        "ability": "Wenn du stirbst, dann erhält der Erzähler die Fähigkeit eines Schergen der nicht im Spiel ist.",
+        "ability": "Wenn du stirbst, erhält der Erzähler eine Schergen-Fähigkeit.",
         "special": null
     },
     {
@@ -2271,7 +2271,7 @@
         "otherNight": 45,
         "otherNightReminder": "The Ojo points to a character on the sheet; if in play, that player dies. If it is not in play, the Storyteller chooses who dies instead.",
         "reminders": [
-            "Dead"
+            "Tot"
         ],
         "setup": false,
         "ability": "Jede Nacht*, wähle 1 Charakter: er stirbt. Ist er nicht im Spiel, wählt der Erzähler, wer stirbt.",
@@ -2290,7 +2290,7 @@
             "Heute Abend Teeparty"
         ],
         "setup": false,
-        "ability": "Wenn Sie heute oder heute Nacht gestorben sind, können die Minion & Demon-Spieler neue Minion & Demon-Charaktere auswählen.",
+        "ability": "Wenn du heute oder heute Nacht gestorben bist, dürfen die Schergen & der Dämon sich neue Schergen- & Dämonenrollen aussuchen.",
         "special": null
     },
     {
@@ -2306,7 +2306,7 @@
             "Tot"
         ],
         "setup": true,
-        "ability": "Wähle jede Nacht* einen Spieler: Er stirbt. [Sie wählen, welche Spieler Minions sind. -? zu +? Außenseiter]",
+        "ability": "Wähle jede Nacht* 1 Spieler: Er stirbt. [Du wählst welche Spieler welche Schergen sind. -? bis +? Außenseiter]",
         "special": null
     },
     {
@@ -2340,7 +2340,7 @@
             "Tot"
         ],
         "setup": false,
-        "ability": "Du erfährst zu Beginn 1 geheimen Ausdruck. Für jedes Mal, wenn du ihn öffentlich aussprichst, könnte ein Spieler sterben.",
+        "ability": "Du erfährst zu Beginn 1 geheimen Ausdruck. Für jedes Mal, wenn du ihn heute öffentlich aussprichst, könnte ein Spieler sterben.",
         "special": null
     },
     {
@@ -2459,10 +2459,10 @@
         "firstNightReminder": "",
         "otherNightReminder": "Replace the character token of any player (besides the player the Cacklejack chose today) with a different character token. Wake that player and show them the 'You are' card and their new character token.",
         "reminders": [
-            "Not Me"
+            "Ich nicht"
         ],
         "setup": false,
-        "ability": "Each day, choose a player: a different player changes character tonight.",
+        "ability": "Wähle jeden Tag 1 Spieler: Heute Nacht wechselt 1 anderer Spieler den Charakter.",
         "firstNight": 0,
         "otherNight": 2.1
     },
@@ -2561,7 +2561,7 @@
         "otherNightReminder": "Wake the Wraith whenever other evil players wake.",
         "reminders": [],
         "setup": false,
-        "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
+        "ability": "Du darfst während der Nacht beliebig die Augen öffnen. Du wachst auf, wenn andere böse Spieler aufwachen.",
         "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
         "special": [
             {
@@ -2583,9 +2583,9 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Protect",
-            "Protect",
-            "Something Bad"
+            "Beschützt",
+            "Beschützt",
+            "Etwas Schlimmes"
         ],
         "setup": false,
         "ability": "Etwas Schlechtes kann dem Spieler widerfahren, der für den Tod eines unerfahrenen Spielers verantwortlich ist.",
@@ -2605,7 +2605,7 @@
             "?"
         ],
         "setup": false,
-        "ability": "Dieses Skript enthält Homebrew-Zeichen oder -Regeln.",
+        "ability": "Dieses Skript enthält selbst erstellte Charaktere oder Regeln.",
         "special": null
     },
     {
@@ -2617,7 +2617,7 @@
         "name": "Tor",
         "team": "loric",
         "reminders": [],
-        "ability": "Players don't know their character or alignment. They learn them when they die."
+        "ability": "Spieler kennen ihren Charakter und ihre Fraktion nicht. Sie erfahren beides, wenn sie sterben."
     },
     {
         "id": "bigwig",
@@ -2628,7 +2628,7 @@
         "reminders": [],
         "edition": "loric",
         "team": "loric",
-        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+        "ability": "Jeder Nominierte wählt einen Spieler: bis zur Abstimmung darf nur dieser Spieler sprechen & er ist besessen davon, dass der Nominierte gut ist oder er könnte sterben."
     },
     {
         "id": "ventriloquist",
@@ -2648,15 +2648,15 @@
         "firstNightReminder": "",
         "otherNightReminder": "",
         "reminders": [
-            "Goal",
-            "Goal",
-            "Goal"
+            "Ziel",
+            "Ziel",
+            "Ziel"
         ],
         "setup": false,
         "name": "Zenomancer",
         "team": "loric",
         "edition": "loric",
-        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "ability": "Ein oder mehr Spieler haben jeweils ein Ziel. Falls ein Ziel erreicht wird, erfährt dieser Spieler eine wahre Information.",
         "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
     },
     {
@@ -2664,7 +2664,7 @@
         "name": "Hindu",
         "team": "loric",
         "edition": "loric",
-        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "ability": "Die ersten 4 Spieler, die sterben, werden sofort als Reisende derselben Fraktion wiedergeboren.",
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2686,7 +2686,7 @@
         "name": "Pope",
         "team": "loric",
         "edition": "loric",
-        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "ability": "Mindestens ein guter Charakter ist mehrfach im Spiel. Diese Charaktere sind möglicherweise auch Bluffs.",
         "setup": true,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2717,10 +2717,10 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Whoops"
+            "Ups"
         ],
         "setup": true,
-        "ability": "Once per game, the Storyteller will make a \"mistake\", correct it and publicly admit to it.",
+        "ability": "Mindestens einmal im Spiel wird der Erzähler einen Fehler machen, ihn korrigieren und öffentlich zugeben.",
         "special": null
     },
     {
@@ -2748,7 +2748,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Wenn mehr als 4 Spieler leben: Jeder lebende Spieler kann öffentlich (einmal pro Spiel) bestimmen, dass ein Spieler seiner eigenen Gesinnung (Gut oder Böse) stirbt.",
+        "ability": "Falls 4 oder mehr Spieler leben, darf jeder lebendige Spieler (einmal im Spiel) öffentlich wählen, dass ein Spieler seiner Fraktion stirbt.",
         "special": null
     },
     {
@@ -2761,12 +2761,12 @@
         "otherNight": 1,
         "otherNightReminder": "",
         "reminders": [
-            "Visitor",
-            "Visitor",
-            "False Info"
+            "Besucher",
+            "Besucher",
+            "Falsche Information"
         ],
         "setup": false,
-        "ability": "Jeden Tag, 3 Spieler dürfen Dich besuchen. In der Nacht lernt jeder Besucher wieviele Besucher böse sind, aber eine bekommt falsche Informationen.",
+        "ability": "Jeden Tag dürfen 3 Spieler wählen, dich zu besuchen. In der Nacht* erfährt jeder Besucher, wie viele Besucher böse sind, aber 1 erhält falsche Informationen.",
         "special": null
     },
     {
@@ -2780,7 +2780,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "On the final day, all dead players regain their vote token.",
+        "ability": "Am letzten Tag erhalten alle toten Spieler ihr Abstimmungsplättchen zurück.",
         "special": null
     },
     {
@@ -2793,7 +2793,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Used"
+            "Keine Fähigkeit"
         ],
         "setup": false,
         "ability": "Einmal im Spiel könnte ein guter Spieler falsche Informationen bekommen.",
@@ -2824,7 +2824,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "The Storyteller assigns 1 or more players' characters.",
+        "ability": "Der Erzähler weist allen Spielern ihre Charaktere zu.",
         "special": null
     },
     {
@@ -2860,7 +2860,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Something Bad"
+            "Etwas Schlimmes"
         ],
         "setup": false,
         "ability": "Etwas Schlechtes könnte dem zustoßen, der spricht, wenn der Erzähler um Ruhe bittet.",
@@ -2876,7 +2876,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Register Falsely?",
+            "Erscheint falsch?",
             "Verbündet",
             "Verbündet"
         ],
@@ -2908,7 +2908,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "No extra evil"
+            "Keine weiteren Bösen"
         ],
         "setup": false,
         "ability": "Es kann nicht mehr als einen zusätzlichen bösen Spieler geben.",
@@ -2924,7 +2924,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Safe"
+            "Sicher"
         ],
         "setup": false,
         "ability": "Nenne einen guten Charakter. Ist dieser im Spiel, kann er nur durch Exekution getötet werden. Böse Spieler erfahren allerdings um welchen Spieler es sich handelt.",
@@ -2940,7 +2940,7 @@
         "otherNight": 1,
         "otherNightReminder": "",
         "reminders": [
-            "No Attack"
+            "Letzte Nacht: Kein Angriff"
         ],
         "setup": false,
         "ability": "Der Dämon kann sich aussuchen, niemanden zu attackieren und muss das zmindest einmal im Spiel machen. Böse Spieler bekommen die normalen Startinformationen.",

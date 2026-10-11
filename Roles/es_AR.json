@@ -513,7 +513,7 @@
         "otherNight": 31,
         "otherNightReminder": "El Exorcista apunta a un jugador, distinto del de la noche anterior. Si el jugador elegido es el Demonio, despertalo para mostrarle la ficha del Exorcista y apuntá a él: el Demonio no actúa esta noche.",
         "reminders": [
-            "Elegído"
+            "Elegido"
         ],
         "setup": false,
         "ability": "Cada noche*, elegí un jugador (distinto del de la noche anterior): el Demonio, si es elegido, aprende quién sos y no despierta en la noche.",
@@ -781,7 +781,7 @@
             "Sin habilidad"
         ],
         "setup": false,
-        "ability": "Una vez por partida, a la noche, elegí un jugador: muere, incluso si por algún motivo no pudiese.",
+        "ability": "Una vez por partida, en la noche*, elegí un jugador: muere, incluso si por algún motivo no pudiese.",
         "special": null
     },
     {
@@ -944,7 +944,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Sólo los muertos pueden votar. No necesitan una ficha de voto para hacerlo. No se requiere una mayoría del 50%.",
+        "ability": "Sólo vos y los muertos pueden votar. No necesitan una ficha de voto para hacerlo. No se requiere una mayoría del 50%.",
         "special": null
     },
     {
@@ -1206,7 +1206,7 @@
             "Recorte de barba"
         ],
         "setup": false,
-        "ability": "Si moriste hoy, el demonio puede elegir 2 jugadores (no otro Demonio) para que cambien de personaje.",
+        "ability": "Si moriste hoy o esta noche, el Demonio puede elegir 2 jugadores (no otro Demonio) para que cambien de personaje.",
         "special": null
     },
     {
@@ -1422,7 +1422,7 @@
             "Tiene habilidad"
         ],
         "setup": false,
-        "ability": "Una vez por partida, de noche, elegí un jugador muerto: recupera su habilidad hasta el atardecer.",
+        "ability": "Una vez por partida, en la noche*, elegí un jugador muerto: recupera su habilidad hasta el atardecer.",
         "special": null
     },
     {
@@ -1514,9 +1514,9 @@
         "otherNight": 10,
         "otherNightReminder": "El Pastor elige un jugador. Si elige un Secuaz, marcalo con el recordatorio 'En un sermón'. Despertá al Esbrirro por separado y mostrale la tarjeta 'Este personaje te eligió' junto a la ficha del Pastor.",
         "reminders": [
-            "En un sermón",
-            "En un sermón",
-            "En un sermón"
+            "Sin habilidad",
+            "Sin habilidad",
+            "Sin habilidad"
         ],
         "setup": false,
         "ability": "Cada noche, elegí un jugador: un Secuaz se entera si es elegido. Los Secuaces elegidos se quedan sin habilidad.",
@@ -1576,7 +1576,7 @@
         "otherNight": 32,
         "otherNightReminder": "El Licántropo apunta a un jugador vivo: si es bueno, muere y el Demonio no mata esta noche.",
         "reminders": [
-            "Faux pata",
+            "Zar-Paso en Falso",
             "Muerto"
         ],
         "setup": false,
@@ -1999,7 +1999,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "If you are executed, all but 3 players die. After a 10 to 1 countdown, the player with the most players pointing at them, dies.",
+        "ability": "Si sos ejecutado, todos los jugadores mueren excepto 3. Luego de una cuenta regresiva de 10 a 1, el jugador con la mayor cantidad de jugadores apuntándole, muere.",
         "special": [
             {
                 "type": "ability",
@@ -2052,7 +2052,7 @@
             "Envenenado"
         ],
         "setup": false,
-        "ability": "Cada noche*, elegí un jugador: muere. Empezás eligiendo un jugador vivo: está envenenado. Morís sólo si él muere.",
+        "ability": "Cada noche*, elegí un jugador: muere. Empezás eligiendo un jugador vivo: está envenenado. Morís si y sólo si él está muerto.",
         "special": null
     },
     {
@@ -2070,7 +2070,7 @@
             "3"
         ],
         "setup": false,
-        "ability": "Cada noche*, elegí tres jugadores (todos saben a quienes elegiste): cada uno decide silenciosamente si vive o muere, pero si todos viven, todos mueren.",
+        "ability": "Cada noche*, podés elegir tres jugadores (todos saben a quienes elegiste): cada uno decide silenciosamente si vive o muere, pero si todos viven, todos mueren.",
         "special": null
     },
     {
@@ -2347,7 +2347,7 @@
             "Muerto"
         ],
         "setup": false,
-        "ability": "Empezás sabiendo una frase secreta. Por cada vez que la hayas dicho públicamente, un jugador puede morir.",
+        "ability": "Empezás sabiendo una frase secreta. Por cada vez que la hayas dicho públicamente hoy, un jugador puede morir.",
         "special": null
     },
     {
@@ -2411,7 +2411,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Cada día, si adivinás pública y correctamente cuáles jugadores son Secuaces y cuáles Demonios, tu equipo gana.",
+        "ability": "Cada día, si adivinás pública y correctamente cuáles jugadores son Secuaces y cuáles Demonios, los buenos ganan.",
         "special": []
     },
     {
@@ -2589,8 +2589,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Proteger",
-            "Proteger",
+            "Protegido",
+            "Protegido",
             "Algo malo"
         ],
         "setup": false,
@@ -2669,7 +2669,7 @@
         "name": "Hindu",
         "team": "loric",
         "edition": "loric",
-        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "ability": "Los primeros 4 jugadores en morir reencarnan inmediatamente como Viajeros del mismo equipo.",
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2691,7 +2691,7 @@
         "name": "Pope",
         "team": "loric",
         "edition": "loric",
-        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "ability": "Hay personajes buenos duplicados en juego. También podrían ser coartadas.",
         "setup": true,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2725,7 +2725,7 @@
             "upsis"
         ],
         "setup": true,
-        "ability": "Una vez por partida, el Narrador cometerá un 'error', corregilo y admitilo públicamente.",
+        "ability": "Al menos una vez por partida, el Narrador cometerá un error, lo corregirá y lo admitirá públicamente.",
         "special": null
     },
     {
@@ -2798,7 +2798,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Usado"
+            "Sin habilidad"
         ],
         "setup": false,
         "ability": "Una vez por partida, 1 jugador bueno puede obtener información falsa.",
@@ -2829,7 +2829,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "El Narrador decide el personaje de 1 o más jugadores.",
+        "ability": "El Narrador decide los personajes de todos los jugadores.",
         "special": null
     },
     {
@@ -2945,7 +2945,7 @@
         "otherNight": 1,
         "otherNightReminder": "El Demonio puede elegir no atacar. Si que el Demonio atacase esta noche daría fin a la partida, y el Demonio está marcado 'No ataca', entonces no despierta esta noche (sacá el recordatorio).",
         "reminders": [
-            "No ataca"
+            "Noche final: no ataca"
         ],
         "setup": false,
         "ability": "El Demonio puede elegir no atacar y debe hacerlo al menos una vez por partida. Los jugadores malvados empiezan con información inicial normal.",

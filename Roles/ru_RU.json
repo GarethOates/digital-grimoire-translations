@@ -453,7 +453,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Вы должны потратить жетон голоса, чтобы голосовать. Мертвые игроки могут отдать вам свои жетоны голоса. Вы узнаете сторону того, кто это сделает.",
+        "ability": "Вы должны потратить жетон голоса, чтобы голосовать. Мертвые игроки могут отдать вам свои жетоны голоса. Вы узнаете сторону того, кто это сделает. Вы трезвы и здоровы.",
         "special": null
     },
     {
@@ -1514,9 +1514,9 @@
         "otherNight": 10,
         "otherNightReminder": "Проповедник выбирает игрока. Если это Приспешник, разбудите Приспешника, покажите ему карточку \"Этот персонаж выбрал вас\", затем жетон Проповедник.",
         "reminders": [
-            "На богослужении",
-            "На богослужении",
-            "На богослужении"
+            "Нет способности",
+            "Нет способности",
+            "Нет способности"
         ],
         "setup": false,
         "ability": "Каждой ночью выберите игрока. Если вы выбрали Приспешника, то он узнает об этом. Все выбранные Приспешники теряют свою способность.",
@@ -1576,7 +1576,7 @@
         "otherNight": 32,
         "otherNightReminder": "Оборотень указывает на живого игрока. Если этот игрок добрый, то он умирает, и больше этой ночью никто умереть не может.",
         "reminders": [
-            "Faux Paw",
+            "Кошачья лапка",
             "Мертв"
         ],
         "setup": false,
@@ -2063,7 +2063,7 @@
             "3"
         ],
         "setup": false,
-        "ability": "Каждой ночью*, выберите 3 игроков. По очереди каждый из них выберет, жить или умереть. (Вопрос задается игроку вслух, игрок отвечает молча). Если все трое выбрали жить, все трое умирают.",
+        "ability": "Каждую ночь*, вы можете выбрать 3 игроков (все игроки узнают, кто выбран): каждый из них молча выбирает, жить или умереть. Если все трое выбирают жить, все трое умирают.",
         "special": null
     },
     {
@@ -2194,7 +2194,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Know"
+            "Видел"
         ],
         "setup": false,
         "ability": "Вы начинаете игру, зная 1 доброго игрока.",
@@ -2244,7 +2244,7 @@
             "Способность Рассказчика"
         ],
         "setup": false,
-        "ability": "Когда вы умираете, Рассказчик получает способность Приспешника, который отсутствует в игре.",
+        "ability": "Когда вы умираете, Рассказчик получает способность Приспешника.",
         "special": null
     },
     {
@@ -2499,7 +2499,7 @@
             "X"
         ],
         "setup": true,
-        "ability": "В ночь X все горожане отравлены до наступления сумерек. [X Аутсайдеры]",
+        "ability": "В ночь X все Горожане становятся отравленными до заката. [X Изгоев]",
         "special": []
     },
     {
@@ -2534,7 +2534,7 @@
             "3"
         ],
         "setup": true,
-        "ability": "У вас есть все способности Аутсайдера. [-0 или -1 Аутсайдер]",
+        "ability": "Вы обладаете способностями всех Изгоев. [-0 или -1 Изгой]",
         "special": []
     },
     {
@@ -2611,7 +2611,7 @@
         "name": "Tor",
         "team": "loric",
         "reminders": [],
-        "ability": "Players don't know their character or alignment. They learn them when they die."
+        "ability": "Игроки не знают ни свою роль, ни сторону. Они узнают их, когда умирают."
     },
     {
         "id": "bigwig",
@@ -2622,7 +2622,7 @@
         "reminders": [],
         "edition": "loric",
         "team": "loric",
-        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+        "ability": "Каждый номинированный выбирает игрока: до голосования только выбранные игроки могут говорить, и каждый из них «помешан» на том, что выбравший его номинированный игрок - добрый. Если этот игрок не справится, он может умереть"
     },
     {
         "id": "ventriloquist",
@@ -2642,15 +2642,15 @@
         "firstNightReminder": "",
         "otherNightReminder": "",
         "reminders": [
-            "Goal",
-            "Goal",
-            "Goal"
+            "Задание",
+            "Задание",
+            "Задание"
         ],
         "setup": false,
         "name": "Zenomancer",
         "team": "loric",
         "edition": "loric",
-        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "ability": "У одного или нескольких игроков есть задание. При его выполнении игрок узнаёт верную информацию.",
         "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
     },
     {
@@ -2658,7 +2658,7 @@
         "name": "Hindu",
         "team": "loric",
         "edition": "loric",
-        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "ability": "Первые 4 умерших игрока немедленно реинкарнируются в Странников, сохраняя свою сторону.",
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2680,7 +2680,7 @@
         "name": "Pope",
         "team": "loric",
         "edition": "loric",
-        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "ability": "В игре есть повторяющиеся добрые роли. Они также могут быть блефом.",
         "setup": true,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2711,7 +2711,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Whoops"
+            "Ну надо же!"
         ],
         "setup": true,
         "ability": "Минимум раз за игру Рассказчик может сделать \"ашибку\", он должен исправить ее и публично заявить об этом.",
@@ -2818,7 +2818,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Рассказчик сам назначает роль одному или более игрокам.",
+        "ability": "Рассказчик сам назначает роли всем игрокам.",
         "special": null
     },
     {
@@ -2934,7 +2934,7 @@
         "otherNight": 1,
         "otherNightReminder": "",
         "reminders": [
-            "Не атаковал"
+            "Последняя ночь: без атаки"
         ],
         "setup": false,
         "ability": "Демон может воздержаться от атаки и обязан это сделать хотя бы раз за игру. Злые игроки получают обычную стартовую информацию.",

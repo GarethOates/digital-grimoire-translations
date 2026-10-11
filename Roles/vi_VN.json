@@ -275,7 +275,7 @@
             }
         ],
         "remindersGlobal": [
-            "Say rượu"
+            "là Say rượu"
         ]
     },
     {
@@ -748,7 +748,7 @@
             "Chết"
         ],
         "setup": true,
-        "ability": "Bạn bắt đầu biết những Lữ khách trong game. Nếu 1 trong số đó chết hôm nay, chọn 1 người đêm nay: họ chết. [−1 or +1 Lữ khách]",
+        "ability": "Bạn bắt đầu biết những Lữ khách trong game. Nếu 1 trong số đó chết hôm nay, chọn 1 người đêm nay: họ chết. [−1 hoặc +1 Lữ khách]",
         "special": null
     },
     {
@@ -972,7 +972,7 @@
         "otherNightReminder": "Mơ mộng chỉ 1 người. Cho xem 1 thẻ nhân vật tốt và 1 thẻ nhân vật xấu; 1 trong số đó là đúng.",
         "reminders": [],
         "setup": false,
-        "ability": "Mỗi đêm, chọn 1 người (không phải mình hay Lữ Khách): được biết 1 chức năng tốt và 1 chức năng xấu, 1 trong số đó là đúng.",
+        "ability": "Mỗi đêm, chọn 1 người (không phải mình hay Du khách): được biết 1 nhân vật tốt và 1 nhân vật xấu, 1 trong số đó là đúng.",
         "special": null
     },
     {
@@ -1514,9 +1514,9 @@
         "otherNight": 10,
         "otherNightReminder": "Mục sư chọn 1 người. Nếu Tay sai được chọn, gọi Tay sai dậy và cho xem lá \"Nhân vật này chọn bạn\" và thẻ Mục sư.",
         "reminders": [
-            "Đang nghe đạo",
-            "Đang nghe đạo",
-            "Đang nghe đạo"
+            "Hết chức năng",
+            "Hết chức năng",
+            "Hết chức năng"
         ],
         "setup": false,
         "ability": "Mỗi đêm, chọn 1 người: Tay sai, nếu được chọn, biết điều đó. Tất cả Tay sai được chọn không có chức năng.",
@@ -1712,7 +1712,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Quỷ nghĩ bạn là Tay sau. Tay sai nghĩ bạn là Quỷ.",
+        "ability": "Quỷ nghĩ bạn là Tay sai. Tay sai nghĩ bạn là Quỷ.",
         "special": null
     },
     {
@@ -1804,7 +1804,7 @@
             "Chọn"
         ],
         "setup": false,
-        "ability": "Mỗi đêm*, chọn một người chơi: nếu họ say hoặc bị đầu độc tối nay, bạn sẽ chết và khả năng của họ có thể hoạt động hai lần.",
+        "ability": "Mỗi đêm*, chọn một người: nếu họ đang hoặc trở nên say rượu hoặc trúng độc tối nay, bạn chết.",
         "special": null
     },
     {
@@ -2098,7 +2098,7 @@
             "Ngày 3",
             "Ngày 4",
             "Ngày 5",
-            "tốt đã bị hành quyết"
+            "Người tốt bị hành quyết"
         ],
         "setup": false,
         "ability": "Nếu nhiều hơn 1 người tốt bị hành quyết, bạn thắng. Tất cả người biết bạn trong cuộc. Sau ngày 5, xấu thắng.",
@@ -2459,10 +2459,10 @@
         "firstNightReminder": "",
         "otherNightReminder": "Replace the character token of any player (besides the player the Cacklejack chose today) with a different character token. Wake that player and show them the 'You are' card and their new character token.",
         "reminders": [
-            "Not Me"
+            "Không phải tôi"
         ],
         "setup": false,
-        "ability": "Each day, choose a player: a different player changes character tonight.",
+        "ability": "Mỗi ngày, chọn một người: một người khác đổi nhân vật tối nay.",
         "firstNight": 0,
         "otherNight": 2.1
     },
@@ -2498,7 +2498,7 @@
             "X"
         ],
         "setup": true,
-        "ability": "Vào đêm X, tất cả Dân làng bị độc. [X Lữ khách]",
+        "ability": "Vào đêm X, tất cả Dân làng bị độc đến hoàng hôn. [X Lữ khách]",
         "special": []
     },
     {
@@ -2533,7 +2533,7 @@
             "3"
         ],
         "setup": true,
-        "ability": "Bạn có tất cả các khả năng của Outsider. [-0 hoặc -1 Outsider]",
+        "ability": "Bạn có tất cả chức năng của Lữ khách. [-0 hoặc -1 Lữ khách]",
         "special": []
     },
     {
@@ -2561,7 +2561,7 @@
         "otherNightReminder": "Wake the Wraith whenever other evil players wake.",
         "reminders": [],
         "setup": false,
-        "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
+        "ability": "Bạn có thể chọn mở mắt vào ban đêm. Bạn dậy khi những người xấu khác dậy.",
         "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
         "special": [
             {
@@ -2617,7 +2617,7 @@
         "name": "Tor",
         "team": "loric",
         "reminders": [],
-        "ability": "Players don't know their character or alignment. They learn them when they die."
+        "ability": "Người chơi không biết nhân vật hoặc phe của họ. Họ biết nó sau khi họ chết."
     },
     {
         "id": "bigwig",
@@ -2628,7 +2628,7 @@
         "reminders": [],
         "edition": "loric",
         "team": "loric",
-        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+        "ability": "Mỗi người bị biểu quyết chọn một người: đến khi bỏ phiếu, chỉ họ có quyền nói & họ điên người bị biểu quyết đó là người tốt hoặc họ có thể chết."
     },
     {
         "id": "ventriloquist",
@@ -2648,15 +2648,15 @@
         "firstNightReminder": "",
         "otherNightReminder": "",
         "reminders": [
-            "Goal",
-            "Goal",
-            "Goal"
+            "Nhiệm vụ",
+            "Nhiệm vụ",
+            "Nhiệm vụ"
         ],
         "setup": false,
         "name": "Zenomancer",
         "team": "loric",
         "edition": "loric",
-        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "ability": "Một hoặc nhiều người chơi có nhiệm vụ riêng. Khi hoàn thành nó, người chơi đó biết một thông tin đúng.",
         "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
     },
     {
@@ -2664,7 +2664,7 @@
         "name": "Hindu",
         "team": "loric",
         "edition": "loric",
-        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "ability": "4 người chết đầu tiên sẽ được hồi sinh ngay lập tức thành Du khách giữ nguyên phe.",
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2686,7 +2686,7 @@
         "name": "Pope",
         "team": "loric",
         "edition": "loric",
-        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "ability": "Có các nhân vật tốt bị trùng lặp trong ván chơi. Nó cũng có thể là nhân vật ngoài ván chơi.",
         "setup": true,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2717,10 +2717,10 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Whoops"
+            "Chết dở"
         ],
         "setup": true,
-        "ability": "Một lần trong game, Người kể chuyện sẽ \"mắc lỗi\", sửa nó và thừa nhận lỗi của mình.",
+        "ability": "Ít nhất một lần trong game, Người kể chuyện sẽ \"mắc lỗi\", sửa nó và công khai thừa nhận lỗi của mình.",
         "special": null
     },
     {
@@ -2780,7 +2780,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "On the final day, all dead players regain their vote token.",
+        "ability": "Vào ngày cuối cùng, tất cả người chết được hồi lại dấu phiếu của họ.",
         "special": null
     },
     {
@@ -2793,7 +2793,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Đã dùng"
+            "Hết chức năng"
         ],
         "setup": false,
         "ability": "1 lần trong game,có thể 1 người tốt nhận thông tin sai.",
@@ -2824,7 +2824,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "The Storyteller assigns 1 or more players' characters.",
+        "ability": "Người kể chuyện chỉ định nhân vật của tất cả người chơi.",
         "special": null
     },
     {
@@ -2940,10 +2940,10 @@
         "otherNight": 1,
         "otherNightReminder": "",
         "reminders": [
-            "Không tấn công"
+            "Đêm cuối: Không tấn công"
         ],
         "setup": false,
-        "ability": "Quỷ có thể chọn không tấn công & phải làm việc này 1 lần trong game. Người xấu nhận thông tin bắt đầu như thường.",
+        "ability": "Quỷ có thể chọn không tấn công & phải làm việc này ít nhất 1 lần trong game. Người xấu nhận thông tin bắt đầu như thường.",
         "special": null
     }
 ]

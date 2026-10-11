@@ -83,7 +83,7 @@
             "错误"
         ],
         "setup": false,
-        "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色（或者你会得知没有爪牙在场）。",
+        "ability": "在你的首个夜晚，你会得知两名玩家和一个爪牙角色：这两名玩家之一是该角色。",
         "special": null
     },
     {
@@ -1514,9 +1514,9 @@
         "otherNight": 10,
         "otherNightReminder": "传教士选择一名玩家。如果选中了爪牙，则唤醒并告知他被传教士选中。",
         "reminders": [
-            "布道",
-            "布道",
-            "布道"
+            "失去能力",
+            "失去能力",
+            "失去能力"
         ],
         "setup": false,
         "ability": "每个夜晚，你要选择一名玩家：如果选中了爪牙，他会得知被传教士选中。所有被你选中的爪牙失去能力。",
@@ -1549,7 +1549,7 @@
             "了解"
         ],
         "setup": true,
-        "ability": "在你的第一个夜晚，你会得知一名外来者。在接下来的每个夜晚，你都会得知一名与昨晚角色类型不同的玩家。 [+1 局外人]",
+        "ability": "每个夜晚，你会得知一名与上个夜晚得知的玩家角色类型不同的玩家。[+0~1外来者]",
         "special": null
     },
     {
@@ -1804,7 +1804,7 @@
             "被选择"
         ],
         "setup": false,
-        "ability": "每个夜晚*，选择一名玩家：如果他们今晚喝醉或中毒，你就会死，他们的能力可能会发动两次。",
+        "ability": "每个夜晚*，你要选择一名玩家：如果当晚他醉酒或中毒，你死亡。",
         "special": null
     },
     {
@@ -2098,7 +2098,7 @@
             "第三天",
             "第四天",
             "第五天",
-            "善良被处决"
+            "善良玩家被处决"
         ],
         "setup": false,
         "ability": "如果多于一名善良玩家被处决，邪恶阵营获胜。所有玩家都知道利维坦在场。在第五个白天结束时，邪恶阵营获胜。",
@@ -2358,7 +2358,7 @@
             "第三晚"
         ],
         "setup": true,
-        "ability": "你得到 3 次诈唬。 第三天晚上，选择一名玩家：他们会成为你选择的邪恶恶魔。 [无恶魔]",
+        "ability": "在首个夜晚，你会得知三个伪装。在第三个夜晚，你要选择一名玩家：他变成由你选择的邪恶恶魔。[无恶魔在场]",
         "special": []
     },
     {
@@ -2404,7 +2404,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "每天一次，如果你公开猜出哪些玩家是奴才，哪些是恶魔，好人获胜。",
+        "ability": "每个白天，你可以公开进行一次谁是爪牙，谁是恶魔的猜测。如果你猜对，善良阵营获胜。",
         "special": []
     },
     {
@@ -2459,10 +2459,10 @@
         "firstNightReminder": "",
         "otherNightReminder": "Replace the character token of any player (besides the player the Cacklejack chose today) with a different character token. Wake that player and show them the 'You are' card and their new character token.",
         "reminders": [
-            "Not Me"
+            "不是我"
         ],
         "setup": false,
-        "ability": "Each day, choose a player: a different player changes character tonight.",
+        "ability": "每个白天，你要选择一名玩家：一名其他玩家会在当晚改变角色。",
         "firstNight": 0,
         "otherNight": 2.1
     },
@@ -2515,7 +2515,7 @@
             "？"
         ],
         "setup": false,
-        "ability": "每场比赛一次，选择许一个愿。  如果获得批准，它可能会有一个价格并留下关于其性质的线索。",
+        "ability": "每局游戏限一次，你可以向说书人许愿。如果愿望被实现，可能会伴随着代价和线索。",
         "special": []
     },
     {
@@ -2561,7 +2561,7 @@
         "otherNightReminder": "Wake the Wraith whenever other evil players wake.",
         "reminders": [],
         "setup": false,
-        "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
+        "ability": "你可以在夜晚睁眼。当其他邪恶玩家被唤醒时，你也会被唤醒。",
         "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
         "special": [
             {
@@ -2605,7 +2605,7 @@
             "?"
         ],
         "setup": false,
-        "ability": "This script has homebrew characters or rules.",
+        "ability": "这个剧本包含有自制角色或自制规则。",
         "special": null
     },
     {
@@ -2617,7 +2617,7 @@
         "name": "Tor",
         "team": "loric",
         "reminders": [],
-        "ability": "Players don't know their character or alignment. They learn them when they die."
+        "ability": "玩家不知道自己的角色和阵营。当他们死亡时才会得知这些信息。"
     },
     {
         "id": "bigwig",
@@ -2628,7 +2628,7 @@
         "reminders": [],
         "edition": "loric",
         "team": "loric",
-        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+        "ability": "每个被提名者要选择一名玩家：在投票前，只有他可以发言，并且他要“疯狂”地证明被提名者是善良的，否则他可能死亡。"
     },
     {
         "id": "ventriloquist",
@@ -2648,15 +2648,15 @@
         "firstNightReminder": "",
         "otherNightReminder": "",
         "reminders": [
-            "Goal",
-            "Goal",
-            "Goal"
+            "目标",
+            "目标",
+            "目标"
         ],
         "setup": false,
         "name": "Zenomancer",
         "team": "loric",
         "edition": "loric",
-        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "ability": "一名或多名玩家各自拥有一个目标。当达成目标后，他会获得一条正确信息。",
         "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
     },
     {
@@ -2664,7 +2664,7 @@
         "name": "Hindu",
         "team": "loric",
         "edition": "loric",
-        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "ability": "最先死亡的四名玩家会立刻以相同阵营的旅行者转世重生。",
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2686,7 +2686,7 @@
         "name": "Pope",
         "team": "loric",
         "edition": "loric",
-        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "ability": "会有重复的善良角色在场。他们也可能是恶魔的伪装。",
         "setup": true,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2720,7 +2720,7 @@
             "哎呀"
         ],
         "setup": true,
-        "ability": "每局游戏限一次，说书人可能会犯一个错误（真的就一个吗？），但是会在发现自己犯错后立即更正并公开承认自己处理有误。",
+        "ability": "每局游戏至少一次，说书人将会出现失误，但会纠正并公开承认自己曾处理有误。",
         "special": null
     },
     {
@@ -2780,7 +2780,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "On the final day, all dead players regain their vote token.",
+        "ability": "在游戏的最后一天，所有已死亡玩家会重新获得投票标记。",
         "special": null
     },
     {
@@ -2824,7 +2824,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "The Storyteller assigns 1 or more players' characters.",
+        "ability": "由说书人为所有玩家派发角色。",
         "special": null
     },
     {
@@ -2940,7 +2940,7 @@
         "otherNight": 1,
         "otherNightReminder": "",
         "reminders": [
-            "无法攻击"
+            "最后一晚：不攻击"
         ],
         "setup": false,
         "ability": "恶魔可以在夜晚选择放弃攻击（每局游戏至少一次）。邪恶玩家照常获取初始信息。",

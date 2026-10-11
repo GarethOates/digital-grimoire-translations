@@ -275,7 +275,7 @@
             }
         ],
         "remindersGlobal": [
-            "Pijan"
+            "Je Pijanec"
         ]
     },
     {
@@ -349,7 +349,7 @@
             "Demon"
         ],
         "setup": false,
-        "ability": "Če Demon umre, ko je živih 5 ali več igralcev, postaneš Demon.",
+        "ability": "Če Demon umre, ko je živih 5 ali več igralcev, postaneš Demon. (Popotniki se ne štejejo.)",
         "special": null
     },
     {
@@ -812,7 +812,7 @@
             "Mrtev"
         ],
         "setup": false,
-        "ability": "Vsako noč*, če ni bil nihče usmrčen prejšnji dan, umoriš enega igralca. Prvič ko umreš, na skrivaj preživiš.",
+        "ability": "Vsako noč*, če prejšnji dan ni nihče umrl, umoriš enega igralca. Prvič ko umreš, na skrivaj preživiš.",
         "special": null
     },
     {
@@ -843,8 +843,8 @@
         "otherNight": 38,
         "otherNightReminder": "Eden od igralcev, ki jih je Šabaloh izbral sinoči, lahko oživi. Šabaloh izbere 2 igralca, ki umreta.",
         "reminders": [
-            "Mrtevzl",
-            "Mrtevzl",
+            "Mrtev",
+            "Mrtev",
             "Izbljuvan"
         ],
         "setup": false,
@@ -913,7 +913,7 @@
             "Brez moči"
         ],
         "setup": false,
-        "ability": "Enkrat na igro, če je nekdo drug nominiran, lahko prisiliš, da je prej nominiran igralec takoj usmrčen ali rešen.",
+        "ability": "Enkrat na igro, če je nominiral nekdo drug, lahko prisiliš, da trenutna usmrtitev uspe ali spodleti.",
         "special": null
     },
     {
@@ -944,7 +944,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Samo mrtvi lahko glasujejo in ne potrebujejo žetona za glasovanje. 50% večina pri glasovanju ni potrebna.",
+        "ability": "Samo ti in mrtvi lahko glasujete. Mrtvi za to ne potrebujejo žetona za glasovanje. 50% večina ni potrebna.",
         "special": null
     },
     {
@@ -1299,7 +1299,7 @@
             "Skok"
         ],
         "setup": true,
-        "ability": "Vsako noč* umoriš enega igralca. Prvi Izobčenec, ki je umorjen, postane zloben Fang gu in ti umreš namesto njega.",
+        "ability": "Vsako noč* umoriš enega igralca. Prvi Izobčenec, ki je umorjen, postane zloben Fang gu in ti umreš namesto njega. [+1 Izobčenec]",
         "special": null
     },
     {
@@ -1422,7 +1422,7 @@
             "Povrnjena moč"
         ],
         "setup": false,
-        "ability": "Enkrat na igro lahko ponoči izbereš mrtvega igralca. Do naslednjega mraka znova dobi svojo moč.",
+        "ability": "Enkrat na igro lahko ponoči* izbereš mrtvega igralca. Do naslednjega mraka znova dobi svojo moč.",
         "special": null
     },
     {
@@ -1576,7 +1576,7 @@
         "otherNight": 32,
         "otherNightReminder": "Volkodlak pokaže na živega igralca, če je dober, umre, in nihče drug ne more umreti to noč.",
         "reminders": [
-            "Faux Paw",
+            "Lažna šapa",
             "Mrtev"
         ],
         "setup": false,
@@ -1726,7 +1726,7 @@
         "otherNightReminder": "Če je Demon umoril kralja, prebudi Pevca in pokaži na igralca Demona.",
         "reminders": [],
         "setup": true,
-        "ability": "Če Demon umori Kralja, izveš, do je Demon. [+Kralj]",
+        "ability": "Če Demon umori Kralja, izveš, kdo je Demon. [+Kralj]",
         "special": null
     },
     {
@@ -1773,7 +1773,7 @@
             "Zadnji usmrčenec"
         ],
         "setup": false,
-        "ability": "Imaš moč zadnjega usmrčenca. Če je bil zloben, si pijan, dokler ne usmrtite dobrega igralca.",
+        "ability": "Imaš moč zadnjega usmrčenca. Če je bil zloben, si zastrupljen, dokler ne usmrtite dobrega igralca.",
         "special": null
     },
     {
@@ -1911,7 +1911,7 @@
         "otherNight": 25,
         "otherNightReminder": "Grozljivec pokaže na igralca. Če  pokazal na drugega igralca kot prejšnjič, premakni opomnik \"Groza\" k njegovemu žetonu in najavi, da je Grozljivec izbral igralca.",
         "reminders": [
-            "Fear"
+            "Strah"
         ],
         "setup": false,
         "ability": "Vsako noč izbereš enega igralca. Če ga nominiraš in usmrtiš, njegova ekipa izgubi. Vsi igralci izvejo, kdaj izbereš novega igralca.",
@@ -2228,7 +2228,7 @@
             "Drugi"
         ],
         "setup": false,
-        "ability": "Vsako noč izberite 2 igralca: jutri je 1. igralec jezen, da je 2. zloben, ali pa eden ali oba umreta.",
+        "ability": "Vsako noč izbereš 2 igralca. Naslednji dan mora prvi noreti, da je drugi zloben, drugače lahko eden ali oba umreta.",
         "special": null
     },
     {
@@ -2290,7 +2290,7 @@
             "Nocoj čajanka"
         ],
         "setup": false,
-        "ability": "Če ste umrli danes ali nocoj, lahko igralci Minion & Demon izberejo nove like Minion & Demon.",
+        "ability": "Če si danes ali nocoj umrl, lahko Sledilci in Demon izberejo nove vloge Sledilcev in Demona.",
         "special": null
     },
     {
@@ -2306,7 +2306,7 @@
             "Mrtev"
         ],
         "setup": true,
-        "ability": "Vsako noč* izberite igralca: umre. [Vi izberete, kateri igralci so Sledilci. -? na +? Outsiders]",
+        "ability": "Vsako noč* izbereš enega igralca: umre. [Ti izbereš, kateri igralci so kateri Sledilci. -? do +? Izobčencev]",
         "special": null
     },
     {
@@ -2322,7 +2322,7 @@
             "Pijan"
         ],
         "setup": true,
-        "ability": "Vsak večer izberite igralca: naučite se njihovega položaja. [+0 do +2 Vaški idioti. 1 od dodatkov je pijan]",
+        "ability": "Vsako noč izbereš enega igralca. Izveš, na kateri ekipi je. [+0 do +2 Vaška idiota. Eden od dodatnih je pijan]",
         "special": null
     },
     {
@@ -2390,7 +2390,7 @@
             "Prijatelj"
         ],
         "setup": false,
-        "ability": "Svojo prvo noč izberite igralca (ne sebe): postanete njihova naveza (ne veste katera), tudi če ste pijani ali zastrupljeni.",
+        "ability": "Svojo prvo noč izbereš enega igralca (ne sebe). Prestopiš na njegovo ekipo (ne veš, katero), tudi če si pijan ali zastrupljen.",
         "special": []
     },
     {
@@ -2434,7 +2434,7 @@
             "Mrtev"
         ],
         "setup": true,
-        "ability": "Vsako noč* izberite igralca: umrejo. [Zlobni liki so v vrsti. Vi ste v sredini. +1 Minion. -? Do +? Outsiders]",
+        "ability": "Vsako noč* izbereš enega igralca: umre. [Zlobne vloge so v vrsti. Ti si v sredini. +1 Sledilec. -? do +? Izobčencev]",
         "special": []
     },
     {
@@ -2459,10 +2459,10 @@
         "firstNightReminder": "",
         "otherNightReminder": "Replace the character token of any player (besides the player the Cacklejack chose today) with a different character token. Wake that player and show them the 'You are' card and their new character token.",
         "reminders": [
-            "Not Me"
+            "Ne jaz"
         ],
         "setup": false,
-        "ability": "Each day, choose a player: a different player changes character tonight.",
+        "ability": "Vsak dan izbereš enega igralca: nocoj nek drug igralec zamenja vlogo.",
         "firstNight": 0,
         "otherNight": 2.1
     },
@@ -2479,7 +2479,7 @@
             "amigo"
         ],
         "setup": false,
-        "ability": "Vsi igralci začnejo poznati igralca tvojega razreda. Lahko se odločite, da boste ubili vsakogar, ki jih predlaga.",
+        "ability": "Vsi igralci prvo noč izvejo za enega igralca iz tvoje ekipe. Lahko se odločiš, da ubiješ vsakogar, ki ga nominira.",
         "special": []
     },
     {
@@ -2498,7 +2498,7 @@
             "X"
         ],
         "setup": true,
-        "ability": "Na noč X so vsi Meščani zastrupljeni do mraka. [X Outsiders]",
+        "ability": "Na noč X so vsi Meščani zastrupljeni do mraka. [X Izobčencev]",
         "special": []
     },
     {
@@ -2533,7 +2533,7 @@
             "3"
         ],
         "setup": true,
-        "ability": "Imaš vse sposobnosti Zunajcev. [-0 ali -1 Zunaj]",
+        "ability": "Imaš vse moči Izobčencev. [-0 ali -1 Izobčenec]",
         "special": []
     },
     {
@@ -2549,7 +2549,7 @@
             "Ne ubije"
         ],
         "setup": false,
-        "ability": "Če si na tvoj prvi dan nominiral in usmrtil igralca, te demon nocoj ne ubije.",
+        "ability": "Če si na svoj prvi dan nominiral in usmrtil igralca, Demon nocoj ne ubije nikogar.",
         "special": []
     },
     {
@@ -2561,7 +2561,7 @@
         "otherNightReminder": "Wake the Wraith whenever other evil players wake.",
         "reminders": [],
         "setup": false,
-        "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
+        "ability": "Ponoči se lahko odločiš, da odpreš oči. Zbudiš se, ko se zbudijo drugi zlobni igralci.",
         "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
         "special": [
             {
@@ -2605,7 +2605,7 @@
             "?"
         ],
         "setup": false,
-        "ability": "This script has homebrew characters or rules.",
+        "ability": "Ta scenarij vsebuje neuradne vloge ali pravila.",
         "special": null
     },
     {
@@ -2617,7 +2617,7 @@
         "name": "Tor",
         "team": "loric",
         "reminders": [],
-        "ability": "Players don't know their character or alignment. They learn them when they die."
+        "ability": "Igralci ne poznajo svoje vloge ali ekipe. Izvejo ju, ko umrejo."
     },
     {
         "id": "bigwig",
@@ -2628,7 +2628,7 @@
         "reminders": [],
         "edition": "loric",
         "team": "loric",
-        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+        "ability": "Vsak nominiranec izbere igralca: do glasovanja lahko govori samo on in je nor, da je nominiranec dober, drugače lahko umre."
     },
     {
         "id": "ventriloquist",
@@ -2648,15 +2648,15 @@
         "firstNightReminder": "",
         "otherNightReminder": "",
         "reminders": [
-            "Goal",
-            "Goal",
-            "Goal"
+            "Cilj",
+            "Cilj",
+            "Cilj"
         ],
         "setup": false,
         "name": "Zenomancer",
         "team": "loric",
         "edition": "loric",
-        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "ability": "Eden ali več igralcev ima vsak svoj cilj. Ko ga doseže, izve en resničen podatek.",
         "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
     },
     {
@@ -2664,7 +2664,7 @@
         "name": "Hindu",
         "team": "loric",
         "edition": "loric",
-        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "ability": "Prvi 4 igralci, ki umrejo, se takoj ponovno rodijo kot Popotniki iste ekipe.",
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2686,7 +2686,7 @@
         "name": "Pope",
         "team": "loric",
         "edition": "loric",
-        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "ability": "V igri so podvojene dobre vloge. Lahko so tudi blefi.",
         "setup": true,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2720,7 +2720,7 @@
             "Opsa"
         ],
         "setup": true,
-        "ability": "Enkrat na igro bo Pripovedovalec naredil \"napako\", jo javno priznal in jo popravil.",
+        "ability": "Vsaj enkrat v igri bo Pripovedovalec naredil napako, jo popravil in jo javno priznal.",
         "special": null
     },
     {
@@ -2780,7 +2780,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "On the final day, all dead players regain their vote token.",
+        "ability": "Zadnji dan vsi mrtvi igralci dobijo nazaj svoj žeton za glasovanje.",
         "special": null
     },
     {
@@ -2793,7 +2793,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Šmenta"
+            "Brez moči"
         ],
         "setup": false,
         "ability": "Enkrat na igrlo lahko 1 dober igralec dobi lažne podatke.",
@@ -2824,7 +2824,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "The Storyteller assigns 1 or more players' characters.",
+        "ability": "Pripovedovalec določi vloge vsem igralcem.",
         "special": null
     },
     {
@@ -2877,8 +2877,8 @@
         "otherNightReminder": "",
         "reminders": [
             "Izpade narobe?",
-            "Poravnan",
-            "Poravnan"
+            "Ista ekipa",
+            "Ista ekipa"
         ],
         "setup": false,
         "ability": "Za dva igralca vsi vedo, da sta na isti ekipi. Enkrat na igro eden od njiju izpade narobe.",
@@ -2911,7 +2911,7 @@
             "Brez dodatnega zlobnega"
         ],
         "setup": false,
-        "ability": "V igri je lahko samo 1 dodaten igralec.",
+        "ability": "V igri ne more biti več kot 1 dodaten zloben igralec.",
         "special": null
     },
     {
@@ -2940,7 +2940,7 @@
         "otherNight": 1,
         "otherNightReminder": "",
         "reminders": [
-            "Ni napada"
+            "Zadnja Noč: Ni Napada"
         ],
         "setup": false,
         "ability": "Demon se lahko odloči, da ne bo ubijal in se more tako odločiti vsaj enkrat na igro. Zlobni igralci dobijo začetne podatke, kot da bi bilo v igri 7+ igralcev.",

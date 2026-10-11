@@ -303,7 +303,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "İdam edilerek öldürülürseniz kötüler kazanır.",
+        "ability": "İdam edilerek öldürülürseniz takımınız kaybeder.",
         "special": null
     },
     {
@@ -867,7 +867,7 @@
             "3 Saldırı"
         ],
         "setup": false,
-        "ability": "Hikaye Anlatıcısı Yeteneği",
+        "ability": "Her gece*, bir oyuncu seçebilirsiniz: o ölür. Son seferde kimseyi seçmediyseniz, bu gece 3 oyuncu seçin.",
         "special": null
     },
     {
@@ -1422,7 +1422,7 @@
             "Yetenek var"
         ],
         "setup": false,
-        "ability": "Oyun başına bir kez, gece, ölü bir oyuncu seçin: gün batımına kadar yeteneklerini yeniden kazanırlar.",
+        "ability": "Oyun başına bir kez, gece*, ölü bir oyuncu seçin: gün batımına kadar yeteneklerini yeniden kazanırlar.",
         "special": null
     },
     {
@@ -1726,7 +1726,7 @@
         "otherNightReminder": "Kral İblis tarafından öldürüldüyse, Koro Çocuğunu uyandırın ve İblis oyuncusunu işaret edin.",
         "reminders": [],
         "setup": true,
-        "ability": "İblis Kralı öldürürse, hangi oyuncunun İblis [+ Kral] olduğunu öğrenirsiniz.",
+        "ability": "İblis Kralı öldürürse, hangi oyuncunun İblis olduğunu öğrenirsiniz. [+Kral]",
         "special": null
     },
     {
@@ -2306,7 +2306,7 @@
             "Ölü"
         ],
         "setup": true,
-        "ability": "Her gece*, bir oyuncu seçin: o ölür. [Hangi oyuncuların Minyon olduğunu siz seçersiniz. -? ila +? Yabancı]",
+        "ability": "Her gece*, bir oyuncu seçin: o ölür. [Hangi oyuncunun hangi Minyon olduğunu siz seçersiniz. -? ila +? Yabancı]",
         "special": null
     },
     {
@@ -2459,10 +2459,10 @@
         "firstNightReminder": "",
         "otherNightReminder": "Replace the character token of any player (besides the player the Cacklejack chose today) with a different character token. Wake that player and show them the 'You are' card and their new character token.",
         "reminders": [
-            "Not Me"
+            "Ben Değil"
         ],
         "setup": false,
-        "ability": "Each day, choose a player: a different player changes character tonight.",
+        "ability": "Her gün bir oyuncu seçin: bu gece başka bir oyuncu karakter değiştirir.",
         "firstNight": 0,
         "otherNight": 2.1
     },
@@ -2479,7 +2479,7 @@
             "Amigo"
         ],
         "setup": false,
-        "ability": "Tüm oyuncular sizin hizalamanızdaki bir oyuncuyu tanımaya başlar. Onları aday gösteren herkesi öldürmeyi seçebilirsiniz.",
+        "ability": "Tüm oyuncular sizin bağlılığınızdan bir oyuncuyu bilerek başlar. Onu aday gösteren herkesi öldürmeyi seçebilirsiniz.",
         "special": []
     },
     {
@@ -2498,7 +2498,7 @@
             "X"
         ],
         "setup": true,
-        "ability": "X gecesi, tüm Kasabalılar alacakaranlığa kadar zehirlenir. [X Outsiders]",
+        "ability": "X gecesi, tüm Kasabalılar alacakaranlığa kadar zehirlenir. [X Yabancı]",
         "special": []
     },
     {
@@ -2533,7 +2533,7 @@
             "3"
         ],
         "setup": true,
-        "ability": "Tüm Outsider yeteneklerine sahipsin. [-0 veya -1 Outsider]",
+        "ability": "Bütün Yabancı yeteneklerine sahipsin. [-0 veya -1 Yabancı]",
         "special": []
     },
     {
@@ -2561,7 +2561,7 @@
         "otherNightReminder": "Wake the Wraith whenever other evil players wake.",
         "reminders": [],
         "setup": false,
-        "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
+        "ability": "Geceleri gözlerinizi açmayı seçebilirsiniz. Diğer kötü oyuncular uyandığında siz de uyanırsınız.",
         "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
         "special": [
             {
@@ -2583,8 +2583,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Koru",
-            "Koru",
+            "Korumalı",
+            "Korumalı",
             "Kötü Bir Şey"
         ],
         "setup": false,
@@ -2617,7 +2617,7 @@
         "name": "Tor",
         "team": "loric",
         "reminders": [],
-        "ability": "Players don't know their character or alignment. They learn them when they die."
+        "ability": "Oyuncular karakterlerini veya bağlılıklarını bilmez. Öldüklerinde öğrenirler."
     },
     {
         "id": "bigwig",
@@ -2628,7 +2628,7 @@
         "reminders": [],
         "edition": "loric",
         "team": "loric",
-        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+        "ability": "Her aday bir oyuncu seçer: oylamaya kadar sadece o konuşabilir ve adayın iyi olduğu konusunda \"deli\" olmalıdır, yoksa ölebilir."
     },
     {
         "id": "ventriloquist",
@@ -2648,15 +2648,15 @@
         "firstNightReminder": "",
         "otherNightReminder": "",
         "reminders": [
-            "Goal",
-            "Goal",
-            "Goal"
+            "Hedef",
+            "Hedef",
+            "Hedef"
         ],
         "setup": false,
         "name": "Zenomancer",
         "team": "loric",
         "edition": "loric",
-        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "ability": "Bir veya daha fazla oyuncunun her birinin bir hedefi vardır. Hedefine ulaşan oyuncu doğru bir bilgi öğrenir.",
         "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
     },
     {
@@ -2664,7 +2664,7 @@
         "name": "Hindu",
         "team": "loric",
         "edition": "loric",
-        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "ability": "Ölen ilk 4 oyuncu hemen aynı bağlılıkta Gezginler olarak yeniden doğar.",
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2686,7 +2686,7 @@
         "name": "Pope",
         "team": "loric",
         "edition": "loric",
-        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "ability": "Oyunda aynı iyi karakterden birden fazla var. Bunlar blöf de olabilir.",
         "setup": true,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2720,7 +2720,7 @@
             "Hay Aksi!"
         ],
         "setup": true,
-        "ability": "Oyun başına bir kez, Hikaye Anlatıcısı bir \"hata\" yapacak, düzeltecek ve herkese açık bir şekilde itiraf edecek.",
+        "ability": "Oyunda en az bir kez, Hikaye Anlatıcısı bir hata yapacak, düzeltecek ve herkese açık bir şekilde itiraf edecek.",
         "special": null
     },
     {
@@ -2780,7 +2780,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "On the final day, all dead players regain their vote token.",
+        "ability": "Son günde, tüm ölü oyuncular oy jetonlarını geri kazanır.",
         "special": null
     },
     {
@@ -2824,7 +2824,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "The Storyteller assigns 1 or more players' characters.",
+        "ability": "Tüm oyuncuların karakterlerini Hikaye Anlatıcısı belirler.",
         "special": null
     },
     {
@@ -2908,7 +2908,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "No extra evil"
+            "Daha Fazla Kötü Yok"
         ],
         "setup": false,
         "ability": "Ekstradan 1'den fazla kötü oyuncu olamaz.",
@@ -2924,7 +2924,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Safe"
+            "Fırtınaya Yakalandı"
         ],
         "setup": false,
         "ability": "İyi bir karakter ismi verin. Eğer oyundaysa, sadece idam edilerek ölebilir, ancak kötü oyuncular hangi oyuncu olduğunu öğrenir.",
@@ -2940,7 +2940,7 @@
         "otherNight": 1,
         "otherNightReminder": "",
         "reminders": [
-            "Saldırı Yok"
+            "Son Gece: Saldırı Yok"
         ],
         "setup": false,
         "ability": "İblis saldırmamayı seçebilir ve bunu oyunda en az bir kez yapmalıdır. Kötü oyuncular normal başlangıç bilgisini alır.",

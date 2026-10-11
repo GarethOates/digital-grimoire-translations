@@ -1436,7 +1436,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Jos olit hauska tänään, sinua ei voi karkottaa.",
+        "ability": "Jos olit hauska tänään, et voi kuolla karkotukseen.",
         "special": null
     },
     {
@@ -1580,7 +1580,7 @@
             "Kuollut"
         ],
         "setup": false,
-        "ability": "Joka yö*, valitse elävä pelaaja. Hyvä kohde kuolee & Demoni ei tapa yöllä. Yksi hyvä pelaaja näyttäytyy Demonina.",
+        "ability": "Joka yö*, valitse elävä pelaaja. Hyvä kohde kuolee & Demoni ei tapa yöllä. Yksi hyvä pelaaja näyttäytyy pahana.",
         "special": null
     },
     {
@@ -2063,7 +2063,7 @@
             "3"
         ],
         "setup": false,
-        "ability": "Joka yö*, valitse 3 pelaajaa (kaikki saavat tietää): kolmikko valitsee elää tai kuolla, mutta jos kaikki jäävät eloon, kaikki kuolevat.",
+        "ability": "Joka yö*, voit valita 3 pelaajaa (kaikki saavat tietää ketkä): kukin heistä valitsee hiljaa elää tai kuolla, mutta jos kaikki jäävät eloon, kaikki kuolevat.",
         "special": null
     },
     {
@@ -2228,7 +2228,7 @@
             "2."
         ],
         "setup": false,
-        "ability": "Joka yö, valitse 2 pelaajaa: huomenna 1. raivoaa, että 2. on paha, tai molemmat saattavat kuolla.",
+        "ability": "Joka yö, valitse 2 pelaajaa: huomenna 1. raivoaa, että 2. on paha, tai toinen tai molemmat saattavat kuolla.",
         "special": null
     },
     {
@@ -2340,7 +2340,7 @@
             "Kuollut"
         ],
         "setup": false,
-        "ability": "Aloitat tietäen salaisen fraasin. Pelaaja saattaa kuolla jokaista sen julkisesti sanomaasi kertaa kohden.",
+        "ability": "Aloitat tietäen salaisen fraasin. Pelaaja saattaa kuolla jokaista sen tänään julkisesti sanomaasi kertaa kohden.",
         "special": null
     },
     {
@@ -2628,7 +2628,7 @@
         "reminders": [],
         "edition": "loric",
         "team": "loric",
-        "ability": "Nimetyt valitsevat puolustuspuhujansa: tämän on oltava raivokkaasti sitä mieltä, että nimetty on hyvä, tai saattaa itse kuolla."
+        "ability": "Jokainen nimitetty valitsee pelaajan: äänestykseen asti vain tämä saa puhua, ja hänen on raivottava siitä, että nimitetty on hyvä, tai hän saattaa kuolla."
     },
     {
         "id": "ventriloquist",

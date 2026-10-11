@@ -263,7 +263,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": true,
-        "ability": "Nie wiesz, że jesteś Pijakiem. Myślisz, że jesteś Mieszczaninem, ale Twoja umiejętność nie działa prawidłowo.",
+        "ability": "Nie wiesz, że jesteś Pijakiem. Myślisz, że jesteś Mieszczaninem, ale nim nie jesteś.",
         "special": [
             {
                 "type": "selection",
@@ -346,10 +346,10 @@
         "otherNight": 28,
         "otherNightReminder": "Jeśli Kochanica Diabła stała się dzisiaj Demonem: Pokaż kartę 'Jesteś' i token Demona.",
         "reminders": [
-            "Demon"
+            "jest Demonem"
         ],
         "setup": false,
-        "ability": "Jeśli przy życiu pozostaje 5 lub więcej graczy, a Demon zginie: zostajesz Demonem.",
+        "ability": "Jeśli przy życiu pozostaje 5 lub więcej graczy, a Demon zginie: zostajesz Demonem. (Podróżni się nie liczą.)",
         "special": null
     },
     {
@@ -453,7 +453,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Musisz używać tokenów aby zagłosować. Martwi gracze mogą oddawać Ci swoje tokeny. Jeśli do tego dojdzie dowiadujesz się do jakiej drużyny należy martwy gracz.",
+        "ability": "Musisz używać tokenów aby zagłosować. Martwi gracze mogą oddawać Ci swoje tokeny. Jeśli do tego dojdzie dowiadujesz się do jakiej drużyny należy martwy gracz. Jesteś trzeźwy i zdrowy.",
         "special": null
     },
     {
@@ -913,7 +913,7 @@
             "Brak zdolności"
         ],
         "setup": false,
-        "ability": "Raz na grę, jeśli inny gracz został nominowany, możesz zdecydować się na wymuszenie wykonania lub niewykonania bieżącej egzekucji.",
+        "ability": "Raz na grę, jeżeli inny gracz nominował, możesz zdecydować, czy obecna egzekucja się odbywa, czy nie.",
         "special": null
     },
     {
@@ -1099,7 +1099,7 @@
         "otherNight": 6,
         "otherNightReminder": "Jeśli Filozof nie użył jeszcze swojej umiejętności: Filozof albo kręci głową na \"nie\" albo wskazuje dobrą postać na arkuszu. Jeśli wybrał postać: zamień token Filozofa z tokenem wybranej postaci i umieść przy nim token przypomnienia 'Jest Filozofem'. Jeśli wybrana postać jest w grze: umieść token 'Pijany' przy tym graczu.",
         "reminders": [
-            "Pijak"
+            "Pijany"
         ],
         "setup": false,
         "ability": "Raz w trakcie gry, nocą, wybierz dobrą postać – uzyskujesz jej zdolność. Jeśli ta postać jest w grze, jest od teraz pijana.",
@@ -1514,9 +1514,9 @@
         "otherNight": 10,
         "otherNightReminder": "Kaznodzieja wybiera gracza. Jeśli wybrany został Sługus: przebudź Sługusa i pokaż kartę 'Ta postać Cię wybrała', a następnie token Kaznodziei.",
         "reminders": [
-            "Na kazaniu",
-            "Na kazaniu",
-            "Na kazaniu"
+            "Brak zdolności",
+            "Brak zdolności",
+            "Brak zdolności"
         ],
         "setup": false,
         "ability": "Każdej nocy wybierz gracza: Sługus, jeśli zostanie wybrany, dowie się tego. Wszyscy wybrani Sługusi nie mają żadnej zdolności.",
@@ -1576,7 +1576,7 @@
         "otherNight": 32,
         "otherNightReminder": "Likantrop wskazuje na żywego gracza: jeśli ten gracz jest dobry, to umiera i nikt inny nie może umrzeć dzisiejszej nocy.",
         "reminders": [
-            "Faux Paw",
+            "Fałszywy trop",
             "Ginie"
         ],
         "setup": false,
@@ -1787,7 +1787,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Każdy Sługus otrzymuje 3 bluffs.",
+        "ability": "Każdy Sługus dostaje 3 blefy.",
         "special": null
     },
     {
@@ -2063,7 +2063,7 @@
             "3"
         ],
         "setup": false,
-        "ability": "Każdej nocy* wybierz 3 graczy (wszyscy gracze dowiadują się, kogo): każdy po cichu wybiera życie lub śmierć, ale jeśli wszyscy przeżyją, wszyscy umrą.",
+        "ability": "Każdej nocy* możesz wybrać 3 graczy (wszyscy gracze dowiadują się, kogo): każdy po cichu wybiera życie lub śmierć, ale jeśli wszyscy przeżyją, wszyscy umrą.",
         "special": null
     },
     {
@@ -2147,10 +2147,10 @@
         "otherNightReminder": "",
         "reminders": [
             "Zaraz zginie",
-            "Pijak"
+            "Pijany"
         ],
         "setup": false,
-        "ability": "Wszyscy gracze zamykają oczy podczas głosowania, a wynik głosowania jest tajny. Głosy oddane na Ciebie liczą się tylko wtedy, gdy Ty zagłosujesz.",
+        "ability": "Wszyscy gracze na czas głosowania zamykają oczy, a jego wynik jest tajny. Każdej nocy wybierz, czy jesteś pijany do zmierzchu.",
         "special": null
     },
     {
@@ -2244,7 +2244,7 @@
             "Zdolność Bajarza"
         ],
         "setup": false,
-        "ability": "Jeśli zginiesz: Bajarz zyskuje zdolność Sługusa niebędącego w grze.",
+        "ability": "Jeśli zginiesz: Bajarz zyskuje zdolność Sługusa.",
         "special": null
     },
     {
@@ -2306,7 +2306,7 @@
             "Martwy"
         ],
         "setup": true,
-        "ability": "Każdej nocy*, wybierz gracza: ten gracz umiera. [Ty wybierasz, którzy gracze są Sługusami. -? to +? Outsiders]",
+        "ability": "Każdej nocy*, wybierz gracza: ten gracz umiera. [Ty wybierasz, którzy gracze są jakimi Sługusami. -? do +? Outsiderów]",
         "special": null
     },
     {
@@ -2459,10 +2459,10 @@
         "firstNightReminder": "",
         "otherNightReminder": "Replace the character token of any player (besides the player the Cacklejack chose today) with a different character token. Wake that player and show them the 'You are' card and their new character token.",
         "reminders": [
-            "Not Me"
+            "Nie ja"
         ],
         "setup": false,
-        "ability": "Each day, choose a player: a different player changes character tonight.",
+        "ability": "Każdego dnia wybierz gracza: tej nocy inny gracz zostaje zmieniony w inną postać.",
         "firstNight": 0,
         "otherNight": 2.1
     },
@@ -2498,7 +2498,7 @@
             "X"
         ],
         "setup": true,
-        "ability": "Podczas X nocy wszyscy Mieszkańcy są zatruci aż do świtu. [X Outsiderów]",
+        "ability": "Nocy X wszyscy Mieszczanie są zatruci do zmierzchu. [X Outsiderów]",
         "special": []
     },
     {
@@ -2549,7 +2549,7 @@
             "Nie zabija"
         ],
         "setup": false,
-        "ability": "W pierwszym dniu, jeśli nominowałaś i zabiłaś gracza, Demon nie zabija dziś wieczorem.",
+        "ability": "Jeżeli pierwszego dnia w grze nominowałaś gracza i doszło do jego egzekucji, Demon nie zabije tej nocy.",
         "special": []
     },
     {
@@ -2561,7 +2561,7 @@
         "otherNightReminder": "Wake the Wraith whenever other evil players wake.",
         "reminders": [],
         "setup": false,
-        "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
+        "ability": "Możesz zdecydować się otworzyć oczy w nocy. Budzisz się razem z innymi złymi graczami.",
         "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
         "special": [
             {
@@ -2617,7 +2617,7 @@
         "name": "Tor",
         "team": "loric",
         "reminders": [],
-        "ability": "Players don't know their character or alignment. They learn them when they die."
+        "ability": "Gracze nie znają swojej postaci ani drużyny. Poznają je po śmierci."
     },
     {
         "id": "bigwig",
@@ -2628,7 +2628,7 @@
         "reminders": [],
         "edition": "loric",
         "team": "loric",
-        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+        "ability": "Każdy nominowany wybiera gracza: do głosowania tylko ten gracz może mówić i musi szaleć na punkcie tego, że nominowany jest dobry, bo inaczej może umrzeć."
     },
     {
         "id": "ventriloquist",
@@ -2648,15 +2648,15 @@
         "firstNightReminder": "",
         "otherNightReminder": "",
         "reminders": [
-            "Goal",
-            "Goal",
-            "Goal"
+            "Cel",
+            "Cel",
+            "Cel"
         ],
         "setup": false,
         "name": "Zenomancer",
         "team": "loric",
         "edition": "loric",
-        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "ability": "Jeden bądź więcej graczy ma swój cel. Gdy go osiągnie, gracz ten zdobywa prawdziwe informacje.",
         "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
     },
     {
@@ -2664,7 +2664,7 @@
         "name": "Hindu",
         "team": "loric",
         "edition": "loric",
-        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "ability": "Pierwsi 4 gracze, którzy umrą, natychmiast odradzają się jako Podróżni z tej samej drużyny.",
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2686,7 +2686,7 @@
         "name": "Pope",
         "team": "loric",
         "edition": "loric",
-        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "ability": "W grze występują duplikaty dobrych postaci. Mogą być także blefami.",
         "setup": true,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2717,10 +2717,10 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Whoopsie"
+            "Ups"
         ],
         "setup": true,
-        "ability": "Raz w grze Bajarz zrobi \"błąd\", popraw go i publicznie przyznaj się do niego.",
+        "ability": "Przynajmniej raz w tej grze Bajarz popełni błąd, poprawi go i ogłosi to publicznie.",
         "special": null
     },
     {
@@ -2793,7 +2793,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Użyty"
+            "Brak zdolności"
         ],
         "setup": false,
         "ability": "Raz na grę, jeden dobry gracz może uzyskać fałszywe informacje.",
@@ -2824,7 +2824,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Bajarz przydziela przynajmniej jedną postać graczom.",
+        "ability": "Bajarz przypisuje postacie wszystkim graczom.",
         "special": null
     },
     {
@@ -2940,7 +2940,7 @@
         "otherNight": 1,
         "otherNightReminder": "",
         "reminders": [
-            "Nie atakuje"
+            "Ostatnia noc: brak ataku"
         ],
         "setup": false,
         "ability": "Demon może wybrać brak ataku i musi to zrobić przynajmniej raz w grze. Źli gracze uzyskują normalne informacje początkowe.",

@@ -275,7 +275,7 @@
             }
         ],
         "remindersGlobal": [
-            "Full"
+            "Er Drukkenbolten"
         ]
     },
     {
@@ -346,7 +346,7 @@
         "otherNight": 28,
         "otherNightReminder": "Om Babylon ble til Demonen i dag, vis dem \"Du er\"-kortet og så Demon-brikken.",
         "reminders": [
-            "Demon"
+            "Er Demonen"
         ],
         "setup": false,
         "ability": "Om 5 eller flere spillere ennå lever & Demonen dør, bli til Demonen. (Omreisende teller ikke med)",
@@ -534,7 +534,7 @@
             "Full"
         ],
         "setup": false,
-        "ability": "Hver natt*, velg 2 spillere: de kan ikke dø i natt, men 1 er full frem til daggry.",
+        "ability": "Hver natt*, velg 2 spillere: de kan ikke dø i natt, men 1 er full frem til skumring.",
         "special": null
     },
     {
@@ -618,7 +618,7 @@
             "Alle fulle"
         ],
         "setup": false,
-        "ability": "Når en Lakei dør ved henrettelse, er alle andre spillere utenom Omreisende fulle frem til daggry i morgen.",
+        "ability": "Når en Lakei dør ved henrettelse, er alle andre spillere utenom Omreisende fulle frem til skumring i morgen.",
         "special": null
     },
     {
@@ -1422,7 +1422,7 @@
             "Har evne"
         ],
         "setup": false,
-        "ability": "Én gang i løpet av spillet, om natten, velg en død spiller: evnen deres virker på ny frem til daggry.",
+        "ability": "Én gang i løpet av spillet, om natten*, velg en død spiller: evnen deres virker på ny frem til skumring.",
         "special": null
     },
     {
@@ -1514,9 +1514,9 @@
         "otherNight": 10,
         "otherNightReminder": "Predikanten velger en spiller. Om Predikanten velger en Lakei, vekk Lakeien og vis dem \"Denne rollen valgte deg\"-kortet, og så Predikant-brikken.",
         "reminders": [
-            "Ved en preken",
-            "Ved en preken",
-            "Ved en preken"
+            "Uten evne",
+            "Uten evne",
+            "Uten evne"
         ],
         "setup": false,
         "ability": "Hver natt, velg en spiller: Lakeier, om de velges, lærer dette. Valgte lakeier er uten evne.",
@@ -1549,7 +1549,7 @@
             "Sett"
         ],
         "setup": true,
-        "ability": "Hver natt lærer du en spiller av en annen karaktertype enn i går kveld. [+0 eller +1 Outsider]",
+        "ability": "Hver natt lærer du en spiller av en annen karaktertype enn i går kveld. [+0 eller +1 Einstøing]",
         "special": null
     },
     {
@@ -1928,7 +1928,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Hver dag, før det åpnes opp for nominasjoner, kan du offentlig velge en spiller: de dør. Om du henrettes, døt du kun om du taper stein, saks, papir.",
+        "ability": "Hver dag, før det åpnes opp for nominasjoner, kan du offentlig velge en spiller: de dør. Om du henrettes, dør du kun om du taper stein, saks, papir.",
         "special": null
     },
     {
@@ -2063,7 +2063,7 @@
             "3"
         ],
         "setup": false,
-        "ability": "Hver natt*, velg 3 spillere (alle spillere lærer hvem): hver av dem velger i hemmelighet å leve eller å dø, men om alle lever, dør alle.",
+        "ability": "Hver natt*, kan du velge 3 spillere (alle spillere lærer hvem): hver av dem velger i hemmelighet å leve eller å dø, men om alle lever, dør alle.",
         "special": null
     },
     {
@@ -2119,7 +2119,7 @@
             "Dag 3"
         ],
         "setup": true,
-        "ability": "Nominerte spillere dør, men kan umiddelbart etter nominere en annen (den tredje dagen må de). Ondt vinner etter den tredje dagen er gått. [Alle Lakeier er Opprør]",
+        "ability": "På dag 3 blir Lakeiene til Opprør, og nominerte spillere dør, men nominerer umiddelbart en levende spiller. Dette må skje.",
         "special": null
     },
     {
@@ -2150,7 +2150,7 @@
             "Full"
         ],
         "setup": false,
-        "ability": "Alle spillere holder øynene lukket når de stemmer, og avstemningen er hemmelig. Hver natt velger du om du er full eller ikke.",
+        "ability": "Alle spillere holder øynene lukket når de stemmer, og avstemningen er hemmelig. Hver natt velger du om du er full til skumring eller ikke.",
         "special": null
     },
     {
@@ -2404,7 +2404,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Én gang hver dag, gjett hvem som er Lakeiene og hvem som er Demonen. Godt vinner om du lykkes.",
+        "ability": "Én gang hver dag, gjett offentlig hvem som er Lakeiene og hvem som er Demonen. Godt vinner om du lykkes.",
         "special": []
     },
     {
@@ -2434,7 +2434,7 @@
             "Død"
         ],
         "setup": true,
-        "ability": "Hver natt*, velg en spiller: de dør. [Onde karakterer er på linje. Du er i midten. +1 Minion. -? Til +? Outsiders]",
+        "ability": "Hver natt*, velg en spiller: de dør. [Onde roller sitter på rad. Du er i midten. +1 Lakei. -? til +? Einstøinger]",
         "special": []
     },
     {
@@ -2448,7 +2448,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Demonen (selv om den er full eller forgiftet) har en god karakter som ikke er i spillet. Dere vet begge hvilke.",
+        "ability": "Demonen (selv om den er full eller forgiftet) har evnen til en god rolle som ikke er i spill. Dere vet begge hvilken.",
         "special": []
     },
     {
@@ -2459,10 +2459,10 @@
         "firstNightReminder": "",
         "otherNightReminder": "Replace the character token of any player (besides the player the Cacklejack chose today) with a different character token. Wake that player and show them the 'You are' card and their new character token.",
         "reminders": [
-            "Not Me"
+            "Ikke meg"
         ],
         "setup": false,
-        "ability": "Each day, choose a player: a different player changes character tonight.",
+        "ability": "Hver dag, velg en spiller: en annen spiller bytter rolle i natt.",
         "firstNight": 0,
         "otherNight": 2.1
     },
@@ -2479,7 +2479,7 @@
             "Amigo"
         ],
         "setup": false,
-        "ability": "Alle spillere begynner å kjenne en spiller i din posisjon. Du kan velge å drepe alle som nominerer dem.",
+        "ability": "Alle spillere begynner å kjenne en spiller med samme lojalitet som deg. Du kan velge å drepe alle som nominerer dem.",
         "special": []
     },
     {
@@ -2498,7 +2498,7 @@
             "X"
         ],
         "setup": true,
-        "ability": "På natt X blir alle byfolk forgiftet til skumringen. [X utenforstående]",
+        "ability": "På natt X blir alle Borgere forgiftet til skumringen. [X Einstøinger]",
         "special": []
     },
     {
@@ -2533,7 +2533,7 @@
             "3"
         ],
         "setup": true,
-        "ability": "Du har alle Outsider-evner. [-0 eller -1 Outsider]",
+        "ability": "Du har alle Einstøing-evner. [-0 eller -1 Einstøing]",
         "special": []
     },
     {
@@ -2561,7 +2561,7 @@
         "otherNightReminder": "Wake the Wraith whenever other evil players wake.",
         "reminders": [],
         "setup": false,
-        "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
+        "ability": "Du kan velge å åpne øynene om natten. Du våkner når andre onde spillere gjør det.",
         "flavor": "Ra'āb ina pān ṣilli ša dāri. Rigim qallu ina šūri, šītu ša šunātīka iredde, u napšutka idlul ina pān maṣṣartī dāriti.",
         "special": [
             {
@@ -2583,8 +2583,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Beskytt",
-            "Beskytt",
+            "Beskyttet",
+            "Beskyttet",
             "Noe uhyggelig"
         ],
         "setup": false,
@@ -2617,7 +2617,7 @@
         "name": "Tor",
         "team": "loric",
         "reminders": [],
-        "ability": "Players don't know their character or alignment. They learn them when they die."
+        "ability": "Spillere kjenner ikke rollen eller lojaliteten sin. De lærer dem når de dør."
     },
     {
         "id": "bigwig",
@@ -2628,7 +2628,7 @@
         "reminders": [],
         "edition": "loric",
         "team": "loric",
-        "ability": "Each nominee chooses a player: until voting, only they may speak & they are mad the nominee is good or they might die."
+        "ability": "Hver nominerte velger en spiller: frem til avstemningen kan kun de snakke, og de er \"manisk\" den nominerte er god, ellers kan det hende de dør."
     },
     {
         "id": "ventriloquist",
@@ -2648,15 +2648,15 @@
         "firstNightReminder": "",
         "otherNightReminder": "",
         "reminders": [
-            "Goal",
-            "Goal",
-            "Goal"
+            "Mål",
+            "Mål",
+            "Mål"
         ],
         "setup": false,
         "name": "Zenomancer",
         "team": "loric",
         "edition": "loric",
-        "ability": "One or more players each have a goal. When achieved, that player learns a piece of true info.",
+        "ability": "Én eller flere spillere har hvert sitt mål. Når målet er nådd, lærer den spilleren en sann opplysning.",
         "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
     },
     {
@@ -2664,7 +2664,7 @@
         "name": "Hindu",
         "team": "loric",
         "edition": "loric",
-        "ability": "The first 4 players to die are immediately reincarnated as Travellers of the same alignment.",
+        "ability": "De 4 første spillerne som dør blir umiddelbart gjenopplivet som Omreisende med samme lojalitet.",
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2686,7 +2686,7 @@
         "name": "Pope",
         "team": "loric",
         "edition": "loric",
-        "ability": "There are duplicate good characters in play. They might also be bluffs",
+        "ability": "Det er duplikater av gode roller i spill. De kan også være bluffer.",
         "setup": true,
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2720,7 +2720,7 @@
             "Oisann"
         ],
         "setup": true,
-        "ability": "Fortelleren har én gang i løpet av spillet gjort en \"tabbe\", har så rettet den opp og innrømmet det for alle.",
+        "ability": "Minst én gang i løpet av spillet vil Fortelleren gjøre en tabbe, rette den opp og innrømme det for alle.",
         "special": null
     },
     {
@@ -2780,7 +2780,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "On the final day, all dead players regain their vote token.",
+        "ability": "På den siste dagen får alle døde spillere tilbake stemmebrikken sin.",
         "special": null
     },
     {
@@ -2793,7 +2793,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Brukt"
+            "Uten evne"
         ],
         "setup": false,
         "ability": "Én gang i løpet av spillet, en god spiller kan motta gal kunnskap.",
@@ -2824,7 +2824,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "The Storyteller assigns 1 or more players' characters.",
+        "ability": "Fortelleren tildeler alle spillernes roller.",
         "special": null
     },
     {
@@ -2940,7 +2940,7 @@
         "otherNight": 1,
         "otherNightReminder": "Om det er natt og et angrep fra Demonen kan gjøre slutt på spillet, og Demonen er markert \"Intet angrep\": Demonen handler ikke i natt. Ikke vekk dem.",
         "reminders": [
-            "Intet angrep"
+            "Siste natt: Intet angrep"
         ],
         "setup": false,
         "ability": "Demonen kan velge å ikke angripe & må gjøre dette minst én gang i løpet av spillet. Onde spillere mottar vanlig kunnskap i begynnelsen av spillet.",
