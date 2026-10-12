@@ -349,7 +349,8 @@
             "notify_marked_dead": "Tot",
             "notify_player_chosen": "Gewählt",
             "notify_note": "Notiz für die Benachrichtigung",
-            "notify_recurring": "Jedes Mal benachrichtigen"
+            "notify_recurring": "Jedes Mal benachrichtigen",
+            "notify_reminder_carriers": "Rollen mit Erinnerung:"
         },
         "town_arrange": {
             "title": "Stadtspieler anordnen",
@@ -745,7 +746,13 @@
         "nominated": "{player} der {role} wurde nominiert",
         "nominates": "{player} der {role} nominiert",
         "marked_dead": "{player} der {role} wurde als tot markiert",
-        "player_chosen": "{player} der {role} wurde in der Nacht gewählt"
+        "player_chosen": "{player} der {role} wurde in der Nacht gewählt",
+        "carrier": {
+            "nominated": "{player} mit {reminder} von {role} wurde nominiert",
+            "nominates": "{player} mit {reminder} von {role} nominiert",
+            "marked_dead": "{player} mit {reminder} von {role} wurde als tot markiert",
+            "player_chosen": "{player} mit {reminder} von {role} wurde in der Nacht gewählt"
+        }
     },
     "splash": {
         "question": "Leiten Sie das Spiel, oder spielen Sie mit?",
@@ -999,7 +1006,7 @@
                 "body": "Wähle eine Rolle aus der Liste. Werden verwandelt diesen Spieler in diese Rolle. Fähigkeit erhalten gibt ihm die Fähigkeit dieser Rolle zusätzlich zu seiner eigenen (denk an den Philosophen)."
             },
             "tok_notify": {
-                "body": "Erhalte eine Benachrichtigung, wenn dieser Spieler nominiert wird, jemanden nominiert, stirbt oder in der Nacht gewählt wird. Bei Toden wähle Tag, Nacht oder beides. Füge eine Notiz hinzu, die mit der Benachrichtigung erscheint, und wähle, ob sie jedes Mal oder nur einmal ausgelöst wird."
+                "body": "Erhalte eine Benachrichtigung, wenn dieser Spieler nominiert wird, jemanden nominiert, stirbt oder in der Nacht gewählt wird. Hat die Rolle Erinnerungen, wähle oben in der Liste eine aus, um stattdessen über denjenigen benachrichtigt zu werden, der damit markiert ist, wie „Beschützt“ beim Mönch. Bei Toden wähle Tag, Nacht oder beides. Füge eine Notiz hinzu, die mit der Benachrichtigung erscheint, und wähle, ob sie jedes Mal oder nur einmal ausgelöst wird."
             }
         },
         "account": {

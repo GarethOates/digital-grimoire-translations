@@ -322,7 +322,8 @@
             "notify_marked_dead": "Død",
             "notify_player_chosen": "Valgt",
             "notify_note": "Notat for varselet",
-            "notify_recurring": "Varsle hver gang"
+            "notify_recurring": "Varsle hver gang",
+            "notify_reminder_carriers": "Roller merket med påminnelse:"
         },
         "town_arrange": {
             "title": "Omorganiser byspillere",
@@ -745,7 +746,13 @@
         "nominated": "{player} {role} har blitt nominert",
         "nominates": "{player} {role} nominerer",
         "marked_dead": "{player} {role} har blitt merket som død",
-        "player_chosen": "{player} {role} har blitt valgt om natten"
+        "player_chosen": "{player} {role} har blitt valgt om natten",
+        "carrier": {
+            "nominated": "{player}, som bærer {role}s {reminder}, har blitt nominert",
+            "nominates": "{player}, som bærer {role}s {reminder}, nominerer",
+            "marked_dead": "{player}, som bærer {role}s {reminder}, har blitt merket som død",
+            "player_chosen": "{player}, som bærer {role}s {reminder}, har blitt valgt om natten"
+        }
     },
     "splash": {
         "question": "Leder du spillet, eller spiller du i det?",
@@ -999,7 +1006,7 @@
                 "body": "Velg en rolle fra listen. Bli gjør spilleren om til den rollen. Få evne gir spilleren evnen til den rollen i tillegg til sin egen (tenk Filosofen)."
             },
             "tok_notify": {
-                "body": "Få et varsel når spilleren nomineres, nominerer noen, dør eller blir valgt om natten. For dødsfall velger du dag, natt eller begge. Legg til et notat som vises sammen med varselet, og velg om det utløses hver gang eller bare én gang."
+                "body": "Få et varsel når spilleren nomineres, nominerer noen, dør eller blir valgt om natten. Hvis rollen har påminnelser, velg en fra listen øverst for i stedet å bli varslet om den som er merket med den, som Munkens «Beskyttet». For dødsfall velger du dag, natt eller begge. Legg til et notat som vises sammen med varselet, og velg om det utløses hver gang eller bare én gang."
             }
         },
         "account": {

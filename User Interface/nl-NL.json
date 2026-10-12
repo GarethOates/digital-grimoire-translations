@@ -349,7 +349,8 @@
             "notify_marked_dead": "Dood",
             "notify_player_chosen": "Gekozen",
             "notify_note": "Notitie voor de melding",
-            "notify_recurring": "Telkens melden"
+            "notify_recurring": "Telkens melden",
+            "notify_reminder_carriers": "Rollen gemarkeerd met herinnering:"
         },
         "town_arrange": {
             "title": "Stadspelers herschikken",
@@ -745,7 +746,13 @@
         "nominated": "{player} de {role} is genomineerd",
         "nominates": "{player} de {role} nomineert",
         "marked_dead": "{player} de {role} is gemarkeerd als dood",
-        "player_chosen": "{player} de {role} is 's nachts gekozen"
+        "player_chosen": "{player} de {role} is 's nachts gekozen",
+        "carrier": {
+            "nominated": "{player}, met de {reminder} van de {role}, is genomineerd",
+            "nominates": "{player}, met de {reminder} van de {role}, nomineert",
+            "marked_dead": "{player}, met de {reminder} van de {role}, is gemarkeerd als dood",
+            "player_chosen": "{player}, met de {reminder} van de {role}, is 's nachts gekozen"
+        }
     },
     "splash": {
         "question": "Leid je het spel, of speel je mee?",
@@ -999,7 +1006,7 @@
                 "body": "Kies een rol uit de lijst. Worden verandert deze speler in die rol. Vermogen verkrijgen geeft hem het vermogen van die rol naast zijn eigen (denk aan de Filosoof)."
             },
             "tok_notify": {
-                "body": "Krijg een melding wanneer deze speler wordt genomineerd, iemand nomineert, sterft of 's nachts wordt gekozen. Kies bij sterfgevallen dag, nacht of beide. Voeg een notitie toe die bij de melding wordt getoond, en kies of die elke keer of maar één keer afgaat."
+                "body": "Krijg een melding wanneer deze speler wordt genomineerd, iemand nomineert, sterft of 's nachts wordt gekozen. Heeft het personage herinneringen, kies er dan een uit de lijst bovenaan om in plaats daarvan een melding te krijgen over wie ermee is gemarkeerd, zoals Beschermd van de Monnik. Kies bij sterfgevallen dag, nacht of beide. Voeg een notitie toe die bij de melding wordt getoond, en kies of die elke keer of maar één keer afgaat."
             }
         },
         "account": {

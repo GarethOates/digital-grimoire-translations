@@ -349,7 +349,8 @@
             "notify_marked_dead": "Mrtvý",
             "notify_player_chosen": "Vybraný",
             "notify_note": "Poznámka k upozornění",
-            "notify_recurring": "Upozornit pokaždé"
+            "notify_recurring": "Upozornit pokaždé",
+            "notify_reminder_carriers": "Role označené připomínkou:"
         },
         "town_arrange": {
             "title": "Uspořádat hráče města",
@@ -745,7 +746,13 @@
         "nominated": "{player} ({role}) byl nominován",
         "nominates": "{player} ({role}) nominuje",
         "marked_dead": "{player} ({role}) byl označen jako mrtvý",
-        "player_chosen": "{player} ({role}) byl v noci vybrán"
+        "player_chosen": "{player} ({role}) byl v noci vybrán",
+        "carrier": {
+            "nominated": "{player} s připomínkou {reminder} od role {role} byl nominován",
+            "nominates": "{player} s připomínkou {reminder} od role {role} nominuje",
+            "marked_dead": "{player} s připomínkou {reminder} od role {role} byl označen jako mrtvý",
+            "player_chosen": "{player} s připomínkou {reminder} od role {role} byl v noci vybrán"
+        }
     },
     "splash": {
         "question": "Vedete hru, nebo v ní hrajete?",
@@ -999,7 +1006,7 @@
                 "body": "Vyberte roli ze seznamu. Stát se promění tohoto hráče v tuto roli. Získat schopnost mu dá schopnost této role navíc k jeho vlastní (představte si Filozofa)."
             },
             "tok_notify": {
-                "body": "Dostanete upozornění, když je tento hráč nominován, někoho nominuje, zemře nebo je v noci vybrán. U úmrtí vyberte den, noc, nebo obojí. Přidejte poznámku, která se zobrazí s upozorněním, a vyberte, zda se spustí pokaždé, nebo jen jednou."
+                "body": "Dostanete upozornění, když je tento hráč nominován, někoho nominuje, zemře nebo je v noci vybrán. Pokud má postava připomínky, vyberte jednu ze seznamu nahoře a upozornění se bude týkat toho, kdo je jí označen, například připomínka Chráněný od Mnicha. U úmrtí vyberte den, noc, nebo obojí. Přidejte poznámku, která se zobrazí s upozorněním, a vyberte, zda se spustí pokaždé, nebo jen jednou."
             }
         },
         "account": {

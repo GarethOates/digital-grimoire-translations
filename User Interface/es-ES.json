@@ -349,7 +349,8 @@
             "notify_marked_dead": "Muerto",
             "notify_player_chosen": "Elegido",
             "notify_note": "Nota para la notificación",
-            "notify_recurring": "Notificar cada vez"
+            "notify_recurring": "Notificar cada vez",
+            "notify_reminder_carriers": "Roles marcados con el recordatorio:"
         },
         "town_arrange": {
             "title": "Organizar Jugadores del Pueblo",
@@ -745,7 +746,13 @@
         "nominated": "{player} el {role} ha sido nominado",
         "nominates": "{player} el {role} está nominando",
         "marked_dead": "{player} el {role} ha sido marcado como muerto",
-        "player_chosen": "{player} el {role} ha sido elegido durante la noche"
+        "player_chosen": "{player} el {role} ha sido elegido durante la noche",
+        "carrier": {
+            "nominated": "{player}, con el recordatorio {reminder} de {role}, ha sido nominado",
+            "nominates": "{player}, con el recordatorio {reminder} de {role}, está nominando",
+            "marked_dead": "{player}, con el recordatorio {reminder} de {role}, ha sido marcado como muerto",
+            "player_chosen": "{player}, con el recordatorio {reminder} de {role}, ha sido elegido durante la noche"
+        }
     },
     "splash": {
         "question": "¿Diriges la partida o juegas en ella?",
@@ -999,7 +1006,7 @@
                 "body": "Elige un rol de la lista. Convertirse transforma a este jugador en ese rol. Obtener Habilidad le da la habilidad de ese rol además de la suya (piensa en el Filósofo)."
             },
             "tok_notify": {
-                "body": "Recibe una alerta cuando este jugador sea nominado, nomine a alguien, muera o sea elegido durante la noche. Para las muertes, elige día, noche o ambos. Añade una nota para mostrar con la alerta y elige si salta cada vez o solo una vez."
+                "body": "Recibe una alerta cuando este jugador sea nominado, nomine a alguien, muera o sea elegido durante la noche. Si el rol tiene recordatorios, elige uno de la lista de arriba para recibir la alerta sobre quien esté marcado con él, como el recordatorio A salvo del Monje. Para las muertes, elige día, noche o ambos. Añade una nota para mostrar con la alerta y elige si salta cada vez o solo una vez."
             }
         },
         "account": {

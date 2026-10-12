@@ -349,7 +349,8 @@
             "notify_marked_dead": "Mort",
             "notify_player_chosen": "Escollit",
             "notify_note": "Nota per a la notificació",
-            "notify_recurring": "Notifica cada vegada"
+            "notify_recurring": "Notifica cada vegada",
+            "notify_reminder_carriers": "Rols marcats amb el recordatori:"
         },
         "town_arrange": {
             "title": "Organitza els jugadors del poble",
@@ -745,7 +746,13 @@
         "nominated": "{player}, el {role}, ha estat acusat",
         "nominates": "{player}, el {role}, està acusant",
         "marked_dead": "{player}, el {role}, ha estat marcat com a mort",
-        "player_chosen": "{player}, el {role}, ha estat escollit a la nit"
+        "player_chosen": "{player}, el {role}, ha estat escollit a la nit",
+        "carrier": {
+            "nominated": "{player}, que porta el recordatori {reminder} de {role}, ha estat acusat",
+            "nominates": "{player}, que porta el recordatori {reminder} de {role}, està acusant",
+            "marked_dead": "{player}, que porta el recordatori {reminder} de {role}, ha estat marcat com a mort",
+            "player_chosen": "{player}, que porta el recordatori {reminder} de {role}, ha estat escollit a la nit"
+        }
     },
     "splash": {
         "question": "Esteu dirigint la partida o hi esteu jugant?",
@@ -999,7 +1006,7 @@
                 "body": "Tria un rol de la llista. Converteix-lo transforma aquest jugador en aquest rol. Obtén l’habilitat li dona l'habilitat d'aquest rol a més de la seva (pensa en el Filòsof)."
             },
             "tok_notify": {
-                "body": "Rep un avís quan aquest jugador sigui acusat, acusi algú, mori o sigui escollit a la nit. Per a les morts, tria dia, nit o tots dos. Afegeix una nota per mostrar amb l'avís i tria si salta cada vegada o només una."
+                "body": "Rep un avís quan aquest jugador sigui acusat, acusi algú, mori o sigui escollit a la nit. Si el personatge té recordatoris, tria'n un de la llista de dalt per rebre l'avís sobre qui estigui marcat amb ell, com el recordatori Immune del Monjo. Per a les morts, tria dia, nit o tots dos. Afegeix una nota per mostrar amb l'avís i tria si salta cada vegada o només una."
             }
         },
         "account": {

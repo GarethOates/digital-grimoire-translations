@@ -349,7 +349,8 @@
             "notify_marked_dead": "Morto",
             "notify_player_chosen": "Scelto",
             "notify_note": "Nota per la notifica",
-            "notify_recurring": "Notifica ogni volta"
+            "notify_recurring": "Notifica ogni volta",
+            "notify_reminder_carriers": "Ruoli con il promemoria:"
         },
         "town_arrange": {
             "title": "Disponi i Giocatori nella Città",
@@ -745,7 +746,13 @@
         "nominated": "{player} il {role} è stato nominato",
         "nominates": "{player} il {role} sta nominando",
         "marked_dead": "{player} il {role} è stato segnato come morto",
-        "player_chosen": "{player} il {role} è stato scelto di notte"
+        "player_chosen": "{player} il {role} è stato scelto di notte",
+        "carrier": {
+            "nominated": "{player}, con il promemoria {reminder} del {role}, è stato nominato",
+            "nominates": "{player}, con il promemoria {reminder} del {role}, sta nominando",
+            "marked_dead": "{player}, con il promemoria {reminder} del {role}, è stato segnato come morto",
+            "player_chosen": "{player}, con il promemoria {reminder} del {role}, è stato scelto di notte"
+        }
     },
     "splash": {
         "question": "Stai conducendo la partita o ci stai giocando?",
@@ -999,7 +1006,7 @@
                 "body": "Scegli un ruolo dall'elenco. Diventa trasforma questo giocatore in quel ruolo. Ottieni Abilità gli dà l'abilità di quel ruolo oltre alla sua (pensa al Filosofo)."
             },
             "tok_notify": {
-                "body": "Ricevi un avviso quando questo giocatore viene nominato, nomina qualcuno, muore o viene scelto di notte. Per le morti, scegli giorno, notte o entrambi. Aggiungi una nota da mostrare con l'avviso e scegli se scatta ogni volta o solo una volta."
+                "body": "Ricevi un avviso quando questo giocatore viene nominato, nomina qualcuno, muore o viene scelto di notte. Se il personaggio ha dei promemoria, scegline uno dall'elenco in alto per ricevere invece un avviso su chiunque sia contrassegnato con quello, come il promemoria Protetto del Monaco. Per le morti, scegli giorno, notte o entrambi. Aggiungi una nota da mostrare con l'avviso e scegli se scatta ogni volta o solo una volta."
             }
         },
         "account": {

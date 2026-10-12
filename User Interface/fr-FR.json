@@ -322,7 +322,8 @@
             "notify_marked_dead": "Mort",
             "notify_player_chosen": "Choisi",
             "notify_note": "Note pour la notification",
-            "notify_recurring": "Notifier à chaque fois"
+            "notify_recurring": "Notifier à chaque fois",
+            "notify_reminder_carriers": "Rôles marqués du rappel :"
         },
         "town_arrange": {
             "title": "Organiser les joueurs du village",
@@ -745,7 +746,13 @@
         "nominated": "{player} le {role} a été nominé",
         "nominates": "{player} le {role} nomine",
         "marked_dead": "{player} le {role} a été marqué comme mort",
-        "player_chosen": "{player} le {role} a été choisi pendant la nuit"
+        "player_chosen": "{player} le {role} a été choisi pendant la nuit",
+        "carrier": {
+            "nominated": "{player}, porteur du rappel {reminder} du {role}, a été nominé",
+            "nominates": "{player}, porteur du rappel {reminder} du {role}, nomine",
+            "marked_dead": "{player}, porteur du rappel {reminder} du {role}, a été marqué comme mort",
+            "player_chosen": "{player}, porteur du rappel {reminder} du {role}, a été choisi pendant la nuit"
+        }
     },
     "splash": {
         "question": "Dirigez-vous la partie, ou y jouez-vous ?",
@@ -999,7 +1006,7 @@
                 "body": "Choisissez un rôle dans la liste. Devenir transforme ce joueur en ce rôle. Obtenir une capacité lui donne la capacité de ce rôle en plus de la sienne (pensez au Philosophe)."
             },
             "tok_notify": {
-                "body": "Recevez une alerte quand ce joueur est nominé, nomine quelqu'un, meurt ou est choisi pendant la nuit. Pour les morts, choisissez jour, nuit ou les deux. Ajoutez une note à afficher avec l'alerte, et choisissez si elle se déclenche à chaque fois ou une seule fois."
+                "body": "Recevez une alerte quand ce joueur est nominé, nomine quelqu'un, meurt ou est choisi pendant la nuit. Si le personnage a des rappels, choisissez-en un dans la liste en haut pour être alerté à propos de la personne qui le porte à la place, comme le rappel En sécurité du Moine. Pour les morts, choisissez jour, nuit ou les deux. Ajoutez une note à afficher avec l'alerte, et choisissez si elle se déclenche à chaque fois ou une seule fois."
             }
         },
         "account": {

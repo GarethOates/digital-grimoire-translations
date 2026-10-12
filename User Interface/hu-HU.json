@@ -349,7 +349,8 @@
             "notify_marked_dead": "Halott",
             "notify_player_chosen": "Kiválasztva",
             "notify_note": "Jegyzet az értesítéshez",
-            "notify_recurring": "Értesítés minden alkalommal"
+            "notify_recurring": "Értesítés minden alkalommal",
+            "notify_reminder_carriers": "Emlékeztetővel megjelölt szerepek:"
         },
         "town_arrange": {
             "title": "Város átrendezése",
@@ -745,7 +746,13 @@
         "nominated": "{player} ({role}) meg lett gyanúsítva",
         "nominates": "{player} ({role}) gyanúsít",
         "marked_dead": "{player} ({role}) halottnak lett jelölve",
-        "player_chosen": "{player} ({role}) ki lett választva éjszaka"
+        "player_chosen": "{player} ({role}) ki lett választva éjszaka",
+        "carrier": {
+            "nominated": "{player}, akinél a(z) {role} \"{reminder}\" emlékeztetője van, meg lett gyanúsítva",
+            "nominates": "{player}, akinél a(z) {role} \"{reminder}\" emlékeztetője van, gyanúsít",
+            "marked_dead": "{player}, akinél a(z) {role} \"{reminder}\" emlékeztetője van, halottnak lett jelölve",
+            "player_chosen": "{player}, akinél a(z) {role} \"{reminder}\" emlékeztetője van, ki lett választva éjszaka"
+        }
     },
     "splash": {
         "question": "Te vezeted a játékot, vagy játszol benne?",
@@ -999,7 +1006,7 @@
                 "body": "Válassz egy karaktert a listából. Az Átváltoztat ezzé a karakterré változtatja ezt a játékost. A Képesség szerzése megadja neki ennek a karakternek a képességét a sajátja mellé (gondolj a Filozófusra)."
             },
             "tok_notify": {
-                "body": "Kapj értesítést, ha ezt a játékost meggyanúsítják, ő gyanúsít valakit, meghal, vagy éjszaka kiválasztják. Halálnál válaszd a nappalt, az éjszakát vagy mindkettőt. Adj hozzá jegyzetet, amely megjelenik az értesítéssel, és válaszd ki, hogy minden alkalommal vagy csak egyszer jelenjen-e meg."
+                "body": "Kapj értesítést, ha ezt a játékost meggyanúsítják, ő gyanúsít valakit, meghal, vagy éjszaka kiválasztják. Ha a karakternek vannak emlékeztetői, válassz egyet a lista tetején, hogy helyette arról kapj értesítést, akit ezzel megjelöltek, például a Szerzetes Védett emlékeztetőjéről. Halálnál válaszd a nappalt, az éjszakát vagy mindkettőt. Adj hozzá jegyzetet, amely megjelenik az értesítéssel, és válaszd ki, hogy minden alkalommal vagy csak egyszer jelenjen-e meg."
             }
         },
         "account": {
