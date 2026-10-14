@@ -584,6 +584,7 @@
         "auto_assign": "Auto Assign",
         "auto_assign_all": "Skip Draw Phase",
         "auto_assign_all_confirm": "Every seat still without a role will be filled now. Reserved roles are kept, the rest are random.",
+        "reveal_roles_confirm": "This shows the role each seat will draw. Roles you placed yourself stay where they are.",
         "no_players_connected": "No players connected",
         "no_tokens_available": "No tokens available",
         "distribute_to_devices": "Send Tokens",
