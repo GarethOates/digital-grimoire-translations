@@ -584,6 +584,7 @@
         "auto_assign": "Assigna automàticament",
         "auto_assign_all": "Omet la fase d'extracció",
         "auto_assign_all_confirm": "Cada seient que encara no tingui rol s'omplirà ara. Els rols ja assignats es mantenen, la resta seran a l'atzar.",
+        "reveal_roles_confirm": "Això mostra el rol que triarà cada seient. Els rols que heu col·locat vosaltres mateixos es queden on són.",
         "no_players_connected": "No hi ha cap jugador connectat",
         "no_tokens_available": "No hi ha cap fitxa disponible",
         "distribute_to_devices": "Envia les fitxes",

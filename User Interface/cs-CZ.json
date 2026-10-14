@@ -584,6 +584,7 @@
         "auto_assign": "Automatické přiřazení",
         "auto_assign_all": "Přeskočit losování",
         "auto_assign_all_confirm": "Každé místo, které ještě nemá roli, se nyní obsadí. Již přiřazené role zůstanou zachovány, ostatní budou náhodné.",
+        "reveal_roles_confirm": "Zobrazí se role, kterou si každé místo vytáhne. Role, které jste umístili sami, zůstanou na svém místě.",
         "no_players_connected": "Žádní připojení hráči",
         "no_tokens_available": "Žádné žetony k dispozici",
         "distribute_to_devices": "Odeslat žetony",

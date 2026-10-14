@@ -584,6 +584,7 @@
         "auto_assign": "Assegna Automaticamente",
         "auto_assign_all": "Salta la Fase di Pesca",
         "auto_assign_all_confirm": "Ogni posto ancora senza ruolo verrà riempito ora. I ruoli già assegnati restano invariati, gli altri saranno casuali.",
+        "reveal_roles_confirm": "Questo mostra il ruolo che ogni posto pescherà. I ruoli che hai piazzato tu stesso restano dove sono.",
         "no_players_connected": "Nessun giocatore connesso",
         "no_tokens_available": "Nessun gettone disponibile",
         "distribute_to_devices": "Invia Gettoni",

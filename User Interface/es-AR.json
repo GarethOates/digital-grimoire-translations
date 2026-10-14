@@ -584,6 +584,7 @@
         "auto_assign": "Asignar automáticamente",
         "auto_assign_all": "Omitir fase de sorteo",
         "auto_assign_all_confirm": "Todos los asientos que aún no tienen rol se llenarán ahora. Los roles ya asignados se mantienen, el resto será aleatorio.",
+        "reveal_roles_confirm": "Esto muestra el rol que sacará cada asiento. Los roles que hayas colocado vos se quedan donde están.",
         "no_players_connected": "No hay jugadores conectados",
         "no_tokens_available": "No hay fichas disponibles",
         "distribute_to_devices": "Mandar fichas",

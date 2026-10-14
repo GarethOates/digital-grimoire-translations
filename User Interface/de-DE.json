@@ -584,6 +584,7 @@
         "auto_assign": "Automatisch zuweisen",
         "auto_assign_all": "Ziehphase überspringen",
         "auto_assign_all_confirm": "Jeder noch leere Platz wird jetzt besetzt. Bereits zugewiesene Rollen bleiben erhalten, der Rest wird zufällig vergeben.",
+        "reveal_roles_confirm": "Hier siehst du, welche Rolle jeder Platz ziehen wird. Rollen, die du selbst platziert hast, bleiben, wo sie sind.",
         "no_players_connected": "Keine Spieler verbunden",
         "no_tokens_available": "Keine Token verfügbar",
         "distribute_to_devices": "Token senden",

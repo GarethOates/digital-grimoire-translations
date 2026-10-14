@@ -584,6 +584,7 @@
         "auto_assign": "Attribuer automatiquement",
         "auto_assign_all": "Passer la phase de tirage",
         "auto_assign_all_confirm": "Toute place encore sans rôle sera pourvue maintenant. Les rôles déjà attribués sont conservés, le reste est aléatoire.",
+        "reveal_roles_confirm": "Cela montre le rôle que chaque place tirera. Les rôles que vous avez placés vous-même restent où ils sont.",
         "no_players_connected": "Aucun joueur connecté",
         "no_tokens_available": "Aucun jeton disponible",
         "distribute_to_devices": "Envoyer les jetons",

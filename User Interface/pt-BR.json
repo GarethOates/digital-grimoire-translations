@@ -584,6 +584,7 @@
     "auto_assign": "Atribuir automaticamente",
     "auto_assign_all": "Atribuir automaticamente todos os restantes",
     "auto_assign_all_confirm": "Todos os assentos ainda sem um personagem serão preenchidos agora. Os personagens reservados são mantidos, o restante será aleatório.",
+    "reveal_roles_confirm": "Isto mostra o personagem que cada assento comprará. Os personagens que você mesmo colocou continuam onde estão.",
     "no_players_connected": "Nenhum jogador conectado",
     "no_tokens_available": "Sem tokens disponíveis",
     "distribute_to_devices": "Enviar tokens",

@@ -584,6 +584,7 @@
         "auto_assign": "Automatikus hozzárendelés",
         "auto_assign_all": "Húzási szakasz kihagyása",
         "auto_assign_all_confirm": "Minden ülőhely, amelyhez még nincs karakter rendelve, most megtelik. A már hozzárendelt karakterek megmaradnak, a többi véletlenszerű lesz.",
+        "reveal_roles_confirm": "Ez megmutatja, hogy minden ülőhely melyik karaktert húzza majd. Az általad elhelyezett karakterek a helyükön maradnak.",
         "no_players_connected": "Nincs csatlakozott játékos",
         "no_tokens_available": "Nincsenek jelölők",
         "distribute_to_devices": "Tokenek küldése",

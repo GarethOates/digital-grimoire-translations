@@ -584,6 +584,7 @@
         "auto_assign": "Tildel automatisk",
         "auto_assign_all": "Hopp over trekkefasen",
         "auto_assign_all_confirm": "Hvert sete som fortsatt mangler en rolle, blir fylt nå. Allerede tildelte roller beholdes, resten blir tilfeldige.",
+        "reveal_roles_confirm": "Dette viser rollen hvert sete kommer til å trekke. Roller du har plassert selv, blir værende der de er.",
         "no_players_connected": "Ingen spillere er koblet til",
         "no_tokens_available": "Ingen brikker tilgjengelig",
         "distribute_to_devices": "Send brikker",

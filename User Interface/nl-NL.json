@@ -584,6 +584,7 @@
         "auto_assign": "Automatisch toewijzen",
         "auto_assign_all": "Trekfase overslaan",
         "auto_assign_all_confirm": "Elke plaats die nog geen rol heeft, wordt nu gevuld. Al toegewezen rollen blijven behouden, de rest wordt willekeurig.",
+        "reveal_roles_confirm": "Dit toont de rol die elke plaats gaat trekken. Rollen die je zelf hebt geplaatst, blijven staan waar ze zijn.",
         "no_players_connected": "Geen spelers verbonden",
         "no_tokens_available": "Geen tokens beschikbaar",
         "distribute_to_devices": "Tokens verzenden",
