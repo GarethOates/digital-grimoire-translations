@@ -194,8 +194,7 @@
             "add_bluff": "Legg til bløff"
         },
         "bootlegger": {
-            "title": "Hjemmebrenner",
-            "no_info": "Ingen Hjemmebrenner-informasjon tilgjengelig for dette skriptet."
+            "title": "Hjemmebrenner"
         },
         "custom_text": {
             "message": "Melding",
@@ -515,7 +514,6 @@
         "persist_players_prompt": "Lagre spillernavnene dine for fremtidige spill ved å logge inn med Discord og legge dem til i vennelisten din.",
         "clear": "Tøm",
         "by": "av",
-        "view_bootlegger_info": "Vis Hjemmebrenner-informasjon",
         "edit_names_optional": "Legg til navn (valgfritt)",
         "search_hint": "Søk etter navn eller URL.",
         "unknown": "ukjent",

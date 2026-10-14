@@ -221,8 +221,7 @@
             "add_bluff": "Bluf toevoegen"
         },
         "bootlegger": {
-            "title": "Bootlegger",
-            "no_info": "Voor dit script is geen bootlegger-informatie beschikbaar."
+            "title": "Bootlegger"
         },
         "custom_text": {
             "message": "Bericht",
@@ -515,7 +514,6 @@
         "persist_players_prompt": "Bewaar je spelersnamen voor toekomstige spellen door in te loggen op Discord en ze toe te voegen aan je vriendenlijst.",
         "clear": "Wissen",
         "by": "door",
-        "view_bootlegger_info": "Bootlegger-informatie bekijken",
         "edit_names_optional": "Namen toevoegen (optioneel)",
         "search_hint": "Zoeken op naam of URL.",
         "unknown": "onbekend",

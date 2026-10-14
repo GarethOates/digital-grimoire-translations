@@ -221,8 +221,7 @@
             "add_bluff": "Bluff hinzufügen"
         },
         "bootlegger": {
-            "title": "Schmuggler",
-            "no_info": "Für dieses Skript sind keine Schmuggler-Informationen verfügbar."
+            "title": "Schmuggler"
         },
         "custom_text": {
             "message": "Nachricht",
@@ -515,7 +514,6 @@
         "persist_players_prompt": "Speichere deine Spielernamen für zukünftige Spiele, indem du dich bei Discord anmeldest und sie zu deiner Freundesliste hinzufügst.",
         "clear": "Löschen",
         "by": "von",
-        "view_bootlegger_info": "Bootlegger-Informationen anzeigen",
         "edit_names_optional": "Namen hinzufügen (optional)",
         "search_hint": "Suche nach Name oder URL.",
         "unknown": "unbekannt",

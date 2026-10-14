@@ -221,8 +221,7 @@
             "add_bluff": "Blöff hozzáadása"
         },
         "bootlegger": {
-            "title": "Csempész",
-            "no_info": "Nem érhető el csempész információ ehhez a szkripthez."
+            "title": "Csempész"
         },
         "custom_text": {
             "message": "Felirat",
@@ -515,7 +514,6 @@
         "persist_players_prompt": "Ments el játékos neveket későbbi játékokhoz a Discord-belépést és a barátlistát használva.",
         "clear": "Törlés",
         "by": "által",
-        "view_bootlegger_info": "Csempész információ megjelenítése",
         "edit_names_optional": "Nevek hozzáadása (opcionális)",
         "search_hint": "Keresés név vagy URL alapján.",
         "unknown": "ismeretlen",

@@ -221,8 +221,7 @@
             "add_bluff": "Přidat blaf"
         },
         "bootlegger": {
-            "title": "Bootlegger",
-            "no_info": "Pro tento skript nejsou k dispozici žádné informace o bootleggerovi."
+            "title": "Bootlegger"
         },
         "custom_text": {
             "message": "Zpráva",
@@ -515,7 +514,6 @@
         "persist_players_prompt": "Uložte si jména hráčů pro budoucí hry tím, že se přihlásíte k Discordu a přidáte je do seznamu přátel.",
         "clear": "Vymazat",
         "by": "od",
-        "view_bootlegger_info": "Zobrazit informace o Bootleggerovi",
         "edit_names_optional": "Přidat jména (volitelné)",
         "search_hint": "Hledat podle jména nebo URL.",
         "unknown": "neznámé",

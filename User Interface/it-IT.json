@@ -221,8 +221,7 @@
             "add_bluff": "Aggiungi Bluff"
         },
         "bootlegger": {
-            "title": "Bootlegger",
-            "no_info": "Nessuna informazione Bootlegger disponibile per questo script."
+            "title": "Bootlegger"
         },
         "custom_text": {
             "message": "Messaggio",
@@ -515,7 +514,6 @@
         "persist_players_prompt": "Salva i nomi dei giocatori per le partite future accedendo con Discord e aggiungendoli alla lista amici.",
         "clear": "Cancella",
         "by": "di",
-        "view_bootlegger_info": "Visualizza informazioni del Bootlegger",
         "edit_names_optional": "Aggiungi nomi (facoltativo)",
         "search_hint": "Cerca per nome o URL.",
         "unknown": "sconosciuto",

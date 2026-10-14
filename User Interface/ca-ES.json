@@ -221,8 +221,7 @@
             "add_bluff": "Afegeix una coartada"
         },
         "bootlegger": {
-            "title": "Contrabandista",
-            "no_info": "Aquest guió no inclou informació del Contrabandista."
+            "title": "Contrabandista"
         },
         "custom_text": {
             "message": "Missatge",
@@ -515,7 +514,6 @@
         "persist_players_prompt": "Inicieu la sessió amb Discord i afegiu els jugadors a la llista d’amics per a desar-ne els noms per a partides futures.",
         "clear": "Neteja",
         "by": "per",
-        "view_bootlegger_info": "Mostra la informació del Contrabandista",
         "edit_names_optional": "Afegeix noms (opcional)",
         "search_hint": "Cerca per nom o URL.",
         "unknown": "desconegut",

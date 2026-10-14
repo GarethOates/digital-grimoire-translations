@@ -221,8 +221,7 @@
       "add_bluff": "Adicionar blefe"
     },
     "bootlegger": {
-      "title": "Pirata",
-      "no_info": "Nenhuma informação Pirata disponível para esse script."
+      "title": "Pirata"
     },
     "custom_text": {
       "message": "Mensagem",
@@ -515,7 +514,6 @@
     "persist_players_prompt": "Salve os nomes dos seus jogadores para partidas futuras fazendo login no Discord e adicionando-os à sua lista de amigos.",
     "clear": "Limpar",
     "by": "por",
-    "view_bootlegger_info": "Ver informação do Pirata",
     "edit_names_optional": "Adicionar nomes (opcional)",
     "search_hint": "Procure por nome ou URL.",
     "unknown": "desconhecido",

@@ -221,8 +221,7 @@
             "add_bluff": "Añadir farsas"
         },
         "bootlegger": {
-            "title": "Contrabandista",
-            "no_info": "Este guión no cuenta con información del Contrabandista."
+            "title": "Contrabandista"
         },
         "custom_text": {
             "message": "Mensaje",
@@ -515,7 +514,6 @@
         "persist_players_prompt": "Guardá los nombres de tus jugadores para futuras partidas iniciando sesión en Discord y agregándolos a tu lista de amigos.",
         "clear": "Limpiar",
         "by": "de",
-        "view_bootlegger_info": "Ver información del Contrabandista",
         "edit_names_optional": "Añadir nombres (opcional)",
         "search_hint": "Buscar por nombre o URL.",
         "unknown": "desconocido",

@@ -194,8 +194,7 @@
             "add_bluff": "Ajouter un bluff"
         },
         "bootlegger": {
-            "title": "Contrebandier",
-            "no_info": "Aucune information de contrebandier disponible pour ce script."
+            "title": "Contrebandier"
         },
         "custom_text": {
             "message": "Message",
@@ -515,7 +514,6 @@
         "persist_players_prompt": "Conservez les noms de vos joueurs pour les parties futures en vous connectant à Discord et en les ajoutant à votre liste d'amis.",
         "clear": "Effacer",
         "by": "par",
-        "view_bootlegger_info": "Voir les informations du Contrebandier",
         "edit_names_optional": "Ajouter des noms (facultatif)",
         "search_hint": "Rechercher par nom ou URL.",
         "unknown": "inconnu",

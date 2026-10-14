@@ -221,8 +221,7 @@
             "add_bluff": "Add Bluff"
         },
         "bootlegger": {
-            "title": "Bootlegger",
-            "no_info": "No bootlegger information available for this script."
+            "title": "Bootlegger"
         },
         "custom_text": {
             "message": "Message",
@@ -515,7 +514,6 @@
         "persist_players_prompt": "Persist your player names for future games by logging into Discord and adding them to your friends list.",
         "clear": "Clear",
         "by": "by",
-        "view_bootlegger_info": "View Bootlegger Information",
         "edit_names_optional": "Add Names (Optional)",
         "unknown": "unknown",
         "no_matching_scripts": "No matching scripts found",
