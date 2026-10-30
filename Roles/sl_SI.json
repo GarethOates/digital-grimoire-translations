@@ -2,7 +2,7 @@
     {
         "id": "dusk",
         "edition": "special",
-        "name": "Dusk",
+        "name": "Mrak",
         "firstNightReminder": "Start the Night Phase.",
         "otherNightReminder": "Start the Night Phase.",
         "firstNight": 1,
@@ -11,7 +11,7 @@
     {
         "id": "dawn",
         "edition": "special",
-        "name": "Dawn",
+        "name": "Zora",
         "firstNightReminder": "Wait for a few seconds. End the Night Phase.",
         "otherNightReminder": "Wait for a few seconds. End the Night Phase.",
         "firstNight": 73,
@@ -20,7 +20,7 @@
     {
         "id": "minioninfo",
         "edition": "special",
-        "name": "Minion Info",
+        "name": "Informacije za Podložnike",
         "team": "minion",
         "firstNightReminder": "If there are 7 or more players, wake all Minions:\n\tShow the *THIS IS THE DEMON* token. Point to the Demon.\n\tShow the *THESE ARE YOUR MINIONS* token. Point to the other Minions.",
         "firstNight": 15,
@@ -29,7 +29,7 @@
     {
         "id": "demoninfo",
         "edition": "special",
-        "name": "Demon Info",
+        "name": "Informacije za Demona",
         "team": "demon",
         "firstNightReminder": "If there are 7 or more players, wake the Demon:\n\tShow the *THESE ARE YOUR MINIONS* token. Point to all Minions.\n\tShow the *THESE CHARACTERS ARE NOT IN PLAY* token. Show 3 not-in-play good character tokens.",
         "firstNight": 19,
@@ -46,7 +46,7 @@
         "otherNightReminder": "",
         "reminders": [
             "Meščan",
-            "Zmota"
+            "Napačen"
         ],
         "setup": false,
         "ability": "Prvo noč izveš, da je eden od dveh igralec določen Meščan.",
@@ -62,8 +62,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Izobčenec",
-            "Zmota"
+            "Tujec",
+            "Napačen"
         ],
         "setup": false,
         "ability": "Prvo noč izveš, da je eden od dveh igralec določen Izobčenec. (Ali da ni nobenega v igri)",
@@ -71,7 +71,7 @@
     },
     {
         "id": "investigator",
-        "name": "Raziskovalec",
+        "name": "Preiskovalec",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 45,
@@ -79,8 +79,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Sledilec",
-            "Zmota"
+            "Podložnik",
+            "Napačen"
         ],
         "setup": false,
         "ability": "Prvo noč izveš, da je eden od dveh igralec določen Sledilec.",
@@ -97,7 +97,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Prvo noč izveš, koliko parov zlobnih igralcev je v igri.",
+        "ability": "Na začetku izveš koliko parov zlobnih igralcev je v krogu.",
         "special": null
     },
     {
@@ -111,7 +111,7 @@
         "otherNightReminder": "S prsti pokaži številko (0, 1, 2, …) za število zlobnih živih Empatovih sosedov.",
         "reminders": [],
         "setup": false,
-        "ability": "Vsako noč izveš, koliko tvojih živih sosedov je zlobnih.",
+        "ability": "Vsako noč izveš, koliko izmed tvojih živih sosedov je zlobnih.",
         "special": null
     },
     {
@@ -124,7 +124,7 @@
         "otherNight": 70,
         "otherNightReminder": "Vedeževalka pokaže na 2 igralca. Nakaži (odkimaj ali prikimaj), če je kdo od njiju Demon ali Lažni sum.",
         "reminders": [
-            "Lažni sum"
+            "Rdeča Sled"
         ],
         "setup": false,
         "ability": "Vsako noč izbereš 2 igralca in izveš, ali je kdo od njiju Demon. Enega dobrega igralca zaznavaš kot Demona.",
@@ -132,7 +132,7 @@
     },
     {
         "id": "undertaker",
-        "name": "Grobar",
+        "name": "Pogrebnik",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 0,
@@ -140,7 +140,7 @@
         "otherNight": 71,
         "otherNightReminder": "Če je bil kdo usmrčen prejšnji dan, pokaži Grobarju njegovo vlogo.",
         "reminders": [
-            "Usmrčen"
+            "Umrl Danes"
         ],
         "setup": false,
         "ability": "Vsako noč* izveš vlogo igralca, ki je bil usmrčen prejšnji dan.",
@@ -154,9 +154,9 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 19,
-        "otherNightReminder": "Igralec, ki ga je Menih varoval prej, je spet ranljiv. Menih pokaže na igralca. Označi, da je \"Zavarovan\".",
+        "otherNightReminder": "Igralec, ki ga je Menih varoval prej, je spet ranljiv. Menih pokaže na igralca. Označi, da je \"Zavarovan\". :reminder:",
         "reminders": [
-            "Zavarovan"
+            "Varen"
         ],
         "setup": false,
         "ability": "Vsako noč* izbereš enega igralca (ne sebe). Nocoj mu Demon ne more do živega.",
@@ -164,7 +164,7 @@
     },
     {
         "id": "ravenkeeper",
-        "name": "Krokar",
+        "name": "Varuh Krokarjev",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 0,
@@ -186,7 +186,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Brez moči"
+            "Nima Sposobnosti"
         ],
         "setup": false,
         "ability": "Prvič v igri, ko te igralec nominira, če je Meščan, je takoj usmrčen.",
@@ -202,7 +202,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Brez moči "
+            "Nima Sposobnosti"
         ],
         "setup": false,
         "ability": "Enkrat na igro lahko podnevi javno izbereš enega igralca. Če je Demon, umre.",
@@ -238,18 +238,18 @@
     },
     {
         "id": "butler",
-        "name": "Služabnik",
+        "name": "Sluga",
         "edition": "tb",
         "team": "outsider",
         "firstNight": 49,
-        "firstNightReminder": "Služabnik pokaže na igralca. Označi ga z opomnikom \"Gospodar\".",
+        "firstNightReminder": "Služabnik pokaže na igralca. Označi ga z opomnikom \"Gospodar\". :reminder:",
         "otherNight": 84,
-        "otherNightReminder": "Služabnik pokaže na igralca. Označi ga z opomnikom \"Gospodar\".",
+        "otherNightReminder": "Služabnik pokaže na igralca. Označi ga z opomnikom \"Gospodar\". :reminder:",
         "reminders": [
             "Gospodar"
         ],
         "setup": false,
-        "ability": "Vsako noč izbereš enega igralca (ne sebe). Naslednji dan lahko glasuješ, samo če glasuje tudi on.",
+        "ability": "Vsako noč izberi igralca (ne sebe): jutri lahko glasuješ samo, če glasuje on.",
         "special": null
     },
     {
@@ -263,7 +263,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": true,
-        "ability": "Ne veš, da si pijan. Misliš, da si eden od Meščanov, ampak nisi.",
+        "ability": "Ne veš, da si Pijanec. Misliš, da si Meščan, ampak nisi.",
         "special": [
             {
                 "type": "selection",
@@ -312,9 +312,9 @@
         "edition": "tb",
         "team": "minion",
         "firstNight": 24,
-        "firstNightReminder": "Zastrupljevalec pokaže na igralca. Ta igralec je zastrupljen.",
+        "firstNightReminder": "Zastrupljevalec pokaže na igralca. Ta igralec je zastrupljen. :reminder:",
         "otherNight": 12,
-        "otherNightReminder": "Prej zastrupljen igralec ozdravi. Zastrupljevalec pokaže na igralca. Ta igralec je zastrupljen.",
+        "otherNightReminder": "Prej zastrupljen igralec ozdravi. Zastrupljevalec pokaže na igralca. Ta igralec je zastrupljen. :reminder:",
         "reminders": [
             "Zastrupljen"
         ],
@@ -338,15 +338,15 @@
     },
     {
         "id": "scarletwoman",
-        "name": "Škrlatna dama",
+        "name": "Škrlatna Dama",
         "edition": "tb",
         "team": "minion",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 28,
-        "otherNightReminder": "Če je Škrtalna dama danes postala Demon, ji pokaži  \"Ti si\" in vlogo Demona.",
+        "otherNightReminder": "Če je Škrlatna dama danes postala Demon, ji pokaži *TI SI* žeton in žeton Demona.",
         "reminders": [
-            "Demon"
+            "Je Demon"
         ],
         "setup": false,
         "ability": "Če Demon umre, ko je živih 5 ali več igralcev, postaneš Demon. (Popotniki se ne štejejo.)",
@@ -363,7 +363,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": true,
-        "ability": "V igri so dodatni Izobčenci. [+2 Izobčenca]",
+        "ability": "V igri so dodatni Tujci. [+2 Tujca]",
         "special": null
     },
     {
@@ -374,7 +374,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 35,
-        "otherNightReminder": "Vrag umori igralca, na katerega pokaže. Če umori sebe, zamenjaj vlogo enega od Skledilcev z Vragom. Pokaži jim \"Ti si\" in vlogo Vraga.",
+        "otherNightReminder": "Vrag umori igralca, na katerega pokaže. Če umori sebe, zamenjaj vlogo enega od Skledilcev z Vragom. Pokaži jim \"Ti si\" in vlogo Vraga. :reminder:",
         "reminders": [
             "Mrtev"
         ],
@@ -388,27 +388,27 @@
         "edition": "tb",
         "team": "traveller",
         "firstNight": 5,
-        "firstNightReminder": "Birokrat pokaže na igralca. Dodaj opomnik \"3 glasovi\" k njegovemu žetonu.",
+        "firstNightReminder": "Birokrat pokaže na igralca. Dodaj opomnik \"3 glasovi\" k njegovemu žetonu. :reminder:",
         "otherNight": 2,
-        "otherNightReminder": "Birokrat pokaže na igralca. Dodaj opomnik \"3 glasovi\" k njegovemu žetonu.",
+        "otherNightReminder": "Birokrat pokaže na igralca. Dodaj opomnik \"3 glasovi\" k njegovemu žetonu. :reminder:",
         "reminders": [
-            "3 glasovi"
+            "3 Glasovi"
         ],
         "setup": false,
-        "ability": "Vsako noč izbereš enega igralca (ne sebe). Naslednji dan njegov glas šteje kot 3.",
+        "ability": "Vsako noč izberi igralca (ne sebe): njegov glas jutri šteje za 3 glasove.",
         "special": null
     },
     {
         "id": "thief",
-        "name": "Lopov",
+        "name": "Tat",
         "edition": "tb",
         "team": "traveller",
         "firstNight": 6,
-        "firstNightReminder": "Lopov pokaže na enega igralca. Postavi opomnik \"Negativno glasuje\" k njegovemu žetonu.",
+        "firstNightReminder": "Lopov pokaže na enega igralca. Postavi opomnik \"Negativno glasuje\" k njegovemu žetonu. :reminder:",
         "otherNight": 3,
-        "otherNightReminder": "Lopov pokaže na enega igralca. Postavi opomnik \"Negativno glasuje\" k njegovemu žetonu.",
+        "otherNightReminder": "Lopov pokaže na enega igralca. Postavi opomnik \"Negativno glasuje\" k njegovemu žetonu. :reminder:",
         "reminders": [
-            "Negativno glasuje "
+            "Negativen Glas"
         ],
         "setup": false,
         "ability": "Vsako noč izbereš enega igralca (ne sebe). Njegov glas naslednji dan šteje negativno.",
@@ -430,7 +430,7 @@
     },
     {
         "id": "scapegoat",
-        "name": "Grešni kozel",
+        "name": "Grešni Kozel",
         "edition": "tb",
         "team": "traveller",
         "firstNight": 0,
@@ -464,7 +464,7 @@
         "firstNight": 50,
         "firstNightReminder": "Pokaži na Babičinega vnuka in ji pokaži njegovo vlogo.",
         "otherNight": 67,
-        "otherNightReminder": "Če je Babičinega vnuka nocoj umoril Demon, Babica umre.",
+        "otherNightReminder": "Če je Babičinega vnuka nocoj umoril Demon, Babica umre. :reminder:",
         "reminders": [
             "Vnuk",
             "Mrtev"
@@ -479,11 +479,11 @@
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 17,
-        "firstNightReminder": "",
+        "firstNightReminder": "Mornar pokaže na živega igralca. :reminder:",
         "otherNight": 8,
-        "otherNightReminder": "Prej pijan igralec ozdravi. Mornar pokaže na živega igralca. Bodisi on bodisi mornar je pijan.",
+        "otherNightReminder": "Prej pijan igralec ozdravi. Mornar pokaže na živega igralca. Bodisi on bodisi mornar je pijan. :reminder:",
         "reminders": [
-            "Pijan "
+            "Pijan"
         ],
         "setup": false,
         "ability": "Vsako noč izbereš enega živega igralca. Eden od vaju je pijan do mraka. Ne moreš umreti.",
@@ -500,7 +500,7 @@
         "otherNightReminder": "Sobarica pokaže na 2 igralca. S prsti pokaži številko, (0, 1, 2, …) koliko jih je to noč vstalo.",
         "reminders": [],
         "setup": false,
-        "ability": "Vsako noč izbereš 2 igralca (ne sebe). Izveš, koliko jih je ponoči vstalo zaradi svoje moči.",
+        "ability": "Vsako noč izberi 2 živa igralca (ne sebe): izveš koliko izmed njiju se je nocoj prebudilo zaradi njune sposobnosti.",
         "special": null
     },
     {
@@ -511,12 +511,12 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 31,
-        "otherNightReminder": "Izganjalec pokaže na drugega igralca kot prejšnjo noč. Če je Demon, ga prebudi, mu pokaži vlogo Izganjalca, in pokaži na igralca s to vlogo. Demon to noč ne uporabi svoje moči.",
+        "otherNightReminder": "Izganjalec pokaže na drugega igralca kot prejšnjo noč. Če je Demon, ga prebudi, mu pokaži vlogo Izganjalca, in pokaži na igralca s to vlogo. Demon to noč ne uporabi svoje moči. :reminder:",
         "reminders": [
-            "Izganjan"
+            "Izbran"
         ],
         "setup": false,
-        "ability": "Vsako noč* izbereš igralca (ne istega kot prejšnjič). Če izbereš Demona, izve, kdo si, in nocoj ne vstane.",
+        "ability": "Vsako noč* izberi igralca (drugačnega kot prejšno noč): če izbereš Demona, izve kdo si in se nocoj ne zbudi.",
         "special": null
     },
     {
@@ -527,10 +527,10 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 14,
-        "otherNightReminder": "Igralca, ki sta bila varovana/pijana prej izgubita opomnike. Krčmarica pokaže na dva igralca. Oba sta varna, a je eden od njiju pijan.",
+        "otherNightReminder": "Igralca, ki sta bila varovana/pijana prej izgubita opomnike. Krčmarica pokaže na dva igralca. Oba sta varna, a je eden od njiju pijan. :reminder: :reminder: :reminder:",
         "reminders": [
-            "Varovanec",
-            "Varovanec",
+            "Varen",
+            "Varen",
             "Pijan"
         ],
         "setup": false,
@@ -545,7 +545,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 16,
-        "otherNightReminder": "Kockar pokaže na igralca in na vlogo na seznamu. Če se ne ujema z vlogo tega igralca, Kockar umre.",
+        "otherNightReminder": "Kockar pokaže na igralca in na vlogo na seznamu. Če se ne ujema z vlogo tega igralca, Kockar umre. :reminder:",
         "reminders": [
             "Mrtev"
         ],
@@ -561,7 +561,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 53,
-        "otherNightReminder": "Če je bila Čenčina čenča resnična, si izberi igralca, ki ga nič ne varuje pred smrtjo, da umre.",
+        "otherNightReminder": "Če je bila Čenčina čenča resnična, si izberi igralca, ki ga nič ne varuje pred smrtjo, da umre. :reminder:",
         "reminders": [
             "Mrtev"
         ],
@@ -575,17 +575,17 @@
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 26,
-        "firstNightReminder": "Dvorjan bodisi odkima za \"ne\" ali pokaže na vlogo na seznamu. Če to stori, in je ta vloga v igri, je igralec s to vlogo pijan.",
+        "firstNightReminder": "Dvorjan bodisi odkima za \"ne\" ali pokaže na vlogo na seznamu. Če to stori, in je ta vloga v igri, je igralec s to vlogo pijan. :reminder: :reminder:",
         "otherNight": 13,
-        "otherNightReminder": "Označi, da je pijan igralec pijan še 1 dan manj. Če Dvorjan še ni uporabil moči, ga prebudi. Bodisi odkima za \"ne\" ali pokaže na vlogo na seznamu. Če to stori, in je ta vloga v igri, je igralec s to vlogo pijan.",
+        "otherNightReminder": "Označi, da je pijan igralec pijan še 1 dan manj. Če Dvorjan še ni uporabil moči, ga prebudi. Bodisi odkima za \"ne\" ali pokaže na vlogo na seznamu. Če to stori, in je ta vloga v igri, je igralec s to vlogo pijan. :reminder: :reminder:",
         "reminders": [
             "Pijan 3",
             "Pijan 2",
             "Pijan 1",
-            "Brez moči"
+            "Nima Sposobnosti"
         ],
         "setup": false,
-        "ability": "Enkrat na igro lahko ponoči izbereš eno vlogo. Igralec s to vlogo je pijan 3 dni in 3 noči.",
+        "ability": "Enkrat v igri ponoči izberi lik: pijan je 3 noči in 3 dni.",
         "special": null
     },
     {
@@ -596,10 +596,10 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 59,
-        "otherNightReminder": "Če Profesor še ni porabil svoje moči, bodisi odkima za \"ne\" ali pokaže na igralca. Če je ta igralec Meščan, je zdaj živ in znova dobi svojo moč.",
+        "otherNightReminder": "Če Profesor še ni porabil svoje moči, bodisi odkima za \"ne\" ali pokaže na igralca. Če je ta igralec Meščan, je zdaj živ in znova dobi svojo moč. :reminder: :reminder:",
         "reminders": [
             "Živ",
-            "Brez moči"
+            "Nima Sposobnosti"
         ],
         "setup": false,
         "ability": "Enkrat na igro lahko ponoči* izbereš enega mrtvega igralca. Če je Meščan, oživi in znova dobi svojo moč.",
@@ -607,7 +607,7 @@
     },
     {
         "id": "minstrel",
-        "name": "Minstrel",
+        "name": "Trubadur",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
@@ -615,7 +615,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Vsi pijani"
+            "Vsi So Pijani"
         ],
         "setup": false,
         "ability": "Ko je Sledilec usmrčen in umre, so vsi ostali igralci (razen Popotnikov) pijani do konca naslednjega dneva.",
@@ -662,7 +662,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Brez moči"
+            "Nima Sposobnosti"
         ],
         "setup": false,
         "ability": "Prvič ko bi umrl, preživiš.",
@@ -670,13 +670,13 @@
     },
     {
         "id": "tinker",
-        "name": "Cinar",
+        "name": "Popravljalec",
         "edition": "bmr",
         "team": "outsider",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 65,
-        "otherNightReminder": "Cinar morda umre.",
+        "otherNightReminder": "Cinar morda umre. :reminder:",
         "reminders": [
             "Mrtev"
         ],
@@ -686,13 +686,13 @@
     },
     {
         "id": "moonchild",
-        "name": "Lunino dete",
+        "name": "Otrok lune",
         "edition": "bmr",
         "team": "outsider",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 66,
-        "otherNightReminder": "Če je Lunino dete danes izbralo igralca in je dober, umre.",
+        "otherNightReminder": "Če je Lunino dete danes izbralo igralca in je dober, umre. :reminder:",
         "reminders": [
             "Mrtev"
         ],
@@ -702,7 +702,7 @@
     },
     {
         "id": "goon",
-        "name": "Rokovnjač",
+        "name": "Pretepač",
         "edition": "bmr",
         "team": "outsider",
         "firstNight": 0,
@@ -726,9 +726,9 @@
         "otherNight": 30,
         "otherNightReminder": "Prebudi Blazneža, da izvede svojo \"moč\". Označi, koga Blaznež napade. Če je Blaznež koga napadel, Demonu pokaži vsakega označenega igralca. Nado odstrani opomnike \"Napad\".",
         "reminders": [
-            "Napad 1",
-            "Napad 2",
-            "Napad 3"
+            "Izbran",
+            "Izbran",
+            "Izbran"
         ],
         "setup": false,
         "ability": "Misliš, da si Demon, ampak nisi. Pravi Demon ve, kdo si in koga izbereš ponoči.",
@@ -742,10 +742,10 @@
         "firstNight": 29,
         "firstNightReminder": "Pokaži vsakega od Izobčencev v igri.",
         "otherNight": 52,
-        "otherNightReminder": "Če je Izobčenec danes umrl, Boter umori enega igralca.",
+        "otherNightReminder": "Če je Izobčenec danes umrl, Boter umori enega igralca. :reminder:",
         "reminders": [
-            "Umrl danes",
-            "Umorjen"
+            "Umrl Danes",
+            "Mrtev"
         ],
         "setup": true,
         "ability": "Prvo noč izveš, kateri Izobčenci so v igri. Ko kateri umre, ponoči umoriš enega igralca. [+1 ali -1 Izobčenec]",
@@ -753,18 +753,18 @@
     },
     {
         "id": "devilsadvocate",
-        "name": "Hudičev odvetnik",
+        "name": "Hudičev Odvetnik",
         "edition": "bmr",
         "team": "minion",
         "firstNight": 31,
-        "firstNightReminder": "Hudičev odvetnik pokaže na živega igralca. Naslednji dan bo preživel usmrtitev.",
+        "firstNightReminder": "Hudičev odvetnik pokaže na živega igralca. Naslednji dan bo preživel usmrtitev. :reminder:",
         "otherNight": 21,
-        "otherNightReminder": "Hudičev odvetnik pokaže na živega igralca. Naslednji dan bo preživel usmrtitev.",
+        "otherNightReminder": "Hudičev odvetnik pokaže na živega igralca. Naslednji dan bo preživel usmrtitev. :reminder:",
         "reminders": [
-            "Preživi usmrtitev"
+            "Preživi Usmrtitev"
         ],
         "setup": false,
-        "ability": "Vsako noč izbereš enega igralca (ne istega kot prejšnjo). Če je naslednji dan usmrčen, ne umre.",
+        "ability": "Vsako noč izberi živega igralca (drugačnega kot prejšno noč): če je jutri usmrčen, ne umre.",
         "special": null
     },
     {
@@ -775,13 +775,13 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 51,
-        "otherNightReminder": "Če Morilec še ni uporabil svoje moči, lahko odkima za \"ne\" ali pokaže na enega igralca, ki umre.",
+        "otherNightReminder": "Morilec lahko izbere igralca. :opomnik: :opomnik:",
         "reminders": [
-            "Umorjen",
-            "Brez moči"
+            "Mrtev",
+            "Nima Sposobnosti"
         ],
         "setup": false,
-        "ability": "Enkrat na igro lahko ponoči* izbereš enega igralca. Umre, ne glede na to, kaj bi ga lahko rešilo.",
+        "ability": "Enkrat v igri, ponoči*, izberi igralca: umre, tudi če iz kakšnega razloga ne bi smel.",
         "special": null
     },
     {
@@ -806,9 +806,9 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 36,
-        "otherNightReminder": "Če nihče ni umrl podnevi, Zombuul izbere enega igralca, ki umre.",
+        "otherNightReminder": "Če nihče ni umrl podnevi, Zombuul izbere enega igralca, ki umre. :reminder:",
         "reminders": [
-            "Umrl danes",
+            "Umrl Danes",
             "Mrtev"
         ],
         "setup": false,
@@ -821,9 +821,9 @@
         "edition": "bmr",
         "team": "demon",
         "firstNight": 38,
-        "firstNightReminder": "Pukka pokaže na enega igralca, ki je zastrupljen.",
+        "firstNightReminder": "Pukka pokaže na enega igralca, ki je zastrupljen. :reminder:",
         "otherNight": 37,
-        "otherNightReminder": "Pukka pokaže na enega igralca, ki je zastrupljen. Igralec, ki je bil zastrupljen pred njim, umre in ni več zastrupljen.",
+        "otherNightReminder": "Pukka pokaže na enega igralca, ki je zastrupljen. Igralec, ki je bil zastrupljen pred njim, umre in ni več zastrupljen. :reminder: :reminder:",
         "reminders": [
             "Zastrupljen",
             "Zastrupljen",
@@ -835,17 +835,17 @@
     },
     {
         "id": "shabaloth",
-        "name": "Šabaloh",
+        "name": "Žreloh",
         "edition": "bmr",
         "team": "demon",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 38,
-        "otherNightReminder": "Eden od igralcev, ki jih je Šabaloh izbral sinoči, lahko oživi. Šabaloh izbere 2 igralca, ki umreta.",
+        "otherNightReminder": "Eden od igralcev, ki jih je Šabaloh izbral sinoči, lahko oživi. Šabaloh izbere 2 igralca, ki umreta. :reminder: :reminder: :reminder:",
         "reminders": [
             "Mrtev",
             "Mrtev",
-            "Izbljuvan"
+            "Živ"
         ],
         "setup": false,
         "ability": "Vsako noč* umoriš 2 igralca. Nato morda izbljuvaš enega od igralcev, ki si jih ubil prejšnjo noč",
@@ -859,12 +859,12 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 39,
-        "otherNightReminder": "Če je Po odkimal prejšnjo noč, pokaže na 3 igralce, ki umrejo. Drugače bodisi odkima z glavo ali pokaže na enega igralca, ki umre.",
+        "otherNightReminder": "Če je Po odkimal prejšnjo noč, pokaže na 3 igralce, ki umrejo. Drugače bodisi odkima z glavo ali pokaže na enega igralca, ki umre. :reminder: :reminder: :reminder: :reminder:",
         "reminders": [
             "Mrtev",
             "Mrtev",
             "Mrtev",
-            "3 napadi"
+            "3 Napadi"
         ],
         "setup": false,
         "ability": "Vsako noč* umoriš enega igralca. Če ne izbereš nikogar, naslednjič umoriš 3 igralce.",
@@ -876,14 +876,14 @@
         "edition": "bmr",
         "team": "traveller",
         "firstNight": 3,
-        "firstNightReminder": "Pokaži vajencu \"Ti si\" kartico in vlogo Meščana ali Sledilca, katere moč je dobil. V knjigi zamenjaj vlogo Vajenca s to vlogo in ji dodaj opomnik \"Je Vajenec\".",
+        "firstNightReminder": "Pokaži vajencu \"Ti si\" kartico in vlogo Meščana ali Sledilca, katere moč je dobil. V knjigi zamenjaj vlogo Vajenca s to vlogo in ji dodaj opomnik \"Je Vajenec\". :reminder:",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
             "Je Vajenec"
         ],
         "setup": false,
-        "ability": "Na svojo prvo noč dobiš moč Meščana, če si dober, ali moč Sledilca, če si slab.",
+        "ability": "Prvo noč dobiš sposobnost Meščana (če si dober) ali sposobnost Podložnika (če si slab).",
         "special": null
     },
     {
@@ -910,7 +910,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Brez moči"
+            "Nima Sposobnosti"
         ],
         "setup": false,
         "ability": "Enkrat na igro, če je nominiral nekdo drug, lahko prisiliš, da trenutna usmrtitev uspe ali spodleti.",
@@ -926,8 +926,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Nominiraj dobro",
-            "Nominiraj zlo"
+            "Nominiraj Dobro",
+            "Nominiraj Zlo"
         ],
         "setup": false,
         "ability": "Samo Pripovedovalec lahko nominira. Vsaj en igralec vsake ekipe mora biti nominiran vsak dan.",
@@ -958,7 +958,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Prvo noč izveš, koliko korakov je od Demona do najbližjega Sledilca.",
+        "ability": "Na začetku izveš koliko korakov je od Demona do najbližjega Podložnika.",
         "special": null
     },
     {
@@ -972,20 +972,20 @@
         "otherNightReminder": "Sanjač pokaže na igralca. Pokaži mu eno dobro in eno slabo vlogo, ena izmed katerih pripada temu igralcu.",
         "reminders": [],
         "setup": false,
-        "ability": "Vsako noč izbereš enega igralca (ne sebe ali Popotnika). Izveš dve vlogi, eno dobro in eno zlobno, ena izmed katerih je prava.",
+        "ability": "Vsako noč izberi igralca (ne sebe ali Popotnikov): izveš 1 dober in 1 zloben lik, eden izmed njiju je resničen.",
         "special": null
     },
     {
         "id": "snakecharmer",
-        "name": "Krotilec kač",
+        "name": "Krotilec Kač",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 28,
-        "firstNightReminder": "Krotilec kač pokaže na igralca. Če je ta igralec Demon, zamenja vlogo in ekipo s Krotilcem kač. Prebudi vsakega od njiju, da ju obvestiš o njunu novi vlogi in ekipi. Novi Krotilec kač je zastrupljen.",
+        "firstNightReminder": "Krotilec kač pokaže na igralca. Če je ta igralec Demon, zamenja vlogo in ekipo s Krotilcem kač. Prebudi vsakega od njiju, da ju obvestiš o njunu novi vlogi in ekipi. Novi Krotilec kač je zastrupljen. :reminder:",
         "otherNight": 18,
-        "otherNightReminder": "Krotilec kač pokaže na igralca. Če je ta igralec Demon, zamenja vlogo in ekipo s Krotilcem kač. Prebudi vsakega od njiju, da ju obvestiš o njunu novi vlogi in ekipi. Novi Krotilec kač je zastrupljen.",
+        "otherNightReminder": "Krotilec kač pokaže na igralca. Če je ta igralec Demon, zamenja vlogo in ekipo s Krotilcem kač. Prebudi vsakega od njiju, da ju obvestiš o njunu novi vlogi in ekipi. Novi Krotilec kač je zastrupljen. :reminder:",
         "reminders": [
-            "Zastrupljen "
+            "Zastrupljen"
         ],
         "setup": false,
         "ability": "Vsako noč izbereš enega živega igralca. Če je Demon, zamenja vlogo in ekipo s teboj ter je zastrupljen.",
@@ -1001,11 +1001,11 @@
         "otherNight": 89,
         "otherNightReminder": "S prsti pokaži število (0, 1, 2, etc.) vlog, ki je od davi delovalo nenormalno.",
         "reminders": [
-            "Nenormalno",
-            "Nenormalno",
-            "Nenormalno",
-            "Nenormalno",
-            "Nenormalno"
+            "Neobičajno",
+            "Neobičajno",
+            "Neobičajno",
+            "Neobičajno",
+            "Neobičajno"
         ],
         "setup": false,
         "ability": "Vsako noč izveš, koliko vlog je od davi delovalo nenormalno zaradi moči neke druge vloge.",
@@ -1021,8 +1021,8 @@
         "otherNight": 73,
         "otherNightReminder": "Pokimaj za \"ja\" ali odkimaj za \"ne\", da nakažeš, če je Demon danes glasoval. Po potrebi zamenjaj opomnik \"Demon je glasoval\" z \"Demon ni glasoval\".",
         "reminders": [
-            "Demon je glasoval",
-            "Demon ni glasoval"
+            "Demon Je Glasoval",
+            "Demon Ni Glasoval"
         ],
         "setup": false,
         "ability": "Vsako noč* izveš, ali je Demon prejšnji dan glasoval.",
@@ -1030,7 +1030,7 @@
     },
     {
         "id": "towncrier",
-        "name": "Mestni glasnik",
+        "name": "Mestni Glasnik",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1038,8 +1038,8 @@
         "otherNight": 74,
         "otherNightReminder": "Pokimaj za \"ja\" ali odkimaj za \"ne\", da nakažeš, če je Sledilec danes nominiral. Po potrebi zamenjaj opomnik \"Sledilec je nominiral\" z \"Sledilec ni nominiral\".",
         "reminders": [
-            "Sledilec ni nominiral",
-            "Sledilec je nominiral"
+            "Podložniki niso Nominirali",
+            "Podložnik je Nominiral"
         ],
         "setup": false,
         "ability": "Vsako noč* izveš, ali je kak Sledilec prejšnji dan nominiral.",
@@ -1061,7 +1061,7 @@
     },
     {
         "id": "savant",
-        "name": "Modrec",
+        "name": "Učenjak",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1079,11 +1079,11 @@
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 53,
-        "firstNightReminder": "Šivilja bodisi odkima bodisi pokaže na 2 igralca. Odkimaj za \"ne\", če sta na različnih ali prikimaj za \"da\", če sta na isti ekipi.",
+        "firstNightReminder": "Šivilja bodisi odkima bodisi pokaže na 2 igralca. Odkimaj za \"ne\", če sta na različnih ali prikimaj za \"da\", če sta na isti ekipi. :reminder:",
         "otherNight": 76,
-        "otherNightReminder": "Če še ni uporabila moči, Šivilja bodisi odkima bodisi pokaže na 2 igralca. Odkimaj za \"ne\", če sta na različnih ali prikimaj za \"da\", če sta na isti ekipi.",
+        "otherNightReminder": "Če še ni uporabila moči, Šivilja bodisi odkima bodisi pokaže na 2 igralca. Odkimaj za \"ne\", če sta na različnih ali prikimaj za \"da\", če sta na isti ekipi. :reminder:",
         "reminders": [
-            "Brez moči"
+            "Nima Sposobnosti"
         ],
         "setup": false,
         "ability": "Enkrat na igro lahko ponoči izbereš dva igralca (ne sebe). Izveš, če sta na isti ekipi.",
@@ -1095,9 +1095,9 @@
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 8,
-        "firstNightReminder": "Filozof bodisi odkima za \"ne\" ali pokaže na dobro vlogo na seznamu. Če to stori, zamenjaj, žeton vloge tega karakterja z žetonom filozofa. Če je vloga v igri, jo označi s \"Pijan\" in filozofa z \"Ne več filozof\".",
+        "firstNightReminder": "Filozof bodisi odkima za \"ne\" ali pokaže na dobro vlogo na seznamu. Če to stori, zamenjaj, žeton vloge tega karakterja z žetonom filozofa. Če je vloga v igri, jo označi s \"Pijan\" in filozofa z \"Ne več filozof\". :reminder:",
         "otherNight": 6,
-        "otherNightReminder": "Če še ni uporabil moči, filozof bodisi odkima za \"ne\" ali pokaže na dobro vlogo na seznamu. Če to stori, zamenjaj, žeton vloge tega karakterja z žetonom filozofa. Če je vloga v igri, jo označi s \"Pijan\" in filozofa z \"Ne več filozof\".",
+        "otherNightReminder": "Če še ni uporabil moči, filozof bodisi odkima za \"ne\" ali pokaže na dobro vlogo na seznamu. Če to stori, zamenjaj, žeton vloge tega karakterja z žetonom filozofa. Če je vloga v igri, jo označi s \"Pijan\" in filozofa z \"Ne več filozof\". :reminder:",
         "reminders": [
             "Pijan"
         ],
@@ -1110,12 +1110,12 @@
             }
         ],
         "remindersGlobal": [
-            "Je filozof"
+            "Je Filozof"
         ]
     },
     {
         "id": "artist",
-        "name": "Slikar",
+        "name": "Umetnik",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1123,10 +1123,10 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Brez moči"
+            "Nima Sposobnosti"
         ],
         "setup": false,
-        "ability": "Enkrat na igro lahko podnevi Pripovedovalca na samem vprašaš eno ja/ne vprašanje.",
+        "ability": "Enkrat v igri, podnevi, zasebno vprašaj Pripovedovalca da/ne vprašanje.",
         "special": null
     },
     {
@@ -1139,11 +1139,11 @@
         "otherNight": 77,
         "otherNightReminder": "Če je bil danes Žonglerjev prvi dan, mu s prsti nakaži število (0,1,2,3..) zadetkov. Odstrani žetone z zadetki.",
         "reminders": [
-            "Zadetek",
-            "Zadetek",
-            "Zadetek",
-            "Zadetek",
-            "Zadetek"
+            "Pravilen",
+            "Pravilen",
+            "Pravilen",
+            "Pravilen",
+            "Pravilen"
         ],
         "setup": false,
         "ability": "Prvi dan lahko javno ugibaš do 5 vlog posameznih igralcev. Naslednjo noč izveš, kolikokrat si zadel.",
@@ -1179,13 +1179,13 @@
     },
     {
         "id": "sweetheart",
-        "name": "Ljubljenka",
+        "name": "Srček",
         "edition": "snv",
         "team": "outsider",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 56,
-        "otherNightReminder": "Če je Ljubljenka umrla, izberi, kdo je pijan.",
+        "otherNightReminder": "Če je Ljubljenka umrla, izberi, kdo je pijan. :reminder:",
         "reminders": [
             "Pijan"
         ],
@@ -1206,7 +1206,7 @@
             "Čas za britje"
         ],
         "setup": false,
-        "ability": "Če umreš ponoči ali prejšnji dan, se Demon zbudi in izbere 2 igralca (ne drugega Demona), ki zamenjata vlogi.",
+        "ability": "Če si danes ali to noč umrl, lahko Demon izbere 2 igralca (ne še enega Demona), ki zamenjata lika.",
         "special": null
     },
     {
@@ -1225,7 +1225,7 @@
     },
     {
         "id": "eviltwin",
-        "name": "Dvojček",
+        "name": "Zlobni Dvojček",
         "edition": "snv",
         "team": "minion",
         "firstNight": 32,
@@ -1236,7 +1236,7 @@
             "Dvojček"
         ],
         "setup": false,
-        "ability": "Ti & nasprotnik poznata vlogi drug drugega. Če je dobri dvojček usmrčen, zlo zmaga. Dokler oba živita, dobro ne more zmagati.",
+        "ability": "Ti in tvoj nasprotnik vesta en za drugega. Če je dober igralec usmrčen, zlo zmaga. Dobro ne more zmagati, če oba živita.",
         "special": null
     },
     {
@@ -1245,11 +1245,11 @@
         "edition": "snv",
         "team": "minion",
         "firstNight": 33,
-        "firstNightReminder": "Čarovnica pokaže na igralca. Če naslednji dan nominira, takoj umre.",
+        "firstNightReminder": "Čarovnica pokaže na igralca. Če naslednji dan nominira, takoj umre. :reminder:",
         "otherNight": 22,
-        "otherNightReminder": "Če so živi 4 igralci ali več, Čarovnica pokaže na igralca. Če naslednji dan nominira, takoj umre.",
+        "otherNightReminder": "Če so živi 4 igralci ali več, Čarovnica pokaže na igralca. Če naslednji dan nominira, takoj umre. :reminder:",
         "reminders": [
-            "Začaran"
+            "Uročen"
         ],
         "setup": false,
         "ability": "Vsako noč izbereš enega igralca. Če nominira naslednji dan, umre. Ko so živi le še 3 igralci, izgubiš to moč.",
@@ -1261,19 +1261,19 @@
         "edition": "snv",
         "team": "minion",
         "firstNight": 34,
-        "firstNightReminder": "Cerenovus pokaže na igralca in nato na vlogo na svojem listu. Prebudi izbranega igralca in mu pokaži mu \"Ta vloga te je izbrala\" in vlogo Cerenovusa. Pokaži mu izbrano vlogo. Če naslednji dan ne nori, da ima to vlogo, ga lahko usmrtiš.",
+        "firstNightReminder": "Cerenovus pokaže na igralca in nato na vlogo na svojem listu. Prebudi izbranega igralca in mu pokaži mu \"Ta vloga te je izbrala\" in vlogo Cerenovusa. Pokaži mu izbrano vlogo. Če naslednji dan ne nori, da ima to vlogo, ga lahko usmrtiš. :reminder:",
         "otherNight": 23,
-        "otherNightReminder": "Cerenovus pokaže na igralca in nato na vlogo na svojem listu. Prebudi izbranega igralca in mu pokaži mu \"Ta vloga te je izbrala\" in vlogo Cerenovusa. Pokaži mu izbrano vlogo. Če naslednji dan ne nori, da ima to vlogo, ga lahko usmrtiš.",
+        "otherNightReminder": "Cerenovus pokaže na igralca in nato na vlogo na svojem listu. Prebudi izbranega igralca in mu pokaži mu \"Ta vloga te je izbrala\" in vlogo Cerenovusa. Pokaži mu izbrano vlogo. Če naslednji dan ne nori, da ima to vlogo, ga lahko usmrtiš. :reminder:",
         "reminders": [
             "Nor"
         ],
         "setup": false,
-        "ability": "Vsako noč izbereš enega igralca in eno dobro vlogo. Naslednji dan mora noreti, da ima to vlogo, drugače bo morda usmrčen.",
+        "ability": "Vsako noč izberi igralca in dober lik: igralec je jutri \"nor\", da je ta lik, drugače je lahko usmrčen.",
         "special": null
     },
     {
         "id": "pithag",
-        "name": "Vragulja",
+        "name": "Vešča",
         "edition": "snv",
         "team": "minion",
         "firstNight": 0,
@@ -1293,13 +1293,13 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 40,
-        "otherNightReminder": "Fang gu pokaže na igralca, ki umre ali, če je bil Izobčenec in ni v igri nobenega drugega Fang Guja, namesto njega umre Fang Gu. Če se to zgodi, je izbrani igralec postal zloben Fang Gu. Prebudi ga in mu pokaži \"Ti si\" in vlogo Fang gu-ja. Nato mu znova pokaži \"Ti si\" in spusti palec, da nakažeš, da je postal zloben.",
+        "otherNightReminder": "Fang gu pokaže na igralca, ki umre ali, če je bil Izobčenec in ni v igri nobenega drugega Fang Guja, namesto njega umre Fang Gu. Če se to zgodi, je izbrani igralec postal zloben Fang Gu. Prebudi ga in mu pokaži \"Ti si\" in vlogo Fang gu-ja. Nato mu znova pokaži \"Ti si\" in spusti palec, da nakažeš, da je postal zloben. :reminder: :reminder:",
         "reminders": [
-            "Umorjen",
-            "Skok"
+            "Mrtev",
+            "Enkrat"
         ],
         "setup": true,
-        "ability": "Vsako noč* umoriš enega igralca. Prvi Izobčenec, ki je umorjen, postane zloben Fang gu in ti umreš namesto njega. [+1 Izobčenec]",
+        "ability": "Vsako noč* izberi igralca: umre. Prvi ubit Tujec postane zloben Fang Gu in ti umreš namesto njega. [+1 Tujec]",
         "special": null
     },
     {
@@ -1310,12 +1310,12 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 44,
-        "otherNightReminder": "Vigormortis pokaže na enega igralca, ki umre. Če je sledilec, obdrži svojo moč in eden od njegovih sosednjih Meščanov je zastrupljen.",
+        "otherNightReminder": "Vigormortis pokaže na enega igralca, ki umre. Če je sledilec, obdrži svojo moč in eden od njegovih sosednjih Meščanov je zastrupljen. :reminder: :reminder: :reminder:",
         "reminders": [
             "Mrtev",
-            "Ima moč",
-            "Ima moč",
-            "Ima moč",
+            "Ima Sposobnost",
+            "Ima Sposobnost",
+            "Ima Sposobnost",
             "Zastrupljen",
             "Zastrupljen",
             "Zastrupljen"
@@ -1332,7 +1332,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 41,
-        "otherNightReminder": "No Dashii izbere igralca, ki umre.",
+        "otherNightReminder": "No Dashii izbere igralca, ki umre. :reminder:",
         "reminders": [
             "Mrtev",
             "Zastrupljen",
@@ -1350,7 +1350,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 42,
-        "otherNightReminder": "Vortoks pokaže na igralca, ki umre.",
+        "otherNightReminder": "Vortoks pokaže na igralca, ki umre. :reminder:",
         "reminders": [
             "Mrtev"
         ],
@@ -1364,28 +1364,28 @@
         "edition": "snv",
         "team": "traveller",
         "firstNight": 4,
-        "firstNightReminder": "Izberi igralca, ga prebudi in mu povej, katera moč Natakarica vpliva nanj. Ravnaj z njim temu primerno (dobi prave informacije/njegova moč se zgodi dvakrat).",
+        "firstNightReminder": "Izberi igralca, ga prebudi in mu povej, katera moč Natakarica vpliva nanj. Ravnaj z njim temu primerno (dobi prave informacije/njegova moč se zgodi dvakrat). :reminder:",
         "otherNight": 1,
-        "otherNightReminder": "Izberi igralca, ga prebudi in mu povej, katera moč Natakarica vpliva nanj. Ravnaj z njim temu primerno (dobi prave informacije/njegova moč se zgodi dvakrat).",
+        "otherNightReminder": "Izberi igralca, ga prebudi in mu povej, katera moč Natakarica vpliva nanj. Ravnaj z njim temu primerno (dobi prave informacije/njegova moč se zgodi dvakrat). :reminder:",
         "reminders": [
-            "Zdrav in trezen",
-            "Dvojna moč",
+            "Trezen in Zdrav",
+            "Deluje Dvakrat",
             "?",
             "?"
         ],
         "setup": false,
-        "ability": "Vsako noč, do naslednjega mraka en igralec 1) postane trezen, zdrav in dobiva resnične podatke ali 2) njegova moč deluje dvakrat. Izve, kaj se mu je zgodilo.",
+        "ability": "Vsako noč, do mraka, 1) en igralec postane trezen, zdrav in dobi resnične informacije ali 2) njegova sposobnost deluje dvakrat. Izve katera možnost.",
         "special": null
     },
     {
         "id": "harlot",
-        "name": "Družabnica",
+        "name": "Dama Noči",
         "edition": "snv",
         "team": "traveller",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 4,
-        "otherNightReminder": "Družabnica pokaže na katerega koli igralca. Nato uspavaj Družabnico. Prebudi izbranega igralca, pokaži mu žeton 'Ta lik te je izbral', nato pa žeton Družabnice. Ta igralec prikima za \"da\" ali odkima za \"ne\". Če je prikimal, prebudi Družabnico in ji pokaži njegovo vlogo. Nato se lahko odločiš, da oba igralca umreta.",
+        "otherNightReminder": "Družabnica pokaže na katerega koli igralca. Nato uspavaj Družabnico. Prebudi izbranega igralca, pokaži mu žeton 'Ta lik te je izbral', nato pa žeton Družabnice. Ta igralec prikima za \"da\" ali odkima za \"ne\". Če je prikimal, prebudi Družabnico in ji pokaži njegovo vlogo. Nato se lahko odločiš, da oba igralca umreta. :reminder: :reminder:",
         "reminders": [
             "Mrtev",
             "Mrtev"
@@ -1405,29 +1405,29 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Vsak dan lahko po prvi usmrtitvi še enkrat nominiraš.",
+        "ability": "Vsak dan po prvi usmrtitvi lahko še enkrat nominiraš.",
         "special": null
     },
     {
         "id": "bonecollector",
-        "name": "Zbiralec kosti",
+        "name": "Zbiralec Kosti",
         "edition": "snv",
         "team": "traveller",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 5,
-        "otherNightReminder": "Zbrialec kosti zmaja z glavo za \"ne\" ali pokaže na mrtvega igralca. Če to stori, mu dodaj opomnik \"Povrnjena moč\". (Morda ga boš moral nocoj zbuditi, da jo uporabi)",
+        "otherNightReminder": "Zbrialec kosti zmaja z glavo za \"ne\" ali pokaže na mrtvega igralca. Če to stori, mu dodaj opomnik \"Povrnjena moč\". (Morda ga boš moral nocoj zbuditi, da jo uporabi) :reminder:",
         "reminders": [
-            "Brez moči",
-            "Povrnjena moč"
+            "Nima Sposobnosti",
+            "Ima Sposobnost"
         ],
         "setup": false,
-        "ability": "Enkrat na igro lahko ponoči* izbereš mrtvega igralca. Do naslednjega mraka znova dobi svojo moč.",
+        "ability": "Enkrat v igri, ponoči, izberi mrtvega igralca: do mraka dobi nazaj njegovo sposobnost.",
         "special": null
     },
     {
         "id": "deviant",
-        "name": "Spaka",
+        "name": "Sprevrženec",
         "edition": "snv",
         "team": "traveller",
         "firstNight": 0,
@@ -1436,7 +1436,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Če si bila danes smešna, ne moreš umreti od izgona.",
+        "ability": "Če si bil danes zabaven, ne moreš biti izgnan.",
         "special": null
     },
     {
@@ -1449,9 +1449,9 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Opažen",
-            "Opažen",
-            "Opažen"
+            "Ve",
+            "Ve",
+            "Ve"
         ],
         "setup": false,
         "ability": "Prvo noč izveš 3 igralce. Točno eden od njih je zloben.",
@@ -1467,7 +1467,7 @@
         "otherNight": 81,
         "otherNightReminder": "Če je prejšnji plen umrl, pokaži na novega zlobnega igralca.",
         "reminders": [
-            "Plen"
+            "Ve"
         ],
         "setup": true,
         "ability": "Prvo noč izveš enega zlobnega igralca. Če umre, to noč izveš novega zlobnega igralca. [En meščan je zloben]",
@@ -1475,7 +1475,7 @@
     },
     {
         "id": "pixie",
-        "name": "Škratec",
+        "name": "Vila",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 39,
@@ -1484,7 +1484,7 @@
         "otherNightReminder": "",
         "reminders": [
             "Nor",
-            "Dobil moč"
+            "Ima Sposobnost"
         ],
         "setup": false,
         "ability": "Prvo noč izveš enega Meščana v igri. Če noriš, da si ta vloga, dobiš njeno moč, ko umre.",
@@ -1510,13 +1510,13 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 20,
-        "firstNightReminder": "Pridigar izbere igralca. Če izbere Sledilca, ga prebudi, mu pokaži \"Ta vloga te je izbrala\" in vlogo Pridigarja.",
+        "firstNightReminder": "Pridigar izbere igralca. Če izbere Sledilca, ga prebudi, mu pokaži \"Ta vloga te je izbrala\" in vlogo Pridigarja. :reminder:",
         "otherNight": 10,
-        "otherNightReminder": "Pridigar izbere igralca. Če izbere Sledilca, ga prebudi, mu pokaži \"Ta vloga te je izbrala\" in vlogo Pridigarja.",
+        "otherNightReminder": "Pridigar izbere igralca. Če izbere Sledilca, ga prebudi, mu pokaži \"Ta vloga te je izbrala\" in vlogo Pridigarja. :reminder:",
         "reminders": [
-            "Na pridigi",
-            "Na pridigi",
-            "Na pridigi"
+            "Nima Sposobnosti",
+            "Nima Sposobnosti",
+            "Nima Sposobnosti"
         ],
         "setup": false,
         "ability": "Vsako noč izbereš enega igralca. Če izbereš Sledilca, to izve. Sledilci, ki si jih izbral, so brez moči.",
@@ -1546,15 +1546,15 @@
         "otherNight": 78,
         "otherNightReminder": "Pokaži igralca z drugačnim tipom lika kot prej. :opomnik:",
         "reminders": [
-            "Opažen"
+            "Ve"
         ],
         "setup": true,
-        "ability": "Vsako noč spoznaš igralca drugačnega tipa lika kot prejšnjo noč. [+0 ali +1 Izobčenec]",
+        "ability": "Vsako noč izveš za igralca z drugačnim tipom lika kot prejšnjo noč. [+0 ali +1 Tujcev]",
         "special": null
     },
     {
         "id": "cultleader",
-        "name": "Kultni vodja",
+        "name": "Vodja kulta",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 62,
@@ -1563,7 +1563,7 @@
         "otherNightReminder": "Če je kultni vodja spremenil ekipo, bodisi dvigni ali spusti palec, da mu to nakažeš.",
         "reminders": [],
         "setup": false,
-        "ability": "Vsako noč prestopiš na ekipo enega živega soseda. Če se vsi dobri igralci odločijo, da se pridružijo tvojemu kultu, tvoja ekipa zmaga.",
+        "ability": "Vsako noč postaneš razvrstitev tvojega živega soseda. Če se vsi dobri igralci želijo pridružiti tvojemu kultu, tvoja ekipa zmaga.",
         "special": null
     },
     {
@@ -1574,9 +1574,9 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 32,
-        "otherNightReminder": "Volkodlak pokaže na živega igralca, če je dober, umre, in nihče drug ne more umreti to noč.",
+        "otherNightReminder": "Volkodlak pokaže na živega igralca, če je dober, umre, in nihče drug ne more umreti to noč. :reminder:",
         "reminders": [
-            "Lažna šapa",
+            "Faux Paw",
             "Mrtev"
         ],
         "setup": false,
@@ -1598,20 +1598,20 @@
             "?"
         ],
         "setup": false,
-        "ability": "Imaš moč, a ne veš, kaj je. Vsak dan lahko Pripovedovalca na samem vprašaš nekaj o njej. Izveš, kako blizu si.",
+        "ability": "Ne veš, kakšna je tvoja sposobnost. Vsak dan zasebno ugibaj, kaj je: izveš, kako blizu odgovora si.",
         "special": null
     },
     {
         "id": "nightwatchman",
-        "name": "Čuvaj",
+        "name": "Nočni čuvaj",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 61,
-        "firstNightReminder": "Čuvaj lahko pokaže na igralca. Prebudi tega igralca, mu pokaži \"Ta vloga te je izbrala\" in vlogo Čuvaja. Nato pokaži na igralca Čuvaja.",
+        "firstNightReminder": "Čuvaj lahko pokaže na igralca. Prebudi tega igralca, mu pokaži \"Ta vloga te je izbrala\" in vlogo Čuvaja. Nato pokaži na igralca Čuvaja. :reminder:",
         "otherNight": 82,
-        "otherNightReminder": "Čuvaj lahko pokaže na igralca. Prebudi tega igralca, mu pokaži \"Ta vloga te je izbrala\" in vlogo Čuvaja. Nato pokaži na igralca Čuvaja.",
+        "otherNightReminder": "Čuvaj lahko pokaže na igralca. Prebudi tega igralca, mu pokaži \"Ta vloga te je izbrala\" in vlogo Čuvaja. Nato pokaži na igralca Čuvaja. :reminder:",
         "reminders": [
-            "Brez moči"
+            "Nima Sposobnosti"
         ],
         "setup": false,
         "ability": "Enkrat na igro lahko ponoči izbereš enega igralca. Izve, kdo si.",
@@ -1623,14 +1623,14 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 19,
-        "firstNightReminder": "Inžinir bodisi odkima za \"ne\" ali pokaže na Demona oz. primerno število Sledilcev na seznamu. Če je izbral vloge, zamenjaj Demona ali Sledilce z izborom in nato prebudi njihove igralce. Pokaži jim \"Ti si\" in njihovo novo vlogo.",
+        "firstNightReminder": "Inžinir bodisi odkima za \"ne\" ali pokaže na Demona oz. primerno število Sledilcev na seznamu. Če je izbral vloge, zamenjaj Demona ali Sledilce z izborom in nato prebudi njihove igralce. Pokaži jim \"Ti si\" in njihovo novo vlogo. :reminder:",
         "otherNight": 9,
-        "otherNightReminder": "Inžinir bodisi odkima za \"ne\" ali pokaže na Demona oz. primerno število Sledilcev na seznamu. Če je izbral vloge, zamenjaj Demona ali Sledilce z izborom in nato prebudi njihove igralce. Pokaži jim \"Ti si\" in njihovo novo vlogo.",
+        "otherNightReminder": "Inžinir bodisi odkima za \"ne\" ali pokaže na Demona oz. primerno število Sledilcev na seznamu. Če je izbral vloge, zamenjaj Demona ali Sledilce z izborom in nato prebudi njihove igralce. Pokaži jim \"Ti si\" in njihovo novo vlogo. :reminder:",
         "reminders": [
-            "Brez moči"
+            "Nima Sposobnosti"
         ],
         "setup": false,
-        "ability": "Enkrat na igro lahko se lahko ponoči odločiš, kateri Sledilci ali kateri Demon je v igri.",
+        "ability": "Enkrat v igri ponoči izberi kateri Podložniki in kateri Demon je igri.",
         "special": null
     },
     {
@@ -1643,7 +1643,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Brez moči"
+            "Nima Sposobnosti"
         ],
         "setup": false,
         "ability": "Enkrat na igro lahko podnevi stopiš do Pripovedovalca po nasvet, ki ti bo pomagal zmagati.",
@@ -1655,11 +1655,11 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 40,
-        "firstNightReminder": "Lovec bodisi odkima za \"ne\" ali pokaže na enega igralca. Če je pokazal na Gospodično, jo prebudi, ji pokaži \"Ti si\" in enega Meščana, ki ni v igri.",
+        "firstNightReminder": "Lovec bodisi odkima za \"ne\" ali pokaže na enega igralca. Če je pokazal na Gospodično, jo prebudi, ji pokaži \"Ti si\" in enega Meščana, ki ni v igri. :reminder:",
         "otherNight": 61,
-        "otherNightReminder": "Če še ni porabil moči, Lovec bodisi odkima za \"ne\" ali pokaže na enega igralca. Če je pokazal na Gospodično, jo prebudi, ji pokaži \"Ti si\" in enega Meščana, ki ni v igri.",
+        "otherNightReminder": "Če še ni porabil moči, Lovec bodisi odkima za \"ne\" ali pokaže na enega igralca. Če je pokazal na Gospodično, jo prebudi, ji pokaži \"Ti si\" in enega Meščana, ki ni v igri. :reminder:",
         "reminders": [
-            "Brez moči "
+            "Nima Sposobnosti"
         ],
         "setup": true,
         "ability": "Enkrat na igro lahko ponoči izbereš enega igralca. Če je Gospodična, postane Meščan, ki ni v igri. [+Gospodična]",
@@ -1676,7 +1676,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Imaš moč Sledilca. Ko jo uporabiš, te lahko Pripovedovalec pozove, da izbereš drugače.",
+        "ability": "Imaš Podložnikovo sposobnost. Ko jo uporabiš, Pripovedovalec lahko prosi za drugačno izbiro.",
         "special": [
             {
                 "type": "reveal",
@@ -1707,17 +1707,17 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 12,
-        "firstNightReminder": "",
+        "firstNightReminder": "Ko bi Podložniki dobili informacije, pokaži na Čarovnika in Demona. Ko bi Demon dobil informacije, pokaži na Čarovnika in Podložnike.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Demon te vidi kot Sledilca. Sledilci te vidijo kot Demona.",
+        "ability": "Demon misli, da si Podložnik. Podložnik misli, da si Demon.",
         "special": null
     },
     {
         "id": "choirboy",
-        "name": "Pevec",
+        "name": "Zborist",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1726,12 +1726,12 @@
         "otherNightReminder": "Če je Demon umoril kralja, prebudi Pevca in pokaži na igralca Demona.",
         "reminders": [],
         "setup": true,
-        "ability": "Če Demon umori Kralja, izveš, kdo je Demon. [+Kralj]",
+        "ability": "Če Demon ubije Kralja, izveš kateri igralec je Demon. [+ Kralj]",
         "special": null
     },
     {
         "id": "poppygrower",
-        "name": "Sejalka",
+        "name": "Sejalka maka",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 10,
@@ -1739,7 +1739,7 @@
         "otherNight": 7,
         "otherNightReminder": "Če je Sejalka umrla, pokaži Sledilcem in Demonu drug drugega.",
         "reminders": [
-            "Zlo se spozna"
+            "Zlo se Zbudi"
         ],
         "setup": false,
         "ability": "Sledilci in Demoni ne vedo drug za drugega. Če umreš, se spoznajo naslednjo noč.",
@@ -1756,7 +1756,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": true,
-        "ability": "Pripovedovalec lahko krši vsa pravila igre. Če ga usmrtite, dobro zmaga, tudi če si mrtev. [Brez zlobnih vlog]",
+        "ability": "Pripovedovalec lahko krši pravila igre, če si usmrčen, dobro zmaga, tudi če si mrtev. [Ni zlobnih likov]",
         "special": null
     },
     {
@@ -1770,15 +1770,15 @@
         "otherNightReminder": "",
         "reminders": [
             "Zastrupljen",
-            "Zadnji usmrčenec"
+            "Kosilo"
         ],
         "setup": false,
-        "ability": "Imaš moč zadnjega usmrčenca. Če je bil zloben, si zastrupljen, dokler ne usmrtite dobrega igralca.",
+        "ability": "Imaš sposobnost nazadnje usmrčenega igralca. Če je zloben, si zastrupljen dokler ni usmrčen dober igralec.",
         "special": null
     },
     {
         "id": "snitch",
-        "name": "Tožibaba",
+        "name": "Špeckahla",
         "edition": "",
         "team": "outsider",
         "firstNight": 13,
@@ -1804,7 +1804,7 @@
             "Izbran"
         ],
         "setup": false,
-        "ability": "Vsako noč*, izberite igralca: če je nocoj pijan ali zastrupljen, umrete.",
+        "ability": "Vsako noč* izberi igralca: če je ali postane pijan ali zastrupljen to noč, umreš.",
         "special": null
     },
     {
@@ -1818,7 +1818,7 @@
         "otherNightReminder": "",
         "reminders": [
             "Pijan",
-            "Že ugibal"
+            "Ugibanje Uporabljeno"
         ],
         "setup": false,
         "ability": "Nekdo je pijan, tudi če umreš. Enkrat na igro, če uganeš, kdo je, izveš, kdo je Demon. Če se zmotiš, dobiš lažne podatke.",
@@ -1840,7 +1840,7 @@
     },
     {
         "id": "damsel",
-        "name": "Gospodična",
+        "name": "Dama",
         "edition": "",
         "team": "outsider",
         "firstNight": 41,
@@ -1848,10 +1848,10 @@
         "otherNight": 62,
         "otherNightReminder": "Če jo je izbral Lovec, prebudi Gospodično in ji pokaži \"Ti si\" in eno Meščansko vlogo, ki ni v igri.",
         "reminders": [
-            "Ugibanje porabljeno"
+            "Ugibanje Uporabljeno"
         ],
         "setup": false,
-        "ability": "Vsi sledilci vedo, da si v igri. Enkrat na igro, če Sledilec javno ugiba, kdo si in zadane, tvoja ekipa izgubi.",
+        "ability": "Vsi Podložniki vejo, da je Dama v igri. Če Podložnik javno ugane, da si Dama (enkrat), tvoja ekipa zgubi.",
         "special": null
     },
     {
@@ -1864,7 +1864,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Ne more nominirati"
+            "Ne sme Nominirati"
         ],
         "setup": false,
         "ability": "Nominiraš lahko samo enkrat na igro. Ko nekoga nominiraš, razen če je Demon, takoj umre",
@@ -1890,7 +1890,7 @@
         "edition": "",
         "team": "minion",
         "firstNight": 25,
-        "firstNightReminder": "Pokaži Buklo Vdovi za toliko časa, kot ga potrebuje. Vdova pokaže na enega igralca, ki je zastrupljen. Nato prebudi enega dobrega igralca, mu pokaži \"Ta vloga te je izbrala\" in vlogo Vdove.",
+        "firstNightReminder": "Pokaži Buklo Vdovi za toliko časa, kot ga potrebuje. Vdova pokaže na enega igralca, ki je zastrupljen. Nato prebudi enega dobrega igralca, mu pokaži \"Ta vloga te je izbrala\" in vlogo Vdove. :reminder: :reminder:",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
@@ -1903,13 +1903,13 @@
     },
     {
         "id": "fearmonger",
-        "name": "Grozljivec",
+        "name": "Strašitelj",
         "edition": "",
         "team": "minion",
         "firstNight": 35,
-        "firstNightReminder": "Grozljivec pokaže na igralca. Postavi opomnik \"Groza\" k njegovemu žetonu in najavi, da je Grozljivec izbral igralca.",
+        "firstNightReminder": "Grozljivec pokaže na igralca. Postavi opomnik \"Groza\" k njegovemu žetonu in najavi, da je Grozljivec izbral igralca. :reminder:",
         "otherNight": 25,
-        "otherNightReminder": "Grozljivec pokaže na igralca. Če  pokazal na drugega igralca kot prejšnjič, premakni opomnik \"Groza\" k njegovemu žetonu in najavi, da je Grozljivec izbral igralca.",
+        "otherNightReminder": "Grozljivec pokaže na igralca. Če  pokazal na drugega igralca kot prejšnjič, premakni opomnik \"Groza\" k njegovemu žetonu in najavi, da je Grozljivec izbral igralca. :reminder:",
         "reminders": [
             "Strah"
         ],
@@ -1919,7 +1919,7 @@
     },
     {
         "id": "psychopath",
-        "name": "Krvnik",
+        "name": "Psihopat",
         "edition": "",
         "team": "minion",
         "firstNight": 0,
@@ -1941,7 +1941,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Zatrdil"
+            "Trdil"
         ],
         "setup": false,
         "ability": "Če javno trdiš, da si Goblin, ko si nominiran in te usmrtijo ta dan, tvoja ekipa zmaga.",
@@ -1949,16 +1949,16 @@
     },
     {
         "id": "mezepheles",
-        "name": "Špicmegec",
+        "name": "Mezefel",
         "edition": "",
         "team": "minion",
         "firstNight": 37,
         "firstNightReminder": "Pokaži Špicmegecu skrivno besedo.",
         "otherNight": 27,
-        "otherNightReminder": "Prebudi prvega dobrega igralca, ki je rekel skrivno besedo in mu pokaži \"Ti si\" in palec navzdol.",
+        "otherNightReminder": "Prebudi prvega dobrega igralca, ki je rekel skrivno besedo in mu pokaži \"Ti si\" in palec navzdol. :reminder: :reminder:",
         "reminders": [
-            "Postane zloben",
-            "Brez moči"
+            "Postane Zloben",
+            "Nima Sposobnosti"
         ],
         "setup": false,
         "ability": "Prvo noč izveš skrivno besedo. Prvi dober igralec, ki jo izreče, ponoči postane zloben.",
@@ -1987,12 +1987,12 @@
             }
         ],
         "remindersGlobal": [
-            "Marioneta"
+            "Je Marioneta"
         ]
     },
     {
         "id": "boomdandy",
-        "name": "Požigalec",
+        "name": "Bombalin",
         "edition": "",
         "team": "minion",
         "firstNight": 0,
@@ -2001,18 +2001,18 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Če si usmrčen, vsi igralci razen 3 umrejo. Po odštevanki od 10 do 1 umre igralec, na katerega največ ljudi kaže s prstom.",
+        "ability": "Če si usmrčen, umrejo vsi razen 3 igralcev. Po odštevanju od 10 do 1 igralec, na katerega kaže največ igralcev, umre.",
         "special": null
     },
     {
         "id": "lilmonsta",
-        "name": "Pošastek",
+        "name": "Pošastka",
         "edition": "",
         "team": "demon",
         "firstNight": 21,
-        "firstNightReminder": "Prebudi vse Sledilce na enkrat, in jim dovoli da glasujejo, tako da pokažejo, kdo naj bo varuška Pošastku.",
+        "firstNightReminder": "Prebudi vse Sledilce na enkrat, in jim dovoli da glasujejo, tako da pokažejo, kdo naj bo varuška Pošastku. :reminder:",
         "otherNight": 48,
-        "otherNightReminder": "Izberi si in ubij enega igralca. Prebudi vse Sledilce na enkrat, in jim dovoli da glasujejo, tako da pokažejo, kdo naj bo varuška Pošastku.",
+        "otherNightReminder": "Izberi si in ubij enega igralca. Prebudi vse Sledilce na enkrat, in jim dovoli da glasujejo, tako da pokažejo, kdo naj bo varuška Pošastku. :reminder: :reminder:",
         "reminders": [],
         "setup": true,
         "ability": "Vsako noč se Sledilci odločijo, kdo bo varuška Pošastku in \"bo demon\". Vsako noč* lahko nekdo umre. [+1 Sledilec]",
@@ -2033,13 +2033,13 @@
     },
     {
         "id": "lleech",
-        "name": "Grabež",
+        "name": "Pijavka",
         "edition": "",
         "team": "demon",
         "firstNight": 22,
-        "firstNightReminder": "Grabež pokaže na igralca. Označi, da je \"Zastrupljen\".",
+        "firstNightReminder": "Grabež pokaže na igralca. Označi, da je \"Zastrupljen\". :reminder:",
         "otherNight": 47,
-        "otherNightReminder": "Grabež pokaže na igralca, ki umre.",
+        "otherNightReminder": "Grabež pokaže na igralca, ki umre. :reminder:",
         "reminders": [
             "Mrtev",
             "Zastrupljen"
@@ -2056,28 +2056,28 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 46,
-        "otherNightReminder": "Al-Hadikhia izbere 3 igralce. Na glas najavi prvega izbranega igralca, nato ga prebudi, da pokima za \"ja\", če bi rad živel ali odkima za \"ne\", če želi umreti. Če je treba, označi, da igralec umre ali oživi, nato ga uspavaj in najavi naslednjega igralca. Če na koncu vsi trije živijo, vsi umrejo.",
+        "otherNightReminder": "Al-Hadikhia izbere 3 igralce. Na glas najavi prvega izbranega igralca, nato ga prebudi, da pokima za \"ja\", če bi rad živel ali odkima za \"ne\", če želi umreti. Če je treba, označi, da igralec umre ali oživi, nato ga uspavaj in najavi naslednjega igralca. Če na koncu vsi trije živijo, vsi umrejo. :reminder: :reminder: :reminder:",
         "reminders": [
             "1",
             "2",
             "3"
         ],
         "setup": false,
-        "ability": "Vsako noč* izbereš tri igralce. (Vsi igralci izvejo, koga) Vsak izmed njih na skrivaj izbere, ali bo živel ali umrl. Če se vsi odločijo, da bodo živeli, vsi umrejo. ",
+        "ability": "Vsako noč* lahko izbereš 3 igralce (vsi igralci izvejo koga): vsak od njih potihem izbere, če želi živeti ali umreti, ampak če vsi želijo živeti, vsi umrejo.",
         "special": null
     },
     {
         "id": "legion",
-        "name": "Legijon",
+        "name": "Legija",
         "edition": "",
         "team": "demon",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 34,
-        "otherNightReminder": "Izberi si in ubij enega igralca.",
+        "otherNightReminder": "Izberi si in ubij enega igralca. :reminder:",
         "reminders": [
             "Mrtev",
-            "Obsojen"
+            "Na robu smrti"
         ],
         "setup": true,
         "ability": "Vsako noč* lahko nekdo umre. Glasovanje je neveljavno, če glasujejo samo zlobni igralci. Izpadeš tudi kot Sledilec. [Večina igralec je Legijon]",
@@ -2089,16 +2089,16 @@
         "edition": "",
         "team": "demon",
         "firstNight": 69,
-        "firstNightReminder": "Postavi opomnik za \"Dan 1\" Leviatana. Najavi, da je Leviatan v igri, in da je to prvi dan.",
+        "firstNightReminder": "Postavi opomnik za \"Dan 1\" Leviatana. Najavi, da je Leviatan v igri, in da je to prvi dan. :reminder:",
         "otherNight": 90,
-        "otherNightReminder": "Zamenjaj opomnik za število naslednjega dneva.",
+        "otherNightReminder": "Zamenjaj opomnik za število naslednjega dneva. :reminder:",
         "reminders": [
             "Dan 1",
             "Dan 2",
             "Dan 3",
             "Dan 4",
             "Dan 5",
-            "Dober igralec usmrčen"
+            "Dober Igralec Usmrčen"
         ],
         "setup": false,
         "ability": "Če usmrtite več kot enega dobrega igralca, zlo zmaga. Ko se peti dan konča, zlo zmaga. Vsi igralci vedo, da si v igri.",
@@ -2112,7 +2112,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 0,
-        "otherNightReminder": "",
+        "otherNightReminder": "Zamenjaj opomnik Rogovila z ustreznim dnem. :reminder: Če je 3. noč, lahko prebudiš Sledilce. Pokaži jim *TI SI* žeton in žeton Rogovila.",
         "reminders": [
             "Dan 1",
             "Dan 2",
@@ -2142,11 +2142,11 @@
         "edition": "",
         "team": "minion",
         "firstNight": 30,
-        "firstNightReminder": "",
+        "firstNightReminder": "Lajnar bodisi pokima za \"ja\", da bo pijan, ali odkima za \"ne\", da bo trezen. :reminder:",
         "otherNight": 20,
-        "otherNightReminder": "",
+        "otherNightReminder": "Lajnar bodisi pokima za \"ja\", da bo pijan, ali odkima za \"ne\", da bo trezen. :reminder:",
         "reminders": [
-            "Obsojen",
+            "Na robu smrti",
             "Pijan"
         ],
         "setup": false,
@@ -2177,8 +2177,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Poznan",
-            "Poznan"
+            "Ve",
+            "Ve"
         ],
         "setup": false,
         "ability": "Prvo noč izveš dva igralca, ki nista Demon.",
@@ -2194,7 +2194,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Opažen"
+            "Ve"
         ],
         "setup": false,
         "ability": "Prvo noč izveš enega dobrega igralca.",
@@ -2202,7 +2202,7 @@
     },
     {
         "id": "highpriestess",
-        "name": "Svečenica",
+        "name": "Visoka Svečenica",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 65,
@@ -2233,15 +2233,15 @@
     },
     {
         "id": "plaguedoctor",
-        "name": "Kužnik",
+        "name": "Kužni Zdravnik",
         "edition": "",
         "team": "outsider",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 0,
-        "otherNightReminder": "",
+        "otherNightReminder": "Če je Kužni Zdravnik umrl, je Pripovedovalec dobil moč Sledilca. Če tega še nisi storil, to stori zdaj. :reminder:",
         "reminders": [
-            "Pripovedovalčeva moč"
+            "Pripovedovalčeva Sposobnost"
         ],
         "setup": false,
         "ability": "Ko umreš, Pripovedovalec dobi moč enega od Sledilcev, ki niso v igri.",
@@ -2269,7 +2269,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 45,
-        "otherNightReminder": "Ojo kaže na lik na listu; če je v igri, ta igralec umre. Če ni v igri, Pripovedovalec izbere, kdo namesto njega umre.",
+        "otherNightReminder": "Ojo kaže na lik na listu; če je v igri, ta igralec umre. Če ni v igri, Pripovedovalec izbere, kdo namesto njega umre. :reminder:",
         "reminders": [
             "Mrtev"
         ],
@@ -2287,7 +2287,7 @@
         "otherNight": 54,
         "otherNightReminder": "Če bi Klobučar danes umrl: Zbudite Minione in Demona. Pokažite jim informacijski žeton 'Ta lik vas je izbral' in nato žeton Klobučar. Vsak igralec zmaje z glavo proti ali pokaže na drug lik iste vrste kot njegov trenutni lik. Če bi drugi igralec na koncu imel enak lik kot drug igralec, zmajajte z glavo ne in mu pokažite, naj znova izbere. Uspavaj jih. Vsakega igralca spremenite v lik, ki so ga izbrali.",
         "reminders": [
-            "Nocoj čajanka"
+            "Danes Čajanka"
         ],
         "setup": false,
         "ability": "Če si danes ali nocoj umrl, lahko Sledilci in Demon izberejo nove vloge Sledilcev in Demona.",
@@ -2301,7 +2301,7 @@
         "firstNight": 2,
         "firstNightReminder": "Kazali pokaže na igralca in Sledilci na listu znakov. Zamenjajte žeton njihovega starega lika z žetonom Sledilci, pokažite jim informacijski žeton »Ti si«, nato žeton lika Sledilci in pokažite palec navzdol. Ponavljajte, dokler ne obstaja normalno število Minionov. Uspavaj Kazalija.",
         "otherNight": 50,
-        "otherNightReminder": "Kazali pokaže na igralca. Ta igralec umre.",
+        "otherNightReminder": "Kazali pokaže na igralca. Ta igralec umre. :reminder:",
         "reminders": [
             "Mrtev"
         ],
@@ -2311,11 +2311,11 @@
     },
     {
         "id": "villageidiot",
-        "name": "Vaški idiot",
+        "name": "Vaški Posebnež",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 59,
-        "firstNightReminder": "Vaški idiot pokaže na igralca; dajte palec gor, če je ta igralec dober, ali palec dol, če je ta igralec zloben.",
+        "firstNightReminder": "Vaški idiot pokaže na igralca; dajte palec gor, če je ta igralec dober, ali palec dol, če je ta igralec zloben. :reminder:",
         "otherNight": 79,
         "otherNightReminder": "Vaški idiot pokaže na igralca; dajte palec gor, če je ta igralec dober, ali palec dol, če je ta igralec zloben.",
         "reminders": [
@@ -2327,13 +2327,13 @@
     },
     {
         "id": "yaggababble",
-        "name": "Yaggababble",
+        "name": "Babljač",
         "edition": "",
         "team": "demon",
         "firstNight": 11,
         "firstNightReminder": "Pokaži Yaggababble njihov skrivni stavek.",
         "otherNight": 49,
-        "otherNightReminder": "Izberite toliko igralcev, kolikorkrat je Yaggababble javno izgovoril svoj skrivni stavek, ti igralci umrejo.",
+        "otherNightReminder": "Izberite toliko igralcev, kolikorkrat je Yaggababble javno izgovoril svoj skrivni stavek, ti igralci umrejo. :reminder:",
         "reminders": [
             "Mrtev",
             "Mrtev",
@@ -2345,13 +2345,13 @@
     },
     {
         "id": "summoner",
-        "name": "Prizivalec",
+        "name": "Priklicovalec",
         "edition": "",
         "team": "minion",
         "firstNight": 15,
         "firstNightReminder": "Pokažite kartico 'Ti liki niso v igri'. Pokažite 3 žetone znakov dobrih likov, ki niso v igri.",
         "otherNight": 29,
-        "otherNightReminder": "Če je tretja noč, zbudite Summonerja. Kažejo na igralca in demona na listu znakov - ta igralec postane ta demon.",
+        "otherNightReminder": "Če je tretja noč, zbudite Summonerja. Kažejo na igralca in demona na listu znakov - ta igralec postane ta demon. :reminder:",
         "reminders": [
             "Noč 1",
             "Noč 2",
@@ -2363,27 +2363,27 @@
     },
     {
         "id": "banshee",
-        "name": "Banshee",
+        "name": "Obsena",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 58,
-        "otherNightReminder": "Oznani, da je Banshee umrl.",
+        "otherNightReminder": "Oznani, da je Banshee umrl. :reminder:",
         "reminders": [
-            "Ima moč"
+            "Ima Sposobnost"
         ],
         "setup": false,
-        "ability": "Če te Demon ubije, se tega naučijo vsi igralci. Od zdaj naprej lahko nominirate dvakrat na dan in glasujete dvakrat na nominacijo.",
+        "ability": "Vsi igralci izvejo, če te Demon ubije. Od zdaj naprej lahko nominiraš dvakrat na dan in glasuješ dvakrat na nominacijo.",
         "special": []
     },
     {
         "id": "ogre",
-        "name": "Ogre",
+        "name": "Oger",
         "edition": "",
         "team": "outsider",
         "firstNight": 64,
-        "firstNightReminder": "Ogre kaže na igralca (ne na sebe) in postane njegova poravnava.",
+        "firstNightReminder": "Ogre kaže na igralca (ne na sebe) in postane njegova poravnava. :reminder:",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
@@ -2395,7 +2395,7 @@
     },
     {
         "id": "alsaahir",
-        "name": "Alsaahir",
+        "name": "Alzahir",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
@@ -2404,12 +2404,12 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Če enkrat na dan javno ugibate, kateri igralci so minioni in kateri demoni, zmaga dobro.",
+        "ability": "Vsak dan, če javno uganeš kateri igralci so Podložniki in kdo je Demon (so Demoni), dobro zmaga.",
         "special": []
     },
     {
         "id": "zealot",
-        "name": "Zelot",
+        "name": "Gorečnež",
         "edition": "",
         "team": "outsider",
         "firstNight": 0,
@@ -2423,13 +2423,13 @@
     },
     {
         "id": "lordoftyphon",
-        "name": "Lord of Typhon",
+        "name": "Gospodar Tifona",
         "edition": "",
         "team": "demon",
         "firstNight": 1,
         "firstNightReminder": "Prebudite igralce na obeh straneh Demona. Pokažite jim karto 'Ti si', žeton Miniona, ki so zdaj, in palec navzdol, da pokažeš, da so zlobni.",
         "otherNight": 43,
-        "otherNightReminder": "Gospodar Typhona pokaže na igralca. Ta igralec umre.",
+        "otherNightReminder": "Gospodar Typhona pokaže na igralca. Ta igralec umre. :reminder:",
         "reminders": [
             "Mrtev"
         ],
@@ -2439,7 +2439,7 @@
     },
     {
         "id": "boffin",
-        "name": "Boffin",
+        "name": "Piflar",
         "edition": "",
         "team": "minion",
         "firstNight": 7,
@@ -2448,12 +2448,12 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Demon (tudi če je pijan ali zastrupljen) ima sposobnost dobrega lika, ki ni v igri. Oba veste, katero.",
+        "ability": "Demon (tudi če je pijan ali zastrupljen) ima sposobnost lika, ki ni v igri. Oba vesta katero.",
         "special": []
     },
     {
         "id": "cacklejack",
-        "name": "Cacklejack",
+        "name": "Kujon",
         "edition": "",
         "team": "traveller",
         "firstNightReminder": "",
@@ -2468,7 +2468,7 @@
     },
     {
         "id": "gnome",
-        "name": "Gnome",
+        "name": "Palček",
         "edition": "",
         "team": "traveller",
         "firstNight": 0,
@@ -2476,7 +2476,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "amigo"
+            "Amigo"
         ],
         "setup": false,
         "ability": "Vsi igralci prvo noč izvejo za enega igralca iz tvoje ekipe. Lahko se odločiš, da ubiješ vsakogar, ki ga nominira.",
@@ -2484,13 +2484,13 @@
     },
     {
         "id": "xaan",
-        "name": "Xaan",
+        "name": "Ksovel",
         "edition": "",
         "team": "minion",
         "firstNight": 23,
-        "firstNightReminder": "",
+        "firstNightReminder": "Če je X enak 1, označi Ksovela z opomnikom *X*. :reminder: :reminder:",
         "otherNight": 11,
-        "otherNightReminder": "",
+        "otherNightReminder": "Zamenjaj opomnik Ksovela z ustrezno nočjo. Če je X-ta noč, označi Ksovela z opomnikom *X*. :reminder: :reminder:",
         "reminders": [
             "Noč 1",
             "Noč 2",
@@ -2503,7 +2503,7 @@
     },
     {
         "id": "wizard",
-        "name": "Čarovnik",
+        "name": "Coprnik",
         "edition": "",
         "team": "minion",
         "firstNight": 27,
@@ -2544,9 +2544,9 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 33,
-        "otherNightReminder": "Če je bil danes princesin prvi dan in so nominirali in usmrtili igralca, te demon ne ubije.",
+        "otherNightReminder": "Če je bil danes princesin prvi dan in so nominirali in usmrtili igralca, te demon ne ubije. :reminder:",
         "reminders": [
-            "Ne ubije"
+            "Ne Ubije"
         ],
         "setup": false,
         "ability": "Če si na svoj prvi dan nominiral in usmrtil igralca, Demon nocoj ne ubije nikogar.",
@@ -2554,7 +2554,7 @@
     },
     {
         "id": "wraith",
-        "name": "Wraith",
+        "name": "Prikazen",
         "team": "minion",
         "edition": "",
         "firstNightReminder": "Wake the Wraith whenever other evil players wake.",
@@ -2579,13 +2579,13 @@
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
-        "firstNightReminder": "",
+        "firstNightReminder": "Najavi, katere igralce ščiti Angel. :reminder:",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Varovanec",
-            "Varovanec",
-            "Nekaj slabega"
+            "Zaščiten",
+            "Zaščiten",
+            "Nekaj Slabega"
         ],
         "setup": false,
         "ability": "Nekaj slabega se lahko zgodi tistemu, ki je najbolj odgovoren za smrt novega igralca.",
@@ -2593,7 +2593,7 @@
     },
     {
         "id": "bootlegger",
-        "name": "Bootlegger",
+        "name": "Podomač",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2621,7 +2621,7 @@
     },
     {
         "id": "bigwig",
-        "name": "Big Wig",
+        "name": "Lasulja",
         "firstNightReminder": "",
         "otherNightReminder": "",
         "setup": false,
@@ -2638,7 +2638,7 @@
         "firstNightReminder": "",
         "otherNightReminder": "",
         "setup": false,
-        "name": "Ventriloquist",
+        "name": "Trebuhljač",
         "team": "loric",
         "edition": "loric",
         "ability": "Če je igralec nor, da je nova vloga med svojo nominacijo, morda ne bo umrl, če bo danes usmrčen."
@@ -2653,7 +2653,7 @@
             "Cilj"
         ],
         "setup": false,
-        "name": "Zenomancer",
+        "name": "Zenomant",
         "team": "loric",
         "edition": "loric",
         "ability": "Eden ali več igralcev ima vsak svoj cilj. Ko ga doseže, izve en resničen podatek.",
@@ -2661,7 +2661,7 @@
     },
     {
         "id": "hindu",
-        "name": "Hindu",
+        "name": "Hindujec",
         "team": "loric",
         "edition": "loric",
         "ability": "Prvi 4 igralci, ki umrejo, se takoj ponovno rodijo kot Popotniki iste ekipe.",
@@ -2675,7 +2675,7 @@
         "id": "knaves",
         "reminders": [],
         "setup": false,
-        "name": "Prevaranti",
+        "name": "Viteza",
         "team": "loric",
         "edition": "loric",
         "ability": "Sta 2 Pripovedovalca: eden laže, drugi govori resnico. Enkrat na igro se lahko ob mraku zamenjata.",
@@ -2683,7 +2683,7 @@
     },
     {
         "id": "pope",
-        "name": "Pope",
+        "name": "Papež",
         "team": "loric",
         "edition": "loric",
         "ability": "V igri so podvojene dobre vloge. Lahko so tudi blefi.",
@@ -2699,7 +2699,7 @@
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
-        "firstNightReminder": "",
+        "firstNightReminder": "Najavi, na katere igralce vpliva Budist.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
@@ -2717,7 +2717,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Opsa"
+            "Upsi"
         ],
         "setup": true,
         "ability": "Vsaj enkrat v igri bo Pripovedovalec naredil napako, jo popravil in jo javno priznal.",
@@ -2739,7 +2739,7 @@
     },
     {
         "id": "doomsayer",
-        "name": "Doomsayer",
+        "name": "Prerok Sodnega Dne",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2748,7 +2748,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Če so živi 4 igralci ali več, se lahko vsak živ igralec odloči (enkrat na igro), da en igralec v njegovi ekipi umre.",
+        "ability": "Če je živih 4 ali več igralcev, vsak igralec lahko javno izbere (enkrat v igri), da igralec njegove razvrstitve umre.",
         "special": null
     },
     {
@@ -2759,19 +2759,19 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 1,
-        "otherNightReminder": "",
+        "otherNightReminder": "Enega za drugim: prebudi vsakega igralca, označenega z *OBISKOVALEC* ali *LAŽNE INFORMACIJE*. Pokaži mu *TA VLOGA TE JE IZBRALA* žeton in žeton Grofice, nato s prsti pokaži število.",
         "reminders": [
             "Obiskovalec",
             "Obiskovalec",
-            "Lažni podatek"
+            "Lažne informacije"
         ],
         "setup": false,
-        "ability": "Vsak dan se 3 igralci lahko odločijo, da te obiščejo. Ponoči*, vsak izmed njih izve, koliko obiskovalcev je bilo zlobnih, a eden od njih dobi napačne podatke.",
+        "ability": "Vsak dan te lahko obiščejo 3 igralci. Ponoči* vsak obiskovalec izve koliko obiskovalcev je bilo zlobnih, vendar 1 dobi lažne informacije.",
         "special": null
     },
     {
         "id": "ferryman",
-        "name": "Ferryman",
+        "name": "Brodnik",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2785,7 +2785,7 @@
     },
     {
         "id": "fibbin",
-        "name": "Šment",
+        "name": "Lažnivec",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2793,7 +2793,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Brez moči"
+            "Nima Sposobnosti"
         ],
         "setup": false,
         "ability": "Enkrat na igrlo lahko 1 dober igralec dobi lažne podatke.",
@@ -2801,7 +2801,7 @@
     },
     {
         "id": "fiddler",
-        "name": "Goslar",
+        "name": "Goslač",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2815,7 +2815,7 @@
     },
     {
         "id": "gardener",
-        "name": "Gardener",
+        "name": "Vrtnar",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2833,7 +2833,7 @@
             "Klobuk"
         ],
         "setup": false,
-        "name": "Bog Ug",
+        "name": "Ugbog",
         "team": "loric",
         "edition": "loric",
         "ability": "En Ug klobuk. Ko nositi Ug klobuk, govoriti samo en glas naenkrat, ampak glasovati dvakrat. Če zgrešiti, podati Ug klobuk.",
@@ -2852,7 +2852,7 @@
     },
     {
         "id": "hellslibrarian",
-        "name": "Hudičeva knjižničarka",
+        "name": "Peklenska Knjižničarka",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2860,7 +2860,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Nekaj slabega"
+            "Nekaj Slabega"
         ],
         "setup": false,
         "ability": "Nekaj slabega se lahko zgodi tistemu, ki govori, ko je Pripovedovalec prosil za tišino.",
@@ -2876,9 +2876,9 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Izpade narobe?",
-            "Ista ekipa",
-            "Ista ekipa"
+            "Prikazati se Napačno?",
+            "Poravnan",
+            "Poravnan"
         ],
         "setup": false,
         "ability": "Za dva igralca vsi vedo, da sta na isti ekipi. Enkrat na igro eden od njiju izpade narobe.",
@@ -2886,7 +2886,7 @@
     },
     {
         "id": "sentinel",
-        "name": "Priča",
+        "name": "Stražar",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2900,7 +2900,7 @@
     },
     {
         "id": "spiritofivory",
-        "name": "Slonovinar",
+        "name": "Duh Slonovine",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2908,7 +2908,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Brez dodatnega zlobnega"
+            "Ni Več Zla"
         ],
         "setup": false,
         "ability": "V igri ne more biti več kot 1 dodaten zloben igralec.",
@@ -2920,11 +2920,11 @@
         "edition": "",
         "team": "fabled",
         "firstNight": 1,
-        "firstNightReminder": "",
+        "firstNightReminder": "Najavi, katera vloga je ujeta v nevihto. Če je ta vloga v igri, označi tega igralca z *UJET V NEVIHTO*. Prebudi vsakega zlobnega igralca in mu pokaži žeton te vloge, nato pa pokaži na označenega igralca. Če vloga ni v igri, prebudi vsakega zlobnega igralca in mu pokaži *TE VLOGE NISO V IGRI* žeton in žeton ustrezne vloge.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Varen"
+            "Ujet v Nevihto"
         ],
         "setup": false,
         "ability": "Izberi eno dobro vlogo. Če je v igri, lahko umre samo, če je usmrčena, a zlobni igralci izvejo, kdo je.",
@@ -2932,13 +2932,13 @@
     },
     {
         "id": "toymaker",
-        "name": "Tvorec",
+        "name": "Izdelovalec Igrač",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
-        "firstNightReminder": "",
+        "firstNightReminder": "Izvedi Informacije za Podložnike in Informacije za Demona, čeprav je v igri manj kot 7 igralcev.",
         "otherNight": 1,
-        "otherNightReminder": "",
+        "otherNightReminder": "Če bi napad Demona lahko končal igro in je Demon označen z *ZADNJA NOČ: NI NAPADA*, ne prebudi Demona.",
         "reminders": [
             "Zadnja Noč: Ni Napada"
         ],

@@ -10,49 +10,49 @@
         "id": "dawn",
         "name": "Hajnal",
         "edition": "special",
-        "firstNightReminder": "Várj néhány másodpercet. Fejezd be az éjszakai fázist.",
-        "otherNightReminder": "Várj néhány másodpercet. Fejezd be az éjszakai fázist."
+        "firstNightReminder": "Várj egy kicsit, majd szólj, hogy mindenki nyissa ki a szemét.",
+        "otherNightReminder": "Várj egy kicsit, majd szólj, hogy mindenki nyissa ki a szemét."
     },
     {
         "id": "minioninfo",
         "name": "Csatlósok információja",
         "team": "minion",
         "edition": "special",
-        "firstNightReminder": "Ha 7 vagy több játékos van, ébreszd fel az összes csatlóst:\n\tMutasd meg az *Ő A DÉMON* lapkát. Mutass rá a démonra.\n\tMutasd meg az *ŐK A CSATLÓSAID* lapkát. Mutass rá a többi csatlósra."
+        "firstNightReminder": "Ha 7 vagy több játékos van, ébressz fel minden csatlóst. Mutasd meg nekik az Ő A DÉMON lapkát, és mutass rá a démonra. Mutasd meg az ŐK A CSATLÓSAID lapkát, és mutass rá a többi csatlósra."
     },
     {
         "id": "demoninfo",
         "name": "Démon információja",
         "team": "demon",
         "edition": "special",
-        "firstNightReminder": "Ha 7 vagy több játékos van, ébreszd fel a démont:\n\tMutasd meg az *ŐK A CSATLÓSAID* lapkát. Mutass rá az összes csatlósra.\n\tMutasd meg az *EZEK A KARAKTEREK NINCSENEK JÁTÉKBAN* lapkát, és 3 jó karakter jelölőjét, amelyek nincsenek játékban."
+        "firstNightReminder": "Ha 7 vagy több játékos van, ébreszd fel a démont. Mutasd meg az ŐK A CSATLÓSAID lapkát, és egyesével mutass rá a csatlósokra. Mutasd meg az EZEK A KARAKTEREK NINCSENEK JÁTÉKBAN lapkát és 3 jó karakter jelölőjét, amelyek nincsenek játékban."
     },
     {
         "id": "steward",
         "name": "Inas",
         "team": "townsfolk",
         "edition": "carousel",
-        "firstNightReminder": "Mutass rá az *ISMERI* emlékeztetővel jelölt játékosra.",
+        "firstNightReminder": "Mutass rá az ISMER emlékeztetővel megjelölt játékosra.",
         "reminders": [
-            "Ismeri"
+            "Ismeri / Tud róla"
         ],
         "setup": false,
         "ability": "Első éjjel megismersz 1 jó játékost.",
-        "flavor": "How DARE you accuse Her Ladyship of wrongdoing? I’ve known her my entire life! All nine years!"
+        "flavor": "Hogy merészeled őnagyságát bármiféle törvénysértéssel vádolni?! Jól ismerem őt, mióta csak az eszemet tudom! Már kilenc éve!"
     },
     {
         "id": "knight",
         "name": "Lovag",
         "team": "townsfolk",
         "edition": "carousel",
-        "firstNightReminder": "Mutass rá az *ISMERI* emlékeztetőkkel jelölt 2 játékosra.",
+        "firstNightReminder": "Mutass rá az ISMER emlékeztetővel megjelölt 2 játékosra.",
         "reminders": [
-            "Ismeri",
-            "Ismeri"
+            "Ismeri / Tud róla",
+            "Ismeri / Tud róla"
         ],
         "setup": false,
         "ability": "Első éjjel megtudod 2 játékosról, hogy egyikük sem a démon.",
-        "flavor": "When a man lies, he murders some part of the world."
+        "flavor": "A hazugság labirintus, amelyben előbb-utóbb eltéved az odakeveredett bűnös lélek."
     },
     {
         "id": "chef",
@@ -63,50 +63,50 @@
         "reminders": [],
         "setup": false,
         "ability": "Első éjjel megtudod, hogy hány gonosz páros van a játékban.",
-        "flavor": "This evening's reservations seem odd. Never before has Mrs. Mayweather kept company with that scamp from Hudson Lane. Yet, tonight, they have a table for two. Strange."
+        "flavor": "A ma esti foglalásaink elég különösek. Mrs. Mayweathert még soha nem láttam azzal a Hudson Lane-i csirkefogóval. Most mégis két személyre foglaltak asztalt. Furcsa."
     },
     {
         "id": "noble",
         "name": "Nemes",
         "edition": "carousel",
         "team": "townsfolk",
-        "firstNightReminder": "Mutass rá az *ISMERI* emlékeztetőkkel jelölt 3 játékosra.",
+        "firstNightReminder": "Mutass rá az ISMER emlékeztetővel megjelölt 3 játékosra.",
         "reminders": [
-            "Ismeri",
-            "Ismeri",
-            "Ismeri"
+            "Ismeri / Tud róla",
+            "Ismeri / Tud róla",
+            "Ismeri / Tud róla"
         ],
         "setup": false,
         "ability": "Első éjjel megismersz 3 játékost, akik közül pontosan 1 gonosz.",
-        "flavor": "Sarcasm is indeed the lowest form of wit. But speaking in response to your criticism, Sir, it is, nevertheless, a form of wit."
+        "flavor": "A szarkazmus valóban a szellemesség legalacsonyabb rendű formája. De a kritikájára válaszolva, uram, azért mégiscsak egyfajta szellemesség."
     },
     {
         "id": "investigator",
         "name": "Nyomozó",
         "edition": "tb",
         "team": "townsfolk",
-        "firstNightReminder": "Mutasd meg egy csatlós karakterjelölőjét. Mutass rá a *CSATLÓS* és a *TÉVES* emlékeztetővel jelölt játékosokra.",
+        "firstNightReminder": "Mutasd meg egy csatlós karakterjelölőjét. Mutass rá a CSATLÓS és a TÉVES emlékeztetővel jelölt játékosokra.",
         "reminders": [
             "Csatlós",
             "Téves"
         ],
         "setup": false,
         "ability": "Első éjjel megtudod, hogy két játékos egyike egy adott csatlós.",
-        "flavor": "It is a fine night for a stroll, wouldn't you say, Mister Morozov? Or should I say... BARON Morozov?"
+        "flavor": "Csodás este ez egy sétához, nemde, Morozov úr? Vagy szólítsam inkább... Morozov BÁRÓNAK?"
     },
     {
         "id": "washerwoman",
         "name": "Mosónő",
         "edition": "tb",
         "team": "townsfolk",
-        "firstNightReminder": "Mutasd meg egy városlakó karakterjelölőjét. Mutass rá a *VÁROSLAKÓ* és a *TÉVES* emlékeztetővel jelölt játékosokra.",
+        "firstNightReminder": "Mutasd meg egy városlakó karakterjelölőjét. Mutass rá a VÁROSLAKÓ és a TÉVES emlékeztetővel jelölt játékosokra. ",
         "reminders": [
             "Városlakó",
             "Téves"
         ],
         "setup": false,
         "ability": "Első éjjel megtudod, hogy két játékos egyike egy adott városlakó.",
-        "flavor": "Bloodstains on a dinner jacket? No, this is cooking sherry. How careless."
+        "flavor": "Vérfoltok a szmokingon? Ó, nem. Ez csak vörösbor. Micsoda ügyetlenség."
     },
     {
         "id": "clockmaker",
@@ -117,14 +117,14 @@
         "reminders": [],
         "setup": false,
         "ability": "Első éjjel megtudod, hogy a démon hány játékos távolságra ül a legközelebbi csatlósától.",
-        "flavor": "Do not disturb me. The tick must continue, for the circle is a symbol of life and contains all things - all answers - in its divine machinery. I must work."
+        "flavor": "Ne zavard meg munkámat! Az óra nem állhat meg, mert a mutatók mozgása maga az élet, és minden válasz benne foglaltatik isteni szerkezetében. Dolgoznom kell."
     },
     {
         "id": "grandmother",
         "name": "Nagymama",
         "edition": "bmr",
         "team": "townsfolk",
-        "firstNightReminder": "Mutass rá a játékosra, akit unokának választottál, és mutasd meg a karakterjelölőjét a nagymamáņak.",
+        "firstNightReminder": "Mutass rá a játékosra, akit unokának választottál, és mutasd meg a karakterjelölőjét a nagymamának.",
         "otherNightReminder": "Ha a démon megölte az unokát, a nagymama is meghal. :reminder:",
         "reminders": [
             "Unoka",
@@ -132,60 +132,60 @@
         ],
         "setup": false,
         "ability": "Első éjjel megismersz egy jó játékost és a karakterét. Ha a démon megöli, te is meghalsz.",
-        "flavor": "Take a jacket if you go outside, dearie. And your thermos. And your scarf. I have a weak heart, you know. Whatever would I do if you caught cold...or worse?"
+        "flavor": "Vegyél fel kabátot, ha kimész, drágám! És itt a termoszod. Meg a sálad. Tudod, hogy gyenge a szívem. Nem is tudom, mi lenne velem, ha megfáznál... vagy valami még rosszabb történne veled..."
     },
     {
         "id": "librarian",
         "name": "Könyvtáros",
         "edition": "tb",
         "team": "townsfolk",
-        "firstNightReminder": "Mutasd meg egy kívülálló karakterjelölőjét. Mutass rá a *KÍVÜLÁLLÓ* és a *TÉVES* emlékeztetővel jelölt játékosokra.",
+        "firstNightReminder": "Mutasd meg egy kívülálló karakterjelölőjét. Mutass rá a KÍVÜLÁLLÓ és a TÉVES emlékeztetővel jelölt játékosokra.",
         "reminders": [
             "Kívülálló",
             "Téves"
         ],
         "setup": false,
         "ability": "Első éjjel megtudod, hogy két játékos egyike egy adott kívülálló. (Vagy hogy nincs kívülálló a játékban.)",
-        "flavor": "Certainly madam, under normal circumstances, you may borrow the Codex Malificarium from the library vaults. However, you do not seem to be a member."
+        "flavor": "Igenis, asszonyom, rendes körülmények között kikölcsönözhetné a Malificárium Kódexet a zárolt részlegből. Úgy tűnik azonban, hogy ön nincs beiratkozva."
     },
     {
         "id": "shugenja",
         "name": "Sugendzsa",
         "team": "townsfolk",
         "edition": "carousel",
-        "firstNightReminder": "Mutass az óramutató járásával megegyező vagy ellentétes irányba.",
+        "firstNightReminder": "Mutass jobbra vagy balra.",
         "reminders": [],
         "setup": false,
         "ability": "Első éjjel megtudod, melyik irányban van a hozzád legközelebbi gonosz játékos. Ha mindkét irányban egyenlő távolságra vannak, a mesélő választ..",
-        "flavor": "これは夢。それも夢。すべ て夢です。"
+        "flavor": "これは夢。それも夢。すべて夢です"
     },
     {
         "id": "pixie",
         "name": "Tündérmanó",
         "edition": "carousel",
         "team": "townsfolk",
-        "firstNightReminder": "Mutasd meg a *RÖGESZMÉS* emlékeztetővel jelölt karakter jelzőjét.",
+        "firstNightReminder": "Mutasd meg a RÖGESZMÉS emlékeztetővel megjelölt városlakó karakterjelölőjét.",
         "reminders": [
-            "Rögeszmés",
-            "Van képessége"
+            "Rögeszmés / Rögeszme",
+            "Van képesség(e) / Ez a képessége"
         ],
         "setup": false,
         "ability": "Első éjjel megismersz egy játékban lévő városlakót. Ha rögeszmésen állítod, hogy ez a karakter vagy, a halála után megkapod a képességét.",
-        "flavor": "Round and round the garden, go. Little girls run to and fro. Little boys climb up the tree. Which of these should Pixie be? Ladies smile and go to town. Lords with axe chop forest down. What’s yours is mine. What’s mine, divine. Silly little Pixie, me."
+        "flavor": "Kertben játszani de jó, Lányok haja lobbanó, Fiúk füttye harsanó. Melyik a tündérmanó? Hölgyek, urak, mit kapok? Mi tiéd, azon osztozok, Mi enyém, abból nem adok, Tündérmanó én vagyok!"
     },
     {
         "id": "bountyhunter",
         "name": "Fejvadász",
         "edition": "carousel",
         "team": "townsfolk",
-        "firstNightReminder": "Mutass rá az *ISMERI* emlékeztetővel jelölt játékosra.",
-        "otherNightReminder": "Ha az *ISMERI* emlékeztetővel jelölt játékos ma halt meg, tedd át az emlékeztetőt egy másik gonosz játékoshoz, és mutass rá az új ismert játékosra.",
+        "firstNightReminder": "Mutass rá az ISMER emlékeztetővel megjelölt játékosra.",
+        "otherNightReminder": "Ha az ISMER emlékeztetővel megjelölt játékos meghalt a mai napon vagy ma éjjel, mutass rá az új, ISMER emlékeztetővel megjelölt játékosra.",
         "reminders": [
-            "Ismeri"
+            "Ismeri / Tud róla"
         ],
         "setup": true,
         "ability": "Első éjjel megismersz egy gonosz játékost. Amikor meghal, azon az éjjelen megismersz egy újabb gonosz játékost. [1 városlakó gonosz]",
-        "flavor": "Alone, I walk these streets, paved with the sick stench of corruption. Its thickness worms its way into my nostrils, unbidden, burning with revulsion. And anticipation. The illness of this wretched place grows each night. And I... I am the cure."
+        "flavor": "Magányosan rovom utamat a korrupció beteges bűzével kikövezett utcákon. Az ocsmány bűz szinte a gyomromig hatol, és mélységes undorral tölt el. És várakozással. A nyomorúság pestise éjről éjre messzebbre hatol. És én... Én vagyok a gyógyír."
     },
     {
         "id": "empath",
@@ -197,7 +197,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Minden éjjel megtudod, hogy a két veled szomszédos élő játékos közül hányan gonoszak.",
-        "flavor": "My skin prickles. Something is not right here. I can feel it."
+        "flavor": "A hideg futkos a hátamon. Itt valami nincs rendjén. Érzem..."
     },
     {
         "id": "highpriestess",
@@ -209,7 +209,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Minden éjjel megtudod, hogy a mesélő szerint melyik játékossal kellene leginkább beszélned.",
-        "flavor": "There is life behind the personality that uses personalities as masks. There are times when life puts off the mask and deep answers to deep."
+        "flavor": "A személyiség mögött egy élet rejtőzik, mely álarcként ölti magára a személyiségeket. Előfordul, hogy az élet leveszi az álarcot, és a mélység a mélységnek ad választ."
     },
     {
         "id": "sailor",
@@ -223,7 +223,7 @@
         ],
         "setup": false,
         "ability": "Minden éjjel válassz egy élő játékost: vagy te, vagy ő részeg lesz alkonyatig. Nem halhatsz meg.",
-        "flavor": "I'll drink any one of yer under the table! You! The chatterbox! Reckon you can take me? No? Howza 'bout you, Grandma? You ever tried Old McKillys Extra Spiced Rum before? Guaranteed to put hairs on yer chest! Step aboard, aye!"
+        "flavor": "Akárkit az asztal alá iszok! Hé, te ott! Te nagyszájú! Asziszed, te engem leiszol? Nem? Na és te, nagyi? Kóstoltad már az Old MacPurcant extra fűszeres rumot? Ettől tán még a szakállad is kinő! Na gyere, igyunk egyet!"
     },
     {
         "id": "balloonist",
@@ -231,41 +231,41 @@
         "edition": "carousel",
         "team": "townsfolk",
         "firstNightReminder": "Mutass rá egy játékosra. :reminder:",
-        "otherNightReminder": "Mutass rá egy játékosra, akinek más karakter típusa van, mint az előző éjjel mutatott játékosnak. :reminder:",
+        "otherNightReminder": "Mutass rá egy játékosra, akinek más típusú a karaktere, mint akire előzőleg mutattál. :reminder:",
         "reminders": [
-            "Ismeri"
+            "Ismeri / Tud róla"
         ],
         "setup": true,
         "ability": "Minden éjjel megismersz egy játékost, akinek más típusú a karaktere, mint az előző éjjel megismertnek. [+0 vagy +1 kívülálló]",
-        "flavor": "More heat! Higher! Higher! Più alto! Ahhh... it is so beautiful from up here, don't you agree? Can you see the children fishing by the river, under the willow? Can you see the glint of the sun on the circus tent-poles? What's this? An old man, alone, passed out in the vineyard? Less heat! Lower! Lower! Vai più in basso!"
+        "flavor": "Nagyobb lángot! Még feljebb! Még feljebb! Più alto! Ahhh... minden olyan szép innen fentről, nem gondolod? Látod a horgászó gyerekeket a folyónál, a fűzfa alatt? Látod, ahogy a napfény megcsillan a cirkuszi sátor rúdjain? Hé, az meg ott micsoda? Egy ájult öregember egyedül a szőlőskertben? Tekerd le a lángot! Lejjebb! Még lejjebb! Vai più in basso!"
     },
     {
         "id": "general",
         "name": "Tábornok",
         "edition": "carousel",
         "team": "townsfolk",
-        "firstNightReminder": "Mutasd a hüvelykujjaddal, hogy melyik csapat áll nyerésre.",
-        "otherNightReminder": "Mutasd a hüvelykujjaddal, hogy melyik csapat áll nyerésre.",
+        "firstNightReminder": "Mutasd meg a felfelé vagy lefelé fordított hüvelykujjadat.",
+        "otherNightReminder": "Mutasd meg a felfelé vagy lefelé fordított hüvelykujjadat.",
         "reminders": [],
         "setup": false,
         "ability": "Minden éjjel megtudod, hogy a mesélő szerint melyik csapat áll nyerésre: a jók, a gonoszok vagy egyik se.",
-        "flavor": "I don’t have time for quotes."
+        "flavor": "Nincs időm idézetekre."
     },
     {
         "id": "preacher",
         "name": "Prédikátor",
         "edition": "carousel",
         "team": "townsfolk",
-        "firstNightReminder": "Kiválaszt egy játékost. :reminder: Ha egy csatlóst választott: Altasd vissza a prédikátort. Ébreszd fel a választott játékost. Mutasd meg az *Ő KIVÁLASZTOTT TÉGED* lapkát és a prédikátor jelölőjét.",
-        "otherNightReminder": "Kiválaszt egy játékost. :reminder: Ha egy csatlóst választott: Altasd vissza a prédikátort. Ébreszd fel a választott játékost. Mutasd meg az *Ő KIVÁLASZTOTT TÉGED* lapkát és a prédikátor jelölőjét.",
+        "firstNightReminder": "Kiválaszt egy játékost. :reminder: Ha csatlóst választott: Altasd vissza a prédikátort. Ébreszd fel a választott játékost. Mutasd meg neki az Ő KIVÁLASZTOTT TÉGED lapkát és a prédikátor jelölőjét.",
+        "otherNightReminder": "Kiválaszt egy játékost. :reminder: Ha csatlóst választott: Altasd vissza a prédikátort. Ébreszd fel a választott játékost. Mutasd meg neki az Ő KIVÁLASZTOTT TÉGED lapkát és a prédikátor jelölőjét.",
         "reminders": [
-            "Nincs képessége",
-            "Nincs képessége",
-            "Nincs képessége"
+            "Nincs képesség",
+            "Nincs képesség",
+            "Nincs képesség"
         ],
         "setup": false,
         "ability": "Minden éjjel válassz egy játékost: ha csatlós, megtudja, hogy kiválasztottad. A kiválasztott csatlósoknak nincs képességük.",
-        "flavor": "It is better to be rich and healthy than poor and sick."
+        "flavor": "Jobb gazdagnak és egészségesnek lenni, mint szegénynek és betegnek."
     },
     {
         "id": "chambermaid",
@@ -276,16 +276,16 @@
         "otherNightReminder": "Kiválaszt 2 élő játékost. Mutasd fel annyi ujjadat, ahányan közülük felébredtek ma éjjel.",
         "reminders": [],
         "setup": false,
-        "ability": "Minden éjjel válassz két élő játékost (ne magadat): megtudod, közülük hányan ébredtek fel ma éjjel a képességük miatt.",
-        "flavor": "I aint seen nothin' untoward, Milady. Begging your pardon, but if I did see somethin', it certainly weren't the master o' the house sneaking into the professor's laboratory 'round eleven o'clock and mixing up fancy potions, just like you said, Miss."
+        "ability": "Minden éjjel válassz 2 élő játékost (ne magadat): megtudod, közülük hányan ébredtek fel ma éjjel a képességük miatt.",
+        "flavor": "Nem láttam semmi szokatlant, asszonyom. Már megbocsásson, de ha láttam is valamit, hát biztos nem azt, hogy a ház ura belopakodott a professzor laboratóriumába tizenegy körül, és puccos bájitalokat kevergetett, ahogy őnagysága mondja."
     },
     {
         "id": "villageidiot",
         "name": "Falu bolondja",
         "team": "townsfolk",
         "edition": "carousel",
-        "firstNightReminder": "Ha több falu bolondja van, az egyiket jelöld meg *RÉSZEG* emlékeztetővel. :reminder: Ébreszd fel egyesével az falu bolondjait, hogy válasszanak egy játékost. A hüvelykujjaddal mutasd, hogy a kiválasztott játékos jó vagy gonosz.",
-        "otherNightReminder": "Ébreszd fel egyesével az falu bolondjait, hogy válasszanak egy játékost. A hüvelykujjaddal mutasd, hogy a kiválasztott játékos jó vagy gonosz.",
+        "firstNightReminder": "Ha több falu bolondja van, jelöld meg az egyiket a RÉSZEG emlékeztetővel. :reminder: Ébreszd fel egyenként a falu bolondjait. Mind kiválaszt egy játékost. Mutasd meg a felfelé vagy lefelé fordított hüvelykujjadat.",
+        "otherNightReminder": "Ébreszd fel egyenként a falu bolondjait. Mind kiválaszt egy játékost. Mutasd meg a felfelé vagy lefelé fordított hüvelykujjadat.",
         "reminders": [
             "Részeg"
         ],
@@ -297,29 +297,29 @@
                 "name": "bag-duplicate"
             }
         ],
-        "flavor": "Roses are blue, and violets are red, Please reverse what I just said."
+        "flavor": "Kéken virít minden rózsa, \nVörös a nefelejcs szirma, \nCseréld fel, mit látsz leírva."
     },
     {
         "id": "snakecharmer",
         "name": "Kígyóbűvölő",
         "edition": "snv",
         "team": "townsfolk",
-        "firstNightReminder": "Kiválaszt egy élő játékost. Ha a démont választja: Mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és a démon jelölőjét. Mutasd meg a lefelé fordított hüvelykujjad. Cseréld fel a kígyóbűvölő és a démon jelölőjét. Altasd vissza a korábbi kígyóbűvölőt. Ébreszd fel a korábbi démont. Mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és a kígyóbűvölő jelölőjét. Mutasd meg a felfelé fordított hüvelykujjad. :reminder:",
-        "otherNightReminder": "Kiválaszt egy élő játékost. Ha a démont választja: Mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és a démon jelölőjét. Mutasd meg a lefelé fordított hüvelykujjad. Cseréld fel a kígyóbűvölő és a démon jelölőjét. Altasd vissza a korábbi kígyóbűvölőt. Ébreszd fel a korábbi démont. Mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és a kígyóbűvölő jelölőjét. Mutasd meg a felfelé fordított hüvelykujjad. :reminder:",
+        "firstNightReminder": "Kiválaszt egy játékost. Ha a démont választja: Mutasd meg az EZ VAGY MOSTANTÓL lapkát és a démon jelölőjét. Mutasd meg a lefelé fordított hüvelykujjad. Cseréld fel a kígyóbűvölő és a démon jelölőjét. Altasd vissza a korábbi kígyóbűvölőt. Ébreszd fel a korábbi démont. Mutasd meg az EZ VAGY MOSTANTÓL lapkát és a kígyóbűvölő jelölőjét. Mutasd meg a felfelé fordított hüvelykujjad. :reminder:",
+        "otherNightReminder": "Kiválaszt egy játékost. Ha a démont választja: Mutasd meg az EZ VAGY MOSTANTÓL lapkát és a démon jelölőjét. Mutasd meg a lefelé fordított hüvelykujjad. Cseréld fel a kígyóbűvölő és a démon jelölőjét. Altasd vissza a korábbi kígyóbűvölőt. Ébreszd fel a korábbi démont. Mutasd meg az EZ VAGY MOSTANTÓL lapkát és a kígyóbűvölő jelölőjét. Mutasd meg a felfelé fordított hüvelykujjad. :reminder:",
         "reminders": [
             "Mérgezett"
         ],
         "setup": false,
         "ability": "Minden éjjel válassz egy élő játékost: ha ő egy démon, karaktert és oldalt cserél veled, majd mérgezett lesz.",
-        "flavor": "Effendi... I am but a humble man, but my pipe is golden and a single tune will tame the wildest djinn, Inshallah. They say that greed hangs more men than rope. But not I, Effendi... not I."
+        "flavor": "Effendi… Én csak egy szerény flótás vagyok, de a furulyám színarany, és egyetlen dallammal megszelídítem a legvadabb dzsinnt, inshallah. Azt mondják, a kapzsiság fojtogatóbb, mint az akasztófa kötele. De én nem vagyok kapzsi, effendi… nem én."
     },
     {
         "id": "mathematician",
         "name": "Matematikus",
         "edition": "snv",
         "team": "townsfolk",
-        "firstNightReminder": "Mutasd fel annyi ujjadat, ahány karakter mellett *RENDELLENES* emlékeztető van.",
-        "otherNightReminder": "Mutasd fel annyi ujjadat, ahány karakter mellett *RENDELLENES* emlékeztető van.",
+        "firstNightReminder": "Mutasd fel annyi ujjadat, ahány karakter mellett RENDELLENES emlékeztető van.",
+        "otherNightReminder": "Mutasd fel annyi ujjadat, ahány karakter mellett RENDELLENES emlékeztető van.",
         "reminders": [
             "Rendellenes",
             "Rendellenes",
@@ -329,19 +329,19 @@
         ],
         "setup": false,
         "ability": "Minden éjjel megtudod, hogy hány játékos képessége működött rendellenesen hajnal óta egy másik karakter képessége miatt.",
-        "flavor": "Any consistent formal system x, within which a certain amount of elementary arithmetic can be carried out is incomplete; that is, there are statements of the language of x which can neither be proved nor disproved in x. Ergo, you are drunk."
+        "flavor": "Bármely konzisztens formális x rendszer, amelyen belül egy bizonyos mennyiségű elemi aritmetikai művelet elvégezhető, nem teljes; azaz megfogalmazhatók x nyelven olyan állítások, melyeket nem lehet sem bizonyítani, sem megcáfolni x-ben. Tehát: részeg vagy."
     },
     {
         "id": "king",
         "name": "Király",
         "edition": "carousel",
         "team": "townsfolk",
-        "firstNightReminder": "Ébreszd fel a démont: Mutasd meg az *EZ A JÁTÉKOS* lapkát és a király jelölőjét, majd mutassrá a királyra.",
-        "otherNightReminder": "Ha a halottak legalább annyian vannak, mint az élők,mutasd meg egy élő játékos karakterjelölőjét.",
+        "firstNightReminder": "Ébreszd fel a démont. Mutasd meg neki az EZ A JÁTÉKOS lapkát, a király jelölőjét, majd mutass rá a királyra. ",
+        "otherNightReminder": "Ha a halottak legalább annyian vannak, mint az élők, mutasd meg egy élő játékos karakterjelölőjét.",
         "reminders": [],
         "setup": false,
         "ability": "Minden éjjel, ha a halottak legalább annyian vannak, mint az élők, tudomást szerzel egy élő karakterről. A démon tudja, hogy te vagy a király.",
-        "flavor": "Betwixt the unknown strains of mortal strife / And morbid night, sweet with mystery and woe / Lies unfettered joys of fate’s long and colored life / Who’s garden blooms with each painted Face to Show."
+        "flavor": "A halálos viszály különös dallamai között, / A rejtély és fájdalom fűszerezte éjben / A sorshosszú színes élet bilincses örömei hevernek, / S kertjüket minden egyes festett arc felbukkanása virágba borítja."
     },
     {
         "id": "dreamer",
@@ -353,33 +353,33 @@
         "reminders": [],
         "setup": false,
         "ability": "Minden éjjel válassz egy játékost (ne magadat és ne utazót): megismersz egy jó és egy gonosz karaktert, az egyik a választott játékosé.",
-        "flavor": "I remember the Clockmaker. The sky was red and it was raining fractal triangles. There was a smell of violets and a bubbling sound. A woman with glowing eyes and a scraggly beard was hissing at the sky. Then, I awoke."
+        "flavor": "Emlékszem az órásmesterre. Vörösen izzott az ég, miközben fraktálháromszögek hullottak alá. Bűbáj és téboly lengte be a levegőt. Egy ragyogó szemű, borostás állú nő sziszegett az ég felé. Aztán felébredtem."
     },
     {
         "id": "fortuneteller",
         "name": "Jósnő",
         "edition": "tb",
         "team": "townsfolk",
-        "firstNightReminder": "Kiválaszt 2 játékost. Bólints, ha egyikük a démon (vagy a *CSALI*).",
-        "otherNightReminder": "Kiválaszt 2 játékost. Bólints, ha egyikük a démon (vagy a *CSALI*).",
+        "firstNightReminder": "Kiválaszt 2 játékost. Bólints, ha egyikük a démon (vagy a CSALI).",
+        "otherNightReminder": "Kiválaszt 2 játékost. Bólints, ha egyikük a démon (vagy a CSALI).",
         "reminders": [
             "Csali"
         ],
         "setup": false,
-        "ability": "Minden éjjel válassz két játékost: megtudod, hogy egyikük démon-e. Van egy jó játékos, akit démonként észlelsz.",
-        "flavor": "I sense great evil in your soul! But... that could just be your perfume. I am allergic to Elderberry."
+        "ability": "Minden éjjel válassz 2 játékost: megtudod, hogy egyikük démon-e. Van egy jó játékos, akit démonként észlelsz.",
+        "flavor": "Hatalmas gonoszságot érzek a lelkedben! Bár… az is lehet, hogy ez csak a parfümöd. Allergiás vagyok a bodzára."
     },
     {
         "id": "cultleader",
         "name": "Szektavezér",
         "edition": "carousel",
         "team": "townsfolk",
-        "firstNightReminder": "A szektavezér csapatot válthat. Ha vált, akkor mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és a fel- vagy lefelé mutató hüvelykujjad.",
-        "otherNightReminder": "A szektavezér csapatot válthat. Ha vált, akkor mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és a fel- vagy lefelé mutató hüvelykujjad.",
+        "firstNightReminder": "Lehet, hogy oldalt vált. Ha igen, mutasd meg neki az EZ VAGY MOSTANTÓL lapkát és a felfelé vagy lefelé fordított hüvelykujjadat.",
+        "otherNightReminder": "Lehet, hogy oldalt vált. Ha igen, mutasd meg neki az EZ VAGY MOSTANTÓL lapkát és a felfelé vagy lefelé fordított hüvelykujjadat.",
         "reminders": [],
         "setup": false,
         "ability": "Minden éjjel átállsz az egyik élő szomszédod oldalára. Ha minden jó játékos úgy dönt, hogy csatlakozik a szektádhoz, a csapatod győz.",
-        "flavor": "Thinking themselves wise, they became fools."
+        "flavor": "Bölcsnek hitték magukat, ám bolonddá váltak."
     },
     {
         "id": "flowergirl",
@@ -393,7 +393,7 @@
         ],
         "setup": false,
         "ability": "Minden éjjel* megtudod, hogy a démon szavazott-e aznap.",
-        "flavor": "Yesterday's violets have withered and died, but today my poppies bloom."
+        "flavor": "A tegnapi violák elhervadtak, de a pipacsaim ma gyönyörűen virítanak."
     },
     {
         "id": "towncrier",
@@ -402,12 +402,12 @@
         "team": "townsfolk",
         "otherNightReminder": "Bólints vagy rázd meg a fejed.",
         "reminders": [
-            "Csatlósok nem gyanúsítottak",
+            "Csatlós nem gyanúsított",
             "Csatlós gyanúsított"
         ],
         "setup": false,
         "ability": "Minden éjjel* megtudod, hogy aznap gyanúsított-e csatlós.",
-        "flavor": "Hear ye! Hear ye! Witchcraft in the labyrinth! Genius savant reveals all! Town in danger! Hear Ye!"
+        "flavor": "Szenzáció! Szenzáció! Boszorkányság a labirintusban! A zseniális tudós mindent elárul! Veszélyben a város! Szenzáció!"
     },
     {
         "id": "oracle",
@@ -418,7 +418,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Minden éjjel* megtudod, hogy hány halott játékos gonosz.",
-        "flavor": "Only the chosen may gaze beyond the veil. The dead are restless, and they point in silence toward the icy north."
+        "flavor": "Csak a kiválasztottak láthatnak a felszín alá. A holtak nyugtalanok, és mind a jeges észak felé mutatnak."
     },
     {
         "id": "undertaker",
@@ -427,11 +427,11 @@
         "team": "townsfolk",
         "otherNightReminder": "Ha kivégeztek ma valakit, mutasd meg a kivégzett játékos karakterjelölőjét.",
         "reminders": [
-            "Ma halt meg"
+            "Ma meghalt"
         ],
         "setup": false,
         "ability": "Minden éjjel* megtudod, hogy melyik karakter halt meg az aznapi kivégzés során.",
-        "flavor": "Hmmm....what have we here? The left boot is worn down to the heel, with flint shavings under the tongue. This is the garb of a Military man."
+        "flavor": "Lássuk, ma kit ásunk? A bal csizma sarka erősen kopott, a nyelve alatt tűzkőmorzsalék... Ez egy katona öltözéke."
     },
     {
         "id": "innkeeper",
@@ -446,7 +446,7 @@
         ],
         "setup": false,
         "ability": "Minden éjjel* válassz két játékost: nem halhatnak meg ma éjjel, de az egyikük alkonyatig részeg lesz.",
-        "flavor": "Come inside, fair traveller, and rest your weary bones. Drink and be merry, for the legions of the Dark One shall not harass thee tonight."
+        "flavor": "Kerülj beljebb, derék utazó, pihentesd meg fáradt tagjaidat. Örvendj és vigadj, mert a gonosz seregei ma éjjel nem törhetnek a vesztedre."
     },
     {
         "id": "monk",
@@ -459,7 +459,7 @@
         ],
         "setup": false,
         "ability": "Minden éjjel* válassz egy játékost (ne magadat): ma éjjel őt megvéded a démontól.",
-        "flavor": "'Tis an ill and deathly wind that blows tonight. Come, my brother, take shelter in the abbey while the storm rages. By my word, or by my life, you will be safe."
+        "flavor": "Halál s veszedelem jő ma a szelek szárnyán. Jer, testvérem, az apátságban menedékre lelsz a tomboló vihar elől. Szavamat adom, s akár az életemet is, hogy biztonságban leszel."
     },
     {
         "id": "gambler",
@@ -471,8 +471,8 @@
             "Halott"
         ],
         "setup": false,
-        "ability": "Minden éjjel* válassz egy játékost, és tippeld meg a karakterét: ha nem találod el, meghalsz.",
-        "flavor": "Heads, I win. Tails, you lose."
+        "ability": "Minden éjjel* válassz egy játékost, és tippeld meg a karakterét: ha nem találod el, meghalsz. ",
+        "flavor": "Ha fej, én nyerek. Ha írás, te vesztesz."
     },
     {
         "id": "acrobat",
@@ -482,7 +482,7 @@
         "otherNightReminder": "Kiválaszt egy játékost. :reminder:",
         "reminders": [
             "Halott",
-            "Kiválasztott"
+            "Kiválasztott / Kiválasztva"
         ],
         "setup": false,
         "ability": "Minden éjjel* válassz egy játékost: ha részeg vagy mérgezett, vagy ma éjjel azzá válik, meghalsz.",
@@ -493,13 +493,13 @@
         "name": "Ördögűző",
         "edition": "bmr",
         "team": "townsfolk",
-        "otherNightReminder": "Kiválaszt egy játékost. :reminder: Altasd vissza az ördögűzőt. Ha a démonra mutatott: Ébreszd fel a démont. Mutasd meg neki az *Ő KIVÁLASZTOTT TÉGED* lapkát, az ördögűző jelölőjét, majd mutass rá arra a játékosra, aki az ördögűző.",
+        "otherNightReminder": "Az ördögűző kiválaszt egy játékost. :reminder: Altasd vissza. Ha a démonra mutatott: Ébreszd fel a démont. Mutasd meg neki az Ő KIVÁLASZTOTT TÉGED lapkát, az ördögűző jelölőjét, majd mutass rá arra a játékosra, aki az ördögűző.",
         "reminders": [
-            "Kiválasztott"
+            "Kiválasztott / Kiválasztva"
         ],
         "setup": false,
         "ability": "Minden éjjel* válassz egy játékost (mást, mint előző éjjel): ha ő a démon, megtudja, ki vagy, és utána nem ébred fel ma éjjel.",
-        "flavor": "We cast you out, every unclean spirit, every satanic power, every onslaught of the infernal adversary, every legion, every diabolical group and sect, in the name and by the power of Our Lord Jesus Christ. We command you, begone and fly far from the Church of God, from the souls made by God in His image and redeemed by the precious blood of the divine Lamb."
+        "flavor": "A mi Urunk, Jézus Krisztus nevében és hatalma által kiűzünk titeket: minden tisztátalan lelket, az ördög minden erejét, a pokoli ellenség minden támadását, minden légiót, minden sátáni csoportot és szektát. Parancsoljuk, hogy távozzatok Isten egyházától és e lelkektől, kiket a Mindenható saját képmására teremtett, és kiket Isten Bárányának drága vére váltott meg."
     },
     {
         "id": "lycanthrope",
@@ -508,25 +508,25 @@
         "team": "townsfolk",
         "otherNightReminder": "Kiválaszt egy játékost. :reminder:",
         "reminders": [
-            "Gonosznak tűnik",
+            "Tévmancs",
             "Halott"
         ],
         "setup": false,
         "ability": "Minden éjjel* válassz egy élő játékost. Ha jó, meghal, és a démon nem öl meg senkit ma éjjel. Egy jó játékos gonosznak tűnik.",
-        "flavor": "Beneath the thin veneer of civilisation lies a howling madness."
+        "flavor": "A civilizáció vékony máza alatt üvöltő őrület rejtőzik."
     },
     {
         "id": "gossip",
         "name": "Pletykafészek",
         "edition": "bmr",
         "team": "townsfolk",
-        "otherNightReminder": "Ha a képessége miatt meg kell halnia valakinek, az most meghal. :reminder:",
+        "otherNightReminder": "Ha a képessége miatt meg kell halnia valakinek, az most meghal :reminder:",
         "reminders": [
             "Halott"
         ],
         "setup": false,
         "ability": "Minden nap állíthatsz egy dolgot nyilvánosan. Ha igaz volt, éjjel egy játékos meghal.",
-        "flavor": "Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah. Blah."
+        "flavor": "Bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla. Bla-bla."
     },
     {
         "id": "savant",
@@ -536,7 +536,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Minden nap kaphatsz két információt a mesélőtől privátban: az egyik igaz, a másik hamis.",
-        "flavor": "Seventy-two matchsticks on the floor... the sun sets early but the moon is unchanged... a torn piece of cloth... evil in the manor house... three by three... the one we trusted is not what he seems... green light means magnesium... residue, but the pattern is wrong... Seventy-two matchsticks on the floor..."
+        "flavor": "Hetvenkét gyufaszál a padlón... a nap korán nyugszik, de a hold változatlan... egy szakadt anyagdarab... gonosz a nagy házban... háromszor három... akiben megbíztunk, nem az, aminek látszik... a zöld fény magnéziumot jelent... érdekes maradvány, de a minta rossz... hetvenkét gyufaszál a padlón..."
     },
     {
         "id": "alsaahir",
@@ -545,36 +545,36 @@
         "edition": "carousel",
         "reminders": [],
         "setup": false,
-        "ability": "Naponta egyszer nyilvánosan megtippelheted, ki(k) a démon(ok) és ki(k) a csatlósa(i). Ha mind eltalálod, a jók győznek.",
-        "flavor": "I am here because of you, and you are here because of me."
+        "ability": "Naponta egyszer nyilvánosan megtippelheted, ki(k) a a démon(ok) és ki(k) a csatlósa(i). Ha mind eltalálod, a jók győznek.",
+        "flavor": "Értetek vagyok itt, ti pedig értem."
     },
     {
         "id": "engineer",
         "name": "Mérnök",
         "edition": "carousel",
         "team": "townsfolk",
-        "firstNightReminder": "A mérnök kiválaszthatja a csatlósok vagy a démon karaktereit. Altasd vissza a mérnököt. Cseréld ki a csatlósok vagy a démon karaktereit a kiválasztottakra, majd egyesével ébreszd fel őket, és mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és az új karakterjelölőjüket. :reminder:",
-        "otherNightReminder": "A mérnök kiválaszthatja a csatlósok vagy a démon karaktereit. Altasd vissza a mérnököt. Cseréld ki a csatlósok vagy a démon karaktereit a kiválasztottakra, majd egyesével ébreszd fel őket, és mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és az új karakterjelölőjüket. :reminder:",
+        "firstNightReminder": "A mérnök választhat csatlós karaktereket vagy egy démon karaktert, majd altasd vissza. Egyesével ébreszd fel a csatlósokat vagy a démont. Mutasd meg az EZ VAGY MOSTANTÓL lapkát és az új karaktere jelölőjét. :reminder:",
+        "otherNightReminder": "A mérnök választhat csatlós karaktereket vagy egy démon karaktert, majd altasd vissza. Egyesével ébreszd fel a csatlósokat vagy a démont. Mutasd meg az EZ VAGY MOSTANTÓL lapkát és az új karaktere jelölőjét. :reminder:",
         "reminders": [
-            "Nincs képessége"
+            "Nincs képesség"
         ],
         "setup": false,
         "ability": "Játékonként egyszer, éjjel válaszd ki, hogy melyik csatlósok vagy melyik démon legyen játékban.",
-        "flavor": "If it bends, great. If it breaks, well, it probably needed fixing anyway."
+        "flavor": "Ha meghajlik, nagyszerű. Ha eltörik, akkor már úgyis javításra szorult."
     },
     {
         "id": "nightwatchman",
         "name": "Éjjeliőr",
         "edition": "carousel",
         "team": "townsfolk",
-        "firstNightReminder": "Kiválaszthat egy játékost. Altasd vissza az éjjeliőrt. Ébreszd fel a választott játékost. Mutasd meg az *EZ A JÁTÉKOS* lapkát és az éjjeliőr jelölőjét, majd mutass az éjjeliőr játékosra. :reminder:",
-        "otherNightReminder": "Kiválaszthat egy játékost. Altasd vissza az éjjeliőrt. Ébreszd fel a választott játékost. Mutasd meg az *EZ A JÁTÉKOS* lapkát és az éjjeliőr jelölőjét, majd mutass az éjjeliőr játékosra. :reminder:",
+        "firstNightReminder": "Választhat egy játékost. Ezután altasd vissza. Ébreszd fel a választott játékost. Mutasd meg neki az EZ A JÁTÉKOS lapkát, az éjjeliőr jelölőjét, majd mutass rá az éjjeliőr játékosra. :reminder:",
+        "otherNightReminder": "Választhat egy játékost. Ezután altasd vissza. Ébreszd fel a választott játékost. Mutasd meg neki az EZ A JÁTÉKOS lapkát, az éjjeliőr jelölőjét, majd mutass rá az éjjeliőr játékosra. :reminder:",
         "reminders": [
-            "Nincs képessége"
+            "Nincs képesség"
         ],
         "setup": false,
         "ability": "Játékonként egyszer, éjszaka válassz egy játékost: megtudja, hogy te vagy az éjjeliőr.",
-        "flavor": "The night is cold and lonely, but I have the moon, the stars, the crisp wind and the soft thud of leather boots on cobbled stone for company. Yonder, candlelight flickers behind a murky window..."
+        "flavor": "Hideg és magányos az éjszaka, de itt van nekem társaságnak a Hold, a csillagok, a friss, csípős szél és a csizmatalp halk nesze a kockaköveken. Nicsak, amott gyertyafény pislákol egy homályos ablakban…"
     },
     {
         "id": "courtier",
@@ -587,11 +587,11 @@
             "Részeg 3",
             "Részeg 2",
             "Részeg 1",
-            "Nincs képessége"
+            "Nincs képesség"
         ],
         "setup": false,
         "ability": "Játékonként egyszer, éjjel válassz egy karaktert: 3 éjjelre és 3 nappalra részeg lesz.",
-        "flavor": "I am more afraid of an army of one hundred sheep led by a lion than an army of one hundred lions led by a sheep."
+        "flavor": "Jobban tartok egy száz birkából álló hadseregtől, melyet egy oroszlán vezet, mint egy száz oroszlánból álló hadseregtől, melyet egy birka vezet."
     },
     {
         "id": "seamstress",
@@ -601,11 +601,11 @@
         "firstNightReminder": "Választhat 2 játékost. Bólints vagy rázd meg a fejed. :reminder:",
         "otherNightReminder": "Választhat 2 játékost. Bólints vagy rázd meg a fejed. :reminder:",
         "reminders": [
-            "Nincs képessége"
+            "Nincs képesség"
         ],
         "setup": false,
         "ability": "Játékonként egyszer, éjjel válassz két játékost (ne magadat): megtudod, hogy egy oldalhoz tartoznak-e.",
-        "flavor": "Did you hear that stranger in the cashmere coat put the word on our young Belle? And she said yes? Well, that's nothing compared to what Harry and that juggler got up to at the fair! The things I could say if I was a tattletale... my, yes."
+        "flavor": "Hallottad, hogy az a kasmírkabátos idegen megkörnyékezte az ifjú Hannánkat? Ő pedig igent mondott? De ez még semmi ahhoz képest, amit Harry és az a zsonglőr műveltek a vásárban! Lenne mit mesélnem, ha csak egy kicsit is pletykás lennék... úgy bizony."
     },
     {
         "id": "philosopher",
@@ -628,35 +628,35 @@
                 "name": "replace-character"
             }
         ],
-        "flavor": "If anything is real, beer is real. Drink, for tomorrow we may die."
+        "flavor": "Ha valami biztos az életben, hát a sör az. Igyál, mert holnap lehet, hogy meghalunk."
     },
     {
         "id": "huntsman",
         "name": "Vadász",
         "edition": "carousel",
         "team": "townsfolk",
-        "firstNightReminder": "Kiválaszthat egy játékost. :reminder: Ha a királylányt választotta: Altasd vissza a vadászt. Ébreszd fel a választott játékost. Mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és az új karakterjelölőjét.",
-        "otherNightReminder": "Kiválaszthat egy játékost. :reminder: Ha a királylányt választotta: Altasd vissza a vadászt. Ébreszd fel a választott játékost. Mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és az új karakterjelölőjét.",
+        "firstNightReminder": "A vadász választhat egy játékost. :reminder: Ha a királylányt választja: Altasd vissza a vadászt. Ébreszd fel a királylányt, mutasd meg neki az EZ VAGY MOSTANTÓL lapkát és az új karaktere jelölőjét.",
+        "otherNightReminder": "A vadász választhat egy játékost. :reminder: Ha a királylányt választja: Altasd vissza a vadászt. Ébreszd fel a királylányt, mutasd meg neki az EZ VAGY MOSTANTÓL lapkát és az új karaktere jelölőjét.",
         "reminders": [
-            "Nincs képessége"
+            "Nincs képesség"
         ],
         "setup": true,
         "ability": "Játékonként egyszer, éjjel válassz egy élő játékost: ha a királylányt választod, játékon kívüli városlakóvá válik. [+a királylány]",
-        "flavor": "My cabin is warm and sturdy. My axe by the door, my boots drying by the fire, and elk stew a-simmering… Hark! A scream echoes through the valley! The rain and the mud and the cold, cold wind mask the scent of the wolves, but I know the path and my pace is steady. I am coming."
+        "flavor": "A kunyhóm jól fűtött, biztonságos menedék. A fejszém az ajtónál, a csizmám a tűznél szárad, és gyöngyözve forr a jávorszarvas pörkölt... De mi ez? Egy sikoly visszhangzik végig a völgyön! Az eső, a sár és a metsző, hideg szél elfedi a farkasok szagát, de én jól ismerem az utat, és nem inognak meg a lépteim. Rögvest ott vagyok."
     },
     {
         "id": "professor",
         "name": "Professzor",
         "edition": "bmr",
         "team": "townsfolk",
-        "otherNightReminder": "Választhat egy halott játékost. :reminder: :reminder:",
+        "otherNightReminder": "A professzor választhat egy halott játékost. :reminder: :reminder:",
         "reminders": [
             "Élő",
-            "Nincs képessége"
+            "Nincs képesség"
         ],
         "setup": false,
         "ability": "Játékonként egyszer, éjjel* válassz egy halott játékost: ha városlakó, akkor feltámad.",
-        "flavor": "The process is simple. Attach the hydraulic confabulator to the modified chi matrix amplifier, add 20 CCs of pseudodorafine, keep his Z levels above 20%, and your husband will be fine. Now, all we need is a lightning strike."
+        "flavor": "Az eljárás egyszerű. Csatlakoztasd a hidraulikus konfabulátort a módosított chi mátrix erősítőhöz, adj hozzá 20 köbcenti pszeudodorafint, tartsd a Z-szintjét 20% felett, és a férjed rendbe jön. Most már csak egy villámcsapásra van szükségünk."
     },
     {
         "id": "artist",
@@ -664,11 +664,11 @@
         "edition": "snv",
         "team": "townsfolk",
         "reminders": [
-            "Nincs képessége"
+            "Nincs képesség"
         ],
         "setup": false,
         "ability": "Játékonként egyszer, nappal a mesélő privátban válaszol egy eldöntendő kérdésedre.",
-        "flavor": "Mon Dieu! C'est lumineux! My work, she is... how you say... Magnifique! Dieu est révélé! Oui."
+        "flavor": "Mon Dieu! C'est lumineux! A munkám, ő... mi is a szó... Magnifique! Dieu est révélé! Oui."
     },
     {
         "id": "slayer",
@@ -676,11 +676,11 @@
         "edition": "tb",
         "team": "townsfolk",
         "reminders": [
-            "Nincs képessége"
+            "Nincs képesség"
         ],
         "setup": false,
         "ability": "Játékonként egyszer, nappal nyilvánosan válassz ki egy játékost: ha ő a démon, meghal.",
-        "flavor": "Die."
+        "flavor": "Pusztulj!"
     },
     {
         "id": "fisherman",
@@ -688,31 +688,31 @@
         "edition": "carousel",
         "team": "townsfolk",
         "reminders": [
-            "Nincs képessége"
+            "Nincs képesség"
         ],
         "setup": false,
         "ability": "Játékonként egyszer, napközben kérj tanácsot a mesélőtől, hogy hogyan győzhet a csapatod.",
-        "flavor": "This was my favourite part of the river... see how the sunlight makes a rainbow from the monastery to the market? This was the best place for big fish. And the older I get, the bigger they were."
+        "flavor": "Ez volt a kedvenc helyem a folyó mentén... látod, milyen szép szivárványt fest a napfény a kolostor és a piac közé? Itt lehetett a legnagyobb halakat fogni. És ahogy múlt az idő, egyre nagyobbak lettek."
     },
     {
         "id": "princess",
         "name": "Hercegnő",
         "team": "townsfolk",
         "edition": "carousel",
-        "otherNightReminder": "Ha a hercegnő gyanúsította a ma kivégzett játékost, ma éjjel a szokásos módon ébreszd fel a démont, de senki sem hal meg a képessége által. :reminder:",
+        "otherNightReminder": "Ha a hercegnő gyanúsította azt a játékost, akit ma kivégeztek, ébreszd fel a démont a szokásos módon, de senki sem hal meg a démon képessége miatt. :reminder:",
         "reminders": [
             "Nem öl"
         ],
         "setup": false,
         "ability": "Ha az első napon gyanúsítasz egy játékost és kivégzik, a démon nem öl meg senkit aznap éjjel.",
-        "flavor": "Our words are hounds, bound by silken threads, dear lords. Let kindness weave them true, lest the reigns unravel and rend our court."
+        "flavor": "Szavaink selyemszálakon tartott vadászebek, drága nagyurak. Hadd fonja e szálakat erős igazsággá a kedvesség, különben elszabadulva szétzilálják udvarunkat."
     },
     {
         "id": "juggler",
         "name": "Zsonglőr",
         "edition": "snv",
         "team": "townsfolk",
-        "otherNightReminder": "Mutasd fel annyi ujjadat, ahány karakter mellett *HELYES* emlékeztető van,",
+        "otherNightReminder": "Mutasd fel annyi ujjadat, ahány karakter mellett HELYES emlékeztető van.",
         "reminders": [
             "Helyes",
             "Helyes",
@@ -722,7 +722,7 @@
         ],
         "setup": false,
         "ability": "Az első napon tippeld meg nyilvánosan legfeljebb öt játékos karakterét. Aznap éjjel megtudod, hány tipped volt helyes.",
-        "flavor": "For my next trick, as per request, I will need a flower, a bag of beans, a toy snake, a paintbrush, and a motorized gasoline-powered hedge trimming device. I warn you, this trick may be my last. Oh dear."
+        "flavor": "A következő trükkömhöz, a megbeszéltek szerint, szükségem lesz egy szál virágra, egy zsák babra, egy játékkígyóra, egy ecsetre és egy benzinmotoros sövénynyíróra. Figyelem, lehet, hogy ez lesz az utolsó mutatványom. Na lássuk."
     },
     {
         "id": "soldier",
@@ -732,14 +732,14 @@
         "reminders": [],
         "setup": false,
         "ability": "Védve vagy a démontól.",
-        "flavor": "As David said to Goliath, as Theseus said to the Minotaur, as Arjuna said to Bhagadatta... No."
+        "flavor": "Ahogy Dávid mondta Góliátnak, ahogy Thészeusz mondta a Minótaurosznak, ahogy Ardzsuna mondta Bhagadattának: Nem."
     },
     {
         "id": "alchemist",
         "name": "Alkimista",
         "edition": "carousel",
         "team": "townsfolk",
-        "firstNightReminder": "Mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és egy csatlós karakterjelölőt.",
+        "firstNightReminder": "Mutasd meg az EZ VAGY MOSTANTÓL lapkát, majd egy csatlós jelölőjét.",
         "reminders": [],
         "remindersGlobal": [
             "Ő az alkimista"
@@ -752,7 +752,7 @@
                 "name": "replace-character"
             }
         ],
-        "flavor": "Visit the interior of the Earth. By rectification thou shalt find the hidden stone. Above the gold, lieth the red. Kether in Malkuth."
+        "flavor": "Szállj alá a Föld gyomrába. Tisztítás révén rálelhetsz a rejtett kőre. Az arany felett ott fekszik a vörös. Keter Malkhútban."
     },
     {
         "id": "cannibal",
@@ -764,16 +764,16 @@
             "Kaja"
         ],
         "setup": false,
-        "ability": "Megkapod a legutóbb kivégzésben meghalt karakter képességét. Ha gonosz volt, mérgezett vagy, amíg egy jó játékost ki nem végeznek.",
-        "flavor": "I don’t like clowns. They taste funny."
+        "ability": "Megkapod a legutóbb kivégzésben meghalt karakter képességét. Ha gonosz volt, mérgezett vagy, amíg egy jó játékost ki nem végeznek. ",
+        "flavor": "Nem szeretem a bohócokat. Csiklandozzák a torkomat."
     },
     {
         "id": "amnesiac",
-        "name": "Amnéziás",
+        "name": "AMNÉZIÁS",
         "edition": "carousel",
         "team": "townsfolk",
-        "firstNightReminder": "Tedd azt, amit az amnéziás képességével kapcsolatban tenned kell.",
-        "otherNightReminder": "Tedd azt, amit az amnéziás képességével kapcsolatban tenned kell.",
+        "firstNightReminder": "Tegyél meg mindent, amit az amnéziás képessége miatt szükséges.",
+        "otherNightReminder": "Tegyél meg mindent, amit az amnéziás képessége miatt szükséges.",
         "reminders": [
             "?",
             "?",
@@ -781,18 +781,18 @@
         ],
         "setup": false,
         "ability": "Nem tudod, mi a képességed. Minden nap megtippelheted privátban, és megtudod, mennyire voltál közel hozzá.",
-        "flavor": "Wait. What. Who? Oh, ok. Wait. What?"
+        "flavor": "Várj csak... Micsoda? Hogy ki? Ja, rendben. Várj csak... Micsoda?"
     },
     {
         "id": "farmer",
         "name": "Földműves",
         "edition": "carousel",
         "team": "townsfolk",
-        "otherNightReminder": "Ha ma éjjel meghalt a földmves, ébressz fel egy élő jó játékost. Mutasd meg az *EZ VAGY MOSTANTÓL* jelölőt és a földműves jelölőjét.",
+        "otherNightReminder": "Ha a földműves meghalt ezen az éjszakán, ébressz fel egy élő jó játékost. Mutasd meg az EZ VAGY MOSTANTÓL lapkát, majd a földműves jelölőjét.",
         "reminders": [],
         "setup": false,
         "ability": "Ha éjjel meghalsz, egy élő jó játékosból földműves lesz. ",
-        "flavor": "Even the high and mighty need food on the table. Without us, the city starves."
+        "flavor": "Még a leghatalmasabb urak sem élhetnek táplálék nélkül. Nélkülünk a város éhezik."
     },
     {
         "id": "minstrel",
@@ -804,53 +804,53 @@
         ],
         "setup": false,
         "ability": "Amikor egy csatlóst kivégeznek és emiatt meghal, az összes többi játékos (az utazók kivételével) részeg lesz másnap alkonyatig.",
-        "flavor": "And I shall hear, tho' soft you tread above me... And all my dreams will warm and sweeter be... If you'll not fail to tell me that you love me... I simply sleep in peace until you come to me."
+        "flavor": "Te megkeresed őt, ha szíved éget, \nŐ muzsikál és megvigasztal téged. \nEgy nóta, és te boldog könnyet ejtesz, \nÉs minden rosszat elfelejtesz."
     },
     {
         "id": "ravenkeeper",
         "name": "Hollóőr",
         "edition": "tb",
         "team": "townsfolk",
-        "otherNightReminder": "Ha ma éjjel halt meg, kiválaszt egy játékost. Mutasd meg neki a játékos karakterjelőlőjét.",
+        "otherNightReminder": "Ha ma éjjel halt meg, kiválaszt egy játékost. Mutasd meg neki a játékos karakterjelölőjét.",
         "reminders": [],
         "setup": false,
         "ability": "Ha éjjel meghalsz, felébredsz, hogy válassz egy játékost, akinek megismered a karakterét.",
-        "flavor": "My birds will avenge me! Fly! Fly, my sweet and dutiful pets! To the manor and to the river! To the alleys and to the salons! Fly!"
+        "flavor": "A madaraim bosszút állnak értem! Szálljatok! Szálljatok, drága hűséges jószágaim! A kastélyba és a folyóhoz! A sikátorokba és a szalonokba! Szálljatok!"
     },
     {
         "id": "sage",
         "name": "Bölcs",
         "edition": "snv",
         "team": "townsfolk",
-        "otherNightReminder": "Ha a démon megölte, ébreszd fel, és mutass rá 2 játékosra (egyikük a démon legyen).",
+        "otherNightReminder": "Ha a démon megölte a bölcset, ébreszd fel őt, és mutass rá 2 játékosra (egyikük a démon legyen).",
         "reminders": [],
         "setup": false,
         "ability": "Ha a démon megöl, megtudod, hogy melyik két játékos egyike a démon.",
-        "flavor": "These mountainous tomes guard the secret, I am sure of it! Twixt word and word, it lies in wait. More candles, boy! More ink! These notes may look arcane, but the infernal puzzle is revealing itself."
+        "flavor": "Ezek a vaskos kötetek rejtik a titkot, biztosan érzem! Ott lapul a sorok között, csak meg kell fejtenem. Hé, fiú, hozz még gyertyát! Tintát is! Ezek az írások tele vannak misztikus titkokkal, de hamarosan feltárul előttem e pokoli rejtvény nyitja."
     },
     {
         "id": "choirboy",
         "name": "Kórista",
         "edition": "carousel",
         "team": "townsfolk",
-        "otherNightReminder": "Ha a démon megölte a királyt, mutass rá a démon játékosra.",
+        "otherNightReminder": "Ha a démon ölte meg a királyt, mutass rá a démon játékosra.",
         "reminders": [],
         "setup": true,
         "ability": "Ha a démon megöli a királyt, megtudod, hogy melyik játékos a démon. [+a király]",
-        "flavor": "I saw it, I did. I was in the pews, tidying the hymn books, when a dreadful tune started from the pipe organ. The organist had a long cloak, and long fingers on the keys. And a hat that looked… just like… yours."
+        "flavor": "Láttam, tényleg láttam. Épp a padok közt rendezgettem az énekeskönyveket, mikor egy rettenetes hang csendült fel az orgonán. Láttam az orgonista hosszú köpenyét, és hosszú ujjait a billentyűkön. És a fején a kalapot, ami pont olyan volt... mint a tiéd."
     },
     {
         "id": "banshee",
         "name": "Banshee",
         "team": "townsfolk",
         "edition": "carousel",
-        "otherNightReminder": "Ha a Banshee-t ma éjjel megölte a démon, jelentsd be, hogy a Banshee meghalt. :reminder:",
+        "otherNightReminder": "Ha a démon ezen az éjszakán megölte a Bansheet, jelentsd be, hogy a Banshee meghalt. :reminder:",
         "reminders": [
-            "Van képessége"
+            "Van képesség(e) / Ez a képessége"
         ],
         "setup": false,
         "ability": "Ha a démon megöl, arról minden játékos tudomást szerez. Ettől kezdve naponta kétszer gyanúsíthatsz, és duplán szavazhatsz.",
-        "flavor": "Gorm do shúile, dearg do ghruaig, ní bheidh sé i bhfad, is a mbeidh tú san uaigh."
+        "flavor": "Gorm do shúile, dearg do ghruaig, ní bheidh sé i bhfad, egy mbeidh tú san uaigh."
     },
     {
         "id": "tealady",
@@ -863,7 +863,7 @@
         ],
         "setup": false,
         "ability": "Ha mindkét élő szomszédod jó, nem halhatnak meg.",
-        "flavor": "If you are cold, tea will warm you. If you are too heated, tea will cool you. If you are depressed, tea will cheer you. If you are excited, tea will calm you."
+        "flavor": "Ha fázol, a tea felmelegít. \nHa meleged van, a tea hűsít. \nHa szomorú vagy, a tea felvidít. \nHa izgatott vagy, a tea megnyugtat."
     },
     {
         "id": "mayor",
@@ -872,8 +872,8 @@
         "team": "townsfolk",
         "reminders": [],
         "setup": false,
-        "ability": "Ha csak három játékos él, és alkonyatig nincs kivégzés, a csapatod győz. Ha éjjel meghalnál, más halhat meg helyetted.",
-        "flavor": "We must put our differences aside, and cease this senseless killing. We are all taxpayers after all. Well, most of us."
+        "ability": "Ha csak 3 játékos él, és alkonyatig nincs kivégzés, a csapatod győz. Ha éjjel meghalnál, más halhat meg helyetted.",
+        "flavor": "Félre kell tennünk a nézeteltéréseinket, hogy véget vessünk ennek az értelmetlen öldöklésnek. Elvégre mindannyian tisztes adófizetők vagyunk. Legalábbis a legtöbben."
     },
     {
         "id": "fool",
@@ -881,11 +881,11 @@
         "edition": "bmr",
         "team": "townsfolk",
         "reminders": [
-            "Nincs képessége"
+            "Nincs képesség"
         ],
         "setup": false,
         "ability": "Az első alkalommal, amikor meghalnál, életben maradsz.",
-        "flavor": "...and the King said 'What?! I've never even owned a pair of rubber pantaloons, let alone a custard cannon!' Ho-ho! Jolly day!"
+        "flavor": "...mire a király: 'Micsoda?! Sose volt nekem gumibugyim, nemhogy pudingágyúm!' Ha-ha-ha! Vidám napot!"
     },
     {
         "id": "virgin",
@@ -893,36 +893,36 @@
         "edition": "tb",
         "team": "townsfolk",
         "reminders": [
-            "Nincs képessége"
+            "Nincs képesség"
         ],
         "setup": false,
         "ability": "Az első alkalommal, amikor meggyanúsítanak, és ezt egy városlakó teszi, azonnal kivégzik őt.",
-        "flavor": "I am pure. Let those who are without sin cast themselves down and suffer in my stead. My reputation shall not be stained with your venomous accusations."
+        "flavor": "Én tiszta vagyok. A bűntelenek vállalják a büntetést, és szenvedjenek helyettem. Az én becsületemet nem mocskolhatják be aljas rágalmak."
     },
     {
         "id": "magician",
         "name": "Szemfényvesztő",
         "edition": "carousel",
         "team": "townsfolk",
-        "firstNightReminder": "A Csatlósok információja során mutass rá a szemfényvesztőre és a démonra. A Démon információja során mutass rá a szemfényvesztőre és a csatlósokra.",
+        "firstNightReminder": "A Csatlósok információja lépés során mutass rá a szemfényvesztőre és a démonra. A Démon információja lépés során mutass rá a szemfényvesztőre és a csatlósokra.",
         "reminders": [],
         "setup": false,
         "ability": "A démon azt hiszi, hogy csatlós vagy. A csatlósok azt hiszik, hogy démon vagy.",
-        "flavor": "1... 2... Abra... 3... 4... Cadabra... *poof!* And, as you can see, ladies and gentlemen, Captain Farnsworth’s bag of gold has disappeared! Gone! Without a trace! Thank you, and goodnight!"
+        "flavor": "1...2... Abra...3... 4... kadabra...puff! És amint látják, hölgyeim és uraim, Farnsworth kapitány zsák aranya eltűnt!Köddé vált! Minden nyom nélkül! Köszönöm a figyelmüket, mindenkinek jó éjszakát!"
     },
     {
         "id": "poppygrower",
         "name": "Máktermesztő",
         "edition": "carousel",
         "team": "townsfolk",
-        "firstNightReminder": "Hagyd ki a Csatlósok információja és a Démon informácója lépéseket. Mutasd meg az *EZEK A KARAKTEREK NINCSENEK JÁTÉKBAN* lapkát. Mutass 3 jó karaktert, amik nincsenek játékban.",
-        "otherNightReminder": "Ha a máktermesztő ma halt meg, ébressz fel minden csatlóst. Mutasd meg nekik az *Ő A DÉMON* lapkát, és mutass rá a démonra. Altasd vissza a csatlósokat, majd ébreszd fel a démont. Mutasd meg az *ŐK A CSATLÓSAID* lapkát, és egyesével mutass rá a csatlósokra.",
+        "firstNightReminder": "Hagyd ki a Csatlósok információja és a Démon információja lépéseket. Ébreszd fel a démont. Mutasd meg az EZEK A KARAKTEREK NINCSENEK JÁTÉKBAN lapkát, és 3 jó karakter jelölőjét, amelyek nincsenek játékban.",
+        "otherNightReminder": "Ha a máktermesztő meghalt a mai napon vagy ma éjjel, ébressz fel minden csatlóst. Mutasd meg nekik az Ő A DÉMON lapkát, és mutass rá a démonra. Altasd vissza a csatlósokat. Ébreszd fel a démont, Mutasd meg az ŐK A CSATLÓSAID lapkát, és mutass rá a többi csatlósra. ",
         "reminders": [
-            "A gonoszok ébrednek"
+            "Gonosz ébred"
         ],
         "setup": false,
         "ability": "A csatlósok és démonok nem ismerik egymást. Ha meghalsz, azon az éjszakán tudomást szereznek egymásról.",
-        "flavor": "In the hidden groves of the deep forest, the black poppy dwells. To see its revelry is to be enchanted. To smell its thick aroma is to be lost forever, a slave to the gods of light and dark."
+        "flavor": "Az erdő mélyének titkos kertjében fekete mákra lelhetsz. Ha csak megpillantod, máris elvarázsol. S ha megérzed sűrű illatát, örökre a fény és sötétség isteneinek rabságába esel."
     },
     {
         "id": "pacifist",
@@ -932,7 +932,7 @@
         "reminders": [],
         "setup": false,
         "ability": "A kivégzett jó játékosok lehet, hogy életben maradnak.",
-        "flavor": "Distrust all in whom the impulse to punish is powerful."
+        "flavor": "Ne bízzatok senkiben, aki túl buzgón vágyik megbüntetni másokat."
     },
     {
         "id": "atheist",
@@ -948,7 +948,7 @@
                 "name": "good-duplicate"
             }
         ],
-        "flavor": "Let us disperse with unnecessary conjecture and silly paranoia. There is a perfectly rational explanation for everything. Yes, a teacup may indeed be orbiting the planet, too small to see, but I shall drink my tea from the very real china in my very real hands."
+        "flavor": "Hagyjunk fel az alaptalan feltevésekkel, és oszlassuk el az ostoba félelmeket. Mindennek van tökéletesen racionális magyarázata. Igen, elképzelhető, hogy egy teáscsésze egy szabad szemmel nem látható bolygó körül kering, de én mégis a nagyon is valóságos csészémből fogom meginni a nagyon is valóságos teámat."
     },
     {
         "id": "hermit",
@@ -962,7 +962,7 @@
         ],
         "setup": true,
         "ability": "Minden kívülálló képességével rendelkezel. [-0 vagy -1 kívülálló]",
-        "flavor": "In the lost and forgotten places of the earth, the soul’s light beckons."
+        "flavor": "A föld elveszett és elfeledett helyein a lélek fénye hívogat."
     },
     {
         "id": "butler",
@@ -972,11 +972,11 @@
         "firstNightReminder": "Kiválaszt egy játékost. :reminder:",
         "otherNightReminder": "Kiválaszt egy játékost. :reminder:",
         "reminders": [
-            "Mester"
+            "Úr"
         ],
         "setup": false,
         "ability": "Minden éjjel válassz egy játékost (ne magadat): holnap csak akkor szavazhatsz, ha ő is szavaz.",
-        "flavor": "Yes, sir... No, sir... Certainly, sir."
+        "flavor": "Igen, uram... Nem, uram... Természetesen, uram."
     },
     {
         "id": "goon",
@@ -988,7 +988,7 @@
         ],
         "setup": false,
         "ability": "Minden éjjel az első játékos, aki a képességével kiválaszt téged, alkonyatig részeg lesz. Átállsz az ő oldalára.",
-        "flavor": "Yes boss. I explained fings real good to dat geezer. He don't want me explain it again. Nah boss, I don't need no doctor - it's only a knife wound. Be right come mornin'"
+        "flavor": "Így van, főnök. Nagyon világosan tudtára adtam a dolgot az ipsének. Nem kell még egyszer elmondjam neki. Nem, főnök, nem kell ide orvos, ez csak egy késszúrás. Reggelre kutya bajom se lesz."
     },
     {
         "id": "ogre",
@@ -1008,20 +1008,20 @@
         "name": "Eszelős",
         "edition": "bmr",
         "team": "outsider",
-        "firstNightReminder": "Ha 7 vagy több játékos van, ébreszd fel az eszelőst. Mutasd meg az *ŐK A CSATLÓSAID* lapkát, és mutass rá tetszőleges játékosokra. Mutasd meg az *EZEK A KARAKTEREK NINCSENEK JÁTÉKBAN* lapkát és 3 jó karakter jelölőjét. Altasd vissza az eszelőst. Ébreszd fel a démont. Mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és a démon jelölőjét. Mutasd meg az *EZ A JÁTÉKOS* lapkát, az eszelős jelölőjét, és mutass rá az eszelősre",
+        "firstNightReminder": "Ha 7 vagy több játékos van, ébreszd fel az eszelőst. Mutasd meg az ŐK A CSATLÓSAID lapkát, és mutass rá tetszőleges játékosokra. Mutasd meg az EZEK A KARAKTEREK NINCSENEK JÁTÉKBAN lapkát és 3 jó karakter jelölőjét. Altasd vissza az eszelőst. Ébreszd fel a démont. Mutasd meg az EZ VAGY MOSTANTÓL lapkát és a démon jelölőjét. Mutasd meg az EZ A JÁTÉKOS lapkát, az eszelős jelölőjét, és mutass rá az eszelősre.",
         "otherNightReminder": "Mindent úgy csinálj, mintha ő lenne a démon. Altasd vissza az eszelőst, és ébreszd fel a démont. Mutasd meg az eszelős jelölőjét és mutass rá, majd pedig a célpontjára/célpontjaira.",
         "reminders": [
-            "Választott",
-            "Választott",
-            "Választott"
+            "Kiválasztott / Kiválasztva",
+            "Kiválasztott / Kiválasztva",
+            "Kiválasztott / Kiválasztva"
         ],
         "setup": false,
         "ability": "Azt hiszed, hogy démon vagy, pedig nem. A démon tudja, hogy ki vagy, és hogy kit választasz éjjel.",
-        "flavor": "I am the night... I think."
+        "flavor": "Maga vagyok a sötétség... Azt hiszem."
     },
     {
         "id": "drunk",
-        "name": "Részeg",
+        "name": "A részeg",
         "edition": "tb",
         "team": "outsider",
         "reminders": [],
@@ -1040,7 +1040,7 @@
                 "name": "replace-character"
             }
         ],
-        "flavor": "I’m only a *hic* social drinker, my dear. Admittedly, I am a heavy *burp* socializer."
+        "flavor": "Ó, hát tudod – hukk –, én csak a társaság kedvéért iszom. Jó, igazad van – hukk –, nagyon szeretem a társaságot."
     },
     {
         "id": "tinker",
@@ -1053,7 +1053,7 @@
         ],
         "setup": false,
         "ability": "Bármikor meghalhatsz.",
-        "flavor": "I think I see the problem. Luckily, I have an idea! This catapult will shoot twice as far with just a minor adjustment..."
+        "flavor": "Azt hiszem, látom, mi a gond. Szerencsére van egy ötletem! Csak egy kis igazítás, és kétszer olyan messzire fog lőni ez a katapult..."
     },
     {
         "id": "recluse",
@@ -1062,8 +1062,8 @@
         "team": "outsider",
         "reminders": [],
         "setup": false,
-        "ability": "Tűnhetsz gonosznak, egy konkrét csatlósnak vagy démonnak is - akár még holtan is.",
-        "flavor": "Garn git ya darn grub ya mitts ofma lorn yasee. Grr. Natsy pikkins yonder southwise ye begittin afta ya! Git! Me harvy no so widda licks and demmons no be fightin' hadsup ne'er ma kin. Git, assay!"
+        "ability": "Tűnhetsz gonosznak, egy konkrét csatlósnak vagy démonnak is – akár még holtan is.",
+        "flavor": "Hinnyemá’ te! Takaroggyá a fűdemrű de izibe, mer’ rögvest miszlikbe nyeszetellek! Teee...! Hogy az öreganyád térgye kalácsát, há’ mit képzűsz te magadrú’?!  Mingyá a patás ördög rugdalja széjjel a valagadat, ha még eccő idetolod a nyüves lepénylesődet!"
     },
     {
         "id": "golem",
@@ -1075,7 +1075,7 @@
         ],
         "setup": false,
         "ability": "A játék során csak egyszer gyanúsíthatsz. Ha az általad gyanúsított játékos nem a démon, meghal.",
-        "flavor": "Golem help? Golem smash! Golem help."
+        "flavor": "Gólem segít? Gólem zúz! Gólem segít."
     },
     {
         "id": "sweetheart",
@@ -1088,20 +1088,20 @@
         ],
         "setup": false,
         "ability": "Ha meghalsz, onnantól kezdve egy játékos részeg lesz.",
-        "flavor": "I will never forget her. Never."
+        "flavor": "Soha nem fogom őt elfelejteni. Soha."
     },
     {
         "id": "plaguedoctor",
         "name": "Pestisdoktor",
         "team": "outsider",
         "edition": "carousel",
-        "otherNightReminder": "Ha a pestisdoktor meghalt, a mesélő kapott egy csatlós képességet. Ha még nem tetted meg, most tedd meg. :reminder:",
+        "otherNightReminder": "Ha a pestisdoktor meghalt, a mesélő megkapta egy csatlós képességét. Ha ezt még nem tetted meg, tedd meg most. :reminder:",
         "reminders": [
             "Mesélő képessége"
         ],
         "setup": false,
         "ability": "Ha meghalsz, a mesélő kap egy csatlós képességet.",
-        "flavor": "Pleauze shtay shtill. Thinks nid tiime for hillink. Myrhh-myrhh."
+        "flavor": "Csak nyugodtan feküdni, kérem. Gyógyulásra kelleni neki idő, én gondol azt. Khm, khmmm."
     },
     {
         "id": "klutz",
@@ -1111,20 +1111,20 @@
         "reminders": [],
         "setup": false,
         "ability": "Amikor megtudod, hogy meghaltál, nyilvánosan válassz egy élő játékost: ha gonosz, a csapatod veszít.",
-        "flavor": "Oops."
+        "flavor": "Hoppá..."
     },
     {
         "id": "moonchild",
         "name": "Holdszülött",
         "edition": "bmr",
         "team": "outsider",
-        "otherNightReminder": "Ha a képessége miatt meg kell halnia egy jó játékosnak, az most meghal. :reminder:",
+        "otherNightReminder": "Ha a holdszülött képessége miatt meg kell halnia egy jó játékosnak, az most meghal. :reminder:",
         "reminders": [
             "Halott"
         ],
         "setup": false,
         "ability": "Mikor megtudod, hogy meghaltál, nyilvánosan válassz ki egy élő játékost. Ha jó játékost választottál, éjjel meghal.",
-        "flavor": "Scorpio looks sideways at the lovers, and you have a choice to make. With silver cross my palm, and your fate shall be revealed. With steel cross my throat, and by the stars you shall regret it."
+        "flavor": "A Skorpió a szerelmesekre tekint, s válaszút elé érsz. Simítsa ezüst tenyerem, és sorsodra fény derül. Simítsa acél torkomat, s a csillagokra esküszöm, bánod majd, míg élsz."
     },
     {
         "id": "saint",
@@ -1133,34 +1133,34 @@
         "team": "outsider",
         "reminders": [],
         "setup": false,
-        "ability": "Ha kivégeznek és meghalsz, a csapatod veszít.",
-        "flavor": "Wisdom begets peace. Patience begets wisdom. Fear not, for the time shall come when fear too shall pass. Let us pray, and may the unity of our vision make saints of us all."
+        "ability": "Ha kivégeznek és emiatt meghalsz, a csapatod veszít.",
+        "flavor": "A bölcsesség békét szül. A türelem bölcsességre vezet. Ne féljetek, mert eljő az idő, midőn a félelemnek vége szakad. Imádkozzunk, hogy közös látomásunk ereje által mindannyian megszentelődjünk."
     },
     {
         "id": "barber",
         "name": "Borbély",
         "edition": "snv",
         "team": "outsider",
-        "otherNightReminder": "Ha ma halt meg a borbély, mutasd meg a démonnak az *Ő KIVÁLASZTOTT TÉGED* lapkát és a borbély jelölőjét. Ha a démon kiválaszt 2 játékost, egyesével ébreszd fel őket. Mutasd meg nekik az *EZ VAGY MOSTANTÓL lapkát és az új karakterük jelölőjét.",
+        "otherNightReminder": "Ha ma halt meg a borbély, mutasd meg a démonnak az Ő KIVÁLASZTOTT TÉGED lapkát és a borbély jelölőjét. Ha a démon kiválaszt 2 játékost, egyesével ébreszd fel őket. Mutasd meg nekik az EZ VAGY MOSTANTÓL lapkát és az új karakterük jelölőjét.",
         "reminders": [
-            "Hajat vág ma éjjel"
+            "Fazonigazítás"
         ],
         "setup": false,
-        "ability": "A halálodat követő éjjelen a démon felcserélheti két játékos karakterét (másik démonét nem).",
-        "flavor": "Did you know that barbery and surgery were once the same profession? No? Well, now you do."
+        "ability": "A halálodat követő éjjelen a démon felcserélheti két játékos karakterét (másik démonét nem). ",
+        "flavor": "Tudtad, hogy a borbélyok régen műtöttek is? Nem? Na, hát most már tudod."
     },
     {
         "id": "hatter",
         "name": "Kalapos",
         "team": "outsider",
         "edition": "carousel",
-        "otherNightReminder": "Ha a kalapos meghalt, egyesével ébreszd fel a csatlós és démon játékosokat. Választhatnak egy új karaktert. Ha így tesznek, mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és az új karakterjelzőjüket.",
+        "otherNightReminder": "Ha a kalapos meghalt, ébreszd fel a csatlósokat és démonokat. Mindegyikük választhat egy új karaktert. Aki választ, annak mutasd meg az EZ VAGY MOSTANTÓL lapkát és az új karaktere jelölőjét.",
         "reminders": [
-            "Ma este teaparti"
+            "Este teaparti"
         ],
         "setup": false,
         "ability": "Ha meghalsz, a démon és csatlós játékosok új démon és csatlós karaktereket választhatnak maguknak.",
-        "flavor": "One Hat. Too Hat. Three Hat. Tea Hat. Fore Hat. Thrive Hat. Six Hat. Sticks Hat."
+        "flavor": "Egy kalap. Kép kalap. Három kalap.Nézd kalap. Öt kalap. Halld kalap. Hé kalap!"
     },
     {
         "id": "mutant",
@@ -1170,7 +1170,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Ha rögeszmésen ragaszkodsz hozzá, hogy kívülálló vagy, kivégezhetnek.",
-        "flavor": "I am not a freak! I am a human being! Have mercy!"
+        "flavor": "Nem vagyok szörnyszülött! Emberi lény vagyok! Könyörüljetek rajtam!"
     },
     {
         "id": "politician",
@@ -1179,8 +1179,8 @@
         "team": "outsider",
         "reminders": [],
         "setup": false,
-        "ability": "Ha a csapatod főleg neked köszönheti, hogy veszít, oldalt váltasz és győzöl, akkor is, ha halott vagy.",
-        "flavor": "I'm glad you asked that question. Truly, I am. But I think the REAL question here is..."
+        "ability": "Ha a csapatod főleg neked köszönheti, hogy veszít, oldalt váltasz és győzöl, akkor is, ha halott vagy. ",
+        "flavor": "Örülök, hogy feltetted ezt a kérdést. De tényleg. A VALÓDI kérdés azonban az, hogy..."
     },
     {
         "id": "zealot",
@@ -1190,32 +1190,32 @@
         "reminders": [],
         "setup": false,
         "ability": "Ha 5 vagy több játékos van életben, minden gyanúsítottra szavaznod kell.",
-        "flavor": "I enjoy talking to you. Your mind appeals to me. It resembles my own mind except that you happen to be insane."
+        "flavor": "Szeretek veled beszélgetni. Nagyon megnyerőek a gondolataid. Hasonlítanak az enyémekre, azzal a különbséggel, hogy te őrült vagy."
     },
     {
         "id": "damsel",
         "name": "Királylány",
         "edition": "carousel",
         "team": "outsider",
-        "firstNightReminder": "A Csatlósok információja során mutasd meg a csatlósoknak a királylány jelzőjét. Ha még nem tetted, tedd meg most. Ha a vadász kiválasztotta a királylányt, mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és az új karakterének jelzőjét.",
-        "otherNightReminder": "Ha a vadász kiválasztotta a királylányt, mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és az új karakterének jelzőjét.",
+        "firstNightReminder": "A Csatlósok információja lépés során mutasd meg a csatlósoknak a királylány jelölőjét. Ha még nem tetted meg, tedd meg most. Ha a királylányt kiválasztotta a vadász, mutasd meg neki az EZ VAGY MOSTANTÓL lapkát és az új karaktere jelölőjét.",
+        "otherNightReminder": "Ha a királylányt kiválasztotta a vadász, mutasd meg neki az EZ VAGY MOSTANTÓL lapkát és az új karaktere jelölőjét.",
         "reminders": [
             "Tipp elhasználva"
         ],
         "setup": false,
         "ability": "Minden csatlós tudja, hogy a királylány játékban van. Egyikük egyszer nyilvánosan tippelhet: ha eltalálja, hogy te vagy az, a csapatod veszít.",
-        "flavor": "Don't touch the hair, honey."
+        "flavor": "Ne nyúlj a hajadhoz, édesem."
     },
     {
         "id": "snitch",
         "name": "Besúgó",
         "edition": "carousel",
         "team": "outsider",
-        "firstNightReminder": "Egyesével ébreszd fel a csatlósokat. Mutasd meg az *EZEK A KARAKTEREK NINCSENEK JÁTÉKBAN* lapkát, és 3 jó karakter jelölőjét, amelyek nincsenek játékban.",
+        "firstNightReminder": "Ébreszd fel a csatlósokat. Mutasd meg az EZEK A KARAKTEREK NINCSENEK JÁTÉKBAN lapkát, és 3 karakter jelölőjét, amelyek nincsenek játékban.",
         "reminders": [],
         "setup": false,
         "ability": "Minden csatlós kap 3 karaktert a blöfföléshez.",
-        "flavor": "It was John."
+        "flavor": "Jani volt az."
     },
     {
         "id": "heretic",
@@ -1225,7 +1225,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Aki győz, veszít és aki veszít, az győz – akkor is, ha halott vagy.",
-        "flavor": "After the hail has smashed the roof and splintered the glass of the Cathedral windows, it melts again into the earth, like a dying lamb in the desert sun. Such is the parable of the madman."
+        "flavor": "Miután a jégeső beszakította a tetőt és szilánkokra zúzta a katedrális ablakait, elolvad és eggyé válik a földdel, mint a haldokló bárány a sivatagi napsütésben. Így szól az őrült példabeszéde."
     },
     {
         "id": "puzzlemaster",
@@ -1238,37 +1238,37 @@
         ],
         "setup": false,
         "ability": "1 játékos részeg, akkor is, ha meghalsz. Egyszer tippelhetsz, hogy ki az. Ha kitalálod, megtudod, ki a démon, de ha rosszul tippelsz, hamis információt kapsz.",
-        "flavor": "When one begins to think that some thing is merely some other thing, one is usually on the brink of an error. Patience, patience. Don’t confuse just and should with is and isn’t."
+        "flavor": "Ha valaki arra jut, hogy egy dolog pusztán egy másik dolog, az általában tévedéshez vezet. Csigavér, ne kapkodjunk. Ne keverjük össze az elvárásainkat a valósággal."
     },
     {
         "id": "mezepheles",
         "name": "Mefisztó",
         "edition": "carousel",
         "team": "minion",
-        "firstNightReminder": "Show the secret word.",
-        "otherNightReminder": "Ha egy jó játékos kimondta a titkos jelszót, ébreszd fel őt. Mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és egy lefelé tartott hüvelykujjat. :reminder: :reminder:",
+        "firstNightReminder": "Mutasd meg a titkos jelszót.",
+        "otherNightReminder": "Ha egy jó játékos kimondta a titkos jelszót, ébreszd fel ezt a játékost. Mutasd meg neki az EZ VAGY MOSTANTÓL lapkát, majd a lefelé fordított hüvelykujjadat. :reminder: :reminder:",
         "reminders": [
             "Gonosszá válik",
-            "Nincs képessége"
+            "Nincs képesség"
         ],
         "setup": false,
         "ability": "A játék kezdetén megismersz egy titkos jelszót. Az 1. jó játékos, aki ezt kimondja, a következő éjjel gonosszá válik.",
-        "flavor": "That which issues from the heart alone, will bend the hearts of others to your own."
+        "flavor": "Ami szívből jön, csak arra dobbannak meg más szivek."
     },
     {
         "id": "godfather",
         "name": "Keresztapa",
         "edition": "bmr",
         "team": "minion",
-        "firstNightReminder": "Mutasd meg neki a játékban lévő összes kívülálló karakterjelölőjét.",
+        "firstNightReminder": "Mutasd meg neki az összes játékban lévő kívülálló karakterjelölőjét.",
         "otherNightReminder": "Ha egy kívülálló meghalt a legutóbbi nappal, kiválaszt egy játékost. :reminder:",
         "reminders": [
-            "Ma halt meg",
+            "Ma meghalt",
             "Halott"
         ],
         "setup": true,
         "ability": "Első éjjel megtudod, melyik kívülállók vannak játékban. Ha nappal egyikük meghal, éjjel válassz egy játékost, ő is meghal. [-1 vagy +1 kívülálló]",
-        "flavor": "Normally, it's just business. But when you insult my daughter, you insult me. And when you insult me, you insult my family. You really should be more careful - it would be a shame if you had an unfortunate accident."
+        "flavor": "Persze mindez csak üzlet. De ha megsérted a lányomat, engem sértesz meg. És ha megsértesz engem, megsérted a családomat. Igazán lehetnél körültekintőbb – kár lenne, ha hirtelen baleset érne."
     },
     {
         "id": "poisoner",
@@ -1282,11 +1282,11 @@
         ],
         "setup": false,
         "ability": "Minden éjjel válassz egy játékost: a következő nappal végéig mérgezett lesz.",
-        "flavor": "Add compound Alpha to compound Beta... NOT TOO MUCH!"
+        "flavor": "Vegyíts egy kevés alfa oldatot a bétához... DE NE TÚL SOKAT!"
     },
     {
         "id": "devilsadvocate",
-        "name": "Az örödg ügyvédje",
+        "name": "Az ördög ügyvédje",
         "edition": "bmr",
         "team": "minion",
         "firstNightReminder": "Kiválaszt egy élő játékost. :reminder:",
@@ -1296,7 +1296,7 @@
         ],
         "setup": false,
         "ability": "Minden éjjel válassz egy élő játékost (mást, mint előző éjjel): ha holnap kivégzik, nem hal meg.",
-        "flavor": "My client, should the objection be overruled, pleads innocent by virtue of the prosecution's non-observance of statute 27.B - incorrect or misleading conjugation of a verb. The fact that nine of the jury died last night is simply prima facie, which is, as Wills vs Thule set precedent for, further reason to acquit."
+        "flavor": "Ügyfelem, ha ellenvetését elutasítják, ártatlannak vallja magát a vád törvényszegése, jelesül a 27/B paragrafus megsértését eredményező helytelen igeragozás miatt. Az a tény, hogy az esküdtszékből kilencen meghaltak tegnap éjjel, egyszerűen prima facie, ami – amint azt a Wills kontra Thule-ügy megmutatta – további ok a felmentésre."
     },
     {
         "id": "spy",
@@ -1315,22 +1315,22 @@
             }
         ],
         "ability": "Minden éjjel belenézel a grimoárba. Tűnhetsz jónak és városlakónak vagy kívülállónak is (akár holtan is).",
-        "flavor": "Any brewmaster worth their liquor, knows no concoction pours trouble quicker, than one where spies seem double."
+        "flavor": "Rettegve gyűlik össze a nép, mert tudják,\nnincs annál baljósabb kép,\nmint ha a fellegből kémlelő szempár sötét."
     },
     {
         "id": "harpy",
         "name": "Hárpia",
         "team": "minion",
         "edition": "carousel",
-        "firstNightReminder": "Kiválaszt két játékost. :reminder: :reminder: Altasd vissza a hárpiát. Ébreszd fel az elsőt, majd mutasd meg az *Ő KIVÁLASZTOTT TÉGED* lapkát és a hárpia jelölőjét, majd mutass a második kiválasztott játékosra.",
-        "otherNightReminder": "Kiválaszt két játékost. :reminder: :reminder: Altasd vissza a hárpiát. Ébreszd fel az elsőt, majd mutasd meg az *Ő KIVÁLASZTOTT TÉGED* lapkát és a hárpia jelölőjét, majd mutass a második kiválasztott játékosra.",
+        "firstNightReminder": "Kiválaszt 2 játékost. :reminder: :reminder: Altasd vissza a hárpiát. Ébreszd fel az 1. játékost. Mutasd meg neki az Ő KIVÁLASZTOTT TÉGED lapkát és a hárpia karakterjelölőjét, majd mutass rá a 2. játékosra.",
+        "otherNightReminder": "Kiválaszt 2 játékost. :reminder: :reminder: Altasd vissza a hárpiát. Ébreszd fel az 1. játékost. Mutasd meg neki az Ő KIVÁLASZTOTT TÉGED lapkát és a hárpia karakterjelölőjét, majd mutass rá a 2. játékosra.",
         "reminders": [
-            "Rögeszmés",
-            "Második"
+            "Rögeszmés / Rögeszme",
+            "Másik"
         ],
         "setup": false,
         "ability": "Minden éjjel válassz két játékost: másnap az első játékosnak az lesz a rögeszméje, hogy a második gonosz, különben egyikük vagy mindkettőjük meghalhat.",
-        "flavor": "So fair a day I never did see, nor so fowl a presence hanging over me."
+        "flavor": "Nem láttam még ily szép napot, sem ily szörnyű szárnyas jelenést, melynek árnya ránk vetül."
     },
     {
         "id": "witch",
@@ -1340,50 +1340,50 @@
         "firstNightReminder": "Kiválaszt egy játékost. :reminder:",
         "otherNightReminder": "Kiválaszt egy játékost. :reminder:",
         "reminders": [
-            "Átkozott"
+            "Megátkozott"
         ],
         "setup": false,
         "ability": "Minden éjjel válassz egy játékost: ha másnap gyanúsít, meghal. Ha csak három játékos van életben, elveszíted ezt a képességet.",
-        "flavor": "Three drops of goat's blood. A lock of hair, torn in anger. The name is spoken, the shadow cast. Walk left foot first down that brambled path, and don't look back."
+        "flavor": "Három csepp kecskevér. Egy haraggal kitépett hajtincs. A név kimondatott, az árny rávetült. Indulj bal lábbal a tövises úton, és vissza ne tekints!"
     },
     {
         "id": "cerenovus",
         "name": "Elmebontó",
         "edition": "snv",
         "team": "minion",
-        "firstNightReminder": "Kiválaszt egy játékost és egy karaktert. :reminder: Altasd vissza. Ébreszd fel a választott játékost. Mutasd meg az *Ő KIVÁLASZTOTT TÉGED* lapkát, az elmebontó jelölőjét, majd a karakterjelölőt, amivel kapcsolatban rögeszmésnek kell lennie.",
-        "otherNightReminder": "Kiválaszt egy játékost és egy karaktert. :reminder: Altasd vissza. Ébreszd fel a választott játékost. Mutasd meg az *Ő KIVÁLASZTOTT TÉGED* lapkát, az elmebontó jelölőjét, majd a karakterjelölőt, amivel kapcsolatban rögeszmésnek kell lennie.",
+        "firstNightReminder": "Kiválaszt egy játékost és egy karaktert. :reminder: Altasd vissza. Ébreszd fel, a választott játékost. Mutasd meg az Ő KIVÁLASZTOTT TÉGED lapkát, az elmebontó jelölőjét, majd a karakterjelölőt, amivel kapcsolatban rögeszmésnek kell lennie. ",
+        "otherNightReminder": "Kiválaszt egy játékost és egy karaktert. :reminder: Altasd vissza. Ébreszd fel a választott játékost. Mutasd meg az Ő KIVÁLASZTOTT TÉGED lapkát, az elmebontó jelölőjét, majd a karakterjelölőt, amivel kapcsolatban rögeszmésnek kell lennie.",
         "reminders": [
-            "Rögeszmés"
+            "Rögeszmés / Rögeszme"
         ],
         "setup": false,
-        "ability": "Minden éjjel válassz egy játékost és egy jó karaktert: másnap az lesz a rögeszméje, hogy ő ez a karakter, különben kivégezhetik.",
-        "flavor": "Reality is merely an opinion. Specifically, my opinion."
+        "ability": "Minden éjjel válassz egy játékost és egy jó karaktert: másnap az lesz a rögeszméje, hogy ő ez a karakter, különben kivégezhetik. ",
+        "flavor": "A valóság csupán egy vélemény. Konkrétan az én véleményem."
     },
     {
         "id": "fearmonger",
         "name": "Vészmadár",
         "edition": "carousel",
         "team": "minion",
-        "firstNightReminder": "Kiválaszt egy játékost. :reminder: Jelentsd be, hogy a vészmadár választott egy játékost.",
-        "otherNightReminder": "Kiválaszt egy játékost. :reminder: Ha mást választott, mint előző éjjel, jelentsd be, hogy a vészmadár új játékost választott.",
+        "firstNightReminder": "Kiválaszt egy játékost. :reminder: Jelentsd be, hogy a vészmadár kiválasztott egy játékost.",
+        "otherNightReminder": "Kiválaszt egy játékost. :reminder: Ha mást választott, mint előző éjjel, jelentsd be, hogy a vészmadár kiválasztott egy játékost.",
         "reminders": [
             "Vész"
         ],
         "setup": false,
-        "ability": "Minden éjjel válassz egy játékost: ha gyanúsítod és kivégzik, a csapata veszít. Mindenki megtudja, ha új játékost választasz.",
-        "flavor": "Beware of gazing long into the Abyss, lest the Abyss also gaze into you."
+        "ability": "Minden éjjel válassz egy játékost: ha gyanúsítod és kivégzik, a csapata veszít.Mindenki megtudja, ha új játékost választasz. ",
+        "flavor": "Vigyázzatok, mert ha elég sokáig bámulunk a mélységbe, a mélység is visszanézhet ránk."
     },
     {
         "id": "pithag",
         "name": "Lápi banya",
         "edition": "snv",
         "team": "minion",
-        "otherNightReminder": "Kiválaszt egy játékost és egy karaktert. Ha a választott karakter nincs játékban: Altasd vissza a lápi banyát, és ébreszd fel a választott játékost. Mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és a választott karakter jelölőjét.",
+        "otherNightReminder": "Kiválaszt egy játékost és egy karaktert. Ha a választott karakter nincs játékban: Altasd vissza a lápi banyát, és ébreszd fel a választott játékost. Mutasd meg az EZ VAGY MOSTANTÓL lapkát és a választott karakter jelölőjét.",
         "reminders": [],
         "setup": false,
         "ability": "Minden éjjel* válassz egy játékost és egy karaktert, amivé váljon (ha az nincs játékban). Ha démonná válik, ma éjjel a mesélő dönt a halálokról.",
-        "flavor": "Round about the cauldron go; In the poison'd entrails throw; Toad, that under cold stone; Days and nights has thirty-one; Sweated venom sleeping got; Boil thou first in the charmed pot."
+        "flavor": "Körűl, körűl, az üst körűl, Míg minden méreg egybe sűl. Ide veled, fagyos békám, Kő alatt mely, éj árnyékán, Három hétig gyűjtél mérget: Először doblak be téged!"
     },
     {
         "id": "psychopath",
@@ -1393,17 +1393,17 @@
         "reminders": [],
         "setup": false,
         "ability": "Minden nappal, a gyanúsítások előtt nyilvánosan választhatsz egy játékost, aki meghal. Ha kivégeznek, csak akkor halsz meg, ha veszítesz kő-papír-ollóban.",
-        "flavor": "Surprise!"
+        "flavor": "Meglepetés!"
     },
     {
         "id": "assassin",
         "name": "Orgyilkos",
         "edition": "bmr",
         "team": "minion",
-        "otherNightReminder": "Választhat egy játékost. :reminder:",
+        "otherNightReminder": "Választhat egy játékost. :reminder: :reminder:",
         "reminders": [
             "Halott",
-            "Nincs képessége"
+            "Nincs képesség"
         ],
         "setup": false,
         "ability": "Játékonként egyszer, éjjel* válassz egy játékost: meghal még akkor is, ha valamiért nem halhatna meg.",
@@ -1414,25 +1414,25 @@
         "name": "Varázsló",
         "edition": "carousel",
         "team": "minion",
-        "firstNightReminder": "Tegyél meg minden tőled telhetőt, hogy teljesítsd a varázsló képességét.",
-        "otherNightReminder": "Tegyél meg minden tőled telhetőt, hogy teljesítsd a varázsló képességét.",
+        "firstNightReminder": "Tegyél meg mindent, amit a varázsló képessége miatt szükséges.",
+        "otherNightReminder": "Tegyél meg mindent, amit a varázsló képessége miatt szükséges.",
         "reminders": [
             "?",
             "?"
         ],
         "setup": false,
         "ability": "Játékonként egyszer kívánj valamit. Ha teljesül, ára lehet és/vagy nyomot hagy a természetéről.",
-        "flavor": "Every man and every woman is a star. Love is the law, love under will."
+        "flavor": "Minden férfi és minden nő egy csillag. A szeretet a törvény, a szeretet az akarat jármában."
     },
     {
         "id": "widow",
         "name": "Özvegy",
         "edition": "carousel",
         "team": "minion",
-        "firstNightReminder": "Mutasd meg neki a grimoárt. Addig nézheti, ameddig szeretné. Kiválaszt egy játékost. :reminder: Altasd vissza az özvegyet. Ébreszd fel a *TUDJA* emlékeztetővel jelölt játékost, és mutasd meg neki az özvegy jelölőjét. :reminder:",
+        "firstNightReminder": "Mutasd meg neki a grimoárt. Addig nézheti, ameddig szeretné. Kiválaszt egy játékost. :reminder: Altasd vissza az özvegyet. Ébreszd fel az ISMER emlékeztetővel megjelölt játékost, és mutasd meg neki az özvegy jelölőjét. :reminder:",
         "reminders": [
             "Mérgezett",
-            "Tudja"
+            "Ismeri / Tud róla"
         ],
         "remindersGlobal": [],
         "setup": false,
@@ -1444,37 +1444,37 @@
             }
         ],
         "ability": "Az első éjjel nézz bele a grimoárba és válassz egy játékost: mérgezett lesz. 1 jó játékos tudja, hogy egy özvegy játékban van.",
-        "flavor": "More wine? Château d’Ergot ’07 is a very special vintage. My yes, very special indeed."
+        "flavor": "Még egy kis bort? A Château d ’Ergot’ 07 egy nagyon különleges évjárat. Ó, de még milyen különleges."
     },
     {
         "id": "xaan",
         "name": "Xaan",
         "edition": "carousel",
         "team": "minion",
-        "firstNightReminder": "Ha X = 1, jelöld meg a Xaan-t az *X* emlékeztető jelölővel. :reminder: :reminder:",
-        "otherNightReminder": "Váltsd át a Xaan emlékeztetőjét a megfelelő éjjelre. Ha az X. éjjel van, jelöld meg a Xaan-t az *X* emlékeztető jelölővel. :reminder: :reminder:",
+        "firstNightReminder": "Ha X értéke 1, jelöld meg a Xaant az *X* emlékeztetővel. :reminder: :reminder:",
+        "otherNightReminder": "Cseréld le a Xaan emlékeztető jelölőjét az adott éjszakának megfelelően. Ha az X. éjszaka van, jelöld meg a Xaant az *X* emlékeztetővel. :reminder: :reminder:",
         "reminders": [
-            "1. éjjel",
-            "2. éjjel",
-            "3. éjjel",
+            "1. éjszaka",
+            "2. éjszaka",
+            "3. éjszaka",
             "X"
         ],
         "setup": true,
         "ability": "Az X. éjjel minden városlakó mérgezett lesz alkonyatig. [X kívülálló]",
-        "flavor": "Down they fall. One by one. By two, by three, by five."
+        "flavor": "Elhullanak mind ezután,\naz egyik a másik után, harmadik az egyik után – számold csak, de ne ily bután."
     },
     {
         "id": "marionette",
         "name": "Marionett",
         "edition": "carousel",
         "team": "minion",
-        "firstNightReminder": "Ébreszd fel a démont. Mutasd meg az *EZ A JÁTÉKOS* lapkát és a marionett jelölőjét, majd mutass rá a marionett játékosra.",
+        "firstNightReminder": "Ébreszd fel a démont. Mutasd meg neki az EZ A JÁTÉKOS lapkát, a marionett jelölőjét, és mutass rá a marionett játékosra.",
         "reminders": [],
         "remindersGlobal": [
             "Ő a marionett"
         ],
         "setup": true,
-        "ability": "Azt hiszed, hogy jó karakter vagy, pedig nem így van. A démon tudja, hogy ki vagy. [A démon a szomszédod]",
+        "ability": "Azt hiszed, hogy jó karakter vagy, pedig nem így van. A démon tudja, hogy ki vagy.[A démon a szomszédod]",
         "special": [
             {
                 "type": "selection",
@@ -1485,15 +1485,15 @@
                 "name": "replace-character"
             }
         ],
-        "flavor": "Words, words. They're all we have to go on."
+        "flavor": "Szavak, üres szavak. Ez minden, amire támaszkodhatunk."
     },
     {
         "id": "wraith",
         "name": "Lidérc",
         "team": "minion",
         "edition": "carousel",
-        "firstNightReminder": "Ébreszd fel a lidércet is mindig, amikor más gonosz játékosokat ébresztesz fel.",
-        "otherNightReminder": "Ébreszd fel a lidércet is mindig, amikor más gonosz játékosokat ébresztesz fel.",
+        "firstNightReminder": "Amikor egy gonosz játékost felébresztesz, ébreszd fel a lidércet is.",
+        "otherNightReminder": "Amikor egy gonosz játékost felébresztesz, ébreszd fel a lidércet is.",
         "reminders": [],
         "setup": false,
         "ability": "Éjjel bármikor kinyithatod a szemed. Felébredsz a többi gonosz játékossal együtt.",
@@ -1511,16 +1511,16 @@
         "name": "Démonidéző",
         "team": "minion",
         "edition": "carousel",
-        "firstNightReminder": "Mutasd meg az *EZEK A KARAKTEREK NINCSENEK JÁTÉKBAN* lapkát, és 3 jó karakter jelölőjét, amelyek nincsenek játékban.",
-        "otherNightReminder": "Váltsd át a démonidéző emlékeztető jelölőjét a megfelelő éjjelére. :reminder: Ha a 3. éjjel van, kiválaszt egy játékost és egy démon karaktert. Altasd vissza a démonidézőt, majd ébreszd fel a választott játékost. Mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és a démon jelölőjét, és mutasd a lefordított hüvelykujjad.",
+        "firstNightReminder": "Mutasd meg az EZEK A KARAKTEREK NINCSENEK JÁTÉKBAN lapkát, és 3 jó karakter jelölőjét, amelyek nincsenek játékban.",
+        "otherNightReminder": "Cseréld le a démonidéző emlékeztető jelölőjét az adott éjszakának megfelelően. :reminder: Ha ez a 3. éjszaka, a démonidéző kiválaszt egy játékost és egy démon karaktert. Ezután altasd vissza. Ébreszd fel a választott játékost. Mutasd meg az EZ VAGY MOSTANTÓL lapkát, a démon jelölőjét és a lefelé fordított hüvelykujjad.",
         "reminders": [
-            "1. éjjel",
-            "2. éjjel",
-            "3. éjjel"
+            "1. éjszaka",
+            "2. éjszaka",
+            "3. éjszaka"
         ],
         "setup": true,
         "ability": "Kapsz 3 karaktert a blöfföléshez. A 3. éjjel válassz egy játékost: egy általad választott gonosz démonná válik.[Nincs démon]",
-        "flavor": "Hail the guardians of the north; by my intellect, thou art cut. Hail the guardians of the east; by my will, thou art dominated. Hail the guardians of the south; by that which lies beyond, the mystery is revealed. Hail the guardians of the west; a shield in the darkness."
+        "flavor": "Üdv, észak őrzői; elmém hatalma által el vagytok vágva. Üdv, kelet őrzői; akaratommal uralkodom felettetek. Üdv, dél őrzői; mi mögötte van, feltárul a misztérium. Üdv, nyugat őrzői, pajzs a sötétben."
     },
     {
         "id": "eviltwin",
@@ -1529,11 +1529,11 @@
         "team": "minion",
         "firstNightReminder": "Ébreszd fel az ikerpár mindkét tagját. Szemkontaktust teremtenek. Mutasd meg a jó iker karakterjelölőjét a gonosz ikernek, a gonoszét pedig a jónak.",
         "reminders": [
-            "Ikertestvér"
+            "Iker"
         ],
         "setup": false,
         "ability": "Ismeritek egymást egy játékossal a másik csapatból. Ha a páros jó tagját kivégzik, a gonoszok győznek. A jók nem győzhetnek, ha mindketten éltek.",
-        "flavor": "I'm not Sara! I'm Clara! SHE is Sara! Sara is the evil one! Not me!"
+        "flavor": "Nem vagyok Lilla! Én Csilla vagyok! Ő ott Lilla! Lilla a gonosz! Nem én!"
     },
     {
         "id": "goblin",
@@ -1541,11 +1541,11 @@
         "edition": "carousel",
         "team": "minion",
         "reminders": [
-            "Bejelentve"
+            "Bejelentette"
         ],
         "setup": false,
         "ability": "Ha a gyanúsításodkor nyilvánosan bejelented, hogy te vagy a goblin, és még ezen a napon kivégeznek, a csapatod győz.",
-        "flavor": "You don’t want to insult the goblins. You really, really don’t. On a completely different note… can I have another piece of cake?"
+        "flavor": "Nem akarnál belekötni egy goblinba. Ebben egész biztos vagyok. Egyébként... kaphatok még egy szelet sütit?"
     },
     {
         "id": "boomdandy",
@@ -1562,7 +1562,7 @@
                 "time": "day"
             }
         ],
-        "flavor": "Tick... Tick... Tick... TOCK."
+        "flavor": "Tik-tak, tik-tak...Tik-tak, BUMM."
     },
     {
         "id": "mastermind",
@@ -1572,20 +1572,20 @@
         "reminders": [],
         "setup": false,
         "ability": "Ha a démont kivégzik, és emiatt meghal (vége lenne a játéknak), a játék még egy napig folytatódik. Ha ekkor kivégeznek egy játékost, a csapata veszít.",
-        "flavor": "The tentacles of that monster are nailed to the doors of the church. Mothers and children are dancing in the street. Excellent. Everything is proceeding exactly as I have planned."
+        "flavor": "A szörnyeteg csápjait kiszögezték a templomajtóra. Anyák lejtenek örömtáncot gyermekeikkel az utcákon. Nagyszerű. Minden pont úgy alakul, ahogy terveztem."
     },
     {
         "id": "scarletwoman",
         "name": "Skarlátruhás nő",
         "edition": "tb",
         "team": "minion",
-        "otherNightReminder": "Ha napközben ördögfiókává változott, mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és az ördögfióka jelölőjét.",
+        "otherNightReminder": "Ha a mai napon démonná változott, mutasd meg az EZ VAGY MOSTANTÓL lapkát és a démon jelölőjét.",
         "reminders": [
             "Ő a démon"
         ],
         "setup": false,
         "ability": "Ha öt vagy több játékos van életben, és a démon meghal, te leszel a démon. (Az utazók nem számítanak.)",
-        "flavor": "You have shown me the secrets of the Council of the Purple Flame. We have lain together in fire and in lust and in beastly commune, and I am forever your servant. But tonight, my dear, I am your master."
+        "flavor": "Feltártad előttem a Bíbor Láng Tanácsának titkait. Testünk buja és szenvedélyes vággyal egyesült a tűz hevében, s én immár mindörökké a szolgád vagyok. De ma éjjel, drágám, én parancsolok."
     },
     {
         "id": "vizier",
@@ -1596,39 +1596,39 @@
         "reminders": [],
         "setup": false,
         "ability": "Mindenki tudja, hogy te vagy a vezír. Nappal nem halhatsz meg. Ha jó is szavazott, azonnal kivégezheted a gyanúsítottat.",
-        "flavor": "An excellent decision, as always, sire. Such a petty crime as bumping into the Bishop indeed deserves your ‘justice’ and ‘mercy’. Take a stroll in the gardens. Visit the gallery and peruse the sculptures of Von Strauf. Relax, sire. Leave everything… to me."
+        "flavor": "Nagyszerű döntés, mint mindig, felség. Egy ilyen csekély bűn, mint a püspökkel való összeütközés, aztán tényleg igényli a te „igazságszogáltatásodat” és „kegyelmedet”. Sétálj egyet a kertben. Látogass el a galériába, és tekintsd meg Von Strauf szobrait. Lazíts, felség. Bízz mindent... énrám."
     },
     {
         "id": "organgrinder",
         "name": "Kintornás",
         "edition": "carousel",
         "team": "minion",
-        "firstNightReminder": "A kintornás vagy bólint, ha igen, részeg szeretne lenni, vagy rázza a fejét, ha nem, hanem józan. :reminder:",
-        "otherNightReminder": "A kintornás vagy bólint, ha igen, részeg szeretne lenni, vagy rázza a fejét, ha nem, hanem józan. :reminder:",
+        "firstNightReminder": "Vagy bólint, ekkor részeg lesz, vagy megrázza a fejét, ekkor józan lesz. :reminder:",
+        "otherNightReminder": "Vagy bólint, ekkor részeg lesz, vagy megrázza a fejét, ekkor józan lesz. :reminder:",
         "reminders": [
-            "Meg fog halni",
+            "Halálraítélt",
             "Részeg"
         ],
         "setup": false,
-        "ability": "A szavazás csukott szemmel, titkosan történik. Minden éjjel választhatsz, hogy részeg vagy-e alkonyatig vagy sem.",
+        "ability": "A szavazás csukott szemmel, titkosan történik.Minden éjjel választhatsz, hogy részeg vagy-e alkonyatig vagy sem.",
         "special": [
             {
                 "type": "vote",
                 "name": "hidden"
             }
         ],
-        "flavor": "Round and round the handles go. The more you dance the less you know."
+        "flavor": "Muzsikámra táncolj egyre, Homály boruljon szemedre."
     },
     {
         "id": "boffin",
         "name": "Doki",
         "team": "minion",
         "edition": "carousel",
-        "firstNightReminder": "Ébreszd fel a dokit és a démont. Mutasd meg az *Ő KIVÁLASZTOTT TÉGED* lapkát és a doki jelölőjét, majd egy jó karakter jelölőjét, amely nincs játékban.",
+        "firstNightReminder": "Ébreszd fel a dokit és a démont. Mutasd meg az Ő KIVÁLASZTOTT TÉGED lapkát, majd a doki jelölőjét, végül egy játékban nem lévő jó karakter jelölőjét.",
         "reminders": [],
         "setup": false,
         "ability": "A démon rendelkezik egy játékban nem lévő jó karakter képességével (akkor is, ha részeg vagy mérgezett). Mindketten tudjátok, hogy mi ez a képesség.",
-        "flavor": "Stellar hydrogen, vast, inert; carbon, oxygen, neon gases, all ruined. Molecular chaos, entropy, yields new cosmic phenomena, rebirth from atomic chaos, dense matter collapsing. All in a teeny little bottle."
+        "flavor": "Csillagok hidrogénje, végtelen, inert; szén, oxigén, neon gázok, mind tönkrementek. Molekuláris zűrzavar, entrópia, új kozmikus jelenségek az atomok káoszából, sűrű anyag magába roskadása. Mindez egy aprócska üvegben."
     },
     {
         "id": "baron",
@@ -1638,7 +1638,7 @@
         "reminders": [],
         "setup": true,
         "ability": "További kívülállók vannak a játékban. [+2 kívülálló]",
-        "flavor": "This town has gone to the dogs, what? Cheap foreign labor... that's the ticket. Stuff them in the mine, I say. A bit of hard work never hurt anyone, and a clip'o'the ears to any brigand who says otherwise. It's all about the bottom line, what?"
+        "flavor": "Egyre csak hanyatlik ez a város, nem tévedek? Olcsó külföldi munkaerő… ez a megoldás. Aztán a bányába velük, amondó vagyok. A verejtékes munka nem árt meg senkinek, aki ellenszegül, az meg majd megkapja a magáét. Lényeg, hogy nyereséges legyen az üzlet, nem igaz?"
     },
     {
         "id": "yaggababble",
@@ -1646,7 +1646,7 @@
         "team": "demon",
         "edition": "carousel",
         "firstNightReminder": "Mutasd meg a lepcsesnek a titkos kifejezést.",
-        "otherNightReminder": "Ahányszor a lepcses kimondta a titkos kifejezését, egy játékos meghalhat. :reminder:",
+        "otherNightReminder": "Ahányszor ma kimondta a titkos kifejezést, annyi játékos meghalhat. :reminder:",
         "reminders": [
             "Halott",
             "Halott",
@@ -1654,7 +1654,7 @@
         ],
         "setup": false,
         "ability": "Az első éjjel megismersz egy titkos kifejezést. Ahányszor csak nap közben nyilvánosan kimondod, meghalhat egy játékos.",
-        "flavor": "Murders inside the Rue Morgue? Фальшивые новости! Hounds on the Baskerville moor? Фальшивые новости! Death while sailing the Nile? Фальшивые новости!"
+        "flavor": "Gyilkosságok a Rue Morgue területén? Фальшивые новости! Kopók a Baskerville lápon? Фальшивые новости! Halál a Níluson? Hajózás közben? Фальшивые новости!"
     },
     {
         "id": "pukka",
@@ -1670,15 +1670,15 @@
         ],
         "setup": false,
         "ability": "Minden éjjel válassz egy játékost: mérgezett lesz. Az előzőleg megmérgezett játékos meghal, majd egészséges lesz.",
-        "flavor": "You truly have been kind welcoming me into your beautiful home. I am so sorry I accidentally scratched you. A little thing. No matter. But please, take this golden toothpick as a humble token of my regret."
+        "flavor": "Igazán kedves tőled, hogy vendégül látsz gyönyörű otthonodban. Sajnálom, hogy véletlenül megkarmoltalak. Csak egy kis karcolás. Semmiség. De kérlek, fogadd el ezt az arany fogpiszkálót bocsánatkérésem szerény zálogául."
     },
     {
         "id": "lilmonsta",
         "name": "Szörnyecske",
         "edition": "carousel",
         "team": "demon",
-        "firstNightReminder": "Ébreszd fel a csatlósokat. Kiválasztanak egy játékost. :reminder: Altasd vissza a csatlósokat, majd ébreszd fel a kiválasztott játékost. Mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és a szörnyecske jelölőjét.",
-        "otherNightReminder": "Ébreszd fel a csatlósokat. Kiválasztanak egy játékost. :reminder: Altasd vissza a csatlósokat, majd ébreszd fel a kiválasztott játékost. Mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és a szörnyecske jelölőjét. Egy játékos meghalhat. :reminder:",
+        "firstNightReminder": "Ébreszd fel a csatlósokat. Választanak egy játékost. :reminder: Altasd vissza a csatlósokat. Ébreszd fel a választott játékost. Mutasd meg neki az EZ VAGY MOSTANTÓL lapkát és a szörnyecske jelölőjét.",
+        "otherNightReminder": "Ébreszd fel a csatlósokat. Választanak egy játékost. :reminder: Altasd vissza a csatlósokat. Ébreszd fel a választott játékost. Mutasd meg neki az EZ VAGY MOSTANTÓL lapkát és a szörnyecske jelölőjét. Egy játékos meghalhat. :reminder:",
         "reminders": [],
         "remindersGlobal": [
             "Ő a démon",
@@ -1698,7 +1698,7 @@
                 "name": "bag-disabled"
             }
         ],
-        "flavor": "Step 1: Be cute. Step 2: World domination. Step 3: Bweakfast."
+        "flavor": "1. lépés: Legyél cuki. 2. lépés: Világuralom. 3. lépés: Kajcsi."
     },
     {
         "id": "nodashii",
@@ -1713,27 +1713,27 @@
         ],
         "setup": false,
         "ability": "Minden éjjel* válassz egy játékost: meghal. A két városlakó szomszédod mérgezett.",
-        "flavor": "By the sins of Arnoch, I feel thy laden stench. By the curs-ed sun and her foul legion of tiny grinning gods, I corrupt thee. By the blessed night and the hidden depths of the horrid and unholy sea, I end thy squalid life upon this plane."
+        "flavor": "Arnoch bűneire mondom, érzem nyomasztó bűzödet. A kárhozott napra és vigyorgó kis isteneinek ocsmány seregére esküszöm, megrontalak téged. Az áldott éjszakára és a szörnyű, szentségtelen tenger rejtett mélységeire mondom, kioltom nyomorúságos életedet ezen a földön."
     },
     {
         "id": "imp",
         "name": "Ördögfióka",
         "edition": "tb",
         "team": "demon",
-        "otherNightReminder": "Kiválaszt egy játékost. :reminder: Ha saját magát választja: Cseréld ki egy élő csatlós jelölőjét ördögfióka-jelölőre. Altasd vissza a régi ördögfiókát, majd ébreszd fel az újat. Mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és az ördögfióka jelölőjét.",
+        "otherNightReminder": "Kiválaszt egy játékost. :reminder: Ha saját magát választja: Cseréld ki egy élő csatlós jelölőjét egy tartalék ördögfióka-jelölőre. Altasd vissza a régi ördögfiókát, majd ébreszd fel az újat. Mutasd meg az EZ VAGY MOSTANTÓL lapkát és az ördögfióka jelölőjét.",
         "reminders": [
             "Halott"
         ],
         "setup": false,
         "ability": "Minden éjjel* válassz egy játékost, aki meghal. Ha magadat ölöd meg, egy csatlós lesz az új ördögfióka.",
-        "flavor": "We must keep our wits sharp and our sword sharper. Evil walks among us, and will stop at nothing to destroy us good, simple folk, bringing our fine town to ruin. Trust no-one. But, if you must trust someone, trust me."
+        "flavor": "Egy pillanatra sem lankadhat a figyelmünk, készen kell állnunk a harcra.A gonosz itt ólálkodik köztünk, és nem riad vissza semmitől, hogy elpusztítson minket, egyszerű, becsületes embereket, és romba döntse szeretett városunkat. Senkiben se bízzatok! Ám, ha mégis meg kell bíznotok valakiben, akkor én legyek az!"
     },
     {
         "id": "shabaloth",
         "name": "Shabaloth",
         "edition": "bmr",
         "team": "demon",
-        "otherNightReminder": "Az előzőleg kiválasztott egyik játékos feléledhet. :reminder: A Shabaloth kiválaszt 2 játékost. :reminder: :reminder:",
+        "otherNightReminder": "Egy előzőleg kiválasztott játékos feléledhet. :reminder: A Shabaloth kiválaszt 2 játékost. :reminder: :reminder:",
         "reminders": [
             "Halott",
             "Halott",
@@ -1741,7 +1741,7 @@
         ],
         "setup": false,
         "ability": "Minden éjjel* válassz két játékost: meghalnak. Lehet, hogy visszaöklendezel egy játékost, akit előző éjjel választottál.",
-        "flavor": "Blarg f'taag nm mataan! No sho gumtha m'sik na yuuu. Fluuuuuuuuurg h-sikkkh."
+        "flavor": "Blarg f 'taag nm mataan! No sho gumtha m 'ik na yuuu-Fluuuuuuuurg h-sikkkh."
     },
     {
         "id": "ojo",
@@ -1754,21 +1754,21 @@
         ],
         "setup": false,
         "ability": "Minden éjjel* válassz egy karaktert, aki meghal. Ha nincs játékban, a mesélő választja ki, hogy ki hal meg.",
-        "flavor": "Like a bonfire on a moonless night… I see you, mortal."
+        "flavor": "Mint egy máglyát a holdtalan éjszakán... látlak téged, halandó."
     },
     {
         "id": "kazali",
         "name": "Kazali",
         "team": "demon",
         "edition": "carousel",
-        "firstNightReminder": "Kiválasztja, melyik játékosok melyik csatlósok lesznek. Egyesével ébreszd fel őket, mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és a csatlós jelölőjét, és egy lefelé fordított hüvelykujjat.",
+        "firstNightReminder": "A Kazali dönti el, melyik játékos melyik csatlós lesz. Ébreszd fel a kiválasztott játékosokat. Mutasd meg az EZ VAGY MOSTANTÓL lapkát, a csatlósok jelölőjét és a lefelé fordított hüvelykujjad.",
         "otherNightReminder": "Kiválaszt egy játékost. :reminder:",
         "reminders": [
             "Halott"
         ],
         "setup": true,
         "ability": "Minden éjjel* válassz egy játékost, aki meghal. [Te döntesz, melyik játékos melyik csatlós lesz. -? vagy +? kívülálló]",
-        "flavor": "Gon(z)a7les6. Take cau8tun. The mech4an4ion is iNvert10d. E99ors insy6tum. Reco{7}fig."
+        "flavor": "Gon(z)a7les6! Óv8toSan! A mech4an4izmus megf0rdu10t. Hib4 a re\\{7\\}d52eRben. Újr8koNf\\{1\\}gurá10ás."
     },
     {
         "id": "po",
@@ -1783,41 +1783,41 @@
             "3 támadás"
         ],
         "setup": false,
-        "ability": "Minden éjjel* választhatsz egy játékost: meghal. Ha legutóbb nem választottál senkit, ma éjjel három játékost válassz.",
-        "flavor": "Would you like a flower? I'm so lonely."
+        "ability": "Minden éjjel* választhatsz egy játékost: meghal. Ha legutóbb nem választottál senkit, ma éjjel 3 játékost válassz.",
+        "flavor": "Adhatok egy szál virágot? Olyan magányos vagyok."
     },
     {
         "id": "zombuul",
         "name": "Zombuul",
         "edition": "bmr",
         "team": "demon",
-        "otherNightReminder": "Ha senki sem halt meg nappal, kiválaszt egy játékost. :reminder:",
+        "otherNightReminder": "Ha napközben senki sem halt meg, kiválaszt egy játékost. :reminder:",
         "reminders": [
-            "Ma halt meg",
+            "Ma meghalt",
             "Halott"
         ],
         "setup": false,
         "ability": "Minden éjjel*, ha nappal senki sem halt meg, válassz egy játékost: meghal. Az első alkalommal, amikor meghalnál, életben maradsz, de onnantól halottnak tűnsz.",
-        "flavor": "I do not. Understand. Your ways. Fellow human. Show me. The dirt. Where the holy. Lay. Sleeping. I too. Must sleep. Soon."
+        "flavor": "Én nem. Értem. Az útjaidat. Ember. Mutasd meg. A földet. Melyben. A szent. Nyugszik. Én is. Ott nyugszom. Hamarosan."
     },
     {
         "id": "vigormortis",
         "name": "Vigormortis",
         "edition": "snv",
         "team": "demon",
-        "otherNightReminder": "Kíválaszt egy játékost. :reminder: Ha csatlóst választ, mérgezd meg a csatióssal szomszédos egyik városlakót. :reminder: :reminder:",
+        "otherNightReminder": "Kiválaszt egy játékost. :reminder: Ha csatlóst választ, mérgezd meg a csatlóssal szomszédos egyik városlakót. :reminder: :reminder:",
         "reminders": [
             "Halott",
-            "Van képessége",
-            "Van képessége",
-            "Van képessége",
+            "Van képesség(e) / Ez a képessége",
+            "Van képesség(e) / Ez a képessége",
+            "Van képesség(e) / Ez a képessége",
             "Mérgezett",
             "Mérgezett",
             "Mérgezett"
         ],
         "setup": true,
         "ability": "Minden éjjel* válassz egy játékost: meghal. Az általad megölt csatlósok megőrzik képességüket és megmérgezik 1 városlakó szomszédjukat. [-1 kívülálló]",
-        "flavor": "All doors are one door. All keys are one key. All cups are one cup, but whosoever drinketh of the water that I give shall never thirst, but the water shall be in him a well springing up into everlasting life."
+        "flavor": "Minden ajtó egy ajtó. Minden kulcs egy kulcs. Minden pohár egy pohár, de aki abból a vízből iszik, amelyet én adok neki, soha többé meg nem szomjazik, mert az örök életre buzgó víz forrásává lesz benne."
     },
     {
         "id": "vortox",
@@ -1830,7 +1830,7 @@
         ],
         "setup": false,
         "ability": "Minden éjjel* válassz egy játékost: meghal. A városlakók képességeik révén hamis információkat kapnak. Ha egy nap nincs kivégzés, a gonoszok győznek.",
-        "flavor": "Black is White. Right is Wrong. Left is Right. Up is Long. Down is Sight. Short is Blind. Follow me. Answers find."
+        "flavor": "Fehér lesz a fekete. Gonosz lesz a jó. Kifele a befele. Égető a hó. Fent és át. Ütre csapsz. Kövess hát. Választ kapsz."
     },
     {
         "id": "legion",
@@ -1840,7 +1840,7 @@
         "otherNightReminder": "Egy játékos meghalhat. :reminder:",
         "reminders": [
             "Halott",
-            "Meg fog halni"
+            "Halálraítélt"
         ],
         "setup": true,
         "ability": "Minden éjjel* meghalhat egy játékos. Ha csak gonoszok szavaznak, a kivégzés sikertelen. Csatlósnak is tűnsz. [A legtöbb játékos légió]",
@@ -1850,35 +1850,35 @@
                 "name": "bag-duplicate"
             }
         ],
-        "flavor": "We are the chill wind on a winter’s day. We are the shadow in the moonless night. We are the poison in your tea and the whisper in your ear. We are everywhere."
+        "flavor": "Mi vagyunk a jeges szél a zord télben. Mi vagyunk az árnyék a holdtalan éjszakán. Mi vagyunk a méreg a teádban és a suttogó hang a füledben. Mindenhol ott vagyunk."
     },
     {
         "id": "fanggu",
         "name": "Fang Gu",
         "edition": "snv",
         "team": "demon",
-        "otherNightReminder": "Kiválaszt egy játékost. :reminder: Ha kívülállót választ (csak egyszer): Cseréld ki a kívülálló jelölőjét egy tartalék Fang Gu jelölőre. Altasd vissza a Fang Gut. Ébreszd fel a választott játékost. Mutasd meg az *EZ VAGY MOSTANTÓL* lapkåt, Fang Gu jelölőjét és a lefelé fordított hüvelykujjad. :reminder:",
+        "otherNightReminder": "Kiválaszt egy játékost. :reminder: Ha Kívülállót választ (csak egyszer): Cseréld ki a kívülálló jelölőjét egy tartalék Fang Gu jelölőre. Altasd vissza a Fang Gut. Ébreszd fel a választott játékost. Mutasd meg az EZ VAGY MOSTANTÓL lapkát, a Fang Gu jelölőjét és a lefelé fordított hüvelykujjad. :reminder:",
         "reminders": [
             "Halott",
             "Egyszer"
         ],
         "setup": true,
         "ability": "Minden éjjel* válassz egy játékost: meghal. Az első kívülálló, akit megölnél, gonosz Fang Gu lesz, te pedig meghalsz. [+1 kívülálló]",
-        "flavor": "Your walls and your weapons are but smoke in dreams."
+        "flavor": "Minden bástyád és fegyvered álombéli, tűnő füst csupán."
     },
     {
         "id": "lordoftyphon",
         "name": "Tüphón ura",
         "team": "demon",
         "edition": "carousel",
-        "firstNightReminder": "Ébreszd fel Tüphón ura szomszédait. Mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és a csatlós jelölőjét, és egy lefelé fordított hüvelykujjat.",
+        "firstNightReminder": "Ébreszd fel a Tüphón urának szomszédait.Mutasd meg az EZ VAGY MOSTANTÓL lapkát, a csatlósok jelölőjét és a lefelé fordított hüvelykujjad.",
         "otherNightReminder": "Kiválaszt egy játékost. :reminder:",
         "reminders": [
             "Halott"
         ],
         "setup": true,
-        "ability": "Minden éjjel* válassz egy játékost, aki meghal. [A gonosz karakterek egymás mellett ülnek, te ülsz középen. +1 csatlós. -? vagy +? kívülálló]",
-        "flavor": "In the shadowed and forgotten corners of the cosmos, where the stars whisper secrets to the void, lies a truth so profound that the merest glimpse of it unravels the sanity of mortal minds."
+        "ability": "Minden éjjel* válassz egy játékost, aki meghal. [A gonosz karakterek egymás mellett ülnek, te ülsz középen. +1 csatlós.-? vagy +? kívülálló]",
+        "flavor": "A kozmosz árnyékos és elfeledett zugaiban, ahol a csillagok titkokat suttognak az ürességbe, olyan mély igazság rejlik, hogy az ebbe való legkisebb pillantás is összeomlaszthatja a halandó elmét."
     },
     {
         "id": "lleech",
@@ -1893,14 +1893,14 @@
         ],
         "setup": false,
         "ability": "Minden éjjel* válassz egy játékost, aki meghal. Az első éjjel válassz egy játékost: mérgezett lesz. Akkor és csak akkor halsz meg, ha ő halott.",
-        "flavor": "Tasty, tasty, tasty, tasty, tasty, tasty, tasty, tasty brai- I mean pie! Yes. Tasty pie. That’s what I meant to say."
+        "flavor": "Fincsi, fincsi, fincsi, fincsi, fincsi, fincsi, fincsi, fincsi agy... akarom mondani fagy... fagyi! Igen. Fincsi fagyi. Ezt akartam mondani."
     },
     {
         "id": "alhadikhia",
         "name": "Al-Hadihia",
         "edition": "carousel",
         "team": "demon",
-        "otherNightReminder": "Kiválaszt 3 játékost. :reminder: :reminder: :reminder: Ébreszd fel az elsőt. Miután bólogatott vagy rázta a fejét, altasd vissza, majd ébreszd fel a következőt.",
+        "otherNightReminder": "Az Al-Hadihia 3 játékost választ. :reminder: :reminder: :reminder: Egyesével ébreszd fel a kiválasztott játékosokat. Bólintanak, vagy megrázzák a fejüket. Altasd vissza az előzőt, mielőtt felébreszted a következőt.",
         "reminders": [
             "1",
             "2",
@@ -1914,7 +1914,7 @@
         "id": "riot",
         "name": "Lázadó",
         "edition": "carousel",
-        "otherNightReminder": "Váltsd át a lázadó emlékeztetőjét a megfelelő napra. :reminder: Ha a 3. éjjel van, felébresztheted a csatlósokat, és mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és a lázadó jelölőt.",
+        "otherNightReminder": "Cseréld le a lázadó emlékeztető jelölőjét az adott napnak megfelelően. :reminder: Ha ez a 3. éjszaka, felébresztheted a csatlósokat. Mutasd meg az EZ VAGY MOSTANTÓL lapkát és a lázadó jelölőit.",
         "team": "demon",
         "reminders": [
             "1. nap",
@@ -1931,7 +1931,7 @@
         "edition": "carousel",
         "team": "demon",
         "firstNightReminder": "Jelentsd be, hogy a leviatán játékban van. :reminder:",
-        "otherNightReminder": "Váltsd át a leviatán emlékeztetőjét a megfelelő napra. :reminder: Bejelentheted, hogy a leviatán játékban van.",
+        "otherNightReminder": "Cseréld le a Leviatán emlékeztető jelölőjét az adott napnak megfelelően. :reminder: Ha kell jelentsd be, hogy a leviatán játékban van.",
         "reminders": [
             "1. nap",
             "2. nap",
@@ -1942,7 +1942,7 @@
         ],
         "setup": false,
         "ability": "Ha egynél több jó játékost kivégeznek, a gonoszok győznek. Minden játékos tudja, hogy játékban vagy. Az 5. nap után a gonoszok győznek.",
-        "flavor": "To the last, I grapple with thee. From Hell’s heart, I stab at thee. For hate’s sake, I spit my last breath at thee."
+        "flavor": "Az utolsókig birkózom veled; a pokol szívéből is feléd döfök; gyűlöletből utolsó leheletemet is rád köpöm."
     },
     {
         "id": "thief",
@@ -1963,7 +1963,7 @@
                 "value": -1
             }
         ],
-        "flavor": "I ain't done nuffink. I weren't even in dat alley last night! It weren't me what stole Mayor Bruno's briefcase wiv all dem fancy dockoments innit. Besides, it was too 'eavy to carry far."
+        "flavor": "Há'de nem csináltam semmiccse! Nem is vótam ottan abba a sikártoba az este! Dehogy csakliztam én el Brúnó úr táskáját azzal a sok flancos irattal. Há'meg amilyen dög nehéz vót, nem is bírtam vóna elslisszolni vele."
     },
     {
         "id": "bureaucrat",
@@ -1976,7 +1976,7 @@
             "3 szavazat"
         ],
         "setup": false,
-        "ability": "Minden éjjel válassz egy játékost (ne magadat): a szavazata holnap három szavazatnak számít.",
+        "ability": "Minden éjjel válassz egy játékost (ne magadat): a szavazata holnap 3 szavazatnak számít.",
         "special": [
             {
                 "type": "vote",
@@ -1984,38 +1984,38 @@
                 "value": 3
             }
         ],
-        "flavor": "Sign here please. And here. And here. Aaaaaaaaand here. This should all be sorted and tallied by the end of the day, assuming everyone's signatures are legible. We haven't had a mix-up in the paperwork for ages. Yesterday noon, if memory serves..."
+        "flavor": "Itt írja alá, kérem. És itt. És itt. És végül még itt is. A hivatali idő végére ezt mind rendszerezzük és összeszámoljuk – feltéve, hogy minden aláírás megfelelően olvasható. Emberemlékezet óta nem volt nálunk semmi kavarodás a papírmunkában. Vagyis tegnap dél óta, ha jól emlékszem..."
     },
     {
         "id": "barista",
         "name": "Barista",
         "edition": "snv",
         "team": "traveller",
-        "firstNightReminder": "Kiválaszt egy játékost. Ébreszd fel, és mutasd meg neki az *Ő KIVÁLASZTOTT TÉGED* lapkát és a barista jelölőjét, majd mutasd fel 1 vagy 2 ujjad. :reminder:",
-        "otherNightReminder": "Kiválaszt egy játékost. Ébreszd fel, és mutasd meg neki az *Ő KIVÁLASZTOTT TÉGED* lapkát és a barista jelölőjét, majd mutasd fel 1 vagy 2 ujjad. :reminder:",
+        "firstNightReminder": "Válassz egy játékost. Ébreszd fel, mutasd meg neki az Ő KIVÁLASZTOTT TÉGED lapkát, a barista jelölőjét, és a megfelelő kézjelet. :reminder:",
+        "otherNightReminder": "Válassz egy játékost. Ébreszd fel, mutasd meg neki az Ő KIVÁLASZTOTT TÉGED lapkát, a barista jelölőjét, és a megfelelő kézjelet. :reminder:",
         "reminders": [
             "Józan és egészséges",
-            "Dupla képesség",
+            "Duplán cselekszik",
             "?",
             "?"
         ],
         "setup": false,
         "ability": "Minden éjjeltől alkonyatig egy játékos vagy 1) józan lesz, egészséges, és valós információt kap, vagy 2) a képessége duplán működik. Megtudja, melyik.",
-        "flavor": "A cup of coffee with no cream, Monsieur? I’m terribly sorry, but we’re fresh out of cream — how about with no milk?"
+        "flavor": "Egy csésze kávét tejszín nélkül, Monsieur? Borzasztóan röstellem, de sajnos elfogyott a tejszínünk. Adhatnám inkább tej nélkül?"
     },
     {
         "id": "harlot",
         "name": "Kéjnő",
         "edition": "snv",
         "team": "traveller",
-        "otherNightReminder": "Kiválaszt egy élő játékost. Altasd vissza a kéjnőt. Ébreszd fel a választott játékost, mutasd meg az *Ő KIVÁLASZTOTT TÉGED* lapkát, majd a kéjnő jelölőjét. Ha a játékos bólint, ébreszd fel a kéjnőt, és mutasd meg neki a választott játékos karakterjelölőjét. Mindketten meghalhatnak. :reminder: :reminder:",
+        "otherNightReminder": "Kiválaszt egy élő játékost. Ezután altasd vissza. Ébreszd fel a kiválasztott játékost, mutasd meg neki az Ő KIVÁLASZTOTT TÉGED lapkát, majd a kéjnő jelölőjét. Ha a játékos bólint, ébreszd fel a kéjnőt, és mutasd meg neki a kiválasztott játékos karakterjelölőjét. Mindkét játékos meghalhat. :reminder: :reminder:",
         "reminders": [
             "Halott",
             "Halott"
         ],
         "setup": false,
         "ability": "Minden éjjel* válassz egy élő játékost: ha beleegyezik, megismered a karakterét, de mindketten meghalhattok.",
-        "flavor": "Enchanté, Sailor. You look like you need someone to really listen to your troubles. I'm a good listener. Very, very good."
+        "flavor": "Bonjour, szépfiú! Úgy látom, nagy szükséged lenne valakire, akinek kiöntheted a szíved. Én igazán hálás hallgatóság vagyok. Nagyon, nagyon hálás."
     },
     {
         "id": "butcher",
@@ -2025,20 +2025,20 @@
         "reminders": [],
         "setup": false,
         "ability": "Minden nap újra gyanúsíthatsz az első kivégzés után.",
-        "flavor": "It tastes like chicken. More please."
+        "flavor": "Olyan íze van, mint a csirkének… Kérek még."
     },
     {
         "id": "cacklejack",
         "name": "Cserebóca",
         "edition": "carousel",
         "team": "traveller",
-        "otherNightReminder": "Hajnal előtt válassz egy játékost, aki nincs megjelölve az *ÉN NEM* emlékeztetővel. Ébreszd fel, majd mutasd meg az *EZ VAGY MOSTANTÓL* lapkát és az új karakterjelzőjét.",
+        "otherNightReminder": "Hajnal előtt válassz egy játékost, aki nincs megjelölve a NE ENGEM emlékeztetővel. Ébreszd fel, mutasd meg neki az EZ VAGY MOSTANTÓL lapkát és az új karaktere jelölőjét.",
         "reminders": [
-            "Én nem"
+            "Ne engem"
         ],
         "setup": false,
-        "ability": "Minden nap válassz egy játékost: aznap éjjel megváltozik egy másik játékos karaktere.",
-        "flavor": "Wire α To wire β. LigHt oN. BuZZer off. GAzOinks! Arms STra1ght. FingER 2 nose. hOooLd stiLL. BoiNgo-banGo! Ha-ha-ha!"
+        "ability": "Minden nap válassz egy játékost: aznap éjjel megváltozik egy másik játékos karaktere. ",
+        "flavor": "α ve2eték a β-hoz. LámPák bE. CseNgő ki. GÁÁz. K4rok E1őre. Ujj az oRRhoz. Ne moooZdu1j! BiNgo-banGo! Ha-ha-ha!"
     },
     {
         "id": "gunslinger",
@@ -2047,8 +2047,8 @@
         "team": "traveller",
         "reminders": [],
         "setup": false,
-        "ability": "Minden nappal az első szavazás összeszámlálása után választhatsz egy játékost, aki szavazott: meghal.",
-        "flavor": "It's time someone took matters into their own hands. That someone... is me."
+        "ability": "Minden nap az első szavazás összeszámlálása után választhatsz egy játékost, aki szavazott: meghal.",
+        "flavor": "Ideje, hogy valaki végre a kezébe vegye a dolgokat. És ez a valaki... én vagyok."
     },
     {
         "id": "matron",
@@ -2058,7 +2058,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Naponta egyszer felcserélheted legfeljebb három játékospár ülőhelyét. A játékosok nem hagyhatják el a helyüket, hogy privátban beszélgessenek.",
-        "flavor": "Miss Featherbottom, be quiet. Master Rutherford, a teacup needs just the four fingers, please. I know you are a father of nine, but age, or lack there-of as the case may be, is never an excuse for poor manners."
+        "flavor": "Sajtkukac kisasszony, kérem, nyugodjon le. Rutherford uram, a teáscsészét négy ujjal tartjuk, így. Jól tudom, hogy ön kilenc gyermek édesatyja, de az élettapasztalat vagy épp annak hiánya sosem mentség az illetlen viselkedésre."
     },
     {
         "id": "gangster",
@@ -2068,21 +2068,21 @@
         "reminders": [],
         "setup": false,
         "ability": "Naponta egyszer megölheted az egyik élő szomszédodat, ha a másik élő szomszédod beleegyezik.",
-        "flavor": "I like your shoes. It would be such a shame if you had a little accident, and they got ruined. Now that you mention it, I like your cufflinks too."
+        "flavor": "Tetszik a cipőd. Kár lenne, ha valami baleset érne, és tönkremenne. Most, hogy mondod, mandzsettagombjaid is nagyon tetszenek."
     },
     {
         "id": "bonecollector",
         "name": "Csontgyűjtő",
         "edition": "snv",
         "team": "traveller",
-        "otherNightReminder": "Választhat egy halott játékost. :reminder: Ha szükséges, ébreszd fel a kiválasztott játékost, hogy használja a képességét.",
+        "otherNightReminder": "Választhat egy halott játékost. :reminder: Szükség esetén ébreszd fel a kiválasztott játékost, hogy használhassa a képességét.",
         "reminders": [
-            "Nincs képessége",
-            "Van képessége"
+            "Nincs képesség",
+            "Van képesség(e) / Ez a képessége"
         ],
         "setup": false,
         "ability": "Játékonként egyszer, éjjel* válassz egy halott játékost: alkonyatig visszanyeri a képességét.",
-        "flavor": "I collect many things. Hair. Teeth. Clothes. Fragments of poems. The dreams of lost lovers. My secret arts are not for you to know but my fee is a mere pittance. Bring me the blood of a noblewoman who died of heartbreak under a full moon, and you shall have your answers."
+        "flavor": "Sok mindent gyűjtök. Hajtincseket. Fogakat. Ruhákat. Verstöredékeket. Szerelmesek elveszett álmait. Mesterségem titkai nem tartoznak rád, de szolgálatom ára csak egy kis semmiség. Hozd el nekem egy olyan nemesasszony vérét, akinek teliholdkor megszakadt a szíve, és máris megkapod a választ."
     },
     {
         "id": "judge",
@@ -2090,18 +2090,18 @@
         "edition": "bmr",
         "team": "traveller",
         "reminders": [
-            "Nincs képessége"
+            "Nincs képesség"
         ],
         "setup": false,
-        "ability": "Játékonként egyszer határozhatsz úgy, hogy egy más által gyanúsított játékost a szavazástól függetlenül kivégezzenek vagy felmentsenek.",
-        "flavor": "I find the defendant guilty of the crimes of murder, fraud, arson, larceny, impersonating an officer of the law, practicing medicine without a license, slander, regicide, and littering."
+        "ability": "Játékonként egyszer határozhatsz úgy, hogy egy más játékos által gyanúsított játékost a szavazástól függetlenül kivégezzenek vagy felmentsenek.",
+        "flavor": "Bűnösnek találom a vádlottat emberölés, csalás, gyújtogatás, lopás, megtévesztés, engedély nélküli orvoslás, rágalmazás, királygyilkosság és szemetelés bűntettében."
     },
     {
         "id": "apprentice",
         "name": "Tanonc",
         "edition": "bmr",
         "team": "traveller",
-        "firstNightReminder": "Mutasd meg az *EZ VAGY MOSTANTÓL* lapkát, majd egy városlakó vagy csatlós jelölőjét. Cseréld le a tanonc jelölőjét a városlakó vagy csatlós jelölőjére. :reminder:",
+        "firstNightReminder": "Mutasd meg neki az EZ VAGY MOSTANTÓL lapkát, majd egy városlakó vagy csatlós jelölőjét. Cseréld le a tanonc jelölőjét a városlakó vagy csatlós jelölőjére. :reminder:",
         "reminders": [
             "Ő a tanonc"
         ],
@@ -2114,7 +2114,7 @@
                 "time": "night"
             }
         ],
-        "flavor": "For years have I traveled, studying the ways of The Craft. Which craft, you ask? Simply that of the simple folk. Nothing to worry about. Not yet."
+        "flavor": "Évekig utazgattam, hogy tanulmányozzam a Szakma fogásait. Hogy melyik szakmáét, azt kérdezed? Ó, csakis az egyszerű emberekét. Semmi ok az aggodalomra. Egyelőre."
     },
     {
         "id": "beggar",
@@ -2124,7 +2124,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Csak szavazatjelölővel szavazhatsz. Ha egy halott játékos neked adja a sajátját, megtudod, hogy jó vagy gonosz. Józan és egészséges vagy.",
-        "flavor": "Alms for the poor, good Sir? Spare a coin, Madam? Thank you. God bless! You're a right kind soul and no mistake! I'll have some swanky nosh tonight, I will!"
+        "flavor": "Alamizsnát a szegénynek, jó uram! Megszánna pár garassal, hölgyem? Köszönöm! A jó isten áldja meg a kedvességét, és fizesse vissza százszorosan! Ma este végre megtölthetem a bendőmet, úgy bizony!"
     },
     {
         "id": "deviant",
@@ -2134,7 +2134,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Ha vicces voltál ma, nem halhatsz meg, amikor száműznek.",
-        "flavor": "Twas the lady's quip, forsooth."
+        "flavor": "Jól replikázott a kisasszony, bizonyuccse!"
     },
     {
         "id": "scapegoat",
@@ -2144,7 +2144,7 @@
         "reminders": [],
         "setup": false,
         "ability": "Ha a te oldaladhoz tartozó játékost végeznek ki, lehet, hogy te halsz meg helyette.",
-        "flavor": "Good evening! Thank you for inviting me to the ball. I'm not from around here, but you sure seem like a friendly bunch, by golly. I'm sure we'll get along just dandy. What's all that rope for?"
+        "flavor": "Jó estét! Köszönöm, hogy meghívtak ebbe a bálba. Nem vagyok idevalósi, de önök igazán barátságos társaságnak tűnnek. Biztos vagyok benne, hogy remekül ki fogunk jönni egymással. Hé, ezek a kötelek meg mire valók?"
     },
     {
         "id": "gnome",
@@ -2152,11 +2152,11 @@
         "edition": "carousel",
         "team": "traveller",
         "reminders": [
-            "Amigo"
+            "Cimbora"
         ],
         "setup": false,
         "ability": "Mindenki megtudja az egyik játékosról, hogy a te oldaladhoz tartozik. Bárkit megölhetsz, aki gyanúsítja.",
-        "flavor": "Four the score or seven beers, no shows are goes for me and my. A prank to crack the cranks and planks o’ the floor foundation length, so incontravertabubbilly mini. The large essays down streams of joyse, no greater than is scene, not inherdt. Ha-urrumph."
+        "flavor": "Négy-húsz-hab s hét-sör múltán, nem-menet a menet nekem-énnek. Tréfa-repeszti palló-pokol alját, incontroverzibuborék-bambán. Esszé-ár örök-öröm-Örkény-örvény, nem lép túl árnyékán öröktelen-örök. Burrárumm."
     },
     {
         "id": "bishop",
@@ -2164,12 +2164,12 @@
         "edition": "bmr",
         "team": "traveller",
         "reminders": [
-            "Gyanúsíts jót",
-            "Gyanúsíts gonoszt"
+            "Jót gyanúsíts",
+            "Gonoszt gyanúsíts"
         ],
         "setup": false,
         "ability": "Csak a mesélő gyanúsíthat. Minden nap gyanúsítania kell legalább egy játékost az ellenfél csapatából.",
-        "flavor": "In nomine Patris, et Filii, et Spiritus Sancti… Nos mos Dei. Deus vult de nobis."
+        "flavor": "In nomine Patris, et Filii, et Spiritus Sancti… Nos mos Dei. Deus vult nobis."
     },
     {
         "id": "voudon",
@@ -2179,11 +2179,11 @@
         "reminders": [],
         "setup": false,
         "ability": "Csak te és a halottak szavazhatnak. Ehhez nincs szükségük szavazatjelölőre. Nincs szükség 50%-os többségre.",
-        "flavor": "Bien venu. Sit down. Breathe deep. Enter the land of the dead. See with their eyes. Speak with their voice. Yon sel lang se janm ase."
+        "flavor": "Bien venu. Foglalj helyet. Lélegezz mélyeket. Lépj be a holtak földjére. Láss az ő szemükkel. Szólj az ő hangjukon. Yon sel lang se janm ase."
     },
     {
         "id": "angel",
-        "firstNightReminder": "Jelentsd be, melyik játéksok védettek az angyal által. :reminder:",
+        "firstNightReminder": "Jelentsd be, hogy mely játékosokat védi az angyal. :reminder:",
         "reminders": [
             "Védett",
             "Védett",
@@ -2194,30 +2194,30 @@
         "team": "fabled",
         "edition": "fabled",
         "ability": "Valami rossz történhet azzal, aki a leginkább felelős egy új játékos haláláért.",
-        "flavor": "Let those who are without sin dare to raise their hand to my chosen, for I shall strike such fools down with the fury and righteousness of a thousand storms."
+        "flavor": "Kik maguk nem bűntelenek, ne merészeljenek kezet emelni az én választottaimra, mert ezernyi vihar haragjával sújtok le az ilyen ostobákra."
     },
     {
         "id": "buddhist",
-        "firstNightReminder": "Jelentsd be, melyik játéksokra hat a buddhista.",
+        "firstNightReminder": "Jelentsd be, hogy mely játékosokra hat a buddhista képessége.",
         "reminders": [],
         "setup": false,
         "name": "Buddhista",
         "team": "fabled",
         "edition": "fabled",
         "ability": "A tapasztalt játékosok nem szólalhatnak meg a nappalok első 2 percében.",
-        "flavor": "You throw thorns. Falling in my silence, they become flowers."
+        "flavor": "Töviseket hintesz el, melyek csöndembe hullva virágként szökkennek szárba."
     },
     {
         "id": "deusexfiasco",
         "reminders": [
-            "Upsz"
+            "Hoppá"
         ],
         "setup": true,
         "name": "Isteni benézés",
         "team": "fabled",
         "edition": "carousel",
         "ability": "Játékonként legalább egyszer a mesélő elkövet egy hibát, kijavítja, és nyilvánosan elismeri.",
-        "flavor": "It's not a bug, it's a feature. It's not an error, it's a tweak. It's not broken, it's quirky."
+        "flavor": "Nem hibáztam, így terveztem, \nNem bug ez csak fícsör itten. \nGond egy szál se, zavar nincsen, \nSzavazz ránk a Board Game Geeken."
     },
     {
         "id": "djinn",
@@ -2227,7 +2227,7 @@
         "team": "fabled",
         "edition": "fabled",
         "ability": "Alkalmazd a dzsinn különleges szabályát, amit minden játékos megismert.",
-        "flavor": "نحن لسنا هنا. انت لست حقيقي. كل شيء هو وهم. أسئلتك هي جبل نار في يوم صافٍ."
+        "flavor": "نحن لسنا هنا.انت لست حقيقي.كل شيء هو وهم.أسئلتك هي جبل نار في يوم صافٍ."
     },
     {
         "id": "doomsayer",
@@ -2237,22 +2237,22 @@
         "team": "fabled",
         "edition": "fabled",
         "ability": "Ha legalább négy játékos él, minden élő játékos legfeljebb egyszer nyilvánosan kérheti, hogy haljon meg egy játékos a saját oldaláról.",
-        "flavor": "And on the Seventh Day, there shall be a great flood and a pestilence upon the People of the Village of the Ravens! The dead shall rise and the living shall repent! O Woe! O Unholy day! Only by great sacrifice shall they prevail! So sayeth the Sages of Nostros and so sayeth I."
+        "flavor": "A hetedik napon pedig rettenetes özönvíz és döghalál éri el az Ármány kövének népét! A halottak feltámadnak, s az élők buzgó bűnbánatot tartanak. Ó, borzalom! Ó, szörnyűség! Csak hatalmas áldozattal győzedelmeskedhetnek! Eképpen szólottak vala bölcseink, és eképpen szólok én is."
     },
     {
         "id": "duchess",
-        "otherNightReminder": "Egyesével ébressz fel minden *LÁTOGATÓ* vagy *HAMIS INFÓ* emlékeztetővel jelölt játékost. Mutasd meg nekik az *Ő KIVÁLASZTOTT TÉGED* lapkát és a grófnő jelölőjét, majd mutasd fel megfelelő számú ujjad.",
+        "otherNightReminder": "Egyesével ébreszd fel a LÁTOGATÓ és TÉVES INFORMÁCIÓ emlékeztetőkkel megjelölt játékosokat. Mutasd meg az Ő KIVÁLASZTOTT TÉGED lapkát, a grófnő jelölőjét, és egy számot.",
         "reminders": [
             "Látogató",
             "Látogató",
-            "Hamis infó"
+            "Téves információ"
         ],
         "setup": false,
         "name": "Grófnő",
         "team": "fabled",
         "edition": "fabled",
         "ability": "Minden nap felkereshet három játékos. Éjjel* megtudják, közülük hányan gonoszak, de egyikük hamis információt kap.",
-        "flavor": "We shall entertain between the hours of 6 and 7 precisely. Tea at 6:15. Scones at 6:45. Do not be late. Formal wear applies, as always."
+        "flavor": "A teapartit pontosan 6 és 7 óra között tartjuk. Tea 6:15-kor. Sütemény 6:45-kor. Késésnek helye nincs. Megjelenés alkalomhoz illő öltözetben."
     },
     {
         "id": "ferryman",
@@ -2261,7 +2261,7 @@
         "name": "Révész",
         "team": "fabled",
         "edition": "carousel",
-        "ability": "Az utolsó napon minden halott játékos visszakapja a szavazat jelölőjét.",
+        "ability": "Az utolsó napon minden halott játékos visszakapja a szavazatjelölőjét.",
         "special": [
             {
                 "name": "ghost-votes",
@@ -2269,19 +2269,19 @@
                 "time": "day"
             }
         ],
-        "flavor": "When righteous dreams come, they have the weight of truth."
+        "flavor": "Amikor igaz álmok jönnek, az igazság súlyát is magukkal hozzák."
     },
     {
         "id": "fibbin",
         "reminders": [
-            "Nincs képessége"
+            "Nincs képesség"
         ],
         "setup": false,
         "name": "Mókamester",
         "team": "fabled",
         "edition": "fabled",
         "ability": "Játékonként egyszer 1 jó játékos téves információt kaphat.",
-        "flavor": "Tee-hee-hee. Tee. Hee. Hee."
+        "flavor": "Be-bee. Bi-bi-bííí..."
     },
     {
         "id": "fiddler",
@@ -2298,7 +2298,7 @@
                 "time": "day"
             }
         ],
-        "flavor": "I'll wager mi lyef ye cannae best me in a fiddle contest, ye boss-eyed snook! We'll go out on the lash, get the pub jammers an' have a right craic. I'll be layin' ma boots into ya come mornin' ye rumbly muppet."
+        "flavor": "Pusztuljak meg, ha alul maradok a hegedűmmel egy ilyen kancsal fickó ellen! Átmegyünk a cimbikkel a csehóba, felöntünk a garatra, de cefetül, oszt mulatunk egy oltári nagyot. Reggelre meg péppé alázlak, te lármás tökfej."
     },
     {
         "id": "hellslibrarian",
@@ -2310,7 +2310,7 @@
         "team": "fabled",
         "edition": "fabled",
         "ability": "Valami rossz történhet azzal, aki beszél, amikor a mesélő csendet kér.",
-        "flavor": "Shhhhhh. Please be quiet. It is best not to disturb the Librarian. I've heard it has a temper."
+        "flavor": "Pssszt. Maradj csendben, kérlek. Jobb, ha nem bosszantjuk fel a könyvtárost. Úgy hallottam, elég könnyen kijön a sodrából."
     },
     {
         "id": "revolutionary",
@@ -2324,7 +2324,7 @@
         "team": "fabled",
         "edition": "fabled",
         "ability": "Két szomszédos játékosról ismert, hogy egy csapathoz tartoznak. Játékonként egyszer egyikük másnak tűnik.",
-        "flavor": "United we feigned. Divided, we stalled."
+        "flavor": "Egységben az erő, kétségben nem nyerő."
     },
     {
         "id": "sentinel",
@@ -2334,7 +2334,7 @@
         "team": "fabled",
         "edition": "fabled",
         "ability": "Eggyel több vagy eggyel kevesebb kívülálló lehet játékban.",
-        "flavor": "Name, please. Papers, please. Weapons, please."
+        "flavor": "A nevét, legyen szíves. A papírjait, legyen szíves. A fegyvereit, legyen szíves."
     },
     {
         "id": "spiritofivory",
@@ -2346,21 +2346,21 @@
         "team": "fabled",
         "edition": "fabled",
         "ability": "Legfeljebb egy extra gonosz játékos lehet.",
-        "flavor": "The Wasteland calls. Bones rise to flesh, then fall to dust. The great spirit grows. The great spirit watches. The great spirit guides. The human listens, or the human is no more."
+        "flavor": "A Pusztaság szólít. A csontok élő hússá fejlődnek, majd porrá lesznek. A Nagy Szellem erősödik. A Nagy Szellem figyel. A Nagy Szellem utat mutat. Az ember hallgat rá, vagy elenyészik."
     },
     {
         "id": "toymaker",
-        "firstNightReminder": "Resolve Minion Info and Demon Info, even though there are fewer than 7 players.",
-        "otherNightReminder": "If a Demon attack could end the game, and the Demon is marked *FINAL NIGHT: NO ATTACK*, do not wake the Demon.",
+        "firstNightReminder": "Hajtsd végre a Csatlósok információja és Démon információja lépéseket akkor is, ha hétnél kevesebb játékos van.",
+        "otherNightReminder": "Ha a démon támadása véget vethetne a játéknak, és a démon meg van jelölve az UTOLSÓ ÉJSZAKÁN NEM TÁMAD emlékeztetővel, ne ébreszd fel a démont.",
         "reminders": [
-            "Utolsó éjjel: Nincs támadás"
+            "Utolsó éjjel nem támad"
         ],
         "setup": false,
         "name": "Játékkészítő",
         "team": "fabled",
         "edition": "fabled",
         "ability": "A démon dönthet úgy, hogy nem támad, és ezt játékonként legalább egyszer meg kell tennie. A gonosz játékosok szokásos kezdő információt kapnak.",
-        "flavor": "It buzzes! It walks down stairs! It keeps you warm at night! It tastes like sugar! The kiddies love it! Introducing... the brand new... Warm'o-buzzy-wuzzy-walk'a'bot-thingy-contraption! Fun for all ages!"
+        "flavor": "Rezeg és mozog! Lesétál a lépcsőn! Éjszaka melegen tart! Édes, mint a méz! A gyerekek imádják! Ezennel bemutatjuk a vadonatúj... jó meleg rezgő-mozgó buzgóbot-féleséget! Remek szórakozás minden korosztálynak!"
     },
     {
         "id": "bootlegger",
@@ -2373,7 +2373,7 @@
         "team": "loric",
         "edition": "loric",
         "ability": "Ez a szkript házi készítésű karaktereket vagy szabályokat tartalmaz.",
-        "flavor": "When I was born, I was named ‘Homebrewy McHomebrewface’, like my father before me. A respectable name, for a dignified age."
+        "flavor": "Születésemkor a becses Lőreházi Pancslöttypofa nevet kaptam, akárcsak előttem apám. Tekintélyes név — egy igazán méltóságteljes korhoz illő."
     },
     {
         "id": "bigwig",
@@ -2385,7 +2385,7 @@
         "team": "loric",
         "edition": "loric",
         "ability": "Minden gyanúsított választ egy játékost: a szavazásig csak ő beszélhet, és az a rögeszméje, hogy a gyanúsított jó, különben meghalhat.",
-        "flavor": "Vanity asks ‘Is it popular?’ Cowardice asks ‘Is it safe?’ Conscience asks ‘Is it right?’ Who among us will ask: ‘Is it true?’"
+        "flavor": "A hiúság azt kérdezi: 'Népszerű ez?' A gyávaság azt kérdezi: 'Biztonságos ez?' A lelkiismeret azt kérdezi: 'Helyes ez?' De vajon ki lesz az, aki megkérdezi: 'Igaz ez?'"
     },
     {
         "id": "gardener",
@@ -2394,7 +2394,7 @@
         "name": "Kertész",
         "team": "loric",
         "edition": "loric",
-        "ability": "A mesélő jelöli ki az összes játékos karakterét.",
+        "ability": "A mesélő jelöli ki egy vagy több játékos karakterét.",
         "special": [
             {
                 "name": "distribute-roles",
@@ -2402,7 +2402,7 @@
                 "time": "pregame"
             }
         ],
-        "flavor": "When sophistry becomes stupidity and hypocrisy cruelty, retreat to the garden. The final love of old men is flowers and stones."
+        "flavor": "Amikor az álnok érvelés ostobasággá válik, a képmutatás pedig kegyetlenséggé, vonulj vissza a kertbe. A virágok és a kövek egy öregember végső vigaszai."
     },
     {
         "id": "godofug",
@@ -2465,7 +2465,7 @@
     },
     {
         "id": "stormcatcher",
-        "firstNightReminder": "Jelentsd be, melyik karakter viharvert. Ha ez a karakter játékban van, jelöld meg a *VIHARVERT* emlékeztetővel. Ébressz fel minden gonosz játékost, és mutasd meg nekik a karakter jelölőjét és a játékost. Ha nincs játékban, ébreszd fel a gonosz játékosokat, mutasd meg az *EZEK A KARAKTEREK NINCSENEK JÁTÉKBAN* lapkát és a viharvert karakter jelölőjét.",
+        "firstNightReminder": "Jelentsd be, hogy melyik karakter lett viharvert. Ha ez a karakter játékban van, jelöld meg a játékost. Ébressz fel minden gonosz játékost, és mutasd meg nekik a karakter jelölőjét, majd a megjelölt játékost. Ha nincs játékban, ébressz fel minden gonosz játékost, mutasd meg nekik az EZEK A KARAKTEREK NINCSENEK JÁTÉKBAN lapkát és a karakter jelölőjét.",
         "reminders": [
             "Viharvert"
         ],
@@ -2474,7 +2474,7 @@
         "team": "loric",
         "edition": "loric",
         "ability": "Nevezz meg egy jó karaktert. Ha játékban van, csak kivégzés által halhat meg, de a gonosz játékosok megtudják, hogy melyik játékos az.",
-        "flavor": "At dawn, the temple’s long shadow creeps to the fountain. At dusk, the obelisk blocks the red glare, cooling warm water under the archway. All lines converge here. A storm is coming, and this, this pebbled and lush and holy place between the apple trees, is the eye."
+        "flavor": "Hajnalban a templom hosszú árnyéka a szökőkúthoz kúszik. Alkonyatkor az obeliszk elzárja a vörös ragyogást, hűsítve a meleg vizet az árkádok alatt. Minden vonal ide fut össze. Vihar van készülőben, és ez a zöldellő szent hely az almafák között, ez lesz a középpontja."
     },
     {
         "id": "tor",
@@ -2485,12 +2485,12 @@
         "team": "loric",
         "edition": "loric",
         "ability": "A játékosok nem tudják, melyik oldalhoz tartoznak és mi a karakterük. Akkor ismerik meg ezeket, amikor meghalnak.",
-        "flavor": "With thunder as my voice and lightning as my blade, I, the eternal guardian, feast upon the fools who dare approach the forbidden gate. Behold, my sacred goal! To purge the beetle from the belly of the rocky earth, to ensnare it in a net of stars, on the hilltop where heaven meets earth."
+        "flavor": "Mennydörgés a hangom és villám a pengém. Én, az örök őrző, lakomát ülök azokon az ostobákon, kik a tiltott kapuhoz merészkednek. Ím, szent célom! Kiűzni a férget a sziklás föld gyomrából, s csillaghálóba fogni ama hegytetőn, hol az ég a földdel összeér."
     },
     {
         "id": "ventriloquist",
         "reminders": [
-            "Rögeszmés"
+            "Rögeszmés / Rögeszme"
         ],
         "setup": false,
         "name": "Hasbeszélő",
@@ -2511,6 +2511,6 @@
         "team": "loric",
         "edition": "loric",
         "ability": "Egy vagy több játékos mindegyike rendelkezik egy céllal. Ennek teljesítésekor az adott játékos kap egy igaz információt.",
-        "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
+        "flavor": "A világegyetem nem dolog... hanem történés, azt mondják. S mi tartja? Teknősök. Mindig újabb teknősök odalent. Teknősök egymás alatt, barátom, teknősök egymás alatt mindörökké."
     }
 ]

@@ -1,6 +1,7 @@
 {
     "common": {
         "icon": "Icono",
+        "icon_alt": "Icono de {name}",
         "show": "Mostrar",
         "hide": "Ocultar",
         "close": "Cerrar",
@@ -11,6 +12,7 @@
         "save": "Guardar",
         "edit": "Editar",
         "delete": "Borrar",
+        "remove": "Quitar",
         "clear": "Limpiar",
         "loading": "Cargando…",
         "name": "Nombre",
@@ -19,6 +21,7 @@
         "reload": "Recargar",
         "all": "Todos",
         "none": "Ninguno",
+        "no_matches": "No se encontraron coincidencias",
         "layout": "Disposición",
         "circle": "Círculo",
         "ellipse": "Elipse",
@@ -60,7 +63,6 @@
         "flip": "Voltear horizontalmente",
         "u_shape": "Sonrisa",
         "enabled": "Habilitado",
-        "disabled": "Deshabilitado",
         "wiki": "Wiki",
         "end_game": "Terminar partida",
         "resize": "Redimensionar",
@@ -79,7 +81,44 @@
         "script_roles_failed": "No se pudieron cargar los roles de este guión. Revisá tu conexión e intentá de nuevo.",
         "script_json_invalid": "No se pudo leer ese guión. Revisá que sea un JSON de guión válido.",
         "roles_not_found": "No se pudieron encontrar estos roles: {roles}",
-        "invalid_import_link": "Este enlace de importación está roto o no es compatible, así que no se cargó nada."
+        "invalid_import_link": "Este enlace de importación está roto o no es compatible, así que no se cargó nada.",
+        "request_failed": "Algo salió mal. Revisá tu conexión e intentá de nuevo.",
+        "fetch_all_roles_failed": "No se pudieron obtener todos los roles.",
+        "fetch_role_failed": "No se pudo obtener el rol.",
+        "fetch_role_details_failed": "No se pudieron obtener los detalles del rol.",
+        "advanced_search_roles_failed": "No se pudieron obtener todos los roles. La búsqueda avanzada no va a funcionar.",
+        "advanced_search_failed": "Falló la búsqueda avanzada",
+        "night_order_failed": "No se pudo obtener el orden nocturno",
+        "script_suggestions_failed": "No se pudieron obtener las sugerencias de guiones",
+        "load_script_failed": "No se pudo cargar el guion.",
+        "script_from_url_failed": "No se pudo obtener el guion desde la URL",
+        "script_data_failed": "No se pudieron obtener los datos del guion",
+        "save_custom_script_failed": "No se pudo guardar el guion personalizado. Las hojas de guion y de orden nocturno no se van a cargar.",
+        "add_to_search_failed": "No se pudo agregar el guion a la búsqueda",
+        "remove_from_search_failed": "No se pudo sacar el guion de la búsqueda",
+        "homebrew_scripts_failed": "No se pudieron obtener tus guiones homebrew",
+        "script_versions_failed": "No se pudieron obtener las versiones del guion",
+        "travellers_failed": "No se pudieron obtener los Viajeros",
+        "fabled_failed": "No se pudieron obtener los Fabulados",
+        "loric_failed": "No se pudieron obtener los Folclóricos",
+        "translations_failed": "No se pudieron obtener las traducciones",
+        "translated_role_failed": "No se pudo obtener el rol traducido.",
+        "toggle_favourite_failed": "No se pudo cambiar el favorito del guion",
+        "update_script_tags_failed": "No se pudieron actualizar las etiquetas del guion",
+        "fetch_profile_failed": "No se pudo obtener el perfil de usuario",
+        "fetch_favourites_failed": "No se pudieron obtener los favoritos",
+        "fetch_saved_games_failed": "No se pudieron obtener las partidas guardadas",
+        "fetch_friends_failed": "No se pudieron obtener los amigos",
+        "save_friends_failed": "No se pudieron guardar los amigos",
+        "saved_game_url_failed": "No se pudo obtener la URL de la partida guardada",
+        "save_game_failed": "No se pudo guardar la partida en el perfil",
+        "delete_saved_game_failed": "No se pudo borrar la partida guardada",
+        "fetch_settings_failed": "No se pudieron obtener las opciones de usuario",
+        "save_settings_failed": "No se pudieron guardar las opciones de usuario",
+        "fetch_custom_cards_failed": "No se pudieron obtener las tarjetas personalizadas del perfil",
+        "save_custom_card_failed": "No se pudo guardar la tarjeta personalizada en el perfil de usuario",
+        "update_custom_card_failed": "No se pudo actualizar la tarjeta personalizada",
+        "delete_custom_card_failed": "No se pudo borrar la tarjeta personalizada"
     },
     "status": {
         "poisoned": "Envenenado",
@@ -101,14 +140,16 @@
     },
     "nav": {
         "brand": "Grimorio Digital",
+        "logo": "Logotipo",
+        "community_created": "Contenido creado por la comunidad",
+        "avatar": "Avatar",
         "offline": "Sin conexión",
         "companion": "Compañero del jugador",
         "game": {
             "title": "Partida",
             "home": "Nuevo...",
             "save": "Guardar...",
-            "buy_grimoire": "Comprá un Grimorio",
-            "town_view": "Vista del pueblo"
+            "buy_grimoire": "Comprá un Grimorio"
         },
         "sheets": {
             "rules": "Reglas"
@@ -185,6 +226,7 @@
             "options": "Opciones",
             "results": "Resultados",
             "add_condition": "Añadir condición",
+            "remove_condition": "Quitar condición",
             "add_first_condition": "Añadí una condición para comenzar la búsqueda.",
             "includes": "Incluye",
             "excludes": "Excluye",
@@ -211,10 +253,11 @@
             "version": "Versión",
             "previous": "Previo",
             "page": "Página {page} / {total}",
-            "next": "Siguiente"
+            "next": "Siguiente",
+            "results_pages": "Páginas de resultados de búsqueda",
+            "toggle_favourite": "Alternar favorito"
         },
         "arrange": {
-            "title": "Reorganizar jugadores"
         },
         "bluff": {
             "title": "ESTOS PERSONAJES NO ESTÁN EN JUEGO",
@@ -258,8 +301,12 @@
             "title": "🎵 Reproductor de música",
             "music_tab": "Música",
             "sfx_tab": "Efectos de sonido",
+            "sfx_info": "Sonido {current} de {total}",
             "track_info": "Pista {current} de {total}",
+            "previous_track": "Pista anterior",
+            "next_track": "Pista siguiente",
             "volume": "Volumen: {volume}%",
+            "volume_control": "Control de volumen",
             "volume_unsupported": "Usá los botones de tu dispositivo para controlar el volumen del audio",
             "add_music_button": "Añadir archivos de música",
             "playlist_title": "Lista de reproducción ({count} pistas)",
@@ -277,6 +324,8 @@
             "add_sfx_button": "Añadir efecto de sonido",
             "sfx_interval_label": "Reproducir en el tiempo restante",
             "auto_fade_phase": "Atenuar volumen en Día/Noche",
+            "day_volume": "Día: {volume}%",
+            "night_volume": "Noche: {volume}%",
             "sfx_volume": "Volumen de efectos de sonido: {volume}%"
         },
         "nomination": {
@@ -304,10 +353,6 @@
             "game_started": "La partida empezó",
             "night_choice": "{name} ({role}) eligió a {targets}",
             "night_choice_none": "{name} ({role}) no eligió a nadie"
-        },
-        "notes": {
-            "title": "Notas",
-            "notes_label": "Notas"
         },
         "qr_sheet": {
             "open": "Abrir"
@@ -340,7 +385,6 @@
             "delete_confirmation_title": "Borrar",
             "delete_confirmation_message": "Estás seguro que querés borrar a {player}, el/la {role}?",
             "notes_for": "Notas para {player}",
-            "save_notes": "Guardar notas",
             "gain_ability": "Obtener habilidad",
             "notify_when": "Notificar cuando",
             "notify_nominated": "Nominado",
@@ -348,20 +392,20 @@
             "notify_marked_dead": "Muerto",
             "notify_player_chosen": "Elegido",
             "notify_note": "Nota para la notificación",
-            "notify_recurring": "Notificar cada vez",
+            "notify_recurring": "Notificar cada vez por partida",
             "notify_reminder_carriers": "Roles marcados con el recordatorio:"
         },
         "town_arrange": {
-            "title": "Organizar los jugadores del pueblo",
+            "title": "Reorganizar jugadores",
             "u_shape": "Sonrisa"
         },
         "town": {
-            "view_title": "Ver pueblo",
+            "view_title": "Vista del pueblo",
             "description_phones": "Tu pueblo es donde vive esta partida. Compartí el código y los jugadores van a poder obtener su rol, leer el guión y seguir las reclamaciones desde su celular.",
-            "description_screen": "Tu pueblo es donde vive esta partida. Abrí la vista del pueblo en una tele para que todos la vean. Tu grimorio se guarda en nuestro servidor mientras un pueblo está activo.",
+            "description_screen": "Tu pueblo es donde vive esta partida. Abrí la Vista del pueblo en una tele para que todos la vean. Tu Grimorio se guarda en nuestro servidor mientras un pueblo está activo.",
             "delete_button": "Borrar pueblo...",
             "code_label": "Código del pueblo",
-            "open_on_screen": "Abrí la vista del pueblo en una tele o una tablet de repuesto:",
+            "open_on_screen": "Abrí la Vista del pueblo en una tele o una tablet de repuesto:",
             "rename": "Renombrar pueblo",
             "title": "Pueblo",
             "screen_heading": "Pantalla grande"
@@ -417,7 +461,9 @@
             "default": "Predeterminado",
             "apply": "Aplicar",
             "custom": "Personalizado",
-            "gallery": "Galería"
+            "gallery": "Galería",
+            "option_alt": "Opción de fondo",
+            "saved_alt": "Fondo guardado"
         },
         "clocktracker_export": {
             "title": "Mandar a Clocktracker",
@@ -502,9 +548,10 @@
         "select_more_roles": "Seleccioná {count} roles más para continuar",
         "too_many_roles": "Quitá {count} roles para continuar",
         "too_many_travellers": "Quitá {count} viajeros (máx. 5) para continuar",
-        "setup_warning": "Algunos de los roles elegidos alteran la composición del pueblo. Por favor, revisalos antes de continuar.",
         "multiple_demons_warning": "Se detectaron múltiples Demonios sin justificación mecánica.",
-        "unread_setup_warning": "No se pudo leer el texto de preparación de {roles}. Revisá su preparación a mano.",
+        "unread_setup_warning": "Habrá que revisar manualmente la habilidad de {role}.",
+        "bag_needs_role": "{owner} necesita que {role} esté en juego.",
+        "bag_changes": "Para cumplir las reglas de preparación: {changes}",
         "player_names": "Nombre de los jugadores",
         "player_placeholder": "Jugador {number}",
         "add_as_player": "Agregar como jugador",
@@ -512,7 +559,8 @@
         "active": "Activo",
         "no_players_added": "No se agregaron jugadores todavía.",
         "persist_players_prompt": "Guardá los nombres de tus jugadores para futuras partidas iniciando sesión en Discord y agregándolos a tu lista de amigos.",
-        "clear": "Limpiar",
+        "clear": "Limpiar...",
+        "clear_players_confirm": "¿Quitar a todos los jugadores de esta partida? Tus amigos siguen en tu lista.",
         "by": "de",
         "edit_names_optional": "Añadir nombres (opcional)",
         "search_hint": "Buscar por nombre o URL.",
@@ -524,6 +572,8 @@
         "added_to_search": "Agregado a la búsqueda",
         "remove_from_search": "Quitar de la búsqueda",
         "homebrew": "Homebrew",
+        "official_characters": "Personajes oficiales",
+        "homebrew_characters": "Personajes homebrew",
         "from_json": "Desde JSON",
         "paste_json_placeholder": "Copiá y pegá el JSON de tu guión acá...",
         "from_file": "Desde archivo",
@@ -545,17 +595,21 @@
         "show_role_details": "Mostrar detalles del rol",
         "hide_role_details": "Ocultar detalles del rol",
         "show_spy_view": "Mostrar vista del Espía/Viuda",
-        "hide_spy_view": "Ocultar vista del Espía/Viuda",
+        "lock_tokens": "Bloquear fichas",
+        "unlock_tokens": "Desbloquear fichas",
+        "spy_put_seat_at_bottom": "Poner un asiento abajo",
+        "spy_seat_one_on_top":"Poner el asiento 1 arriba",
+        "spy_reset_view":"Restablecer la vista",
+        "spy_undo_changes": "Deshacer cambios",
+        "spy_show_all": "Mostrar todos",
+        "spy_move_up": "Mover arriba",
+        "spy_move_down": "Mover abajo",
         "rearrange_tokens": "Reordenar los jugadores",
         "edit_background": "Editar fondo...",
         "nominations": "Nominaciones",
         "town_view": "Vista del pueblo ({townId})",
-        "delete": "Borrar",
-        "delete_confirm": "¿Estás seguro que querés borrar a {player} el/la {role}?",
-        "delete_confirm_no_player": "¿Estás seguro que querés borrar el/la {role}?",
         "notes_for": "Notas para {name}",
         "notes_placeholder": "Añadí notas personalizadas acá...",
-        "save_notes": "Guardar notas",
         "game_notes": "Notas de la partida",
         "town_info_alive": "Vivos",
         "town_info_travellers": "Viajeros",
@@ -577,6 +631,9 @@
         "tokens": "Fichas",
         "tap_bag_prompt": "Tocá la bolsa para sacar tu ficha",
         "tap_token_prompt": "Tocá una ficha para sacarla",
+        "draw_from_bag": "Sacá una ficha de la bolsa",
+        "draw_token": "Sacar ficha {number}",
+        "token_drawn": "La ficha {number} ya se sacó",
         "hold_to_reveal": "Mantené presionado para revelar",
         "draw_animation": "Animación de sorteo",
         "player_name": "Nombre del jugador",
@@ -622,15 +679,25 @@
         "toggle_widgets": "Alternar widgets",
         "info": "Información",
         "composition": "Composición",
-        "day_night": "Día/Noche",
-        "grim": "Grimorio",
+        "show_info": "Mostrar información",
+        "hide_info": "Ocultar información",
+        "show_composition": "Mostrar composición",
+        "hide_composition": "Ocultar composición",
+        "show_timer": "Mostrar temporizador",
+        "hide_timer": "Ocultar temporizador",
+        "show_day_night": "Mostrar día/noche",
+        "hide_day_night": "Ocultar día/noche",
+        "show_companion": "Mostrar compañero del jugador",
+        "hide_companion": "Ocultar compañero del jugador",
+        "show_night_order": "Mostrar orden nocturno",
+        "hide_night_order": "Ocultar orden nocturno",
+        "hide_grim": "Ocultar Grimorio",
         "town": "Pueblo",
-        "town_name_placeholder": "Nombre del pueblo",
         "join": "Unirse",
         "disconnect": "Desconectar",
         "disconnected": "Desconectado",
         "connected_players": "Jugadores conectados",
-        "no_town_info": "No hay información del pueblo por ahora...",
+        "no_town_info": "No hay información del pueblo por ahora.",
         "show_grim_title": "¿Mostrar Grimorio?",
         "show_grim_message": "¿Estás seguro que querés revelar el Grimorio? Se van a mostrar todos los roles.",
         "yes_show_grim": "Si, mostrar Grimorio",
@@ -641,7 +708,14 @@
         "congratulations_suffix": "",
         "widget_dark_background": "Fondos oscuros de widgets",
         "edit_night_icons": "Editar iconos del orden nocturno...",
-        "seat": "Asiento"
+        "seat": "Asiento",
+        "no_timer": "No hay ningún temporizador activo",
+        "timer_hint": "El temporizador va a aparecer cuando el Narrador inicie uno",
+        "timer_title": "Temporizador: {mode} - {time}",
+        "countdown": "Cuenta regresiva",
+        "hours_short": "h",
+        "minutes_short": "min",
+        "seconds_short": "s"
     },
     "cards": {
         "this_is_the_demon": "ESTE ES EL DEMONIO",
@@ -658,7 +732,9 @@
         "show_card": "Mostrar tarjeta...",
         "create_custom_card": "Crear tarjeta personalizada",
         "cards": "Tarjetas",
-        "add_character": "Añadir rol"
+        "add_character": "Añadir rol",
+        "custom_cards": "Tarjetas personalizadas",
+        "no_custom_cards": "Todavía no hay tarjetas personalizadas."
     },
     "controls": {
         "timer_expired_reset": "Terminó el temporizador - Tocalo para resetearlo",
@@ -674,7 +750,6 @@
     "bluffs": {
         "title": "Farsas",
         "add_bluff_set": "Añadir grupo de farsas",
-        "add_token": "Añadir ficha/s",
         "add_bluffs": "Añadir farsas",
         "show_all_bluffs": "Mostrar todas las farsas",
         "delete_set": "Borrar grupo",
@@ -710,9 +785,8 @@
         "nominates": "nomina",
         "to_tie": "para empatar",
         "to_execute": "para ejecutar",
-        "votes_needed_to": "Votos que se necesitan para",
-        "exile": "exiliar",
-        "execute": "ejecutar"
+        "votes_needed_to_exile": "Votos necesarios para exiliar",
+        "votes_needed_to_execute": "Votos necesarios para ejecutar"
     },
     "drawer": {
         "edit_player_name": "Editar nombre del jugador",
@@ -738,6 +812,7 @@
         "unlock_pin_prompt": "Ingresá tu PIN de 4 dígitos",
         "check_pin_prompt": "Ingresá tu PIN para comprobar que lo recordás",
         "unlock_pin_wrong": "PIN incorrecto",
+        "backspace": "Retroceso",
         "unlock_throttled": "Demasiados intentos. Intentalo de nuevo en {seconds} s.",
         "reset_hint": "¿Olvidaste tu PIN? Desactivá el Bloqueo del Narrador en Opciones."
     },
@@ -758,6 +833,7 @@
         "storyteller": "Narrador",
         "storyteller_hint": "Preparás y dirigís la partida",
         "player_hint": "Unite a un pueblo, mirá el guión y el orden nocturno",
+        "town_hint": "Mostrá el pueblo en una tele para que todos lo vean",
         "youtube": "Mirá en YouTube",
         "video_setup_title": "Configuración rápida - Trouble Brewing",
         "video_setup_description": "Empezá una partida de Trouble Brewing con 7 jugadores, desde ponerles nombre hasta agregar recordatorios.",
@@ -817,7 +893,7 @@
                 "body": "Elegí cómo les llegan los roles a tus jugadores. Lo podés cambiar después."
             },
             "call_up": {
-                "body": "Llamá a los jugadores de a uno. Vos tocás su asiento y ellos tocan la bolsa para ver su rol."
+                "body": "Llamá a cada jugador para que venga a verte de a uno. Vos tocás su asiento y ellos tocan la bolsa para ver su rol."
             },
             "pass": {
                 "body": "Pasá el dispositivo por el círculo. Cada jugador saca su rol y lo pasa al siguiente. Tu PIN bloquea el Grimorio para que nadie espíe."
@@ -834,16 +910,16 @@
                 "body": "Abrí esto para que los jugadores entren desde sus celulares."
             },
             "set_up_seats": {
-                "body": "Asigná nombres de jugadores a los asientos y asigná roles a los asientos a mano (viajeros, por ejemplo). Ambas cosas son opcionales."
+                "body": "Apretá acá para asignar nombres de jugadores a los asientos, o roles a los asientos (viajeros, por ejemplo). Ambas cosas son opcionales."
             },
             "names": {
-                "body": "Tocá un nombre para poner a ese jugador en el próximo asiento vacío. Tocá un asiento para vaciarlo."
+                "body": "Tocá un nombre para poner a ese jugador en el próximo asiento vacío. Si querés sacar a alguien de un asiento, tocá ese asiento."
             },
             "add_names": {
                 "body": "Tocá acá para agregar nombres si no ves ninguno abajo."
             },
             "roles": {
-                "body": "Tocá un rol y después un asiento para asignarle ese rol al asiento. Práctico para los viajeros."
+                "body": "La guía pasó a la pestaña Roles. Tocá un rol y después un asiento para asignarle ese rol al asiento. Práctico para los viajeros."
             },
             "skip_draw": {
                 "body": "Dale un rol al azar a cada asiento vacío y omití el sorteo."
@@ -880,31 +956,30 @@
         "grimoire": {
             "good_player": {
                 "title": "Un jugador bueno",
-                "body": "Este jugador está en el equipo del bien. Tocá un jugador para abrir su menú. Arrastralo para moverlo."
+                "body": "Tocá un jugador para abrir su menú. Arrastralo para moverlo. La ilustración azul de este indica que está en el equipo del bien. Durante la partida, un borde turquesa marca a un Forastero."
             },
             "evil_player": {
                 "title": "Un jugador malvado",
-                "body": "Este jugador está en el equipo del mal. La ilustración de cada ficha muestra a qué equipo pertenece ese jugador."
+                "body": "La ilustración roja de este indica que está en el equipo del mal. Durante la partida, un borde rojo oscuro marca al Demonio."
             },
             "seat_menu": {
                 "title": "Menú del jugador",
-                "body": "Abrir pantalla completa, agregar recordatorios, marcar como muerto, intercambiar, cambiar alineación y abrir el menú de herramientas. Tocá afuera del menú para cerrarlo.",
-                "body_evil": "Abrir pantalla completa, agregar recordatorios, agregar un recordatorio de farsa, marcar como muerto, intercambiar, cambiar alineación y abrir el menú de herramientas. Tocá afuera del menú para cerrarlo."
+                "body": "Tocar a un jugador abre este menú. En sentido horario desde arriba: Mostrar, Recordatorios, Farsa, Marcar como muerto, Intercambiar, Cambiar alineación, Herramientas. De día también vas a ver Nominar. Tocá afuera del menú para cerrarlo."
             },
             "add": {
                 "title": "Agregar",
-                "body": "Agregá farsas del demonio, roles extra y fichas de recordatorio."
+                "body": "Apretá este botón para agregar farsas del demonio, roles extra y fichas de recordatorio."
             },
             "night_order": {
-                "body": "Abre el panel del orden nocturno, que te guía sobre a quién despertar cada noche."
+                "body": "Apretá este botón para abrir el panel del orden nocturno, que te guía sobre a quién despertar cada noche."
             },
             "phase": {
                 "title": "Día y noche",
-                "body": "Avanzá la partida al próximo día o a la próxima noche."
+                "body": "La flecha derecha avanza la partida al próximo día o a la próxima noche. La flecha izquierda retrocede un paso, por si necesitás corregir algo."
             },
             "view": {
                 "title": "Vista",
-                "body": "Reordená los asientos, abrí la vista del Espía, leé el historial de la partida o cambiá el fondo."
+                "body": "Reorganizar jugadores (elegí una disposición y arrastrá a los jugadores para ordenarlos), abrí la vista del Espía, leé el historial de la partida o cambiá el fondo."
             },
             "town": {
                 "title": "Pueblo",
@@ -922,7 +997,7 @@
                 "body": "Bloqueá las fichas en su lugar para que no se arrastren por accidente. Se bloquean solas cuando termina la partida."
             },
             "gr_notes": {
-                "body": "Tus propias notas para toda la partida. Las notas sobre un jugador van en el menú de la ficha de ese jugador."
+                "body": "Tus propias notas para toda la partida. Podés tomar notas sobre un jugador en el menú de la ficha de ese jugador."
             },
             "gr_timer": {
                 "body": "Fijá una cuenta regresiva para el día o activá un cronómetro. Una vez fijado, tocá el tiempo para pausarlo o continuar."
@@ -940,7 +1015,7 @@
             },
             "town_state": {
                 "title": "Estado del pueblo",
-                "body": "El ícono de la persona muestra la cantidad de jugadores vivos. Se pone amarillo a 4 y rojo a 3 o menos. La valija indica la cantidad de viajeros. La calavera son los jugadores muertos. La mano muestra cuántos votos quedan, incluidos los votos fantasma. Se pone roja cuando no quedan votos suficientes para superar el total actual en el patíbulo. La tilde muestra la cantidad de votos necesarios para sacar del patíbulo a la persona actual."
+                "body": "El ícono de la persona muestra la cantidad de jugadores vivos. Se pone amarillo a 4 y rojo a 3 o menos. La calavera son los jugadores muertos. La mano muestra cuántos votos quedan, incluidos los votos fantasma. Se pone roja cuando no quedan votos suficientes para superar el total actual en el patíbulo. La tilde muestra la cantidad de votos necesarios para sacar del patíbulo a la persona actual. Si hay viajeros, la valija indica cuántos."
             },
             "end_game": {
                 "title": "Terminar partida",
@@ -948,6 +1023,9 @@
             }
         },
         "night": {
+            "night_pane": {
+                "body": "A quién despertar esta noche, en orden."
+            },
             "night_cards": {
                 "body": "Abrí el menú Tarjetas para mostrarle una tarjeta a un jugador o crear la tuya."
             },
@@ -962,6 +1040,12 @@
             "unplaced_reminders": {
                 "title": "Recordatorios sin colocar",
                 "body": "El número indica cuántos recordatorios de este rol todavía no están en el Grimorio. Tocá para verlos y arrastrá uno hasta un jugador."
+            },
+            "edit_night_order": {
+                "body": "Cambiá el orden para esta partida."
+            },
+            "end_night": {
+                "body": "Terminá la noche y pasá al próximo día."
             }
         },
         "night_choice": {
@@ -970,7 +1054,7 @@
             },
             "choice_banner": {
                 "title": "Registrá la elección",
-                "body": "Tocá a los jugadores elegidos, en orden. Cada uno recibe un número. Después elegí los recordatorios que querés colocar y tocá la tilde. Cada recordatorio se coloca en los jugadores elegidos en ese orden, hasta que se acaban."
+                "body": "Tocá a los jugadores elegidos, en orden. Cada uno recibe un número. Si hay recordatorios para colocar, elegilos y tocá Confirmar. Cada recordatorio se coloca en los jugadores elegidos en ese orden, hasta que se acaban. Si no, la elección se guarda en cuanto se elige al último jugador."
             }
         },
         "preferences": {
@@ -1009,11 +1093,17 @@
             }
         },
         "account": {
+            "usr_stats": {
+                "body": "Tu historial como Narrador: partidas dirigidas, con qué frecuencia gana cada equipo y tus guiones y roles más jugados. Las partidas cuentan cuando llegan al Grimorio, y el ganador se agrega cuando terminás la partida. También podés importar las partidas que dirigiste desde una exportación de Clocktracker."
+            },
             "usr_favourites": {
                 "body": "Los guiones que marcaste con estrella en la pantalla de preparación. Tocá uno para cargarlo. Agregá etiquetas de colores para ordenarlos y después tocá una etiqueta para filtrar la lista."
             },
             "usr_friends": {
                 "body": "Las personas con las que jugás. Sus nombres están listos para elegir cuando asignás los asientos, así no tenés que escribirlos cada vez."
+            },
+            "usr_cards": {
+                "body": "Las tarjetas que creaste para mostrarles a los jugadores. Tocá una para editarla, o + para crear una nueva. También están en el menú Tarjetas durante una partida."
             },
             "usr_games": {
                 "body": "Las partidas que guardaste desde el menú Juego. Cargá una en la pantalla de preparación para seguir donde lo dejaste."
@@ -1021,9 +1111,32 @@
             "usr_homebrew": {
                 "body": "Los guiones homebrew que agregaste a la búsqueda. Tocá uno para cargarlo, o tocá la cruz para sacarlo de la búsqueda."
             },
+            "usr_notifications": {
+                "body": "Las alertas que guardaste para un rol. Se activan solas siempre que ese rol está en tu Grimorio."
+            },
             "usr_logout": {
-                "body": "Cerrá sesión de tu cuenta de Discord en este dispositivo."
+                "body": "Cerrá sesión del Digital Grimoire en este dispositivo. Tu cuenta de Discord sigue conectada."
             }
         }
+    },
+    "stats": {
+        "title": "Mis estadísticas",
+        "games": "Partidas",
+        "finished": "{finished} de {started} partidas terminaron con un ganador",
+        "good_wins": "Victorias del Bueno",
+        "evil_wins": "Victorias del Malvado",
+        "average_players": "Promedio de jugadores",
+        "top_scripts": "Guiones más jugados",
+        "top_roles": "Roles más usados",
+        "none_yet": "Todavía no hay partidas. Las partidas que dirigís con la sesión iniciada aparecen acá cuando llegan al Grimorio.",
+        "clear": "Borrar mis estadísticas...",
+        "clear_confirm": "¿Eliminar todas las partidas registradas en tus estadísticas? Esto no se puede deshacer.",
+        "load_failed": "No se pudieron cargar tus estadísticas.",
+        "clear_failed": "No se pudieron borrar tus estadísticas.",
+        "import_prompt": "¿Dirigiste partidas antes? Importá el CSV que exportaste desde Clocktracker.",
+        "import": "Importar desde Clocktracker",
+        "imported": "Se importaron {count} partidas desde Clocktracker.",
+        "import_none": "Ese archivo no tiene partidas que hayas dirigido como Narrador.",
+        "import_failed": "No se pudo importar ese archivo. Usá el CSV exactamente como lo exportó Clocktracker."
     }
 }

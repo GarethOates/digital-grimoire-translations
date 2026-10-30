@@ -242,9 +242,9 @@
         "edition": "tb",
         "team": "outsider",
         "firstNight": 49,
-        "firstNightReminder": "O Mordomo escolhe um jogador. Marque aquele jogador como 'Mestre'.",
+        "firstNightReminder": "O Mordomo escolhe um jogador. Marque aquele jogador como 'Mestre'. :reminder:",
         "otherNight": 84,
-        "otherNightReminder": "O Mordomo escolhe um jogador. Marque aquele jogador como 'Mestre'.",
+        "otherNightReminder": "O Mordomo escolhe um jogador. Marque aquele jogador como 'Mestre'. :reminder:",
         "reminders": [
             "Mestre"
         ],
@@ -388,9 +388,9 @@
         "edition": "tb",
         "team": "traveller",
         "firstNight": 5,
-        "firstNightReminder": "O Burocrata escolhe um jogador. Coloque o lembrete '3 Votos' do Burocrata ao lado da ficha de personagem do jogador escolhido.",
+        "firstNightReminder": "O Burocrata escolhe um jogador. Coloque o lembrete '3 Votos' do Burocrata ao lado da ficha de personagem do jogador escolhido. :reminder:",
         "otherNight": 2,
-        "otherNightReminder": "O Burocrata escolhe um jogador. Coloque o lembrete '3 Votos' do Burocrata ao lado da ficha de personagem do jogador escolhido.",
+        "otherNightReminder": "O Burocrata escolhe um jogador. Coloque o lembrete '3 Votos' do Burocrata ao lado da ficha de personagem do jogador escolhido. :reminder:",
         "reminders": [
             "3 Votos"
         ],
@@ -464,7 +464,7 @@
         "firstNight": 50,
         "firstNightReminder": "Mostre a ficha de personagem do jogador marcado como 'Neto'. Aponte para o jogador marcado.",
         "otherNight": 67,
-        "otherNightReminder": "Se o 'Neto' da Vovó foi morto pelo Demônio esta noite: A Vovó morre.",
+        "otherNightReminder": "Se o 'Neto' da Vovó foi morto pelo Demônio esta noite: A Vovó morre. :reminder:",
         "reminders": [
             "Neto",
             "Morto"
@@ -596,7 +596,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 59,
-        "otherNightReminder": "Se o Cientista ainda não usou a habilidade: O Cientista pode fazer 'não' com a cabeça, ou apontar para um jogador morto. Se o alvo for um Cidadão, revive.",
+        "otherNightReminder": "Se o Cientista ainda não usou a habilidade: O Cientista pode fazer 'não' com a cabeça, ou apontar para um jogador morto. Se o alvo for um Cidadão, revive. :reminder: :reminder:",
         "reminders": [
             "Vivo",
             "Sem habilidade"
@@ -676,7 +676,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 65,
-        "otherNightReminder": "O Imprudente pode morrer.",
+        "otherNightReminder": "O Imprudente pode morrer. :reminder:",
         "reminders": [
             "Morto"
         ],
@@ -841,7 +841,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 38,
-        "otherNightReminder": "A cada noite*, escolha 2 jogadores: eles morrem. Um jogador morto escolhido na noite anterior pode ser regurgitado.",
+        "otherNightReminder": "A cada noite*, escolha 2 jogadores: eles morrem. Um jogador morto escolhido na noite anterior pode ser regurgitado. :reminder: :reminder: :reminder:",
         "reminders": [
             "Morto",
             "Morto",
@@ -859,7 +859,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 39,
-        "otherNightReminder": "A Pô pode escolher um jogador OU 3 jogadores se escolheu 'ninguém' na última noite. :reminder: ou :reminder: :reminder: reminder:",
+        "otherNightReminder": "A Pô pode escolher um jogador OU 3 jogadores se escolheu 'ninguém' na última noite. :reminder: ou :reminder: :reminder: reminder: :reminder:",
         "reminders": [
             "Morto",
             "Morto",
@@ -876,7 +876,7 @@
         "edition": "bmr",
         "team": "traveller",
         "firstNight": 3,
-        "firstNightReminder": "Mostre ao Aprendiz a ficha de 'Você é', e uma ficha de personagem de Cidadão ou de Lacaio. No Grimório, substitua a ficha de personagem do Aprendiz com o daquele personagem e coloque o lembrete 'É o Aprendiz' próximo a ele.",
+        "firstNightReminder": "Mostre ao Aprendiz a ficha de 'Você é', e uma ficha de personagem de Cidadão ou de Lacaio. No Grimório, substitua a ficha de personagem do Aprendiz com o daquele personagem e coloque o lembrete 'É o Aprendiz' próximo a ele. :reminder:",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
@@ -1247,7 +1247,7 @@
         "firstNight": 33,
         "firstNightReminder": "A Feiticeira escolhe um jogador. :reminder:",
         "otherNight": 22,
-        "otherNightReminder": "A Feiticeira escolhe um jogador. (lembrete)",
+        "otherNightReminder": "A Feiticeira escolhe um jogador. (lembrete) :reminder:",
         "reminders": [
             "Amaldiçoado"
         ],
@@ -1332,7 +1332,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 41,
-        "otherNightReminder": "O No Dashii escolhe um jogador. O alvo morre.",
+        "otherNightReminder": "O No Dashii escolhe um jogador. O alvo morre. :reminder:",
         "reminders": [
             "Morto",
             "Envenenado",
@@ -1364,9 +1364,9 @@
         "edition": "snv",
         "team": "traveller",
         "firstNight": 4,
-        "firstNightReminder": "Escolha um jogador, acorde-o e informe-o qual dos poderes da Barista está o afetando. Trate-o da forma correspondente (sóbrio, são e informação verdadeira ou ative a habilidade duas vezes)",
+        "firstNightReminder": "Escolha um jogador, acorde-o e informe-o qual dos poderes da Barista está o afetando. Trate-o da forma correspondente (sóbrio, são e informação verdadeira ou ative a habilidade duas vezes) :reminder:",
         "otherNight": 1,
-        "otherNightReminder": "Escolha um jogador, acorde-o e informe-o qual dos poderes da Barista está o afetando. Trate-o da forma correspondente (sóbrio, são e informação verdadeira ou ative a habilidade duas vezes)",
+        "otherNightReminder": "Escolha um jogador, acorde-o e informe-o qual dos poderes da Barista está o afetando. Trate-o da forma correspondente (sóbrio, são e informação verdadeira ou ative a habilidade duas vezes) :reminder:",
         "reminders": [
             "Sóbrio e Desenvenenado",
             "Habilidade 2x",
@@ -1385,7 +1385,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 4,
-        "otherNightReminder": "A Meretriz escolhe um jogador, Coloque-o para dormir. Acorde o jogador escolhido, mostre os tokens *ESSE PERSONAGEM TE ESCOLHEU* e o da Meretriz, ele pode com a cabeça escolher 'sim' ou 'não'. Se sim acorde a Meretriz e mostre o token de personagem do jogador escolhido. Então, você decide se ambos ou nenhum morre.",
+        "otherNightReminder": "A Meretriz escolhe um jogador, Coloque-o para dormir. Acorde o jogador escolhido, mostre os tokens *ESSE PERSONAGEM TE ESCOLHEU* e o da Meretriz, ele pode com a cabeça escolher 'sim' ou 'não'. Se sim acorde a Meretriz e mostre o token de personagem do jogador escolhido. Então, você decide se ambos ou nenhum morre. :reminder: :reminder:",
         "reminders": [
             "Morto",
             "Morto"
@@ -1416,7 +1416,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 5,
-        "otherNightReminder": "Se não estiver marcado com *SEM HABILIDADE*, o Coletor de Ossos faz 'não' com a cabeça ou aponta para um jogador morto. Se apontou para um morto coloque o marcador *TEM HABILIDADE* sobre o token do jogador escolhido. (ele talvez precise ser acordado essa noite para utiliza-la.)",
+        "otherNightReminder": "Se não estiver marcado com *SEM HABILIDADE*, o Coletor de Ossos faz 'não' com a cabeça ou aponta para um jogador morto. Se apontou para um morto coloque o marcador *TEM HABILIDADE* sobre o token do jogador escolhido. (ele talvez precise ser acordado essa noite para utiliza-la.) :reminder:",
         "reminders": [
             "Sem Habilidade",
             "Tem habilidade"
@@ -1574,7 +1574,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 32,
-        "otherNightReminder": "O Licantropo escolhe um jogador vivo: se o alvo for bom, morre e ninguém mais pode morrer esta noite. Se por algum motivo o jogador escolhido for bom, mas não morrer, ahabilidade do Licantropo não impede outras mortes esta noite.",
+        "otherNightReminder": "O Licantropo escolhe um jogador vivo: se o alvo for bom, morre e ninguém mais pode morrer esta noite. Se por algum motivo o jogador escolhido for bom, mas não morrer, ahabilidade do Licantropo não impede outras mortes esta noite. :reminder:",
         "reminders": [
             "Pata Falsa",
             "Morto"
@@ -1607,9 +1607,9 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 61,
-        "firstNightReminder": "O Vigia Noturno sinaliza 'não' com a cabeça ou aponta para um jogador. Se apontar, acorde o alvo e mostre o token 'Você foi alvo desta habilidade' e o token do Vigia Noturno. Então aponte para o jogador correspondente.",
+        "firstNightReminder": "O Vigia Noturno sinaliza 'não' com a cabeça ou aponta para um jogador. Se apontar, acorde o alvo e mostre o token 'Você foi alvo desta habilidade' e o token do Vigia Noturno. Então aponte para o jogador correspondente. :reminder:",
         "otherNight": 82,
-        "otherNightReminder": "Se o Vigia Noturno ainda não usou sua habilidade, o Vigia Noturno sinaliza 'não' com a cabeça ou aponta para um jogador. Se apontar, acorde o alvo e mostre o token 'Você foi alvo desta habilidade' e o token do Vigia Noturno. Então aponte para o jogador correspondente.",
+        "otherNightReminder": "Se o Vigia Noturno ainda não usou sua habilidade, o Vigia Noturno sinaliza 'não' com a cabeça ou aponta para um jogador. Se apontar, acorde o alvo e mostre o token 'Você foi alvo desta habilidade' e o token do Vigia Noturno. Então aponte para o jogador correspondente. :reminder:",
         "reminders": [
             "Sem Habilidade"
         ],
@@ -1623,9 +1623,9 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 19,
-        "firstNightReminder": "O Engenheiro sinaliza 'não' com a cabeça, ou aponta na ficha de personagens para um Demônio ou para uma quantidade de Lacaios (conforme o número de jogadores). Se o Engenheiro fizer isso, troque os personagens, conforme escolhido, e acorde os jogadores correspondentes para informá-los sobre a mudança.",
+        "firstNightReminder": "O Engenheiro sinaliza 'não' com a cabeça, ou aponta na ficha de personagens para um Demônio ou para uma quantidade de Lacaios (conforme o número de jogadores). Se o Engenheiro fizer isso, troque os personagens, conforme escolhido, e acorde os jogadores correspondentes para informá-los sobre a mudança. :reminder:",
         "otherNight": 9,
-        "otherNightReminder": "Se o Engenheiro ainda não usou a habilidade, o Engenheiro sinaliza 'não' com a cabeça, ou aponta na ficha de personagens para um Demônio ou para uma quantidade de Lacaios (conforme o número de jogadores). Se o Engenheiro fizer isso, troque os personagens, conforme escolhido, e acorde os jogadores correspondentes para informá-los sobre a mudança.",
+        "otherNightReminder": "Se o Engenheiro ainda não usou a habilidade, o Engenheiro sinaliza 'não' com a cabeça, ou aponta na ficha de personagens para um Demônio ou para uma quantidade de Lacaios (conforme o número de jogadores). Se o Engenheiro fizer isso, troque os personagens, conforme escolhido, e acorde os jogadores correspondentes para informá-los sobre a mudança. :reminder:",
         "reminders": [
             "Sem Habilidade"
         ],
@@ -1655,9 +1655,9 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 40,
-        "firstNightReminder": "O Caçador sinaliza 'não' com a cabeça, ou aponta para um jogador. Se apontar para a Donzela, mude o personagem do alvo para um Cidadão que não esteja em jogo. Avise o alvo sobre a troca.",
+        "firstNightReminder": "O Caçador sinaliza 'não' com a cabeça, ou aponta para um jogador. Se apontar para a Donzela, mude o personagem do alvo para um Cidadão que não esteja em jogo. Avise o alvo sobre a troca. :reminder:",
         "otherNight": 61,
-        "otherNightReminder": "O Caçador sinaliza 'não' com a cabeça, ou aponta para um jogador. Se apontar para a Donzela, mude o personagem do alvo para um Cidadão que não esteja em jogo. Avise o alvo sobre a troca.",
+        "otherNightReminder": "O Caçador sinaliza 'não' com a cabeça, ou aponta para um jogador. Se apontar para a Donzela, mude o personagem do alvo para um Cidadão que não esteja em jogo. Avise o alvo sobre a troca. :reminder:",
         "reminders": [
             "Sem Habilidade"
         ],
@@ -1707,7 +1707,7 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 12,
-        "firstNightReminder": "",
+        "firstNightReminder": "Durante a etapa de informação dos Lacaios, aponte para o Mágico e para o Demônio. Durante a etapa de informação do Demônio, aponte para o Mágico e para os Lacaios.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
@@ -1890,7 +1890,7 @@
         "edition": "",
         "team": "minion",
         "firstNight": 25,
-        "firstNightReminder": "Mostre o Grimório para a viúva. A viúva escolhe um jogador. Esse jogador está envenenado. Acorde um jogador bom. Informe-o que a Viúva está em jogo.",
+        "firstNightReminder": "Mostre o Grimório para a viúva. A viúva escolhe um jogador. Esse jogador está envenenado. Acorde um jogador bom. Informe-o que a Viúva está em jogo. :reminder: :reminder:",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
@@ -1907,9 +1907,9 @@
         "edition": "",
         "team": "minion",
         "firstNight": 35,
-        "firstNightReminder": "O Amedrontador aponta para um jogador. Marque o escolhido com o lembrete 'Medo' e anuncie que um jogador foi alvo da habilidade do Amendrontador.",
+        "firstNightReminder": "O Amedrontador aponta para um jogador. Marque o escolhido com o lembrete 'Medo' e anuncie que um jogador foi alvo da habilidade do Amendrontador. :reminder:",
         "otherNight": 25,
-        "otherNightReminder": "O Amedrontador aponta para um jogador. Marque o escolhido com o lembrete 'Medo'. Se a escolha for diferente da noite anterior, anuncie que um novo jogador foi escolhido pelo Amedrontador.",
+        "otherNightReminder": "O Amedrontador aponta para um jogador. Marque o escolhido com o lembrete 'Medo'. Se a escolha for diferente da noite anterior, anuncie que um novo jogador foi escolhido pelo Amedrontador. :reminder:",
         "reminders": [
             "Medo"
         ],
@@ -1955,7 +1955,7 @@
         "firstNight": 37,
         "firstNightReminder": "Mostre ao Mezepheles a palavra secreta.",
         "otherNight": 27,
-        "otherNightReminder": "Acorde o primeiro jogador a dizer a palavra secreta. Mostre o token 'Você é' e sinalize 'mau' (polegar para baixo).",
+        "otherNightReminder": "Acorde o primeiro jogador a dizer a palavra secreta. Mostre o token 'Você é' e sinalize 'mau' (polegar para baixo). :reminder: :reminder:",
         "reminders": [
             "Vira mau",
             "Sem Habilidade"
@@ -2010,9 +2010,9 @@
         "edition": "",
         "team": "demon",
         "firstNight": 21,
-        "firstNightReminder": "Acorde todos os Lacaios juntos, permita que eles votem apontando para quem eles querem que tome conta do Monstrinho.",
+        "firstNightReminder": "Acorde todos os Lacaios juntos, permita que eles votem apontando para quem eles querem que tome conta do Monstrinho. :reminder:",
         "otherNight": 48,
-        "otherNightReminder": "Acorde todos os Lacaios juntos, permita que eles votem apontando para quem eles querem que tome conta do Monstrinho. Escolha um jogador, aquele jogador morre.",
+        "otherNightReminder": "Acorde todos os Lacaios juntos, permita que eles votem apontando para quem eles querem que tome conta do Monstrinho. Escolha um jogador, aquele jogador morre. :reminder: :reminder:",
         "reminders": [],
         "setup": true,
         "ability": "A cada noite os Lacaios escolhem quem cuidará do Monstrinho e 'é o Demônio'. A cada noite* um jogador pode morrer. [+1 Lacaio]",
@@ -2037,9 +2037,9 @@
         "edition": "",
         "team": "demon",
         "firstNight": 22,
-        "firstNightReminder": "O Parasita aponta para um jogador. Marque-o com o lembrete 'Envenenado'.",
+        "firstNightReminder": "O Parasita aponta para um jogador. Marque-o com o lembrete 'Envenenado'. :reminder:",
         "otherNight": 47,
-        "otherNightReminder": "O Parasita aponta para um jogador: o alvo morre.",
+        "otherNightReminder": "O Parasita aponta para um jogador: o alvo morre. :reminder:",
         "reminders": [
             "Morto",
             "Envenenado"
@@ -2056,7 +2056,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 46,
-        "otherNightReminder": "O Al-Hadikhia escolhe 3 jogadores. Anuncie o primeiro jogador. Acorde-o para sinalizar 'sim' ou 'não' com a cabeça indicando se quer viver ou morrer respectivamente. Mate ou reviva comforme a escolha. Adormeça o jogador, anuncie o próximo alvo e repita o processo até ter passado por todos os 3 alvos. Após isso, se os 3 ainda vivem, todos os 3 morrem.",
+        "otherNightReminder": "O Al-Hadikhia escolhe 3 jogadores. Anuncie o primeiro jogador. Acorde-o para sinalizar 'sim' ou 'não' com a cabeça indicando se quer viver ou morrer respectivamente. Mate ou reviva comforme a escolha. Adormeça o jogador, anuncie o próximo alvo e repita o processo até ter passado por todos os 3 alvos. Após isso, se os 3 ainda vivem, todos os 3 morrem. :reminder: :reminder: :reminder:",
         "reminders": [
             "1",
             "2",
@@ -2074,7 +2074,7 @@
         "firstNight": 0,
         "firstNightReminder": "Informe a todos os jogadores que sejam Legião quem são os outros Legião. Você decide quantos e quais Legião recebem blefes.",
         "otherNight": 34,
-        "otherNightReminder": "Se ao menos um membro da Legião estiver sóbrio, escolha um jogador, esse jogador morre.",
+        "otherNightReminder": "Se ao menos um membro da Legião estiver sóbrio, escolha um jogador, esse jogador morre. :reminder:",
         "reminders": [
             "Morto",
             "Prestes a morrer"
@@ -2089,9 +2089,9 @@
         "edition": "",
         "team": "demon",
         "firstNight": 69,
-        "firstNightReminder": "Coloque o lembrete 'Dia 1'. Anuncie ao amanhecer: “O Leviatã está em jogo; este é o primeiro dia ”.",
+        "firstNightReminder": "Coloque o lembrete 'Dia 1'. Anuncie ao amanhecer: “O Leviatã está em jogo; este é o primeiro dia ”. :reminder:",
         "otherNight": 90,
-        "otherNightReminder": "Coloque o lembrete com o número do dia que irá amanhecer. Se ainda não anunciou que o Leviatã está em jogo, faça isso ao amanhcer, anunciando também o número correspondente ao dia.",
+        "otherNightReminder": "Coloque o lembrete com o número do dia que irá amanhecer. Se ainda não anunciou que o Leviatã está em jogo, faça isso ao amanhcer, anunciando também o número correspondente ao dia. :reminder:",
         "reminders": [
             "Dia 1",
             "Dia 2",
@@ -2112,7 +2112,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 0,
-        "otherNightReminder": "",
+        "otherNightReminder": "Mude o lembrete do Pandemônio para o dia correspondente. :reminder: Se for a 3ª noite, você pode acordar os Lacaios. Mostre os tokens *VOCÊ É* e do Pandemônio.",
         "reminders": [
             "Dia 1",
             "Dia 2",
@@ -2142,9 +2142,9 @@
         "edition": "",
         "team": "minion",
         "firstNight": 30,
-        "firstNightReminder": "O Organista indica com a cabeça se quer ou não ficar bêbado.",
+        "firstNightReminder": "O Organista indica com a cabeça se quer ou não ficar bêbado. :reminder:",
         "otherNight": 20,
-        "otherNightReminder": "O Organista indica com a cabeça se quer ou não ficar bêbado.",
+        "otherNightReminder": "O Organista indica com a cabeça se quer ou não ficar bêbado. :reminder:",
         "reminders": [
             "Prestes a morrer",
             "Bêbado"
@@ -2239,7 +2239,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 0,
-        "otherNightReminder": "",
+        "otherNightReminder": "Se o Médico da Peste morreu, o Narrador ganhou a habilidade de um Lacaio. Se ainda não fez isso, faça agora. :reminder:",
         "reminders": [
             "Habilidade do Narrador"
         ],
@@ -2269,7 +2269,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 45,
-        "otherNightReminder": "O Ojo aponta para um personagem na lista; se estiver em jogo, aquele jogador morre. Se não estiver em jogo, o Narrador escolhe quem morre.",
+        "otherNightReminder": "O Ojo aponta para um personagem na lista; se estiver em jogo, aquele jogador morre. Se não estiver em jogo, o Narrador escolhe quem morre. :reminder:",
         "reminders": [
             "Morto"
         ],
@@ -2301,7 +2301,7 @@
         "firstNight": 2,
         "firstNightReminder": "O Kazali aponta para um jogador e um Lacaio na lista. Acorde o alvo. Mostre o token: 'Você é', o token de Lacaio e sinalize 'mau' (polegar para baixo). Repita até que o número normal de Lacaios exista. Ponha o Kazali para dormir.",
         "otherNight": 50,
-        "otherNightReminder": "O Kazali aponta para um jogador: O alvo morre.",
+        "otherNightReminder": "O Kazali aponta para um jogador: O alvo morre. :reminder:",
         "reminders": [
             "Morto"
         ],
@@ -2315,7 +2315,7 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 59,
-        "firstNightReminder": "O Idiota da Aldeia aponta para um jogador; mostre o polegar para cima se o jogador for do bem, ou para baixo se for do mal.",
+        "firstNightReminder": "O Idiota da Aldeia aponta para um jogador; mostre o polegar para cima se o jogador for do bem, ou para baixo se for do mal. :reminder:",
         "otherNight": 79,
         "otherNightReminder": "O Idiota da Aldeia aponta para um jogador; mostre o polegar para cima se o jogador for do bem, ou para baixo se for do mal.",
         "reminders": [
@@ -2333,7 +2333,7 @@
         "firstNight": 11,
         "firstNightReminder": "Mostre à Yagarela sua frase secreta.",
         "otherNight": 49,
-        "otherNightReminder": "Escolha um número de jogadores até o total número de vezes que a Yagarela disse sua frase secreta publicamente, esses jogadores morrem.",
+        "otherNightReminder": "Escolha um número de jogadores até o total número de vezes que a Yagarela disse sua frase secreta publicamente, esses jogadores morrem. :reminder:",
         "reminders": [
             "Morto",
             "Morto",
@@ -2351,7 +2351,7 @@
         "firstNight": 15,
         "firstNightReminder": "Mostre o token 'Esses não estão no jogo'. Mostre 3 tokens de personagem do bem fora de jogo.",
         "otherNight": 29,
-        "otherNightReminder": "Se for a 3ª noite, acorde o Invocador. Ele escolhe um jogador e um Demônio - Aquele jogador vira aquele Demônio.",
+        "otherNightReminder": "Se for a 3ª noite, acorde o Invocador. Ele escolhe um jogador e um Demônio - Aquele jogador vira aquele Demônio. :reminder:",
         "reminders": [
             "Noite 1",
             "Noite 2",
@@ -2369,7 +2369,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 58,
-        "otherNightReminder": "Anuncie que o Espírito morreu.",
+        "otherNightReminder": "Anuncie que o Espírito morreu. :reminder:",
         "reminders": [
             "Tem Habilidade"
         ],
@@ -2383,7 +2383,7 @@
         "edition": "",
         "team": "outsider",
         "firstNight": 64,
-        "firstNightReminder": "O Ogro aponta para outro jogador e se torna seu alinhamento.",
+        "firstNightReminder": "O Ogro aponta para outro jogador e se torna seu alinhamento. :reminder:",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
@@ -2429,7 +2429,7 @@
         "firstNight": 1,
         "firstNightReminder": "Acorde os vizinhos do Lorde do Tifão. Mostre o token *VOCÊ É*, com o Lacaio que ele é agora e joinha para baixo para indicar que ele é mal.",
         "otherNight": 43,
-        "otherNightReminder": "Lorde do Tifao escolhe um jogador: o alvo morre.",
+        "otherNightReminder": "Lorde do Tifao escolhe um jogador: o alvo morre. :reminder:",
         "reminders": [
             "Morto"
         ],
@@ -2488,9 +2488,9 @@
         "edition": "",
         "team": "minion",
         "firstNight": 23,
-        "firstNightReminder": "",
+        "firstNightReminder": "Se X for 1, marque o Xaã com o lembrete *X*. :reminder: :reminder:",
         "otherNight": 11,
-        "otherNightReminder": "",
+        "otherNightReminder": "Mude o lembrete do Xaã para a noite correspondente. Se for a noite X, marque o Xaã com o lembrete *X*. :reminder: :reminder:",
         "reminders": [
             "Noite 1",
             "Noite 2",
@@ -2544,7 +2544,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 33,
-        "otherNightReminder": "Se fosse o primeiro dia da Princesa hoje, e ela nomeasse e executou um jogador, o Demônio não mata.",
+        "otherNightReminder": "Se fosse o primeiro dia da Princesa hoje, e ela nomeasse e executou um jogador, o Demônio não mata. :reminder:",
         "reminders": [
             "Não Mata"
         ],
@@ -2579,7 +2579,7 @@
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
-        "firstNightReminder": "",
+        "firstNightReminder": "Anuncie quais jogadores estão protegidos pelo Anjo. :reminder:",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
@@ -2699,7 +2699,7 @@
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
-        "firstNightReminder": "",
+        "firstNightReminder": "Anuncie quais jogadores são afetados pelo Budista.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
@@ -2759,7 +2759,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 1,
-        "otherNightReminder": "",
+        "otherNightReminder": "Um de cada vez: acorde cada jogador marcado com *VISITANTE* ou *INFORMAÇÃO FALSA*. Mostre os tokens *ESSE PERSONAGEM TE ESCOLHEU* e da Duquesa, depois faça um número com os dedos.",
         "reminders": [
             "Visitante",
             "Visitante",
@@ -2920,7 +2920,7 @@
         "edition": "",
         "team": "fabled",
         "firstNight": 1,
-        "firstNightReminder": "",
+        "firstNightReminder": "Anuncie qual personagem foi escolhido pelo Caçador de Tempestades. Se esse personagem estiver em jogo, marque esse jogador como *IMUNE*. Acorde cada jogador mau e mostre o token desse personagem e, em seguida, aponte para o jogador marcado. Se não estiver em jogo, acorde cada jogador mau e mostre o token *ESSES PERSONAGENS NÃO ESTÃO EM JOGO* e o token do personagem correspondente.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
@@ -2936,9 +2936,9 @@
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
-        "firstNightReminder": "",
+        "firstNightReminder": "Faça a etapa de informação dos Lacaios e a etapa de informação do Demônio, mesmo que haja menos de 7 jogadores.",
         "otherNight": 1,
-        "otherNightReminder": "",
+        "otherNightReminder": "Se um ataque do Demônio puder terminar o jogo e o Demônio estiver marcado com *ÚLTIMA NOITE: NÃO ATACA*, não acorde o Demônio.",
         "reminders": [
             "Última Noite: Não Ataca"
         ],

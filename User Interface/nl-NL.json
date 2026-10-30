@@ -1,6 +1,7 @@
 {
     "common": {
         "icon": "Icoon",
+        "icon_alt": "{name}-icoon",
         "show": "Tonen",
         "hide": "Verbergen",
         "close": "Sluiten",
@@ -11,6 +12,7 @@
         "save": "Opslaan",
         "edit": "Bewerken",
         "delete": "Verwijderen",
+        "remove": "Verwijderen",
         "clear": "Wissen",
         "loading": "Laden…",
         "name": "Naam",
@@ -19,6 +21,7 @@
         "reload": "Vernieuwen",
         "all": "Alle",
         "none": "Geen",
+        "no_matches": "Geen resultaten gevonden",
         "layout": "Indeling",
         "leaves": "Bladeren",
         "player_numbers": "Spelersnummers",
@@ -61,7 +64,6 @@
         "evil": "Kwaad",
         "send": "Verzenden",
         "enabled": "Ingeschakeld",
-        "disabled": "Uitgeschakeld",
         "end_game": "Spel beëindigen",
         "resize": "Formaat aanpassen",
         "account": "Account",
@@ -79,7 +81,44 @@
         "script_roles_failed": "De rollen van dit script konden niet worden geladen. Controleer je verbinding en probeer het opnieuw.",
         "script_json_invalid": "Dit script kon niet worden gelezen. Controleer of het geldige script-JSON is.",
         "roles_not_found": "Deze rollen konden niet worden gevonden: {roles}",
-        "invalid_import_link": "Deze importlink is kapot of wordt niet ondersteund, dus er is niets geladen."
+        "invalid_import_link": "Deze importlink is kapot of wordt niet ondersteund, dus er is niets geladen.",
+        "request_failed": "Er is iets misgegaan. Controleer je verbinding en probeer het opnieuw.",
+        "fetch_all_roles_failed": "Alle rollen konden niet worden opgehaald.",
+        "fetch_role_failed": "De rol kon niet worden opgehaald.",
+        "fetch_role_details_failed": "De roldetails konden niet worden opgehaald.",
+        "advanced_search_roles_failed": "Alle rollen konden niet worden opgehaald. Geavanceerd zoeken werkt niet.",
+        "advanced_search_failed": "Geavanceerd zoeken mislukt",
+        "night_order_failed": "De nachtvolgorde kon niet worden opgehaald",
+        "script_suggestions_failed": "Scriptsuggesties konden niet worden opgehaald",
+        "load_script_failed": "Het script kon niet worden geladen.",
+        "script_from_url_failed": "Het script kon niet van de URL worden opgehaald",
+        "script_data_failed": "Scriptgegevens konden niet worden opgehaald",
+        "save_custom_script_failed": "Het eigen script kon niet worden opgeslagen. Script- en nachtvolgordebladen worden niet geladen.",
+        "add_to_search_failed": "Het script kon niet aan het zoeken worden toegevoegd",
+        "remove_from_search_failed": "Het script kon niet uit het zoeken worden verwijderd",
+        "homebrew_scripts_failed": "Je homebrew-scripts konden niet worden opgehaald",
+        "script_versions_failed": "Scriptversies konden niet worden opgehaald",
+        "travellers_failed": "Reizigers konden niet worden opgehaald",
+        "fabled_failed": "Fabled konden niet worden opgehaald",
+        "loric_failed": "Loric kon niet worden opgehaald",
+        "translations_failed": "Vertalingen konden niet worden opgehaald",
+        "translated_role_failed": "De vertaalde rol kon niet worden opgehaald.",
+        "toggle_favourite_failed": "De favorietstatus van het script kon niet worden gewijzigd",
+        "update_script_tags_failed": "Scripttags konden niet worden bijgewerkt",
+        "fetch_profile_failed": "Het gebruikersprofiel kon niet worden opgehaald",
+        "fetch_favourites_failed": "Favorieten konden niet worden opgehaald",
+        "fetch_saved_games_failed": "Opgeslagen spellen konden niet worden opgehaald",
+        "fetch_friends_failed": "Vrienden konden niet worden opgehaald",
+        "save_friends_failed": "Vrienden konden niet worden opgeslagen",
+        "saved_game_url_failed": "De URL van het opgeslagen spel kon niet worden opgehaald",
+        "save_game_failed": "Het spel kon niet in het profiel worden opgeslagen",
+        "delete_saved_game_failed": "Het opgeslagen spel kon niet worden verwijderd",
+        "fetch_settings_failed": "Gebruikersinstellingen konden niet worden opgehaald",
+        "save_settings_failed": "Gebruikersinstellingen konden niet worden opgeslagen",
+        "fetch_custom_cards_failed": "Eigen kaarten konden niet uit het profiel worden opgehaald",
+        "save_custom_card_failed": "De eigen kaart kon niet in het gebruikersprofiel worden opgeslagen",
+        "update_custom_card_failed": "De eigen kaart kon niet worden bijgewerkt",
+        "delete_custom_card_failed": "De eigen kaart kon niet worden verwijderd"
     },
     "status": {
         "poisoned": "Vergiftigd",
@@ -101,14 +140,16 @@
     },
     "nav": {
         "brand": "Digital Grimoire",
+        "logo": "Logo",
+        "community_created": "Door de community gemaakte inhoud",
+        "avatar": "Avatar",
         "offline": "Offline",
         "companion": "Spelersbegeleider",
         "game": {
             "title": "Spel",
             "home": "Nieuw...",
             "save": "Opslaan...",
-            "buy_grimoire": "Koop een Grimoire",
-            "town_view": "Stadweergave"
+            "buy_grimoire": "Koop een Grimoire"
         },
         "sheets": {
             "rules": "Regels"
@@ -185,6 +226,7 @@
             "options": "Opties",
             "results": "Resultaten",
             "add_condition": "Voorwaarde toevoegen",
+            "remove_condition": "Voorwaarde verwijderen",
             "add_first_condition": "Voeg een voorwaarde toe om te beginnen met zoeken.",
             "includes": "Bevat",
             "excludes": "Uitgesloten",
@@ -211,10 +253,11 @@
             "version": "Versie",
             "previous": "Vorige",
             "page": "Pagina {page} / {total}",
-            "next": "Volgende"
+            "next": "Volgende",
+            "results_pages": "Pagina's met zoekresultaten",
+            "toggle_favourite": "Favoriet in-/uitschakelen"
         },
         "arrange": {
-            "title": "Spelers herschikken"
         },
         "bluff": {
             "title": "DEZE PERSONAGES ZIJN NIET IN HET SPEL",
@@ -258,8 +301,12 @@
             "title": "🎵 Muziekspeler",
             "music_tab": "Muziek",
             "sfx_tab": "Geluidseffecten",
+            "sfx_info": "Geluid {current} van {total}",
             "track_info": "Nummer {current} van {total}",
+            "previous_track": "Vorig nummer",
+            "next_track": "Volgend nummer",
             "volume": "Volume: {volume}%",
+            "volume_control": "Volumeregeling",
             "volume_unsupported": "Gebruik de volumeknoppen van je apparaat om het volume te regelen",
             "add_music_button": "Muziekbestanden toevoegen",
             "playlist_title": "Afspeellijst ({count} nummers)",
@@ -277,6 +324,8 @@
             "add_sfx_button": "Geluidseffect toevoegen",
             "sfx_interval_label": "Afspelen bij resterende tijd",
             "auto_fade_phase": "Volume aanpassen bij Dag/Nacht",
+            "day_volume": "Dag: {volume}%",
+            "night_volume": "Nacht: {volume}%",
             "sfx_volume": "Geluidseffect-volume: {volume}%"
         },
         "nomination": {
@@ -304,10 +353,6 @@
             "game_started": "Spel gestart",
             "night_choice": "{name} ({role}) heeft {targets} gekozen",
             "night_choice_none": "{name} ({role}) heeft niemand gekozen"
-        },
-        "notes": {
-            "title": "Notities",
-            "notes_label": "Notities"
         },
         "qr_sheet": {
             "open": "Openen"
@@ -340,7 +385,6 @@
             "delete_confirmation_title": "Verwijderen",
             "delete_confirmation_message": "Weet je zeker dat je {player} de {role} wilt verwijderen?",
             "notes_for": "Notities voor {player}",
-            "save_notes": "Notities opslaan",
             "gain_ability": "Vermogen verkrijgen",
             "notify_when": "Melden wanneer",
             "notify_nominated": "Genomineerd",
@@ -348,20 +392,20 @@
             "notify_marked_dead": "Dood",
             "notify_player_chosen": "Gekozen",
             "notify_note": "Notitie voor de melding",
-            "notify_recurring": "Telkens melden",
+            "notify_recurring": "Telkens melden per spel",
             "notify_reminder_carriers": "Rollen gemarkeerd met herinnering:"
         },
         "town_arrange": {
-            "title": "Stadspelers herschikken",
+            "title": "Spelers herschikken",
             "u_shape": "Glimlach"
         },
         "town": {
-            "view_title": "Stad bekijken",
+            "view_title": "Stadweergave",
             "description_phones": "Je stad is waar dit spel leeft. Deel de code en spelers kunnen hun rol ophalen, het script lezen en claims bijhouden op hun telefoon.",
-            "description_screen": "Je stad is waar dit spel leeft. Open de stadweergave op een tv zodat iedereen kan meekijken. Je Grimoire wordt opgeslagen op onze server zolang een stad actief is.",
+            "description_screen": "Je stad is waar dit spel leeft. Open de Stadweergave op een tv zodat iedereen kan meekijken. Je Grimoire wordt opgeslagen op onze server zolang een stad actief is.",
             "delete_button": "Stad verwijderen...",
             "code_label": "Stadscode",
-            "open_on_screen": "Open de stadweergave op een tv of extra tablet:",
+            "open_on_screen": "Open de Stadweergave op een tv of extra tablet:",
             "rename": "Stad hernoemen",
             "title": "Stad",
             "screen_heading": "Groot scherm"
@@ -417,7 +461,9 @@
             "default": "Standaard",
             "apply": "Toepassen",
             "custom": "Aangepast",
-            "gallery": "Galerij"
+            "gallery": "Galerij",
+            "option_alt": "Achtergrondoptie",
+            "saved_alt": "Opgeslagen achtergrond"
         },
         "clocktracker_export": {
             "title": "Naar Clocktracker sturen",
@@ -502,9 +548,10 @@
         "select_more_roles": "Selecteer {count} rollen meer om door te gaan",
         "too_many_roles": "Verwijder {count} rollen om door te gaan",
         "too_many_travellers": "Verwijder {count} reizigers (max. 5) om door te gaan",
-        "setup_warning": "Sommige gekozen rollen kunnen de stadssamenstelling wijzigen. Controleer dit voordat je doorgaat.",
         "multiple_demons_warning": "Meerdere demonen gedetecteerd die geen meerdere instanties toestaan.",
-        "unread_setup_warning": "Kon de setuptekst van {roles} niet lezen. Controleer hun setup handmatig.",
+        "unread_setup_warning": "Het vermogen van {role} moet handmatig worden gecontroleerd.",
+        "bag_needs_role": "{owner} heeft {role} in het spel nodig.",
+        "bag_changes": "Om de setupregels te volgen: {changes}",
         "player_names": "Spelersnamen",
         "player_placeholder": "Speler {number}",
         "add_as_player": "Toevoegen als speler",
@@ -512,7 +559,8 @@
         "active": "Actief",
         "no_players_added": "Nog geen spelers toegevoegd.",
         "persist_players_prompt": "Bewaar je spelersnamen voor toekomstige spellen door in te loggen op Discord en ze toe te voegen aan je vriendenlijst.",
-        "clear": "Wissen",
+        "clear": "Wissen...",
+        "clear_players_confirm": "Alle spelers uit dit spel wissen? Vrienden blijven in je lijst staan.",
         "by": "door",
         "edit_names_optional": "Namen toevoegen (optioneel)",
         "search_hint": "Zoeken op naam of URL.",
@@ -524,6 +572,8 @@
         "added_to_search": "Toegevoegd aan zoeken",
         "remove_from_search": "Verwijderen uit zoeken",
         "homebrew": "Homebrew",
+        "official_characters": "Officiële personages",
+        "homebrew_characters": "Homebrew-personages",
         "from_json": "Vanaf JSON",
         "paste_json_placeholder": "Plak hier je script-JSON...",
         "from_file": "Vanaf bestand",
@@ -545,17 +595,21 @@
         "show_role_details": "Roldetails tonen",
         "hide_role_details": "Roldetails verbergen",
         "show_spy_view": "Spionweergave tonen",
-        "hide_spy_view": "Spionweergave verbergen",
+        "lock_tokens": "Tokens vergrendelen",
+        "unlock_tokens": "Tokens ontgrendelen",
+        "spy_put_seat_at_bottom": "Zet een plaats onderaan",
+        "spy_seat_one_on_top": "Zet plaats 1 bovenaan",
+        "spy_reset_view": "Weergave resetten",
+        "spy_undo_changes": "Wijzigingen ongedaan maken",
+        "spy_show_all": "Alles tonen",
+        "spy_move_up": "Omhoog",
+        "spy_move_down": "Omlaag",
         "rearrange_tokens": "Spelers herschikken",
         "edit_background": "Achtergrond bewerken...",
         "nominations": "Nominaties",
         "town_view": "Stadweergave ({townId})",
-        "delete": "Verwijderen",
-        "delete_confirm": "Weet je zeker dat je {player} de {role} wilt verwijderen?",
-        "delete_confirm_no_player": "Weet je zeker dat je de {role} wilt verwijderen?",
         "notes_for": "Notities voor {name}",
         "notes_placeholder": "Voeg hier aangepaste notities toe...",
-        "save_notes": "Notities opslaan",
         "game_notes": "Spelnotities",
         "town_info_alive": "Levend",
         "town_info_travellers": "Reizigers",
@@ -577,6 +631,9 @@
         "tokens": "Tokens",
         "tap_bag_prompt": "Tik op de zak om je token te trekken",
         "tap_token_prompt": "Tik op een token om te trekken",
+        "draw_from_bag": "Trek een token uit de zak",
+        "draw_token": "Trek token {number}",
+        "token_drawn": "Token {number} is al getrokken",
         "hold_to_reveal": "Houd ingedrukt om te onthullen",
         "draw_animation": "Trekanimatie",
         "player_name": "Spelersnaam",
@@ -622,15 +679,25 @@
         "toggle_widgets": "Widgets aan/uit",
         "info": "Info",
         "composition": "Samenstelling",
-        "day_night": "Dag/Nacht",
-        "grim": "Grimoire",
+        "show_info": "Info tonen",
+        "hide_info": "Info verbergen",
+        "show_composition": "Samenstelling tonen",
+        "hide_composition": "Samenstelling verbergen",
+        "show_timer": "Timer tonen",
+        "hide_timer": "Timer verbergen",
+        "show_day_night": "Dag/nacht tonen",
+        "hide_day_night": "Dag/nacht verbergen",
+        "show_companion": "Spelersbegeleider tonen",
+        "hide_companion": "Spelersbegeleider verbergen",
+        "show_night_order": "Nachtvolgorde tonen",
+        "hide_night_order": "Nachtvolgorde verbergen",
+        "hide_grim": "Grimoire verbergen",
         "town": "Stad",
-        "town_name_placeholder": "Stadsnaam",
         "join": "Deelnemen",
         "disconnect": "Verbreken",
         "disconnected": "Verbroken",
         "connected_players": "Verbonden spelers",
-        "no_town_info": "Nog geen stadsinformatie beschikbaar..",
+        "no_town_info": "Nog geen stadsinformatie beschikbaar.",
         "show_grim_title": "Grimoire tonen?",
         "show_grim_message": "Weet je zeker dat je het Grimoire wilt tonen? Dit toont alle rollen aan de spelers.",
         "yes_show_grim": "Ja, toon Grimoire",
@@ -641,7 +708,14 @@
         "congratulations_suffix": "",
         "widget_dark_background": "Donkere widget-achtergronden",
         "edit_night_icons": "Nachtvolgorde-iconen bewerken...",
-        "seat": "Plaats"
+        "seat": "Plaats",
+        "no_timer": "Geen timer actief",
+        "timer_hint": "De timer verschijnt zodra de Verteller er een start",
+        "timer_title": "Timer: {mode} - {time}",
+        "countdown": "Aftellen",
+        "hours_short": "u",
+        "minutes_short": "m",
+        "seconds_short": "s"
     },
     "cards": {
         "this_is_the_demon": "DIT IS DE DEMON",
@@ -655,10 +729,12 @@
         "use_your_ability": "VERMOGEN GEBRUIKEN?",
         "did_you_vote_today": "HEB JE VANDAAG GESTEMD?",
         "did_you_nominate_today": "HEB JE VANDAAG GENOMINEERD?",
-        "show_card": "Kaart tonen..",
+        "show_card": "Kaart tonen...",
         "create_custom_card": "Aangepaste kaart maken",
         "cards": "Kaarten",
-        "add_character": "Rol toevoegen"
+        "add_character": "Rol toevoegen",
+        "custom_cards": "Aangepaste kaarten",
+        "no_custom_cards": "Nog geen aangepaste kaarten."
     },
     "controls": {
         "timer_expired_reset": "Timer verlopen - Klik om opnieuw in te stellen",
@@ -674,7 +750,6 @@
     "bluffs": {
         "title": "Bluffen",
         "add_bluff_set": "Bluf-set toevoegen",
-        "add_token": "Token toevoegen",
         "add_bluffs": "Bluffen toevoegen",
         "show_all_bluffs": "Alle bluffen tonen",
         "delete_set": "Set verwijderen",
@@ -710,9 +785,8 @@
         "nominates": "nomineert",
         "to_tie": "voor gelijkspel",
         "to_execute": "om te executeren",
-        "votes_needed_to": "Stemmen nodig om te",
-        "exile": "verbannen",
-        "execute": "executeren"
+        "votes_needed_to_exile": "Stemmen nodig om te verbannen",
+        "votes_needed_to_execute": "Stemmen nodig om te executeren"
     },
     "drawer": {
         "edit_player_name": "Spelersnaam bewerken",
@@ -738,6 +812,7 @@
         "unlock_pin_prompt": "Voer je pincode van 4 cijfers in",
         "check_pin_prompt": "Voer je pincode in om te controleren of je hem nog weet",
         "unlock_pin_wrong": "Onjuiste pincode",
+        "backspace": "Backspace",
         "unlock_throttled": "Te veel pogingen. Probeer het over {seconds} s opnieuw.",
         "reset_hint": "Pincode vergeten? Schakel Vertellersvergrendeling uit in Instellingen."
     },
@@ -758,6 +833,7 @@
         "storyteller": "Verteller",
         "storyteller_hint": "Stel het spel in en leid het",
         "player_hint": "Doe mee aan een stad, bekijk het script en de nachtvolgorde",
+        "town_hint": "Toon de stad op een tv zodat iedereen hem kan zien",
         "youtube": "Bekijk op YouTube",
         "video_setup_title": "Snelle installatie - Trouble Brewing",
         "video_setup_description": "Start een spel Trouble Brewing met 7 spelers, van het benoemen van spelers tot het toevoegen van herinneringen.",
@@ -817,7 +893,7 @@
                 "body": "Kies hoe rollen bij je spelers komen. Je kunt dit later wijzigen."
             },
             "call_up": {
-                "body": "Roep elke speler één voor één op. Jij tikt op hun plaats, zij tikken op de zak om hun rol te zien."
+                "body": "Roep elke speler één voor één naar je toe. Jij tikt op hun plaats, zij tikken op de zak om hun rol te zien."
             },
             "pass": {
                 "body": "Geef het apparaat door in de cirkel. Elke speler trekt zijn rol en geeft het dan door. Je pincode vergrendelt het Grimoire zodat niemand kan gluren."
@@ -834,16 +910,16 @@
                 "body": "Open dit om spelers op hun telefoon binnen te krijgen."
             },
             "set_up_seats": {
-                "body": "Wijs spelersnamen aan plaatsen toe en wijs handmatig rollen aan plaatsen toe (bijvoorbeeld reizigers). Beide zijn optioneel."
+                "body": "Tik hier om spelersnamen aan plaatsen toe te wijzen, of rollen aan plaatsen (bijvoorbeeld reizigers). Beide zijn optioneel."
             },
             "names": {
-                "body": "Tik op een naam om die speler op de volgende lege plaats te zetten. Tik op een plaats om deze leeg te maken."
+                "body": "Tik op een naam om die speler op de volgende lege plaats te zetten. Wil je iemand van een plaats halen, tik dan op die plaats."
             },
             "add_names": {
                 "body": "Tik hier om namen toe te voegen als je er hieronder geen ziet."
             },
             "roles": {
-                "body": "Tik op een rol en dan op een plaats om die rol aan de plaats toe te wijzen. Handig voor reizigers."
+                "body": "De tour is overgeschakeld naar het tabblad Rollen. Tik op een rol en dan op een plaats om die rol aan de plaats toe te wijzen. Handig voor reizigers."
             },
             "skip_draw": {
                 "body": "Geef elke lege plaats een willekeurige rol en sla het trekken over."
@@ -880,31 +956,30 @@
         "grimoire": {
             "good_player": {
                 "title": "Een goede speler",
-                "body": "Deze speler zit in het goede team. Tik op een speler om zijn menu te openen. Sleep om hem te verplaatsen."
+                "body": "Tik op een speler om zijn menu te openen. Sleep om hem te verplaatsen. De blauwe afbeelding van deze speler laat zien dat hij in het goede team zit. Tijdens het spel markeert een blauwgroene rand een Buitenstaander."
             },
             "evil_player": {
                 "title": "Een kwade speler",
-                "body": "Deze speler zit in het kwade team. De afbeelding op elke token laat zien in welk team die speler zit."
+                "body": "De rode afbeelding van deze speler laat zien dat hij in het kwade team zit. Tijdens het spel markeert een donkerrode rand de Demon."
             },
             "seat_menu": {
                 "title": "Spelersmenu",
-                "body": "Volledig scherm, herinneringen toevoegen, als dood markeren, wisselen, gezindheid wijzigen en het hulpmiddelenmenu openen. Tik buiten het menu om het te sluiten.",
-                "body_evil": "Volledig scherm, herinneringen toevoegen, een bluffherinnering toevoegen, als dood markeren, wisselen, gezindheid wijzigen en het hulpmiddelenmenu openen. Tik buiten het menu om het te sluiten."
+                "body": "Als je op een speler tikt, opent dit menu. Met de klok mee vanaf boven: Tonen, Herinneringen, Bluf, Als dood markeren, Wisselen, Gezindheid wijzigen, Hulpmiddelen. Overdag zie je ook Nomineren. Tik buiten het menu om het te sluiten."
             },
             "add": {
                 "title": "Toevoegen",
-                "body": "Voeg demonbluffen, extra rollen en herinneringstokens toe."
+                "body": "Tik op deze knop om demonbluffen, extra rollen en herinneringstokens toe te voegen."
             },
             "night_order": {
-                "body": "Opent het nachtvolgordepaneel dat je begeleidt bij wie je elke nacht wakker maakt."
+                "body": "Tik op deze knop om het nachtvolgordepaneel te openen, dat je begeleidt bij wie je elke nacht wakker maakt."
             },
             "phase": {
                 "title": "Dag en nacht",
-                "body": "Zet het spel door naar de volgende dag of nacht."
+                "body": "De rechterpijl zet het spel door naar de volgende dag of nacht. De linkerpijl gaat een stap terug als je iets moet herstellen."
             },
             "view": {
                 "title": "Weergave",
-                "body": "Herschik plaatsen, open de Spionweergave, lees de spelgeschiedenis of wijzig de achtergrond."
+                "body": "Spelers herschikken (kies een indeling en sleep spelers op volgorde), open de Spionweergave, lees de spelgeschiedenis of wijzig de achtergrond."
             },
             "town": {
                 "title": "Stad",
@@ -922,7 +997,7 @@
                 "body": "Vergrendel de tokens op hun plek zodat ze niet per ongeluk versleept worden. Ze vergrendelen vanzelf als het spel eindigt."
             },
             "gr_notes": {
-                "body": "Je eigen notities voor het hele spel. Notities over één speler staan in het tokenmenu van die speler."
+                "body": "Je eigen notities voor het hele spel. Notities over één speler maak je in het tokenmenu van die speler."
             },
             "gr_timer": {
                 "body": "Stel een aftelling in voor de dag, of start een stopwatch. Zodra die is ingesteld, tik je op de tijd om te pauzeren of door te gaan."
@@ -940,7 +1015,7 @@
             },
             "town_state": {
                 "title": "Stadsstatus",
-                "body": "Het persoonicoon toont het aantal levende spelers. Het wordt geel bij 4 en rood bij 3 of minder. De koffer geeft het aantal reizigers aan. De schedel zijn dode spelers. De hand toont hoeveel stemmen er nog over zijn, geeststemmen inbegrepen. Hij wordt rood als er niet genoeg stemmen over zijn om het huidige totaal op het blok te overtreffen. Het vinkje toont het aantal stemmen dat nodig is om de huidige persoon van het blok te halen."
+                "body": "Het persoonicoon toont het aantal levende spelers. Het wordt geel bij 4 en rood bij 3 of minder. De schedel zijn dode spelers. De hand toont hoeveel stemmen er nog over zijn, geeststemmen inbegrepen. Hij wordt rood als er niet genoeg stemmen over zijn om het huidige totaal op het blok te overtreffen. Het vinkje toont het aantal stemmen dat nodig is om de huidige persoon van het blok te halen. Als er reizigers zijn, toont de koffer hoeveel."
             },
             "end_game": {
                 "title": "Spel beëindigen",
@@ -948,6 +1023,9 @@
             }
         },
         "night": {
+            "night_pane": {
+                "body": "Wie je vannacht wakker maakt, op volgorde."
+            },
             "night_cards": {
                 "body": "Open het Kaarten-menu om een speler een kaart te tonen of er zelf een te maken."
             },
@@ -962,6 +1040,12 @@
             "unplaced_reminders": {
                 "title": "Niet geplaatste herinneringen",
                 "body": "Het getal geeft aan hoeveel herinneringen van deze rol nog niet in het Grimoire liggen. Tik om ze te bekijken en sleep er dan een naar een speler."
+            },
+            "edit_night_order": {
+                "body": "Wijzig de volgorde voor dit spel."
+            },
+            "end_night": {
+                "body": "Beëindig de nacht en ga door naar de volgende dag."
             }
         },
         "night_choice": {
@@ -970,7 +1054,7 @@
             },
             "choice_banner": {
                 "title": "Leg de keuze vast",
-                "body": "Tik op de spelers die gekozen zijn, in volgorde. Elk krijgt een nummer. Kies daarna de herinneringen die geplaatst moeten worden en tik op het vinkje. Elke herinnering komt in die volgorde bij de gekozen spelers te liggen, tot ze op zijn."
+                "body": "Tik op de spelers die gekozen zijn, in volgorde. Elk krijgt een nummer. Als er herinneringen te plaatsen zijn, kies ze dan en tik op Bevestigen. Elke herinnering komt in die volgorde bij de gekozen spelers te liggen, tot ze op zijn. Zo niet, dan wordt de keuze opgeslagen zodra de laatste speler is gekozen."
             }
         },
         "preferences": {
@@ -1009,11 +1093,17 @@
             }
         },
         "account": {
+            "usr_stats": {
+                "body": "Je staat van dienst als Verteller: gespeelde spellen, hoe vaak elk team wint, en je meest gespeelde scripts en rollen. Spellen tellen mee zodra ze de Grimoire bereiken, en de winnaar wordt toegevoegd wanneer je het spel beëindigt. Je kunt ook de spellen die je hebt geleid importeren uit een Clocktracker-export."
+            },
             "usr_favourites": {
                 "body": "Scripts die je op het instelscherm met een ster hebt gemarkeerd. Tik op een script om het te laden. Voeg gekleurde tags toe om ze te sorteren en tik dan op een tag om de lijst te filteren."
             },
             "usr_friends": {
                 "body": "Mensen met wie je speelt. Hun namen staan klaar om te kiezen wanneer je spelers laat plaatsnemen, zodat je ze niet elke keer hoeft te typen."
+            },
+            "usr_cards": {
+                "body": "Kaarten die je hebt gemaakt om aan spelers te tonen. Tik op een kaart om hem te bewerken, of op + om een nieuwe te maken. Ze staan ook tijdens een spel in het Kaarten-menu."
             },
             "usr_games": {
                 "body": "Spellen die je hebt opgeslagen via het Spel-menu. Laad er een op het instelscherm om verder te gaan waar je gebleven was."
@@ -1021,9 +1111,32 @@
             "usr_homebrew": {
                 "body": "Homebrew-scripts die je aan de zoekopdracht hebt toegevoegd. Tik op een script om het te laden, of tik op het kruisje om het uit de zoekopdracht te verwijderen."
             },
+            "usr_notifications": {
+                "body": "Meldingen die je voor een personage hebt opgeslagen. Ze gaan vanzelf aan wanneer dat personage in je Grimoire zit."
+            },
             "usr_logout": {
-                "body": "Log op dit apparaat uit bij je Discord-account."
+                "body": "Log op dit apparaat uit bij het Digital Grimoire. Je Discord-account blijft ingelogd."
             }
         }
+    },
+    "stats": {
+        "title": "Mijn statistieken",
+        "games": "Spellen",
+        "finished": "{finished} van de {started} spellen eindigden met een winnaar",
+        "good_wins": "Goed wint",
+        "evil_wins": "Kwaad wint",
+        "average_players": "Gemiddeld aantal spelers",
+        "top_scripts": "Meest gespeelde scripts",
+        "top_roles": "Meest gebruikte rollen",
+        "none_yet": "Nog geen spellen. Spellen die je leidt terwijl je ingelogd bent, verschijnen hier zodra ze de Grimoire bereiken.",
+        "clear": "Mijn statistieken wissen...",
+        "clear_confirm": "Alle spellen in je statistieken verwijderen? Dit kan niet ongedaan worden gemaakt.",
+        "load_failed": "Kon je statistieken niet laden.",
+        "clear_failed": "Kon je statistieken niet wissen.",
+        "import_prompt": "Eerder spellen geleid? Importeer de CSV die je uit Clocktracker hebt geëxporteerd.",
+        "import": "Importeren uit Clocktracker",
+        "imported": "{count} spellen uit Clocktracker geïmporteerd.",
+        "import_none": "Dat bestand bevat geen spellen die je als Verteller hebt geleid.",
+        "import_failed": "Kon dat bestand niet importeren. Gebruik de CSV precies zoals Clocktracker die heeft geëxporteerd."
     }
 }

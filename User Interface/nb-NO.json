@@ -1,6 +1,7 @@
 {
     "common": {
         "icon": "Ikon",
+        "icon_alt": "{name}-ikon",
         "show": "Vis",
         "hide": "Skjul",
         "close": "Lukk",
@@ -11,6 +12,7 @@
         "save": "Lagre",
         "edit": "Rediger",
         "delete": "Slett",
+        "remove": "Fjern",
         "clear": "Tøm",
         "loading": "Laster inn…",
         "name": "Navn",
@@ -19,6 +21,7 @@
         "reload": "Oppdater",
         "all": "Alle",
         "none": "Ingen",
+        "no_matches": "Ingen treff funnet",
         "layout": "Oppsett",
         "leaves": "Blader",
         "player_numbers": "Spillernumre",
@@ -60,7 +63,6 @@
         "evil": "Ond",
         "send": "Send",
         "enabled": "Aktivert",
-        "disabled": "Deaktivert",
         "wiki": "Wiki",
         "end_game": "Avslutt spill",
         "resize": "Endre størrelse",
@@ -74,14 +76,16 @@
     },
     "nav": {
         "brand": "Digital Grimoire",
+        "logo": "Logo",
+        "community_created": "Fellesskapsskapt innhold",
+        "avatar": "Avatar",
         "offline": "Frakoblet",
         "companion": "Spillerledsager",
         "game": {
             "title": "Spill",
             "home": "Ny...",
             "save": "Lagre...",
-            "buy_grimoire": "Kjøp en Grimoire",
-            "town_view": "Byvisning"
+            "buy_grimoire": "Kjøp en Grimoire"
         },
         "sheets": {
             "rules": "Regler"
@@ -158,6 +162,7 @@
             "options": "Alternativer",
             "results": "Resultater",
             "add_condition": "Legg til betingelse",
+            "remove_condition": "Fjern betingelse",
             "add_first_condition": "Legg til en betingelse for å starte søket.",
             "includes": "Inkluderer",
             "excludes": "Ekskluderer",
@@ -184,10 +189,11 @@
             "version": "Versjon",
             "previous": "Forrige",
             "page": "Side {page} / {total}",
-            "next": "Neste"
+            "next": "Neste",
+            "results_pages": "Sider med søkeresultater",
+            "toggle_favourite": "Veksle favoritt"
         },
         "arrange": {
-            "title": "Stokk om på spillere"
         },
         "bluff": {
             "title": "DISSE KARAKTERENE ER IKKE I SPILL",
@@ -231,8 +237,12 @@
             "title": "🎵 Musikklaster",
             "music_tab": "Musikk",
             "sfx_tab": "Lydeffekter",
+            "sfx_info": "Lyd {current} av {total}",
             "track_info": "Spor {current} av {total}",
+            "previous_track": "Forrige spor",
+            "next_track": "Neste spor",
             "volume": "Volum: {volume}%",
+            "volume_control": "Volumkontroll",
             "volume_unsupported": "Bruk enhetens volumknapper for å kontrollere lydnivået",
             "add_music_button": "Legg til musikkfiler",
             "playlist_title": "Spilleliste ({count} spor)",
@@ -250,6 +260,8 @@
             "add_sfx_button": "Legg til lydeffekt",
             "sfx_interval_label": "Spill av ved gjenværende tid",
             "auto_fade_phase": "Demp volum ved Dag/Natt",
+            "day_volume": "Dag: {volume}%",
+            "night_volume": "Natt: {volume}%",
             "sfx_volume": "Lydeffektvolum: {volume}%"
         },
         "nomination": {
@@ -277,10 +289,6 @@
             "game_started": "Spill startet",
             "night_choice": "{name} ({role}) valgte {targets}",
             "night_choice_none": "{name} ({role}) valgte ingen"
-        },
-        "notes": {
-            "title": "Notater",
-            "notes_label": "Notater"
         },
         "qr_sheet": {
             "open": "Åpne"
@@ -313,7 +321,6 @@
             "delete_confirmation_title": "Slett",
             "delete_confirmation_message": "Er du sikker på at du vil slette {player} {role}?",
             "notes_for": "Notater for {player}",
-            "save_notes": "Lagre notater",
             "gain_ability": "Få evne",
             "notify_when": "Varsle når",
             "notify_nominated": "Nominert",
@@ -321,15 +328,15 @@
             "notify_marked_dead": "Død",
             "notify_player_chosen": "Valgt",
             "notify_note": "Notat for varselet",
-            "notify_recurring": "Varsle hver gang",
+            "notify_recurring": "Varsle hver gang per spill",
             "notify_reminder_carriers": "Roller merket med påminnelse:"
         },
         "town_arrange": {
-            "title": "Omorganiser byspillere",
+            "title": "Omorganiser spillere",
             "u_shape": "Smil"
         },
         "town": {
-            "view_title": "Vis by",
+            "view_title": "Byvisning",
             "description_phones": "Byen din er der spillet ditt lever. Del koden, så kan spillerne hente rollen sin, lese skriptet og følge med på påstander på mobilen sin.",
             "description_screen": "Byen din er der spillet ditt lever. Åpne byvisningen på en TV så alle kan se den. Grimoiren din lagres på serveren vår mens en by kjører.",
             "delete_button": "Slett by...",
@@ -390,7 +397,9 @@
             "default": "Standard",
             "apply": "Bruk",
             "custom": "Egendefinert",
-            "gallery": "Galleri"
+            "gallery": "Galleri",
+            "option_alt": "Bakgrunnsalternativ",
+            "saved_alt": "Lagret bakgrunn"
         },
         "clocktracker_export": {
             "title": "Send til Clocktracker",
@@ -428,7 +437,44 @@
         "script_roles_failed": "Kunne ikke laste inn rollene i dette skriptet. Sjekk tilkoblingen og prøv igjen.",
         "script_json_invalid": "Kunne ikke lese dette skriptet. Sjekk at det er gyldig skript-JSON.",
         "roles_not_found": "Fant ikke disse rollene: {roles}",
-        "invalid_import_link": "Denne importlenken er ødelagt eller ikke støttet, så ingenting ble lastet inn."
+        "invalid_import_link": "Denne importlenken er ødelagt eller ikke støttet, så ingenting ble lastet inn.",
+        "request_failed": "Noe gikk galt. Sjekk tilkoblingen og prøv igjen.",
+        "fetch_all_roles_failed": "Kunne ikke hente alle roller.",
+        "fetch_role_failed": "Kunne ikke hente rollen.",
+        "fetch_role_details_failed": "Kunne ikke hente rolledetaljer.",
+        "advanced_search_roles_failed": "Kunne ikke hente alle roller. Avansert søk vil ikke fungere.",
+        "advanced_search_failed": "Avansert søk mislyktes",
+        "night_order_failed": "Kunne ikke hente nattrekkefølgen",
+        "script_suggestions_failed": "Kunne ikke hente skriptforslag",
+        "load_script_failed": "Kunne ikke laste inn skriptet.",
+        "script_from_url_failed": "Kunne ikke hente skriptet fra URL-en",
+        "script_data_failed": "Kunne ikke hente skriptdata",
+        "save_custom_script_failed": "Kunne ikke lagre det egendefinerte skriptet. Skript- og nattrekkefølgeark vil ikke lastes inn.",
+        "add_to_search_failed": "Kunne ikke legge skriptet til i søket",
+        "remove_from_search_failed": "Kunne ikke fjerne skriptet fra søket",
+        "homebrew_scripts_failed": "Kunne ikke hente homebrew-skriptene dine",
+        "script_versions_failed": "Kunne ikke hente skriptversjoner",
+        "travellers_failed": "Kunne ikke hente Reisende",
+        "fabled_failed": "Kunne ikke hente Fabled",
+        "loric_failed": "Kunne ikke hente Loric",
+        "translations_failed": "Kunne ikke hente oversettelser",
+        "translated_role_failed": "Kunne ikke hente oversatt rolle.",
+        "toggle_favourite_failed": "Kunne ikke endre favorittstatus for skriptet",
+        "update_script_tags_failed": "Kunne ikke oppdatere skripttagger",
+        "fetch_profile_failed": "Kunne ikke hente brukerprofilen",
+        "fetch_favourites_failed": "Kunne ikke hente favoritter",
+        "fetch_saved_games_failed": "Kunne ikke hente lagrede spill",
+        "fetch_friends_failed": "Kunne ikke hente venner",
+        "save_friends_failed": "Kunne ikke lagre venner",
+        "saved_game_url_failed": "Kunne ikke hente URL-en til det lagrede spillet",
+        "save_game_failed": "Kunne ikke lagre spillet i profilen",
+        "delete_saved_game_failed": "Kunne ikke slette det lagrede spillet",
+        "fetch_settings_failed": "Kunne ikke hente brukerinnstillinger",
+        "save_settings_failed": "Kunne ikke lagre brukerinnstillinger",
+        "fetch_custom_cards_failed": "Kunne ikke hente egendefinerte kort fra profilen",
+        "save_custom_card_failed": "Kunne ikke lagre egendefinert kort i brukerprofilen",
+        "update_custom_card_failed": "Kunne ikke oppdatere egendefinert kort",
+        "delete_custom_card_failed": "Kunne ikke slette egendefinert kort"
     },
     "status": {
         "poisoned": "Forgiftet",
@@ -502,9 +548,10 @@
         "select_more_roles": "Velg {count} flere roller for å fortsette",
         "too_many_roles": "Fjern {count} roller for å fortsette",
         "too_many_travellers": "Fjern {count} reisende (maks 5) for å fortsette",
-        "setup_warning": "Noen valgte roller kan endre byens sammensetning. Vennligst se over før du fortsetter.",
         "multiple_demons_warning": "Du har to demoner i posen.",
-        "unread_setup_warning": "Kunne ikke lese oppsettsteksten til {roles}. Sjekk oppsettet deres manuelt.",
+        "unread_setup_warning": "Evnen til {role} må sjekkes manuelt.",
+        "bag_needs_role": "{owner} trenger {role} i spillet.",
+        "bag_changes": "For å følge oppsettsreglene: {changes}",
         "player_names": "Spillernavn",
         "player_placeholder": "Spiller {number}",
         "add_as_player": "Legg til som spiller",
@@ -512,7 +559,8 @@
         "active": "Aktiv",
         "no_players_added": "Ingen spillere lagt til ennå.",
         "persist_players_prompt": "Lagre spillernavnene dine for fremtidige spill ved å logge inn med Discord og legge dem til i vennelisten din.",
-        "clear": "Tøm",
+        "clear": "Tøm...",
+        "clear_players_confirm": "Fjerne alle spillere fra dette spillet? Venner blir værende i listen din.",
         "by": "av",
         "edit_names_optional": "Legg til navn (valgfritt)",
         "search_hint": "Søk etter navn eller URL.",
@@ -524,6 +572,8 @@
         "added_to_search": "Lagt til i søket",
         "remove_from_search": "Fjern fra søket",
         "homebrew": "Homebrew",
+        "official_characters": "Offisielle karakterer",
+        "homebrew_characters": "Homebrew-karakterer",
         "from_json": "Fra JSON",
         "paste_json_placeholder": "Lim inn skript-JSON her...",
         "from_file": "Fra fil",
@@ -545,17 +595,21 @@
         "show_role_details": "Vis rolledetaljer",
         "hide_role_details": "Skjul rolledetaljer",
         "show_spy_view": "Vis spionvisning",
-        "hide_spy_view": "Skjul spionvisning",
+        "lock_tokens": "Lås brikker",
+        "unlock_tokens": "Lås opp brikker",
+        "spy_put_seat_at_bottom": "Plasser et sete nederst",
+        "spy_seat_one_on_top": "Plasser sete 1 øverst",
+        "spy_reset_view": "Tilbakestill visningen",
+        "spy_undo_changes": "Angre endringer",
+        "spy_show_all": "Vis alle",
+        "spy_move_up": "Flytt opp",
+        "spy_move_down": "Flytt ned",
         "rearrange_tokens": "Omorganiser spillere",
         "edit_background": "Rediger bakgrunn...",
         "nominations": "Nominasjoner",
         "town_view": "Byvisning ({townId})",
-        "delete": "Slett",
-        "delete_confirm": "Er du sikker på at du vil slette {player} {role}?",
-        "delete_confirm_no_player": "Er du sikker på at du vil slette {role}?",
         "notes_for": "Notater for {name}",
         "notes_placeholder": "Legg til eventuelle egendefinerte notater her...",
-        "save_notes": "Lagre notater",
         "game_notes": "Spillnotater",
         "town_info_alive": "I live",
         "town_info_travellers": "Reisende",
@@ -577,6 +631,9 @@
         "tokens": "Brikker",
         "tap_bag_prompt": "Trykk på posen for å trekke brikken din",
         "tap_token_prompt": "Trykk på en brikke for å trekke den",
+        "draw_from_bag": "Trekk en brikke fra posen",
+        "draw_token": "Trekk brikke {number}",
+        "token_drawn": "Brikke {number} er allerede trukket",
         "hold_to_reveal": "Hold inne for å avsløre",
         "draw_animation": "Trekkeanimasjon",
         "player_name": "Spillernavn",
@@ -622,15 +679,25 @@
         "toggle_widgets": "Veksle widgeter",
         "info": "Info",
         "composition": "Sammensetning",
-        "day_night": "Dag/natt",
-        "grim": "Grimoire",
+        "show_info": "Vis info",
+        "hide_info": "Skjul info",
+        "show_composition": "Vis sammensetning",
+        "hide_composition": "Skjul sammensetning",
+        "show_timer": "Vis tidtaker",
+        "hide_timer": "Skjul tidtaker",
+        "show_day_night": "Vis dag/natt",
+        "hide_day_night": "Skjul dag/natt",
+        "show_companion": "Vis spillerledsager",
+        "hide_companion": "Skjul spillerledsager",
+        "show_night_order": "Vis nattens rekkefølge",
+        "hide_night_order": "Skjul nattens rekkefølge",
+        "hide_grim": "Skjul Grimoiren",
         "town": "By",
-        "town_name_placeholder": "Bynavn",
         "join": "Bli med",
         "disconnect": "Koble fra",
         "disconnected": "Frakoblet",
         "connected_players": "Tilkoblede spillere",
-        "no_town_info": "Ingen byinformasjon tilgjengelig ennå..",
+        "no_town_info": "Ingen byinformasjon tilgjengelig ennå.",
         "show_grim_title": "Vis Grimoiren?",
         "show_grim_message": "Er du sikker på at du vil avsløre Grimoiren? Dette vil vise alle roller til spillerne.",
         "yes_show_grim": "Ja, vis Grimoiren",
@@ -641,7 +708,14 @@
         "congratulations_suffix": "",
         "widget_dark_background": "Mørk widget-bakgrunn",
         "edit_night_icons": "Rediger nattrekkefølge-ikoner...",
-        "seat": "Sete"
+        "seat": "Sete",
+        "no_timer": "Ingen tidtaker er aktiv",
+        "timer_hint": "Tidtakeren vises når historiefortelleren starter en",
+        "timer_title": "Tidtaker: {mode} - {time}",
+        "countdown": "Nedtelling",
+        "hours_short": "t",
+        "minutes_short": "m",
+        "seconds_short": "s"
     },
     "cards": {
         "this_is_the_demon": "DETTE ER DEMONEN",
@@ -655,10 +729,12 @@
         "use_your_ability": "BRUK EVNEN DIN?",
         "did_you_vote_today": "STEMTE DU I DAG?",
         "did_you_nominate_today": "NOMINERTE DU I DAG?",
-        "show_card": "Vis kort..",
+        "show_card": "Vis kort...",
         "create_custom_card": "Opprett egendefinert kort",
         "cards": "Kort",
-        "add_character": "Legg til rolle"
+        "add_character": "Legg til rolle",
+        "custom_cards": "Egendefinerte kort",
+        "no_custom_cards": "Ingen egendefinerte kort ennå."
     },
     "controls": {
         "timer_expired_reset": "Tidtaker utløpt - Klikk for å tilbakestille",
@@ -674,7 +750,6 @@
     "bluffs": {
         "title": "Bløffer",
         "add_bluff_set": "Legg til bløffsett",
-        "add_token": "Legg til token",
         "add_bluffs": "Legg til bløffer",
         "show_all_bluffs": "Vis alle bløffer",
         "delete_set": "Slett sett",
@@ -710,9 +785,8 @@
         "nominates": "nominerer",
         "to_tie": "for uavgjort",
         "to_execute": "for å henrette",
-        "votes_needed_to": "Stemmer som trengs for å",
-        "exile": "forvise",
-        "execute": "henrette"
+        "votes_needed_to_exile": "Stemmer som trengs for å forvise",
+        "votes_needed_to_execute": "Stemmer som trengs for å henrette"
     },
     "drawer": {
         "edit_player_name": "Rediger spillernavn",
@@ -738,6 +812,7 @@
         "unlock_pin_prompt": "Skriv inn din 4-sifrede PIN-kode",
         "check_pin_prompt": "Skriv inn PIN-koden din for å sjekke at du husker den",
         "unlock_pin_wrong": "Feil PIN-kode",
+        "backspace": "Slett tilbake",
         "unlock_throttled": "For mange forsøk. Prøv igjen om {seconds} s.",
         "reset_hint": "Glemt PIN-koden? Slå av Historieforteller-lås i Innstillinger."
     },
@@ -758,6 +833,7 @@
         "storyteller": "Historieforteller",
         "storyteller_hint": "Sett opp og led spillet",
         "player_hint": "Bli med i en by, se skriptet og nattens rekkefølge",
+        "town_hint": "Vis byen på en TV slik at alle kan se den",
         "youtube": "Se på YouTube",
         "video_setup_title": "Hurtigoppsett - Trouble Brewing",
         "video_setup_description": "Start et spill Trouble Brewing med 7 spillere, fra å gi spillerne navn til å legge til påminnelser.",
@@ -817,7 +893,7 @@
                 "body": "Velg hvordan rollene når spillerne dine. Du kan endre dette senere."
             },
             "call_up": {
-                "body": "Kall opp spillerne én om gangen. Du trykker på setet deres, så trykker de på posen for å se rollen sin."
+                "body": "Kall opp hver spiller til deg, én om gangen. Du trykker på setet deres, så trykker de på posen for å se rollen sin."
             },
             "pass": {
                 "body": "Send enheten videre rundt i sirkelen. Hver spiller trekker rollen sin og sender den videre. PIN-koden din låser Grimoiren slik at ingen kan titte."
@@ -834,16 +910,16 @@
                 "body": "Åpne dette for å få spillerne inn på mobilene sine."
             },
             "set_up_seats": {
-                "body": "Tildel spillernavn til seter og tildel roller til seter manuelt (for eksempel reisende). Begge deler er valgfritt."
+                "body": "Trykk her for å tildele spillernavn til seter, eller roller til seter (for eksempel reisende). Begge deler er valgfritt."
             },
             "names": {
-                "body": "Trykk på et navn for å plassere spilleren på neste tomme sete. Trykk på et sete for å tømme det."
+                "body": "Trykk på et navn for å plassere spilleren på neste tomme sete. Hvis du vil fjerne noen fra et sete, trykker du på setet."
             },
             "add_names": {
                 "body": "Trykk her for å legge til navn hvis du ikke ser noen under."
             },
             "roles": {
-                "body": "Trykk på en rolle, deretter på et sete, for å tildele setet den rollen. Praktisk for reisende."
+                "body": "Omvisningen har byttet til fanen Roller. Trykk på en rolle, deretter på et sete, for å tildele setet den rollen. Praktisk for reisende."
             },
             "skip_draw": {
                 "body": "Gi hvert tomme sete en tilfeldig rolle og hopp over trekkingen."
@@ -880,31 +956,30 @@
         "grimoire": {
             "good_player": {
                 "title": "En god spiller",
-                "body": "Denne spilleren er på det gode laget. Trykk på en spiller for å åpne menyen deres. Dra for å flytte dem."
+                "body": "Trykk på en spiller for å åpne menyen deres. Dra for å flytte dem. Den blå illustrasjonen på denne viser at spilleren er på det gode laget. Under spillet markerer en turkis kant en Utenforstående."
             },
             "evil_player": {
                 "title": "En ond spiller",
-                "body": "Denne spilleren er på det onde laget. Illustrasjonen på hver brikke viser hvilket lag spilleren er på."
+                "body": "Den røde illustrasjonen på denne viser at spilleren er på det onde laget. Under spillet markerer en mørkerød kant Demonen."
             },
             "seat_menu": {
                 "title": "Spillermeny",
-                "body": "Gå til fullskjerm, legg til påminnelser, marker som død, bytt, endre tilhørighet og åpne verktøymenyen. Trykk utenfor menyen for å lukke den.",
-                "body_evil": "Gå til fullskjerm, legg til påminnelser, legg til en bløffpåminnelse, marker som død, bytt, endre tilhørighet og åpne verktøymenyen. Trykk utenfor menyen for å lukke den."
+                "body": "Trykk på en spiller for å åpne denne menyen. Med klokken fra toppen: Vis, Påminnelser, Bløff, Marker som død, Bytt, Endre allianse, Verktøy. På dagtid ser du også Nominer. Trykk utenfor menyen for å lukke den."
             },
             "add": {
                 "title": "Legg til",
-                "body": "Legg til demonbløffer, ekstra roller og påminnelsesbrikker."
+                "body": "Trykk på denne knappen for å legge til demonbløffer, ekstra roller og påminnelsesbrikker."
             },
             "night_order": {
-                "body": "Åpner panelet for nattens rekkefølge, som veileder deg i hvem du skal vekke hver natt."
+                "body": "Trykk på denne knappen for å åpne panelet for nattens rekkefølge, som veileder deg i hvem du skal vekke hver natt."
             },
             "phase": {
                 "title": "Dag og natt",
-                "body": "Flytt spillet videre til neste dag eller natt."
+                "body": "Høyrepilen flytter spillet videre til neste dag eller natt. Venstrepilen går ett steg tilbake hvis du må rette noe."
             },
             "view": {
                 "title": "Visning",
-                "body": "Omorganiser setene, åpne spionvisning, les spillhistorikken eller endre bakgrunnen."
+                "body": "Omorganiser spillere (velg en oppstilling og dra spillerne i rekkefølge), åpne spionvisning, les spillhistorikken eller endre bakgrunnen."
             },
             "town": {
                 "title": "By",
@@ -922,7 +997,7 @@
                 "body": "Lås brikkene på plass så de ikke dras ved et uhell. De låses av seg selv når spillet er over."
             },
             "gr_notes": {
-                "body": "Dine egne notater for hele spillet. Notater om én spiller ligger i brikkemenyen til den spilleren."
+                "body": "Dine egne notater for hele spillet. Du kan skrive notater om én spiller i brikkemenyen til den spilleren."
             },
             "gr_timer": {
                 "body": "Sett en nedtelling for dagen, eller start en stoppeklokke. Når den er satt, trykk på tiden for å pause eller fortsette."
@@ -940,7 +1015,7 @@
             },
             "town_state": {
                 "title": "Byens tilstand",
-                "body": "Personikonet viser antall spillere i live. Det blir gult ved 4 og rødt ved 3 eller færre. Kofferten viser antall reisende. Hodeskallen er døde spillere. Hånden viser hvor mange stemmer som er igjen, inkludert spøkelsesstemmer. Den blir rød når det ikke er nok stemmer igjen til å overgå det nåværende totalet på blokken. Haken viser antall stemmer som trengs for å løfte den nåværende personen av blokken."
+                "body": "Personikonet viser antall spillere i live. Det blir gult ved 4 og rødt ved 3 eller færre. Hodeskallen er døde spillere. Hånden viser hvor mange stemmer som er igjen, inkludert spøkelsesstemmer. Den blir rød når det ikke er nok stemmer igjen til å overgå det nåværende totalet på blokken. Haken viser antall stemmer som trengs for å løfte den nåværende personen av blokken. Hvis det er reisende, viser kofferten hvor mange."
             },
             "end_game": {
                 "title": "Avslutt spill",
@@ -948,6 +1023,9 @@
             }
         },
         "night": {
+            "night_pane": {
+                "body": "Hvem du skal vekke i natt, i rekkefølge."
+            },
             "night_cards": {
                 "body": "Åpne Kort-menyen for å vise en spiller et kort, eller lag ditt eget."
             },
@@ -962,6 +1040,12 @@
             "unplaced_reminders": {
                 "title": "Ikke plasserte påminnelser",
                 "body": "Tallet viser hvor mange av denne rollens påminnelser som ikke er i Grimoiren ennå. Trykk for å se dem, og dra så en over på en spiller."
+            },
+            "edit_night_order": {
+                "body": "Endre rekkefølgen for dette spillet."
+            },
+            "end_night": {
+                "body": "Avslutt natten og gå videre til neste dag."
             }
         },
         "night_choice": {
@@ -970,7 +1054,7 @@
             },
             "choice_banner": {
                 "title": "Registrer valget",
-                "body": "Trykk på spillerne de valgte, i rekkefølge. Hver av dem får et nummer. Velg deretter påminnelsene som skal plasseres, og trykk på haken. Hver påminnelse legges på de valgte spillerne i den rekkefølgen, til de er brukt opp."
+                "body": "Trykk på spillerne de valgte, i rekkefølge. Hver av dem får et nummer. Hvis det er påminnelser som skal plasseres, velg dem og trykk på Bekreft. Hver påminnelse legges på de valgte spillerne i den rekkefølgen, til de er brukt opp. Hvis ikke, lagres valget så snart den siste spilleren er valgt."
             }
         },
         "preferences": {
@@ -1009,11 +1093,17 @@
             }
         },
         "account": {
+            "usr_stats": {
+                "body": "Rekorden din som historieforteller: antall spill du har ledet, hvor ofte hvert lag vinner, og dine mest spilte skript og roller. Spill telles når de kommer inn i Grimoiren, og vinneren legges til når du avslutter spillet. Du kan også importere spillene du har ledet fra en Clocktracker-eksport."
+            },
             "usr_favourites": {
                 "body": "Skript du har stjernemerket på oppsettskjermen. Trykk på ett for å laste det. Legg til fargede tagger for å sortere dem, og trykk deretter på en tagg for å filtrere listen."
             },
             "usr_friends": {
                 "body": "Folk du spiller med. Navnene deres er klare til å velges når du setter spillere på seter, så du slipper å skrive dem inn hver gang."
+            },
+            "usr_cards": {
+                "body": "Kort du har laget for å vise spillere. Trykk på ett for å redigere det, eller + for å lage et nytt. De finnes også i Kort-menyen under et spill."
             },
             "usr_games": {
                 "body": "Spill du har lagret fra Spill-menyen. Last ett på oppsettskjermen for å fortsette der du slapp."
@@ -1021,9 +1111,32 @@
             "usr_homebrew": {
                 "body": "Homebrew-skript du har lagt til i søket. Trykk på ett for å laste det, eller trykk på krysset for å fjerne det fra søket."
             },
+            "usr_notifications": {
+                "body": "Varsler du har lagret for en rolle. De slås på av seg selv hver gang den rollen er i Grimoiren din."
+            },
             "usr_logout": {
-                "body": "Logg ut av Discord-kontoen din på denne enheten."
+                "body": "Logg ut av Digital Grimoire på denne enheten. Discord-kontoen din forblir innlogget."
             }
         }
+    },
+    "stats": {
+        "title": "Min statistikk",
+        "games": "Spill",
+        "finished": "{finished} av {started} spill endte med en vinner",
+        "good_wins": "God vinner",
+        "evil_wins": "Ond vinner",
+        "average_players": "Gjennomsnittlig antall spillere",
+        "top_scripts": "Mest spilte skript",
+        "top_roles": "Mest brukte roller",
+        "none_yet": "Ingen spill ennå. Spill du leder mens du er logget inn, dukker opp her når de kommer inn i Grimoiren.",
+        "clear": "Tøm statistikken min...",
+        "clear_confirm": "Slette alle spill som er logget i statistikken din? Dette kan ikke angres.",
+        "load_failed": "Kunne ikke laste statistikken din.",
+        "clear_failed": "Kunne ikke tømme statistikken din.",
+        "import_prompt": "Har du ledet spill før? Importer CSV-filen du eksporterte fra Clocktracker.",
+        "import": "Importer fra Clocktracker",
+        "imported": "Importerte {count} spill fra Clocktracker.",
+        "import_none": "Den filen har ingen spill du ledet som historieforteller.",
+        "import_failed": "Kunne ikke importere den filen. Bruk CSV-filen nøyaktig slik Clocktracker eksporterte den."
     }
 }

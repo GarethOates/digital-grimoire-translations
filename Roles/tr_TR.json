@@ -2,18 +2,18 @@
     {
         "id": "dusk",
         "edition": "special",
-        "name": "Dusk",
-        "firstNightReminder": "Start the Night Phase.",
-        "otherNightReminder": "Start the Night Phase.",
+        "name": "Gün Batımı",
+        "firstNightReminder": "Gece Evresini başlat.",
+        "otherNightReminder": "Gece Evresini başlat.",
         "firstNight": 1,
         "otherNight": 1
     },
     {
         "id": "dawn",
         "edition": "special",
-        "name": "Dawn",
-        "firstNightReminder": "Wait for a few seconds. End the Night Phase.",
-        "otherNightReminder": "Wait for a few seconds. End the Night Phase.",
+        "name": "Gün Doğumu",
+        "firstNightReminder": "Birkaç saniye bekle. Gece Evresini bitir.",
+        "otherNightReminder": "Birkaç saniye bekle. Gece Evresini bitir.",
         "firstNight": 73,
         "otherNight": 93
     },
@@ -29,7 +29,7 @@
     {
         "id": "demoninfo",
         "edition": "special",
-        "name": "Demon Info",
+        "name": "Şeytan Bilgisi",
         "team": "demon",
         "firstNightReminder": "If there are 7 or more players, wake the Demon:\n\tShow the *THESE ARE YOUR MINIONS* token. Point to all Minions.\n\tShow the *THESE CHARACTERS ARE NOT IN PLAY* token. Show 3 not-in-play good character tokens.",
         "firstNight": 19,
@@ -37,11 +37,11 @@
     },
     {
         "id": "washerwoman",
-        "name": "Çamaşırcı Kadın",
+        "name": "Çamaşırcı",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 43,
-        "firstNightReminder": "Oyunda olan bir Kasabalı'nın karakter simgesini gösterin. O karakter olan iki oyuncuyu işaret edin.",
+        "firstNightReminder": "Kasabalı karakter pulunu göster. Hem *KASABALI* hem de *YANLIŞ* oyuncuya işaret et.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
@@ -49,7 +49,7 @@
             "Yanlış"
         ],
         "setup": false,
-        "ability": "2 oyuncudan 1'inin belirli bir Kasabalı olduğunu bilerek başlarsınız.",
+        "ability": "2 oyuncudan 1'inin belli bir Kasabalı olduğunu bilerek başlarsın.",
         "special": null
     },
     {
@@ -66,12 +66,12 @@
             "Yanlış"
         ],
         "setup": false,
-        "ability": "2 oyuncudan 1'inin belirli bir Yabancı olduğunu bilerek başlarsınız. (Veya oyunda hiç olmadığını.)",
+        "ability": "2 oyuncudan 1'inin belli bir Yabancı olduğunu bilerek başlarsın. (Ya da oyunda hiç olmadığını.)",
         "special": null
     },
     {
         "id": "investigator",
-        "name": "Araştırmacı",
+        "name": "Dedektif",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 45,
@@ -79,11 +79,11 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Minyon",
+            "Yardakçı",
             "Yanlış"
         ],
         "setup": false,
-        "ability": "2 oyuncudan 1'inin belirli bir Minyon olduğunu bilerek başlarsınız.",
+        "ability": "2 oyuncudan 1'inin belli bir Yardakçı olduğunu bilerek başlarsın.",
         "special": null
     },
     {
@@ -97,7 +97,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Kaç çift kötü oyuncunun yan yana oturduğunu öğrenerek başlarsınız.",
+        "ability": "Kaç tane komşu kötü oyuncu çifti olduğunu bilerek başlarsın.",
         "special": null
     },
     {
@@ -106,12 +106,12 @@
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 47,
-        "firstNightReminder": "Empat'ın hayatta olan kötü komşularının sayısını parmakla gösterin (0, 1, 2).",
+        "firstNightReminder": "Parmak işareti yap.",
         "otherNight": 69,
-        "otherNightReminder": "Empat'ın hayatta olan kötü komşularının sayısını parmakla gösterin (0, 1, 2).",
+        "otherNightReminder": "Parmak işareti yap.",
         "reminders": [],
         "setup": false,
-        "ability": "Her gece, hayatta olan 2 komşunuzdan kaçının kötü olduğunu öğrenirsiniz.",
+        "ability": "Her gece, hayatta olan 2 komşundan kaçının kötü olduğunu öğrenirsin.",
         "special": null
     },
     {
@@ -120,11 +120,11 @@
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 48,
-        "firstNightReminder": "Falcı iki oyuncuyu işaret eder. Bu oyunculardan birinin İblis olup olmadığı için kafa işareti verin (evet için başınızı sallayın, hayır için sallamayın).",
+        "firstNightReminder": "Falcı 2 oyuncu seçer. Bir tanesi Şeytansa (veya *YANLIŞ ALARM*sa) kafanla onayla.",
         "otherNight": 70,
-        "otherNightReminder": "Falcı iki oyuncuyu işaret eder. Bu oyunculardan birinin İblis olup olmadığı için kafa işareti verin (evet için başınızı sallayın, hayır için sallamayın).",
+        "otherNightReminder": "Falcı 2 oyuncu seçer. Bir tanesi Şeytansa (veya *YANLIŞ ALARM*sa) kafanla onayla.",
         "reminders": [
-            "Kırmızı Ringa"
+            "Yanlış Alarm"
         ],
         "setup": false,
         "ability": "Her gece iki oyuncu seçin: bunlardan birinin İblis olup olmadığını öğrenirsiniz. Size İblis olarak görünen iyi bir oyuncu var.",
@@ -140,10 +140,10 @@
         "otherNight": 71,
         "otherNightReminder": "Eğer bir oyuncu bugün idam edildi ise: O oyuncunun karakter simgesini gösterin.",
         "reminders": [
-            "İdam Edildi"
+            "Bugün Öldü"
         ],
         "setup": false,
-        "ability": "Her gece*, bugün hangi karakterin idam edilerek öldüğünü öğrenirsiniz.",
+        "ability": "Her gece*, bugün hangi karakterin idamla öldüğünü öğrenirsin.",
         "special": null
     },
     {
@@ -154,17 +154,17 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 19,
-        "otherNightReminder": "Önceki korunan oyuncu artık korunmuyor. Keşiş kendisi olmayan bir oyuncuyu işaret eder. O oyuncuyu 'Korumalı' olarak işaretleyin.",
+        "otherNightReminder": "Keşiş bir oyuncu seçer. :reminder:",
         "reminders": [
-            "Korumalı"
+            "Korunan"
         ],
         "setup": false,
-        "ability": "Her gece* bir oyuncu seçin (kendiniz hariç): o bu gece İblis'ten güvendedir.",
+        "ability": "Her gece*, bir oyuncu seç (kendini değil): o kişi bu gece Şeytana karşı güvende olur.",
         "special": null
     },
     {
         "id": "ravenkeeper",
-        "name": "Kuzgun Bekçisi",
+        "name": "Kuzgun Terbiyecisi",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 0,
@@ -173,7 +173,7 @@
         "otherNightReminder": "Eğer Kuzgun Bekçisi bu gece öldüyse: Kuzgun Bekçisi bir oyuncuyu işaret eder. O oyuncunun karakter simgesini gösterin.",
         "reminders": [],
         "setup": false,
-        "ability": "Gece ölürseniz, uyandırılır ve bir oyuncu seçersiniz: onun karakterini öğrenirsiniz.",
+        "ability": "Geceleyin ölürsen, bir oyuncu seçmek üzere uyandırılırsın: o kişinin karakterini öğrenirsin.",
         "special": null
     },
     {
@@ -186,7 +186,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Yetenek Yok"
+            "Yeteneği Yok"
         ],
         "setup": false,
         "ability": "İlk kez aday gösterildiğinde, eğer sizi aday gösteren bir Kasabalı ise, o kişi idam edilir.",
@@ -202,7 +202,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Yetenek Yok"
+            "Yeteneği Yok"
         ],
         "setup": false,
         "ability": "Oyunda bir kez, gün içinde, herkese açık bir şekilde bir oyuncu seçin: eğer o İblis ise, ölür.",
@@ -219,7 +219,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "İblis'ten güvendesiniz.",
+        "ability": "Şeytana karşı güvendesin.",
         "special": null
     },
     {
@@ -233,7 +233,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Sadece üç canlı oyuncu kaldığında ve hiç infaz olmazsa takımınız kazanır. Gece ölürseniz, sizin yerinize başka biri ölebilir.",
+        "ability": "Sadece 3 oyuncu hayattaysa ve idam gerçekleşmezse, takımın kazanır. Geceleyin ölürsen, yerine başka bir oyuncu ölebilir.",
         "special": null
     },
     {
@@ -242,14 +242,14 @@
         "edition": "tb",
         "team": "outsider",
         "firstNight": 49,
-        "firstNightReminder": "Uşak bir oyuncuyu işaret eder. O oyuncuyu 'Usta' olarak işaretleyin.",
+        "firstNightReminder": "Uşak bir oyuncu seçer. :reminder:",
         "otherNight": 84,
-        "otherNightReminder": "Uşak bir oyuncuyu işaret eder. O oyuncuyu 'Efendi' olarak işaretleyin.",
+        "otherNightReminder": "Uşak bir oyuncu seçer. :reminder:",
         "reminders": [
-            "Efendi"
+            "Sahip"
         ],
         "setup": false,
-        "ability": "Her gece bir oyuncu seçin (kendiniz hariç): yarın, sadece onlar da oy veriyorsa oy verebilirsiniz.",
+        "ability": "Her gece, bir oyuncu seç (kendini değil): yarın, ancak o kişi oy kullanıyorsa sen de kullanabilirsin.",
         "special": null
     },
     {
@@ -275,7 +275,7 @@
             }
         ],
         "remindersGlobal": [
-            "Sarhoş"
+            "Sarhoş Olan Kişi"
         ]
     },
     {
@@ -289,7 +289,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Kötü, yani bir Minyon veya İblis olarak görünebilirsiniz, ölseniz bile.",
+        "ability": "Kötü olarak ve bir Yardakçı veya Şeytan olarak gözükebilirsin, ölü olsan bile.",
         "special": null
     },
     {
@@ -303,20 +303,20 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "İdam edilerek öldürülürseniz takımınız kaybeder.",
+        "ability": "İdamla ölürsen, takımın kaybeder.",
         "special": null
     },
     {
         "id": "poisoner",
-        "name": "Zehirbaz",
+        "name": "Zehirci",
         "edition": "tb",
         "team": "minion",
         "firstNight": 24,
-        "firstNightReminder": "Zehirbaz bir oyuncuyu işaret eder. O oyuncu zehirlenir.",
+        "firstNightReminder": "Zehirci bir oyuncu seçer. :reminder:",
         "otherNight": 12,
-        "otherNightReminder": "Önceki zehirlenen oyuncu artık zehirli değildir. Zehirbaz bir oyuncuyu işaret eder. O oyuncu zehirlenir.",
+        "otherNightReminder": "Zehirci bir oyuncu seçer. :reminder:",
         "reminders": [
-            "Zehirlendi"
+            "Zehirlenmiş"
         ],
         "setup": false,
         "ability": "Her gece bir oyuncu seçin, o bu gece ve yarın gündüz zehirlenecek.",
@@ -324,21 +324,21 @@
     },
     {
         "id": "spy",
-        "name": "Ajan",
+        "name": "Casus",
         "edition": "tb",
         "team": "minion",
         "firstNight": 63,
-        "firstNightReminder": "Casus'a Grimoire'ı istediği kadar gösterin.",
+        "firstNightReminder": "Grimoire'ı Casusa ihtiyacı olduğu kadar göster.",
         "otherNight": 85,
-        "otherNightReminder": "Casus'a Grimoire'ı istediği kadar gösterin.",
+        "otherNightReminder": "Grimoire'ı Casusa ihtiyacı olduğu kadar göster.",
         "reminders": [],
         "setup": false,
-        "ability": "Her gece Grimoire'ı görürsünüz. İyi olarak, yani bir Kasabalı veya Yabancı olarak görünebilirsiniz, ölseniz bile.",
+        "ability": "Her gece, Grimoire'ı görürsün. İyi olarak ve bir Kasabalı veya Yabancı olarak gözükebilirsin, ölü olsan bile.",
         "special": null
     },
     {
         "id": "scarletwoman",
-        "name": "Kızıl Kraliçe",
+        "name": "Kızıl Kadın",
         "edition": "tb",
         "team": "minion",
         "firstNight": 0,
@@ -346,7 +346,7 @@
         "otherNight": 28,
         "otherNightReminder": "Eğer Kızıl Kraliçe bugün İblis olduysa: 'Sen şusun' kartını, ardından İblis simgesini gösterin.",
         "reminders": [
-            "İblis"
+            "Şeytan Olan Kişi"
         ],
         "setup": false,
         "ability": "5 veya daha fazla oyuncu hayattaysa ve İblis ölürse, siz İblis olursunuz. (Gezginler hariç)",
@@ -363,39 +363,39 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": true,
-        "ability": "Oyunda ekstra Yabancı'lar var. [+2 Yabancı]",
+        "ability": "Oyunda fazladan Yabancılar var. [+2 Yabancı]",
         "special": null
     },
     {
         "id": "imp",
-        "name": "Imp",
+        "name": "İmp",
         "edition": "tb",
         "team": "demon",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 35,
-        "otherNightReminder": "Imp bir oyuncuyu işaret eder. O oyuncu ölür. Eğer Imp kendisini seçerse: Hayatta olan 1 minyonun karakterini yedek bir Imp simgesiyle değiştirin. 'Sen şusun' kartını, ardından Imp simgesini gösterin.",
+        "otherNightReminder": "Imp bir oyuncuyu işaret eder. O oyuncu ölür. Eğer Imp kendisini seçerse: Hayatta olan 1 minyonun karakterini yedek bir Imp simgesiyle değiştirin. 'Sen şusun' kartını, ardından Imp simgesini gösterin. :reminder:",
         "reminders": [
             "Ölü"
         ],
         "setup": false,
-        "ability": "Her gece* bir oyuncu seçin: o ölür. Eğer kendinizi seçerseniz, siz ölürsünüz ve bir Minyon Imp'e dönüşür.",
+        "ability": "Her gece*, bir oyuncu seç: o kişi ölür. Bu şekilde kendini öldürürsen, bir Yardakçı İmp olur.",
         "special": null
     },
     {
         "id": "bureaucrat",
-        "name": "Büroktrat",
+        "name": "Bürokrat",
         "edition": "tb",
         "team": "traveller",
         "firstNight": 5,
-        "firstNightReminder": "Bürokrat bir oyuncuyu işaret eder. Bürokrat'ın '3 oy' hatırlatıcısını seçilen oyuncunun karakter simgesinin yanına koyun.",
+        "firstNightReminder": "Bürokrat bir oyuncu seçer. :reminder:",
         "otherNight": 2,
-        "otherNightReminder": "Bürokrat bir oyuncuyu işaret eder. Bürokrat'ın '3 oy' hatırlatıcısını seçilen oyuncunun karakter simgesinin yanına koyun.",
+        "otherNightReminder": "Bürokrat bir oyuncu seçer. :reminder:",
         "reminders": [
-            "3 oy"
+            "3 Oy"
         ],
         "setup": false,
-        "ability": "Her gece bir oyuncu seçin (kendiniz değil): onların oyu yarın 3 oy olarak sayılır.",
+        "ability": "Her gece, bir oyuncu seç (kendini değil): yarın onun oyu 3 oy olarak sayılır.",
         "special": null
     },
     {
@@ -404,14 +404,14 @@
         "edition": "tb",
         "team": "traveller",
         "firstNight": 6,
-        "firstNightReminder": "Hırsız bir oyuncuyu işaret eder. Hırsızın 'Negatif oy' hatırlatıcısını seçilen oyuncunun karakter simgesinin yanına koyun.",
+        "firstNightReminder": "Hırsız bir oyuncuyu işaret eder. Hırsızın 'Negatif oy' hatırlatıcısını seçilen oyuncunun karakter simgesinin yanına koyun. :reminder:",
         "otherNight": 3,
-        "otherNightReminder": "Hırsız bir oyuncuyu işaret eder. Hırsızın 'Negatif oy' hatırlatıcısını seçilen oyuncunun karakter simgesinin yanına koyun.",
+        "otherNightReminder": "Hırsız bir oyuncuyu işaret eder. Hırsızın 'Negatif oy' hatırlatıcısını seçilen oyuncunun karakter simgesinin yanına koyun. :reminder:",
         "reminders": [
-            "Negatif Oy"
+            "Eksi Oy"
         ],
         "setup": false,
-        "ability": "Her gece, bir oyuncu seçin (kendiniz değil): oyu yarın negatif sayılır.",
+        "ability": "Her gece, bir oyuncu seç (kendini değil): yarın onun oyu negatif sayılır.",
         "special": null
     },
     {
@@ -425,7 +425,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Her gün, ilk oy sayıldıktan sonra, oy veren bir oyuncu seçebilirsiniz: o ölür.",
+        "ability": "Her gün, ilk oylama sayıldıktan sonra, oy kullanmış bir oyuncuyu seçebilirsin: o kişi ölür.",
         "special": null
     },
     {
@@ -453,7 +453,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Oy vermek için bir oy jetonu kullanmalısınız. Ölü oyuncular kendilerininkini size vermeyi seçebilir. Eğer verirlerse, onların bağlılığını öğrenirsiniz. Ayık ve sağlıklısınız.",
+        "ability": "Oy kullanmak için bir oy pulu kullanman gerekir. Ölü bir oyuncu kendininkini sana verirse, onun tarafını öğrenirsin. Ayık ve sağlıklısındır.",
         "special": null
     },
     {
@@ -464,13 +464,13 @@
         "firstNight": 50,
         "firstNightReminder": "İşaretli karakter simgesini gösterin. İşaretli oyuncuyu işaret edin.",
         "otherNight": 67,
-        "otherNightReminder": "Eğer Büyükanne'nin torunu bu gece İblis tarafından öldürüldüyse: Büyükanne ölür.",
+        "otherNightReminder": "Eğer Büyükanne'nin torunu bu gece İblis tarafından öldürüldüyse: Büyükanne ölür. :reminder:",
         "reminders": [
             "Torun",
             "Ölü"
         ],
         "setup": false,
-        "ability": "İyi bir oyuncuyu ve onun karakterini bilerek başlarsınız. Eğer İblis onları öldürürse, siz de ölürsünüz.",
+        "ability": "İyi bir oyuncuyu ve onun karakterini bilerek başlarsın. Şeytan onu öldürürse, sen de ölürsün.",
         "special": null
     },
     {
@@ -479,9 +479,9 @@
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 17,
-        "firstNightReminder": "Denizci hayatta olan bir oyuncuyu işaret eder. Ya Denizci ya da seçilen oyuncu sarhoş olur.",
+        "firstNightReminder": "Denizci hayatta olan bir oyuncuyu işaret eder. Ya Denizci ya da seçilen oyuncu sarhoş olur. :reminder:",
         "otherNight": 8,
-        "otherNightReminder": "Önceki sarhoş oyuncu artık sarhoş değildir. Denizci hayatta olan bir oyuncuyu işaret eder. Ya Denizci ya da seçilen oyuncu sarhoş olur.",
+        "otherNightReminder": "Önceki sarhoş oyuncu artık sarhoş değildir. Denizci hayatta olan bir oyuncuyu işaret eder. Ya Denizci ya da seçilen oyuncu sarhoş olur. :reminder:",
         "reminders": [
             "Sarhoş"
         ],
@@ -491,7 +491,7 @@
     },
     {
         "id": "chambermaid",
-        "name": "Hizmetçi",
+        "name": "Oda Hizmetçisi",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 67,
@@ -500,23 +500,23 @@
         "otherNightReminder": "Hizmetçi iki oyuncuyu işaret eder. Bu oyuncuların kaçının bu gece yetenekleri için uyandığını gösteren sayı işaretini (0, 1, 2, ...) gösterin.",
         "reminders": [],
         "setup": false,
-        "ability": "Her gece 2 canlı oyuncu seçin (kendiniz hariç): yetenekleri sayesinde bu gece kaç kişinin uyandığını öğrenirsiniz.",
+        "ability": "Her gece, hayatta olan 2 oyuncu seç (kendini değil): bu gece kaç tanesinin yeteneğinden dolayı uyandığını öğrenirsin.",
         "special": null
     },
     {
         "id": "exorcist",
-        "name": "Üfürükçü",
+        "name": "Egzorsist",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 31,
-        "otherNightReminder": "Üfürükçü, dün gecekinden farklı bir oyuncuyu işaret eder. Eğer o oyuncu İblis ise: İblis'i uyandırın. Üfürükçü simgesini gösterin. Üfürükçü'yü işaret edin. İblis bu gece harekete geçmez.",
+        "otherNightReminder": "Üfürükçü, dün gecekinden farklı bir oyuncuyu işaret eder. Eğer o oyuncu İblis ise: İblis'i uyandırın. Üfürükçü simgesini gösterin. Üfürükçü'yü işaret edin. İblis bu gece harekete geçmez. :reminder:",
         "reminders": [
-            "Seçildi"
+            "Seçilen"
         ],
         "setup": false,
-        "ability": "Her gece*, bir oyuncu seçin (dün gecekinden farklı): eğer İblis seçilirse, kim olduğunuzu öğrenir ve bu gece uyanmaz.",
+        "ability": "Her gece*, bir oyuncu seç (geçen gecekinden farklı): Şeytan seçilirse senin kim olduğunu öğrenir ve sonra bu gece uyanmaz.",
         "special": null
     },
     {
@@ -527,14 +527,14 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 14,
-        "otherNightReminder": "Önceki korunan ve sarhoş oyuncular bu işaretleri kaybeder. Hancı iki oyuncuyu işaret eder. Bu oyuncular korunur. Biri sarhoştur.",
+        "otherNightReminder": "Hancı 2 oyuncu seçer. :reminder: :reminder: :reminder:",
         "reminders": [
-            "Korumalı",
-            "Korumalı",
+            "Korunan",
+            "Korunan",
             "Sarhoş"
         ],
         "setup": false,
-        "ability": "Her gece*, 2 oyuncu seçin: bu gece ölemezler, ancak biri gün batımına kadar sarhoş olur.",
+        "ability": "Her gece*, 2 oyuncu seç: bu gece ölemezler, ama 1 tanesi gün batımına kadar sarhoş olur.",
         "special": null
     },
     {
@@ -545,12 +545,12 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 16,
-        "otherNightReminder": "Kumarbaz bir oyuncuyu ve karakter sayfasındaki bir karakteri işaret eder. Yanlışsa, Kumarbaz ölür.",
+        "otherNightReminder": "Kumarbaz bir oyuncu ve bir karakter seçer. :reminder:",
         "reminders": [
             "Ölü"
         ],
         "setup": false,
-        "ability": "Her gece*, bir oyuncu seçin ve karakterini tahmin edin: yanlış tahmin ederseniz, ölürsünüz.",
+        "ability": "Her gece*, bir oyuncu seç ve karakterini tahmin et: eğer tahminin yanlışsa ölürsün.",
         "special": null
     },
     {
@@ -561,7 +561,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 53,
-        "otherNightReminder": "Eğer Dedikoducu'nun herkese açıklaması doğruysa: Bu gece ölmekten korunmayan bir oyuncu seçin. O oyuncu ölür.",
+        "otherNightReminder": "Eğer Dedikoducu'nun herkese açıklaması doğruysa: Bu gece ölmekten korunmayan bir oyuncu seçin. O oyuncu ölür. :reminder:",
         "reminders": [
             "Ölü"
         ],
@@ -575,17 +575,17 @@
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 26,
-        "firstNightReminder": "Nedim ya 'hayır' işareti yapar ya da kâğıttaki bir karakteri işaret eder. Eğer nedim yeteneğini kullandıysa: Eğer o karakter oyundaysa, o oyuncu sarhoş olur.",
+        "firstNightReminder": "Nedim bir karakter seçebilir. :reminder: :reminder:",
         "otherNight": 13,
-        "otherNightReminder": "İşaretli oyuncunun zehirlendiği kalan gün sayısını azalt. Eğer Nedim henüz yeteneğini kullanmamışsa: Nedim ya 'hayır' işareti yapar ya da kâğıttaki bir karakteri işaret eder. Eğer nedim yeteneğini kullandıysa: Eğer o karakter oyundaysa, o oyuncu sarhoş olur.",
+        "otherNightReminder": "Nedim bir karakter seçebilir. :reminder: :reminder:",
         "reminders": [
             "Sarhoş 3",
             "Sarhoş 2",
             "Sarhoş 1",
-            "Yetenek yok"
+            "Yeteneği Yok"
         ],
         "setup": false,
-        "ability": "Her oyunda bir kez, gece, bir karakter seçin: bu karakter 3 gece ve 3 gün boyunca sarhoş olur.",
+        "ability": "Oyunda bir kez, geceleyin, bir karakter seç: o kişi 3 gece 3 gün sarhoş olur.",
         "special": null
     },
     {
@@ -596,13 +596,13 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 59,
-        "otherNightReminder": "Eğer Profesör yeteneğini kullanmadıysa: Profesör ya 'hayır' anlamında başını sallar ya da bir oyuncuyu işaret eder. Eğer o oyuncu bir Kasabalı ise, artık hayattadır.",
+        "otherNightReminder": "Profesör ölü bir oyuncu seçebilir. :reminder: :reminder:",
         "reminders": [
             "Hayatta",
-            "Yetenek Yok"
+            "Yeteneği Yok"
         ],
         "setup": false,
-        "ability": "Oyunda bir kez, gece*, ölü bir oyuncu seçin: eğer bir Kasabalı ise, dirilir.",
+        "ability": "Oyunda bir kez, geceleyin*, ölü bir oyuncu seç: o kişi Kasabalıysa yeniden dirilir.",
         "special": null
     },
     {
@@ -618,12 +618,12 @@
             "Herkes Sarhoş"
         ],
         "setup": false,
-        "ability": "Bir Minyon idam edilerek öldüğünde, diğer tüm oyuncular (Gezginler hariç) yarın gün batımına kadar sarhoş olur.",
+        "ability": "Bir Yardakçı idamla öldüğünde, diğer bütün oyuncular (Gezginler hariç) yarın gün batımına kadar sarhoş olurlar.",
         "special": null
     },
     {
         "id": "tealady",
-        "name": "Çay Hanımı",
+        "name": "Çaycı",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
@@ -649,12 +649,12 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "İdam edilen iyi oyuncular ölmeyebilir.",
+        "ability": "İdam edilen iyi oyuncular ölmeyebilirler.",
         "special": null
     },
     {
         "id": "fool",
-        "name": "Ahmak",
+        "name": "Soytarı",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
@@ -662,37 +662,37 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Yetenek Yok"
+            "Yeteneği Yok"
         ],
         "setup": false,
-        "ability": "İlk öldüğünüzde, ölmezsiniz.",
+        "ability": "İlk kez öleceğin zaman, ölmezsin.",
         "special": null
     },
     {
         "id": "tinker",
-        "name": "Mucit",
+        "name": "Tamirci",
         "edition": "bmr",
         "team": "outsider",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 65,
-        "otherNightReminder": "Tamirci ölebilir.",
+        "otherNightReminder": "Tamirci ölebilir. :reminder:",
         "reminders": [
             "Ölü"
         ],
         "setup": false,
-        "ability": "Herhangi bir zamanda ölebilirsiniz.",
+        "ability": "Her an ölebilirsin.",
         "special": null
     },
     {
         "id": "moonchild",
-        "name": "Mehtap Evladı",
+        "name": "Ay Çocuğu",
         "edition": "bmr",
         "team": "outsider",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 66,
-        "otherNightReminder": "Eğer Ay Çocuğu bugün bir oyuncuyu hedeflemek için yeteneğini kullandıysa: Eğer o oyuncu iyiyse, ölür.",
+        "otherNightReminder": "Ay Çocuğu iyi bir oyuncuyu öldürecekse, o kişi ölür. :reminder:",
         "reminders": [
             "Ölü"
         ],
@@ -713,22 +713,22 @@
             "Sarhoş"
         ],
         "setup": false,
-        "ability": "Her gece, sizi yetenekleriyle ilk seçen oyuncu, gün batımına kadar sarhoş olur. Onların bağlılığına geçersiniz.",
+        "ability": "Her gece, yeteneğiyle seni seçen ilk oyuncu gün batımına kadar sarhoş olur. Onun tarafına geçersin.",
         "special": null
     },
     {
         "id": "lunatic",
-        "name": "Akıl Hastası",
+        "name": "Deli",
         "edition": "bmr",
         "team": "outsider",
         "firstNight": 14,
         "firstNightReminder": "7 veya daha fazla oyuncu varsa: Akıl Hastası'na oyunda olan Minyon sayısı kadar rastgele 'Minyon' oyuncusu gösterin. Rastgele 3 iyi karakterin simgesini gösterin. Eğer Akıl Hastası tarafından alınan simge bu gece uyanacak bir İblis ise: Akıl Hastası'nın İblis eylemlerini yapmasına izin verin. 'Saldırı' işaretleyicilerini yerleştirin. İblis'i uyandırın. İblis'in gerçek karakter simgesini gösterin. Ona Akıl Hastası oyuncusunu gösterin. Eğer Akıl Hastası oyunculara saldırdıysa: Gerçek İblis'e işaretli her oyuncuyu gösterin. Tüm Akıl Hastası 'saldırı' işaretleyicilerini kaldırın.",
         "otherNight": 30,
-        "otherNightReminder": "Akıl Hastası'nın İblis'in eylemlerini yapmasına izin verin. 'Saldırı' işaretleyicilerini yerleştirin. Eğer Akıl Hastası oyuncular seçtiyse: İblis'i uyandırın. 'Saldırı' işaretleyicisini gösterin, ardından işaretli her oyuncuyu işaret edin. Tüm Akıl Hastası 'saldırı' işaretleyicilerini kaldırın.",
+        "otherNightReminder": "Şeytanın sırasını simüle etmek için ne gerekiyorsa yap. Deliyi uyut. Şeytanı uyandır. Deli pulunu gösterip önce Deliye, sonra da hedef(ler)ine işaret et.",
         "reminders": [
-            "Saldırı 1",
-            "Saldırı 2",
-            "Saldırı 3"
+            "Seçilen",
+            "Seçilen",
+            "Seçilen"
         ],
         "setup": false,
         "ability": "Kendinizi bir İblis sanıyorsunuz ama değilsiniz. İblis kim olduğunuzu ve gece kimleri seçtiğinizi bilir.",
@@ -736,13 +736,13 @@
     },
     {
         "id": "godfather",
-        "name": "Mafya Babası",
+        "name": "Baba",
         "edition": "bmr",
         "team": "minion",
         "firstNight": 29,
-        "firstNightReminder": "Oyunda olan her Yabancı simgesini gösterin.",
+        "firstNightReminder": "Oyundaki bütün Yabancıların karakter pullarını göster.",
         "otherNight": 52,
-        "otherNightReminder": "Eğer bir Yabancı bugün öldüyse: Mafya Babası bir oyuncuyu işaret eder. O oyuncu ölür.",
+        "otherNightReminder": "Eğer bir Yabancı bugün öldüyse: Mafya Babası bir oyuncuyu işaret eder. O oyuncu ölür. :reminder:",
         "reminders": [
             "Bugün Öldü",
             "Ölü"
@@ -753,40 +753,40 @@
     },
     {
         "id": "devilsadvocate",
-        "name": "Şeytan'ın Avukatı",
+        "name": "Şeytanın Avukatı",
         "edition": "bmr",
         "team": "minion",
         "firstNight": 31,
-        "firstNightReminder": "Şeytanın Avukatı hayatta olan bir oyuncuyu işaret eder. O oyuncu yarınki idamdan kurtulur.",
+        "firstNightReminder": "Şeytanın Avukatı hayatta olan bir oyuncu seçer. :reminder:",
         "otherNight": 21,
-        "otherNightReminder": "Şeytanın Avukatı, önceki geceden farklı, hayatta olan bir oyuncuyu işaret eder. O oyuncu yarınki idamdan kurtulur.",
+        "otherNightReminder": "Şeytanın Avukatı hayatta olan bir oyuncu seçer. :reminder:",
         "reminders": [
-            "İdamdan Kurtulur"
+            "İdam Edilince Hayatta Kalır"
         ],
         "setup": false,
-        "ability": "Her gece, hayatta olan bir oyuncu seçin (dün gecekinden farklı): yarın idam edilirlerse ölmezler.",
+        "ability": "Her gece, hayatta olan bir oyuncu seç (geçen gecekinden farklı): o kişi yarın idam edilirse ölmez.",
         "special": null
     },
     {
         "id": "assassin",
-        "name": "Suikastçi",
+        "name": "Suikastçı",
         "edition": "bmr",
         "team": "minion",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 51,
-        "otherNightReminder": "Suikastçı henüz yeteneğini kullanmamışsa: Suikastçı ya 'hayır' baş işaretini gösterir ya da bir oyuncuyu işaret eder. O oyuncu ölür.",
+        "otherNightReminder": "Suikastçı bir oyuncu seçebilir. :reminder: :reminder:",
         "reminders": [
             "Ölü",
-            "Yetenek Yok"
+            "Yeteneği Yok"
         ],
         "setup": false,
-        "ability": "Oyun başına bir kez, gece*, bir oyuncu seçin: herhangi bir nedenden dolayı ölememiş olsalar bile ölürler.",
+        "ability": "Oyunda bir kez, geceleyin*, bir oyuncu seç: o kişi ölür, herhangi bir sebepten dolayı ölemiyorsa bile.",
         "special": null
     },
     {
         "id": "mastermind",
-        "name": "Deha",
+        "name": "Üst Akıl",
         "edition": "bmr",
         "team": "minion",
         "firstNight": 0,
@@ -806,13 +806,13 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 36,
-        "otherNightReminder": "Eğer gün içinde kimse ölmediyse: Zombuul bir oyuncuyu işaret eder. O oyuncu ölür.",
+        "otherNightReminder": "Bugün hiç kimse ölmediyse, Zombuul bir oyuncu seçer. :reminder:",
         "reminders": [
             "Bugün Öldü",
             "Ölü"
         ],
         "setup": false,
-        "ability": "Her gece*, eğer bugün kimse ölmediyse, bir oyuncu seçin: o ölür. İlk öldüğünüzde, yaşarsınız ancak ölü olarak görünürsünüz.",
+        "ability": "Her gece*, bugün hiç kimse ölmediyse, bir oyuncu seç: o kişi ölür. İlk öldüğünde, hayatta kalırsın ama ölü olarak gözükürsün.",
         "special": null
     },
     {
@@ -821,16 +821,16 @@
         "edition": "bmr",
         "team": "demon",
         "firstNight": 38,
-        "firstNightReminder": "Pukka bir oyuncuyu işaret eder. O oyuncu zehirlenir.",
+        "firstNightReminder": "Pukka bir oyuncu seçer. :reminder:",
         "otherNight": 37,
-        "otherNightReminder": "Pukka bir oyuncuyu işaret eder. O oyuncu zehirlenir. Önceki zehirlenen oyuncu ölür.",
+        "otherNightReminder": "Pukka bir oyuncu seçer. :reminder: Önceden zehirlenen oyuncu ölür ve sonra sağlıklı olur. :reminder:",
         "reminders": [
-            "Zehirlendi",
-            "Zehirlendi",
+            "Zehirlenmiş",
+            "Zehirlenmiş",
             "Ölü"
         ],
         "setup": false,
-        "ability": "Her gece bir oyuncu seçin: o zehirlenir. Önceki zehirlenen oyuncu ölür ve sonra iyileşir.",
+        "ability": "Her gece, bir oyuncu seç: o kişi zehirlenir. Önceden zehirlenen oyuncu ölür ve sonra sağlıklı olur.",
         "special": null
     },
     {
@@ -841,7 +841,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 38,
-        "otherNightReminder": "Shabaloth'un önceki gece seçtiği bir oyuncu dirilebilir. Shabaloth iki oyuncuyu işaret eder. Bu oyuncular ölür.",
+        "otherNightReminder": "Daha önce seçilen bir oyuncu yeniden dirilebilir. :reminder: Shabaloth 2 oyuncu seçer. :reminder: :reminder:",
         "reminders": [
             "Ölü",
             "Ölü",
@@ -859,12 +859,12 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 39,
-        "otherNightReminder": "Eğer Po önceki gece kimseyi seçmediyse: Po üç oyuncuyu işaret eder. Aksi takdirde: Po ya 'hayır' işareti gösterir ya da bir oyuncuyu işaret eder. Seçilen oyuncular ölür.",
+        "otherNightReminder": "Po bir oyuncu seçebilir VEYA geçen gece hiç kimseyi seçmediyse 3 oyuncu seçer. :reminder: veya :reminder: :reminder: :reminder:",
         "reminders": [
             "Ölü",
             "Ölü",
             "Ölü",
-            "3 Saldırı"
+            "3 Atak"
         ],
         "setup": false,
         "ability": "Her gece*, bir oyuncu seçebilirsiniz: o ölür. Son seferde kimseyi seçmediyseniz, bu gece 3 oyuncu seçin.",
@@ -876,19 +876,19 @@
         "edition": "bmr",
         "team": "traveller",
         "firstNight": 3,
-        "firstNightReminder": "Çırağa ‘Sen Şusun' kartını ve ardından bir Kasaba Halkı veya Minyon tokenini gösterin. Grimoire'da Çırak simgesini o karakter simgesiyle değiştirin ve Çırak'ın 'Çırak Sensin' hatırlatıcısını o karakter simgesinin yanına koyun.",
+        "firstNightReminder": "Çırağa ‘Sen Şusun' kartını ve ardından bir Kasaba Halkı veya Minyon tokenini gösterin. Grimoire'da Çırak simgesini o karakter simgesiyle değiştirin ve Çırak'ın 'Çırak Sensin' hatırlatıcısını o karakter simgesinin yanına koyun. :reminder:",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Çırak Sensin"
+            "Çırak Olan Kişi"
         ],
         "setup": false,
-        "ability": "İlk gecenizde bir Kasabalı yeteneği (iyiyseniz) veya bir Minyon yeteneği (kötüyseniz) kazanırsınız.",
+        "ability": "İlk gecende; iyiysen bir Kasabalı yeteneği, kötüysen bir Yardakçı yeteneği kazan.",
         "special": null
     },
     {
         "id": "matron",
-        "name": "Matron",
+        "name": "Müdire",
         "edition": "bmr",
         "team": "traveller",
         "firstNight": 0,
@@ -897,7 +897,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Her gün, yerlerini değiştirmek için en fazla 3 çift oyuncu seçebilirsiniz. Oyuncular özel olarak konuşmak için yerlerinden ayrılamazlar.",
+        "ability": "Her gün, 3 taneye kadar 2'şerli oyuncu grubu seçip yerlerini değiştirebilirsin. Oyuncular gizlice konuşmak için yerlerinden ayrılamaz.",
         "special": null
     },
     {
@@ -910,10 +910,10 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Yetenek Yok"
+            "Yeteneği Yok"
         ],
         "setup": false,
-        "ability": "Oyunda bir kez, başka bir oyuncu aday gösterdiyse, mevcut idamın geçip geçmemesini zorlamayı seçebilirsiniz.",
+        "ability": "Oyunda bir kez, başka bir oyuncu aday gösterdiyse, oylanmakta olan idamın başarılı veya başarısız olarak sonuçlanmasını seçebilirsin.",
         "special": null
     },
     {
@@ -930,12 +930,12 @@
             "Kötüyü Aday Göster"
         ],
         "setup": false,
-        "ability": "Sadece Hikaye Anlatıcısı aday gösterebilir. Her gün en az 1 karşı oyuncu aday gösterilmelidir.",
+        "ability": "Sadece Hikâyeci aday gösterebilir. Her gün en az 1 karşıt oyuncu aday gösterilmelidir.",
         "special": null
     },
     {
         "id": "voudon",
-        "name": "Vudu",
+        "name": "Voudon",
         "edition": "bmr",
         "team": "traveller",
         "firstNight": 0,
@@ -953,39 +953,39 @@
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 51,
-        "firstNightReminder": "İblis'ten en yakın Minyon'a kadar olan yerlerin sayısını (1, 2, 3, vb.) gösteren el işaretini gösterin.",
+        "firstNightReminder": "Parmak işareti yap.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "İblis ile en yakın Minyonu arasında kaç adım olduğunu bilerek başlarsınız.",
+        "ability": "Şeytanın en yakın Yardakçısından kaç adım uzakta olduğunu bilerek başlarsın.",
         "special": null
     },
     {
         "id": "dreamer",
-        "name": "Hayalperest",
+        "name": "Düşçü",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 52,
-        "firstNightReminder": "Hayalperest bir oyuncuyu işaret eder. 1 iyi ve 1 kötü karakter simgesi gösterin; bunlardan biri doğrudur.",
+        "firstNightReminder": "Düşçü bir oyuncuyu gösterir. 1 tanesi onun karakteri olan 1 iyi ve 1 kötü karakter pulu göster.",
         "otherNight": 72,
-        "otherNightReminder": "Hayalperest bir oyuncuyu işaret eder. 1 iyi ve 1 kötü karakter simgesi gösterin; bunlardan biri doğrudur.",
+        "otherNightReminder": "Düşçü bir oyuncuyu gösterir. 1 tanesi onun karakteri olan 1 iyi ve 1 kötü karakter pulu göster.",
         "reminders": [],
         "setup": false,
-        "ability": "Her gece, bir oyuncu seçin (kendiniz veya Gezginler hariç): 1 iyi ve 1 kötü karakter öğrenirsiniz, bunlardan biri doğrudur.",
+        "ability": "Her gece, bir oyuncu seç (kendini veya Gezginleri değil): 1 tanesi doğru olmak üzere 1 iyi ve 1 kötü karakter öğrenirsin.",
         "special": null
     },
     {
         "id": "snakecharmer",
-        "name": "Yılan Büyücüsü",
+        "name": "Yılan Oynatıcısı",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 28,
-        "firstNightReminder": "Yılan Büyüsücü bir oyuncuyu işaret eder. Eğer o oyuncu İblis ise: İblis ve Yılan Büyüsücü karakterini ve bağlılıklarını değiştirin. Her oyuncuyu yeni rolü ve bağlılığı hakkında bilgilendirmek için uyandırın. Yeni Yılan Büyüsücü zehirlenir.",
+        "firstNightReminder": "Yılan Büyüsücü bir oyuncuyu işaret eder. Eğer o oyuncu İblis ise: İblis ve Yılan Büyüsücü karakterini ve bağlılıklarını değiştirin. Her oyuncuyu yeni rolü ve bağlılığı hakkında bilgilendirmek için uyandırın. Yeni Yılan Büyüsücü zehirlenir. :reminder:",
         "otherNight": 18,
-        "otherNightReminder": "Yılan Büyüsücü bir oyuncuyu işaret eder. Eğer o oyuncu İblis ise: İblis ve Yılan Büyüsücü karakterini ve bağlılıklarını değiştirin. Her oyuncuyu yeni rolü ve bağlılığı hakkında bilgilendirmek için uyandırın. Yeni Yılan Büyüsücü zehirlenir.",
+        "otherNightReminder": "Yılan Büyüsücü bir oyuncuyu işaret eder. Eğer o oyuncu İblis ise: İblis ve Yılan Büyüsücü karakterini ve bağlılıklarını değiştirin. Her oyuncuyu yeni rolü ve bağlılığı hakkında bilgilendirmek için uyandırın. Yeni Yılan Büyüsücü zehirlenir. :reminder:",
         "reminders": [
-            "Zehirlendi"
+            "Zehirlenmiş"
         ],
         "setup": false,
         "ability": "Her gece, hayatta olan bir oyuncu seçin: seçilen bir İblis sizinle karakter ve bağlılık değiştirir ve sonra zehirlenir.",
@@ -1008,7 +1008,7 @@
             "Anormal"
         ],
         "setup": false,
-        "ability": "Her gece, başka bir karakterin yeteneği nedeniyle kaç oyuncunun yeteneğinin anormal çalıştığını (şafaktan beri) öğrenirsiniz.",
+        "ability": "Her gece, (gün doğumundan beri) kaç oyuncunun yeteneğinin başka bir karakterin yeteneğinden dolayı anormal bir şekilde işlediğini öğrenirsin.",
         "special": null
     },
     {
@@ -1019,13 +1019,13 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 73,
-        "otherNightReminder": "İblis'in bugün oy verip vermediği için 'evet' işareti yapın veya başınızı 'hayır' anlamında sallayın. 'İblis oy vermedi' işaretleyicisini yerleştirin ('İblis oy verdi' işaretleyicisini kaldırın, varsa).",
+        "otherNightReminder": "Olumlu ya da olumsuz kafa salla.",
         "reminders": [
-            "İblis Oy Verdi",
-            "İblis Oy Vermedi"
+            "Şeytan Oy Kullandı",
+            "Şeytan Oy Kullanmadı"
         ],
         "setup": false,
-        "ability": "Her gece*, bir İblis'in bugün oy verip vermediğini öğrenirsiniz.",
+        "ability": "Her gece*, bugün bir Şeytanın oy kullanıp kullanmadığını öğrenirsin.",
         "special": null
     },
     {
@@ -1036,18 +1036,18 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 74,
-        "otherNightReminder": "Bir Minyon'un bugün aday gösterip göstermediği için 'evet' işareti yapın veya başınızı 'hayır' anlamında sallayın. 'Minyon aday göstermedi' işaretleyicisini yerleştirin ('Minyon aday gösterdi' işaretleyicisini kaldırın, varsa).",
+        "otherNightReminder": "Olumlu ya da olumsuz kafa salla.",
         "reminders": [
             "Minyon Aday Göstermedi",
             "Minyon Aday Gösterdi"
         ],
         "setup": false,
-        "ability": "Her gece*, bir Minyon'un bugün aday gösterip göstermediğini öğrenirsiniz.",
+        "ability": "Her gece*, bugün bir Yardakçının aday gösterip göstermediğini öğrenirsin.",
         "special": null
     },
     {
         "id": "oracle",
-        "name": "Kahin",
+        "name": "Kâhin",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1056,12 +1056,12 @@
         "otherNightReminder": "Ölü kötü oyuncu sayısını (0, 1, 2, vb.) gösteren el işaretini gösterin.",
         "reminders": [],
         "setup": false,
-        "ability": "Her gece*, kaç ölü oyuncunun kötü olduğunu öğrenirsiniz.",
+        "ability": "Her gece*, kaç ölü oyuncunun kötü olduğunu öğrenirsin.",
         "special": null
     },
     {
         "id": "savant",
-        "name": "Bilgin",
+        "name": "Savant",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1070,7 +1070,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Her gün, özel olarak 2 şey öğrenmek için Hikaye Anlatıcısını ziyaret edebilirsiniz: biri doğru ve biri yanlıştır.",
+        "ability": "Her gün, Hikâyeciyi ziyaret edip gizlice 2 şey öğrenebilirsin: 1'i doğru, 1'i ise yanlış.",
         "special": null
     },
     {
@@ -1079,14 +1079,14 @@
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 53,
-        "firstNightReminder": "Terzi ya 'hayır' işareti yapar ya da başka iki oyuncuyu işaret eder. Eğer Terzi oyuncuları seçtiyse, aynı bağlılıkta olup olmadıkları için 'evet' işareti yapın veya 'hayır' işareti yapın.",
+        "firstNightReminder": "Terzi 2 oyuncu seçebilir. Olumlu ya da olumsuz kafa salla. :reminder:",
         "otherNight": 76,
-        "otherNightReminder": "Eğer Terzi henüz yeteneğini kullanmadıysa: Terzi ya 'hayır' işareti yapar ya da başka iki oyuncuyu işaret eder. Eğer Terzi oyuncuları seçtiyse, aynı bağlılıkta olup olmadıkları için 'evet' işareti yapın veya 'hayır' işareti yapın.",
+        "otherNightReminder": "Terzi 2 oyuncu seçebilir. Olumlu ya da olumsuz kafa salla. :reminder:",
         "reminders": [
-            "Yetenek Yok"
+            "Yeteneği Yok"
         ],
         "setup": false,
-        "ability": "Oyunda bir kez, geceleyin, 2 oyuncu seçin (kendiniz değil): aynı bağlılıkta olup olmadıklarını öğrenirsiniz.",
+        "ability": "Oyunda bir kez, geceleyin, 2 oyuncu seç (kendini değil): aynı tarafta olup olmadıklarını öğrenirsin.",
         "special": null
     },
     {
@@ -1095,14 +1095,14 @@
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 8,
-        "firstNightReminder": "Filozof ya 'hayır' işareti yapar ya da karakter sayfasındaki iyi bir karakteri işaret eder. Eğer bir karakter seçtiyse: Oyunda olmayan karakter simgesini Filozof simgesiyle değiştirin. Veya, eğer karakter oyundaysa, sarhoş işaretleyicisini o oyuncunun yanına ve Filozof Olmayan simgesini Filozof'un yanına yerleştirin.",
+        "firstNightReminder": "Filozof bir karakter seçebilir. Gerekirse karakter pulunu değiştir. :reminder:",
         "otherNight": 6,
-        "otherNightReminder": "Eğer Filozof yeteneğini kullanmadıysa: Filozof ya 'hayır' işareti yapar ya da karakter sayfasındaki iyi bir karakteri işaret eder. Eğer bir karakter seçtiyse: Oyunda olmayan karakter simgesini Filozof simgesiyle değiştirin. Veya, eğer karakter oyundaysa, sarhoş işaretleyicisini o oyuncunun yanına ve Filozof Olmayan simgesini Filozof'un yanına yerleştirin.",
+        "otherNightReminder": "Filozof bir karakter seçebilir. Gerekirse karakter pulunu değiştir. :reminder:",
         "reminders": [
             "Sarhoş"
         ],
         "setup": false,
-        "ability": "Oyunda bir kez, geceleyin, iyi bir karakter seçin: o yeteneği kazanın. Eğer bu karakter oyundaysa, sarhoş olur.",
+        "ability": "Oyunda bir kez, geceleyin, iyi bir karakter seç: o yeteneği kazan. Bu karakter oyundaysa, sarhoş olur.",
         "special": [
             {
                 "type": "reveal",
@@ -1123,10 +1123,10 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Yetenek Yok"
+            "Yeteneği Yok"
         ],
         "setup": false,
-        "ability": "Oyun başına bir kez, gün içinde, Hikaye Anlatıcısına özel olarak herhangi bir evet/hayır sorusu sorun.",
+        "ability": "Oyunda bir kez, gün içinde, Hikâyeciye gizlice herhangi bir evet/hayır sorusu sor.",
         "special": null
     },
     {
@@ -1160,7 +1160,7 @@
         "otherNightReminder": "Eğer Bilge bir İblis tarafından öldürüldüyse: İki oyuncuyu işaret edin, bunlardan biri o İblis'tir.",
         "reminders": [],
         "setup": false,
-        "ability": "Eğer İblis sizi öldürürse, 2 oyuncudan biri olduğunu öğrenirsiniz.",
+        "ability": "Şeytan seni öldürürse, onun 2 oyuncudan 1'i olduğunu öğrenirsin.",
         "special": null
     },
     {
@@ -1179,18 +1179,18 @@
     },
     {
         "id": "sweetheart",
-        "name": "Sevgili",
+        "name": "Canan",
         "edition": "snv",
         "team": "outsider",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 56,
-        "otherNightReminder": "Sarhoş olan bir oyuncu seçin.",
+        "otherNightReminder": "Canan öldüyse, bir oyuncu derhâl sarhoş oldu. Bunu henüz yapmadıysan şimdi yap. :reminder:",
         "reminders": [
             "Sarhoş"
         ],
         "setup": false,
-        "ability": "Öldüğünüzde, 1 oyuncu bundan sonra sarhoş olur.",
+        "ability": "Öldüğünde, 1 oyuncu bundan sonra sarhoş olur.",
         "special": null
     },
     {
@@ -1203,10 +1203,10 @@
         "otherNight": 55,
         "otherNightReminder": "Eğer Berber bugün ölürse: İblis'i uyandırın. 'Bu karakter seni seçti' kartını ve ardından Berber jetonunu gösterin. İblis ya 'hayır' baş işareti gösterir ya da 2 oyuncuyu işaret eder. Eğer oyuncuları seçtiyse: Karakter simgelerini değiştirin. Her oyuncuyu uyandırın. 'Sen' kartını ve ardından yeni karakter jetonunu gösterin.",
         "reminders": [
-            "Bu gece tıraş"
+            "Gece Traşı"
         ],
         "setup": false,
-        "ability": "Eğer bugün ya da bu gece ölürseniz, İblis karakterlerini değiştirmek için 2 oyuncu (başka bir İblis değil) seçebilir.",
+        "ability": "Bugün veya bu gece öldüysen, Şeytan karakterlerini birbiriyle değiştirmek için 2 oyuncu (başka bir Şeytanı değil) seçebilir.",
         "special": null
     },
     {
@@ -1225,7 +1225,7 @@
     },
     {
         "id": "eviltwin",
-        "name": "Şeytani İkiz",
+        "name": "Kötü İkiz",
         "edition": "snv",
         "team": "minion",
         "firstNight": 32,
@@ -1236,7 +1236,7 @@
             "İkiz"
         ],
         "setup": false,
-        "ability": "Siz ve rakip bir oyuncu birbirinizi tanıyorsunuz. İyi oyuncu idam edilirse, kötüler kazanır. İkiniz de hayattaysanız iyiler kazanamaz.",
+        "ability": "Sen ve karşı taraftan bir oyuncu birbirinizi bilirsiniz. İyi olan oyuncu idam edilirse, kötüler kazanır. İkiniz de hayatta olduğunuz sürece iyiler kazanamaz.",
         "special": null
     },
     {
@@ -1245,9 +1245,9 @@
         "edition": "snv",
         "team": "minion",
         "firstNight": 33,
-        "firstNightReminder": "Cadı bir oyuncuyu işaret eder. Eğer o oyuncu yarın aday gösterirse hemen ölür.",
+        "firstNightReminder": "Cadı bir oyuncu seçer. :reminder:",
         "otherNight": 22,
-        "otherNightReminder": "Eğer 4 veya daha fazla oyuncu hayattaysa: Cadı bir oyuncuyu işaret eder. Eğer o oyuncu yarın aday gösterirse hemen ölür.",
+        "otherNightReminder": "Cadı bir oyuncu seçer. :reminder:",
         "reminders": [
             "Lanetli"
         ],
@@ -1257,23 +1257,23 @@
     },
     {
         "id": "cerenovus",
-        "name": "Akıl Çelen",
+        "name": "Cerenovus",
         "edition": "snv",
         "team": "minion",
         "firstNight": 34,
-        "firstNightReminder": "Akıl Çelen bir oyuncuyu ve ardından kağıdındaki bir karakteri işaret eder. O oyuncuyu uyandırın. 'Bu karakter seni seçti' kartını ve ardından Akıl Çelen simgesini gösterin. Seçilen karakter simgesini gösterin. Eğer oyuncu yarın o karakter olmak konusunda deli değilse, infaz edilebilir.",
+        "firstNightReminder": "Akıl Çelen bir oyuncuyu ve ardından kağıdındaki bir karakteri işaret eder. O oyuncuyu uyandırın. 'Bu karakter seni seçti' kartını ve ardından Akıl Çelen simgesini gösterin. Seçilen karakter simgesini gösterin. Eğer oyuncu yarın o karakter olmak konusunda deli değilse, infaz edilebilir. :reminder:",
         "otherNight": 23,
-        "otherNightReminder": "Akıl Çelen bir oyuncuyu ve ardından kağıdındaki bir karakteri işaret eder. O oyuncuyu uyandırın. 'Bu karakter seni seçti' kartını ve ardından Akıl Çelen simgesini gösterin. Seçilen karakter simgesini gösterin. Eğer oyuncu yarın o karakter olmak konusunda deli değilse, infaz edilebilir.",
+        "otherNightReminder": "Akıl Çelen bir oyuncuyu ve ardından kağıdındaki bir karakteri işaret eder. O oyuncuyu uyandırın. 'Bu karakter seni seçti' kartını ve ardından Akıl Çelen simgesini gösterin. Seçilen karakter simgesini gösterin. Eğer oyuncu yarın o karakter olmak konusunda deli değilse, infaz edilebilir. :reminder:",
         "reminders": [
-            "Deli"
+            "Saplantılı"
         ],
         "setup": false,
-        "ability": "Her gece bir oyuncu ve iyi bir karakter seçin: yarın bu karakter olduklarına “deli olurlar” veya idam edilebilirler.",
+        "ability": "Her gece, bir oyuncu ve iyi bir karakter seç: o kişi yarın bu karakter olduğuna “saplantılı” olur, yoksa idam edilebilir.",
         "special": null
     },
     {
         "id": "pithag",
-        "name": "Çukur Cadısı",
+        "name": "Kuyu Acuzesi",
         "edition": "snv",
         "team": "minion",
         "firstNight": 0,
@@ -1293,13 +1293,13 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 40,
-        "otherNightReminder": "Fang Gu bir oyuncuyu işaret eder. O oyuncu ölür. Veya, eğer o oyuncu bir Yabancı ise ve oyunda başka Fang Gu yoksa: Fang Gu, seçilen oyuncu yerine ölür. Seçilen oyuncu artık kötü bir Fang Gu'dur. Yeni Fang Gu'yu uyandırın. 'Sen şusun' kartını, ardından Fang Gu simgesini gösterin. 'Sen şusun' kartını, ardından başparmak aşağı 'kötü' işaretini gösterin.",
+        "otherNightReminder": "Fang Gu bir oyuncuyu işaret eder. O oyuncu ölür. Veya, eğer o oyuncu bir Yabancı ise ve oyunda başka Fang Gu yoksa: Fang Gu, seçilen oyuncu yerine ölür. Seçilen oyuncu artık kötü bir Fang Gu'dur. Yeni Fang Gu'yu uyandırın. 'Sen şusun' kartını, ardından Fang Gu simgesini gösterin. 'Sen şusun' kartını, ardından başparmak aşağı 'kötü' işaretini gösterin. :reminder: :reminder:",
         "reminders": [
             "Ölü",
-            "Bir Kez"
+            "Bir Kere"
         ],
         "setup": true,
-        "ability": "Her gece*, bir oyuncu seçin: o ölür. Bununla öldürdüğünüz ilk Yabancı, kötü bir Fang Gu olur ve siz onun yerine ölürsünüz. [+1 Yabancı]",
+        "ability": "Her gece*, bir oyuncu seç: o kişi ölür. Böyle ölen ilk Yabancı kötü bir Fang Gu'ya dönüşür ve yerine sen ölürsün. [+1 Yabancı]",
         "special": null
     },
     {
@@ -1310,15 +1310,15 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 44,
-        "otherNightReminder": "Vigormortis bir oyuncuyu işaret eder. O oyuncu ölür. Eğer bir Minyon ise, yeteneğini korur ve Kasabalı komşularından biri zehirlenir.",
+        "otherNightReminder": "Vigormortis bir oyuncuyu işaret eder. O oyuncu ölür. Eğer bir Minyon ise, yeteneğini korur ve Kasabalı komşularından biri zehirlenir. :reminder: :reminder: :reminder:",
         "reminders": [
             "Ölü",
             "Yeteneği Var",
             "Yeteneği Var",
             "Yeteneği Var",
-            "Zehirlendi",
-            "Zehirlendi",
-            "Zehirlendi"
+            "Zehirlenmiş",
+            "Zehirlenmiş",
+            "Zehirlenmiş"
         ],
         "setup": true,
         "ability": "Her gece*, bir oyuncu seçin: o ölür. Öldürdüğünüz Minyonlar yeteneklerini korur ve 1 Kasabalı komşuyu zehirler. [-1 Yabancı]",
@@ -1332,25 +1332,25 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 41,
-        "otherNightReminder": "No Dashii bir oyuncuyu işaret eder. O oyuncu ölür.",
+        "otherNightReminder": "No Dashii bir oyuncu seçer. :reminder:",
         "reminders": [
             "Ölü",
-            "Zehirlendi",
-            "Zehirlendi"
+            "Zehirlenmiş",
+            "Zehirlenmiş"
         ],
         "setup": false,
-        "ability": "Her gece*, bir oyuncu seçin: o ölür. 2 Kasabalı komşunuz zehirlenir.",
+        "ability": "Her gece*, bir oyuncu seç: o kişi ölür. 2 Kasabalı komşun zehirlenir.",
         "special": null
     },
     {
         "id": "vortox",
-        "name": "Hortum",
+        "name": "Vortoks",
         "edition": "snv",
         "team": "demon",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 42,
-        "otherNightReminder": "Hortum bir oyuncuyu işaret eder. O oyuncu ölür.",
+        "otherNightReminder": "Hortum bir oyuncuyu işaret eder. O oyuncu ölür. :reminder:",
         "reminders": [
             "Ölü"
         ],
@@ -1364,12 +1364,12 @@
         "edition": "snv",
         "team": "traveller",
         "firstNight": 4,
-        "firstNightReminder": "Bir oyuncu seçin, onu uyandırın ve hangi Barista gücünün onu etkilediğini söyleyin. Onlara buna göre davranın (ayık/sağlıklı/gerçek bilgi veya yeteneklerini iki kez etkinleştirin).",
+        "firstNightReminder": "Bir oyuncu seçin, onu uyandırın ve hangi Barista gücünün onu etkilediğini söyleyin. Onlara buna göre davranın (ayık/sağlıklı/gerçek bilgi veya yeteneklerini iki kez etkinleştirin). :reminder:",
         "otherNight": 1,
-        "otherNightReminder": "Bir oyuncu seçin, onu uyandırın ve hangi Barista gücünün onu etkilediğini söyleyin. Onlara buna göre davranın (ayık/sağlıklı/gerçek bilgi veya yeteneklerini iki kez etkinleştirin).",
+        "otherNightReminder": "Bir oyuncu seçin, onu uyandırın ve hangi Barista gücünün onu etkilediğini söyleyin. Onlara buna göre davranın (ayık/sağlıklı/gerçek bilgi veya yeteneklerini iki kez etkinleştirin). :reminder:",
         "reminders": [
-            "Ayık & Sağlıklı",
-            "İki Defa Yetenek",
+            "Ayık ve Sağlıklı",
+            "İki kez oynar",
             "?",
             "?"
         ],
@@ -1385,7 +1385,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 4,
-        "otherNightReminder": "Fahişe bir oyuncuyu işaret eder. Ardından, Fahişe'yi uyutun. Seçilen oyuncuyu uyandırın, ona 'Bu karakter seni seçti' simgesini, ardından Fahişe simgesini gösterin. O oyuncu ya evet anlamında başını sallar ya da hayır anlamında sallar. Eğer evet anlamında başını salladıysa, Fahişe'yi uyandırın ve ona seçilen oyuncunun karakter simgesini gösterin. Ardından, her iki oyuncunun da ölmesine karar verebilirsiniz.",
+        "otherNightReminder": "Fahişe bir oyuncuyu işaret eder. Ardından, Fahişe'yi uyutun. Seçilen oyuncuyu uyandırın, ona 'Bu karakter seni seçti' simgesini, ardından Fahişe simgesini gösterin. O oyuncu ya evet anlamında başını sallar ya da hayır anlamında sallar. Eğer evet anlamında başını salladıysa, Fahişe'yi uyandırın ve ona seçilen oyuncunun karakter simgesini gösterin. Ardından, her iki oyuncunun da ölmesine karar verebilirsiniz. :reminder: :reminder:",
         "reminders": [
             "Ölü",
             "Ölü"
@@ -1405,29 +1405,29 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Her gün, 1. idamdan sonra, yeniden aday gösterebilirsiniz.",
+        "ability": "Her gün, ilk idamdan sonra, tekrar aday gösterebilirsin.",
         "special": null
     },
     {
         "id": "bonecollector",
-        "name": "Kemik Toplayıcı",
+        "name": "Kemik Koleksiyoncusu",
         "edition": "snv",
         "team": "traveller",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 5,
-        "otherNightReminder": "Kemik Toplayıcı ya başını hayır anlamında sallar ya da herhangi bir ölü oyuncuyu işaret eder. Eğer ölü bir oyuncuyu işaret ederse, Kemik Toplayıcısı'nın 'Yeteneği Var' hatırlatıcısını seçilen oyuncunun karakter simgesinin yanına koyun. (Bunu kullanmak için bu gece uyandırılmaları gerekebilir).",
+        "otherNightReminder": "Kemik Toplayıcı ya başını hayır anlamında sallar ya da herhangi bir ölü oyuncuyu işaret eder. Eğer ölü bir oyuncuyu işaret ederse, Kemik Toplayıcısı'nın 'Yeteneği Var' hatırlatıcısını seçilen oyuncunun karakter simgesinin yanına koyun. (Bunu kullanmak için bu gece uyandırılmaları gerekebilir). :reminder:",
         "reminders": [
-            "Yetenek yok",
-            "Yetenek var"
+            "Yeteneği Yok",
+            "Yeteneği Var"
         ],
         "setup": false,
-        "ability": "Oyun başına bir kez, gece*, ölü bir oyuncu seçin: gün batımına kadar yeteneklerini yeniden kazanırlar.",
+        "ability": "Oyunda bir kez, geceleyin*, ölü bir oyuncu seç: gün batımına kadar yeteneğini geri kazanır.",
         "special": null
     },
     {
         "id": "deviant",
-        "name": "Sapkın",
+        "name": "Aykırı",
         "edition": "snv",
         "team": "traveller",
         "firstNight": 0,
@@ -1449,28 +1449,28 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Görülen",
-            "Görülen",
-            "Görülen"
+            "Biliyor",
+            "Biliyor",
+            "Biliyor"
         ],
         "setup": false,
-        "ability": "Biri ve sadece biri kötü olan 3 oyuncuyu bilerek başlarsınız.",
+        "ability": "1 tanesi ve sadece 1 tanesi kötü olan 3 oyuncu bilerek başlarsın.",
         "special": null
     },
     {
         "id": "bountyhunter",
-        "name": "Kelle Avcısı",
+        "name": "Ödül Avcısı",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 60,
-        "firstNightReminder": "1 kötü oyuncuyu işaret edin. Kötü olan kasabalıyı uyandırın ve onlara 'Sen kötüsün' kartını ve başparmak aşağı kötü işaretini gösterin.",
+        "firstNightReminder": "*BİLİNEN* oyuncuyu göster.",
         "otherNight": 81,
         "otherNightReminder": "Eğer bilinen kötü oyuncu ölmüşse, başka bir kötü oyuncuyu işaret edin.",
         "reminders": [
-            "Bilinen"
+            "Biliyor"
         ],
         "setup": true,
-        "ability": "1 kötü oyuncuyu bilerek başlarsınız. Eğer bildiğiniz oyuncu ölürse, bu gece başka bir kötü oyuncu öğrenirsiniz. [1 Kasabalı kötüdür]",
+        "ability": "1 kötü oyuncuyu bilerek başlarsın. Bildiğin oyuncu ölürse, bu gece başka bir kötü oyuncuyu öğrenirsin. [1 Kasabalı kötü]",
         "special": null
     },
     {
@@ -1483,11 +1483,11 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Deli",
+            "Saplantılı",
             "Yeteneği Var"
         ],
         "setup": false,
-        "ability": "Oyunda olan 1 Kasabalı'yı bilerek başlarsınız. Eğer bu karakter olmak konusunda \"deli\"yseniz, öldüklerinde yeteneklerini kazanırsınız.",
+        "ability": "Oyundaki 1 Kasabalıyı bilerek başlarsın. Bu karakter olduğuna saplantılıydıysan, o ölünce onun yeteneğini kazanırsın.",
         "special": null
     },
     {
@@ -1510,16 +1510,16 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 20,
-        "firstNightReminder": "Vaiz bir oyuncu seçer. Eğer bir Minyon seçilirse, Minyon'u uyandırın ve 'Bu karakter seni seçti' kartını ve ardından Vaiz simgesini gösterin.",
+        "firstNightReminder": "Vaiz bir oyuncu seçer. Eğer bir Minyon seçilirse, Minyon'u uyandırın ve 'Bu karakter seni seçti' kartını ve ardından Vaiz simgesini gösterin. :reminder:",
         "otherNight": 10,
-        "otherNightReminder": "Vaiz bir oyuncu seçer. Eğer bir Minyon seçilirse, Minyon'u uyandırın ve 'Bu karakter seni seçti' kartını ve ardından Vaiz simgesini gösterin.",
+        "otherNightReminder": "Vaiz bir oyuncu seçer. Eğer bir Minyon seçilirse, Minyon'u uyandırın ve 'Bu karakter seni seçti' kartını ve ardından Vaiz simgesini gösterin. :reminder:",
         "reminders": [
-            "Vaazda",
-            "Vaazda",
-            "Vaazda"
+            "Yeteneği Yok",
+            "Yeteneği Yok",
+            "Yeteneği Yok"
         ],
         "setup": false,
-        "ability": "Her gece bir oyuncu seçin: eğer bir Minyon seçilirse, bunu öğrenir. Seçilen tüm Minyonların yeteneği yoktur.",
+        "ability": "Her gece, bir oyuncu seç: bir Yardakçı seçilirse bunu öğrenir. Seçilmiş Yardakçıların yeteneği olmaz.",
         "special": null
     },
     {
@@ -1544,12 +1544,12 @@
         "firstNight": 57,
         "firstNightReminder": "Herhangi bir oyuncuyu göster. :hatırlatma:",
         "otherNight": 78,
-        "otherNightReminder": "Daha öncekinden farklı bir karakter türüne sahip bir oyuncu göster. :hatırlatma:",
+        "otherNightReminder": "Önceki karakter türünden farklı türde bir oyuncu göster. :reminder:",
         "reminders": [
-            "Görünen"
+            "Biliyor"
         ],
         "setup": true,
-        "ability": "Her gece, dün geceden farklı bir karakter türünden bir oyuncu öğrenirsiniz. [+0 veya +1 Yabancı]",
+        "ability": "Her gece, geçen geceden farklı bir karakter türünde bir oyuncu öğrenirsin. [+0 veya +1 Yabancı]",
         "special": null
     },
     {
@@ -1568,19 +1568,19 @@
     },
     {
         "id": "lycanthrope",
-        "name": "Lycanthrope",
+        "name": "Kurt Adam",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 32,
-        "otherNightReminder": "Kurtadam hayatta olan bir oyuncuyu işaret eder: eğer iyiyse, ölür ve bu gece başka kimse ölemez.",
+        "otherNightReminder": "Kurt Adam bir oyuncu seçer. :reminder:",
         "reminders": [
-            "Sahte Pençe",
+            "Yanlış Pati",
             "Ölü"
         ],
         "setup": false,
-        "ability": "Her gece*, hayatta olan bir oyuncu seçin. Eğer iyiyse, ölür ve İblis bu gece öldürmez. Bir iyi oyuncu kötü olarak kaydedilir.",
+        "ability": "Her gece*, hayatta olan bir oyuncu seç. O kişi iyiyse, ölür ve Şeytan bu gece öldürmez. Bir iyi oyuncu kötü olarak gözükür.",
         "special": null
     },
     {
@@ -1598,7 +1598,7 @@
             "?"
         ],
         "setup": false,
-        "ability": "Yeteneğinizin ne olduğunu bilmiyorsunuz. Her gün, özel olarak ne olduğunu tahmin etmeye çalışırsınız: sonucunda ne kadar doğru olduğunu öğrenirsiniz.",
+        "ability": "Yeteneğinin ne olduğunu bilmiyorsun. Her gün, gizlice ne olduğunu tahmin et: ne kadar yaklaştığını öğrenirsin.",
         "special": null
     },
     {
@@ -1607,14 +1607,14 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 61,
-        "firstNightReminder": "Gece Bekçisi bir oyuncuyu işaret edebilir. O oyuncuyu uyandırın, 'Bu karakter seni seçti' kartını ve Gece Bekçisi simgesini gösterin, ardından Gece Bekçisi oyuncusunu işaret edin.",
+        "firstNightReminder": "Gece Bekçisi bir oyuncuyu işaret edebilir. O oyuncuyu uyandırın, 'Bu karakter seni seçti' kartını ve Gece Bekçisi simgesini gösterin, ardından Gece Bekçisi oyuncusunu işaret edin. :reminder:",
         "otherNight": 82,
-        "otherNightReminder": "Gece Bekçisi bir oyuncuyu işaret edebilir. O oyuncuyu uyandırın, 'Bu karakter seni seçti' kartını ve Gece Bekçisi simgesini gösterin, ardından Gece Bekçisi oyuncusunu işaret edin.",
+        "otherNightReminder": "Gece Bekçisi bir oyuncuyu işaret edebilir. O oyuncuyu uyandırın, 'Bu karakter seni seçti' kartını ve Gece Bekçisi simgesini gösterin, ardından Gece Bekçisi oyuncusunu işaret edin. :reminder:",
         "reminders": [
-            "Yetenek Yok"
+            "Yeteneği Yok"
         ],
         "setup": false,
-        "ability": "Oyunda bir kez, geceleyin, bir oyuncu seçin: kim olduğunuzu öğrenirler.",
+        "ability": "Oyunda bir kez, geceleyin, bir oyuncu seç: o kişi senin Gece Bekçisi olduğunu öğrenir.",
         "special": null
     },
     {
@@ -1623,14 +1623,14 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 19,
-        "firstNightReminder": "Mühendis 'hayır' işareti yapar veya bir İblis'i ya da ilgili sayıda Minyonu işaret eder. Eğer Mühendis karakterleri seçtiyse, İblis'i veya Minyonları seçimleriyle değiştirin, ardından ilgili oyuncuları uyandırın ve onlara 'Sen şusun' kartını ve ilgili karakter simgelerini gösterin.",
+        "firstNightReminder": "Mühendis 'hayır' işareti yapar veya bir İblis'i ya da ilgili sayıda Minyonu işaret eder. Eğer Mühendis karakterleri seçtiyse, İblis'i veya Minyonları seçimleriyle değiştirin, ardından ilgili oyuncuları uyandırın ve onlara 'Sen şusun' kartını ve ilgili karakter simgelerini gösterin. :reminder:",
         "otherNight": 9,
-        "otherNightReminder": "Mühendis 'hayır' işareti yapar veya bir İblis'i ya da ilgili sayıda Minyonu işaret eder. Eğer Mühendis karakterleri seçtiyse, İblis'i veya Minyonları seçimleriyle değiştirin, ardından ilgili oyuncuları uyandırın ve onlara 'Sen şusun' kartını ve ilgili karakter simgelerini gösterin.",
+        "otherNightReminder": "Mühendis 'hayır' işareti yapar veya bir İblis'i ya da ilgili sayıda Minyonu işaret eder. Eğer Mühendis karakterleri seçtiyse, İblis'i veya Minyonları seçimleriyle değiştirin, ardından ilgili oyuncuları uyandırın ve onlara 'Sen şusun' kartını ve ilgili karakter simgelerini gösterin. :reminder:",
         "reminders": [
-            "Yetenek Yok"
+            "Yeteneği Yok"
         ],
         "setup": false,
-        "ability": "Oyunda bir kez, geceleyin, hangi Minyonların veya hangi İblis'in oyunda olduğunu seçin.",
+        "ability": "Oyunda bir kez, geceleyin, hangi Yardakçıların veya hangi Şeytanın oyunda olduğunu seç.",
         "special": null
     },
     {
@@ -1643,10 +1643,10 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Yetenek Yok"
+            "Yeteneği Yok"
         ],
         "setup": false,
-        "ability": "Oyunda bir kez, gün içinde, kazanmanıza yardımcı olacak bazı tavsiyeler için Hikaye Anlatıcısını ziyaret edin.",
+        "ability": "Oyunda bir kez, gün içinde, Hikâyeciyi ziyaret edip takımının kazanmasına yardımcı olacak tavsiye al.",
         "special": null
     },
     {
@@ -1655,11 +1655,11 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 40,
-        "firstNightReminder": "Avcı 'hayır' anlamında başını sallar veya bir oyuncuyu işaret eder. Eğer Küçük Hanım'ı işaret ederlerse, o oyuncuyu uyandırın, 'Sen şusun' kartını ve oyunda olmayan bir karakter simgesini gösterin.",
+        "firstNightReminder": "Avcı 'hayır' anlamında başını sallar veya bir oyuncuyu işaret eder. Eğer Küçük Hanım'ı işaret ederlerse, o oyuncuyu uyandırın, 'Sen şusun' kartını ve oyunda olmayan bir karakter simgesini gösterin. :reminder:",
         "otherNight": 61,
-        "otherNightReminder": "Avcı 'hayır' anlamında başını sallar veya bir oyuncuyu işaret eder. Eğer Küçük Hanım'ı işaret ederlerse, o oyuncuyu uyandırın, 'Sen şusun' kartını ve oyunda olmayan bir karakter simgesini gösterin.",
+        "otherNightReminder": "Avcı 'hayır' anlamında başını sallar veya bir oyuncuyu işaret eder. Eğer Küçük Hanım'ı işaret ederlerse, o oyuncuyu uyandırın, 'Sen şusun' kartını ve oyunda olmayan bir karakter simgesini gösterin. :reminder:",
         "reminders": [
-            "Yetenek Yok"
+            "Yeteneği Yok"
         ],
         "setup": true,
         "ability": "Oyunda bir kez, geceleyin, hayatta olan bir oyuncu seçin: eğer Küçük Hanım seçilirse, oyunda olmayan bir Kasabalı olur. [+Küçük Hanım]",
@@ -1671,12 +1671,12 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 9,
-        "firstNightReminder": "Simyacı'ya oyunda olmayan bir Minyon tokeni göster.",
+        "firstNightReminder": "*SEN* bilgi pulunu göster ve bir Yardakçının karakter pulunu göster.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Bir Minyon yeteneğine sahipsin. Kullanırken, Anlatıcı farklı seçmen için sana yönlendirme yapabilir.",
+        "ability": "Bir Yardakçı yeteneğine sahipsin. Yeteneğini kullanırken Hikâyeci seçimini değiştirmeni isteyebilir.",
         "special": [
             {
                 "type": "reveal",
@@ -1684,7 +1684,7 @@
             }
         ],
         "remindersGlobal": [
-            "Simyacıdır"
+            "Simyacı Olan Kişi"
         ]
     },
     {
@@ -1698,16 +1698,16 @@
         "otherNightReminder": "Eğer bir Çiftçi bu gece öldüyse, başka bir iyi oyuncu seçin ve onu Çiftçi yapın. Bu oyuncuyu uyandırın, ona 'Sen şusun' kartını ve Çiftçi karakter simgesini gösterin.",
         "reminders": [],
         "setup": false,
-        "ability": "Gece ölürseniz, hayatta olan iyi bir oyuncu Çiftçi olur.",
+        "ability": "Gece öldüğünde, hayatta olan iyi bir oyuncu Çiftçiye dönüşür.",
         "special": null
     },
     {
         "id": "magician",
-        "name": "Büyücü",
+        "name": "Sihirbaz",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 12,
-        "firstNightReminder": "",
+        "firstNightReminder": "Minyon Bilgisi sırasında Sihirbaz'ı ve İblis'i işaret edin. Şeytan Bilgisi sırasında Sihirbaz'ı ve Minyonları işaret edin.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
@@ -1717,7 +1717,7 @@
     },
     {
         "id": "choirboy",
-        "name": "Koro Oğlanı",
+        "name": "Korist Çocuk",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1739,7 +1739,7 @@
         "otherNight": 7,
         "otherNightReminder": "Eğer Gelincikçi öldüyse, Minyonlara/İblis'e birbirlerini gösterin.",
         "reminders": [
-            "Kötüler Uyanır"
+            "Kötü Takım Uyanır"
         ],
         "setup": false,
         "ability": "Minyonlar ve İblisler birbirlerini tanımıyor. Ölürseniz, o gece birbirlerini öğrenirler.",
@@ -1756,7 +1756,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": true,
-        "ability": "Hikaye Anlatıcısı oyun kurallarını çiğneyebilir ve eğer idam edilirse, ölmüş olsanız bile iyiler kazanır [Kötü karakterler yoktur]",
+        "ability": "Hikâyeci oyunun kurallarını bozabilir, ve eğer idam edilirse iyiler kazanır, ölü olsan bile. [Kötü karakter yok]",
         "special": null
     },
     {
@@ -1769,7 +1769,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Zehirlendi",
+            "Zehirlenmiş",
             "Bugün öldü"
         ],
         "setup": false,
@@ -1778,7 +1778,7 @@
     },
     {
         "id": "snitch",
-        "name": "Gammaz",
+        "name": "İspiyoncu",
         "edition": "",
         "team": "outsider",
         "firstNight": 13,
@@ -1787,7 +1787,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Her Minyon 3 blöf alır.",
+        "ability": "Her bir Yardakçı 3 blöf öğrenir.",
         "special": null
     },
     {
@@ -1798,18 +1798,18 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 17,
-        "otherNightReminder": "Akrobat bir oyuncu seçer. :hatırlatma:",
+        "otherNightReminder": "Akrobat bir oyuncu seçer. :reminder:",
         "reminders": [
             "Ölü",
             "Seçilen"
         ],
         "setup": false,
-        "ability": "Her gece*, bir oyuncu seçin: bu gece sarhoş olurlarsa veya zehirlenirlerse, siz ölürsünüz.",
+        "ability": "Her gece*, bir oyuncu seç: o kişi bu gece sarhoş veya zehirlenmiş ise veya olursa, ölürsün.",
         "special": null
     },
     {
         "id": "puzzlemaster",
-        "name": "Bulmaca Ustası",
+        "name": "Yapboz Ustası",
         "edition": "",
         "team": "outsider",
         "firstNight": 0,
@@ -1821,12 +1821,12 @@
             "Tahmin Kullanıldı"
         ],
         "setup": false,
-        "ability": "Bir oyuncu sarhoştur, siz ölseniz bile. Kim olduğunu bir kez tahmin ederseniz, İblis oyuncusunu öğrenirsiniz, ancak yanlış tahmin ederseniz yanlış bilgi alırsınız.",
+        "ability": "1 oyuncu sarhoş olur, ölsen bile. Bunun kim olduğunu tahmin edersen (bir seferlik) Şeytan oyuncusunu öğrenirsin, ama yanlış tahmin edersen yanlış bilgi alırsın.",
         "special": null
     },
     {
         "id": "heretic",
-        "name": "Kafir",
+        "name": "Kâfir",
         "edition": "",
         "team": "outsider",
         "firstNight": 0,
@@ -1835,7 +1835,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Kim kazanırsa kaybeder ve kim kaybederse kazanır, siz ölmüş olsanız bile.",
+        "ability": "Kazananlar kaybeder ve kaybedenler kazanır, ölü bile olsan.",
         "special": null
     },
     {
@@ -1851,7 +1851,7 @@
             "Tahmin Kullanıldı"
         ],
         "setup": false,
-        "ability": "Bütün Minyonlar oyunda olduğunuzu bilir. Bir Minyon sizi herkese açık bir şekilde tahmin ederse (bir kez), takımınız kaybeder.",
+        "ability": "Bütün Yardakçılar bir Küçük Hanımın oyunda olduğunu bilir. Bir Yardakçı herkesin önünde seni tahmin ederse (bir seferlik), takımın kaybeder.",
         "special": null
     },
     {
@@ -1867,12 +1867,12 @@
             "Aday Gösteremez"
         ],
         "setup": false,
-        "ability": "Oyunda sadece bir kez aday gösterebilirsiniz. Bunu yaptığınızda, aday İblis değilse, ölür.",
+        "ability": "Oyunda sadece bir kez aday gösterebilirsin. Gösterdiğinde, aday Şeytan değilse ölür.",
         "special": null
     },
     {
         "id": "politician",
-        "name": "Politikacı",
+        "name": "Siyasetçi",
         "edition": "",
         "team": "outsider",
         "firstNight": 0,
@@ -1881,20 +1881,20 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Eğer takımınızın kaybetmesinden en çok sorumlu oyuncu sizseniz, bağlılık değiştirir ve kazanırsınız, ölmüş olsanız bile.",
+        "ability": "Takımının kaybetmesinden en çok sorumlu olan oyuncuyduysan, taraf değiştirip kazanırsın, ölü bile olsan.",
         "special": null
     },
     {
         "id": "widow",
-        "name": "Dul",
+        "name": "Karadul",
         "edition": "",
         "team": "minion",
         "firstNight": 25,
-        "firstNightReminder": "Dul'a Grimoire'ı istediği kadar gösterin. Dul bir oyuncuyu işaret eder. O oyuncu zehirlenir. İyi bir oyuncuyu uyandırın. 'Bu karakterler oyunda' kartını, ardından Dul karakter simgesini gösterin.",
+        "firstNightReminder": "Dul'a Grimoire'ı istediği kadar gösterin. Dul bir oyuncuyu işaret eder. O oyuncu zehirlenir. İyi bir oyuncuyu uyandırın. 'Bu karakterler oyunda' kartını, ardından Dul karakter simgesini gösterin. :reminder: :reminder:",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Zehirlendi",
+            "Zehirlenmiş",
             "Biliyor"
         ],
         "setup": false,
@@ -1907,9 +1907,9 @@
         "edition": "",
         "team": "minion",
         "firstNight": 35,
-        "firstNightReminder": "Korku Tacırı bir oyuncuyu işaret eder. Korku simgesini o oyuncunun yanına yerleştirin ve yeni bir oyuncunun Korku Tacırı yeteneği ile seçildiğini duyurun.",
+        "firstNightReminder": "Korku Tacırı bir oyuncuyu işaret eder. Korku simgesini o oyuncunun yanına yerleştirin ve yeni bir oyuncunun Korku Tacırı yeteneği ile seçildiğini duyurun. :reminder:",
         "otherNight": 25,
-        "otherNightReminder": "Korku Tacırı bir oyuncuyu işaret eder. Önceki geceden farklıysa, Korku simgesini o oyuncunun yanına yerleştirin ve yeni bir oyuncunun Korku Tacırı yeteneği ile seçildiğini duyurun.",
+        "otherNightReminder": "Korku Tacırı bir oyuncuyu işaret eder. Önceki geceden farklıysa, Korku simgesini o oyuncunun yanına yerleştirin ve yeni bir oyuncunun Korku Tacırı yeteneği ile seçildiğini duyurun. :reminder:",
         "reminders": [
             "Korku"
         ],
@@ -1953,15 +1953,15 @@
         "edition": "",
         "team": "minion",
         "firstNight": 37,
-        "firstNightReminder": "Mezepheles'e gizli kelimesini gösterin.",
+        "firstNightReminder": "Gizli kelimeyi göster.",
         "otherNight": 27,
-        "otherNightReminder": "Mezepheles'in gizli kelimesini söyleyen ilk iyi oyuncuyu uyandırın ve ona 'Sen şusun' kartını ve başparmak aşağı kötü işaretini gösterin.",
+        "otherNightReminder": "Mezepheles'in gizli kelimesini söyleyen ilk iyi oyuncuyu uyandırın ve ona 'Sen şusun' kartını ve başparmak aşağı kötü işaretini gösterin. :reminder: :reminder:",
         "reminders": [
-            "Kötü Oluyor",
-            "Yetenek Yok"
+            "Kötüye Döner",
+            "Yeteneği Yok"
         ],
         "setup": false,
-        "ability": "Gizli bir kelime bilerek başlarsınız. Bu kelimeyi söyleyen ilk iyi oyuncu o gece kötü olur.",
+        "ability": "Gizli bir kelime bilerek başlarsın. Bu kelimeyi söyleyen ilk iyi oyuncu o gece kötüye dönüşür.",
         "special": null
     },
     {
@@ -1992,7 +1992,7 @@
     },
     {
         "id": "boomdandy",
-        "name": "Bombacı Mülayim",
+        "name": "Canlı Bomba",
         "edition": "",
         "team": "minion",
         "firstNight": 0,
@@ -2001,21 +2001,21 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Eğer infaz edilirseniz, 3 oyuncu hariç herkes ölür. 10'dan 1'e geri sayımdan sonra, en çok oyuncunun işaret ettiği oyuncu ölür.",
+        "ability": "İdam edilirsen, 3 oyuncu dışındaki herkes ölür. 10'dan geri sayıldıktan sonra, en çok oyuncunun eliyle gösterdiği oyuncu ölür.",
         "special": null
     },
     {
         "id": "lilmonsta",
-        "name": "Lil' Monsta",
+        "name": "Küçük Canavar",
         "edition": "",
         "team": "demon",
         "firstNight": 21,
-        "firstNightReminder": "Bütün Minyonları birlikte uyandırın, Lil' Monsta'ya kimin bakacağını işaret ederek oy vermelerine izin verin.",
+        "firstNightReminder": "Bütün Minyonları birlikte uyandırın, Lil' Monsta'ya kimin bakacağını işaret ederek oy vermelerine izin verin. :reminder:",
         "otherNight": 48,
-        "otherNightReminder": "Bütün Minyonları birlikte uyandırın, Lil' Monsta'ya kimin bakacağını işaret ederek oy vermelerine izin verin. Bir oyuncu seçin, o oyuncu ölür.",
+        "otherNightReminder": "Bütün Minyonları birlikte uyandırın, Lil' Monsta'ya kimin bakacağını işaret ederek oy vermelerine izin verin. Bir oyuncu seçin, o oyuncu ölür. :reminder: :reminder:",
         "reminders": [],
         "setup": true,
-        "ability": "Her gece, Minyonlar Lil' Monsta'ya kimin bakacağını ve \"İblis'tir\" olduğunu seçer. Her gece* bir oyuncu ölebilir. [+1 Minyon]",
+        "ability": "Her gece, Yardakçılar kimin Küçük Canavara bakıcılık yaptığını ve “Şeytan olduğunu” seçer. Her gece*, bir oyuncu ölebilir. [+1 Yardakçı]",
         "special": [
             {
                 "type": "selection",
@@ -2027,22 +2027,22 @@
             }
         ],
         "remindersGlobal": [
-            "İblis",
+            "Şeytan Olan Kişi",
             "Ölü"
         ]
     },
     {
         "id": "lleech",
-        "name": "Lleech",
+        "name": "Süllük",
         "edition": "",
         "team": "demon",
         "firstNight": 22,
-        "firstNightReminder": "Lleech bir oyuncuyu işaret eder. Zehirlendi hatırlatma simgesini yerleştirin.",
+        "firstNightReminder": "Süllük bir oyuncu seçer. :reminder:",
         "otherNight": 47,
-        "otherNightReminder": "Lleech bir oyuncuyu işaret eder. O oyuncu ölür.",
+        "otherNightReminder": "Süllük bir oyuncu seçer. :reminder:",
         "reminders": [
             "Ölü",
-            "Zehirlendi"
+            "Zehirlenmiş"
         ],
         "setup": false,
         "ability": "Her gece*, bir oyuncu seçin: o ölür. Hayatta olan bir oyuncu seçerek başlarsınız: o zehirlenir - ancak ve ancak o ölürse siz ölürsünüz.",
@@ -2056,28 +2056,28 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 46,
-        "otherNightReminder": "Al-Hadikhia 3 oyuncu seçer. İlk oyuncuyu duyurun, yaşamak için evet anlamında kafa sallaması veya ölmek için hayır anlamında kafa sallaması için uyandırın, buna göre öldürün veya diriltin, sonra uyutun ve bir sonraki oyuncuyu duyurun. Eğer bu aşamadan sonra üçü de yaşıyorsa, üçü de ölür.",
+        "otherNightReminder": "Al-Hadikhia 3 oyuncu seçer. İlk oyuncuyu duyurun, yaşamak için evet anlamında kafa sallaması veya ölmek için hayır anlamında kafa sallaması için uyandırın, buna göre öldürün veya diriltin, sonra uyutun ve bir sonraki oyuncuyu duyurun. Eğer bu aşamadan sonra üçü de yaşıyorsa, üçü de ölür. :reminder: :reminder: :reminder:",
         "reminders": [
             "1",
             "2",
             "3"
         ],
         "setup": false,
-        "ability": "Her gece*, 3 oyuncu seçin (tüm oyuncular kimin seçildiğini öğrenir): her biri sessizce yaşamayı ya da ölmeyi seçer, ancak hepsi yaşarsa, hepsi ölür.",
+        "ability": "Her gece*, 3 oyuncu seçebilirsin (bütün oyuncular kim olduklarını öğrenir): her biri sessizce yaşamayı veya ölmeyi seçer fakat hepsi yaşarsa hepsi ölür.",
         "special": null
     },
     {
         "id": "legion",
-        "name": "Lejyon",
+        "name": "Tümen",
         "edition": "",
         "team": "demon",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 34,
-        "otherNightReminder": "Bir oyuncu seçin, o oyuncu ölür.",
+        "otherNightReminder": "Bir oyuncu ölebilir. :reminder:",
         "reminders": [
             "Ölü",
-            "Ölüme Yakın"
+            "Ölmek Üzere"
         ],
         "setup": true,
         "ability": "Her gece*, bir oyuncu ölebilir. Sadece kötüler oy verirse idamlar başarısız olur. Siz de bir Minyon olarak görünürsünüz. [Çoğu oyuncu Lejyon'dur]",
@@ -2085,34 +2085,34 @@
     },
     {
         "id": "leviathan",
-        "name": "Leviathan",
+        "name": "Livyatan",
         "edition": "",
         "team": "demon",
         "firstNight": 69,
-        "firstNightReminder": "Leviathan '1. Gün' işaretleyicisini yerleştirin. 'Leviathan oyunda; bu 1. Gün.' diye duyurun.",
+        "firstNightReminder": "Leviathan '1. Gün' işaretleyicisini yerleştirin. 'Leviathan oyunda; bu 1. Gün.' diye duyurun. :reminder:",
         "otherNight": 90,
-        "otherNightReminder": "Leviathan Gün hatırlatıcısını bir sonraki gün için değiştirin.",
+        "otherNightReminder": "Leviathan Gün hatırlatıcısını bir sonraki gün için değiştirin. :reminder:",
         "reminders": [
-            "1. Gün",
-            "2. Gün",
-            "3. Gün",
-            "4. Gün",
-            "5. Gün",
+            "Gün 1",
+            "Gün 2",
+            "Gün 3",
+            "Gün 4",
+            "Gün 5",
             "İyi Oyuncu İdam Edildi"
         ],
         "setup": false,
-        "ability": "1'den fazla iyi oyuncu idam edilirse, siz kazanırsınız. Tüm oyuncular oyunda olduğunuzu bilir. 5. günden sonra, kötüler kazanır.",
+        "ability": "Birden fazla iyi oyuncu idam edilirse kötüler kazanır. Bütün oyuncular oyunda olduğunu bilir. 5. günden sonra kötüler kazanır.",
         "special": null
     },
     {
         "id": "riot",
-        "name": "Ayaklanma",
+        "name": "Çapulcu",
         "edition": "",
         "team": "demon",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 0,
-        "otherNightReminder": "",
+        "otherNightReminder": "Çapulcu Gün hatırlatıcısını ilgili güne değiştirin. :reminder: 3. gece ise, Minyonları uyandırabilirsiniz. 'Sen şusun' kartını ve Çapulcu simgesini gösterin.",
         "reminders": [
             "Gün 1",
             "Gün 2",
@@ -2138,19 +2138,19 @@
     },
     {
         "id": "organgrinder",
-        "name": "Orgcu",
+        "name": "Laternacı",
         "edition": "",
         "team": "minion",
         "firstNight": 30,
-        "firstNightReminder": "",
+        "firstNightReminder": "Laternacı ya sarhoş olmak için evet anlamında başını sallar ya da ayık olmak için hayır anlamında başını sallar. :reminder:",
         "otherNight": 20,
-        "otherNightReminder": "",
+        "otherNightReminder": "Laternacı ya sarhoş olmak için evet anlamında başını sallar ya da ayık olmak için hayır anlamında başını sallar. :reminder:",
         "reminders": [
-            "Ölüme Yakın",
+            "Ölmek Üzere",
             "Sarhoş"
         ],
         "setup": false,
-        "ability": "Tüm oyuncular oylama sırasında gözlerini kapalı tutar ve oy sayısı gizlidir. Her gece, sarhoş olup olmadığınızı seçin.",
+        "ability": "Oylama esnasında bütün oyuncular gözlerini kapatır ve oy sayımı gizli yapılır. Her gece, gün batımına kadar sarhoş olup olmadığını seç.",
         "special": null
     },
     {
@@ -2177,11 +2177,11 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Bilir",
-            "Bilir"
+            "Biliyor",
+            "Biliyor"
         ],
         "setup": false,
-        "ability": "İblis olmayan 2 oyuncuyu bilerek başlarsınız.",
+        "ability": "Şeytan olmayan 2 oyuncuyu bilerek başlarsın.",
         "special": null
     },
     {
@@ -2194,7 +2194,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Bilir"
+            "Biliyor"
         ],
         "setup": false,
         "ability": "İyi bir oyuncuyu bilerek başlarsınız.",
@@ -2202,21 +2202,21 @@
     },
     {
         "id": "highpriestess",
-        "name": "Baş Rahibe",
+        "name": "Başrahibe",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 65,
-        "firstNightReminder": "Bir oyuncuyu işaret edin.",
+        "firstNightReminder": "Bir oyuncuyu işaret et.",
         "otherNight": 86,
-        "otherNightReminder": "Bir oyuncuyu işaret edin.",
+        "otherNightReminder": "Bir oyuncuyu işaret et.",
         "reminders": [],
         "setup": false,
-        "ability": "Her gece, Hikaye Anlatıcısı'nın sizin en çok kiminle konuşmanız gerektiğini düşündüğü oyuncuyu öğrenin.",
+        "ability": "Her gece, Hikâyecinin en çok hangi oyuncuyla konuşman gerektiğini düşündüğünü öğrenirsin.",
         "special": null
     },
     {
         "id": "harpy",
-        "name": "Harpy",
+        "name": "Harpia",
         "edition": "",
         "team": "minion",
         "firstNight": 36,
@@ -2224,7 +2224,7 @@
         "otherNight": 26,
         "otherNightReminder": "Harpi iki oyuncu seçer. :hatırlatma: :hatırlatma: Harpi'yi uyutun. 1. hedefi uyandırın. *BU KARAKTER SİZİ SEÇTİ* jetonunu, Harpi jetonunu gösterin, ardından 2. hedefi gösterin.",
         "reminders": [
-            "Deli",
+            "Saplantılı",
             "2."
         ],
         "setup": false,
@@ -2239,12 +2239,12 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 0,
-        "otherNightReminder": "",
+        "otherNightReminder": "Veba Doktoru öldüyse, Hikâyeci bir Minyon yeteneği kazandı. Bunu henüz yapmadıysanız, şimdi yapın. :reminder:",
         "reminders": [
-            "Hikaye Anlatıcısı Yeteneği"
+            "Hikâyeci'nin Yeteneği"
         ],
         "setup": false,
-        "ability": "Ölürseniz, Hikaye Anlatıcısı oyunda olmayan bir Minyon yeteneği kazanır.",
+        "ability": "Öldüğünde, Hikâyeci bir Yardakçı yeteneği kazanır.",
         "special": null
     },
     {
@@ -2253,7 +2253,7 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 58,
-        "firstNightReminder": "Shugenja'yı uyandırın; en yakın kötü oyuncunun yönünde yatay olarak işaret edin. En yakın iki kötü oyuncu eşit uzaklıktaysa, parmağınızı yatay olarak her iki yönde de işaret edin.",
+        "firstNightReminder": "Saat yönü ya da tersini göster.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
@@ -2269,12 +2269,12 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 45,
-        "otherNightReminder": "Ojo karakter sayfasındaki bir karakteri işaret eder; eğer oyundaysa, o oyuncu ölür. Eğer oyunda değilse, Hikaye Anlatıcısı onun yerine kimin öleceğini seçer.",
+        "otherNightReminder": "Ojo bir karakter seçer. :reminder:",
         "reminders": [
             "Ölü"
         ],
         "setup": false,
-        "ability": "Her gece*, bir karakter seçin: o ölür. Eğer oyunda değilse, Hikaye Anlatıcısı kimin öleceğini seçer.",
+        "ability": "Her gece*, bir karakter seç: o kişi ölür. Karakter oyunda değilse, kimin öldüğünü Hikâyeci seçer.",
         "special": null
     },
     {
@@ -2287,7 +2287,7 @@
         "otherNight": 54,
         "otherNightReminder": "Eğer Şapkacı bugün öldüyse: Minyonları ve İblis'i uyandırın. Onlara 'Bu Karakter Seni Seçti' bilgi simgesini, ardından Şapkacı simgesini gösterin. Her oyuncu ya 'hayır' anlamında başını sallar ya da mevcut karakterleriyle aynı türden başka bir karakteri işaret eder.  Eğer ikinci bir oyuncu başka bir oyuncuyla aynı karakteri seçerse, 'hayır' anlamında başınızı sallayın ve tekrar seçmelerini belirtin. Onları uyutun. Her oyuncuyu seçtikleri karaktere değiştirin.",
         "reminders": [
-            "Bu Gece Çay Partisi"
+            "Gece Çay Partisi"
         ],
         "setup": false,
         "ability": "Bugün veya bu gece ölürseniz, Minyon ve İblis oyuncuları olmak istedikleri yeni Minyon ve İblis karakterleri seçebilirler.",
@@ -2301,12 +2301,12 @@
         "firstNight": 2,
         "firstNightReminder": "Kazali bir oyuncuyu ve karakter sayfasındaki bir Minyonu işaret eder. Eski karakter simgelerini Minyon simgesiyle değiştirin, onlara “Siz” bilgi simgesini, ardından Minyon karakter simgesini gösterin ve başparmak aşağı işareti yapın. Normal sayıda Minyon olana kadar tekrarlayın. Kazali'yi uyutun.",
         "otherNight": 50,
-        "otherNightReminder": "Kazali bir oyuncuyu işaret eder. O oyuncu ölür.",
+        "otherNightReminder": "Kazali bir oyuncu seçer. :reminder:",
         "reminders": [
             "Ölü"
         ],
         "setup": true,
-        "ability": "Her gece*, bir oyuncu seçin: o ölür. [Hangi oyuncunun hangi Minyon olduğunu siz seçersiniz. -? ila +? Yabancı]",
+        "ability": "Her gece*, bir oyuncu seç: o kişi ölür. [Hangi oyuncunun hangi Yardakçı olduğunu sen seçersin. -? ila +? Yabancı]",
         "special": null
     },
     {
@@ -2315,7 +2315,7 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 59,
-        "firstNightReminder": "Köyün Delisi bir oyuncuyu işaret eder; eğer o oyuncu iyiyse başparmak yukarı, kötüyse başparmak aşağı işareti yapın.",
+        "firstNightReminder": "Köyün Delisi bir oyuncuyu işaret eder; eğer o oyuncu iyiyse başparmak yukarı, kötüyse başparmak aşağı işareti yapın. :reminder:",
         "otherNight": 79,
         "otherNightReminder": "Köyün Delisi bir oyuncuyu işaret eder; eğer o oyuncu iyiyse başparmak yukarı, kötüyse başparmak aşağı işareti yapın.",
         "reminders": [
@@ -2333,7 +2333,7 @@
         "firstNight": 11,
         "firstNightReminder": "Yasak Kelime'ye gizli kelime öbeğini gösterin.",
         "otherNight": 49,
-        "otherNightReminder": "Yasak Kelime'nin gizli kelime öbeğini bugün herkese açık bir şekilde söyleme sayısına kadar bir sayıda oyuncu seçin, bu oyuncular ölür.",
+        "otherNightReminder": "Yasak Kelime'nin gizli kelime öbeğini bugün herkese açık bir şekilde söyleme sayısına kadar bir sayıda oyuncu seçin, bu oyuncular ölür. :reminder:",
         "reminders": [
             "Ölü",
             "Ölü",
@@ -2351,7 +2351,7 @@
         "firstNight": 15,
         "firstNightReminder": "Bu karakterler oyunda değil' kartını gösterin. Oyunda olmayan 3 iyi karakterin simgesini gösterin.",
         "otherNight": 29,
-        "otherNightReminder": "3. gece ise, Çağırıcı'yı uyandırın. Bir oyuncuyu ve karakter sayfasındaki bir İblis'i işaret ederler - o oyuncu o İblis olur.",
+        "otherNightReminder": "3. gece ise, Çağırıcı'yı uyandırın. Bir oyuncuyu ve karakter sayfasındaki bir İblis'i işaret ederler - o oyuncu o İblis olur. :reminder:",
         "reminders": [
             "1. Gece",
             "2. Gece",
@@ -2363,18 +2363,18 @@
     },
     {
         "id": "banshee",
-        "name": "Ölüm Perisi",
+        "name": "Banşi",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 58,
-        "otherNightReminder": "Ölüm Perisi'nin öldüğünü duyurun.",
+        "otherNightReminder": "Ölüm Perisi'nin öldüğünü duyurun. :reminder:",
         "reminders": [
             "Yeteneği Var"
         ],
         "setup": false,
-        "ability": "Eğer İblis sizi öldürürse, tüm oyuncular bunu öğrenir. Şu andan itibaren, günde iki kez aday gösterebilir ve her adaylık için iki kez oy kullanabilirsiniz.",
+        "ability": "Şeytan seni öldürürse bütün oyuncular bunu öğrenir. Bundan itibaren, günde iki kez aday gösterebilir ve aday başına iki oy kullanabilirsin.",
         "special": []
     },
     {
@@ -2383,14 +2383,14 @@
         "edition": "",
         "team": "outsider",
         "firstNight": 64,
-        "firstNightReminder": "Ogre bir oyuncuyu işaret eder (kendisi değil) ve onun bağlılığına geçer.",
+        "firstNightReminder": "Ogre bir oyuncu seçer. :reminder:",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
             "Arkadaş"
         ],
         "setup": false,
-        "ability": "İlk gecenizde, bir oyuncu seçin (kendiniz değil): sarhoş veya zehirlenmiş olsanız bile onların bağlılığına geçersiniz (hangisi olduğunu bilmiyorsunuz).",
+        "ability": "İlk gecende, bir oyuncu seç (kendini değil): onun tarafına geçersin (hangisi olduğunu bilmezsin), sarhoş veya zehirlenmiş bile olsan.",
         "special": []
     },
     {
@@ -2404,7 +2404,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Günde bir kez, hangi oyuncuların Minyon(lar) ve hangilerinin İblis(ler) olduğunu herkese açık olarak tahmin edebilirseniz, iyiler kazanır.",
+        "ability": "Her gün, herkese açık bir şekilde hangi oyuncuların Yardakçı, hangi oyuncuların Şeytan olduğunu tahmin edersen, iyiler kazanır.",
         "special": []
     },
     {
@@ -2423,23 +2423,23 @@
     },
     {
         "id": "lordoftyphon",
-        "name": "Lord of Typhon",
+        "name": "Tifon Efendisi",
         "edition": "",
         "team": "demon",
         "firstNight": 1,
         "firstNightReminder": "İblis'in her iki tarafındaki oyuncuları uyandırın. Onlara 'Siz' kartını, artık oldukları Minyonun simgesini ve kötü olduklarını belirtmek için başparmak aşağı işaretini gösterin.",
         "otherNight": 43,
-        "otherNightReminder": "Typhon Lordu bir oyuncuyu işaret eder. O oyuncu ölür.",
+        "otherNightReminder": "Tifon Efendisi bir oyuncu seçer. :reminder:",
         "reminders": [
             "Ölü"
         ],
         "setup": true,
-        "ability": "Her gece*, bir oyuncu seçin: o ölür. [Kötü karakterler bir sıra halindedir. Siz ortadasınız. +1 Minyon. -? ila +? Yabancı]",
+        "ability": "Her gece*, bir oyuncu seç: o kişi ölür. [Kötü karakterler sıra hâlinde. Sen ortadasın. +1 Yardakçı. -? ila +? Yabancı]",
         "special": []
     },
     {
         "id": "boffin",
-        "name": "Alim",
+        "name": "Bilim Adamı",
         "edition": "",
         "team": "minion",
         "firstNight": 7,
@@ -2448,7 +2448,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "İblis (sarhoş veya zehirlenmiş olsa bile) oyunda olmayan iyi bir karakterin yeteneğine sahiptir. Hangisi olduğunu ikiniz de biliyorsunuz.",
+        "ability": "Şeytan (sarhoş veya zehirlenmiş bile olsa) oyunda olmayan iyi bir karakterin yeteneğine sahip olur. İkiniz de hangisi olduğunu bilirsiniz.",
         "special": []
     },
     {
@@ -2479,7 +2479,7 @@
             "Amigo"
         ],
         "setup": false,
-        "ability": "Tüm oyuncular sizin bağlılığınızdan bir oyuncuyu bilerek başlar. Onu aday gösteren herkesi öldürmeyi seçebilirsiniz.",
+        "ability": "Bütün oyuncular senin tarafındaki bir oyuncuyu bilerek başlar. Onu aday gösteren kişileri öldürmeyi seçebilirsin.",
         "special": []
     },
     {
@@ -2488,9 +2488,9 @@
         "edition": "",
         "team": "minion",
         "firstNight": 23,
-        "firstNightReminder": "",
+        "firstNightReminder": "X 1 ise, Xaan'ı *X* hatırlatıcısıyla işaretleyin. :reminder: :reminder:",
         "otherNight": 11,
-        "otherNightReminder": "",
+        "otherNightReminder": "Xaan Gece hatırlatıcısını ilgili geceye değiştirin. X. gece ise, Xaan'ı *X* hatırlatıcısıyla işaretleyin. :reminder: :reminder:",
         "reminders": [
             "1. Gece",
             "2. Gece",
@@ -2503,7 +2503,7 @@
     },
     {
         "id": "wizard",
-        "name": "Sihirbaz",
+        "name": "Büyücü",
         "edition": "",
         "team": "minion",
         "firstNight": 27,
@@ -2520,7 +2520,7 @@
     },
     {
         "id": "hermit",
-        "name": "Hermit",
+        "name": "Abdal",
         "edition": "",
         "team": "outsider",
         "firstNight": 0,
@@ -2544,12 +2544,12 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 33,
-        "otherNightReminder": "Eğer bugün Prenses'in ilk günüyse ve bir oyuncuyu aday gösterip idam ederlerse, Şeytan öldürmez.",
+        "otherNightReminder": "Eğer bugün Prenses'in ilk günüyse ve bir oyuncuyu aday gösterip idam ederlerse, Şeytan öldürmez. :reminder:",
         "reminders": [
             "Öldürmez"
         ],
         "setup": false,
-        "ability": "İlk gününüzde, bir oyuncuyu aday gösterip idam ederseniz, Şeytan bu gece öldürmez.",
+        "ability": "İlk gününde, bir oyuncuyu aday gösterip idam ettirdiysen, bu gece Şeytan öldürmez.",
         "special": []
     },
     {
@@ -2579,12 +2579,12 @@
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
-        "firstNightReminder": "",
+        "firstNightReminder": "Hangi oyuncuların Melek tarafından korunduğunu duyurun. :reminder:",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Korumalı",
-            "Korumalı",
+            "Korunuyor",
+            "Korunuyor",
             "Kötü Bir Şey"
         ],
         "setup": false,
@@ -2593,7 +2593,7 @@
     },
     {
         "id": "bootlegger",
-        "name": "İçki Kaçakçısı",
+        "name": "Korsan Satıcı",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2605,7 +2605,7 @@
             "?"
         ],
         "setup": false,
-        "ability": "Bu senaryoda homebrew (ev yapımı) karakterler veya kurallar vardır.",
+        "ability": "Bu senaryoda ev yapımı karakterler veya kurallar var.",
         "special": null
     },
     {
@@ -2633,12 +2633,12 @@
     {
         "id": "ventriloquist",
         "reminders": [
-            "Deli"
+            "Saplantılı"
         ],
         "firstNightReminder": "",
         "otherNightReminder": "",
         "setup": false,
-        "name": "Ventriloquist",
+        "name": "Vantrolog",
         "team": "loric",
         "edition": "loric",
         "ability": "Eğer bir oyuncu adaylığı sırasında yeni bir karakter olma konusunda deliyse, bugün idam edildiğinde ölmeyebilir."
@@ -2683,7 +2683,7 @@
     },
     {
         "id": "pope",
-        "name": "Pope",
+        "name": "Papa",
         "team": "loric",
         "edition": "loric",
         "ability": "Oyunda aynı iyi karakterden birden fazla var. Bunlar blöf de olabilir.",
@@ -2699,17 +2699,17 @@
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
-        "firstNightReminder": "",
+        "firstNightReminder": "Hangi oyuncuların Budist'ten etkilendiğini duyurun.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Her günün ilk 2 dakikasında tecrübeli oyuncular konuşamaz.",
+        "ability": "Her günün ilk 2 dakikasında, tecrübeli oyuncular konuşamaz.",
         "special": null
     },
     {
         "id": "deusexfiasco",
-        "name": "Deus ex Fiyasko",
+        "name": "Deus ex Fiasco",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2734,7 +2734,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Cin'in özel kuralını kullanın. Tüm oyuncular ne olduğunu bilir.",
+        "ability": "Cinin özel kuralını kullan. Bütün oyuncular bunun ne olduğunu bilir.",
         "special": null
     },
     {
@@ -2759,7 +2759,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 1,
-        "otherNightReminder": "",
+        "otherNightReminder": "Teker teker: *ZİYARETÇİ* veya *YANLIŞ BİLGİ* ile işaretli her oyuncuyu uyandırın. 'Bu karakter seni seçti' kartını ve Düşes simgesini gösterin, ardından parmaklarınızla bir sayı gösterin.",
         "reminders": [
             "Ziyaretçi",
             "Ziyaretçi",
@@ -2771,7 +2771,7 @@
     },
     {
         "id": "ferryman",
-        "name": "Ferryman",
+        "name": "Kayıkçı",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2785,7 +2785,7 @@
     },
     {
         "id": "fibbin",
-        "name": "Sahtekar",
+        "name": "Mavalcı",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2793,7 +2793,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Kullanıldı"
+            "Yeteneği Yok"
         ],
         "setup": false,
         "ability": "Oyunda bir kez, 1 iyi oyuncu yanlış bilgi alabilir.",
@@ -2810,12 +2810,12 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Oyunda bir kez, İblis gizlice rakip bir oyuncu seçer: tüm oyuncular bu 2 oyuncudan hangisinin kazanacağına karar verir.",
+        "ability": "Oyunda bir kez, Şeytan gizlice karşı taraftan bir oyuncu seçer: bütün oyuncular bu 2 oyuncudan hangisinin kazandığını seçer.",
         "special": null
     },
     {
         "id": "gardener",
-        "name": "Gardener",
+        "name": "Bahçıvan",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2824,7 +2824,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Tüm oyuncuların karakterlerini Hikaye Anlatıcısı belirler.",
+        "ability": "1 veya daha fazla oyuncunun karakterini Hikâyeci belirler.",
         "special": null
     },
     {
@@ -2863,7 +2863,7 @@
             "Kötü Bir Şey"
         ],
         "setup": false,
-        "ability": "Hikaye Anlatıcısı sessizlik istediğinde konuşan kişiye kötü bir şey olabilir.",
+        "ability": "Hikâyeci sessizlik istediğinde konuşanlara kötü bir şey olabilir.",
         "special": null
     },
     {
@@ -2886,7 +2886,7 @@
     },
     {
         "id": "sentinel",
-        "name": "Gözcü",
+        "name": "Sentinel",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2900,7 +2900,7 @@
     },
     {
         "id": "spiritofivory",
-        "name": "Denge Ruhu",
+        "name": "Fildişi Ruhu",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2920,7 +2920,7 @@
         "edition": "",
         "team": "fabled",
         "firstNight": 1,
-        "firstNightReminder": "",
+        "firstNightReminder": "Fırtınaya yakalanan karakteri duyurun. O karakter oyundaysa, o oyuncuyu *FIRTINAYA YAKALANDI* ile işaretleyin. Her kötü oyuncuyu uyandırın ve onlara karakter simgesini, ardından işaretli oyuncuyu gösterin. Oyunda değilse, her kötü oyuncuyu uyandırın, onlara 'Bu karakterler oyunda değil' kartını ve ilgili karakter simgesini gösterin.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
@@ -2936,9 +2936,9 @@
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
-        "firstNightReminder": "",
+        "firstNightReminder": "7'den az oyuncu olsa bile Minyon Bilgisi ve Şeytan Bilgisi adımlarını uygulayın.",
         "otherNight": 1,
-        "otherNightReminder": "",
+        "otherNightReminder": "Bir İblis saldırısı oyunu bitirebilecekse ve İblis *SON GECE: SALDIRI YOK* ile işaretliyse, İblis'i uyandırmayın.",
         "reminders": [
             "Son Gece: Saldırı Yok"
         ],

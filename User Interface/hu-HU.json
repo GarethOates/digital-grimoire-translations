@@ -1,6 +1,7 @@
 {
     "common": {
         "icon": "Ikon",
+        "icon_alt": "{name} ikon",
         "show": "Mutat",
         "hide": "Elrejt",
         "close": "Bezár",
@@ -11,6 +12,7 @@
         "save": "Mentés",
         "edit": "Szerkeszt",
         "delete": "Törlés",
+        "remove": "Eltávolítás",
         "clear": "Alaphelyzet",
         "loading": "Töltés…",
         "name": "Név",
@@ -19,6 +21,7 @@
         "reload": "Frissítés",
         "all": "Összes",
         "none": "Nincs",
+        "no_matches": "Nincs találat",
         "layout": "Elrendezés",
         "leaves": "Levelek",
         "player_numbers": "Játékosszámok",
@@ -61,7 +64,6 @@
         "evil": "Gonosz",
         "send": "Küldés",
         "enabled": "Bekapcsolva",
-        "disabled": "Kikapcsolva",
         "end_game": "Játék vége",
         "resize": "Átméretez",
         "account": "Fiók",
@@ -79,7 +81,44 @@
         "script_roles_failed": "Nem sikerült betölteni ennek a szkriptnek a karaktereit. Ellenőrizd a kapcsolatot, és próbáld újra.",
         "script_json_invalid": "Nem sikerült beolvasni ezt a szkriptet. Ellenőrizd, hogy érvényes szkript JSON-e.",
         "roles_not_found": "Ezek a karakterek nem találhatók: {roles}",
-        "invalid_import_link": "Ez az importálási hivatkozás sérült vagy nem támogatott, ezért semmi sem töltődött be."
+        "invalid_import_link": "Ez az importálási hivatkozás sérült vagy nem támogatott, ezért semmi sem töltődött be.",
+        "request_failed": "Hiba történt. Ellenőrizd a kapcsolatot, és próbáld újra.",
+        "fetch_all_roles_failed": "Nem sikerült lekérni az összes karaktert.",
+        "fetch_role_failed": "Nem sikerült lekérni a karaktert.",
+        "fetch_role_details_failed": "Nem sikerült lekérni a karakter részleteit.",
+        "advanced_search_roles_failed": "Nem sikerült lekérni az összes karaktert. A részletes keresés nem fog működni.",
+        "advanced_search_failed": "A részletes keresés sikertelen",
+        "night_order_failed": "Nem sikerült lekérni az éjszakai segédletet",
+        "script_suggestions_failed": "Nem sikerült lekérni a szkriptjavaslatokat",
+        "load_script_failed": "Nem sikerült betölteni a szkriptet.",
+        "script_from_url_failed": "Nem sikerült lekérni a szkriptet az URL-ről",
+        "script_data_failed": "Nem sikerült lekérni a szkript adatait",
+        "save_custom_script_failed": "Az egyéni szkript mentése sikertelen. A szkript és az éjszakai segédlet nem fog betöltődni.",
+        "add_to_search_failed": "A szkript keresőhöz adása sikertelen",
+        "remove_from_search_failed": "A szkript keresőből törlése sikertelen",
+        "homebrew_scripts_failed": "Nem sikerült lekérni a saját készítésű szkriptjeidet",
+        "script_versions_failed": "Nem sikerült lekérni a szkript verzióit",
+        "travellers_failed": "Nem sikerült lekérni az Utazókat",
+        "fabled_failed": "Nem sikerült lekérni a Meseszövőket",
+        "loric_failed": "Nem sikerült lekérni a Loricokat",
+        "translations_failed": "Nem sikerült lekérni a fordításokat",
+        "translated_role_failed": "Nem sikerült lekérni a lefordított karaktert.",
+        "toggle_favourite_failed": "Nem sikerült módosítani a szkript kedvenc állapotát",
+        "update_script_tags_failed": "Nem sikerült frissíteni a szkript címkéit",
+        "fetch_profile_failed": "Nem sikerült lekérni a felhasználói profilt",
+        "fetch_favourites_failed": "Nem sikerült lekérni a kedvenceket",
+        "fetch_saved_games_failed": "Nem sikerült lekérni a mentett játékokat",
+        "fetch_friends_failed": "Nem sikerült lekérni a barátokat",
+        "save_friends_failed": "Nem sikerült menteni a barátokat",
+        "saved_game_url_failed": "Nem sikerült lekérni a mentett játék URL-jét",
+        "save_game_failed": "Nem sikerült menteni a játékot a profilba",
+        "delete_saved_game_failed": "Nem sikerült törölni a mentett játékot",
+        "fetch_settings_failed": "Nem sikerült lekérni a felhasználói beállításokat",
+        "save_settings_failed": "Nem sikerült menteni a felhasználói beállításokat",
+        "fetch_custom_cards_failed": "Nem sikerült lekérni a saját lapkákat a profilból",
+        "save_custom_card_failed": "Nem sikerült menteni a saját lapkát a felhasználói profilba",
+        "update_custom_card_failed": "Nem sikerült frissíteni a saját lapkát",
+        "delete_custom_card_failed": "Nem sikerült törölni a saját lapkát"
     },
     "status": {
         "poisoned": "Mérgezett",
@@ -101,14 +140,16 @@
     },
     "nav": {
         "brand": "Digitális Grimoár",
+        "logo": "Logó",
+        "community_created": "Közösség által készített tartalom",
+        "avatar": "Profilkép",
         "offline": "Offline",
         "companion": "Játékoskísérő",
         "game": {
             "title": "Játék",
             "home": "Új...",
             "save": "Mentés...",
-            "buy_grimoire": "Vegyél egy grimoárt",
-            "town_view": "Város nézet"
+            "buy_grimoire": "Vegyél egy grimoárt"
         },
         "sheets": {
             "rules": "Szabályzat"
@@ -185,6 +226,7 @@
             "options": "Beállítások",
             "results": "Találatok",
             "add_condition": "Több feltétel",
+            "remove_condition": "Feltétel eltávolítása",
             "add_first_condition": "Adj meg egy feltételt a keresés megkezdéséhez.",
             "includes": "Tartalmazza",
             "excludes": "Nem tartalmazza",
@@ -211,10 +253,11 @@
             "version": "Verzió",
             "previous": "Előző",
             "page": "Oldal {page} / {total}",
-            "next": "KövetkezőNext"
+            "next": "KövetkezőNext",
+            "results_pages": "Keresési találatok oldalai",
+            "toggle_favourite": "Kedvenc be/ki"
         },
         "arrange": {
-            "title": "Játékosok átrendezése"
         },
         "bluff": {
             "title": "EZEK A KARAKTEREK NINCSENEK JÁTÉKBAN",
@@ -258,8 +301,12 @@
             "title": "🎵 Zene betöltő",
             "music_tab": "Zene",
             "sfx_tab": "Hangeffektek",
+            "sfx_info": "{current}. hang {total} hangból",
             "track_info": "{current}. szám {total} számból",
+            "previous_track": "Előző szám",
+            "next_track": "Következő szám",
             "volume": "Hangerő: {volume}%",
+            "volume_control": "Hangerőszabályzó",
             "volume_unsupported": "Használd az eszköz hangerőgombjait a hangerő szabályozásához",
             "add_music_button": "Zenefájlok hozzáadása",
             "playlist_title": "Lejátszási lista ({count} szám)",
@@ -277,6 +324,8 @@
             "add_sfx_button": "Hangeffekt hozzáadása",
             "sfx_interval_label": "Lejátszás a hátralévő időnél",
             "auto_fade_phase": "Hangerő automatikus átállítása nappal/éjszaka",
+            "day_volume": "Nappal: {volume}%",
+            "night_volume": "Éjszaka: {volume}%",
             "sfx_volume": "Effektek hangereje: {volume}%"
         },
         "nomination": {
@@ -304,10 +353,6 @@
             "game_started": "Játék kezdődött",
             "night_choice": "{name} ({role}) ezt választotta: {targets}",
             "night_choice_none": "{name} ({role}) nem választott senkit"
-        },
-        "notes": {
-            "title": "Jegyzetek",
-            "notes_label": "Jegyzetek"
         },
         "qr_sheet": {
             "open": "Megnyitás"
@@ -340,7 +385,6 @@
             "delete_confirmation_title": "Törlés",
             "delete_confirmation_message": "Biztos, hogy törölni akarod a játékból {player} ({role}) karakterét?",
             "notes_for": "{player} jegyzetei",
-            "save_notes": "Jegyzetek mentése",
             "gain_ability": "Képesség szerzése",
             "notify_when": "Értesíts, amikor",
             "notify_nominated": "Meggyanúsítva",
@@ -348,20 +392,20 @@
             "notify_marked_dead": "Halott",
             "notify_player_chosen": "Kiválasztva",
             "notify_note": "Jegyzet az értesítéshez",
-            "notify_recurring": "Értesítés minden alkalommal",
+            "notify_recurring": "Értesítés minden alkalommal, játékonként",
             "notify_reminder_carriers": "Emlékeztetővel megjelölt szerepek:"
         },
         "town_arrange": {
-            "title": "Város átrendezése",
+            "title": "Játékosok átrendezése",
             "u_shape": "U alak"
         },
         "town": {
             "view_title": "Város nézet",
             "description_phones": "A városod az, ahol ez a játék zajlik. Oszd meg a kódot, és a játékosok megkaphatják a karakterüket, elolvashatják a szkriptet, és nyomon követhetik az állításokat a telefonjukon.",
-            "description_screen": "A városod az, ahol ez a játék zajlik. Nyisd meg a város nézetet egy TV-n, hogy mindenki lássa. A Grimoárodat a szerverünkön tároljuk, amíg a város fut.",
+            "description_screen": "A városod az, ahol ez a játék zajlik. Nyisd meg a Város nézetet egy TV-n, hogy mindenki lássa. A Grimoárodat a szerverünkön tároljuk, amíg a város fut.",
             "delete_button": "Város törlése...",
             "code_label": "Városkód",
-            "open_on_screen": "Nyisd meg a város nézetet egy TV-n vagy tartalék táblagépen:",
+            "open_on_screen": "Nyisd meg a Város nézetet egy TV-n vagy tartalék táblagépen:",
             "rename": "Város átnevezése",
             "title": "Város",
             "screen_heading": "Nagy képernyő"
@@ -417,7 +461,9 @@
             "default": "Alapértelmezett",
             "apply": "Alkalmaz",
             "custom": "Saját",
-            "gallery": "Galéria"
+            "gallery": "Galéria",
+            "option_alt": "Háttér opció",
+            "saved_alt": "Mentett háttér"
         },
         "clocktracker_export": {
             "title": "Küldés Clocktrackerre",
@@ -502,9 +548,10 @@
         "select_more_roles": "Válassz ki {count} további karaktert a folytatáshoz",
         "too_many_roles": "Törölj {count} karaktert a folytatáshoz",
         "too_many_travellers": "Törölj {count} utazót (max 5) a folytatáshoz",
-        "setup_warning": "Néhány kiválasztott karakter megváltoztathatja a város összetételét. Kérlek ellenőrizd a folytatás előtt.",
         "multiple_demons_warning": "Több, ismétlődést nem támogató démon észlelve.",
-        "unread_setup_warning": "Nem sikerült beolvasni a következők előkészítési szövegét: {roles}. Ellenőrizd az előkészítésüket kézzel.",
+        "unread_setup_warning": "A képességet kézzel kell ellenőrizni ennél a karakternél: {role}.",
+        "bag_needs_role": "{owner} mellett játékban kell lennie ennek: {role}.",
+        "bag_changes": "Az előkészítési szabályokhoz igazítva: {changes}",
         "player_names": "Játékos nevek",
         "player_placeholder": "{number}. játékos",
         "add_as_player": "Hozzáadás Játékosként",
@@ -512,7 +559,8 @@
         "active": "Aktív",
         "no_players_added": "Még nincs hozzáadva játékos.",
         "persist_players_prompt": "Ments el játékos neveket későbbi játékokhoz a Discord-belépést és a barátlistát használva.",
-        "clear": "Törlés",
+        "clear": "Törlés...",
+        "clear_players_confirm": "Törlöd az összes játékost ebből a játékból? A barátok a listádon maradnak.",
         "by": "által",
         "edit_names_optional": "Nevek hozzáadása (opcionális)",
         "search_hint": "Keresés név vagy URL alapján.",
@@ -524,6 +572,8 @@
         "added_to_search": "Hozzáadva a kereséshez",
         "remove_from_search": "Eltávolítás a keresésből",
         "homebrew": "Saját készítésű",
+        "official_characters": "Hivatalos karakterek",
+        "homebrew_characters": "Saját készítésű karakterek",
         "from_json": "JSON-ból",
         "paste_json_placeholder": "Másold ide a JSON-t...",
         "from_file": "Fájlból",
@@ -545,17 +595,21 @@
         "show_role_details": "Mutasd a karaktereket",
         "hide_role_details": "Rejtsd el a karaktereket",
         "show_spy_view": "Mutasd a Kém nézetet",
-        "hide_spy_view": "Rejtsd el a Kém nézetet",
+        "lock_tokens": "Tokenek zárolása",
+        "unlock_tokens": "Tokenek feloldása",
+        "spy_put_seat_at_bottom": "Egy hely legyen alul",
+        "spy_seat_one_on_top": "Az 1. hely legyen felül",
+        "spy_reset_view": "Nézet visszaállítása",
+        "spy_undo_changes": "Módosítások visszavonása",
+        "spy_show_all": "Összes mutatása",
+        "spy_move_up": "Mozgatás felfelé",
+        "spy_move_down": "Mozgatás lefelé",
         "rearrange_tokens": "Játékosok átrendezése",
         "edit_background": "Háttérkép váltása...",
         "nominations": "Gyanúsítások",
         "town_view": "Város nézet ({townId})",
-        "delete": "Törlés",
-        "delete_confirm": "Biztos, hogy törölni szeretnéd a játékból {player} ({role}) játékost?",
-        "delete_confirm_no_player": "Biztos, hogy törölni szeretnéd {role} tokenjét?",
         "notes_for": "{name} jegyzetei",
         "notes_placeholder": "Adj hozzá egyéni megjegyzéseket...",
-        "save_notes": "Jegyzetek mentése",
         "game_notes": "Játék jegyzetei",
         "town_info_alive": "Élők",
         "town_info_travellers": "Utazók",
@@ -577,6 +631,9 @@
         "tokens": "Tokenek",
         "tap_bag_prompt": "Nyomj a zsákra a húzáshoz",
         "tap_token_prompt": "Válassz egy tokent a húzáshoz",
+        "draw_from_bag": "Húzz egy tokent a zsákból",
+        "draw_token": "{number}. token húzása",
+        "token_drawn": "A(z) {number}. token már ki van húzva",
         "hold_to_reveal": "Tartsd nyomva a felfedéshez",
         "draw_animation": "Húzási animáció",
         "player_name": "Játékos neve",
@@ -622,15 +679,25 @@
         "toggle_widgets": "Megjelenő elemek",
         "info": "Infó",
         "composition": "Létszámok",
-        "day_night": "Nappal/Éjszaka",
-        "grim": "Grim",
+        "show_info": "Infó mutatása",
+        "hide_info": "Infó elrejtése",
+        "show_composition": "Létszámok mutatása",
+        "hide_composition": "Létszámok elrejtése",
+        "show_timer": "Időzítő mutatása",
+        "hide_timer": "Időzítő elrejtése",
+        "show_day_night": "Nappal/éjszaka mutatása",
+        "hide_day_night": "Nappal/éjszaka elrejtése",
+        "show_companion": "Játékoskísérő mutatása",
+        "hide_companion": "Játékoskísérő elrejtése",
+        "show_night_order": "Éjszakai segédlet mutatása",
+        "hide_night_order": "Éjszakai segédlet elrejtése",
+        "hide_grim": "Grimoár elrejtése",
         "town": "Város",
-        "town_name_placeholder": "Város neve",
         "join": "Csatlakozás",
         "disconnect": "Lecsatlakozás",
         "disconnected": "Lecsatlakozva",
         "connected_players": "Csatlakozott játékosok",
-        "no_town_info": "Város infó még nem elérhető...",
+        "no_town_info": "Város infó még nem elérhető.",
         "show_grim_title": "Grimoár mutatása?",
         "show_grim_message": "Biztos, hogy fel akarod fedni a grimoárt? Ez az összes titkos karaktert megmutatja a játékosoknak.",
         "yes_show_grim": "Igen, grimoár felfedése",
@@ -641,7 +708,14 @@
         "congratulations_suffix": "csapatnak",
         "widget_dark_background": "Elemek sötét háttérrel",
         "edit_night_icons": "Éjszakai ikonok testreszabása...",
-        "seat": "Szék"
+        "seat": "Szék",
+        "no_timer": "Nincs aktív időzítő",
+        "timer_hint": "Az időzítő akkor jelenik meg, amikor a mesélő elindít egyet",
+        "timer_title": "Időzítő: {mode} - {time}",
+        "countdown": "Visszaszámlálás",
+        "hours_short": "ó",
+        "minutes_short": "p",
+        "seconds_short": "mp"
     },
     "cards": {
         "this_is_the_demon": "Ő A DÉMON",
@@ -658,7 +732,9 @@
         "show_card": "Lapka felmutatása...",
         "create_custom_card": "Készíts saját lapkát",
         "cards": "Lapkák",
-        "add_character": "Karakter hozzáadása"
+        "add_character": "Karakter hozzáadása",
+        "custom_cards": "Saját lapkák",
+        "no_custom_cards": "Még nincsenek saját lapkák."
     },
     "controls": {
         "timer_expired_reset": "Időzítő lejárt - Kattints, hogy visszaállítsd",
@@ -674,7 +750,6 @@
     "bluffs": {
         "title": "Blöffök",
         "add_bluff_set": "Blöff szett hozzáadása",
-        "add_token": "Token hozzáadása",
         "add_bluffs": "Blöffök hozzáadása",
         "show_all_bluffs": "Blöffök felmutatása",
         "delete_set": "Szett törlése",
@@ -710,9 +785,8 @@
         "nominates": "gyanúsítja őt:",
         "to_tie": "a döntetlenhez",
         "to_execute": "a kivégzéshez",
-        "votes_needed_to": "Szükséges szavazatok",
-        "exile": "száműzéshez",
-        "execute": "kivégzéshez"
+        "votes_needed_to_exile": "Kiűzéshez szükséges szavazatok",
+        "votes_needed_to_execute": "Kivégzéshez szükséges szavazatok"
     },
     "drawer": {
         "edit_player_name": "Név szerkesztése",
@@ -738,6 +812,7 @@
         "unlock_pin_prompt": "Add meg a 4 jegyű PIN-kódodat",
         "check_pin_prompt": "Add meg a PIN-kódodat, hogy ellenőrizd, emlékszel-e rá",
         "unlock_pin_wrong": "Hibás PIN-kód",
+        "backspace": "Visszatörlés",
         "unlock_throttled": "Túl sok próbálkozás. Próbáld újra {seconds} másodperc múlva.",
         "reset_hint": "Elfelejtetted a PIN-kódodat? Kapcsold ki a Mesélői zárolást a Beállításokban."
     },
@@ -758,6 +833,7 @@
         "storyteller": "Mesélő",
         "storyteller_hint": "Állítsd be és vezesd a játékot",
         "player_hint": "Csatlakozz egy városhoz, nézd meg a szkriptet és az éjszakai sorrendet",
+        "town_hint": "Jelenítsd meg a Várost egy TV-n, hogy mindenki lássa",
         "youtube": "Nézd meg a YouTube-on",
         "video_setup_title": "Gyors beállítás - Trouble Brewing",
         "video_setup_description": "Indíts el egy 7 fős Trouble Brewing játékot, a játékosok elnevezésétől az emlékeztetők hozzáadásáig.",
@@ -817,7 +893,7 @@
                 "body": "Válaszd ki, hogyan jutnak el a karakterek a játékosokhoz. Később megváltoztathatod."
             },
             "call_up": {
-                "body": "Hívd fel a játékosokat egyesével. Te az ülőhelyükre koppintasz, ők a húzózsákra koppintva látják meg a karakterüket."
+                "body": "Hívd oda egyenként a játékosokat. Te az ülőhelyükre koppintasz, ők a húzózsákra koppintva látják meg a karakterüket."
             },
             "pass": {
                 "body": "Add tovább az eszközt a körben. Minden játékos húzza ki a karakterét, majd adja tovább. A PIN-kódod zárolja a Grimoárt, hogy senki se kukkanthasson bele."
@@ -834,16 +910,16 @@
                 "body": "Nyisd meg ezt, hogy a játékosok a telefonjukra kerüljenek."
             },
             "set_up_seats": {
-                "body": "Rendelj játékosneveket az ülőhelyekhez, és kézzel rendelj karaktereket az ülőhelyekhez (például utazókat). Mindkettő opcionális."
+                "body": "Koppints ide, hogy játékosneveket rendelj az ülőhelyekhez, vagy karaktereket az ülőhelyekhez (például utazókat). Mindkettő opcionális."
             },
             "names": {
-                "body": "Koppints egy névre, hogy a játékost a következő üres ülőhelyre ültesd. Koppints egy ülőhelyre, hogy kiürítsd."
+                "body": "Koppints egy névre, hogy a játékost a következő üres ülőhelyre ültesd. Ha valakit el akarsz távolítani egy ülőhelyről, koppints arra az ülőhelyre."
             },
             "add_names": {
                 "body": "Koppints ide nevek hozzáadásához, ha lent nem látsz egyet sem."
             },
             "roles": {
-                "body": "Koppints egy karakterre, majd egy ülőhelyre, hogy a karaktert az ülőhelyhez rendeld. Hasznos az utazóknál."
+                "body": "A túra átváltott a Karakterek fülre. Koppints egy karakterre, majd egy ülőhelyre, hogy a karaktert az ülőhelyhez rendeld. Hasznos az utazóknál."
             },
             "skip_draw": {
                 "body": "Adj minden üres ülőhelynek egy véletlen karaktert, és hagyd ki a húzást."
@@ -880,31 +956,30 @@
         "grimoire": {
             "good_player": {
                 "title": "Egy jó játékos",
-                "body": "Ez a játékos a jó csapatban van. Koppints egy játékosra a menüjének megnyitásához. Húzással mozgathatod."
+                "body": "Koppints egy játékosra a menüjének megnyitásához. Húzással mozgathatod. Ennek a kék grafikája mutatja, hogy a jó csapatban van. A játék során türkizkék szegély jelöli a Kívülállót."
             },
             "evil_player": {
                 "title": "Egy gonosz játékos",
-                "body": "Ez a játékos a gonosz csapatban van. Az egyes jelölők grafikája mutatja, melyik csapatban van a játékos."
+                "body": "Ennek a piros grafikája mutatja, hogy a gonosz csapatban van. A játék során sötétvörös szegély jelöli a Démont."
             },
             "seat_menu": {
                 "title": "Játékosmenü",
-                "body": "Teljes képernyő, emlékeztetők hozzáadása, megjelölés halottként, csere, hovatartozás módosítása, és az eszköztár megnyitása. Koppints a menün kívülre a bezáráshoz.",
-                "body_evil": "Teljes képernyő, emlékeztetők hozzáadása, blöff emlékeztető hozzáadása, megjelölés halottként, csere, hovatartozás módosítása, és az eszköztár megnyitása. Koppints a menün kívülre a bezáráshoz."
+                "body": "A játékosra koppintva ez a menü nyílik meg. A tetejétől az óramutató járásával megegyezően: Mutat, Emlékeztetők, Blöff, Megjelölés halottként, Csere, Hovatartozás módosítása, Eszközök. Nappal a Gyanúsítás is megjelenik. Koppints a menün kívülre a bezáráshoz."
             },
             "add": {
                 "title": "Hozzáadás",
-                "body": "Adj hozzá démonblöfföket, extra karaktereket és emlékeztető jelölőket."
+                "body": "Koppints erre a gombra démonblöffök, extra karakterek és emlékeztető jelölők hozzáadásához."
             },
             "night_order": {
-                "body": "Megnyitja az éjszakai sorrend panelt, amely végigvezet azon, hogy kit kell ébreszteni minden éjjel."
+                "body": "Koppints erre a gombra az éjszakai sorrend panel megnyitásához, amely végigvezet azon, hogy kit kell ébreszteni minden éjjel."
             },
             "phase": {
                 "title": "Nappal és éjszaka",
-                "body": "Léptesd tovább a játékot a következő nappalra vagy éjszakára."
+                "body": "A jobb nyíl a következő nappalra vagy éjszakára lépteti a játékot. A bal nyíl egy lépést visszalép, ha javítanod kell valamit."
             },
             "view": {
                 "title": "Nézet",
-                "body": "Rendezd át az ülőhelyeket, nyisd meg a Kém nézetet, olvasd el a játéktörténetet, vagy változtasd meg a hátteret."
+                "body": "Rendezd át a játékosokat (válassz elrendezést, és húzd sorrendbe a játékosokat), nyisd meg a Kém nézetet, olvasd el a játéktörténetet, vagy változtasd meg a hátteret."
             },
             "town": {
                 "title": "Város",
@@ -922,7 +997,7 @@
                 "body": "Zárold a jelölőket a helyükön, hogy véletlenül se lehessen elhúzni őket. A játék végén maguktól zárolódnak."
             },
             "gr_notes": {
-                "body": "Saját jegyzeteid az egész játékhoz. Az egy játékosra vonatkozó jegyzetek az adott játékos jelölőmenüjébe kerülnek."
+                "body": "Saját jegyzeteid az egész játékhoz. Egy játékosra vonatkozó jegyzeteket az adott játékos jelölőmenüjében készíthetsz."
             },
             "gr_timer": {
                 "body": "Állíts be visszaszámlálást a nappalhoz, vagy indíts stoppert. Beállítás után koppints az időre a szüneteltetéshez vagy a folytatáshoz."
@@ -940,7 +1015,7 @@
             },
             "town_state": {
                 "title": "A város állapota",
-                "body": "A személy ikon az élő játékosok számát mutatja. 4-nél sárgára, 3 vagy kevesebb esetén pirosra vált. A bőrönd az utazók számát jelzi. A koponya a halott játékosokat jelenti. A kéz azt mutatja, hány szavazat maradt, a szellemszavazatokat is beleértve. Pirosra vált, ha nem marad elég szavazat a vérpadon lévő aktuális összeg túllépéséhez. A pipa azt mutatja, hány szavazat kell az aktuális személy levételéhez a vérpadról."
+                "body": "A személy ikon az élő játékosok számát mutatja. 4-nél sárgára, 3 vagy kevesebb esetén pirosra vált. A koponya a halott játékosokat jelenti. A kéz azt mutatja, hány szavazat maradt, a szellemszavazatokat is beleértve. Pirosra vált, ha nem marad elég szavazat a vérpadon lévő aktuális összeg túllépéséhez. A pipa azt mutatja, hány szavazat kell az aktuális személy levételéhez a vérpadról. Ha vannak utazók, a bőrönd mutatja a számukat."
             },
             "end_game": {
                 "title": "Játék vége",
@@ -948,6 +1023,9 @@
             }
         },
         "night": {
+            "night_pane": {
+                "body": "Kit ébressz ma éjjel, sorrendben."
+            },
             "night_cards": {
                 "body": "Nyisd meg a Lapkák menüt, hogy megmutass egy lapot egy játékosnak, vagy készíts egy sajátot."
             },
@@ -962,6 +1040,12 @@
             "unplaced_reminders": {
                 "title": "Nem elhelyezett emlékeztetők",
                 "body": "A szám azt mutatja, hány emlékeztetője nincs még a Grimoárban ennek a karakternek. Koppints a megtekintésükhöz, majd húzz egyet egy játékosra."
+            },
+            "edit_night_order": {
+                "body": "Módosítsd a sorrendet ehhez a játékhoz."
+            },
+            "end_night": {
+                "body": "Fejezd be az éjszakát, és lépj tovább a következő nappalra."
             }
         },
         "night_choice": {
@@ -970,7 +1054,7 @@
             },
             "choice_banner": {
                 "title": "A választás rögzítése",
-                "body": "Koppints a választott játékosokra, sorrendben. Mindegyik kap egy számot. Ezután válaszd ki az elhelyezendő emlékeztetőket, és koppints a pipára. Minden emlékeztető ebben a sorrendben kerül a választott játékosokra, amíg el nem fogynak."
+                "body": "Koppints a választott játékosokra, sorrendben. Mindegyik kap egy számot. Ha vannak elhelyezendő emlékeztetők, válaszd ki őket, és koppints a Megerősít gombra. Minden emlékeztető ebben a sorrendben kerül a választott játékosokra, amíg el nem fogynak. Ha nincsenek, a választás mentődik, amint az utolsó játékost is kiválasztottad."
             }
         },
         "preferences": {
@@ -1009,11 +1093,17 @@
             }
         },
         "account": {
+            "usr_stats": {
+                "body": "A mesélői eredményeid: lejátszott játékok, hogy az egyes csapatok milyen gyakran nyernek, valamint a legtöbbet játszott szkriptjeid és karaktereid. A játék akkor számít, ha eléri a Grimoárt, a győztes pedig a játék befejezésekor kerül hozzá. A korábban vezetett játékaidat egy Clocktracker-exportból is importálhatod."
+            },
             "usr_favourites": {
                 "body": "A beállítási képernyőn csillagozott szkriptek. Koppints egyre a betöltéséhez. Adj hozzá színes címkéket a rendezésükhöz, majd koppints egy címkére a lista szűréséhez."
             },
             "usr_friends": {
                 "body": "A játékostársaid. A nevük kiválasztásra készen áll, amikor leülteted a játékosokat, így nem kell minden alkalommal begépelned őket."
+            },
+            "usr_cards": {
+                "body": "A játékosoknak mutatásra készített lapjaid. Koppints egyre a szerkesztéséhez, vagy a + gombra újat készíteni. A játék közben a Lapkák menüben is ott vannak."
             },
             "usr_games": {
                 "body": "A Játék menüből elmentett játékaid. Tölts be egyet a beállítási képernyőn, hogy ott folytasd, ahol abbahagytad."
@@ -1021,9 +1111,32 @@
             "usr_homebrew": {
                 "body": "A keresésedhez hozzáadott saját készítésű szkriptek. Koppints egyre a betöltéséhez, vagy a keresztre, hogy eltávolítsd a keresésből."
             },
+            "usr_notifications": {
+                "body": "Egy karakterhez elmentett értesítéseid. Maguktól bekapcsolnak, amint az adott karakter a Grimoárodban van."
+            },
             "usr_logout": {
-                "body": "Jelentkezz ki a Discord-fiókodból ezen az eszközön."
+                "body": "Jelentkezz ki a Digitális Grimoárból ezen az eszközön. A Discord-fiókod bejelentkezve marad."
             }
         }
+    },
+    "stats": {
+        "title": "Statisztikáim",
+        "games": "Játékok",
+        "finished": "{started} játékból {finished} végződött győztessel",
+        "good_wins": "Jók győzelmei",
+        "evil_wins": "Gonoszok győzelmei",
+        "average_players": "Átlagos játékosszám",
+        "top_scripts": "Legtöbbet játszott szkriptek",
+        "top_roles": "Legtöbbet használt karakterek",
+        "none_yet": "Még nincs játék. A bejelentkezve vezetett játékaid itt jelennek meg, amint elérik a Grimoárt.",
+        "clear": "Statisztikáim törlése...",
+        "clear_confirm": "Törlöd a statisztikádba naplózott összes játékot? Ez nem vonható vissza.",
+        "load_failed": "Nem sikerült betölteni a statisztikáidat.",
+        "clear_failed": "Nem sikerült törölni a statisztikáidat.",
+        "import_prompt": "Vezettél már játékokat? Importáld a Clocktrackerből exportált CSV-t.",
+        "import": "Importálás a Clocktrackerből",
+        "imported": "{count} játék importálva a Clocktrackerből.",
+        "import_none": "Ebben a fájlban nincs olyan játék, amelyet mesélőként vezettél.",
+        "import_failed": "Nem sikerült importálni a fájlt. A CSV-t pontosan úgy használd, ahogy a Clocktracker exportálta."
     }
 }

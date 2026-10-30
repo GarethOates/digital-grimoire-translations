@@ -505,7 +505,7 @@
         "team": "townsfolk",
         "otherNightReminder": "Si avui s’ha executat un jugador, mostra la seva fitxa de personatge.",
         "reminders": [
-            "Executat"
+            "Mort avui"
         ],
         "setup": false,
         "ability": "Cada nit,* descobreixes quin personatge ha mort avui per execució.",
@@ -518,8 +518,8 @@
         "team": "townsfolk",
         "otherNightReminder": "L’Hostaler tria dos jugadors. :reminder: :reminder: :reminder:",
         "reminders": [
-            "Protegit",
-            "Protegit",
+            "Immune",
+            "Immune",
             "Borratxo"
         ],
         "setup": false,
@@ -2080,7 +2080,7 @@
         "firstNightReminder": "Mostra el grimori a la Vídua tant de temps com ho necessiti. La Vídua tria un jugador. :reminder: Adorm la Vídua. Desperta el jugador marcat com a *HO SAP* i mostra-li la fitxa de la Vídua. :reminder:",
         "reminders": [
             "Emmetzinat",
-            "Ho sap"
+            "Conegut"
         ],
         "setup": false,
         "special": [
@@ -3266,7 +3266,7 @@
             "Té l’habilitat"
         ],
         "setup": false,
-        "ability": "Una vegada per partida, a la nit*, tria un jugador mort; aquest recupera la seva habilitat fins al capvespre.",
+        "ability": "Una vegada per partida, a la nit, tria un jugador mort; aquest recupera la seva habilitat fins al capvespre.",
         "flavor": "Col·lecciono moltes coses. Cabells. Dents. Roba. Fragments de poemes. Els somnis d’amants perduts. Les meves arts secretes no us incumbeixen, però els meus honoraris són una misèria. Porteu-me la sang d’una noble que morís de desamor sota la lluna plena i tindreu les vostres respostes."
     },
     {
@@ -3395,7 +3395,7 @@
     {
         "id": "deusexfiasco",
         "reminders": [
-            "Ups!"
+            "Ui"
         ],
         "setup": true,
         "name": "Bunyoler",
@@ -3524,7 +3524,7 @@
     {
         "id": "spiritofivory",
         "reminders": [
-            "Sense malvat extra"
+            "Sense malvat addicional"
         ],
         "setup": false,
         "name": "Esperit d’ivori",
@@ -3579,7 +3579,7 @@
         "name": "Jardiner",
         "team": "loric",
         "edition": "loric",
-        "ability": "El narrador assigna els personatges de tots els jugadors.",
+        "ability": "El narrador assigna els personatges d’un o més jugadors.",
         "special": [
             {
                 "name": "distribute-roles",
@@ -3722,13 +3722,13 @@
         "name": "Informació de sequaç",
         "team": "minion",
         "edition": "special",
-        "firstNightReminder": "Si hi ha set o més jugadors, desperta tots els sequaços:\n\tMostra’ls la targeta *AQUEST ÉS EL DIMONI*. Assenya-la el dimoni.\n\tMostra’ls la targeta *AQUESTS SÓN ELS TEUS SEQUAÇOS*. Assenya-la els altres sequaços."
+        "firstNightReminder": "Si hi ha set o més jugadors, desperta tots els sequaços: Mostra’ls la targeta *AQUEST ÉS EL DIMONI*. Assenya-la el dimoni. Mostra’ls la targeta *AQUESTS SÓN ELS TEUS SEQUAÇOS*. Assenya-la els altres sequaços."
     },
     {
         "id": "demoninfo",
         "name": "Informació de dimoni",
         "team": "demon",
         "edition": "special",
-        "firstNightReminder": "Si hi ha set o més jugadors, desperta el dimoni:\n\tMostra-li la targeta *AQUESTS SÓN ELS TEUS SEQUAÇOS*. Assenya-la tots els sequaços.\n\tMostra-li la targeta *AQUESTS PERSONATGES NO SÓN A LA PARTIDA*. Mostra-li tres fitxes de personatge que no siguin a la partida."
+        "firstNightReminder": "Si hi ha set o més jugadors, desperta el dimoni: Mostra-li la targeta *AQUESTS SÓN ELS TEUS SEQUAÇOS*. Assenya-la tots els sequaços. Mostra-li la targeta *AQUESTS PERSONATGES NO SÓN A LA PARTIDA*. Mostra-li tres fitxes de personatge que no siguin a la partida."
     }
 ]

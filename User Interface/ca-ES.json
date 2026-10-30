@@ -1,6 +1,7 @@
 {
     "common": {
         "icon": "Icona",
+        "icon_alt": "Icona de {name}",
         "show": "Mostra",
         "hide": "Amaga",
         "close": "Tanca",
@@ -11,6 +12,7 @@
         "save": "Desa",
         "edit": "Edita",
         "delete": "Elimina",
+        "remove": "Elimina",
         "clear": "Neteja",
         "loading": "S’està carregant…",
         "name": "Nom",
@@ -19,6 +21,7 @@
         "reload": "Torna a carregar",
         "all": "Tots",
         "none": "Cap",
+        "no_matches": "No s’ha trobat cap coincidència",
         "layout": "Disposició",
         "leaves": "Fulles",
         "player_numbers": "Números dels jugadors",
@@ -61,7 +64,6 @@
         "evil": "Malvat",
         "send": "Envia",
         "enabled": "Activat",
-        "disabled": "Desactivat",
         "end_game": "Acaba la partida",
         "resize": "Canvia la mida",
         "account": "Compte",
@@ -79,7 +81,44 @@
         "script_roles_failed": "No s'han pogut carregar els rols d'aquest guió. Comproveu la connexió i torneu-ho a provar.",
         "script_json_invalid": "No s'ha pogut llegir aquest guió. Comproveu que sigui un JSON de guió vàlid.",
         "roles_not_found": "No s'han trobat aquests rols: {roles}",
-        "invalid_import_link": "Aquest enllaç d'importació està trencat o no és compatible, així que no s'ha carregat res."
+        "invalid_import_link": "Aquest enllaç d'importació està trencat o no és compatible, així que no s'ha carregat res.",
+        "request_failed": "Alguna cosa ha anat malament. Comproveu la connexió i torneu-ho a provar.",
+        "fetch_all_roles_failed": "No s'han pogut obtenir tots els rols.",
+        "fetch_role_failed": "No s'ha pogut obtenir el rol.",
+        "fetch_role_details_failed": "No s'han pogut obtenir els detalls del rol.",
+        "advanced_search_roles_failed": "No s'han pogut obtenir tots els rols. La cerca avançada no funcionarà.",
+        "advanced_search_failed": "Ha fallat la cerca avançada",
+        "night_order_failed": "No s'ha pogut obtenir l'ordre nocturn",
+        "script_suggestions_failed": "No s'han pogut obtenir els suggeriments de guions",
+        "load_script_failed": "No s'ha pogut carregar el guió.",
+        "script_from_url_failed": "No s'ha pogut obtenir el guió des de l'URL",
+        "script_data_failed": "No s'han pogut obtenir les dades del guió",
+        "save_custom_script_failed": "No s'ha pogut desar el guió personalitzat. Els fulls del guió i de l'ordre nocturn no es carregaran.",
+        "add_to_search_failed": "No s'ha pogut afegir el guió a la cerca",
+        "remove_from_search_failed": "No s'ha pogut eliminar el guió de la cerca",
+        "homebrew_scripts_failed": "No s'han pogut obtenir els vostres guions homebrew",
+        "script_versions_failed": "No s'han pogut obtenir les versions del guió",
+        "travellers_failed": "No s'han pogut obtenir els viatgers",
+        "fabled_failed": "No s'han pogut obtenir les faules",
+        "loric_failed": "No s'han pogut obtenir els lòrics",
+        "translations_failed": "No s'han pogut obtenir les traduccions",
+        "translated_role_failed": "No s'ha pogut obtenir el rol traduït.",
+        "toggle_favourite_failed": "No s'ha pogut canviar l'estat de preferit del guió",
+        "update_script_tags_failed": "No s'han pogut actualitzar les etiquetes del guió",
+        "fetch_profile_failed": "No s'ha pogut obtenir el perfil d'usuari",
+        "fetch_favourites_failed": "No s'han pogut obtenir els preferits",
+        "fetch_saved_games_failed": "No s'han pogut obtenir les partides desades",
+        "fetch_friends_failed": "No s'han pogut obtenir els amics",
+        "save_friends_failed": "No s'han pogut desar els amics",
+        "saved_game_url_failed": "No s'ha pogut obtenir l'URL de la partida desada",
+        "save_game_failed": "No s'ha pogut desar la partida al perfil",
+        "delete_saved_game_failed": "No s'ha pogut eliminar la partida desada",
+        "fetch_settings_failed": "No s'ha pogut obtenir la configuració de l'usuari",
+        "save_settings_failed": "No s'ha pogut desar la configuració de l'usuari",
+        "fetch_custom_cards_failed": "No s'han pogut obtenir les targetes personalitzades del perfil",
+        "save_custom_card_failed": "No s'ha pogut desar la targeta personalitzada al perfil",
+        "update_custom_card_failed": "No s'ha pogut actualitzar la targeta personalitzada",
+        "delete_custom_card_failed": "No s'ha pogut eliminar la targeta personalitzada"
     },
     "status": {
         "poisoned": "Emmetzinat",
@@ -101,14 +140,16 @@
     },
     "nav": {
         "brand": "Digital Grimoire",
+        "logo": "Logotip",
+        "community_created": "Contingut creat per la comunitat",
+        "avatar": "Avatar",
         "offline": "Sense connexió",
         "companion": "Acompanyant del jugador",
         "game": {
             "title": "Partida",
             "home": "Nova…",
             "save": "Desa…",
-            "buy_grimoire": "Compra un grimori",
-            "town_view": "Vista del poble"
+            "buy_grimoire": "Compra un grimori"
         },
         "sheets": {
             "rules": "Regles"
@@ -185,6 +226,7 @@
             "options": "Opcions",
             "results": "Resultats",
             "add_condition": "Afegeix una condició",
+            "remove_condition": "Elimina la condició",
             "add_first_condition": "Afegiu una condició per a començar la cerca.",
             "includes": "Inclou",
             "excludes": "Exclou",
@@ -211,10 +253,11 @@
             "version": "Versió",
             "previous": "Anterior",
             "page": "Pàgina {page}/{total}",
-            "next": "Següent"
+            "next": "Següent",
+            "results_pages": "Pàgines de resultats de la cerca",
+            "toggle_favourite": "Canvia l’estat de preferit"
         },
         "arrange": {
-            "title": "Reorganitza els jugadors"
         },
         "bluff": {
             "title": "AQUESTS PERSONATGES NO SÓN A LA PARTIDA",
@@ -258,8 +301,12 @@
             "title": "🎵 Carregador de música",
             "music_tab": "Música",
             "sfx_tab": "Efectes de so",
+            "sfx_info": "So {current} de {total}",
             "track_info": "Pista {current} de {total}",
+            "previous_track": "Pista anterior",
+            "next_track": "Pista següent",
             "volume": "Volum: {volume}%",
+            "volume_control": "Control del volum",
             "volume_unsupported": "Utilitzeu els botons de volum del dispositiu per a controlar el nivell d’àudio",
             "add_music_button": "Afegeix fitxers de música",
             "playlist_title": "Llista de reproducció ({count} pistes)",
@@ -277,6 +324,8 @@
             "add_sfx_button": "Afegeix un efecte de so",
             "sfx_interval_label": "Reprodueix quan falti aquest temps",
             "auto_fade_phase": "Atenua el volum durant el dia i la nit",
+            "day_volume": "Dia: {volume}%",
+            "night_volume": "Nit: {volume}%",
             "sfx_volume": "Volum dels efectes de so: {volume}%"
         },
         "nomination": {
@@ -304,10 +353,6 @@
             "game_started": "Ha començat la partida",
             "night_choice": "{name} ({role}) ha triat {targets}",
             "night_choice_none": "{name} ({role}) no ha triat ningú"
-        },
-        "notes": {
-            "title": "Notes",
-            "notes_label": "Notes"
         },
         "qr_sheet": {
             "open": "Obre"
@@ -340,7 +385,6 @@
             "delete_confirmation_title": "Elimina",
             "delete_confirmation_message": "Esteu segur que voleu eliminar {player}, que és {role}?",
             "notes_for": "Notes de {player}",
-            "save_notes": "Desa les notes",
             "gain_ability": "Obtén l’habilitat",
             "notify_when": "Notifica quan",
             "notify_nominated": "Acusat",
@@ -348,20 +392,20 @@
             "notify_marked_dead": "Mort",
             "notify_player_chosen": "Escollit",
             "notify_note": "Nota per a la notificació",
-            "notify_recurring": "Notifica cada vegada",
+            "notify_recurring": "Notifica cada vegada per partida",
             "notify_reminder_carriers": "Rols marcats amb el recordatori:"
         },
         "town_arrange": {
-            "title": "Organitza els jugadors del poble",
+            "title": "Reorganitza els jugadors",
             "u_shape": "Somriure"
         },
         "town": {
-            "view_title": "Mostra el poble",
+            "view_title": "Vista del poble",
             "description_phones": "El vostre poble és on viu aquesta partida. Compartiu el codi i els jugadors podran obtenir el seu rol, llegir el guió i seguir les reclamacions al telèfon.",
-            "description_screen": "El vostre poble és on viu aquesta partida. Obriu la vista del poble en un televisor perquè tothom la vegi. El vostre grimori es desa al nostre servidor mentre un poble està actiu.",
+            "description_screen": "El vostre poble és on viu aquesta partida. Obriu la Vista del poble en un televisor perquè tothom la vegi. El vostre Grimori es desa al nostre servidor mentre un poble està actiu.",
             "delete_button": "Elimina el poble…",
             "code_label": "Codi del poble",
-            "open_on_screen": "Obriu la vista del poble en un televisor o una tauleta de recanvi:",
+            "open_on_screen": "Obriu la Vista del poble en un televisor o una tauleta de recanvi:",
             "rename": "Reanomena el poble",
             "title": "Poble",
             "screen_heading": "Pantalla gran"
@@ -417,7 +461,9 @@
             "default": "Predeterminat",
             "apply": "Aplica",
             "custom": "Personalitzat",
-            "gallery": "Galeria"
+            "gallery": "Galeria",
+            "option_alt": "Opció de fons",
+            "saved_alt": "Fons desat"
         },
         "clocktracker_export": {
             "title": "Envia a Clocktracker",
@@ -502,9 +548,10 @@
         "select_more_roles": "Seleccioneu {count} rols més per a continuar",
         "too_many_roles": "Traieu {count} rols per a continuar",
         "too_many_travellers": "Traieu {count} viatgers (màx. 5) per a continuar",
-        "setup_warning": "Alguns rols triats poden alterar la composició del poble. Reviseu-la abans de continuar.",
         "multiple_demons_warning": "S’han detectat diversos Dimonis que no admeten còpies múltiples.",
-        "unread_setup_warning": "No s’ha pogut llegir el text de preparació de {roles}. Reviseu-ne la preparació a mà.",
+        "unread_setup_warning": "Caldrà revisar manualment l’habilitat de {role}.",
+        "bag_needs_role": "{owner} necessita {role} en joc.",
+        "bag_changes": "Per ajustar-se a les regles de preparació: {changes}",
         "player_names": "Noms dels jugadors",
         "player_placeholder": "Jugador {number}",
         "add_as_player": "Afegeix com a jugador",
@@ -512,7 +559,8 @@
         "active": "Actiu",
         "no_players_added": "Encara no s’ha afegit cap jugador.",
         "persist_players_prompt": "Inicieu la sessió amb Discord i afegiu els jugadors a la llista d’amics per a desar-ne els noms per a partides futures.",
-        "clear": "Neteja",
+        "clear": "Neteja…",
+        "clear_players_confirm": "Voleu treure tots els jugadors d'aquesta partida? Els amics es queden a la vostra llista.",
         "by": "per",
         "edit_names_optional": "Afegeix noms (opcional)",
         "search_hint": "Cerca per nom o URL.",
@@ -524,6 +572,8 @@
         "added_to_search": "Afegit a la cerca",
         "remove_from_search": "Elimina de la cerca",
         "homebrew": "Homebrew",
+        "official_characters": "Personatges oficials",
+        "homebrew_characters": "Personatges homebrew",
         "from_json": "Des d’un JSON",
         "paste_json_placeholder": "Enganxeu aquí el JSON del guió…",
         "from_file": "Des d’un fitxer",
@@ -545,17 +595,21 @@
         "show_role_details": "Mostra els detalls del rol",
         "hide_role_details": "Amaga els detalls del rol",
         "show_spy_view": "Mostra la vista de l’Espia",
-        "hide_spy_view": "Amaga la vista de l’Espia",
+        "lock_tokens": "Bloqueja les fitxes",
+        "unlock_tokens": "Desbloqueja les fitxes",
+        "spy_put_seat_at_bottom": "Posa un seient a baix",
+        "spy_seat_one_on_top": "Posa el seient 1 a dalt",
+        "spy_reset_view": "Restableix la vista",
+        "spy_undo_changes": "Desfés els canvis",
+        "spy_show_all": "Mostra-ho tot",
+        "spy_move_up": "Mou cap amunt",
+        "spy_move_down": "Mou cap avall",
         "rearrange_tokens": "Reorganitza els jugadors",
         "edit_background": "Edita el fons…",
         "nominations": "Acusacions",
         "town_view": "Vista del poble ({townId})",
-        "delete": "Elimina",
-        "delete_confirm": "Esteu segur que voleu eliminar {player}, que és {role}?",
-        "delete_confirm_no_player": "Esteu segur que voleu eliminar el rol {role}?",
         "notes_for": "Notes de {name}",
         "notes_placeholder": "Afegiu-hi qualsevol nota personalitzada…",
-        "save_notes": "Desa les notes",
         "game_notes": "Notes de la partida",
         "town_info_alive": "Vius",
         "town_info_travellers": "Viatgers",
@@ -577,6 +631,9 @@
         "tokens": "Fitxes",
         "tap_bag_prompt": "Toqueu la bossa per a extreure la fitxa",
         "tap_token_prompt": "Toqueu una fitxa per a extreure-la",
+        "draw_from_bag": "Extreu una fitxa de la bossa",
+        "draw_token": "Extreu la fitxa {number}",
+        "token_drawn": "La fitxa {number} ja s’ha extret",
         "hold_to_reveal": "Mantingueu premut per a revelar",
         "draw_animation": "Animació d'extracció",
         "player_name": "Nom del jugador",
@@ -622,10 +679,20 @@
         "toggle_widgets": "Mostra o amaga els ginys",
         "info": "Informació",
         "composition": "Composició",
-        "day_night": "Dia/nit",
-        "grim": "Grimori",
+        "show_info": "Mostra la informació",
+        "hide_info": "Amaga la informació",
+        "show_composition": "Mostra la composició",
+        "hide_composition": "Amaga la composició",
+        "show_timer": "Mostra el temporitzador",
+        "hide_timer": "Amaga el temporitzador",
+        "show_day_night": "Mostra dia/nit",
+        "hide_day_night": "Amaga dia/nit",
+        "show_companion": "Mostra l’acompanyant del jugador",
+        "hide_companion": "Amaga l’acompanyant del jugador",
+        "show_night_order": "Mostra l’ordre nocturn",
+        "hide_night_order": "Amaga l’ordre nocturn",
+        "hide_grim": "Amaga el grimori",
         "town": "Poble",
-        "town_name_placeholder": "Nom del poble",
         "join": "Uneix-t’hi",
         "disconnect": "Desconnecta",
         "disconnected": "Desconnectat",
@@ -641,7 +708,14 @@
         "congratulations_suffix": "Bàndol",
         "widget_dark_background": "Fons foscos dels ginys",
         "edit_night_icons": "Edita les icones de l’ordre nocturn…",
-        "seat": "Seient"
+        "seat": "Seient",
+        "no_timer": "Cap temporitzador actiu",
+        "timer_hint": "El temporitzador apareixerà quan el narrador n’iniciï un",
+        "timer_title": "Temporitzador: {mode} - {time}",
+        "countdown": "Compte enrere",
+        "hours_short": "h",
+        "minutes_short": "min",
+        "seconds_short": "s"
     },
     "cards": {
         "this_is_the_demon": "AQUEST ÉS EL DIMONI",
@@ -658,7 +732,9 @@
         "show_card": "Mostra la targeta…",
         "create_custom_card": "Crea una targeta personalitzada",
         "cards": "Targetes",
-        "add_character": "Afegeix un rol"
+        "add_character": "Afegeix un rol",
+        "custom_cards": "Targetes personalitzades",
+        "no_custom_cards": "Encara no hi ha cap targeta personalitzada."
     },
     "controls": {
         "timer_expired_reset": "S’ha esgotat el temps. Feu clic per a reiniciar el temporitzador.",
@@ -674,7 +750,6 @@
     "bluffs": {
         "title": "Coartades",
         "add_bluff_set": "Afegeix un conjunt de coartades",
-        "add_token": "Afegeix una fitxa",
         "add_bluffs": "Afegeix coartades",
         "show_all_bluffs": "Mostra totes les coartades",
         "delete_set": "Elimina el conjunt",
@@ -710,9 +785,8 @@
         "nominates": "acusa",
         "to_tie": "per a empatar",
         "to_execute": "per a executar",
-        "votes_needed_to": "Vots necessaris per a",
-        "exile": "exiliar",
-        "execute": "executar"
+        "votes_needed_to_exile": "Vots necessaris per a expulsar",
+        "votes_needed_to_execute": "Vots necessaris per a executar"
     },
     "drawer": {
         "edit_player_name": "Edita el nom del jugador",
@@ -727,7 +801,7 @@
     },
     "lock": {
         "title": "Bloqueig del narrador",
-        "description": "Cal un PIN de 4 dígits per a poder mostrar el grimori. Aquest PIN també s'utilitza en el mode «Passa i juga».",
+        "description": "Cal un PIN de 4 dígits per a poder mostrar el Grimori. Aquest PIN també s'utilitza en el mode «Passa i juga».",
         "arm": "Inicia «Passa i juga»",
         "exit": "Surt de «Passa i juga»",
         "enrol_pin_prompt": "Trieu un PIN de 4 dígits",
@@ -738,6 +812,7 @@
         "unlock_pin_prompt": "Introduïu el PIN de 4 dígits",
         "check_pin_prompt": "Introduïu el PIN per comprovar que el recordeu",
         "unlock_pin_wrong": "PIN incorrecte",
+        "backspace": "Retrocés",
         "unlock_throttled": "Hi ha hagut massa intents. Torneu-ho a provar d’aquí a {seconds} s.",
         "reset_hint": "Heu oblidat el PIN? Desactiveu «Bloqueig del narrador» a «Configuració»."
     },
@@ -758,6 +833,7 @@
         "storyteller": "Narrador",
         "storyteller_hint": "Prepareu i dirigiu la partida",
         "player_hint": "Uniu-vos a un poble, consulteu el guió i l'ordre nocturn",
+        "town_hint": "Mostreu el Poble en una televisió perquè tothom el pugui veure",
         "youtube": "Mireu a YouTube",
         "video_setup_title": "Configuració ràpida - Trouble Brewing",
         "video_setup_description": "Comenceu una partida de Trouble Brewing amb 7 jugadors, des de posar nom als jugadors fins a afegir recordatoris.",
@@ -817,7 +893,7 @@
                 "body": "Tria com arriben els rols als teus jugadors. Ho pots canviar més tard."
             },
             "call_up": {
-                "body": "Crida els jugadors d'un en un. Tu toques el seu seient, ells toquen la bossa per veure el seu rol."
+                "body": "Crida cada jugador perquè vingui a veure't d'un en un. Tu toques el seu seient i ell toca la bossa de fitxes per veure el seu rol."
             },
             "pass": {
                 "body": "Passa el dispositiu pel cercle. Cada jugador extreu el seu rol i el passa al següent. El teu PIN bloqueja el grimori perquè ningú pugui mirar."
@@ -834,16 +910,16 @@
                 "body": "Obre això per portar els jugadors als seus telèfons."
             },
             "set_up_seats": {
-                "body": "Assigna noms de jugadors als seients i assigna rols als seients manualment (viatgers, per exemple). Tots dos són opcionals."
+                "body": "Prem aquí per assignar noms de jugadors als seients, o rols als seients (viatgers, per exemple). Tots dos són opcionals."
             },
             "names": {
-                "body": "Toca un nom per posar aquest jugador al proper seient buit. Toca un seient per buidar-lo."
+                "body": "Toca un nom per posar aquest jugador al proper seient buit. Si vols treure algú d'un seient, toca aquest seient."
             },
             "add_names": {
                 "body": "Toca aquí per afegir noms si no en veus cap a sota."
             },
             "roles": {
-                "body": "Toca un rol i després un seient per assignar-li aquest rol. Útil per als viatgers."
+                "body": "La visita ha canviat a la pestanya Rols. Toca un rol i després un seient per assignar-li aquest rol. Útil per als viatgers."
             },
             "skip_draw": {
                 "body": "Dona un rol aleatori a cada seient buit i omet l'extracció."
@@ -880,31 +956,30 @@
         "grimoire": {
             "good_player": {
                 "title": "Un jugador bo",
-                "body": "Aquest jugador és a l'equip del bé. Toca un jugador per obrir-ne el menú. Arrossega per moure'l."
+                "body": "Toca un jugador per obrir-ne el menú. Arrossega per moure'l. La il·lustració blava d'aquest mostra que és a l'equip del bé. Durant la partida, una vora verd blavós marca un Foraster."
             },
             "evil_player": {
                 "title": "Un jugador malvat",
-                "body": "Aquest jugador és a l'equip del mal. L'il·lustració de cada fitxa mostra a quin equip és aquest jugador."
+                "body": "La il·lustració vermella d'aquest mostra que és a l'equip del mal. Durant la partida, una vora vermell fosc marca el Dimoni."
             },
             "seat_menu": {
                 "title": "Menú del jugador",
-                "body": "Entra en pantalla completa, afegeix recordatoris, marca com a mort, intercanvia, canvia l'alineació i obre el menú d'eines. Toca fora del menú per tancar-lo.",
-                "body_evil": "Entra en pantalla completa, afegeix recordatoris, afegeix un recordatori de coartada, marca com a mort, intercanvia, canvia l'alineació i obre el menú d'eines. Toca fora del menú per tancar-lo."
+                "body": "Tocar un jugador obre aquest menú. En sentit horari des de dalt: Mostra, Recordatoris, Coartada, Marca com a mort, Intercanvia, Canvia l'alineació, Eines. De dia també veuràs Acusa. Toca fora del menú per tancar-lo."
             },
             "add": {
                 "title": "Afegeix",
-                "body": "Afegeix coartades del dimoni, rols addicionals i fitxes de recordatori."
+                "body": "Prem aquest botó per afegir coartades del dimoni, rols addicionals i fitxes de recordatori."
             },
             "night_order": {
-                "body": "Obre el panell de l'ordre nocturn, que et guia sobre a qui has de despertar cada nit."
+                "body": "Prem aquest botó per obrir el panell de l'ordre nocturn, que et guia sobre a qui has de despertar cada nit."
             },
             "phase": {
                 "title": "Dia i nit",
-                "body": "Fes avançar la partida cap al dia o la nit següent."
+                "body": "La fletxa dreta fa avançar la partida cap al dia o la nit següent. La fletxa esquerra torna un pas enrere, si has d'arreglar alguna cosa."
             },
             "view": {
                 "title": "Mostra",
-                "body": "Reordena els seients, obre la vista de l'Espia, llegeix l'historial de la partida o canvia el fons."
+                "body": "Reorganitza els jugadors (tria una disposició i arrossega els jugadors a l'ordre), obre la vista de l'Espia, llegeix l'historial de la partida o canvia el fons."
             },
             "town": {
                 "title": "Poble",
@@ -922,7 +997,7 @@
                 "body": "Bloqueja les fitxes al seu lloc perquè no s'arrosseguin per accident. Es bloquegen soles quan acaba la partida."
             },
             "gr_notes": {
-                "body": "Les teves notes per a tota la partida. Les notes sobre un jugador van al menú de la fitxa d'aquest jugador."
+                "body": "Les teves notes per a tota la partida. Pots fer notes sobre un jugador al menú de la fitxa d'aquest jugador."
             },
             "gr_timer": {
                 "body": "Defineix un compte enrere per al dia o inicia un cronòmetre. Un cop definit, toca el temps per posar-lo en pausa o continuar."
@@ -940,7 +1015,7 @@
             },
             "town_state": {
                 "title": "Estat del poble",
-                "body": "La icona de la persona mostra el nombre de jugadors vius. Es posa groga a 4 i vermella a 3 o menys. La maleta indica el nombre de viatgers. La calavera són els jugadors morts. La mà mostra quants vots queden, comptant-hi els vots fantasma. Es posa vermella quan no queden prou vots per superar el total actual de marcats per a executar. La marca de verificació mostra el nombre de vots necessaris per retirar la persona actual dels marcats per a executar."
+                "body": "La icona de la persona mostra el nombre de jugadors vius. Es posa groga a 4 i vermella a 3 o menys. La calavera són els jugadors morts. La mà mostra quants vots queden, comptant-hi els vots fantasma. Es posa vermella quan no queden prou vots per superar el total actual de marcats per a executar. La marca de verificació mostra el nombre de vots necessaris per retirar la persona actual dels marcats per a executar. Si hi ha viatgers, la maleta indica quants n'hi ha."
             },
             "end_game": {
                 "title": "Acaba la partida",
@@ -948,6 +1023,9 @@
             }
         },
         "night": {
+            "night_pane": {
+                "body": "A qui has de despertar aquesta nit, per ordre."
+            },
             "night_cards": {
                 "body": "Obre el menú Targetes per mostrar una targeta a un jugador o crear-ne una de pròpia."
             },
@@ -962,6 +1040,12 @@
             "unplaced_reminders": {
                 "title": "Recordatoris sense col·locar",
                 "body": "El número indica quants recordatoris d'aquest rol encara no són al grimori. Toca per veure'ls i arrossega'n un fins a un jugador."
+            },
+            "edit_night_order": {
+                "body": "Canvia l'ordre per a aquesta partida."
+            },
+            "end_night": {
+                "body": "Acaba la nit i passa al dia següent."
             }
         },
         "night_choice": {
@@ -970,7 +1054,7 @@
             },
             "choice_banner": {
                 "title": "Registra l'elecció",
-                "body": "Toca els jugadors triats, per ordre. Cadascun rep un número. Després tria els recordatoris que vols col·locar i toca la marca de verificació. Cada recordatori es col·loca sobre els jugadors triats en aquest ordre, fins que s'acaben."
+                "body": "Toca els jugadors triats, per ordre. Cadascun rep un número. Si hi ha recordatoris per col·locar, tria'ls i toca Confirma. Cada recordatori es col·loca sobre els jugadors triats en aquest ordre, fins que s'acaben. Si no, l'elecció es desa tan bon punt es tria l'últim jugador."
             }
         },
         "preferences": {
@@ -1009,11 +1093,17 @@
             }
         },
         "account": {
+            "usr_stats": {
+                "body": "El teu historial com a Narrador: partides dirigides, amb quina freqüència guanya cada equip i els guions i rols que més jugues. Les partides compten quan arriben al grimori, i el guanyador s'afegeix quan acabes la partida. També pots importar les partides que has dirigit des d'una exportació de Clocktracker."
+            },
             "usr_favourites": {
                 "body": "Els guions que has marcat amb una estrella a la pantalla de preparació. Toca'n un per carregar-lo. Afegeix etiquetes de colors per ordenar-los i després toca una etiqueta per filtrar la llista."
             },
             "usr_friends": {
                 "body": "Les persones amb qui jugues. Els seus noms estan a punt per triar quan asseus els jugadors, així no cal que els escriguis cada vegada."
+            },
+            "usr_cards": {
+                "body": "Les targetes que has creat per mostrar als jugadors. Toca'n una per editar-la, o + per crear-ne una de nova. També són al menú Targetes durant una partida."
             },
             "usr_games": {
                 "body": "Les partides que has desat des del menú Joc. Carrega'n una a la pantalla de preparació per continuar on ho vas deixar."
@@ -1021,9 +1111,32 @@
             "usr_homebrew": {
                 "body": "Els guions homebrew que has afegit a la cerca. Toca'n un per carregar-lo o toca la creu per treure'l de la cerca."
             },
+            "usr_notifications": {
+                "body": "Els avisos que has desat per a un personatge. S'activen soles cada cop que aquest personatge és al teu grimori."
+            },
             "usr_logout": {
-                "body": "Finalitza la sessió del teu compte de Discord en aquest dispositiu."
+                "body": "Tanca la sessió del Grimori Digital en aquest dispositiu. El teu compte de Discord continua amb la sessió iniciada."
             }
         }
+    },
+    "stats": {
+        "title": "Les meves estadístiques",
+        "games": "Partides",
+        "finished": "{finished} de {started} partides han acabat amb un guanyador",
+        "good_wins": "Victòries del Bo",
+        "evil_wins": "Victòries del Malvat",
+        "average_players": "Mitjana de jugadors",
+        "top_scripts": "Guions més jugats",
+        "top_roles": "Rols més utilitzats",
+        "none_yet": "Encara no hi ha partides. Les partides que dirigeixis amb la sessió iniciada apareixeran aquí quan arribin al grimori.",
+        "clear": "Esborra les meves estadístiques…",
+        "clear_confirm": "Vols suprimir totes les partides registrades a les teves estadístiques? Aquesta acció no es pot desfer.",
+        "load_failed": "No s'han pogut carregar les teves estadístiques.",
+        "clear_failed": "No s'han pogut esborrar les teves estadístiques.",
+        "import_prompt": "Has dirigit partides abans? Importa el CSV que vas exportar de Clocktracker.",
+        "import": "Importa de Clocktracker",
+        "imported": "S'han importat {count} partides de Clocktracker.",
+        "import_none": "Aquest fitxer no té cap partida que hagis dirigit com a Narrador.",
+        "import_failed": "No s'ha pogut importar aquest fitxer. Utilitza el CSV tal com l'ha exportat Clocktracker."
     }
 }

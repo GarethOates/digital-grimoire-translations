@@ -1,6 +1,7 @@
 {
     "common": {
         "icon": "Icona",
+        "icon_alt": "Icona {name}",
         "show": "Mostra",
         "hide": "Nascondi",
         "close": "Chiudi",
@@ -11,6 +12,7 @@
         "save": "Salva",
         "edit": "Modifica",
         "delete": "Elimina",
+        "remove": "Rimuovi",
         "clear": "Cancella",
         "loading": "Caricamento…",
         "name": "Nome",
@@ -19,6 +21,7 @@
         "reload": "Ricarica",
         "all": "Tutti",
         "none": "Nessuno",
+        "no_matches": "Nessun risultato trovato",
         "layout": "Disposizione",
         "leaves": "Foglie",
         "player_numbers": "Numeri dei Giocatori",
@@ -61,7 +64,6 @@
         "evil": "Malvagio",
         "send": "Invia",
         "enabled": "Attivo",
-        "disabled": "Disattivo",
         "end_game": "Termina Partita",
         "resize": "Ridimensiona",
         "account": "Account",
@@ -79,7 +81,44 @@
         "script_roles_failed": "Impossibile caricare i ruoli di questo copione. Controlla la connessione e riprova.",
         "script_json_invalid": "Impossibile leggere questo copione. Controlla che sia un JSON di copione valido.",
         "roles_not_found": "Impossibile trovare questi ruoli: {roles}",
-        "invalid_import_link": "Questo link di importazione non è valido o non è supportato, quindi non è stato caricato nulla."
+        "invalid_import_link": "Questo link di importazione non è valido o non è supportato, quindi non è stato caricato nulla.",
+        "request_failed": "Qualcosa è andato storto. Controlla la connessione e riprova.",
+        "fetch_all_roles_failed": "Impossibile recuperare tutti i ruoli.",
+        "fetch_role_failed": "Impossibile recuperare il ruolo.",
+        "fetch_role_details_failed": "Impossibile recuperare i dettagli del ruolo.",
+        "advanced_search_roles_failed": "Impossibile recuperare tutti i ruoli. La Ricerca Avanzata non funzionerà.",
+        "advanced_search_failed": "Ricerca Avanzata non riuscita",
+        "night_order_failed": "Impossibile recuperare l'ordine notturno",
+        "script_suggestions_failed": "Impossibile recuperare i suggerimenti di copioni",
+        "load_script_failed": "Impossibile caricare il copione.",
+        "script_from_url_failed": "Impossibile ottenere il copione dall'URL",
+        "script_data_failed": "Impossibile recuperare i dati del copione",
+        "save_custom_script_failed": "Salvataggio del copione personalizzato non riuscito. I fogli del copione e dell'ordine notturno non verranno caricati.",
+        "add_to_search_failed": "Aggiunta del copione alla ricerca non riuscita",
+        "remove_from_search_failed": "Rimozione del copione dalla ricerca non riuscita",
+        "homebrew_scripts_failed": "Impossibile recuperare i tuoi copioni homebrew",
+        "script_versions_failed": "Impossibile recuperare le versioni del copione",
+        "travellers_failed": "Impossibile recuperare i Viaggiatori",
+        "fabled_failed": "Impossibile recuperare i Fiabeschi",
+        "loric_failed": "Impossibile recuperare i Folklorici",
+        "translations_failed": "Impossibile ottenere le traduzioni",
+        "translated_role_failed": "Impossibile recuperare il ruolo tradotto.",
+        "toggle_favourite_failed": "Impossibile modificare il preferito del copione",
+        "update_script_tags_failed": "Impossibile aggiornare i tag del copione",
+        "fetch_profile_failed": "Impossibile recuperare il profilo utente",
+        "fetch_favourites_failed": "Impossibile recuperare i preferiti",
+        "fetch_saved_games_failed": "Impossibile recuperare le partite salvate",
+        "fetch_friends_failed": "Impossibile recuperare gli amici",
+        "save_friends_failed": "Impossibile salvare gli amici",
+        "saved_game_url_failed": "Impossibile ottenere l'URL della partita salvata",
+        "save_game_failed": "Impossibile salvare la partita nel profilo",
+        "delete_saved_game_failed": "Impossibile eliminare la partita salvata",
+        "fetch_settings_failed": "Impossibile recuperare le impostazioni utente",
+        "save_settings_failed": "Impossibile salvare le impostazioni utente",
+        "fetch_custom_cards_failed": "Impossibile recuperare le carte personalizzate dal profilo",
+        "save_custom_card_failed": "Impossibile salvare la carta personalizzata nel profilo utente",
+        "update_custom_card_failed": "Impossibile aggiornare la carta personalizzata",
+        "delete_custom_card_failed": "Impossibile eliminare la carta personalizzata"
     },
     "status": {
         "poisoned": "Avvelenato",
@@ -101,14 +140,16 @@
     },
     "nav": {
         "brand": "Grimorio Digitale",
+        "logo": "Logo",
+        "community_created": "Contenuti creati dalla community",
+        "avatar": "Avatar",
         "offline": "Offline",
         "companion": "Compagno del giocatore",
         "game": {
             "title": "Partita",
             "home": "Nuova...",
             "save": "Salva...",
-            "buy_grimoire": "Acquista un Grimorio",
-            "town_view": "Vista Città"
+            "buy_grimoire": "Acquista un Grimorio"
         },
         "sheets": {
             "rules": "Regole"
@@ -185,6 +226,7 @@
             "options": "Opzioni",
             "results": "Risultati",
             "add_condition": "Aggiungi Condizione",
+            "remove_condition": "Rimuovi condizione",
             "add_first_condition": "Aggiungi una condizione per iniziare la ricerca.",
             "includes": "Include",
             "excludes": "Esclude",
@@ -211,10 +253,11 @@
             "version": "Versione",
             "previous": "Precedente",
             "page": "Pagina {page} / {total}",
-            "next": "Successiva"
+            "next": "Successiva",
+            "results_pages": "Pagine dei risultati di ricerca",
+            "toggle_favourite": "Aggiungi/rimuovi preferito"
         },
         "arrange": {
-            "title": "Riorganizza Giocatori"
         },
         "bluff": {
             "title": "QUESTI PERSONAGGI NON SONO IN GIOCO",
@@ -258,8 +301,12 @@
             "title": "🎵 Gestione Musica",
             "music_tab": "Musica",
             "sfx_tab": "Effetti Sonori",
+            "sfx_info": "Suono {current} di {total}",
             "track_info": "Traccia {current} di {total}",
+            "previous_track": "Traccia precedente",
+            "next_track": "Traccia successiva",
             "volume": "Volume: {volume}%",
+            "volume_control": "Controllo volume",
             "volume_unsupported": "Usa i pulsanti del dispositivo per regolare il volume",
             "add_music_button": "Aggiungi File Musicali",
             "playlist_title": "Playlist ({count} tracce)",
@@ -277,6 +324,8 @@
             "add_sfx_button": "Aggiungi Suono",
             "sfx_interval_label": "Riproduci al tempo rimanente",
             "auto_fade_phase": "Dissolvi volume Giorno/Notte",
+            "day_volume": "Giorno: {volume}%",
+            "night_volume": "Notte: {volume}%",
             "sfx_volume": "Volume effetti sonori: {volume}%"
         },
         "nomination": {
@@ -304,10 +353,6 @@
             "game_started": "Inizio Partita",
             "night_choice": "{name} ({role}) ha scelto {targets}",
             "night_choice_none": "{name} ({role}) non ha scelto nessuno"
-        },
-        "notes": {
-            "title": "Note",
-            "notes_label": "Note"
         },
         "qr_sheet": {
             "open": "Apri"
@@ -340,7 +385,6 @@
             "delete_confirmation_title": "Elimina",
             "delete_confirmation_message": "Sei sicuro di voler eliminare {player} il {role}?",
             "notes_for": "Note per {player}",
-            "save_notes": "Salva Note",
             "gain_ability": "Ottieni Abilità",
             "notify_when": "Notifica quando",
             "notify_nominated": "Nominato",
@@ -348,15 +392,15 @@
             "notify_marked_dead": "Morto",
             "notify_player_chosen": "Scelto",
             "notify_note": "Nota per la notifica",
-            "notify_recurring": "Notifica ogni volta",
+            "notify_recurring": "Notifica ogni volta per partita",
             "notify_reminder_carriers": "Ruoli con il promemoria:"
         },
         "town_arrange": {
-            "title": "Disponi i Giocatori nella Città",
+            "title": "Riordina i Giocatori",
             "u_shape": "Sorriso"
         },
         "town": {
-            "view_title": "Vedi Città",
+            "view_title": "Vista Città",
             "description_phones": "La tua città è dove vive questa partita. Condividi il codice: i giocatori potranno ottenere il loro ruolo, leggere il copione e tenere traccia dei claim sul telefono.",
             "description_screen": "La tua città è dove vive questa partita. Apri la Vista Città su una TV perché tutti la vedano. Il tuo Grimorio viene salvato sul nostro server mentre una città è attiva.",
             "delete_button": "Elimina Città...",
@@ -417,7 +461,9 @@
             "default": "Predefinito",
             "apply": "Applica",
             "custom": "Personalizzato",
-            "gallery": "Galleria"
+            "gallery": "Galleria",
+            "option_alt": "Opzione sfondo",
+            "saved_alt": "Sfondo salvato"
         },
         "clocktracker_export": {
             "title": "Invia a Clocktracker",
@@ -502,9 +548,10 @@
         "select_more_roles": "Seleziona altri {count} ruoli per continuare",
         "too_many_roles": "Rimuovi {count} ruoli per continuare",
         "too_many_travellers": "Rimuovi {count} viaggiatori (max 5) per continuare",
-        "setup_warning": "Alcuni ruoli selezionati potrebbero modificare la composizione del villaggio. Controlla prima di continuare.",
         "multiple_demons_warning": "Rilevati più Demoni che non consentono istanze multiple.",
-        "unread_setup_warning": "Impossibile leggere il testo di preparazione di {roles}. Controlla la loro preparazione a mano.",
+        "unread_setup_warning": "L'abilità di {role} dovrà essere controllata manualmente.",
+        "bag_needs_role": "{owner} ha bisogno di {role} in gioco.",
+        "bag_changes": "Per rispettare le regole di preparazione: {changes}",
         "player_names": "Nomi dei Giocatori",
         "player_placeholder": "Giocatore {number}",
         "add_as_player": "Aggiungi come giocatore",
@@ -512,7 +559,8 @@
         "active": "Attivo",
         "no_players_added": "Nessun giocatore aggiunto ancora.",
         "persist_players_prompt": "Salva i nomi dei giocatori per le partite future accedendo con Discord e aggiungendoli alla lista amici.",
-        "clear": "Cancella",
+        "clear": "Cancella...",
+        "clear_players_confirm": "Cancellare tutti i giocatori da questa partita? Gli amici restano nella tua lista.",
         "by": "di",
         "edit_names_optional": "Aggiungi nomi (facoltativo)",
         "search_hint": "Cerca per nome o URL.",
@@ -524,6 +572,8 @@
         "added_to_search": "Aggiunto alla ricerca",
         "remove_from_search": "Rimuovi dalla ricerca",
         "homebrew": "Homebrew",
+        "official_characters": "Ruoli ufficiali",
+        "homebrew_characters": "Ruoli homebrew",
         "from_json": "Da JSON",
         "paste_json_placeholder": "Incolla qui il JSON del copione...",
         "from_file": "Da File",
@@ -545,17 +595,21 @@
         "show_role_details": "Mostra Dettagli Ruolo",
         "hide_role_details": "Nascondi Dettagli Ruolo",
         "show_spy_view": "Mostra Vista Spia",
-        "hide_spy_view": "Nascondi Vista Spia",
+        "lock_tokens": "Blocca Gettoni",
+        "unlock_tokens": "Sblocca Gettoni",
+        "spy_put_seat_at_bottom": "Metti un posto in basso",
+        "spy_seat_one_on_top": "Metti il posto 1 in alto",
+        "spy_reset_view": "Reimposta la vista",
+        "spy_undo_changes": "Annulla le modifiche",
+        "spy_show_all": "Mostra Tutto",
+        "spy_move_up": "Sposta su",
+        "spy_move_down": "Sposta giù",
         "rearrange_tokens": "Riordina i giocatori",
         "edit_background": "Modifica Sfondo...",
         "nominations": "Nomine",
         "town_view": "Vista Città ({townId})",
-        "delete": "Elimina",
-        "delete_confirm": "Sei sicuro di voler eliminare {player} il {role}?",
-        "delete_confirm_no_player": "Sei sicuro di voler eliminare il {role}?",
         "notes_for": "Note per {name}",
         "notes_placeholder": "Aggiungi note personalizzate qui...",
-        "save_notes": "Salva Note",
         "game_notes": "Note della Partita",
         "town_info_alive": "Vivi",
         "town_info_travellers": "Viaggiatori",
@@ -577,6 +631,9 @@
         "tokens": "Gettoni",
         "tap_bag_prompt": "Tocca il sacchetto per pescare il tuo gettone",
         "tap_token_prompt": "Tocca un gettone per pescarlo",
+        "draw_from_bag": "Pesca un gettone dal sacchetto",
+        "draw_token": "Pesca il gettone {number}",
+        "token_drawn": "Gettone {number} già pescato",
         "hold_to_reveal": "Tieni premuto per rivelare",
         "draw_animation": "Animazione di pesca",
         "player_name": "Nome Giocatore",
@@ -622,10 +679,20 @@
         "toggle_widgets": "Mostra/Nascondi Widgets",
         "info": "Informazioni",
         "composition": "Composizione",
-        "day_night": "Giorno/Notte",
-        "grim": "Grimorio",
+        "show_info": "Mostra Informazioni",
+        "hide_info": "Nascondi Informazioni",
+        "show_composition": "Mostra Composizione",
+        "hide_composition": "Nascondi Composizione",
+        "show_timer": "Mostra Timer",
+        "hide_timer": "Nascondi Timer",
+        "show_day_night": "Mostra Giorno/Notte",
+        "hide_day_night": "Nascondi Giorno/Notte",
+        "show_companion": "Mostra Compagno del giocatore",
+        "hide_companion": "Nascondi Compagno del giocatore",
+        "show_night_order": "Mostra Ordine Notte",
+        "hide_night_order": "Nascondi Ordine Notte",
+        "hide_grim": "Nascondi Grimorio",
         "town": "Città",
-        "town_name_placeholder": "Nome Città",
         "join": "Unisciti",
         "disconnect": "Disconnetti",
         "disconnected": "Disconnesso",
@@ -641,7 +708,14 @@
         "congratulations_suffix": "",
         "widget_dark_background": "Sfondi Scuri Widget",
         "edit_night_icons": "Modifica Icone Ordine Notte...",
-        "seat": "Posto"
+        "seat": "Posto",
+        "no_timer": "Nessun timer attivo",
+        "timer_hint": "Il timer apparirà quando il Narratore ne avvia uno",
+        "timer_title": "Timer: {mode} - {time}",
+        "countdown": "Conto alla rovescia",
+        "hours_short": "h",
+        "minutes_short": "m",
+        "seconds_short": "s"
     },
     "cards": {
         "this_is_the_demon": "QUESTO È IL DEMONE",
@@ -655,10 +729,12 @@
         "use_your_ability": "USA LA TUA ABILITÀ?",
         "did_you_vote_today": "HAI VOTATO OGGI?",
         "did_you_nominate_today": "HAI NOMINATO OGGI?",
-        "show_card": "Mostra Carta..",
+        "show_card": "Mostra Carta...",
         "create_custom_card": "Crea Carta Personalizzata",
         "cards": "Carte",
-        "add_character": "Aggiungi Ruolo"
+        "add_character": "Aggiungi Ruolo",
+        "custom_cards": "Carte Personalizzate",
+        "no_custom_cards": "Nessuna carta personalizzata per ora."
     },
     "controls": {
         "timer_expired_reset": "Timer Scaduto - Clicca per Reimpostare",
@@ -674,7 +750,6 @@
     "bluffs": {
         "title": "Bluff",
         "add_bluff_set": "Aggiungi Set di Bluff",
-        "add_token": "Aggiungi Gettone",
         "add_bluffs": "Aggiungi Bluff",
         "show_all_bluffs": "Mostra Tutti i Bluff",
         "delete_set": "Elimina Set",
@@ -710,9 +785,8 @@
         "nominates": "nomina",
         "to_tie": "per pareggiare",
         "to_execute": "per giustiziare",
-        "votes_needed_to": "Voti necessari per",
-        "exile": "esiliare",
-        "execute": "giustiziare"
+        "votes_needed_to_exile": "Voti necessari per esiliare",
+        "votes_needed_to_execute": "Voti necessari per giustiziare"
     },
     "drawer": {
         "edit_player_name": "Modifica nome giocatore",
@@ -738,6 +812,7 @@
         "unlock_pin_prompt": "Inserisci il tuo PIN a 4 cifre",
         "check_pin_prompt": "Inserisci il tuo PIN per verificare di ricordarlo",
         "unlock_pin_wrong": "PIN errato",
+        "backspace": "Cancella indietro",
         "unlock_throttled": "Troppi tentativi. Riprova tra {seconds} s.",
         "reset_hint": "Hai dimenticato il PIN? Disattiva il Blocco Narratore nelle Impostazioni."
     },
@@ -758,6 +833,7 @@
         "storyteller": "Narratore",
         "storyteller_hint": "Prepara e conduci la partita",
         "player_hint": "Unisciti a una città, consulta il copione e l'ordine della notte",
+        "town_hint": "Mostra la Città su una TV perché tutti la vedano",
         "youtube": "Guarda su YouTube",
         "video_setup_title": "Configurazione rapida - Trouble Brewing",
         "video_setup_description": "Avvia una partita di Trouble Brewing con 7 giocatori, dall'assegnazione dei nomi all'aggiunta dei promemoria.",
@@ -817,7 +893,7 @@
                 "body": "Scegli come i ruoli arrivano ai tuoi giocatori. Puoi cambiarlo in seguito."
             },
             "call_up": {
-                "body": "Chiama i giocatori uno alla volta. Tu tocchi il loro posto, loro toccano il sacchetto per vedere il loro ruolo."
+                "body": "Chiama ogni giocatore da te, uno alla volta. Tu tocchi il suo posto, lui tocca il sacchetto dei gettoni per vedere il suo ruolo."
             },
             "pass": {
                 "body": "Fai girare il dispositivo nel cerchio. Ogni giocatore pesca il proprio ruolo e poi lo passa. Il tuo PIN blocca il Grimorio così nessuno può sbirciare."
@@ -834,16 +910,16 @@
                 "body": "Aprilo per far entrare i giocatori dai loro telefoni."
             },
             "set_up_seats": {
-                "body": "Assegna i nomi dei giocatori ai posti e assegna manualmente i ruoli ai posti (i viaggiatori, per esempio). Entrambe le cose sono facoltative."
+                "body": "Tocca qui per assegnare i nomi dei giocatori ai posti, oppure i ruoli ai posti (i viaggiatori, per esempio). Entrambe le cose sono facoltative."
             },
             "names": {
-                "body": "Tocca un nome per mettere quel giocatore nel prossimo posto libero. Tocca un posto per svuotarlo."
+                "body": "Tocca un nome per mettere quel giocatore nel prossimo posto libero. Se vuoi togliere qualcuno da un posto, tocca quel posto."
             },
             "add_names": {
                 "body": "Tocca qui per aggiungere i nomi se non ne vedi nessuno qui sotto."
             },
             "roles": {
-                "body": "Tocca un ruolo, poi un posto, per assegnare quel ruolo al posto. Utile per i viaggiatori."
+                "body": "Il tour è passato alla scheda Ruoli. Tocca un ruolo, poi un posto, per assegnare quel ruolo al posto. Utile per i viaggiatori."
             },
             "skip_draw": {
                 "body": "Dai un ruolo casuale a ogni posto vuoto e salta la pesca."
@@ -880,31 +956,30 @@
         "grimoire": {
             "good_player": {
                 "title": "Un giocatore buono",
-                "body": "Questo giocatore è nella squadra dei buoni. Tocca un giocatore per aprire il suo menu. Trascina per spostarlo."
+                "body": "Tocca un giocatore per aprire il suo menu. Trascina per spostarlo. L'illustrazione blu di questo giocatore mostra che è nella squadra dei buoni. Durante la partita, un bordo verde acqua segna un Emarginato."
             },
             "evil_player": {
                 "title": "Un giocatore malvagio",
-                "body": "Questo giocatore è nella squadra dei malvagi. L'illustrazione di ogni gettone mostra in quale squadra si trova quel giocatore."
+                "body": "L'illustrazione rossa di questo giocatore mostra che è nella squadra dei malvagi. Durante la partita, un bordo rosso scuro segna il Demone."
             },
             "seat_menu": {
                 "title": "Menu del giocatore",
-                "body": "Schermo intero, aggiungi promemoria, segna come morto, scambia, cambia allineamento e apri il menu degli strumenti. Tocca fuori dal menu per chiuderlo.",
-                "body_evil": "Schermo intero, aggiungi promemoria, aggiungi un promemoria di bluff, segna come morto, scambia, cambia allineamento e apri il menu degli strumenti. Tocca fuori dal menu per chiuderlo."
+                "body": "Toccando un giocatore si apre questo menu. In senso orario dall'alto: Mostra, Promemoria, Bluff, Segna come morto, Scambia, Cambia allineamento, Strumenti. Di giorno vedrai anche Nomina. Tocca fuori dal menu per chiuderlo."
             },
             "add": {
                 "title": "Aggiungi",
-                "body": "Aggiungi i bluff del demone, ruoli extra e segnalini promemoria."
+                "body": "Tocca questo pulsante per aggiungere i bluff del demone, ruoli extra e segnalini promemoria."
             },
             "night_order": {
-                "body": "Apre il pannello dell'ordine della notte, che ti guida su chi svegliare ogni notte."
+                "body": "Tocca questo pulsante per aprire il pannello dell'ordine della notte, che ti guida su chi svegliare ogni notte."
             },
             "phase": {
                 "title": "Giorno e notte",
-                "body": "Fai avanzare la partita al giorno o alla notte successiva."
+                "body": "La freccia destra porta la partita al giorno o alla notte successiva. La freccia sinistra torna indietro di un passo, se devi correggere qualcosa."
             },
             "view": {
                 "title": "Vista",
-                "body": "Riordina i posti, apri la Vista Spia, leggi la cronologia della partita o cambia lo sfondo."
+                "body": "Riordina i Giocatori (scegli una disposizione e trascina i giocatori in ordine), apri la Vista Spia, leggi la cronologia della partita o cambia lo sfondo."
             },
             "town": {
                 "title": "Città",
@@ -922,7 +997,7 @@
                 "body": "Blocca i gettoni al loro posto per evitare di trascinarli per sbaglio. Si bloccano da soli quando la partita finisce."
             },
             "gr_notes": {
-                "body": "Le tue note personali per tutta la partita. Le note su un giocatore vanno nel menu del gettone di quel giocatore."
+                "body": "Le tue note personali per tutta la partita. Puoi scrivere note su un giocatore nel menu del gettone di quel giocatore."
             },
             "gr_timer": {
                 "body": "Imposta un conto alla rovescia per il giorno, oppure avvia un cronometro. Una volta impostato, tocca il tempo per metterlo in pausa o riprendere."
@@ -940,7 +1015,7 @@
             },
             "town_state": {
                 "title": "Stato della città",
-                "body": "L'icona della persona mostra il numero di giocatori vivi. Diventa gialla a 4 e rossa a 3 o meno. La valigia indica il numero di viaggiatori. Il teschio indica i giocatori morti. La mano mostra quanti voti restano, compresi i voti fantasma. Diventa rossa quando non restano abbastanza voti per superare il totale attuale sul patibolo. La spunta mostra il numero di voti necessari per togliere dal patibolo la persona attuale."
+                "body": "L'icona della persona mostra il numero di giocatori vivi. Diventa gialla a 4 e rossa a 3 o meno. Il teschio indica i giocatori morti. La mano mostra quanti voti restano, compresi i voti fantasma. Diventa rossa quando non restano abbastanza voti per superare il totale attuale sul patibolo. La spunta mostra il numero di voti necessari per togliere dal patibolo la persona attuale. Se ci sono viaggiatori, la valigia ne mostra il numero."
             },
             "end_game": {
                 "title": "Termina Partita",
@@ -948,6 +1023,9 @@
             }
         },
         "night": {
+            "night_pane": {
+                "body": "Chi svegliare stanotte, in ordine."
+            },
             "night_cards": {
                 "body": "Apri il menu Carte per mostrare una carta a un giocatore o crearne una tua."
             },
@@ -962,6 +1040,12 @@
             "unplaced_reminders": {
                 "title": "Promemoria non posizionati",
                 "body": "Il numero indica quanti promemoria di questo ruolo non sono ancora nel Grimorio. Tocca per vederli, poi trascinane uno su un giocatore."
+            },
+            "edit_night_order": {
+                "body": "Cambia l'ordine per questa partita."
+            },
+            "end_night": {
+                "body": "Termina la notte e passa al giorno successivo."
             }
         },
         "night_choice": {
@@ -970,7 +1054,7 @@
             },
             "choice_banner": {
                 "title": "Registra la scelta",
-                "body": "Tocca i giocatori scelti, in ordine. Ognuno riceve un numero. Poi scegli i promemoria da posizionare e tocca la spunta. Ogni promemoria viene posizionato sui giocatori scelti in quell'ordine, finché non finiscono."
+                "body": "Tocca i giocatori scelti, in ordine. Ognuno riceve un numero. Se ci sono promemoria da posizionare, scegli quelli e tocca Conferma. Ogni promemoria viene posizionato sui giocatori scelti in quell'ordine, finché non finiscono. Altrimenti, la scelta viene salvata non appena viene selezionato l'ultimo giocatore."
             }
         },
         "preferences": {
@@ -1009,11 +1093,17 @@
             }
         },
         "account": {
+            "usr_stats": {
+                "body": "Il tuo storico da Narratore: partite condotte, quanto spesso vince ogni squadra, i tuoi copioni e ruoli più giocati. Una partita viene conteggiata quando arriva nel Grimorio, e il vincitore viene aggiunto quando termini la partita. Puoi anche importare le partite che hai condotto da un'esportazione di Clocktracker."
+            },
             "usr_favourites": {
                 "body": "I copioni a cui hai messo la stella nella schermata di preparazione. Tocca un copione per caricarlo. Aggiungi tag colorati per ordinarli, poi tocca un tag per filtrare l'elenco."
             },
             "usr_friends": {
                 "body": "Le persone con cui giochi. I loro nomi sono pronti da scegliere quando assegni i posti, così non devi scriverli ogni volta."
+            },
+            "usr_cards": {
+                "body": "Le carte che hai creato da mostrare ai giocatori. Tocca una carta per modificarla, oppure + per crearne una nuova. Sono anche nel menu Carte durante la partita."
             },
             "usr_games": {
                 "body": "Le partite che hai salvato dal menu Partita. Caricane una nella schermata di preparazione per riprendere da dove avevi lasciato."
@@ -1021,9 +1111,32 @@
             "usr_homebrew": {
                 "body": "I copioni homebrew che hai aggiunto alla ricerca. Tocca un copione per caricarlo, oppure tocca la croce per rimuoverlo dalla ricerca."
             },
+            "usr_notifications": {
+                "body": "Gli avvisi che hai salvato per un personaggio. Si attivano da soli ogni volta che quel personaggio è nel tuo Grimorio."
+            },
             "usr_logout": {
-                "body": "Esci dal tuo account Discord su questo dispositivo."
+                "body": "Esci dal Grimorio Digitale su questo dispositivo. Il tuo account Discord resta connesso."
             }
         }
+    },
+    "stats": {
+        "title": "Le mie statistiche",
+        "games": "Partite",
+        "finished": "{finished} partite su {started} sono terminate con un vincitore",
+        "good_wins": "Vittorie dei Buoni",
+        "evil_wins": "Vittorie dei Malvagi",
+        "average_players": "Media giocatori",
+        "top_scripts": "Copioni più giocati",
+        "top_roles": "Ruoli più usati",
+        "none_yet": "Nessuna partita finora. Le partite che conduci da connesso compaiono qui appena arrivano nel Grimorio.",
+        "clear": "Cancella le mie statistiche...",
+        "clear_confirm": "Eliminare tutte le partite registrate nelle tue statistiche? Questa azione non può essere annullata.",
+        "load_failed": "Impossibile caricare le tue statistiche.",
+        "clear_failed": "Impossibile cancellare le tue statistiche.",
+        "import_prompt": "Hai già condotto partite? Importa il CSV esportato da Clocktracker.",
+        "import": "Importa da Clocktracker",
+        "imported": "{count} partite importate da Clocktracker.",
+        "import_none": "Questo file non contiene partite che hai condotto come Narratore.",
+        "import_failed": "Impossibile importare questo file. Usa il CSV esattamente come lo ha esportato Clocktracker."
     }
 }

@@ -1,6 +1,7 @@
 {
     "common": {
         "icon": "Icon",
+        "icon_alt": "{name} icon",
         "show": "Show",
         "hide": "Hide",
         "close": "Close",
@@ -11,6 +12,7 @@
         "save": "Save",
         "edit": "Edit",
         "delete": "Delete",
+        "remove": "Remove",
         "clear": "Clear",
         "loading": "Loading…",
         "name": "Name",
@@ -19,6 +21,7 @@
         "reload": "Reload",
         "all": "All",
         "none": "None",
+        "no_matches": "No matches found",
         "layout": "Layout",
         "leaves": "Leaves",
         "player_numbers": "Player Numbers",
@@ -61,7 +64,6 @@
         "evil": "Evil",
         "send": "Send",
         "enabled": "Enabled",
-        "disabled": "Disabled",
         "end_game": "End Game",
         "resize": "Resize",
         "account": "Account",
@@ -70,7 +72,7 @@
         "faq": "FAQ",
         "discord": "Discord",
         "away": "Away",
-        "retry": "Try again"
+        "retry": "Try Again"
     },
     "errors": {
         "translation_database_only": "Sorry. Only scripts loaded from the database can be translated at this time.",
@@ -79,7 +81,44 @@
         "script_roles_failed": "Couldn't load this script's roles. Check your connection and try again.",
         "script_json_invalid": "Couldn't read that script. Check it's valid script JSON.",
         "roles_not_found": "Couldn't find these roles: {roles}",
-        "invalid_import_link": "This import link is broken or not supported, so nothing was loaded."
+        "invalid_import_link": "This import link is broken or not supported, so nothing was loaded.",
+        "request_failed": "Something went wrong. Check your connection and try again.",
+        "fetch_all_roles_failed": "Failed to fetch all roles.",
+        "fetch_role_failed": "Failed to fetch role.",
+        "fetch_role_details_failed": "Failed to fetch role details.",
+        "advanced_search_roles_failed": "Failed to fetch all roles. Advanced Search will not work.",
+        "advanced_search_failed": "Advanced Search Failed",
+        "night_order_failed": "Failed to fetch night order",
+        "script_suggestions_failed": "Failed to fetch script suggestions",
+        "load_script_failed": "Failed to load script.",
+        "script_from_url_failed": "Failed to get script from URL",
+        "script_data_failed": "Failed to fetch script data",
+        "save_custom_script_failed": "Saving Custom Script Failed. Script and Night Order sheets will not load.",
+        "add_to_search_failed": "Adding the script to search failed",
+        "remove_from_search_failed": "Removing the script from search failed",
+        "homebrew_scripts_failed": "Failed to fetch your homebrew scripts",
+        "script_versions_failed": "Failed to fetch script versions",
+        "travellers_failed": "Failed to fetch Travellers",
+        "fabled_failed": "Failed to fetch Fabled",
+        "loric_failed": "Failed to fetch Loric",
+        "translations_failed": "Failed to get translations",
+        "translated_role_failed": "Failed to fetch translated role.",
+        "toggle_favourite_failed": "Failed to toggle script favourited",
+        "update_script_tags_failed": "Failed to update script tags",
+        "fetch_profile_failed": "Failed to fetch user profile",
+        "fetch_favourites_failed": "Failed to fetch favourites",
+        "fetch_saved_games_failed": "Failed to fetch saved games",
+        "fetch_friends_failed": "Failed to fetch friends",
+        "save_friends_failed": "Failed to save friends",
+        "saved_game_url_failed": "Could not get saved game url",
+        "save_game_failed": "Failed to save game to profile",
+        "delete_saved_game_failed": "Could not delete saved game",
+        "fetch_settings_failed": "Failed to fetch user settings",
+        "save_settings_failed": "Failed to save user settings",
+        "fetch_custom_cards_failed": "Failed to fetch custom cards from profile",
+        "save_custom_card_failed": "Failed to save custom card to user profile",
+        "update_custom_card_failed": "Failed to update custom card",
+        "delete_custom_card_failed": "Failed to delete custom card"
     },
     "status": {
         "poisoned": "Poisoned",
@@ -101,14 +140,16 @@
     },
     "nav": {
         "brand": "Digital Grimoire",
+        "logo": "Logo",
+        "community_created": "Community Created Content",
+        "avatar": "Avatar",
         "offline": "Offline",
         "companion": "Player Companion",
         "game": {
             "title": "Game",
             "home": "New...",
             "save": "Save...",
-            "buy_grimoire": "Buy a Grimoire",
-            "town_view": "Town View"
+            "buy_grimoire": "Buy a Grimoire"
         },
         "sheets": {
             "rules": "Rules"
@@ -185,6 +226,7 @@
             "options": "Options",
             "results": "Results",
             "add_condition": "Add Condition",
+            "remove_condition": "Remove condition",
             "add_first_condition": "Add a condition to start searching.",
             "includes": "Includes",
             "excludes": "Excludes",
@@ -211,10 +253,11 @@
             "version": "Version",
             "previous": "Previous",
             "page": "Page {page} / {total}",
-            "next": "Next"
+            "next": "Next",
+            "results_pages": "Search results pages",
+            "toggle_favourite": "Toggle favourite"
         },
         "arrange": {
-            "title": "Rearrange Players"
         },
         "bluff": {
             "title": "THESE CHARACTERS ARE NOT IN PLAY",
@@ -258,8 +301,12 @@
             "title": "🎵 Music Loader",
             "music_tab": "Music",
             "sfx_tab": "Sound Effects",
+            "sfx_info": "Sound {current} of {total}",
             "track_info": "Track {current} of {total}",
+            "previous_track": "Previous Track",
+            "next_track": "Next Track",
             "volume": "Volume: {volume}%",
+            "volume_control": "Volume Control",
             "volume_unsupported": "Use your device's volume buttons to control audio level",
             "add_music_button": "Add Music Files",
             "playlist_title": "Playlist ({count} tracks)",
@@ -277,6 +324,8 @@
             "add_sfx_button": "Add Sound Effect",
             "sfx_interval_label": "Play at time remaining",
             "auto_fade_phase": "Fade volume on Day/Night",
+            "day_volume": "Day: {volume}%",
+            "night_volume": "Night: {volume}%",
             "sfx_volume": "SFX Volume: {volume}%"
         },
         "nomination": {
@@ -304,10 +353,6 @@
             "game_started": "Game started",
             "night_choice": "{name} ({role}) chose {targets}",
             "night_choice_none": "{name} ({role}) chose no one"
-        },
-        "notes": {
-            "title": "Notes",
-            "notes_label": "Notes"
         },
         "qr_sheet": {
             "open": "Open"
@@ -340,7 +385,6 @@
             "delete_confirmation_title": "Delete",
             "delete_confirmation_message": "Are you sure you want to delete {player} the {role}?",
             "notes_for": "Notes for {player}",
-            "save_notes": "Save Notes",
             "gain_ability": "Gain Ability",
             "notify_when": "Notify When",
             "notify_nominated": "Nominated",
@@ -348,20 +392,20 @@
             "notify_marked_dead": "Dead",
             "notify_player_chosen": "Chosen",
             "notify_note": "Note to show with the alert",
-            "notify_recurring": "Alert every time",
+            "notify_recurring": "Alert every time per game",
             "notify_reminder_carriers": "Roles marked with reminder:"
         },
         "town_arrange": {
-            "title": "Arrange Town Players",
+            "title": "Rearrange Players",
             "u_shape": "Smile"
         },
         "town": {
-            "view_title": "View Town",
+            "view_title": "Town View",
             "description_phones": "Your town is where this game lives. Share the code and players can get their role, read the script and track claims on their phones.",
-            "description_screen": "Your town is where this game lives. Open the town view on a TV for everyone to see. Your grimoire is stored on our server while a town is running.",
+            "description_screen": "Your town is where this game lives. Open the Town view on a TV for everyone to see. Your Grimoire is stored on our server while a town is running.",
             "delete_button": "Delete Town...",
             "code_label": "Town code",
-            "open_on_screen": "Open the town view on a TV or spare tablet:",
+            "open_on_screen": "Open the Town view on a TV or spare tablet:",
             "rename": "Rename town",
             "title": "Town",
             "screen_heading": "Big screen"
@@ -370,7 +414,7 @@
             "favourited_scripts": "Favourited Scripts",
             "name": "Name",
             "version": "Version",
-            "remove_from_favourites": "Remove from favourites",
+            "remove_from_favourites": "Remove from Favourites",
             "tags": "Tags",
             "add_tag": "Add tag",
             "tag_placeholder": "New tag...",
@@ -378,11 +422,11 @@
             "saved_games": "Saved Games",
             "homebrew_scripts": "Published Scripts",
             "no_homebrew_scripts": "You haven't added any homebrew scripts to search yet.",
-            "delete_saved_game": "Delete saved game",
+            "delete_saved_game": "Delete Saved Game",
             "no_games_saved": "No games saved yet.",
             "friends": "Friends",
             "add_friend": "Add Friend",
-            "remove_friend": "Remove friend",
+            "remove_friend": "Remove Friend",
             "no_friends": "No friends added yet.",
             "friend_name_placeholder": "Enter friend name...",
             "pronouns": "Pronouns",
@@ -393,7 +437,7 @@
             "load_disabled_in_game": "Can't load while a game is in progress",
             "login_sync_message": "Log in to sync your favourite scripts, friends list, and saved games across all your devices.",
             "prefs_token_info": "Token Info",
-            "edit_tags": "Edit tags",
+            "edit_tags": "Edit Tags",
             "sort": "Sort",
             "sort_name": "A to Z",
             "sort_recent": "Most recent",
@@ -413,7 +457,9 @@
             "default": "Default",
             "apply": "Apply",
             "custom": "Custom",
-            "gallery": "Gallery"
+            "gallery": "Gallery",
+            "option_alt": "Background option",
+            "saved_alt": "Saved background"
         },
         "clocktracker_export": {
             "title": "Send to Clocktracker",
@@ -502,9 +548,10 @@
         "select_more_roles": "Select {count} more roles to continue",
         "too_many_roles": "Remove {count} roles to continue",
         "too_many_travellers": "Remove {count} travellers (max 5) to continue",
-        "setup_warning": "Some chosen roles may alter the town composition. Please review before continuing.",
         "multiple_demons_warning": "Multiple demons detected that don't allow multiple instances.",
-        "unread_setup_warning": "Couldn't read the setup text of {roles}. Check their setup by hand.",
+        "unread_setup_warning": "The {role}'s ability will need to be checked manually.",
+        "bag_needs_role": "{owner} needs the {role} in play.",
+        "bag_changes": "To fit the setup rules: {changes}",
         "player_names": "Player Names",
         "player_placeholder": "Player {number}",
         "add_as_player": "Add as Player",
@@ -512,7 +559,8 @@
         "active": "Active",
         "no_players_added": "No players added yet.",
         "persist_players_prompt": "Persist your player names for future games by logging into Discord and adding them to your friends list.",
-        "clear": "Clear",
+        "clear": "Clear...",
+        "clear_players_confirm": "Clear every player from this game? Friends stay in your list.",
         "by": "by",
         "edit_names_optional": "Add Names (Optional)",
         "unknown": "unknown",
@@ -520,10 +568,12 @@
         "search_hint": "Search by name or URL.",
         "botc_scripts_available": "All scripts from botcscripts.com available.",
         "script_loaded": "Loaded {scriptName}",
-        "add_to_search": "Add to search",
+        "add_to_search": "Add to Search",
         "added_to_search": "Added to search",
-        "remove_from_search": "Remove from search",
+        "remove_from_search": "Remove from Search",
         "homebrew": "Homebrew",
+        "official_characters": "Official characters",
+        "homebrew_characters": "Homebrew characters",
         "from_json": "From JSON",
         "paste_json_placeholder": "Paste your script JSON here...",
         "from_file": "From File",
@@ -545,17 +595,21 @@
         "show_role_details": "Show Role Details",
         "hide_role_details": "Hide Role Details",
         "show_spy_view": "Show Spy View",
-        "hide_spy_view": "Hide Spy View",
+        "lock_tokens": "Lock Tokens",
+        "unlock_tokens": "Unlock Tokens",
+        "spy_put_seat_at_bottom": "Put a seat at the bottom",
+        "spy_seat_one_on_top": "Put seat 1 at the top",
+        "spy_reset_view": "Reset the view",
+        "spy_undo_changes": "Undo Changes",
+        "spy_show_all": "Show All",
+        "spy_move_up": "Move up",
+        "spy_move_down": "Move down",
         "rearrange_tokens": "Rearrange Players",
         "edit_background": "Edit Background...",
         "nominations": "Nominations",
         "town_view": "Town View ({townId})",
-        "delete": "Delete",
-        "delete_confirm": "Are you sure you want to delete {player} the {role}?",
-        "delete_confirm_no_player": "Are you sure you want to delete the {role}?",
         "notes_for": "Notes for {name}",
         "notes_placeholder": "Add any custom notes here...",
-        "save_notes": "Save Notes",
         "game_notes": "Game Notes",
         "town_info_alive": "Alive",
         "town_info_travellers": "Travellers",
@@ -577,6 +631,9 @@
         "tokens": "Tokens",
         "tap_bag_prompt": "Tap the bag to draw your token",
         "tap_token_prompt": "Tap a token to draw",
+        "draw_from_bag": "Draw a token from the bag",
+        "draw_token": "Draw token {number}",
+        "token_drawn": "Token {number} already drawn",
         "hold_to_reveal": "Hold to reveal",
         "draw_animation": "Draw animation",
         "player_name": "Player Name",
@@ -612,7 +669,7 @@
         "mode_pass_hint": "Each player draws their role, then passes the device on. Locked with your PIN.",
         "join_instructions": "Players go to {url} and enter the code",
         "players_joined": "{joined} of {total} joined",
-        "start_passing": "Start passing",
+        "start_passing": "Start Passing",
         "pass_to": "Pass the device to",
         "draw_my_character": "Draw my role",
         "hand_back": "Hand the device back to the Storyteller",
@@ -622,18 +679,28 @@
         "toggle_widgets": "Toggle Widgets",
         "info": "Info",
         "composition": "Composition",
-        "day_night": "Day/Night",
-        "grim": "Grim",
+        "show_info": "Show Info",
+        "hide_info": "Hide Info",
+        "show_composition": "Show Composition",
+        "hide_composition": "Hide Composition",
+        "show_timer": "Show Timer",
+        "hide_timer": "Hide Timer",
+        "show_day_night": "Show Day/Night",
+        "hide_day_night": "Hide Day/Night",
+        "show_companion": "Show Player Companion",
+        "hide_companion": "Hide Player Companion",
+        "show_night_order": "Show Night Order",
+        "hide_night_order": "Hide Night Order",
+        "hide_grim": "Hide Grimoire",
         "town": "Town",
-        "town_name_placeholder": "Town Name",
         "join": "Join",
         "disconnect": "Disconnect",
         "disconnected": "Disconnected",
         "connected_players": "Connected Players",
-        "no_town_info": "No town info available yet..",
-        "show_grim_title": "Show Grim?",
-        "show_grim_message": "Are you sure you want to reveal the Grim? This will show all roles to players.",
-        "yes_show_grim": "Yes, Show Grim",
+        "no_town_info": "No town info available yet.",
+        "show_grim_title": "Show Grimoire?",
+        "show_grim_message": "Are you sure you want to reveal the Grimoire? This will show all roles to players.",
+        "yes_show_grim": "Yes, Show Grimoire",
         "reveal_separately": "Reveal Separately",
         "tap_to_reveal": "Tap tokens to reveal roles",
         "reveal_all": "Reveal All",
@@ -641,7 +708,14 @@
         "congratulations_suffix": "team",
         "widget_dark_background": "Dark Widget Backgrounds",
         "edit_night_icons": "Edit Night Order Icons...",
-        "seat": "Seat"
+        "seat": "Seat",
+        "no_timer": "No timer active",
+        "timer_hint": "The timer will appear when the Storyteller starts one",
+        "timer_title": "Timer: {mode} - {time}",
+        "countdown": "Countdown",
+        "hours_short": "h",
+        "minutes_short": "m",
+        "seconds_short": "s"
     },
     "cards": {
         "this_is_the_demon": "THIS IS THE DEMON",
@@ -655,10 +729,12 @@
         "use_your_ability": "USE YOUR ABILITY?",
         "did_you_vote_today": "DID YOU VOTE TODAY?",
         "did_you_nominate_today": "DID YOU NOMINATE TODAY?",
-        "show_card": "Show Card..",
+        "show_card": "Show Card...",
         "create_custom_card": "Create Custom Card",
         "cards": "Cards",
-        "add_character": "Add Role"
+        "add_character": "Add Role",
+        "custom_cards": "Custom Cards",
+        "no_custom_cards": "No custom cards yet."
     },
     "controls": {
         "timer_expired_reset": "Timer Expired - Click to Reset",
@@ -674,7 +750,6 @@
     "bluffs": {
         "title": "Bluffs",
         "add_bluff_set": "Add Bluff Set",
-        "add_token": "Add Token",
         "add_bluffs": "Add Bluffs",
         "show_all_bluffs": "Show All Bluffs",
         "delete_set": "Delete Set",
@@ -710,9 +785,8 @@
         "nominates": "nominates",
         "to_tie": "to tie",
         "to_execute": "to execute",
-        "votes_needed_to": "Votes needed to",
-        "exile": "exile",
-        "execute": "execute"
+        "votes_needed_to_exile": "Votes needed to exile",
+        "votes_needed_to_execute": "Votes needed to execute"
     },
     "drawer": {
         "edit_player_name": "Edit player name",
@@ -727,7 +801,7 @@
     },
     "lock": {
         "title": "Storyteller Lock",
-        "description": "Require a 4-digit PIN before the grimoire can be revealed. This PIN is also used for Pass & Play mode.",
+        "description": "Require a 4-digit PIN before the Grimoire can be revealed. This PIN is also used for Pass & Play mode.",
         "arm": "Start Pass & Play",
         "exit": "Exit Pass & Play",
         "enrol_pin_prompt": "Choose a 4-digit PIN",
@@ -738,6 +812,7 @@
         "unlock_pin_prompt": "Enter your 4-digit PIN",
         "check_pin_prompt": "Enter your PIN to check you remember it",
         "unlock_pin_wrong": "Incorrect PIN",
+        "backspace": "Backspace",
         "unlock_throttled": "Too many attempts. Try again in {seconds}s.",
         "reset_hint": "Forgotten your PIN? Turn off Storyteller Lock in Settings."
     },
@@ -758,6 +833,7 @@
         "storyteller": "Storyteller",
         "storyteller_hint": "Set up and run the game",
         "player_hint": "Join a Town, See the Script and the Night Order",
+        "town_hint": "Show the Town on a TV for everyone to see",
         "youtube": "Watch on YouTube",
         "video_setup_title": "Quick Setup - Trouble Brewing",
         "video_setup_description": "Start a 7-player game of Trouble Brewing, from naming players to adding reminders.",
@@ -817,7 +893,7 @@
                 "body": "Pick how roles reach your players. You can change this later."
             },
             "call_up": {
-                "body": "Call each player up one at a time. You tap on their seat, they tap on the token bag to see their role."
+                "body": "Call each player to come see you one at a time. You tap their seat, they tap the token bag to see their role."
             },
             "pass": {
                 "body": "Hand the device round the circle. Each player draws their role, then passes it on. Your PIN locks the Grimoire so nobody can peek."
@@ -834,16 +910,16 @@
                 "body": "Open this to get players onto their phones."
             },
             "set_up_seats": {
-                "body": "Assign player names to seats, manually assign roles to seats (travellers for instance). Both are optional."
+                "body": "Press here to assign player names to seats, or roles to seats (travellers, for instance). Both are optional."
             },
             "names": {
-                "body": "Tap a name to put that player in the next empty seat. Tap a seat to clear it."
+                "body": "Tap a name to put that player in the next empty seat. If you want to remove someone from a seat, tap that seat."
             },
             "add_names": {
                 "body": "Tap here to add names if you don't see any below."
             },
             "roles": {
-                "body": "Tap a role, then a seat, to assign that role to the seat. Handy for travellers."
+                "body": "The tour has switched to the Roles tab. Tap a role, then a seat, to assign that role to the seat. Handy for travellers."
             },
             "skip_draw": {
                 "body": "Give every empty seat a random role and skip the draw."
@@ -880,31 +956,30 @@
         "grimoire": {
             "good_player": {
                 "title": "A good player",
-                "body": "This player is on the good team. Tap a player to open their menu. Drag to move them."
+                "body": "Tap a player to open their menu. Drag to move them. This one's blue artwork shows they're on the good team. During the game, a teal border marks an Outsider."
             },
             "evil_player": {
                 "title": "An evil player",
-                "body": "This player is on the evil team. Each token's artwork shows which team that player is on."
+                "body": "This one's red artwork shows they're on the evil team. During the game, a dark red border marks the Demon."
             },
             "seat_menu": {
                 "title": "Player menu",
-                "body": "Show Fullscreen, Add Reminders, Mark as Dead, Swap, Change Alignment and open the tools menu. Tap outside the menu to close it.",
-                "body_evil": "Show Fullscreen, Add Reminders, Add a Bluff Reminder, Mark as Dead, Swap, Change Alignment and open the tools menu. Tap outside the menu to close it."
+                "body": "Tapping a player opens this menu. Clockwise from the top: Show, Reminders, Bluff, Mark as Dead, Swap, Change Alignment, Tools. In the day you'll also see Nominate. Tap outside the menu to close it."
             },
             "add": {
                 "title": "Add",
-                "body": "Add demon bluffs, extra roles and reminder tokens."
+                "body": "Press this button to add demon bluffs, extra roles and reminder tokens."
             },
             "night_order": {
-                "body": "Opens the night order pane which guides you through who to wake each night."
+                "body": "Press this button to open the night order pane, which guides you through who to wake each night."
             },
             "phase": {
                 "title": "Day and night",
-                "body": "Move the game forward to the next day or night."
+                "body": "The right arrow moves the game on to the next day or night. The left arrow goes back one step, if you need to fix something."
             },
             "view": {
                 "title": "View",
-                "body": "Rearrange seats, open the Spy view, read the game history or change the background."
+                "body": "Rearrange Players (pick a layout and drag players into order), open the Spy view, read the game history or change the background."
             },
             "town": {
                 "title": "Town",
@@ -922,7 +997,7 @@
                 "body": "Lock the tokens in place so they can't be dragged by accident. They lock by themselves when the game ends."
             },
             "gr_notes": {
-                "body": "Your own notes for the whole game. Notes about one player go in that player's token menu."
+                "body": "Your own notes for the whole game. You can make notes for one player in that player's token menu."
             },
             "gr_timer": {
                 "body": "Set a countdown for the day, or run a stopwatch. Once it's set, tap the time to pause it or carry on."
@@ -940,7 +1015,7 @@
             },
             "town_state": {
                 "title": "Town state",
-                "body": "The person icon shows the number of living players. It turns yellow at 4 and red at 3 or fewer. The suitcase denotes the number of travellers. The skull is dead players. The hand shows how many votes are remaining, ghost votes included. It turns red when there aren't enough votes left to exceed the current on-the-block total. The tick shows the number of votes required to lift the current person off the block."
+                "body": "The person icon shows the number of living players. It turns yellow at 4 and red at 3 or fewer. The skull is dead players. The hand shows how many votes are remaining, ghost votes included. It turns red when there aren't enough votes left to exceed the current on-the-block total. The tick shows the number of votes required to lift the current person off the block. If there are travellers, the suitcase shows how many."
             },
             "end_game": {
                 "title": "End game",
@@ -948,6 +1023,9 @@
             }
         },
         "night": {
+            "night_pane": {
+                "body": "Who to wake tonight, in order."
+            },
             "night_cards": {
                 "body": "Open the Cards menu to show a player a card, or make your own."
             },
@@ -962,6 +1040,12 @@
             "unplaced_reminders": {
                 "title": "Unplaced reminders",
                 "body": "The number is how many of this role's reminders are not in the Grimoire yet. Tap to see them, then drag one onto a player."
+            },
+            "edit_night_order": {
+                "body": "Change the order for this game."
+            },
+            "end_night": {
+                "body": "End the night and move on to the next day."
             }
         },
         "night_choice": {
@@ -970,7 +1054,7 @@
             },
             "choice_banner": {
                 "title": "Record the choice",
-                "body": "Tap the players they chose, in order. Each one gets a number. Then pick the reminders to place and tap the tick. Each reminder goes on the chosen players in that order, until it runs out."
+                "body": "Tap the players they chose, in order. Each one gets a number. If there are reminders to place, pick them and tap Confirm. Each reminder goes on the chosen players in that order, until it runs out. If not, the choice saves as soon as the last player is picked."
             }
         },
         "preferences": {
@@ -1009,11 +1093,17 @@
             }
         },
         "account": {
+            "usr_stats": {
+                "body": "Your record as Storyteller: games run, how often each team wins, and your most played scripts and roles. Games count once they reach the Grimoire, and the winner is added when you end the game. You can also import the games you ran from a Clocktracker export."
+            },
             "usr_favourites": {
                 "body": "Scripts you've starred on the setup screen. Tap one to load it. Add coloured tags to sort them, then tap a tag to filter the list."
             },
             "usr_friends": {
                 "body": "People you play with. Their names are ready to pick when you seat players, so you don't have to type them each time."
+            },
+            "usr_cards": {
+                "body": "Cards you've made to show players. Tap one to edit it, or + to make a new one. They're in the Cards menu during a game too."
             },
             "usr_games": {
                 "body": "Games you've saved from the Game menu. Load one on the setup screen to carry on where you left off."
@@ -1021,9 +1111,32 @@
             "usr_homebrew": {
                 "body": "Homebrew scripts you've added to search. Tap one to load it, or tap the cross to remove it from search."
             },
+            "usr_notifications": {
+                "body": "Alerts you've saved for a character. They switch on by themselves whenever that character is in your Grimoire."
+            },
             "usr_logout": {
-                "body": "Log out of your Discord account on this device."
+                "body": "Log out of the Digital Grimoire on this device. Your Discord account stays logged in."
             }
         }
+    },
+    "stats": {
+        "title": "My Stats",
+        "games": "Games",
+        "finished": "{finished} of {started} games ended with a winner",
+        "good_wins": "Good wins",
+        "evil_wins": "Evil wins",
+        "average_players": "Average players",
+        "top_scripts": "Most played scripts",
+        "top_roles": "Most used roles",
+        "none_yet": "No games yet. Games you run while logged in show up here once they reach the Grimoire.",
+        "clear": "Clear My Stats...",
+        "clear_confirm": "Delete every game logged to your stats? This can't be undone.",
+        "load_failed": "Couldn't load your stats.",
+        "clear_failed": "Couldn't clear your stats.",
+        "import_prompt": "Ran games before? Import the CSV you exported from Clocktracker.",
+        "import": "Import from Clocktracker",
+        "imported": "Imported {count} games from Clocktracker.",
+        "import_none": "That file has no games you ran as Storyteller.",
+        "import_failed": "Couldn't import that file. Use the CSV exactly as Clocktracker exported it."
     }
 }

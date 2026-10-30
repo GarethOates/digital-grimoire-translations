@@ -3,8 +3,8 @@
         "id": "dusk",
         "edition": "special",
         "name": "Iltarusko",
-        "firstNightReminder": "Aloita Yövaihe.",
-        "otherNightReminder": "Aloita Yövaihe.",
+        "firstNightReminder": "Aloita yövaihe.",
+        "otherNightReminder": "Aloita yövaihe.",
         "firstNight": 1,
         "otherNight": 1
     },
@@ -12,8 +12,8 @@
         "id": "dawn",
         "edition": "special",
         "name": "Sarastus",
-        "firstNightReminder": "Odota muutama sekunti. Päätä Yövaihe.",
-        "otherNightReminder": "Odota muutama sekunti. Päätä Yövaihe.",
+        "firstNightReminder": "Odota muutama sekunti. Päätä yövaihe.",
+        "otherNightReminder": "Odota muutama sekunti. Päätä yövaihe.",
         "firstNight": 73,
         "otherNight": 93
     },
@@ -22,7 +22,7 @@
         "edition": "special",
         "name": "Kätyritieto",
         "team": "minion",
-        "firstNightReminder": "Jos pelissä on 7 pelaajaa tai enemmän, herätä kaikki Kätyrit: Näytä *TÄMÄ ON DEMONI* -merkki. Osoita Demonia. Näytä *NÄMÄ OVAT KÄTYRISI* -merkki. Osoita muita Kätyreitä.",
+        "firstNightReminder": "Jos pelissä on 7 pelaajaa tai enemmän, herätä kaikki kätyrit: Näytä *TÄMÄ ON DEMONI* -merkki. Osoita demonia. Näytä *NÄMÄ OVAT KÄTYRISI* -merkki. Osoita muita kätyreitä.",
         "firstNight": 15,
         "otherNight": 0
     },
@@ -31,7 +31,7 @@
         "edition": "special",
         "name": "Demonitieto",
         "team": "demon",
-        "firstNightReminder": "Jos pelissä on 7 pelaajaa tai enemmän, herätä Demoni: Näytä *NÄMÄ OVAT KÄTYRISI* -merkki. Osoita kohti kaikkia Kätyreitä. Näytä *NÄMÄ HAHMOT EIVÄT OLE PELISSÄ* -merkki. Näytä 3 ei-pelissä-olevaa hyvää hahmoa.",
+        "firstNightReminder": "Jos pelissä on 7 pelaajaa tai enemmän, herätä demoni: Näytä *NÄMÄ OVAT KÄTYRISI* -merkki. Osoita kaikkia kätyreitä. Näytä *NÄMÄ HAHMOT EIVÄT OLE PELISSÄ* -merkki. Näytä 3 hyvää hahmoa, jotka eivät ole pelissä.",
         "firstNight": 19,
         "otherNight": 0
     },
@@ -41,7 +41,7 @@
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 43,
-        "firstNightReminder": "Näytä merkitty Kyläläinen. Osoita sekä *KYLÄLÄINEN* että *VÄÄRÄ* -pelaajia.",
+        "firstNightReminder": "Näytä kyläläishahmon hahmomerkki. Osoita sekä *KYLÄLÄINEN*- että *VÄÄRÄ*-pelaajia.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
@@ -49,24 +49,24 @@
             "Väärä"
         ],
         "setup": false,
-        "ability": "Aloitat tietäen, että 1 kahdesta pelaajasta on tietty Kyläläinen.",
+        "ability": "Tiedät pelin alussa, että 1 kahdesta pelaajasta on tietty kyläläinen.",
         "special": null
     },
     {
         "id": "librarian",
-        "name": "Kirjastonhoitaja",
+        "name": "Arkistoija",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 44,
-        "firstNightReminder": "Näytä Hylkiö-hahmomerkki. Osoita sekä *HYLKIÖ* että *VÄÄRÄ* -pelaajia kohti.",
+        "firstNightReminder": "Näytä muukalaishahmon hahmomerkki. Osoita sekä *MUUKALAINEN*- että *VÄÄRÄ*-pelaajia kohti.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Hylkiö",
+            "Muukalainen",
             "Väärä"
         ],
         "setup": false,
-        "ability": "Aloitat tietäen, että 1 kahdesta pelaajasta on tietty Hylkiö. (Tai ettei pelissä ole yhtään.)",
+        "ability": "Tiedät pelin alussa, että 1 kahdesta pelaajasta on tietty muukalainen (tai ettei pelissä ole yhtään).",
         "special": null
     },
     {
@@ -75,7 +75,7 @@
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 45,
-        "firstNightReminder": "Näytä yksi Kätyri-merkki. Osoita sekä *KÄTYRI* että *VÄÄRÄ* -pelaajia.",
+        "firstNightReminder": "Näytä kätyrihahmon hahmomerkki. Osoita sekä *KÄTYRI*- että *VÄÄRÄ*-pelaajia.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
@@ -83,7 +83,7 @@
             "Väärä"
         ],
         "setup": false,
-        "ability": "Aloitat tietäen, että 1 kahdesta pelaajasta on tietty Kätyri.",
+        "ability": "Tiedät pelin alussa, että 1 kahdesta pelaajasta on tietty kätyri.",
         "special": null
     },
     {
@@ -97,7 +97,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Aloitat tietäen, kuinka monta paria pahoja pelaajia istuu vierekkäin.",
+        "ability": "Tiedät pelin alussa, kuinka monta paria pahoja pelaajia istuu vierekkäin.",
         "special": null
     },
     {
@@ -111,7 +111,7 @@
         "otherNightReminder": "Anna sormimerkki.",
         "reminders": [],
         "setup": false,
-        "ability": "Joka yö, saat tietää kuinka moni 2 elävästä naapuristasi on paha.",
+        "ability": "Joka yö saat tietää kuinka moni 2 elävästä naapuristasi on paha.",
         "special": null
     },
     {
@@ -120,14 +120,14 @@
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 48,
-        "firstNightReminder": "Ennustaja valitsee 2 pelaajaa. Nyökkää jos jompikumpi on Demoni (tai *HARHAUTUS*).",
+        "firstNightReminder": "Ennustaja valitsee 2 pelaajaa. Nyökkää, jos jompikumpi on demoni (tai *HARHAUTUS*).",
         "otherNight": 70,
-        "otherNightReminder": "Ennustaja valitsee 2 pelaajaa. Nyökkää jos jompikumpi on Demoni (tai *HARHAUTUS*).",
+        "otherNightReminder": "Ennustaja valitsee 2 pelaajaa. Nyökkää, jos jompikumpi on demoni (tai *HARHAUTUS*).",
         "reminders": [
             "Harhautus"
         ],
         "setup": false,
-        "ability": "Joka yö, valitse 2 pelaajaa: saat tietää jos toinen näistä on demoni. Yksi hyvä pelaaja näyttäytyy Demonina.",
+        "ability": "Joka yö valitset 2 pelaajaa: saat tietää, onko jompikumpi heistä demoni. Näet yhden hyvistä pelaajista demonina.",
         "special": null
     },
     {
@@ -140,10 +140,10 @@
         "otherNight": 71,
         "otherNightReminder": "Jos pelaaja teloitettiin tänään, näytä tämän hahmo.",
         "reminders": [
-            "Kuoli Tänään"
+            "Kuoli tänään"
         ],
         "setup": false,
-        "ability": "Joka yö*, saat tietää mikä hahmo kuoli teloitukseen tänään.",
+        "ability": "Joka yö* saat tietää päivällä teloitukseen kuolleen pelaajan hahmon.",
         "special": null
     },
     {
@@ -159,7 +159,7 @@
             "Turvassa"
         ],
         "setup": false,
-        "ability": "Joka yö*, valitse pelaaja (ei itseäsi): tämä on turvassa Demonilta tänä yönä.",
+        "ability": "Joka yö* valitset pelaajan (ei itseäsi): hän on turvassa demonilta tänä yönä.",
         "special": null
     },
     {
@@ -170,10 +170,10 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 68,
-        "otherNightReminder": "Jos Korpinkesyttäjä kuoli yöllä, saa Korpinkesyttäjä valita pelaajan. Näytä valitun pelaajan hahmo.",
+        "otherNightReminder": "Jos Korpinkesyttäjä kuoli yöllä, saa tämä valita pelaajan. Näytä valitun pelaajan hahmo.",
         "reminders": [],
         "setup": false,
-        "ability": "Jos kuolet yöllä, heräät valitsemaan pelaajan: saat tietää tämän hahmon.",
+        "ability": "Jos kuolet yöllä, heräät valitsemaan pelaajan: saat tietää hänen hahmonsa.",
         "special": null
     },
     {
@@ -186,15 +186,15 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Ei Kykyä"
+            "Ei kykyä"
         ],
         "setup": false,
-        "ability": "1. kerta, kun sinut nimitetään, ja nimeäjä on Kyläläinen, teloitetaan tämä heti.",
+        "ability": "Kun sinut nimitetään ensimmäisen kerran, nimittänyt pelaaja teloitetaan välittömästi, jos hän on kyläläinen.",
         "special": null
     },
     {
         "id": "slayer",
-        "name": "Lahtari",
+        "name": "Surmaaja",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 0,
@@ -202,10 +202,10 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Ei Kykyä"
+            "Ei kykyä"
         ],
         "setup": false,
-        "ability": "Kerran pelissä, päivällä, valitse pelaaja julkisesti: jos tämä on Demoni, hän kuolee.",
+        "ability": "Kerran pelissä, päivällä, voit valita pelaajan julkisesti: jos hän on demoni, hän kuolee.",
         "special": null
     },
     {
@@ -219,12 +219,12 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Olet turvassa Demonilta.",
+        "ability": "Olet turvassa demonilta.",
         "special": null
     },
     {
         "id": "mayor",
-        "name": "Pormestari",
+        "name": "Vouti",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 0,
@@ -233,7 +233,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Mikäli vain 3 pelaajaa on elossa eikä ketään teloiteta, voittaa joukkueesi. Jos kuolet yöllä, saattaa joku toinen kuolla sijastasi.",
+        "ability": "Jos vain 3 pelaajaa on elossa eikä ketään teloiteta, joukkueesi voittaa. Jos kuolet yöllä, joku toinen saattaa kuolla sijastasi.",
         "special": null
     },
     {
@@ -249,7 +249,7 @@
             "Isäntä"
         ],
         "setup": false,
-        "ability": "Joka yö, valitse pelaaja (ei itseäsi): saat äänestää huomenna vain, jos tämä äänestää myös.",
+        "ability": "Joka yö valitset pelaajan (ei itseäsi): saat äänestää huomenna vain, jos hän äänestää.",
         "special": null
     },
     {
@@ -263,7 +263,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": true,
-        "ability": "Et tiedä olevasi Juoppo. Uskot olevasi jokin Kyläläishahmo, mutta et ole.",
+        "ability": "Et tiedä olevasi Juoppo. Luulet olevasi yksi kyläläishahmoista, vaikket ole.",
         "special": [
             {
                 "type": "selection",
@@ -280,7 +280,7 @@
     },
     {
         "id": "recluse",
-        "name": "Rastuli",
+        "name": "Hylkiö",
         "edition": "tb",
         "team": "outsider",
         "firstNight": 0,
@@ -289,7 +289,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Saatat näyttäytyä pahana & Kätyrinä tai Demonina, vaikka olisit kuollut.",
+        "ability": "Saatat tulla nähdyksi pahana & kätyrinä tai demonina, vaikka olisit kuollut.",
         "special": null
     },
     {
@@ -303,7 +303,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Jos kuolet teloitukseen, joukkueesi häviää.",
+        "ability": "Jos kuolet teloittamalla, joukkueesi häviää.",
         "special": null
     },
     {
@@ -319,7 +319,7 @@
             "Myrkytetty"
         ],
         "setup": false,
-        "ability": "Joka yö, valitse pelaaja: tämä on myrkytetty tämän yön ja huomisen päivän.",
+        "ability": "Joka yö valitset pelaajan: hän on myrkytetty tämän yön ja huomisen päivän ajan.",
         "special": null
     },
     {
@@ -328,28 +328,28 @@
         "edition": "tb",
         "team": "minion",
         "firstNight": 63,
-        "firstNightReminder": "Näytä Loitsukirjaa Vakoojalle niin kauan kuin tarvii.",
+        "firstNightReminder": "Näytä Loitsukirjaa vakoojalle niin kauan kuin hän tarvitsee.",
         "otherNight": 85,
-        "otherNightReminder": "Näytä Loitsukirjaa Vakoojalle niin kauan kuin tarvii.",
+        "otherNightReminder": "Näytä Loitsukirjaa Vakoojalle niin kauan kuin hän tarvitsee.",
         "reminders": [],
         "setup": false,
-        "ability": "Joka yö, saat nähdä Loitsukirjan. Saatat näyttäytyä hyvänä & Kyläläisenä tai Hylkiönä, vaikka olisit kuollut.",
+        "ability": "Joka yö näet Loitsukirjan. Saatat tulla nähdyksi hyvänä & kyläläisenä tai muukalaisena, vaikka olisit kuollut.",
         "special": null
     },
     {
         "id": "scarletwoman",
-        "name": "Punahuuli",
+        "name": "Syöjätär",
         "edition": "tb",
         "team": "minion",
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 28,
-        "otherNightReminder": "Jos Punahuulesta tuli Demoni tänään, näytä hänelle *SINÄ OLET* -merkki, sitten Demonimerkki.",
+        "otherNightReminder": "Jos Syöjättärestä tuli tänään demoni, näytä hänelle *SINÄ OLET*- ja demoni-merkit.",
         "reminders": [
-            "On Demoni"
+            "On demoni"
         ],
         "setup": false,
-        "ability": "Jos 5 tai useampi pelaajaa on elossa & Demoni kuolee, sinusta tulee Demoni. (Kulkureita ei lasketa.)",
+        "ability": "Jos demoni kuolee, kun pelissä on 5 elossa olevaa pelaajaa tai enemmän, sinusta tulee demoni. (Matkaajia ei lasketa mukaan.)",
         "special": null
     },
     {
@@ -363,7 +363,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": true,
-        "ability": "Pelissä on ylimääräisiä Hylkiöitä. [+2 Hylkiötä]",
+        "ability": "Pelissä on tavallista enemmän muukalaisia. [+2 muukalaista]",
         "special": null
     },
     {
@@ -379,7 +379,7 @@
             "Kuollut"
         ],
         "setup": false,
-        "ability": "Joka yö*, valitse pelaaja: tämä kuolee. Jos tapat itsesi näin, yhdestä Kätyristäsi tulee uusi Piru.",
+        "ability": "Joka yö* valitset pelaajan: hän kuolee. Jos tapat itsesi tällä tavoin, yksi kätyreistäsi muuttuu Piruksi.",
         "special": null
     },
     {
@@ -392,7 +392,7 @@
         "otherNight": 2,
         "otherNightReminder": "Byrokraatti valitsee pelaajan. :reminder:",
         "reminders": [
-            "3 Ääntä"
+            "3 ääntä"
         ],
         "setup": false,
         "ability": "Joka yö, valitse pelaaja (ei itseäsi): tämän ääni vastaa 3 ääntä huomenna.",
@@ -408,7 +408,7 @@
         "otherNight": 3,
         "otherNightReminder": "Varas valitsee pelaajan. :reminder:",
         "reminders": [
-            "Negatiivinen Ääni"
+            "Negatiivinen ääni"
         ],
         "setup": false,
         "ability": "Joka yö, valitse pelaaja (ei itseäsi): heidän äänensä lasketaan negatiivisena huomenna.",
@@ -582,7 +582,7 @@
             "Juopunut 3",
             "Juopunut 2",
             "Juopunut 1",
-            "Ei Kykyä"
+            "Ei kykyä"
         ],
         "setup": false,
         "ability": "Kerran pelissä, yöllä, valitse hahmo: tämä on juopunut 3 yön & 3 päivän ajan.",
@@ -599,7 +599,7 @@
         "otherNightReminder": "Professori saattaa valita kuolleen pelaajan. :reminder: :reminder:",
         "reminders": [
             "Elossa",
-            "Ei Kykyä"
+            "Ei kykyä"
         ],
         "setup": false,
         "ability": "Kerran pelissä, yöllä*, valitse kuollut pelaaja: jos tämä on Kyläläinen, herää hän henkiin.",
@@ -615,15 +615,15 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Kaikki ovat Juopuneita"
+            "Kaikki ovat juopuneita"
         ],
         "setup": false,
-        "ability": "Kun Kätyri teloitetaan, ovat kaikki muut (paitsi Kulkurit) juopuneita huomisiltaan asti.",
+        "ability": "Kun kätyri teloitetaan, ovat kaikki muut (paitsi matkaajat) juopuneita huomisiltaan asti.",
         "special": null
     },
     {
         "id": "tealady",
-        "name": "Teerouva",
+        "name": "Teetäti",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
@@ -662,7 +662,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Ei Kykyä"
+            "Ei kykyä"
         ],
         "setup": false,
         "ability": "Kun kuolet 1. kerran, et kuole.",
@@ -722,7 +722,7 @@
         "edition": "bmr",
         "team": "outsider",
         "firstNight": 14,
-        "firstNightReminder": "Jos pelissä on 7 pelaajaa tai enemmän, herätä Mielipuoli: Näytä *NÄMÄ OVAT KÄTYRISI* -merkki. Osoita keitä tahansa pelaajia. Näytä *NÄMÄ HAHMOT EIVÄT OLE PELISSÄ* -merkki. Näytä 3 hyvää hahmoa. Laita Mielipuoli takaisin nukkumaan. Herätä Demoni. Näytä \"SINÄ OLET\" -merkki ja Demonimerkki. Näytä \"TÄMÄ PELAAJA ON\" -tietomerkki sekä Mielipuolimerkki ja osoita sitten Mielipuolta.",
+        "firstNightReminder": "Jos pelissä on 7 pelaajaa tai enemmän, herätä Mielipuoli: Näytä *NÄMÄ OVAT KÄTYRISI* -merkki. Osoita keitä tahansa pelaajia. Näytä *NÄMÄ HAHMOT EIVÄT OLE PELISSÄ* -merkki. Näytä 3 hyvää hahmoa. Laita Mielipuoli takaisin nukkumaan. Herätä demoni. Näytä \"SINÄ OLET\" -merkki ja demonimerkki. Näytä \"TÄMÄ PELAAJA ON\" -merkki sekä Mielipuoli-merkki ja osoita sitten Mielipuolta.",
         "otherNight": 30,
         "otherNightReminder": "Tee mitä vain tarvitseekin teeskennelläksesi Demonin toimintaa. Laita Mielipuoli nukkumaan. Herätä Demoni. Näytä Mielipuolimerkki & osoita tätä kohti, sitten tämän kohteita.",
         "reminders": [
@@ -740,28 +740,28 @@
         "edition": "bmr",
         "team": "minion",
         "firstNight": 29,
-        "firstNightReminder": "Näytä kaikkien pelissä olevien Hylkiöiden hahmot.",
+        "firstNightReminder": "Näytä kaikkien pelissä olevien muukalaisten hahmot.",
         "otherNight": 52,
-        "otherNightReminder": "Jos Hylkiö kuoli tänään, Kummisetä valitsee pelaajan. :reminder:",
+        "otherNightReminder": "Jos muukalainen kuoli tänään, Kummisetä valitsee pelaajan. :reminder:",
         "reminders": [
-            "Kuoli Tänään",
+            "Kuoli tänään",
             "Kuollut"
         ],
         "setup": true,
-        "ability": "Aloitat tietäen, mitkä Hylkiöt ovat pelissä. Jos 1 kuoli tänään, valitse tänä yönä pelaaja: tämä kuolee. [-1 tai +1 Hylkiö]",
+        "ability": "Tiedät pelin alussa, mitkä muukalaiset ovat pelissä. Jos 1 kuoli tänään, valitset tänä yönä pelaajan: hän kuolee. [-1 tai +1 muukalainen]",
         "special": null
     },
     {
         "id": "devilsadvocate",
-        "name": "Poleemikko",
+        "name": "Paholaisen Asianajaja",
         "edition": "bmr",
         "team": "minion",
         "firstNight": 31,
-        "firstNightReminder": "Poleemikko valitsee elävän pelaajan. :reminder:",
+        "firstNightReminder": "Paholaisen Asianajaja valitsee elävän pelaajan. :reminder:",
         "otherNight": 21,
-        "otherNightReminder": "Poleemikko valitsee elävän pelaajan. :reminder:",
+        "otherNightReminder": "Paholaisen Asianajaja valitsee elävän pelaajan. :reminder:",
         "reminders": [
-            "Selviytyy Teloituksesta"
+            "Selviytyy teloituksesta"
         ],
         "setup": false,
         "ability": "Joka yö, valitse elävä pelaaja (eri kuin viime yönä): tämä ei kuole, jos tulee huomenna teloitetuksi.",
@@ -778,7 +778,7 @@
         "otherNightReminder": "Salamurhaaja saattaa valita pelaajan. :reminder: :reminder:",
         "reminders": [
             "Kuollut",
-            "Ei Kykyä"
+            "Ei kykyä"
         ],
         "setup": false,
         "ability": "Kerran pelissä, yöllä*, valitse pelaaja: tämä kuolee, vaikka jostain syystä ei muuten voisi.",
@@ -808,7 +808,7 @@
         "otherNight": 36,
         "otherNightReminder": "Jos kukaan ei tänään kuollut, Vainaja valitsee pelaajan. :reminder:",
         "reminders": [
-            "Kuoli Tänään",
+            "Kuoli tänään",
             "Kuollut"
         ],
         "setup": false,
@@ -864,7 +864,7 @@
             "Kuollut",
             "Kuollut",
             "Kuollut",
-            "3 Hyökkäystä"
+            "3 hyökkäystä"
         ],
         "setup": false,
         "ability": "Joka yö*, voit valita pelaajan: hän kuolee. Jos et viimeksi valinnut ketään, valitse tänä yönä 3 pelaajaa.",
@@ -910,7 +910,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Ei Kykyä"
+            "Ei kykyä"
         ],
         "setup": false,
         "ability": "Kerran pelissä, jos toinen pelaaja teki nimityksen, voit halutessasi pakottaa teloituksen suoraan läpi tai epäonnistumaan.",
@@ -926,8 +926,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Nimeä Hyvä",
-            "Nimeä Paha"
+            "Nimitä hyvä",
+            "Nimitä paha"
         ],
         "setup": false,
         "ability": "Vain Tarinankertoja voi nimittää. Ainakin 1 vastapuolen pelaaja täytyy nimittää joka päivä.",
@@ -972,7 +972,7 @@
         "otherNightReminder": "Uneksija osoittaa pelaajaa. Näytä 1 hyvän & 1 pahan hahmon merkki, joista toinen on kohteen hahmo.",
         "reminders": [],
         "setup": false,
-        "ability": "Joka yö, valitse pelaaja (ei itseäsi tai Kulkuria): saat tietää 1 hyvän & 1 pahan hahmon, joista 1 on oikein.",
+        "ability": "Joka yö valitset pelaajan (ei itseäsi tai matkaajaa): saat tietää 1 hyvän & 1 pahan hahmon, joista toinen on hänen hahmonsa.",
         "special": null
     },
     {
@@ -1021,8 +1021,8 @@
         "otherNight": 73,
         "otherNightReminder": "Nyökkää tai pudista päätäsi.",
         "reminders": [
-            "Demoni Äänesti",
-            "Demoni Ei Äänestänyt"
+            "Demoni äänesti",
+            "Demoni ei äänestänyt"
         ],
         "setup": false,
         "ability": "Joka yö*, saat tietää äänestikö Demoni tänään.",
@@ -1030,7 +1030,7 @@
     },
     {
         "id": "towncrier",
-        "name": "Julkihuutaja",
+        "name": "Kailottaja",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1038,8 +1038,8 @@
         "otherNight": 74,
         "otherNightReminder": "Joko nyökkää tai pudista päätäsi.",
         "reminders": [
-            "Kätyrit Eivät Nimittäneet",
-            "Kätyri Nimitti"
+            "Kätyri ei nimittänyt",
+            "Kätyri nimitti"
         ],
         "setup": false,
         "ability": "Joka yö*, saat tietää, nimittikö Kätyri tänään.",
@@ -1083,7 +1083,7 @@
         "otherNight": 76,
         "otherNightReminder": "Räätäli saattaa valita 2 pelaajaa. Nyökkää tai pudista päätäsi. :reminder:",
         "reminders": [
-            "Ei Kykyä"
+            "Ei kykyä"
         ],
         "setup": false,
         "ability": "Kerran pelissä, yöllä, valitse 2 pelaajaa (ei itseäsi): saat tietää, ovatko nämä samalla puolella.",
@@ -1115,7 +1115,7 @@
     },
     {
         "id": "artist",
-        "name": "Taiteilija",
+        "name": "Artisti",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1123,7 +1123,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Ei Kykyä"
+            "Ei kykyä"
         ],
         "setup": false,
         "ability": "Kerran pelissä, päivän aikana, voit yksityisesti kysyä Kertojalta minkä tahansa kyllä/ei -kysymyksen.",
@@ -1174,7 +1174,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Jos olet \"raivoissasi\" siitä, että olet Hylkiö, saatat joutua teloitetuksi.",
+        "ability": "Jos \"hourailet\" olevasi muukalainen, saatat tulla teloitetuksi.",
         "special": null
     },
     {
@@ -1225,7 +1225,7 @@
     },
     {
         "id": "eviltwin",
-        "name": "Paha Kaksonen",
+        "name": "Paha kaksonen",
         "edition": "snv",
         "team": "minion",
         "firstNight": 32,
@@ -1265,10 +1265,10 @@
         "otherNight": 23,
         "otherNightReminder": "Mielenhäiriö valitsee pelaajan & hahmon. :reminder: Laita Mielenhäiriö nukkumaan. Herätä kohde. Näytä *TÄMÄ HAHMO VALITSI SINUT*& Mielenhäiriö -merkit, sitten valittu raivona-hahmosta-merkki.",
         "reminders": [
-            "Raivoaa"
+            "Hourailee"
         ],
         "setup": false,
-        "ability": "Joka yö, valitse pelaaja & hyvä hahmo: pelaaja on \"raivona\" siitä, että on tämä hahmo, tai saattaa joutua teloitetuksi.",
+        "ability": "Joka yö valitset pelaajan & hyvän hahmon: pelaajan on \"hourailtava\" olevansa tämä hahmo tai hän saattaa tulla teloitetuksi.",
         "special": null
     },
     {
@@ -1293,13 +1293,13 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 40,
-        "otherNightReminder": "RiivaaJa valitsee pelaajan. :reminder: Jos tämä valitsee Hylkiön (vain kerran): Vaihda Hylkiö-merkki ylimääräiseen RiivaaJa-merkkiin. Laita RiivaaJa nukkumaan. Herätä kohde. Näytä *SINÄ OLET* ja RiivaaJA -merkit & peukku alas. :reminder:",
+        "otherNightReminder": "RiivaaJa valitsee pelaajan. :reminder: Jos hän valitsi muukalaisen (vain kerran): Korvaa muukalainen-merkki uudella RiivaaJa-merkillä. Laita RiivaaJa nukkumaan. Herätä kohde. Näytä *SINÄ OLET*- ja RiivaaJA-merkit & peukku alas. :reminder:",
         "reminders": [
             "Kuollut",
             "Kerran"
         ],
         "setup": true,
-        "ability": "Joka yö*, valitse pelaaja: tämä kuolee. 1. valitsemasi Hylkiö muuttuu RiivaaJaksi & kuolet itse. [+1 Hylkiö]",
+        "ability": "Joka yö* valitset pelaajan: hän kuolee. 1. valitsemasi muukalainen muuttuu RiivaaJaksi & kuolet itse. [+1 muukalainen]",
         "special": null
     },
     {
@@ -1313,15 +1313,15 @@
         "otherNightReminder": "Puhkikuolio valitsee pelaajan. :reminder: Jos tuo pelaaja on Kätyri, myrkytä viereinen Kyläläinen. :reminder: :reminder:",
         "reminders": [
             "Kuollut",
-            "On Kyky",
-            "On Kyky",
-            "On Kyky",
+            "Sai kyvyn",
+            "Sai kyvyn",
+            "Sai kyvyn",
             "Myrkytetty",
             "Myrkytetty",
             "Myrkytetty"
         ],
         "setup": true,
-        "ability": "Joka yö*, valitse pelaaja: tämä kuolee. Tappamasi Kätyrit säilyttävät kykynsä & myrkyttävät 1 Kyläläisnaapurinsa. [-1 Hylkiö]",
+        "ability": "Joka yö* valitset pelaajan: hän kuolee. Tappamasi kätyrit säilyttävät kykynsä & myrkyttävät 1 kyläläisnaapurinsa. [-1 muukalainen]",
         "special": null
     },
     {
@@ -1368,8 +1368,8 @@
         "otherNight": 1,
         "otherNightReminder": "Valitse pelaaja. Herätä tämä, näytä *TÄMÄ HAHMO VALITSI SINUT* & Barista -merkit, näytä sitten sormimerkki. :reminder:",
         "reminders": [
-            "Raitis & Terve",
-            "Toimii Kahdesti",
+            "Raitis & terve",
+            "Toimii kahdesti",
             "?",
             "?"
         ],
@@ -1418,8 +1418,8 @@
         "otherNight": 5,
         "otherNightReminder": "Luunkerääjä voi valita kuolleen pelaajan. :reminder: Jos tarpeen, herätä valittu pelaaja käyttämään kykyään.",
         "reminders": [
-            "Ei Kykyä",
-            "On Kyky"
+            "Ei kykyä",
+            "Sai kyvyn"
         ],
         "setup": false,
         "ability": "Kerran pelissä, yöllä*, valitse kuollut pelaaja: tämä saa kykynsä takaisin iltaan saakka.",
@@ -1436,7 +1436,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Jos olit hauska tänään, et voi kuolla karkotukseen.",
+        "ability": "Jos olit hauska tänään, sinua ei voi karkottaa.",
         "special": null
     },
     {
@@ -1459,7 +1459,7 @@
     },
     {
         "id": "bountyhunter",
-        "name": "Palkkionmetsästäjä",
+        "name": "Luutteri",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 60,
@@ -1483,8 +1483,8 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Raivoaa",
-            "On Kyky"
+            "Hourailee",
+            "Sai kyvyn"
         ],
         "setup": false,
         "ability": "Aloitat tietäen 1 pelissä olevan Kyläläisen. Jos olit raivoissasi siitä, että olit tämä hahmo, saat tämän kyvyn heidän kuoltuaan.",
@@ -1514,9 +1514,9 @@
         "otherNight": 10,
         "otherNightReminder": "Saarnaaja valitsee pelaajan. :reminder: Jos Kätyri valittiin: Laita Saarnaaja nukkumaan. Herätä kohde. Näytä *TÄMÄ HAHMO VALITSI SINUT* & Saarnaaja -merkit.",
         "reminders": [
-            "Ei Kykyä",
-            "Ei Kykyä",
-            "Ei Kykyä"
+            "Ei kykyä",
+            "Ei kykyä",
+            "Ei kykyä"
         ],
         "setup": false,
         "ability": "Joka yö, valitse pelaaja: valituksi joutunut Kätyri saa tietää asiasta. Valituilla Kätyreillä ei ole kykyään.",
@@ -1549,7 +1549,7 @@
             "Tietää"
         ],
         "setup": true,
-        "ability": "Joka yö, saat tietää pelaajan, joka on eri hahmoluokkaa kuin edellisyönä. [+0 tai +1 Hylkiötä]",
+        "ability": "Joka yö saat tietää pelaajan, joka on eri hahmoluokkaa kuin edellisyönä. [+0 tai +1 muukalaista]",
         "special": null
     },
     {
@@ -1580,7 +1580,7 @@
             "Kuollut"
         ],
         "setup": false,
-        "ability": "Joka yö*, valitse elävä pelaaja. Hyvä kohde kuolee & Demoni ei tapa yöllä. Yksi hyvä pelaaja näyttäytyy pahana.",
+        "ability": "Joka yö*, valitse elävä pelaaja. Hyvä kohde kuolee & Demoni ei tapa yöllä. Yksi hyvä pelaaja näyttäytyy Demonina.",
         "special": null
     },
     {
@@ -1611,7 +1611,7 @@
         "otherNight": 82,
         "otherNightReminder": "Yövahti saa valita pelaajan. Laita Yövahti takaisin nukkumaan. Herätä kohde. Näytä *TÄMÄ PELAAJA ON* & Yövahti -merkit ja osoita Yövahtia. :reminder:",
         "reminders": [
-            "Ei Kykyä"
+            "Ei kykyä"
         ],
         "setup": false,
         "ability": "Kerran pelissä, yöllä, valitse pelaaja: tämä saa tietää, että olet Yövahti.",
@@ -1623,11 +1623,11 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 19,
-        "firstNightReminder": "Insinööri voi valita Kätyrit tai Demonit. Laita Insinööri nukkumaan. Herätä kohteet yksi kerrallaan. Näytä *SINÄ OLET* & tämän uusi hahmo -merkit. :reminder:",
+        "firstNightReminder": "Insinööri voi valita kätyrit tai demonit. Laita Insinööri nukkumaan. Herätä kohteet yksi kerrallaan. Näytä *SINÄ OLET* & tämän uusi hahmo -merkit. :reminder:",
         "otherNight": 9,
-        "otherNightReminder": "Insinööri voi valita Kätyrit tai Demonit. Laita Insinööri nukkumaan. Herätä kohteet yksi kerrallaan. Näytä *SINÄ OLET* & tämän uusi hahmo -merkit. :reminder:",
+        "otherNightReminder": "Insinööri voi valita kätyrit tai demonit. Laita Insinööri nukkumaan. Herätä kohteet yksi kerrallaan. Näytä *SINÄ OLET* & tämän uusi hahmo -merkit. :reminder:",
         "reminders": [
-            "Ei Kykyä"
+            "Ei kykyä"
         ],
         "setup": false,
         "ability": "Kerran pelissä, yöllä, valitse mitkä Kätyrit tai mikä Demoni on pelissä.",
@@ -1643,7 +1643,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Ei Kykyä"
+            "Ei kykyä"
         ],
         "setup": false,
         "ability": "Kerran pelissä päiväsaikaan, voit käydä Tarinankertojan luona saadaksesi voittoneuvoja.",
@@ -1659,7 +1659,7 @@
         "otherNight": 61,
         "otherNightReminder": "Metsästäjä voi valita pelaajan. :reminder: Jos tämä valitsee Neidon: Laita Metsästäjä nukkumaan. Herätä kohde. Näytä *SINÄ OLET* & tämän uusi hahmo -merkit.",
         "reminders": [
-            "Ei Kykyä"
+            "Ei kykyä"
         ],
         "setup": true,
         "ability": "Kerran pelissä, yöllä, valitse elävä pelaaja: jos valitsit Neidon, tämä muuttuu joksikin ei-pelissä-olevaksi Kyläläiseksi. [+Neito]",
@@ -1707,7 +1707,7 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 12,
-        "firstNightReminder": "",
+        "firstNightReminder": "Osoita kätyreille Taikuria ja demonia kätyrien tiedonannon aikana. Osoita demonille tämän tiedonannossa Taikuria ja kätyreitä.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
@@ -1735,11 +1735,11 @@
         "edition": "",
         "team": "townsfolk",
         "firstNight": 10,
-        "firstNightReminder": "Ohita Kätyri- ja Demonitiedot. Herätä Demoni. Näytä *NÄMÄ HAHMOT EIVÄT OLE PELISSÄ* -merkkiä. Näytä 3 ei-pelissä-olevaa hyvää hahmoa.",
+        "firstNightReminder": "Ohita kätyri- ja demonitiedonannot. Herätä demoni. Näytä *NÄMÄ HAHMOT EIVÄT OLE PELISSÄ* -merkkiä. Näytä 3 hyvää hahmoa, jotka eivät ole pelissä.",
         "otherNight": 7,
         "otherNightReminder": "Jos Unikkotarhuri kuoli, herätä kaikki Kätyrit. Näytä *TÄMÄ ON DEMONI* -merkki. Osoita kohti Demonia. Laita Kätyrit nukkumaan. Herätä Demoni. Näytä *NÄMÄ OVAT KÄTYRISI* -merkki. Osoita kaikkia Kätyreitä.",
         "reminders": [
-            "Paha Herää"
+            "Paha herää"
         ],
         "setup": false,
         "ability": "Kätyrit ja Demonit eivät tiedä toisiaan. Jos kuolet, he saavat kuulla toisistaan tuona yönä.",
@@ -1818,7 +1818,7 @@
         "otherNightReminder": "",
         "reminders": [
             "Juopunut",
-            "Arvaus Käytetty"
+            "Arvaus käytetty"
         ],
         "setup": false,
         "ability": "1 pelaaja on juopunut, vaikka kuolisit. Jos arvaat (kerran) kuka se on, saat tietää, kuka Demoni on, muuten saat väärää tietoa.",
@@ -1844,11 +1844,11 @@
         "edition": "",
         "team": "outsider",
         "firstNight": 41,
-        "firstNightReminder": "Näytä Kätyreille Neito-merkki Kätyrien tiedonannon aikana. Jos et olekin jo niin tehnyt, tee se nyt. Jos Metsästäjä valitsee Neidon, näytä tälle *SINÄ OLET* & tämän uusi hahmo -merkit.",
+        "firstNightReminder": "Näytä kätyreille Neito-merkki kätyrien tiedonannon aikana. Jos et olekin jo niin tehnyt, tee se nyt. Jos Metsästäjä valitsee Neidon, näytä tälle *SINÄ OLET* & tämän uusi hahmo -merkit.",
         "otherNight": 62,
         "otherNightReminder": "Jos Metsästäjä valitsee Neidon, näytä tälle *SINÄ OLET* & tämän uusi hahmo -merkit.",
         "reminders": [
-            "Arvaus Käytetty"
+            "Arvaus käytetty"
         ],
         "setup": false,
         "ability": "Kätyrit tietävät, että pelissä on Neito. Jos kätyri arvaa sinut julkisesti (kerran), joukkueesi häviää.",
@@ -1864,7 +1864,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Ei Voi Nimetä"
+            "Ei voi nimetä"
         ],
         "setup": false,
         "ability": "Voit nimittää vain kerran pelissä. Näin tehdessäsi, jos nimitetty ei ole Demoni, tämä kuolee.",
@@ -1957,8 +1957,8 @@
         "otherNight": 27,
         "otherNightReminder": "Jos hyvä pelaaja sanoi salaisen sanan, herätä tämä pelaaja. Näytä *SINÄ OLET* -merkki & peukkua alas. :reminder: :reminder:",
         "reminders": [
-            "Muuttuu Pahaksi",
-            "Ei Kykyä"
+            "Muuttuu pahaksi",
+            "Ei kykyä"
         ],
         "setup": false,
         "ability": "Aloitat tietäen salaisen sanan. 1. hyvä pelaaja joka tämän sanan sanoo, muuttuu tulevana yönä pahaksi.",
@@ -2012,7 +2012,7 @@
         "firstNight": 21,
         "firstNightReminder": "Herätä Kätyrit. Nämä valitsevat pelaajan. :reminder: Laita Kätyrit nukkumaan. Herätä kohde. Näytä *SINÄ OLET* & Pikku Riiviö -merkit.",
         "otherNight": 48,
-        "otherNightReminder": "Herätä Kätyrit, jotka valitsevat pelaajan. Laita Kätyrit nukkumaan. Herätä kohde. Näytä *SINÄT OLET* & Pikku Riiviö -merkit. Pelaaja saattaa kuolla. :reminder:",
+        "otherNightReminder": "Herätä Kätyrit, jotka valitsevat pelaajan. Laita Kätyrit nukkumaan. Herätä kohde. Näytä *SINÄT OLET* & Pikku Riiviö -merkit. Pelaaja saattaa kuolla. :reminder: :reminder:",
         "reminders": [],
         "setup": true,
         "ability": "Joka yö, Kätyrit valitsevat kuka hoitaa Pikku Riiviötä & \"on Demoni\". Joka yö*, pelaaja saattaa kuolla. [+1 Kätyri]",
@@ -2063,7 +2063,7 @@
             "3"
         ],
         "setup": false,
-        "ability": "Joka yö*, voit valita 3 pelaajaa (kaikki saavat tietää ketkä): kukin heistä valitsee hiljaa elää tai kuolla, mutta jos kaikki jäävät eloon, kaikki kuolevat.",
+        "ability": "Joka yö*, valitse 3 pelaajaa (kaikki saavat tietää): kolmikko valitsee elää tai kuolla, mutta jos kaikki jäävät eloon, kaikki kuolevat.",
         "special": null
     },
     {
@@ -2098,7 +2098,7 @@
             "Päivä 3",
             "Päivä 4",
             "Päivä 5",
-            "Hyvä Pelaaja Teloitettiin"
+            "Hyvä pelaaja teloitettiin"
         ],
         "setup": false,
         "ability": "Jos enemmän kuin 1 hyvä pelaaja teloitetaan, paha voittaa. Kaikki tietävät, että olet pelissä. Paha voittaa 5. päivän päätteeksi.",
@@ -2112,7 +2112,7 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 0,
-        "otherNightReminder": "",
+        "otherNightReminder": "Vaihda Mellakan muistutusmerkki asiaankuuluvaan päivään. :reminder: Jos on 3. yö, voit herättää Kätyrit. Näytä *SINÄ OLET* & Mellakka -merkit.",
         "reminders": [
             "Päivä 1",
             "Päivä 2",
@@ -2142,9 +2142,9 @@
         "edition": "",
         "team": "minion",
         "firstNight": 30,
-        "firstNightReminder": "",
+        "firstNightReminder": "Posetiivari joko nyökkää päätään juopuakseen tai pudistaa päätään pysyäkseen raittiina. :reminder:",
         "otherNight": 20,
-        "otherNightReminder": "",
+        "otherNightReminder": "Posetiivari joko nyökkää päätään juopuakseen tai pudistaa päätään pysyäkseen raittiina. :reminder:",
         "reminders": [
             "Kuolee",
             "Juopunut"
@@ -2211,7 +2211,7 @@
         "otherNightReminder": "Osoita pelaajaa.",
         "reminders": [],
         "setup": false,
-        "ability": "Joka yö, saat tietää kenelle kannattaisi Tarinankertojan mielestä puhua pikimmiten.",
+        "ability": "Joka yö, saat tietää kenen kanssa sinun kannattaisi Tarinankertojan mielestä jutella.",
         "special": null
     },
     {
@@ -2224,11 +2224,11 @@
         "otherNight": 26,
         "otherNightReminder": "Harpyija valitse 2 pelaajaa. :reminder: :reminder: Laita Harpyija nukkumaan. Herätä 1. kohde. Näytä *TÄMÄ HAHMO VALITSI SINUT* & Harpyija -merkit, ja osoita kohti 2. kohdetta.",
         "reminders": [
-            "Raivoaa",
+            "Hourailee",
             "2."
         ],
         "setup": false,
-        "ability": "Joka yö, valitse 2 pelaajaa: huomenna 1. raivoaa, että 2. on paha, tai toinen tai molemmat saattavat kuolla.",
+        "ability": "Joka yö, valitse 2 pelaajaa: huomenna 1. raivoaa, että 2. on paha, tai molemmat saattavat kuolla.",
         "special": null
     },
     {
@@ -2239,12 +2239,12 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 0,
-        "otherNightReminder": "",
+        "otherNightReminder": "Jos Ruttotohtori kuoli, tarinankertoja sai kätyrin kyvyn. Jos et tehnyt tätä vielä, tee se nyt. :reminder:",
         "reminders": [
-            "Kertojan Kyky"
+            "Tarinankertojan kyky"
         ],
         "setup": false,
-        "ability": "Kun kuolet, Kertoja saa jonkin Kätyrin kyvyn.",
+        "ability": "Kun kuolet, tarinankertoja saa jonkin kätyrin kyvyn.",
         "special": null
     },
     {
@@ -2287,7 +2287,7 @@
         "otherNight": 54,
         "otherNightReminder": "Jos Hatuntekijä kuoli, herätä Kätyrit & Demonit. Jokainen voi valita itselleen uuden hahmon. Jos nämä vaihtavat, näytä *SINÄ OLET* & uuden hahmon -merkit.",
         "reminders": [
-            "Teekutsut Tänä Yönä"
+            "Teekutsut tänä yönä"
         ],
         "setup": false,
         "ability": "Jos kuolit tänään tai tänä yönä, Kätyrit ja Demoni voivat valita itselleen uudet Kätyri- ja Demonihahmot.",
@@ -2306,7 +2306,7 @@
             "Kuollut"
         ],
         "setup": true,
-        "ability": "Joka yö*, valitse pelaaja: tämä kuolee. [Valitset, mitkä pelaajat ovat mitkäkin kätyrit. -? - +? Hylkiötä]",
+        "ability": "Joka yö* valitset pelaajan: hän kuolee. [Saat päättää kätyriesi pelaajat ja heidän hahmonsa. -? - +? muukalaista]",
         "special": null
     },
     {
@@ -2322,7 +2322,7 @@
             "Juopunut"
         ],
         "setup": true,
-        "ability": "Joka yö, valitse pelaaja: saat tietää millä puolella tämä on. [+0 - +2 Kylähullua. 1 ylimääräisistä on juopunut.]",
+        "ability": "Joka yö valitset pelaajan: saat tietää, onko hän hyvä vai paha. [+0–+2 Kylähullua. 1 ylimääräisistä on juopunut.]",
         "special": null
     },
     {
@@ -2340,7 +2340,7 @@
             "Kuollut"
         ],
         "setup": false,
-        "ability": "Aloitat tietäen salaisen fraasin. Pelaaja saattaa kuolla jokaista sen tänään julkisesti sanomaasi kertaa kohden.",
+        "ability": "Aloitat tietäen salaisen fraasin. Pelaaja saattaa kuolla jokaista sen julkisesti sanomaasi kertaa kohden.",
         "special": null
     },
     {
@@ -2371,7 +2371,7 @@
         "otherNight": 58,
         "otherNightReminder": "Jos Demoni tappoi Aaveen tänä yönä, ilmoita julkisesti, että Aave on kuollut. :reminder:",
         "reminders": [
-            "On Kyky"
+            "Sai kyvyn"
         ],
         "setup": false,
         "ability": "Jos Demoni tappaa sinut, kaikki pelaajat saavat tietää tämän. Voit tästä lähin nimittää kahdesti päivässä ja äänestää kahdesti per nimitys.",
@@ -2418,7 +2418,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": false,
-        "ability": "Mikäli eläviä pelaajia on 5 tai enemmän, on sinun äänestettävä joka nimityksessä.",
+        "ability": "Jos elossa olevia pelaajia on 5 tai enemmän, sinun on äänestettävä jokaista nimitettyä.",
         "special": []
     },
     {
@@ -2434,7 +2434,7 @@
             "Kuollut"
         ],
         "setup": true,
-        "ability": "Joka yö*, valitse pelaaja: tämä kuolee. [Pahat ovat rivissä & sinä olet keskellä. +1 Kätyri. -? tai +? Hylkiötä]",
+        "ability": "Joka yö* valitset pelaajan: hän kuolee. [Pahat ovat rivissä & sinä olet keskellä. +1 kätyri. -? tai +? muukalaista]",
         "special": []
     },
     {
@@ -2457,9 +2457,9 @@
         "edition": "",
         "team": "traveller",
         "firstNightReminder": "",
-        "otherNightReminder": "Valitse ennen sarastusta pelaaja, jolla ei ole \"EI MINUA\" -merkkiä. Herätä kohde. Näytä *SINÄ OLET* & tämän uusi hahmomerkki.",
+        "otherNightReminder": "Valitse ennen sarastusta pelaaja, jolla ei ole *EI MINUA*-merkkiä. Herätä kohde. Näytä *SINÄ OLET*-merkki & hänen uusi hahmomerkkinsä.",
         "reminders": [
-            "Ei Minua"
+            "Ei minua"
         ],
         "setup": false,
         "ability": "Valitse joka päivä pelaaja: toisen pelaajan hahmo muuttuu yöllä.",
@@ -2488,9 +2488,9 @@
         "edition": "",
         "team": "minion",
         "firstNight": 23,
-        "firstNightReminder": "",
+        "firstNightReminder": "Jos X on 1, merkitse Tavaton *X* -muistutuksella. :reminder: :reminder:",
         "otherNight": 11,
-        "otherNightReminder": "",
+        "otherNightReminder": "Vaihda Tavaton-muistutus asiaankuuluvaan yöhön. Jos on yö X, merkitse Tavaton *X* -merkillä. :reminder: :reminder:",
         "reminders": [
             "Yö 1",
             "Yö 2",
@@ -2498,7 +2498,7 @@
             "X"
         ],
         "setup": true,
-        "ability": "Yönä X, kaikki Kyläläiset ovat myrkytettyjä iltaan asti. [X Hylkiötä]",
+        "ability": "Yönä X, kaikki kyläläiset ovat myrkytettyjä iltaan asti. [X muukalaista]",
         "special": []
     },
     {
@@ -2533,7 +2533,7 @@
             "3"
         ],
         "setup": true,
-        "ability": "Sinulla on kaikkien Hylkiöiden kyvyt. [-0 tai -1 Hylkiötä]",
+        "ability": "Sinulla on kaikkien muukalaisten kyvyt. [-0 tai -1 muukalaista]",
         "special": []
     },
     {
@@ -2546,7 +2546,7 @@
         "otherNight": 33,
         "otherNightReminder": "Jos Prinsessan nimittämä pelaaja teloitetaan tänään, herätä Demoni normaalisti yöllä, mutta kukaan ei kuole Demonin kykyyn. :reminder:",
         "reminders": [
-            "Ei Tapa"
+            "Ei tapa"
         ],
         "setup": false,
         "ability": "Ensimmäisenä päivänäsi, jos nimitit & teloitutit pelaajan, Demoni ei tapa tänä yönä.",
@@ -2579,13 +2579,13 @@
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
-        "firstNightReminder": "",
+        "firstNightReminder": "Ilmoita ketkä ovat Enkelin suojeluksessa. :reminder:",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
             "Suojattu",
             "Suojattu",
-            "Jotain Ikävää"
+            "Jotain ikävää"
         ],
         "setup": false,
         "ability": "Jotain ikävää saattaa tapahtua sille, joka on eniten vastuussa uuden pelaajan kuolemasta.",
@@ -2610,7 +2610,7 @@
     },
     {
         "id": "tor",
-        "firstNightReminder": "Ohita Kätyri- ja Demonitiedot.",
+        "firstNightReminder": "Ohita kätyri- ja demonitiedonannot.",
         "otherNightReminder": "Jos pelaaja kuoli tänä yönä, näytä *SINÄ OLET*, tämän hahmo & peukku -merkit.",
         "setup": true,
         "edition": "loric",
@@ -2628,12 +2628,12 @@
         "reminders": [],
         "edition": "loric",
         "team": "loric",
-        "ability": "Jokainen nimitetty valitsee pelaajan: äänestykseen asti vain tämä saa puhua, ja hänen on raivottava siitä, että nimitetty on hyvä, tai hän saattaa kuolla."
+        "ability": "Nimetyt valitsevat puolustuspuhujansa: tämän on oltava raivokkaasti sitä mieltä, että nimetty on hyvä, tai saattaa itse kuolla."
     },
     {
         "id": "ventriloquist",
         "reminders": [
-            "Raivoaa"
+            "Hourailee"
         ],
         "firstNightReminder": "",
         "otherNightReminder": "",
@@ -2657,19 +2657,19 @@
         "team": "loric",
         "edition": "loric",
         "ability": "Yhdellä tai useammalla pelaajalla on tavoite. Sen saavuttaessaan pelaaja oppii jonkin tositiedon.",
-        "flavor": "The universe is a verb not a noun, they say, and it is turtles, turtles all the way down. Turtles all the way down, my friend, turtles all the way down."
+        "flavor": "Maailmankaikkeus on verbi, ei substantiivi, sanotaan, ja se on kilpikonnia, kilpikonnia aina alas asti. Kilpikonnia aina alas asti, ystäväiseni, kilpikonnia aina alas asti."
     },
     {
         "id": "hindu",
         "name": "Hindulaine",
         "team": "loric",
         "edition": "loric",
-        "ability": "Neljä ensimmäisenä kuolevaa pelaajaa syntyy välittömästi takaisin samaa puolta edustaviksi Kulkureiksi.",
+        "ability": "Ensimmäiset 4 kuollutta pelaajaa syntyvät välittömästi uudelleen samaa puolta edustavina matkaajina.",
         "setup": false,
         "firstNightReminder": "",
         "otherNightReminder": "",
         "reminders": [],
-        "flavor": ""
+        "flavor": "Kun neljä kuoleman syliin kaatuu, neljä matkaajaa ain tilalle nousee"
     },
     {
         "id": "knaves",
@@ -2678,8 +2678,8 @@
         "name": "Veijarit",
         "team": "loric",
         "edition": "loric",
-        "ability": "Tarinankertojia on 2: toinen valehtelee ja toinen puhuu totta. Kerran pelissä, iltahämärissä, he saattavat vaihtaa osia.",
-        "flavor": "Every wall is a door. Every meal is a feast."
+        "ability": "Tarinankertojia on 2: valehtelija & totuudenpuhuja. Kerran pelissä, iltaruskossa, tilanne saattaa kääntyä.",
+        "flavor": "Joka seinä on ovi. Joka ateria on juhla."
     },
     {
         "id": "pope",
@@ -2691,7 +2691,7 @@
         "firstNightReminder": "",
         "otherNightReminder": "",
         "reminders": [],
-        "flavor": ""
+        "flavor": "...Pulcherrimae."
     },
     {
         "id": "buddhist",
@@ -2699,7 +2699,7 @@
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
-        "firstNightReminder": "",
+        "firstNightReminder": "Ilmoita keihin Buddhalainen vaikuttaa.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [],
@@ -2759,11 +2759,11 @@
         "firstNight": 0,
         "firstNightReminder": "",
         "otherNight": 1,
-        "otherNightReminder": "",
+        "otherNightReminder": "Yksi kerrallaan: Herätä pelaajat joilla on *VIERAILIJA* tai *VÄÄRÄ TIETO* -merkki. Näytä *TÄMÄ HAHMO VALITSI SINUT* & Herttuatar -merkit, näytä sitten sormimerkki.",
         "reminders": [
             "Vierailija",
             "Vierailija",
-            "Väärä Tieto"
+            "Väärä tieto"
         ],
         "setup": false,
         "ability": "Joka päivä, 3 pelaajaa voi vierailla luonasi. Vierailijat saavat yöllä* tietää, kuinka moni heistä oli pahoja, mutta 1 saa väärää tietoa.",
@@ -2793,7 +2793,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Ei Kykyä"
+            "Ei kykyä"
         ],
         "setup": false,
         "ability": "Kerran pelissä, 1 hyvä pelaaja saattaa saada virheellistä tietoa.",
@@ -2833,11 +2833,11 @@
             "Hattu"
         ],
         "setup": false,
-        "name": "Ugin Jumala",
+        "name": "Jumal-Ug",
         "team": "loric",
         "edition": "loric",
-        "ability": "Yksi Ug-hattu. Kun pitää Ug-hattu, puhua vain yksi äänne kerrallaan, mutta äänestää kahdesti. Jos epäonnistua, antaa Ug-hattu eteenpäin.",
-        "flavor": "Blessed are my children, for they see the beauty in simple things.",
+        "ability": "Yksi Ug-hattu. Ug-hattu käyttää, lausuu yksi äänne kerta, mut äänes kaks. Jos hylky, Ug-hattu pois.",
+        "flavor": "Siunattuja ovat lapseni, sillä he näkevät yksinkertaisuuden kauneuden.",
         "special": [
             {
                 "type": "vote",
@@ -2860,7 +2860,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Jotain Ikävää"
+            "Jotain ikävää"
         ],
         "setup": false,
         "ability": "Jotain pahaa saattaa tapahtua sille, joka puhuu, kun Tarinankertoja on pyytänyt hiljaisuutta.",
@@ -2876,7 +2876,7 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Näyttäytyy Väärin?",
+            "Näyttäytyy väärin?",
             "Liitossa",
             "Liitossa"
         ],
@@ -2895,7 +2895,7 @@
         "otherNightReminder": "",
         "reminders": [],
         "setup": true,
-        "ability": "Pelissä saattaa olla 1 Hylkiö enemmän tai vähemmän.",
+        "ability": "Pelissä saattaa olla 1 muukalainen enemmän tai vähemmän kuin tavallisesti.",
         "special": null
     },
     {
@@ -2908,10 +2908,10 @@
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
-            "Ei Enää Pahoja"
+            "Ei enää pahoja"
         ],
         "setup": false,
-        "ability": "Pelissä voi olla korkeintaan 1 ylimääräinen paha pelaaja.",
+        "ability": "Pelissä voi olla korkeintaan 1 paha pelaaja enemmän kuin tavallisesti.",
         "special": null
     },
     {
@@ -2920,7 +2920,7 @@
         "edition": "",
         "team": "fabled",
         "firstNight": 1,
-        "firstNightReminder": "",
+        "firstNightReminder": "Ilmoita, mikä hahmo on myrskynsieppaama. Jos hahmo on pelissä, merkitse pelaajaa *MYRSKYNSIEPPAAMA* -merkillä. Herätä pahat pelaajat ja näytä heille valittu hahmomerkki ja pelaaja. Jos hahmo ei ole pelissä, herätä pahat pelaajat, näytä heille *NÄMÄ HAHMOT EIVÄT OLE PELISSÄ* -merkki ja asiaankuuluva hahmomerkki.",
         "otherNight": 0,
         "otherNightReminder": "",
         "reminders": [
@@ -2936,11 +2936,11 @@
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
-        "firstNightReminder": "",
+        "firstNightReminder": "Jaa kaikki kätyri- ja demonitiedot, vaikka pelaajia olisikin alle 7.",
         "otherNight": 1,
-        "otherNightReminder": "",
+        "otherNightReminder": "Jos Demonin hyökkäys voisi päättää pelin, ja Demoni on merkitty *VIIMEINEN YÖ: EI HYÖKKÄÄ*, älä herätä Demonia.",
         "reminders": [
-            "Viimeinen Yö: Ei hyökkäystä"
+            "Viimeinen yö: ei hyökkäystä"
         ],
         "setup": false,
         "ability": "Demoni saa valita olla hyökkäämättä & tämän täytyy ainakin kerran pelissä näin tehdäkin. Pahat pelaajat saavat normaalit aloitustiedot.",

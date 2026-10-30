@@ -1,6 +1,7 @@
 {
     "common": {
         "icon": "Icône",
+        "icon_alt": "Icône de {name}",
         "show": "Afficher",
         "hide": "Cacher",
         "close": "Fermer",
@@ -11,6 +12,7 @@
         "save": "Enregistrer",
         "edit": "Modifier",
         "delete": "Supprimer",
+        "remove": "Retirer",
         "clear": "Effacer",
         "loading": "Chargement…",
         "name": "Nom",
@@ -19,6 +21,7 @@
         "reload": "Actualiser",
         "all": "Tous",
         "none": "Aucun",
+        "no_matches": "Aucun résultat trouvé",
         "layout": "Disposition",
         "leaves": "Feuilles",
         "player_numbers": "Numéros des joueurs",
@@ -61,7 +64,6 @@
         "select_role": "Sélectionner un rôle...",
         "select_icon": "Sélectionner une icône...",
         "enabled": "Activé",
-        "disabled": "Désactivé",
         "end_game": "Fin de partie",
         "resize": "Redimensionner",
         "account": "Compte",
@@ -74,14 +76,16 @@
     },
     "nav": {
         "brand": "Grimoire Numérique",
+        "logo": "Logo",
+        "community_created": "Contenu créé par la communauté",
+        "avatar": "Avatar",
         "offline": "Hors ligne",
         "companion": "Compagnon du joueur",
         "game": {
             "title": "Jeu",
             "home": "Nouveau...",
             "save": "Enregistrer...",
-            "buy_grimoire": "Acheter un Grimoire",
-            "town_view": "Vue du village"
+            "buy_grimoire": "Acheter un Grimoire"
         },
         "sheets": {
             "rules": "Règles"
@@ -158,6 +162,7 @@
             "options": "Options",
             "results": "Résultats",
             "add_condition": "Ajouter une condition",
+            "remove_condition": "Retirer la condition",
             "add_first_condition": "Ajoutez une condition pour lancer la recherche.",
             "includes": "Inclut",
             "excludes": "Exclut",
@@ -184,10 +189,11 @@
             "version": "Version",
             "previous": "Précédent",
             "page": "Page {page} / {total}",
-            "next": "Suivant"
+            "next": "Suivant",
+            "results_pages": "Pages de résultats de recherche",
+            "toggle_favourite": "Basculer le favori"
         },
         "arrange": {
-            "title": "Réorganiser les joueurs"
         },
         "bluff": {
             "title": "CES RÔLES NE SONT PAS EN JEU",
@@ -231,8 +237,12 @@
             "title": "🎵 Chargeur de musique",
             "music_tab": "Musique",
             "sfx_tab": "Effets sonores",
+            "sfx_info": "Son {current} sur {total}",
             "track_info": "Piste {current} sur {total}",
+            "previous_track": "Piste précédente",
+            "next_track": "Piste suivante",
             "volume": "Volume : {volume}%",
+            "volume_control": "Contrôle du volume",
             "volume_unsupported": "Utilisez les boutons de volume de votre appareil pour contrôler le niveau audio",
             "add_music_button": "Ajouter des fichiers musicaux",
             "playlist_title": "Liste de lecture ({count} pistes)",
@@ -250,6 +260,8 @@
             "add_sfx_button": "Ajouter un effet sonore",
             "sfx_interval_label": "Jouer au temps restant",
             "auto_fade_phase": "Atténuer le volume Jour/Nuit",
+            "day_volume": "Jour : {volume}%",
+            "night_volume": "Nuit : {volume}%",
             "sfx_volume": "Volume des effets sonores : {volume}%"
         },
         "nomination": {
@@ -277,10 +289,6 @@
             "game_started": "Le jeu a démarré",
             "night_choice": "{name} ({role}) a choisi {targets}",
             "night_choice_none": "{name} ({role}) n'a choisi personne"
-        },
-        "notes": {
-            "title": "Notes",
-            "notes_label": "Notes"
         },
         "qr_sheet": {
             "open": "Ouvrir"
@@ -313,7 +321,6 @@
             "delete_confirmation_title": "Supprimer",
             "delete_confirmation_message": "Êtes-vous sûr de vouloir supprimer {player} le {role} ?",
             "notes_for": "Notes pour {player}",
-            "save_notes": "Enregistrer les notes",
             "gain_ability": "Obtenir une capacité",
             "notify_when": "Notifier quand",
             "notify_nominated": "Nominé",
@@ -321,20 +328,20 @@
             "notify_marked_dead": "Mort",
             "notify_player_chosen": "Choisi",
             "notify_note": "Note pour la notification",
-            "notify_recurring": "Notifier à chaque fois",
+            "notify_recurring": "Notifier à chaque fois par partie",
             "notify_reminder_carriers": "Rôles marqués du rappel :"
         },
         "town_arrange": {
-            "title": "Organiser les joueurs du village",
+            "title": "Réorganiser les joueurs",
             "u_shape": "Sourire"
         },
         "town": {
-            "view_title": "Voir le village",
+            "view_title": "Vue du village",
             "description_phones": "Votre village est l'endroit où vit cette partie. Partagez le code : les joueurs peuvent alors récupérer leur rôle, lire le script et suivre les affirmations sur leur téléphone.",
-            "description_screen": "Votre village est l'endroit où vit cette partie. Ouvrez la vue du village sur une télé pour que tout le monde la voie. Votre grimoire est stocké sur notre serveur pendant qu'un village est actif.",
+            "description_screen": "Votre village est l'endroit où vit cette partie. Ouvrez la Vue du village sur une télé pour que tout le monde la voie. Votre Grimoire est stocké sur notre serveur pendant qu'un village est actif.",
             "delete_button": "Supprimer le village...",
             "code_label": "Code du village",
-            "open_on_screen": "Ouvrez la vue du village sur une télé ou une tablette de secours :",
+            "open_on_screen": "Ouvrez la Vue du village sur une télé ou une tablette de secours :",
             "rename": "Renommer le village",
             "title": "Village",
             "screen_heading": "Grand écran"
@@ -390,7 +397,9 @@
             "default": "Par défaut",
             "apply": "Appliquer",
             "custom": "Personnalisé",
-            "gallery": "Galerie"
+            "gallery": "Galerie",
+            "option_alt": "Option d'arrière-plan",
+            "saved_alt": "Arrière-plan enregistré"
         },
         "clocktracker_export": {
             "title": "Envoyer à Clocktracker",
@@ -428,7 +437,44 @@
         "script_roles_failed": "Impossible de charger les rôles de ce script. Vérifiez votre connexion et réessayez.",
         "script_json_invalid": "Impossible de lire ce script. Vérifiez qu'il s'agit d'un JSON de script valide.",
         "roles_not_found": "Ces rôles sont introuvables : {roles}",
-        "invalid_import_link": "Ce lien d'importation est cassé ou non pris en charge, donc rien n'a été chargé."
+        "invalid_import_link": "Ce lien d'importation est cassé ou non pris en charge, donc rien n'a été chargé.",
+        "request_failed": "Une erreur s'est produite. Vérifiez votre connexion et réessayez.",
+        "fetch_all_roles_failed": "Impossible de récupérer tous les rôles.",
+        "fetch_role_failed": "Impossible de récupérer le rôle.",
+        "fetch_role_details_failed": "Impossible de récupérer les détails du rôle.",
+        "advanced_search_roles_failed": "Impossible de récupérer tous les rôles. La recherche avancée ne fonctionnera pas.",
+        "advanced_search_failed": "Échec de la recherche avancée",
+        "night_order_failed": "Impossible de récupérer l'ordre de nuit",
+        "script_suggestions_failed": "Impossible de récupérer les suggestions de scripts",
+        "load_script_failed": "Impossible de charger le script.",
+        "script_from_url_failed": "Impossible d'obtenir le script depuis l'URL",
+        "script_data_failed": "Impossible de récupérer les données du script",
+        "save_custom_script_failed": "Échec de l'enregistrement du script personnalisé. Les feuilles de script et d'ordre de nuit ne se chargeront pas.",
+        "add_to_search_failed": "Échec de l'ajout du script à la recherche",
+        "remove_from_search_failed": "Échec du retrait du script de la recherche",
+        "homebrew_scripts_failed": "Impossible de récupérer vos scripts homebrew",
+        "script_versions_failed": "Impossible de récupérer les versions du script",
+        "travellers_failed": "Impossible de récupérer les Voyageurs",
+        "fabled_failed": "Impossible de récupérer les Légendaires",
+        "loric_failed": "Impossible de récupérer les Loric",
+        "translations_failed": "Impossible d'obtenir les traductions",
+        "translated_role_failed": "Impossible de récupérer le rôle traduit.",
+        "toggle_favourite_failed": "Impossible de modifier le favori du script",
+        "update_script_tags_failed": "Impossible de mettre à jour les tags du script",
+        "fetch_profile_failed": "Impossible de récupérer le profil utilisateur",
+        "fetch_favourites_failed": "Impossible de récupérer les favoris",
+        "fetch_saved_games_failed": "Impossible de récupérer les parties sauvegardées",
+        "fetch_friends_failed": "Impossible de récupérer les amis",
+        "save_friends_failed": "Impossible d'enregistrer les amis",
+        "saved_game_url_failed": "Impossible d'obtenir l'URL de la partie sauvegardée",
+        "save_game_failed": "Impossible d'enregistrer la partie dans le profil",
+        "delete_saved_game_failed": "Impossible de supprimer la partie sauvegardée",
+        "fetch_settings_failed": "Impossible de récupérer les paramètres utilisateur",
+        "save_settings_failed": "Impossible d'enregistrer les paramètres utilisateur",
+        "fetch_custom_cards_failed": "Impossible de récupérer les cartes personnalisées du profil",
+        "save_custom_card_failed": "Impossible d'enregistrer la carte personnalisée dans le profil utilisateur",
+        "update_custom_card_failed": "Impossible de mettre à jour la carte personnalisée",
+        "delete_custom_card_failed": "Impossible de supprimer la carte personnalisée"
     },
     "status": {
         "poisoned": "Empoisonné",
@@ -502,9 +548,10 @@
         "select_more_roles": "Sélectionnez {count} rôles de plus pour continuer",
         "too_many_roles": "Supprimez {count} rôles pour continuer",
         "too_many_travellers": "Supprimez {count} voyageurs (max. 5) pour continuer",
-        "setup_warning": "Certains rôles choisis peuvent modifier la composition du village. Veuillez vérifier avant de continuer.",
         "multiple_demons_warning": "Plusieurs démons détectés qui n'autorisent pas plusieurs instances.",
-        "unread_setup_warning": "Impossible de lire le texte de mise en place de {roles}. Veuillez vérifier leur mise en place manuellement.",
+        "unread_setup_warning": "La capacité de {role} devra être vérifiée manuellement.",
+        "bag_needs_role": "{owner} a besoin de {role} en jeu.",
+        "bag_changes": "Pour respecter les règles de mise en place : {changes}",
         "player_names": "Noms des joueurs",
         "player_placeholder": "Joueur {number}",
         "add_as_player": "Ajouter comme joueur",
@@ -512,7 +559,8 @@
         "active": "Actif",
         "no_players_added": "Aucun joueur ajouté pour le moment.",
         "persist_players_prompt": "Conservez les noms de vos joueurs pour les parties futures en vous connectant à Discord et en les ajoutant à votre liste d'amis.",
-        "clear": "Effacer",
+        "clear": "Effacer...",
+        "clear_players_confirm": "Effacer tous les joueurs de cette partie ? Les amis restent dans votre liste.",
         "by": "par",
         "edit_names_optional": "Ajouter des noms (facultatif)",
         "search_hint": "Rechercher par nom ou URL.",
@@ -524,6 +572,8 @@
         "added_to_search": "Ajouté à la recherche",
         "remove_from_search": "Retirer de la recherche",
         "homebrew": "Homebrew",
+        "official_characters": "Personnages officiels",
+        "homebrew_characters": "Personnages homebrew",
         "from_json": "Depuis un JSON",
         "paste_json_placeholder": "Collez votre JSON de script ici...",
         "from_file": "Depuis un fichier",
@@ -545,17 +595,21 @@
         "show_role_details": "Afficher les rôles",
         "hide_role_details": "Cacher les rôles",
         "show_spy_view": "Afficher la vue espion",
-        "hide_spy_view": "Cacher la vue espion",
+        "lock_tokens": "Verrouiller les jetons",
+        "unlock_tokens": "Déverrouiller les jetons",
+        "spy_put_seat_at_bottom": "Placer une place en bas",
+        "spy_seat_one_on_top": "Placer la place 1 en haut",
+        "spy_reset_view": "Réinitialiser la vue",
+        "spy_undo_changes": "Annuler les modifications",
+        "spy_show_all": "Tout afficher",
+        "spy_move_up": "Monter",
+        "spy_move_down": "Descendre",
         "rearrange_tokens": "Réorganiser les joueurs",
         "edit_background": "Modifier l'arrière-plan...",
         "nominations": "Nominations",
         "town_view": "Vue du village ({townId})",
-        "delete": "Supprimer",
-        "delete_confirm": "Êtes-vous sûr de vouloir supprimer {player} le {role} ?",
-        "delete_confirm_no_player": "Êtes-vous sûr de vouloir supprimer le {role} ?",
         "notes_for": "Notes pour {name}",
         "notes_placeholder": "Ajoutez des notes personnalisées ici...",
-        "save_notes": "Enregistrer les notes",
         "game_notes": "Notes de partie",
         "town_info_alive": "Vivants",
         "town_info_travellers": "Voyageurs",
@@ -577,6 +631,9 @@
         "tokens": "Jetons",
         "tap_bag_prompt": "Tapez sur le sac pour tirer votre jeton",
         "tap_token_prompt": "Tapez sur un jeton pour le tirer",
+        "draw_from_bag": "Tirer un jeton dans le sac",
+        "draw_token": "Tirer le jeton {number}",
+        "token_drawn": "Jeton {number} déjà tiré",
         "hold_to_reveal": "Maintenez pour révéler",
         "draw_animation": "Animation de tirage",
         "player_name": "Nom du joueur",
@@ -622,15 +679,25 @@
         "toggle_widgets": "Basculer les widgets",
         "info": "Info",
         "composition": "Composition",
-        "day_night": "Jour/Nuit",
-        "grim": "Grimoire",
+        "show_info": "Afficher les infos",
+        "hide_info": "Cacher les infos",
+        "show_composition": "Afficher la composition",
+        "hide_composition": "Cacher la composition",
+        "show_timer": "Afficher le minuteur",
+        "hide_timer": "Cacher le minuteur",
+        "show_day_night": "Afficher jour/nuit",
+        "hide_day_night": "Cacher jour/nuit",
+        "show_companion": "Afficher le Compagnon du joueur",
+        "hide_companion": "Cacher le Compagnon du joueur",
+        "show_night_order": "Afficher l'ordre de nuit",
+        "hide_night_order": "Cacher l'ordre de nuit",
+        "hide_grim": "Cacher le Grimoire",
         "town": "village",
-        "town_name_placeholder": "Nom du village",
         "join": "Rejoindre",
         "disconnect": "Déconnecter",
         "disconnected": "Déconnecté",
         "connected_players": "Joueurs connectés",
-        "no_town_info": "Aucune information sur le village disponible pour le moment..",
+        "no_town_info": "Aucune information sur le village disponible pour le moment.",
         "show_grim_title": "Afficher le Grimoire?",
         "show_grim_message": "Êtes-vous sûr de vouloir révéler le Grimoire ? Cela montrera tous les rôles aux joueurs.",
         "yes_show_grim": "Oui, afficher le Grimoire",
@@ -641,7 +708,14 @@
         "congratulations_suffix": "",
         "widget_dark_background": "Fonds sombres des widgets",
         "edit_night_icons": "Modifier les icônes de l'ordre de nuit...",
-        "seat": "Place"
+        "seat": "Place",
+        "no_timer": "Aucun minuteur actif",
+        "timer_hint": "Le minuteur apparaîtra quand le Conteur en lancera un",
+        "timer_title": "Minuteur : {mode} - {time}",
+        "countdown": "Compte à rebours",
+        "hours_short": "h",
+        "minutes_short": "min",
+        "seconds_short": "s"
     },
     "cards": {
         "this_is_the_demon": "VOICI LE DÉMON",
@@ -655,10 +729,12 @@
         "use_your_ability": "UTILISES-TU TA CAPACITÉ ?",
         "did_you_vote_today": "AS-TU VOTÉ AUJOURD'HUI ?",
         "did_you_nominate_today": "AS-TU NOMINÉ AUJOURD'HUI ?",
-        "show_card": "Montrer une carte..",
+        "show_card": "Montrer une carte...",
         "create_custom_card": "Créer une carte personnalisée",
         "cards": "Cartes",
-        "add_character": "Ajouter un rôle"
+        "add_character": "Ajouter un rôle",
+        "custom_cards": "Cartes personnalisées",
+        "no_custom_cards": "Aucune carte personnalisée pour le moment."
     },
     "controls": {
         "timer_expired_reset": "Minuteur expiré - Cliquez pour réinitialiser",
@@ -674,7 +750,6 @@
     "bluffs": {
         "title": "Bluffs",
         "add_bluff_set": "Ajouter un ensemble de bluffs",
-        "add_token": "Ajouter un jeton",
         "add_bluffs": "Ajouter des bluffs",
         "show_all_bluffs": "Afficher tous les bluffs",
         "delete_set": "Supprimer l'ensemble",
@@ -710,9 +785,8 @@
         "nominates": "nomine",
         "to_tie": "pour égalité",
         "to_execute": "pour exécuter",
-        "votes_needed_to": "Votes nécessaires pour",
-        "exile": "exiler",
-        "execute": "exécuter"
+        "votes_needed_to_exile": "Votes nécessaires pour exiler",
+        "votes_needed_to_execute": "Votes nécessaires pour exécuter"
     },
     "drawer": {
         "edit_player_name": "Modifier le nom du joueur",
@@ -738,6 +812,7 @@
         "unlock_pin_prompt": "Entrez votre code PIN à 4 chiffres",
         "check_pin_prompt": "Entrez votre code PIN pour vérifier que vous vous en souvenez",
         "unlock_pin_wrong": "Code PIN incorrect",
+        "backspace": "Retour arrière",
         "unlock_throttled": "Trop de tentatives. Réessayez dans {seconds} s.",
         "reset_hint": "Code PIN oublié ? Désactivez le verrouillage du Conteur dans les Paramètres."
     },
@@ -758,6 +833,7 @@
         "storyteller": "Conteur",
         "storyteller_hint": "Préparez et dirigez la partie",
         "player_hint": "Rejoignez un village, consultez le script et l'ordre de nuit",
+        "town_hint": "Affichez le village sur une télé pour que tout le monde le voie",
         "youtube": "Voir sur YouTube",
         "video_setup_title": "Configuration rapide - Trouble Brewing",
         "video_setup_description": "Lancez une partie de Trouble Brewing à 7 joueurs, de la saisie des noms à l'ajout des rappels.",
@@ -817,7 +893,7 @@
                 "body": "Choisissez comment les rôles parviennent à vos joueurs. Vous pourrez le changer plus tard."
             },
             "call_up": {
-                "body": "Appelez les joueurs un par un. Vous touchez leur place, ils touchent le sac pour voir leur rôle."
+                "body": "Appelez chaque joueur à venir vous voir, un par un. Vous touchez sa place, il touche le sac de jetons pour voir son rôle."
             },
             "pass": {
                 "body": "Faites passer l'appareil dans le cercle. Chaque joueur tire son rôle, puis le passe au suivant. Votre code PIN verrouille le Grimoire pour que personne ne puisse regarder."
@@ -834,16 +910,16 @@
                 "body": "Ouvrez ceci pour faire venir les joueurs sur leurs téléphones."
             },
             "set_up_seats": {
-                "body": "Attribuez des noms de joueurs aux places et attribuez manuellement des rôles aux places (des voyageurs par exemple). Les deux sont facultatifs."
+                "body": "Touchez ici pour attribuer des noms de joueurs aux places, ou des rôles aux places (des voyageurs, par exemple). Les deux sont facultatifs."
             },
             "names": {
-                "body": "Touchez un nom pour placer ce joueur sur la prochaine place libre. Touchez une place pour la vider."
+                "body": "Touchez un nom pour placer ce joueur sur la prochaine place libre. Pour retirer quelqu'un d'une place, touchez cette place."
             },
             "add_names": {
                 "body": "Touchez ici pour ajouter des noms si vous n'en voyez aucun en dessous."
             },
             "roles": {
-                "body": "Touchez un rôle, puis une place, pour attribuer ce rôle à la place. Pratique pour les voyageurs."
+                "body": "La visite est passée à l'onglet Rôles. Touchez un rôle, puis une place, pour attribuer ce rôle à la place. Pratique pour les voyageurs."
             },
             "skip_draw": {
                 "body": "Donnez un rôle aléatoire à chaque place vide et passez le tirage."
@@ -880,31 +956,30 @@
         "grimoire": {
             "good_player": {
                 "title": "Un bon joueur",
-                "body": "Ce joueur est dans l'équipe du bien. Touchez un joueur pour ouvrir son menu. Faites glisser pour le déplacer."
+                "body": "Touchez un joueur pour ouvrir son menu. Faites glisser pour le déplacer. L'illustration bleue de celui-ci montre qu'il est dans l'équipe du bien. Pendant la partie, une bordure turquoise signale un Marginal."
             },
             "evil_player": {
                 "title": "Un joueur méchant",
-                "body": "Ce joueur est dans l'équipe du mal. L'illustration de chaque jeton indique de quelle équipe fait partie le joueur."
+                "body": "L'illustration rouge de celui-ci montre qu'il est dans l'équipe du mal. Pendant la partie, une bordure rouge foncé signale le Démon."
             },
             "seat_menu": {
                 "title": "Menu du joueur",
-                "body": "Passer en plein écran, ajouter des rappels, marquer comme mort, échanger, changer l'alignement et ouvrir le menu des outils. Touchez en dehors du menu pour le fermer.",
-                "body_evil": "Passer en plein écran, ajouter des rappels, ajouter un rappel de bluff, marquer comme mort, échanger, changer l'alignement et ouvrir le menu des outils. Touchez en dehors du menu pour le fermer."
+                "body": "Toucher un joueur ouvre ce menu. Dans le sens des aiguilles d'une montre depuis le haut : Afficher, Rappels, Bluff, Marquer comme mort, Échanger, Changer l'alignement, Outils. En journée, vous verrez aussi Nominer. Touchez en dehors du menu pour le fermer."
             },
             "add": {
                 "title": "Ajouter",
-                "body": "Ajoutez des bluffs du démon, des rôles supplémentaires et des jetons de rappel."
+                "body": "Touchez ce bouton pour ajouter des bluffs du démon, des rôles supplémentaires et des jetons de rappel."
             },
             "night_order": {
-                "body": "Ouvre le panneau de l'ordre de nuit, qui vous guide pour savoir qui réveiller chaque nuit."
+                "body": "Touchez ce bouton pour ouvrir le panneau de l'ordre de nuit, qui vous guide pour savoir qui réveiller chaque nuit."
             },
             "phase": {
                 "title": "Jour et nuit",
-                "body": "Faites avancer la partie vers le jour ou la nuit suivante."
+                "body": "La flèche droite fait passer la partie au jour ou à la nuit suivante. La flèche gauche revient d'une étape, si vous devez corriger quelque chose."
             },
             "view": {
                 "title": "Affichage",
-                "body": "Réorganisez les places, ouvrez la vue espion, lisez l'historique de la partie ou changez l'arrière-plan."
+                "body": "Réorganisez les joueurs (choisissez une disposition et faites glisser les joueurs dans l'ordre), ouvrez la vue espion, lisez l'historique de la partie ou changez l'arrière-plan."
             },
             "town": {
                 "title": "Village",
@@ -922,7 +997,7 @@
                 "body": "Verrouillez les jetons en place pour qu'ils ne soient pas déplacés par accident. Ils se verrouillent d'eux-mêmes à la fin de la partie."
             },
             "gr_notes": {
-                "body": "Vos propres notes pour toute la partie. Les notes sur un joueur vont dans le menu du jeton de ce joueur."
+                "body": "Vos propres notes pour toute la partie. Vous pouvez prendre des notes sur un joueur dans le menu du jeton de ce joueur."
             },
             "gr_timer": {
                 "body": "Réglez un compte à rebours pour le jour, ou lancez un chronomètre. Une fois réglé, touchez le temps pour le mettre en pause ou le reprendre."
@@ -940,7 +1015,7 @@
             },
             "town_state": {
                 "title": "État du village",
-                "body": "L'icône de personne indique le nombre de joueurs en vie. Elle devient jaune à 4 et rouge à 3 ou moins. La valise indique le nombre de voyageurs. Le crâne représente les joueurs morts. La main indique combien de votes il reste, votes fantômes compris. Elle devient rouge quand il ne reste pas assez de votes pour dépasser le total actuel sur le billot. La coche indique le nombre de votes nécessaires pour faire descendre la personne actuelle du billot."
+                "body": "L'icône de personne indique le nombre de joueurs en vie. Elle devient jaune à 4 et rouge à 3 ou moins. Le crâne représente les joueurs morts. La main indique combien de votes il reste, votes fantômes compris. Elle devient rouge quand il ne reste pas assez de votes pour dépasser le total actuel sur le billot. La coche indique le nombre de votes nécessaires pour faire descendre la personne actuelle du billot. S'il y a des voyageurs, la valise en indique le nombre."
             },
             "end_game": {
                 "title": "Fin de partie",
@@ -948,6 +1023,9 @@
             }
         },
         "night": {
+            "night_pane": {
+                "body": "Qui réveiller cette nuit, dans l'ordre."
+            },
             "night_cards": {
                 "body": "Ouvrez le menu Cartes pour montrer une carte à un joueur ou créer la vôtre."
             },
@@ -962,6 +1040,12 @@
             "unplaced_reminders": {
                 "title": "Rappels non placés",
                 "body": "Le nombre indique combien de rappels de ce rôle ne sont pas encore dans le Grimoire. Touchez pour les voir, puis faites glisser l'un d'eux sur un joueur."
+            },
+            "edit_night_order": {
+                "body": "Modifiez l'ordre pour cette partie."
+            },
+            "end_night": {
+                "body": "Terminez la nuit et passez au jour suivant."
             }
         },
         "night_choice": {
@@ -970,7 +1054,7 @@
             },
             "choice_banner": {
                 "title": "Noter le choix",
-                "body": "Touchez les joueurs choisis, dans l'ordre. Chacun reçoit un numéro. Choisissez ensuite les rappels à placer et touchez la coche. Chaque rappel est placé sur les joueurs choisis dans cet ordre, jusqu'à épuisement."
+                "body": "Touchez les joueurs choisis, dans l'ordre. Chacun reçoit un numéro. S'il y a des rappels à placer, choisissez-les et touchez Confirmer. Chaque rappel est placé sur les joueurs choisis dans cet ordre, jusqu'à épuisement. Sinon, le choix est enregistré dès que le dernier joueur est sélectionné."
             }
         },
         "preferences": {
@@ -1009,11 +1093,17 @@
             }
         },
         "account": {
+            "usr_stats": {
+                "body": "Votre bilan de Conteur : parties menées, fréquence des victoires de chaque équipe, vos scripts et rôles les plus joués. Une partie compte dès qu'elle arrive dans le Grimoire, et le vainqueur est ajouté quand vous terminez la partie. Vous pouvez aussi importer les parties que vous avez menées depuis un export Clocktracker."
+            },
             "usr_favourites": {
                 "body": "Les scripts que vous avez mis en favoris sur l'écran de mise en place. Touchez-en un pour le charger. Ajoutez des tags colorés pour les trier, puis touchez un tag pour filtrer la liste."
             },
             "usr_friends": {
                 "body": "Les personnes avec qui vous jouez. Leurs noms sont prêts à être choisis quand vous placez les joueurs, pour ne pas avoir à les saisir à chaque fois."
+            },
+            "usr_cards": {
+                "body": "Les cartes que vous avez créées pour les montrer aux joueurs. Touchez-en une pour la modifier, ou + pour en créer une nouvelle. Elles sont aussi dans le menu Cartes pendant une partie."
             },
             "usr_games": {
                 "body": "Les parties que vous avez sauvegardées depuis le menu Partie. Chargez-en une sur l'écran de mise en place pour reprendre là où vous vous étiez arrêté."
@@ -1021,9 +1111,32 @@
             "usr_homebrew": {
                 "body": "Les scripts homebrew que vous avez ajoutés à la recherche. Touchez-en un pour le charger, ou touchez la croix pour le retirer de la recherche."
             },
+            "usr_notifications": {
+                "body": "Les alertes que vous avez enregistrées pour un personnage. Elles s'activent d'elles-mêmes dès que ce personnage est dans votre Grimoire."
+            },
             "usr_logout": {
-                "body": "Déconnectez-vous de votre compte Discord sur cet appareil."
+                "body": "Déconnectez-vous du Grimoire Numérique sur cet appareil. Votre compte Discord reste connecté."
             }
         }
+    },
+    "stats": {
+        "title": "Mes statistiques",
+        "games": "Parties",
+        "finished": "{finished} parties sur {started} se sont terminées avec un vainqueur",
+        "good_wins": "Victoires des Bons",
+        "evil_wins": "Victoires des Méchants",
+        "average_players": "Nombre moyen de joueurs",
+        "top_scripts": "Scripts les plus joués",
+        "top_roles": "Rôles les plus utilisés",
+        "none_yet": "Aucune partie pour l'instant. Les parties que vous menez en étant connecté apparaissent ici dès qu'elles arrivent dans le Grimoire.",
+        "clear": "Effacer mes statistiques...",
+        "clear_confirm": "Supprimer toutes les parties enregistrées dans vos statistiques ? Cette action est irréversible.",
+        "load_failed": "Impossible de charger vos statistiques.",
+        "clear_failed": "Impossible d'effacer vos statistiques.",
+        "import_prompt": "Vous avez déjà mené des parties ? Importez le CSV exporté depuis Clocktracker.",
+        "import": "Importer depuis Clocktracker",
+        "imported": "{count} parties importées depuis Clocktracker.",
+        "import_none": "Ce fichier ne contient aucune partie que vous avez menée en tant que Conteur.",
+        "import_failed": "Impossible d'importer ce fichier. Utilisez le CSV tel que Clocktracker l'a exporté."
     }
 }
