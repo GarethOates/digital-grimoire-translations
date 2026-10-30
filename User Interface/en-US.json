@@ -875,13 +875,9 @@
                 "title": "Pick the roles",
                 "body": "Tap roles to put them in the bag. The counts show what this player count needs."
             },
-            "travellers": {
-                "title": "Travellers",
-                "body": "Add Travellers for players who arrive late or leave early."
-            },
             "npcs": {
-                "title": "Fabled and Loric",
-                "body": "Add any Fabled or Loric this game uses."
+                "title": "Travellers, Fabled and Loric",
+                "body": "Add Travellers for players who arrive late or leave early, and any Fabled or Loric this game uses."
             },
             "start_setup": {
                 "title": "Start",

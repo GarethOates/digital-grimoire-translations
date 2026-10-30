@@ -875,13 +875,9 @@
                 "title": "Elegí los roles",
                 "body": "Tocá los roles para ponerlos en la bolsa. Los contadores muestran lo que necesita esta cantidad de jugadores."
             },
-            "travellers": {
-                "title": "Viajeros",
-                "body": "Agregá Viajeros para los jugadores que llegan tarde o se van temprano."
-            },
             "npcs": {
-                "title": "Fabulado y Folclórico",
-                "body": "Agregá los Fabulados o Folclóricos que use esta partida."
+                "title": "Viajeros, Fabulado y Folclórico",
+                "body": "Agregá Viajeros para los jugadores que llegan tarde o se van temprano, y los Fabulados o Folclóricos que use esta partida."
             },
             "start_setup": {
                 "title": "Empezar",

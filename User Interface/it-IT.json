@@ -875,13 +875,9 @@
                 "title": "Scegli i ruoli",
                 "body": "Tocca i ruoli per metterli nel sacchetto. I contatori mostrano ciò che serve per questo numero di giocatori."
             },
-            "travellers": {
-                "title": "Viaggiatori",
-                "body": "Aggiungi Viaggiatori per i giocatori che arrivano tardi o se ne vanno presto."
-            },
             "npcs": {
-                "title": "Fiabeschi e Folklorici",
-                "body": "Aggiungi i Fiabeschi o i Folklorici usati in questa partita."
+                "title": "Viaggiatori, Fiabeschi e Folklorici",
+                "body": "Aggiungi Viaggiatori per i giocatori che arrivano tardi o se ne vanno presto, e i Fiabeschi o i Folklorici usati in questa partita."
             },
             "start_setup": {
                 "title": "Inizia",

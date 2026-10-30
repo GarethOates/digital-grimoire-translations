@@ -875,13 +875,9 @@
                 "title": "Vyberte role",
                 "body": "Klepnutím na role je vložíte do pytlíku. Počty ukazují, co tento počet hráčů potřebuje."
             },
-            "travellers": {
-                "title": "Cestovatelé",
-                "body": "Přidejte Cestovatele pro hráče, kteří přijdou pozdě nebo odejdou dříve."
-            },
             "npcs": {
-                "title": "Legendy (Fabled) a Loric",
-                "body": "Přidejte všechny Legendy (Fabled) nebo Loric, které tato hra používá."
+                "title": "Cestovatelé, Legendy (Fabled) a Loric",
+                "body": "Přidejte Cestovatele pro hráče, kteří přijdou pozdě nebo odejdou dříve, a všechny Legendy (Fabled) nebo Loric, které tato hra používá."
             },
             "start_setup": {
                 "title": "Začít",

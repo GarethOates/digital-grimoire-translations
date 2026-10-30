@@ -875,13 +875,9 @@
                 "title": "Tria els rols",
                 "body": "Toca els rols per posar-los a la bossa. Els comptadors mostren què cal per a aquest nombre de jugadors."
             },
-            "travellers": {
-                "title": "Viatgers",
-                "body": "Afegeix Viatgers per als jugadors que arriben tard o se'n van aviat."
-            },
             "npcs": {
-                "title": "Faula i Lòric",
-                "body": "Afegeix la Faula o el Lòric que faci servir aquesta partida."
+                "title": "Viatgers, Faula i Lòric",
+                "body": "Afegeix Viatgers per als jugadors que arriben tard o se'n van aviat, i la Faula o el Lòric que faci servir aquesta partida."
             },
             "start_setup": {
                 "title": "Comença",

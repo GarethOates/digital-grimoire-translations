@@ -875,13 +875,9 @@
                 "title": "Velg rollene",
                 "body": "Trykk på roller for å legge dem i posen. Tellerne viser hva dette antallet spillere trenger."
             },
-            "travellers": {
-                "title": "Reisende",
-                "body": "Legg til Reisende for spillere som kommer sent eller drar tidlig."
-            },
             "npcs": {
-                "title": "Fabel og Loric",
-                "body": "Legg til Fabel eller Loric som dette spillet bruker."
+                "title": "Reisende, Fabel og Loric",
+                "body": "Legg til Reisende for spillere som kommer sent eller drar tidlig, og eventuell Fabel eller Loric som dette spillet bruker."
             },
             "start_setup": {
                 "title": "Start",

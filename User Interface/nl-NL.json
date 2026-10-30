@@ -875,13 +875,9 @@
                 "title": "Kies de rollen",
                 "body": "Tik op rollen om ze in de zak te doen. De tellers laten zien wat dit aantal spelers nodig heeft."
             },
-            "travellers": {
-                "title": "Reizigers",
-                "body": "Voeg Reizigers toe voor spelers die later komen of eerder weggaan."
-            },
             "npcs": {
-                "title": "Legendarisch en Loric",
-                "body": "Voeg de Legendarische of Loric toe die dit spel gebruikt."
+                "title": "Reizigers, Legendarisch en Loric",
+                "body": "Voeg Reizigers toe voor spelers die later komen of eerder weggaan, en de Legendarische of Loric die dit spel gebruikt."
             },
             "start_setup": {
                 "title": "Start",

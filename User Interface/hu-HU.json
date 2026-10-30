@@ -875,13 +875,9 @@
                 "title": "Válaszd ki a karaktereket",
                 "body": "Koppints a karakterekre, hogy a zsákba tedd őket. A számlálók mutatják, mire van szüksége ennek a játékosszámnak."
             },
-            "travellers": {
-                "title": "Utazók",
-                "body": "Adj hozzá Utazókat a későn érkező vagy korán távozó játékosoknak."
-            },
             "npcs": {
-                "title": "Meseszövők és Loric",
-                "body": "Add hozzá a játékban használt Meseszövőket vagy Loricot."
+                "title": "Utazók, Meseszövők és Loric",
+                "body": "Adj hozzá Utazókat a későn érkező vagy korán távozó játékosoknak, valamint a játékban használt Meseszövőket vagy Loricot."
             },
             "start_setup": {
                 "title": "Indítás",

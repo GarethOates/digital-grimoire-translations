@@ -875,13 +875,9 @@
         "title": "Escolha os personagens",
         "body": "Toque nos personagens para colocá-los na bolsa. Os contadores mostram o que esse número de jogadores precisa."
       },
-      "travellers": {
-        "title": "Viajantes",
-        "body": "Adicione Viajantes para jogadores que chegam tarde ou saem cedo."
-      },
       "npcs": {
-        "title": "Lendários e Lóricos",
-        "body": "Adicione os Lendários ou Lóricos que este jogo usa."
+        "title": "Viajantes, Lendários e Lóricos",
+        "body": "Adicione Viajantes para jogadores que chegam tarde ou saem cedo, e os Lendários ou Lóricos que este jogo usa."
       },
       "start_setup": {
         "title": "Começar",

@@ -875,13 +875,9 @@
                 "title": "Choisir les rôles",
                 "body": "Touchez des rôles pour les mettre dans le sac. Les compteurs indiquent ce qu'il faut pour ce nombre de joueurs."
             },
-            "travellers": {
-                "title": "Voyageurs",
-                "body": "Ajoutez des Voyageurs pour les joueurs qui arrivent en retard ou partent tôt."
-            },
             "npcs": {
-                "title": "Légendaires et Loric",
-                "body": "Ajoutez les Légendaires ou Loric utilisés dans cette partie."
+                "title": "Voyageurs, Légendaires et Loric",
+                "body": "Ajoutez des Voyageurs pour les joueurs qui arrivent en retard ou partent tôt, ainsi que les Légendaires ou Loric utilisés dans cette partie."
             },
             "start_setup": {
                 "title": "Commencer",

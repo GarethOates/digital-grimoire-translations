@@ -875,13 +875,9 @@
                 "title": "Rollen auswählen",
                 "body": "Tippe auf Rollen, um sie in den Beutel zu legen. Die Zähler zeigen, was diese Spielerzahl braucht."
             },
-            "travellers": {
-                "title": "Reisende",
-                "body": "Füge Reisende für Spieler hinzu, die später kommen oder früher gehen."
-            },
             "npcs": {
-                "title": "Legenden und Loric",
-                "body": "Füge alle Legenden oder Loric hinzu, die dieses Spiel verwendet."
+                "title": "Reisende, Legenden und Loric",
+                "body": "Füge Reisende für Spieler hinzu, die später kommen oder früher gehen, sowie alle Legenden oder Loric, die dieses Spiel verwendet."
             },
             "start_setup": {
                 "title": "Start",
