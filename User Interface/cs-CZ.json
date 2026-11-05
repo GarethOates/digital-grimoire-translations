@@ -675,7 +675,11 @@
         "pass_to": "Předejte zařízení:",
         "draw_my_character": "Vylosovat svou roli",
         "hand_back": "Vraťte zařízení Vypravěči",
-        "storyteller_unlock": "Jsem Vypravěč"
+        "storyteller_unlock": "Jsem Vypravěč",
+        "public_offer": "Žeton {role} je v sáčku. Chcete ho?",
+        "take_it": "Vzít si ho",
+        "draw_another": "Vylosovat jiný",
+        "public_phones_guide": "{role} je v sáčku. Před odesláním se každého hráče soukromě zeptejte, počínaje horní částí kruhu, jestli ho chce. Zastavte se u prvního ano. Poslední hráč ho musí přijmout. Poté pomocí Připravit místa přidělte {role} místu tohoto hráče."
     },
     "town": {
         "toggle_widgets": "Přepnout widgety",

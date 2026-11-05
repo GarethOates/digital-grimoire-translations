@@ -675,7 +675,11 @@
         "pass_to": "Gerät weitergeben an",
         "draw_my_character": "Meine Rolle ziehen",
         "hand_back": "Gib das Gerät an den Geschichtenerzähler zurück",
-        "storyteller_unlock": "Ich bin der Geschichtenerzähler"
+        "storyteller_unlock": "Ich bin der Geschichtenerzähler",
+        "public_offer": "Das {role}-Token ist im Beutel. Möchtest du es?",
+        "take_it": "Behalten",
+        "draw_another": "Anderes ziehen",
+        "public_phones_guide": "{role} ist im Beutel. Frage vor dem Senden jeden Spieler privat, beginnend oben im Kreis, ob er es haben möchte. Höre beim ersten Ja auf. Der letzte Spieler muss es nehmen. Nutze dann Plätze einrichten, um {role} dem Platz dieses Spielers zuzuweisen."
     },
     "town": {
         "toggle_widgets": "Widgets umschalten",

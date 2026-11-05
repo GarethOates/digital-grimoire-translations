@@ -675,7 +675,11 @@
         "pass_to": "Passa il dispositivo a",
         "draw_my_character": "Pesca il mio ruolo",
         "hand_back": "Restituisci il dispositivo al Narratore",
-        "storyteller_unlock": "Sono il Narratore"
+        "storyteller_unlock": "Sono il Narratore",
+        "public_offer": "Il gettone {role} è nel sacchetto. Lo vuoi?",
+        "take_it": "Prendilo",
+        "draw_another": "Pescane un altro",
+        "public_phones_guide": "{role} è nel sacchetto. Prima di inviare, chiedi a ogni giocatore in privato, partendo dall'inizio del cerchio, se lo vuole. Fermati al primo sì. L'ultimo giocatore deve prenderlo. Poi usa Prepara i Posti per dare {role} al posto di quel giocatore."
     },
     "town": {
         "toggle_widgets": "Mostra/Nascondi Widgets",

@@ -675,7 +675,11 @@
     "pass_to": "Passar o dispositivo para",
     "draw_my_character": "Comprar meu personagem",
     "hand_back": "Devolva o dispositivo para o narrador",
-    "storyteller_unlock": "Eu sou o narrador"
+    "storyteller_unlock": "Eu sou o narrador",
+    "public_offer": "O token {role} está na bolsa. Você quer ficar com ele?",
+    "take_it": "Ficar com ele",
+    "draw_another": "Comprar outro",
+    "public_phones_guide": "{role} está na bolsa. Antes de enviar, pergunte a cada jogador em particular, começando pelo topo do círculo, se quer ficar com ele. Pare no primeiro que disser sim. O último jogador precisa ficar com ele. Depois use Preparar assentos para dar {role} ao assento desse jogador."
   },
   "town": {
     "toggle_widgets": "Alternar widgets",

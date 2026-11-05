@@ -675,7 +675,11 @@
         "pass_to": "Az eszköz továbbadása:",
         "draw_my_character": "Karakterem kihúzása",
         "hand_back": "Add vissza az eszközt a mesélőnek",
-        "storyteller_unlock": "Én vagyok a mesélő"
+        "storyteller_unlock": "Én vagyok a mesélő",
+        "public_offer": "A(z) {role} token a zsákban van. Kéred?",
+        "take_it": "Elfogadom",
+        "draw_another": "Húzok másikat",
+        "public_phones_guide": "{role} a zsákban van. Küldés előtt kérdezd meg négyszemközt minden játékost, a kör tetejétől kezdve, hogy kéri-e. Állj meg az első igennél. Az utolsó játékosnak el kell fogadnia. Ezután az Ülőhelyek előkészítése gombbal add oda a(z) {role} szerepet annak a játékosnak az ülőhelyére."
     },
     "town": {
         "toggle_widgets": "Megjelenő elemek",

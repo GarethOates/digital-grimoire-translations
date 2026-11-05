@@ -675,7 +675,11 @@
         "pass_to": "Faire passer l'appareil à",
         "draw_my_character": "Tirer mon rôle",
         "hand_back": "Rendez l'appareil au Conteur",
-        "storyteller_unlock": "Je suis le Conteur"
+        "storyteller_unlock": "Je suis le Conteur",
+        "public_offer": "Le jeton {role} est dans le sac. Le voulez-vous ?",
+        "take_it": "Le prendre",
+        "draw_another": "En tirer un autre",
+        "public_phones_guide": "{role} est dans le sac. Avant l'envoi, demandez à chaque joueur en privé, en partant du haut du cercle, s'il le veut. Arrêtez-vous au premier oui. Le dernier joueur doit le prendre. Utilisez ensuite Préparer les places pour donner {role} à la place de ce joueur."
     },
     "town": {
         "toggle_widgets": "Basculer les widgets",

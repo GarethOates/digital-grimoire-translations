@@ -675,7 +675,11 @@
         "pass_to": "Pass the device to",
         "draw_my_character": "Draw my role",
         "hand_back": "Hand the device back to the Storyteller",
-        "storyteller_unlock": "I'm the Storyteller"
+        "storyteller_unlock": "I'm the Storyteller",
+        "public_offer": "The {role} token is in the bag. Do you want it?",
+        "take_it": "Take it",
+        "draw_another": "Draw another",
+        "public_phones_guide": "{role} is in the bag. Before sending, ask each player privately, starting from the top of the circle, if they want it. Stop at the first yes. The last player must take it. Then use Set Up Seats to give {role} to that player's seat."
     },
     "town": {
         "toggle_widgets": "Toggle Widgets",

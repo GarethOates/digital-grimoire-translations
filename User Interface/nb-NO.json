@@ -675,7 +675,11 @@
         "pass_to": "Send enheten videre til",
         "draw_my_character": "Trekk rollen min",
         "hand_back": "Gi enheten tilbake til historiefortelleren",
-        "storyteller_unlock": "Jeg er historiefortelleren"
+        "storyteller_unlock": "Jeg er historiefortelleren",
+        "public_offer": "Brikken {role} ligger i posen. Vil du ha den?",
+        "take_it": "Ta den",
+        "draw_another": "Trekk en annen",
+        "public_phones_guide": "{role} ligger i posen. Før du sender ut, spør hver spiller privat, fra toppen av sirkelen, om de vil ha den. Stopp ved første ja. Den siste spilleren må ta den. Bruk deretter Sett opp seter for å gi {role} til setet til den spilleren."
     },
     "town": {
         "toggle_widgets": "Veksle widgeter",

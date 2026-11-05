@@ -675,7 +675,11 @@
         "pass_to": "Pasar el dispositivo a",
         "draw_my_character": "Sacar mi rol",
         "hand_back": "Devuelve el dispositivo al Narrador",
-        "storyteller_unlock": "Soy el Narrador"
+        "storyteller_unlock": "Soy el Narrador",
+        "public_offer": "La ficha de {role} está en la bolsa. ¿La quieres?",
+        "take_it": "Quedármela",
+        "draw_another": "Sacar otra",
+        "public_phones_guide": "{role} está en la bolsa. Antes de enviar, pregunta en privado a cada jugador, empezando por la parte superior del círculo, si la quiere. Para en el primer sí. El último jugador debe quedársela. Luego usa Prepara los Asientos para dar {role} al asiento de ese jugador."
     },
     "town": {
         "toggle_widgets": "Alternar Widgets",

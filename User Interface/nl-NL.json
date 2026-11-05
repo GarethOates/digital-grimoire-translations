@@ -675,7 +675,11 @@
         "pass_to": "Apparaat doorgeven aan",
         "draw_my_character": "Mijn rol trekken",
         "hand_back": "Geef het apparaat terug aan de Verteller",
-        "storyteller_unlock": "Ik ben de Verteller"
+        "storyteller_unlock": "Ik ben de Verteller",
+        "public_offer": "De token {role} zit in de zak. Wil je die hebben?",
+        "take_it": "Nemen",
+        "draw_another": "Trek een andere",
+        "public_phones_guide": "{role} zit in de zak. Vraag voordat je verstuurt aan elke speler privé, te beginnen bovenaan de cirkel, of die het wil. Stop bij de eerste ja. De laatste speler moet het nemen. Gebruik daarna Plaatsen instellen om {role} aan de plaats van die speler te geven."
     },
     "town": {
         "toggle_widgets": "Widgets aan/uit",

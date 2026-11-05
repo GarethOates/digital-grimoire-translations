@@ -675,7 +675,11 @@
         "pass_to": "Passa el dispositiu a",
         "draw_my_character": "Extreu el meu rol",
         "hand_back": "Torneu el dispositiu al narrador",
-        "storyteller_unlock": "Sóc el narrador"
+        "storyteller_unlock": "Sóc el narrador",
+        "public_offer": "La fitxa {role} és a la bossa. La vols?",
+        "take_it": "Agafa-la",
+        "draw_another": "Extreu-ne una altra",
+        "public_phones_guide": "{role} és a la bossa. Abans d'enviar, pregunta en privat a cada jugador, començant des de dalt del cercle, si la vol. Atura't al primer sí. L'últim jugador l'ha d'agafar. Després fes servir Prepara els seients per donar {role} al seient d'aquest jugador."
     },
     "town": {
         "toggle_widgets": "Mostra o amaga els ginys",
