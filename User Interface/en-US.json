@@ -386,6 +386,7 @@
             "swap_role": "Role",
             "delete_confirmation_title": "Delete",
             "delete_confirmation_message": "Are you sure you want to delete {player} the {role}?",
+            "delete_npc_confirmation": "Are you sure you want to delete the {role}?",
             "notes_for": "Notes for {player}",
             "gain_ability": "Gain Ability",
             "notify_when": "Notify When",
