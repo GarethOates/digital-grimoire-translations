@@ -153,6 +153,7 @@
         "voted": "A voté",
         "votes_count": "{count, plural, one {# vote} other {# votes}}",
         "voting_now": "Vote en cours",
-        "yes": "Oui"
+        "yes": "Oui",
+        "return_home": "Retour à l'accueil"
     }
 }

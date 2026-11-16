@@ -153,6 +153,7 @@
         "voted": "Glasoval(a)",
         "votes_count": "{count, plural, one {# glas} two {# glasova} few {# glasovi} other {# glasov}}",
         "voting_now": "Glasovanje poteka",
-        "yes": "Da"
+        "yes": "Da",
+        "return_home": "Nazaj na začetek"
     }
 }

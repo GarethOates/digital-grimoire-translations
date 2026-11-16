@@ -153,6 +153,7 @@
         "voted": "Röstade",
         "votes_count": "{count, plural, one {# röst} other {# röster}}",
         "voting_now": "Röstar nu",
-        "yes": "Ja"
+        "yes": "Ja",
+        "return_home": "Till startsidan"
     }
 }
