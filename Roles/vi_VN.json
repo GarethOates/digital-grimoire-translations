@@ -37,7 +37,7 @@
     },
     {
         "id": "washerwoman",
-        "name": "Washerwoman",
+        "name": "Thợ giặt",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 43,
@@ -54,7 +54,7 @@
     },
     {
         "id": "librarian",
-        "name": "Librarian",
+        "name": "Thủ thư",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 44,
@@ -71,7 +71,7 @@
     },
     {
         "id": "investigator",
-        "name": "Investigator",
+        "name": "Điều tra viên",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 45,
@@ -88,7 +88,7 @@
     },
     {
         "id": "chef",
-        "name": "Chef",
+        "name": "Đầu bếp",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 46,
@@ -102,7 +102,7 @@
     },
     {
         "id": "empath",
-        "name": "Empath",
+        "name": "Đồng cảm",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 47,
@@ -116,7 +116,7 @@
     },
     {
         "id": "fortuneteller",
-        "name": "Fortune Teller",
+        "name": "Thầy bói",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 48,
@@ -132,7 +132,7 @@
     },
     {
         "id": "undertaker",
-        "name": "Undertaker",
+        "name": "Chôn cất",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 0,
@@ -148,7 +148,7 @@
     },
     {
         "id": "monk",
-        "name": "Monk",
+        "name": "Nhà sư",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 0,
@@ -164,7 +164,7 @@
     },
     {
         "id": "ravenkeeper",
-        "name": "Ravenkeeper",
+        "name": "Nuôi quạ",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 0,
@@ -178,7 +178,7 @@
     },
     {
         "id": "virgin",
-        "name": "Virgin",
+        "name": "Trinh nữ",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 0,
@@ -194,7 +194,7 @@
     },
     {
         "id": "slayer",
-        "name": "Slayer",
+        "name": "Diệt quỷ",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 0,
@@ -210,7 +210,7 @@
     },
     {
         "id": "soldier",
-        "name": "Soldier",
+        "name": "Chiến sĩ",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 0,
@@ -224,7 +224,7 @@
     },
     {
         "id": "mayor",
-        "name": "Mayor",
+        "name": "Thị trưởng",
         "edition": "tb",
         "team": "townsfolk",
         "firstNight": 0,
@@ -238,7 +238,7 @@
     },
     {
         "id": "butler",
-        "name": "Butler",
+        "name": "Quản gia",
         "edition": "tb",
         "team": "outsider",
         "firstNight": 49,
@@ -254,7 +254,7 @@
     },
     {
         "id": "drunk",
-        "name": "Drunk",
+        "name": "Say rượu",
         "edition": "tb",
         "team": "outsider",
         "firstNight": 0,
@@ -280,7 +280,7 @@
     },
     {
         "id": "recluse",
-        "name": "Recluse",
+        "name": "Người ẩn dật",
         "edition": "tb",
         "team": "outsider",
         "firstNight": 0,
@@ -294,7 +294,7 @@
     },
     {
         "id": "saint",
-        "name": "Saint",
+        "name": "Thánh",
         "edition": "tb",
         "team": "outsider",
         "firstNight": 0,
@@ -308,7 +308,7 @@
     },
     {
         "id": "poisoner",
-        "name": "Poisoner",
+        "name": "Độc thủ",
         "edition": "tb",
         "team": "minion",
         "firstNight": 24,
@@ -324,7 +324,7 @@
     },
     {
         "id": "spy",
-        "name": "Spy",
+        "name": "Gián điệp",
         "edition": "tb",
         "team": "minion",
         "firstNight": 63,
@@ -338,7 +338,7 @@
     },
     {
         "id": "scarletwoman",
-        "name": "Scarlet Woman",
+        "name": "Phụ nữ đỏ",
         "edition": "tb",
         "team": "minion",
         "firstNight": 0,
@@ -354,7 +354,7 @@
     },
     {
         "id": "baron",
-        "name": "Baron",
+        "name": "Nam tước",
         "edition": "tb",
         "team": "minion",
         "firstNight": 0,
@@ -384,7 +384,7 @@
     },
     {
         "id": "bureaucrat",
-        "name": "Bureaucrat",
+        "name": "Công chức",
         "edition": "tb",
         "team": "traveller",
         "firstNight": 5,
@@ -400,7 +400,7 @@
     },
     {
         "id": "thief",
-        "name": "Thief",
+        "name": "Trộm",
         "edition": "tb",
         "team": "traveller",
         "firstNight": 6,
@@ -416,7 +416,7 @@
     },
     {
         "id": "gunslinger",
-        "name": "Gunslinger",
+        "name": "Xạ thủ",
         "edition": "tb",
         "team": "traveller",
         "firstNight": 0,
@@ -430,7 +430,7 @@
     },
     {
         "id": "scapegoat",
-        "name": "Scapegoat",
+        "name": "Hiến tế",
         "edition": "tb",
         "team": "traveller",
         "firstNight": 0,
@@ -444,7 +444,7 @@
     },
     {
         "id": "beggar",
-        "name": "Beggar",
+        "name": "Ăn xin",
         "edition": "tb",
         "team": "traveller",
         "firstNight": 0,
@@ -458,7 +458,7 @@
     },
     {
         "id": "grandmother",
-        "name": "Grandmother",
+        "name": "Bà ngoại",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 50,
@@ -475,7 +475,7 @@
     },
     {
         "id": "sailor",
-        "name": "Sailor",
+        "name": "Thủy thủ",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 17,
@@ -491,7 +491,7 @@
     },
     {
         "id": "chambermaid",
-        "name": "Chambermaid",
+        "name": "Nữ phục vụ",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 67,
@@ -505,7 +505,7 @@
     },
     {
         "id": "exorcist",
-        "name": "Exorcist",
+        "name": "Thầy trừ tà",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
@@ -521,7 +521,7 @@
     },
     {
         "id": "innkeeper",
-        "name": "Innkeeper",
+        "name": "Chủ quán trọ",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
@@ -539,7 +539,7 @@
     },
     {
         "id": "gambler",
-        "name": "Gambler",
+        "name": "Con bạc",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
@@ -555,7 +555,7 @@
     },
     {
         "id": "gossip",
-        "name": "Gossip",
+        "name": "Bà tám",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
@@ -571,7 +571,7 @@
     },
     {
         "id": "courtier",
-        "name": "Courtier",
+        "name": "Cận thần",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 26,
@@ -590,7 +590,7 @@
     },
     {
         "id": "professor",
-        "name": "Professor",
+        "name": "Giáo sư",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
@@ -607,7 +607,7 @@
     },
     {
         "id": "minstrel",
-        "name": "Minstrel",
+        "name": "Người hát rong",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
@@ -623,7 +623,7 @@
     },
     {
         "id": "tealady",
-        "name": "Tea Lady",
+        "name": "Cô hầu trà",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
@@ -640,7 +640,7 @@
     },
     {
         "id": "pacifist",
-        "name": "Pacifist",
+        "name": "Hòa bình",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
@@ -654,7 +654,7 @@
     },
     {
         "id": "fool",
-        "name": "Fool",
+        "name": "Thằng ngốc",
         "edition": "bmr",
         "team": "townsfolk",
         "firstNight": 0,
@@ -670,7 +670,7 @@
     },
     {
         "id": "tinker",
-        "name": "Tinker",
+        "name": "Thợ vụng vặt",
         "edition": "bmr",
         "team": "outsider",
         "firstNight": 0,
@@ -686,7 +686,7 @@
     },
     {
         "id": "moonchild",
-        "name": "Moonchild",
+        "name": "Con trăng",
         "edition": "bmr",
         "team": "outsider",
         "firstNight": 0,
@@ -702,7 +702,7 @@
     },
     {
         "id": "goon",
-        "name": "Goon",
+        "name": "Bất lương",
         "edition": "bmr",
         "team": "outsider",
         "firstNight": 0,
@@ -718,7 +718,7 @@
     },
     {
         "id": "lunatic",
-        "name": "Lunatic",
+        "name": "Người điên",
         "edition": "bmr",
         "team": "outsider",
         "firstNight": 14,
@@ -736,7 +736,7 @@
     },
     {
         "id": "godfather",
-        "name": "Godfather",
+        "name": "Bố già",
         "edition": "bmr",
         "team": "minion",
         "firstNight": 29,
@@ -753,7 +753,7 @@
     },
     {
         "id": "devilsadvocate",
-        "name": "Devil's Advocate",
+        "name": "Luật sư của Quỷ",
         "edition": "bmr",
         "team": "minion",
         "firstNight": 31,
@@ -769,7 +769,7 @@
     },
     {
         "id": "assassin",
-        "name": "Assassin",
+        "name": "Sát thủ",
         "edition": "bmr",
         "team": "minion",
         "firstNight": 0,
@@ -786,7 +786,7 @@
     },
     {
         "id": "mastermind",
-        "name": "Mastermind",
+        "name": "Chủ mưu",
         "edition": "bmr",
         "team": "minion",
         "firstNight": 0,
@@ -872,7 +872,7 @@
     },
     {
         "id": "apprentice",
-        "name": "Apprentice",
+        "name": "Tập sự",
         "edition": "bmr",
         "team": "traveller",
         "firstNight": 3,
@@ -888,7 +888,7 @@
     },
     {
         "id": "matron",
-        "name": "Matron",
+        "name": "Bá chủ",
         "edition": "bmr",
         "team": "traveller",
         "firstNight": 0,
@@ -902,7 +902,7 @@
     },
     {
         "id": "judge",
-        "name": "Judge",
+        "name": "Thẩm phán",
         "edition": "bmr",
         "team": "traveller",
         "firstNight": 0,
@@ -918,7 +918,7 @@
     },
     {
         "id": "bishop",
-        "name": "Bishop",
+        "name": "Giám mục",
         "edition": "bmr",
         "team": "traveller",
         "firstNight": 0,
@@ -949,7 +949,7 @@
     },
     {
         "id": "clockmaker",
-        "name": "Clockmaker",
+        "name": "Thợ đồng hồ",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 51,
@@ -963,7 +963,7 @@
     },
     {
         "id": "dreamer",
-        "name": "Dreamer",
+        "name": "Mơ mộng",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 52,
@@ -977,7 +977,7 @@
     },
     {
         "id": "snakecharmer",
-        "name": "Snake Charmer",
+        "name": "Nuôi rắn",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 28,
@@ -993,7 +993,7 @@
     },
     {
         "id": "mathematician",
-        "name": "Mathematician",
+        "name": "Nhà toán học",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 68,
@@ -1013,7 +1013,7 @@
     },
     {
         "id": "flowergirl",
-        "name": "Flowergirl",
+        "name": "Bán hoa",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1030,7 +1030,7 @@
     },
     {
         "id": "towncrier",
-        "name": "Town Crier",
+        "name": "Mõ làng",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1047,7 +1047,7 @@
     },
     {
         "id": "oracle",
-        "name": "Oracle",
+        "name": "Tiên tri",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1061,7 +1061,7 @@
     },
     {
         "id": "savant",
-        "name": "Savant",
+        "name": "Nhà bác học",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1075,7 +1075,7 @@
     },
     {
         "id": "seamstress",
-        "name": "Seamstress",
+        "name": "Thợ may",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 53,
@@ -1091,7 +1091,7 @@
     },
     {
         "id": "philosopher",
-        "name": "Philosopher",
+        "name": "Triết gia",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 8,
@@ -1115,7 +1115,7 @@
     },
     {
         "id": "artist",
-        "name": "Artist",
+        "name": "Họa sĩ",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1131,7 +1131,7 @@
     },
     {
         "id": "juggler",
-        "name": "Juggler",
+        "name": "Tung hứng",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1151,7 +1151,7 @@
     },
     {
         "id": "sage",
-        "name": "Sage",
+        "name": "Hiền nhân",
         "edition": "snv",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1165,7 +1165,7 @@
     },
     {
         "id": "mutant",
-        "name": "Mutant",
+        "name": "Đột biến",
         "edition": "snv",
         "team": "outsider",
         "firstNight": 0,
@@ -1179,7 +1179,7 @@
     },
     {
         "id": "sweetheart",
-        "name": "Sweetheart",
+        "name": "Con cưng",
         "edition": "snv",
         "team": "outsider",
         "firstNight": 0,
@@ -1195,7 +1195,7 @@
     },
     {
         "id": "barber",
-        "name": "Barber",
+        "name": "Thợ cắt tóc",
         "edition": "snv",
         "team": "outsider",
         "firstNight": 0,
@@ -1211,7 +1211,7 @@
     },
     {
         "id": "klutz",
-        "name": "Klutz",
+        "name": "Hậu đậu",
         "edition": "snv",
         "team": "outsider",
         "firstNight": 0,
@@ -1225,7 +1225,7 @@
     },
     {
         "id": "eviltwin",
-        "name": "Evil Twin",
+        "name": "Sinh đôi xấu",
         "edition": "snv",
         "team": "minion",
         "firstNight": 32,
@@ -1241,7 +1241,7 @@
     },
     {
         "id": "witch",
-        "name": "Witch",
+        "name": "Phù thủy",
         "edition": "snv",
         "team": "minion",
         "firstNight": 33,
@@ -1257,7 +1257,7 @@
     },
     {
         "id": "cerenovus",
-        "name": "Cerenovus",
+        "name": "Tẩy não",
         "edition": "snv",
         "team": "minion",
         "firstNight": 34,
@@ -1360,7 +1360,7 @@
     },
     {
         "id": "barista",
-        "name": "Barista",
+        "name": "Thợ pha cà phê",
         "edition": "snv",
         "team": "traveller",
         "firstNight": 4,
@@ -1379,7 +1379,7 @@
     },
     {
         "id": "harlot",
-        "name": "Harlot",
+        "name": "Gái điếm",
         "edition": "snv",
         "team": "traveller",
         "firstNight": 0,
@@ -1396,7 +1396,7 @@
     },
     {
         "id": "butcher",
-        "name": "Butcher",
+        "name": "Hàng thịt",
         "edition": "snv",
         "team": "traveller",
         "firstNight": 0,
@@ -1410,7 +1410,7 @@
     },
     {
         "id": "bonecollector",
-        "name": "Bone Collector",
+        "name": "Nhà sưu tầm xương",
         "edition": "snv",
         "team": "traveller",
         "firstNight": 0,
@@ -1427,7 +1427,7 @@
     },
     {
         "id": "deviant",
-        "name": "Deviant",
+        "name": "Kẻ lệch lạc",
         "edition": "snv",
         "team": "traveller",
         "firstNight": 0,
@@ -1441,7 +1441,7 @@
     },
     {
         "id": "noble",
-        "name": "Noble",
+        "name": "Quý tộc",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 56,
@@ -1459,7 +1459,7 @@
     },
     {
         "id": "bountyhunter",
-        "name": "Bounty Hunter",
+        "name": "Thợ săn tiền thưởng",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 60,
@@ -1475,7 +1475,7 @@
     },
     {
         "id": "pixie",
-        "name": "Pixie",
+        "name": "Tiểu tiên",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 39,
@@ -1492,7 +1492,7 @@
     },
     {
         "id": "general",
-        "name": "General",
+        "name": "Đại tướng",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 66,
@@ -1506,7 +1506,7 @@
     },
     {
         "id": "preacher",
-        "name": "Preacher",
+        "name": "Mục sư",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 20,
@@ -1524,7 +1524,7 @@
     },
     {
         "id": "king",
-        "name": "King",
+        "name": "Ông vua",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 16,
@@ -1538,7 +1538,7 @@
     },
     {
         "id": "balloonist",
-        "name": "Balloonist",
+        "name": "Khinh khí cầu gia",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 57,
@@ -1554,7 +1554,7 @@
     },
     {
         "id": "cultleader",
-        "name": "Cult Leader",
+        "name": "Trưởng giáo phái",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 62,
@@ -1568,7 +1568,7 @@
     },
     {
         "id": "lycanthrope",
-        "name": "Lycanthrope",
+        "name": "Người sói",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1585,7 +1585,7 @@
     },
     {
         "id": "amnesiac",
-        "name": "Amnesiac",
+        "name": "Mất trí nhớ",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 42,
@@ -1603,7 +1603,7 @@
     },
     {
         "id": "nightwatchman",
-        "name": "Nightwatchman",
+        "name": "Người gác đêm",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 61,
@@ -1619,7 +1619,7 @@
     },
     {
         "id": "engineer",
-        "name": "Engineer",
+        "name": "Kĩ sư",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 19,
@@ -1635,7 +1635,7 @@
     },
     {
         "id": "fisherman",
-        "name": "Fisherman",
+        "name": "Ngư dân",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1651,7 +1651,7 @@
     },
     {
         "id": "huntsman",
-        "name": "Huntsman",
+        "name": "Thợ săn",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 40,
@@ -1667,7 +1667,7 @@
     },
     {
         "id": "alchemist",
-        "name": "Alchemist",
+        "name": "Nhà giả kim",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 9,
@@ -1689,7 +1689,7 @@
     },
     {
         "id": "farmer",
-        "name": "Farmer",
+        "name": "Nông dân",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1703,7 +1703,7 @@
     },
     {
         "id": "magician",
-        "name": "Magician",
+        "name": "Ảo thuật gia",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 12,
@@ -1717,7 +1717,7 @@
     },
     {
         "id": "choirboy",
-        "name": "Choirboy",
+        "name": "Ca đoàn",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1731,7 +1731,7 @@
     },
     {
         "id": "poppygrower",
-        "name": "Poppy Grower",
+        "name": "Người trồng hoa",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 10,
@@ -1747,7 +1747,7 @@
     },
     {
         "id": "atheist",
-        "name": "Atheist",
+        "name": "Vô thần",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1761,7 +1761,7 @@
     },
     {
         "id": "cannibal",
-        "name": "Cannibal",
+        "name": "Ăn thịt người",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1778,7 +1778,7 @@
     },
     {
         "id": "snitch",
-        "name": "Snitch",
+        "name": "Mách lẻo",
         "edition": "",
         "team": "outsider",
         "firstNight": 13,
@@ -1792,7 +1792,7 @@
     },
     {
         "id": "acrobat",
-        "name": "Acrobat",
+        "name": "Nghệ sĩ xiếc",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
@@ -1809,7 +1809,7 @@
     },
     {
         "id": "puzzlemaster",
-        "name": "Puzzlemaster",
+        "name": "Bậc thầy câu đố",
         "edition": "",
         "team": "outsider",
         "firstNight": 0,
@@ -1826,7 +1826,7 @@
     },
     {
         "id": "heretic",
-        "name": "Heretic",
+        "name": "Dị giáo",
         "edition": "",
         "team": "outsider",
         "firstNight": 0,
@@ -1840,7 +1840,7 @@
     },
     {
         "id": "damsel",
-        "name": "Damsel",
+        "name": "Thiếu nữ",
         "edition": "",
         "team": "outsider",
         "firstNight": 41,
@@ -1872,7 +1872,7 @@
     },
     {
         "id": "politician",
-        "name": "Politician",
+        "name": "Chính trị gia",
         "edition": "",
         "team": "outsider",
         "firstNight": 0,
@@ -1886,7 +1886,7 @@
     },
     {
         "id": "widow",
-        "name": "Widow",
+        "name": "Góa phụ",
         "edition": "",
         "team": "minion",
         "firstNight": 25,
@@ -1903,7 +1903,7 @@
     },
     {
         "id": "fearmonger",
-        "name": "Fearmonger",
+        "name": "Kẻ gây hãi",
         "edition": "",
         "team": "minion",
         "firstNight": 35,
@@ -1919,7 +1919,7 @@
     },
     {
         "id": "psychopath",
-        "name": "Psychopath",
+        "name": "Người tâm thần",
         "edition": "",
         "team": "minion",
         "firstNight": 0,
@@ -1933,7 +1933,7 @@
     },
     {
         "id": "goblin",
-        "name": "Goblin",
+        "name": "Yêu tinh",
         "edition": "",
         "team": "minion",
         "firstNight": 0,
@@ -1949,7 +1949,7 @@
     },
     {
         "id": "mezepheles",
-        "name": "Mezepheles",
+        "name": "Kẻ chiêu mộ",
         "edition": "",
         "team": "minion",
         "firstNight": 37,
@@ -1966,7 +1966,7 @@
     },
     {
         "id": "marionette",
-        "name": "Marionette",
+        "name": "Con rối",
         "edition": "",
         "team": "minion",
         "firstNight": 18,
@@ -1992,7 +1992,7 @@
     },
     {
         "id": "boomdandy",
-        "name": "Boomdandy",
+        "name": "Kẻ giữ bom",
         "edition": "",
         "team": "minion",
         "firstNight": 0,
@@ -2106,7 +2106,7 @@
     },
     {
         "id": "riot",
-        "name": "Riot",
+        "name": "Nổi loạn",
         "edition": "",
         "team": "demon",
         "firstNight": 0,
@@ -2124,7 +2124,7 @@
     },
     {
         "id": "gangster",
-        "name": "Gangster",
+        "name": "Xã hội đen",
         "edition": "",
         "team": "traveller",
         "firstNight": 0,
@@ -2138,7 +2138,7 @@
     },
     {
         "id": "organgrinder",
-        "name": "Organ Grinder",
+        "name": "Nhạc công đường phố",
         "edition": "",
         "team": "minion",
         "firstNight": 30,
@@ -2155,7 +2155,7 @@
     },
     {
         "id": "vizier",
-        "name": "Vizier",
+        "name": "Tể tướng",
         "edition": "",
         "team": "minion",
         "firstNight": 70,
@@ -2169,7 +2169,7 @@
     },
     {
         "id": "knight",
-        "name": "Knight",
+        "name": "Hiệp sỹ",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 55,
@@ -2186,7 +2186,7 @@
     },
     {
         "id": "steward",
-        "name": "Steward",
+        "name": "Quản lý",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 54,
@@ -2202,7 +2202,7 @@
     },
     {
         "id": "highpriestess",
-        "name": "High Priestess",
+        "name": "Nữ thượng tế",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 65,
@@ -2233,7 +2233,7 @@
     },
     {
         "id": "plaguedoctor",
-        "name": "Plague Doctor",
+        "name": "Bác sĩ dịch hạch",
         "edition": "",
         "team": "outsider",
         "firstNight": 0,
@@ -2279,7 +2279,7 @@
     },
     {
         "id": "hatter",
-        "name": "Hatter",
+        "name": "Thợ làm mũ",
         "edition": "",
         "team": "outsider",
         "firstNight": 0,
@@ -2311,7 +2311,7 @@
     },
     {
         "id": "villageidiot",
-        "name": "Village Idiot",
+        "name": "Ngố làng",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 59,
@@ -2345,7 +2345,7 @@
     },
     {
         "id": "summoner",
-        "name": "Summoner",
+        "name": "Kẻ triệu hồi",
         "edition": "",
         "team": "minion",
         "firstNight": 15,
@@ -2363,7 +2363,7 @@
     },
     {
         "id": "banshee",
-        "name": "Banshee",
+        "name": "Quỷ báo tử",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
@@ -2409,7 +2409,7 @@
     },
     {
         "id": "zealot",
-        "name": "Zealot",
+        "name": "Kẻ quá khích",
         "edition": "",
         "team": "outsider",
         "firstNight": 0,
@@ -2423,7 +2423,7 @@
     },
     {
         "id": "lordoftyphon",
-        "name": "Lord of Typhon",
+        "name": "Thần Typhon",
         "edition": "",
         "team": "demon",
         "firstNight": 1,
@@ -2468,7 +2468,7 @@
     },
     {
         "id": "gnome",
-        "name": "Gnome",
+        "name": "Chú lùn",
         "edition": "",
         "team": "traveller",
         "firstNight": 0,
@@ -2503,7 +2503,7 @@
     },
     {
         "id": "wizard",
-        "name": "Wizard",
+        "name": "Pháp sư",
         "edition": "",
         "team": "minion",
         "firstNight": 27,
@@ -2538,7 +2538,7 @@
     },
     {
         "id": "princess",
-        "name": "Princess",
+        "name": "Công chúa",
         "edition": "",
         "team": "townsfolk",
         "firstNight": 0,
@@ -2575,7 +2575,7 @@
     },
     {
         "id": "angel",
-        "name": "Angel",
+        "name": "Thiên thần",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2593,7 +2593,7 @@
     },
     {
         "id": "bootlegger",
-        "name": "Bootlegger",
+        "name": "Kẻ buôn lậu",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2675,7 +2675,7 @@
         "id": "knaves",
         "reminders": [],
         "setup": false,
-        "name": "Knaves",
+        "name": "Kẻ bịp bợm",
         "team": "loric",
         "edition": "loric",
         "ability": "Có 2 Người kể chuyện: một nói thật & một nói dối. Một lần trong trò chơi, vào hoàng hôn, họ có thể tráo đổi.",
@@ -2695,7 +2695,7 @@
     },
     {
         "id": "buddhist",
-        "name": "Buddhist",
+        "name": "Phật tử",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2725,7 +2725,7 @@
     },
     {
         "id": "djinn",
-        "name": "Djinn",
+        "name": "Thần đèn",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2739,7 +2739,7 @@
     },
     {
         "id": "doomsayer",
-        "name": "Doomsayer",
+        "name": "Khẩu nghiệp",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2753,7 +2753,7 @@
     },
     {
         "id": "duchess",
-        "name": "Duchess",
+        "name": "Phu nhân",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2785,7 +2785,7 @@
     },
     {
         "id": "fibbin",
-        "name": "Fibbin",
+        "name": "Dối lừa",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2801,7 +2801,7 @@
     },
     {
         "id": "fiddler",
-        "name": "Fiddler",
+        "name": "Người vĩ cầm",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2833,7 +2833,7 @@
             "Mũ"
         ],
         "setup": false,
-        "name": "God of Ug",
+        "name": "Thần Ug",
         "team": "loric",
         "edition": "loric",
         "ability": "Một mũ Ug. Khi đội mũ Ug, chỉ nói một âm một lúc và giơ hai. Nếu sai, gửi mũ Ug.",
@@ -2852,7 +2852,7 @@
     },
     {
         "id": "hellslibrarian",
-        "name": "Hell's Librarian",
+        "name": "Thư viện Địa ngục",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2868,7 +2868,7 @@
     },
     {
         "id": "revolutionary",
-        "name": "Revolutionary",
+        "name": "Cách mạng",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2886,7 +2886,7 @@
     },
     {
         "id": "sentinel",
-        "name": "Sentinel",
+        "name": "Lính gác",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2900,7 +2900,7 @@
     },
     {
         "id": "spiritofivory",
-        "name": "Spirit of Ivory",
+        "name": "Thần ngà",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
@@ -2916,7 +2916,7 @@
     },
     {
         "id": "stormcatcher",
-        "name": "Storm Catcher",
+        "name": "Người bắt bão",
         "edition": "",
         "team": "fabled",
         "firstNight": 1,
@@ -2932,7 +2932,7 @@
     },
     {
         "id": "toymaker",
-        "name": "Toymaker",
+        "name": "Người làm đồ chơi",
         "edition": "",
         "team": "fabled",
         "firstNight": 0,
