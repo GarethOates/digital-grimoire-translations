@@ -100,7 +100,8 @@
             "official_icons": "Icônes officielles",
             "clocktracker_url": "URL de destination",
             "clocktracker_url_help": "Les parties terminées sont envoyées ici de façon facultative. Ne modifiez ceci que si vous hébergez votre propre Clocktracker.",
-            "clocktracker_url_invalid": "Entrez une adresse https:// complète."
+            "clocktracker_url_invalid": "Entrez une adresse https:// complète.",
+            "wake_buzz": "Vibration de réveil"
         },
         "login": "Connexion",
         "mobile": {

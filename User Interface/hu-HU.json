@@ -166,7 +166,8 @@
             "official_icons": "Hivatalos ikonok",
             "clocktracker_url": "Cél URL",
             "clocktracker_url_help": "A befejezett játékok opcionálisan ide kerülnek elküldésre. Csak akkor módosítsd, ha saját Clocktrackert üzemeltetsz.",
-            "clocktracker_url_invalid": "Add meg a teljes https:// címet."
+            "clocktracker_url_invalid": "Add meg a teljes https:// címet.",
+            "wake_buzz": "Ébresztő rezgés"
         },
         "login": "Belépés",
         "mobile": {

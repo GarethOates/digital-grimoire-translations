@@ -166,7 +166,8 @@
             "official_icons": "Officiële Iconen",
             "clocktracker_url": "Bestemmings-URL",
             "clocktracker_url_help": "Voltooide spellen worden optioneel hierheen gestuurd. Wijzig dit alleen als je je eigen Clocktracker host.",
-            "clocktracker_url_invalid": "Voer een volledig https://-adres in."
+            "clocktracker_url_invalid": "Voer een volledig https://-adres in.",
+            "wake_buzz": "Wektrilling"
         },
         "login": "Inloggen",
         "mobile": {

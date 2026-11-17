@@ -166,7 +166,8 @@
             "official_icons": "Официални икони",
             "clocktracker_url": "Целеви URL адрес",
             "clocktracker_url_help": "Завършените игри се изпращат тук по желание. Промени това само ако хостваш свой собствен Clocktracker.",
-            "clocktracker_url_invalid": "Въведи пълен https:// адрес."
+            "clocktracker_url_invalid": "Въведи пълен https:// адрес.",
+            "wake_buzz": "Вибрация за събуждане"
         },
         "login": "Вход",
         "mobile": {

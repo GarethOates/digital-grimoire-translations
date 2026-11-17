@@ -166,7 +166,8 @@
             "official_icons": "Icones oficials",
             "clocktracker_url": "URL de destinació",
             "clocktracker_url_help": "Les partides completades s'envien aquí de manera opcional. Canvia-ho només si allotges el teu propi Clocktracker.",
-            "clocktracker_url_invalid": "Introduïu una adreça https:// completa."
+            "clocktracker_url_invalid": "Introduïu una adreça https:// completa.",
+            "wake_buzz": "Brunzit de desvetllament"
         },
         "login": "Inicia la sessió",
         "mobile": {

@@ -166,7 +166,8 @@
             "official_icons": "Offizielle Symbole",
             "clocktracker_url": "Ziel-URL",
             "clocktracker_url_help": "Abgeschlossene Spiele werden optional hierher gesendet. Ändern Sie dies nur, wenn Sie Ihren eigenen Clocktracker hosten.",
-            "clocktracker_url_invalid": "Geben Sie eine vollständige https://-Adresse ein."
+            "clocktracker_url_invalid": "Geben Sie eine vollständige https://-Adresse ein.",
+            "wake_buzz": "Weckvibration"
         },
         "login": "Anmelden",
         "mobile": {

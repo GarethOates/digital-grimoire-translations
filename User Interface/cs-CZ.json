@@ -166,7 +166,8 @@
             "official_icons": "Oficiální ikony",
             "clocktracker_url": "Cílová URL",
             "clocktracker_url_help": "Dokončené hry se sem volitelně odesílají. Změňte to pouze v případě, že hostujete vlastní Clocktracker.",
-            "clocktracker_url_invalid": "Zadejte úplnou adresu https://."
+            "clocktracker_url_invalid": "Zadejte úplnou adresu https://.",
+            "wake_buzz": "Budíček vibrací"
         },
         "login": "Přihlásit se",
         "mobile": {

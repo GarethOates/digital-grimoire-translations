@@ -100,7 +100,8 @@
             "official_icons": "Offisielle ikoner",
             "clocktracker_url": "Mål-URL",
             "clocktracker_url_help": "Fullførte spill sendes eventuelt hit. Endre dette bare hvis du er vert for din egen Clocktracker.",
-            "clocktracker_url_invalid": "Skriv inn en fullstendig https://-adresse."
+            "clocktracker_url_invalid": "Skriv inn en fullstendig https://-adresse.",
+            "wake_buzz": "Vekkevibrasjon"
         },
         "login": "Logg inn",
         "mobile": {

@@ -166,7 +166,8 @@
             "official_icons": "Official Icons",
             "clocktracker_url": "Destination URL",
             "clocktracker_url_help": "Completed games are optionally sent here. Only change this if you host your own Clocktracker.",
-            "clocktracker_url_invalid": "Enter a full https:// address."
+            "clocktracker_url_invalid": "Enter a full https:// address.",
+            "wake_buzz": "Wake-up buzz"
         },
         "login": "Login",
         "mobile": {

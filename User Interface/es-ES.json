@@ -166,7 +166,8 @@
             "official_icons": "Iconos Oficiales",
             "clocktracker_url": "URL de destino",
             "clocktracker_url_help": "Las partidas completadas se envían aquí de forma opcional. Cambia esto solo si alojas tu propio Clocktracker.",
-            "clocktracker_url_invalid": "Introduce una dirección https:// completa."
+            "clocktracker_url_invalid": "Introduce una dirección https:// completa.",
+            "wake_buzz": "Vibración de despertar"
         },
         "login": "Iniciar sesión",
         "mobile": {
