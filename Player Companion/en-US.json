@@ -154,6 +154,13 @@
         "cancel": "Cancel",
         "are_you_sure": "Are you sure?",
         "confirm": "Confirm",
-        "return_home": "Return Home"
+        "return_home": "Return Home",
+        "buzz_title": "Wake-up buzz",
+        "buzz_turn_on": "Turn on the wake-up buzz",
+        "buzz_turn_off": "Turn off the wake-up buzz",
+        "buzz_install": "On an iPhone or iPad, add this page to your Home Screen first: tap Share, then Add to Home Screen. Open it from there, and tap the bell again.",
+        "buzz_blocked": "Notifications are blocked for this site. Allow them in your browser's settings, then tap the bell again.",
+        "buzz_failed": "Couldn't turn on the wake-up buzz. Check your connection and try again.",
+        "wake_up": "Wake up"
     }
 }
