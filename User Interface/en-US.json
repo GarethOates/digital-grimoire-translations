@@ -118,8 +118,7 @@
         "fetch_custom_cards_failed": "Failed to fetch custom cards from profile",
         "save_custom_card_failed": "Failed to save custom card to user profile",
         "update_custom_card_failed": "Failed to update custom card",
-        "delete_custom_card_failed": "Failed to delete custom card",
-        "wake_failed": "Couldn't buzz that player's phone. They may need to turn the wake-up buzz on again."
+        "delete_custom_card_failed": "Failed to delete custom card"
     },
     "status": {
         "poisoned": "Poisoned",
@@ -137,7 +136,6 @@
         "make_evil": "Make Evil",
         "make_good": "Make Good",
         "bluff": "Bluff",
-        "wake": "Wake",
         "back": "Back"
     },
     "nav": {
