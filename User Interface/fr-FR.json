@@ -476,7 +476,8 @@
         "fetch_custom_cards_failed": "Impossible de récupérer les cartes personnalisées du profil",
         "save_custom_card_failed": "Impossible d'enregistrer la carte personnalisée dans le profil utilisateur",
         "update_custom_card_failed": "Impossible de mettre à jour la carte personnalisée",
-        "delete_custom_card_failed": "Impossible de supprimer la carte personnalisée"
+        "delete_custom_card_failed": "Impossible de supprimer la carte personnalisée",
+        "wake_failed": "Impossible de faire vibrer le téléphone de ce joueur. Il doit peut-être réactiver la vibration de réveil."
     },
     "status": {
         "poisoned": "Empoisonné",
@@ -494,6 +495,7 @@
         "make_evil": "Rendre méchant",
         "make_good": "Rendre bon",
         "bluff": "Bluff",
+        "wake": "Réveiller",
         "back": "Retour"
     },
     "roles": {

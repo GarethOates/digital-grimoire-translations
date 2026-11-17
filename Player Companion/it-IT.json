@@ -154,6 +154,13 @@
         "votes_count": "{count, plural, one {# voto} other {# voti}}",
         "voting_now": "Votazione in corso",
         "yes": "Sì",
-        "return_home": "Torna alla Home"
+        "return_home": "Torna alla Home",
+        "buzz_title": "Vibrazione di risveglio",
+        "buzz_turn_on": "Attiva la vibrazione di risveglio",
+        "buzz_turn_off": "Disattiva la vibrazione di risveglio",
+        "buzz_install": "Su iPhone o iPad, aggiungi prima questa pagina alla schermata Home: tocca Condividi, poi Aggiungi alla schermata Home. Aprila da lì e tocca di nuovo la campanella.",
+        "buzz_blocked": "Le notifiche sono bloccate per questo sito. Consentile nelle impostazioni del browser, poi tocca di nuovo la campanella.",
+        "buzz_failed": "Impossibile attivare la vibrazione di risveglio. Controlla la connessione e riprova.",
+        "wake_up": "Svegliati"
     }
 }

@@ -118,7 +118,8 @@
         "fetch_custom_cards_failed": "Nem sikerült lekérni a saját lapkákat a profilból",
         "save_custom_card_failed": "Nem sikerült menteni a saját lapkát a felhasználói profilba",
         "update_custom_card_failed": "Nem sikerült frissíteni a saját lapkát",
-        "delete_custom_card_failed": "Nem sikerült törölni a saját lapkát"
+        "delete_custom_card_failed": "Nem sikerült törölni a saját lapkát",
+        "wake_failed": "Nem sikerült megrezegtetni a játékos telefonját. Lehet, hogy újra be kell kapcsolnia az ébresztő rezgést."
     },
     "status": {
         "poisoned": "Mérgezett",
@@ -136,6 +137,7 @@
         "make_evil": "Legyen gonosz",
         "make_good": "Legyen jó",
         "bluff": "Blöff",
+        "wake": "Ébresztés",
         "back": "Vissza"
     },
     "nav": {

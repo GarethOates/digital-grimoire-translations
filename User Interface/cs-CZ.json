@@ -118,7 +118,8 @@
         "fetch_custom_cards_failed": "Nepodařilo se načíst vlastní karty z profilu",
         "save_custom_card_failed": "Nepodařilo se uložit vlastní kartu do profilu",
         "update_custom_card_failed": "Nepodařilo se aktualizovat vlastní kartu",
-        "delete_custom_card_failed": "Nepodařilo se smazat vlastní kartu"
+        "delete_custom_card_failed": "Nepodařilo se smazat vlastní kartu",
+        "wake_failed": "Nepodařilo se rozvibrovat telefon tohoto hráče. Možná bude muset znovu zapnout budíčkové vibrování."
     },
     "status": {
         "poisoned": "Otrávený",
@@ -136,6 +137,7 @@
         "make_evil": "Udělat zlým",
         "make_good": "Udělat dobrým",
         "bluff": "Blaf",
+        "wake": "Vzbudit",
         "back": "Zpět"
     },
     "nav": {

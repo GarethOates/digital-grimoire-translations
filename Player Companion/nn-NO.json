@@ -154,6 +154,13 @@
         "votes_count": "{count, plural, one {# stemme} other {# stemmer}}",
         "voting_now": "Stemmer no",
         "yes": "Ja",
-        "return_home": "Gå til framsida"
+        "return_home": "Gå til framsida",
+        "buzz_title": "Vekkevibrasjon",
+        "buzz_turn_on": "Slå på vekkevibrasjonen",
+        "buzz_turn_off": "Slå av vekkevibrasjonen",
+        "buzz_install": "På ein iPhone eller iPad må du først leggje denne sida til på Hjem-skjermen: trykk på Del, og så på Legg til på Hjem-skjerm. Opne sida derifrå, og trykk på bjella igjen.",
+        "buzz_blocked": "Varsel er blokkerte for denne nettstaden. Tillat dei i innstillingane til nettlesaren, og trykk på bjella igjen.",
+        "buzz_failed": "Klarte ikkje å slå på vekkevibrasjonen. Sjekk tilkoplinga og prøv på nytt.",
+        "wake_up": "Vakn opp"
     }
 }

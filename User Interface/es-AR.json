@@ -118,7 +118,8 @@
         "fetch_custom_cards_failed": "No se pudieron obtener las tarjetas personalizadas del perfil",
         "save_custom_card_failed": "No se pudo guardar la tarjeta personalizada en el perfil de usuario",
         "update_custom_card_failed": "No se pudo actualizar la tarjeta personalizada",
-        "delete_custom_card_failed": "No se pudo borrar la tarjeta personalizada"
+        "delete_custom_card_failed": "No se pudo borrar la tarjeta personalizada",
+        "wake_failed": "No se pudo hacer vibrar el celular de ese jugador. Puede que tenga que volver a activar la vibración para despertar."
     },
     "status": {
         "poisoned": "Envenenado",
@@ -136,6 +137,7 @@
         "make_evil": "Hacer malvado",
         "make_good": "Hacer bueno",
         "bluff": "Farsa",
+        "wake": "Despertar",
         "back": "Atrás"
     },
     "nav": {

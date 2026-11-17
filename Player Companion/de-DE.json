@@ -154,6 +154,13 @@
         "votes_count": "{count, plural, one {# Stimme} other {# Stimmen}}",
         "voting_now": "Stimmt gerade ab",
         "yes": "Ja",
-        "return_home": "Zur Startseite"
+        "return_home": "Zur Startseite",
+        "buzz_title": "Weckvibration",
+        "buzz_turn_on": "Weckvibration einschalten",
+        "buzz_turn_off": "Weckvibration ausschalten",
+        "buzz_install": "Füge diese Seite auf einem iPhone oder iPad zuerst zu deinem Home-Bildschirm hinzu: Tippe auf Teilen, dann auf Zum Home-Bildschirm. Öffne sie von dort und tippe erneut auf die Glocke.",
+        "buzz_blocked": "Mitteilungen sind für diese Website blockiert. Erlaube sie in den Einstellungen deines Browsers und tippe dann erneut auf die Glocke.",
+        "buzz_failed": "Die Weckvibration konnte nicht eingeschaltet werden. Überprüfe deine Verbindung und versuche es erneut.",
+        "wake_up": "Aufwachen"
     }
 }

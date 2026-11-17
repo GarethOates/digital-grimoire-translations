@@ -118,7 +118,8 @@
         "fetch_custom_cards_failed": "Die benutzerdefinierten Karten konnten nicht aus dem Profil abgerufen werden",
         "save_custom_card_failed": "Die benutzerdefinierte Karte konnte nicht im Benutzerprofil gespeichert werden",
         "update_custom_card_failed": "Die benutzerdefinierte Karte konnte nicht aktualisiert werden",
-        "delete_custom_card_failed": "Die benutzerdefinierte Karte konnte nicht gelöscht werden"
+        "delete_custom_card_failed": "Die benutzerdefinierte Karte konnte nicht gelöscht werden",
+        "wake_failed": "Das Handy dieses Spielers konnte nicht zum Vibrieren gebracht werden. Möglicherweise muss er das Weckvibrieren erneut einschalten."
     },
     "status": {
         "poisoned": "Vergiftet",
@@ -136,6 +137,7 @@
         "make_evil": "Böse machen",
         "make_good": "Gut machen",
         "bluff": "Bluff",
+        "wake": "Wecken",
         "back": "Zurück"
     },
     "nav": {

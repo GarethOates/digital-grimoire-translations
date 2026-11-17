@@ -118,7 +118,8 @@
         "fetch_custom_cards_failed": "No s'han pogut obtenir les targetes personalitzades del perfil",
         "save_custom_card_failed": "No s'ha pogut desar la targeta personalitzada al perfil",
         "update_custom_card_failed": "No s'ha pogut actualitzar la targeta personalitzada",
-        "delete_custom_card_failed": "No s'ha pogut eliminar la targeta personalitzada"
+        "delete_custom_card_failed": "No s'ha pogut eliminar la targeta personalitzada",
+        "wake_failed": "No s'ha pogut fer vibrar el mòbil d'aquest jugador. Potser haurà de tornar a activar el brunzit de desvetllament."
     },
     "status": {
         "poisoned": "Emmetzinat",
@@ -136,6 +137,7 @@
         "make_evil": "Fes-lo malvat",
         "make_good": "Fes-lo bo",
         "bluff": "Coartada",
+        "wake": "Desperta",
         "back": "Enrere"
     },
     "nav": {

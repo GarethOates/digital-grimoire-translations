@@ -476,7 +476,8 @@
         "fetch_custom_cards_failed": "Kunne ikke hente egendefinerte kort fra profilen",
         "save_custom_card_failed": "Kunne ikke lagre egendefinert kort i brukerprofilen",
         "update_custom_card_failed": "Kunne ikke oppdatere egendefinert kort",
-        "delete_custom_card_failed": "Kunne ikke slette egendefinert kort"
+        "delete_custom_card_failed": "Kunne ikke slette egendefinert kort",
+        "wake_failed": "Kunne ikke få den spillerens mobil til å vibrere. Kanskje spilleren må slå på vekkevibrasjonen igjen."
     },
     "status": {
         "poisoned": "Forgiftet",
@@ -494,6 +495,7 @@
         "make_evil": "Gjør ond",
         "make_good": "Gjør god",
         "bluff": "Bløff",
+        "wake": "Vekk",
         "back": "Tilbake"
     },
     "roles": {

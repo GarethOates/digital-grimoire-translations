@@ -154,6 +154,13 @@
         "votes_count": "{count, plural, one {# hlas} few {# hlasy} many {# hlasu} other {# hlasů}}",
         "voting_now": "Právě se hlasuje",
         "yes": "Ano",
-        "return_home": "Návrat domů"
+        "return_home": "Návrat domů",
+        "buzz_title": "Budíček vibrací",
+        "buzz_turn_on": "Zapnout budíček vibrací",
+        "buzz_turn_off": "Vypnout budíček vibrací",
+        "buzz_install": "Na iPhonu nebo iPadu nejdřív přidejte tuto stránku na plochu: klepněte na Sdílet a poté na Přidat na plochu. Otevřete ji odtud a znovu klepněte na zvonek.",
+        "buzz_blocked": "Oznámení jsou pro tento web zablokovaná. Povolte je v nastavení prohlížeče a poté znovu klepněte na zvonek.",
+        "buzz_failed": "Budíček vibrací se nepodařilo zapnout. Zkontrolujte připojení a zkuste to znovu.",
+        "wake_up": "Vstávej"
     }
 }

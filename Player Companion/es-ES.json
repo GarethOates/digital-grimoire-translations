@@ -154,6 +154,13 @@
         "votes_count": "{count, plural, one {# voto} other {# votos}}",
         "voting_now": "Votando ahora",
         "yes": "Sí",
-        "return_home": "Volver al Inicio"
+        "return_home": "Volver al Inicio",
+        "buzz_title": "Vibración de despertar",
+        "buzz_turn_on": "Activar la vibración de despertar",
+        "buzz_turn_off": "Desactivar la vibración de despertar",
+        "buzz_install": "En un iPhone o iPad, primero añade esta página a tu pantalla de inicio: toca Compartir y luego Añadir a pantalla de inicio. Ábrela desde ahí y toca de nuevo la campana.",
+        "buzz_blocked": "Las notificaciones están bloqueadas para este sitio. Permítelas en los ajustes de tu navegador y toca de nuevo la campana.",
+        "buzz_failed": "No se pudo activar la vibración de despertar. Comprueba tu conexión e inténtalo de nuevo.",
+        "wake_up": "Despierta"
     }
 }

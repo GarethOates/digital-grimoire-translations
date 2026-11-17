@@ -118,7 +118,8 @@
     "fetch_custom_cards_failed": "Falha ao buscar os cartões personalizados do perfil",
     "save_custom_card_failed": "Falha ao salvar o cartão personalizado no perfil do usuário",
     "update_custom_card_failed": "Falha ao atualizar o cartão personalizado",
-    "delete_custom_card_failed": "Falha ao deletar o cartão personalizado"
+    "delete_custom_card_failed": "Falha ao deletar o cartão personalizado",
+    "wake_failed": "Não foi possível vibrar o celular desse jogador. Talvez ele precise ativar a vibração de despertar novamente."
   },
   "status": {
     "poisoned": "Envenenado",
@@ -136,6 +137,7 @@
     "make_evil": "Transformar em Mau",
     "make_good": "Transformar em Bom",
     "bluff": "Blefe",
+    "wake": "Acordar",
     "back": "Voltar"
   },
   "nav": {

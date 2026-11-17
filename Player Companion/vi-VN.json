@@ -154,6 +154,13 @@
         "votes_count": "{count, plural, other {# phiếu}}",
         "voting_now": "Đang bỏ phiếu",
         "yes": "Có",
-        "return_home": "Về trang chủ"
+        "return_home": "Về trang chủ",
+        "buzz_title": "Rung báo thức dậy",
+        "buzz_turn_on": "Bật rung báo thức dậy",
+        "buzz_turn_off": "Tắt rung báo thức dậy",
+        "buzz_install": "Trên iPhone hoặc iPad, trước tiên hãy thêm trang này vào Màn hình chính: nhấn Chia sẻ, rồi nhấn Thêm vào MH chính. Mở trang từ đó, rồi nhấn vào biểu tượng chuông một lần nữa.",
+        "buzz_blocked": "Thông báo đang bị chặn đối với trang web này. Hãy cho phép thông báo trong phần cài đặt của trình duyệt, rồi nhấn vào biểu tượng chuông một lần nữa.",
+        "buzz_failed": "Không thể bật rung báo thức dậy. Hãy kiểm tra kết nối và thử lại.",
+        "wake_up": "Thức dậy"
     }
 }

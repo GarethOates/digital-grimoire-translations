@@ -118,7 +118,8 @@
         "fetch_custom_cards_failed": "Eigen kaarten konden niet uit het profiel worden opgehaald",
         "save_custom_card_failed": "De eigen kaart kon niet in het gebruikersprofiel worden opgeslagen",
         "update_custom_card_failed": "De eigen kaart kon niet worden bijgewerkt",
-        "delete_custom_card_failed": "De eigen kaart kon niet worden verwijderd"
+        "delete_custom_card_failed": "De eigen kaart kon niet worden verwijderd",
+        "wake_failed": "De mobiel van die speler kon niet worden gewekt met een trilling. Misschien moet de speler de wektrilling opnieuw aanzetten."
     },
     "status": {
         "poisoned": "Vergiftigd",
@@ -136,6 +137,7 @@
         "make_evil": "Kwaad maken",
         "make_good": "Goed maken",
         "bluff": "Bluf",
+        "wake": "Wekken",
         "back": "Terug"
     },
     "nav": {

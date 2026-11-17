@@ -154,6 +154,13 @@
         "votes_count": "{count, plural, one {# vote} other {# votes}}",
         "voting_now": "Vote en cours",
         "yes": "Oui",
-        "return_home": "Retour à l'accueil"
+        "return_home": "Retour à l'accueil",
+        "buzz_title": "Vibration de réveil",
+        "buzz_turn_on": "Activer la vibration de réveil",
+        "buzz_turn_off": "Désactiver la vibration de réveil",
+        "buzz_install": "Sur un iPhone ou un iPad, ajoutez d'abord cette page à votre écran d'accueil : touchez Partager, puis Sur l'écran d'accueil. Ouvrez-la depuis là, et touchez de nouveau la cloche.",
+        "buzz_blocked": "Les notifications sont bloquées pour ce site. Autorisez-les dans les réglages de votre navigateur, puis touchez de nouveau la cloche.",
+        "buzz_failed": "Impossible d'activer la vibration de réveil. Vérifiez votre connexion et réessayez.",
+        "wake_up": "Réveillez-vous"
     }
 }

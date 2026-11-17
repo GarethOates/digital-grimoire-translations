@@ -154,6 +154,13 @@
         "votes_count": "{count, plural, other {#票}}",
         "voting_now": "正在投票",
         "yes": "是",
-        "return_home": "返回首页"
+        "return_home": "返回首页",
+        "buzz_title": "唤醒震动",
+        "buzz_turn_on": "开启唤醒震动",
+        "buzz_turn_off": "关闭唤醒震动",
+        "buzz_install": "在 iPhone 或 iPad 上，请先将此页面添加到主屏幕：点按“分享”，然后点按“添加到主屏幕”。从主屏幕打开后，再次点按铃铛。",
+        "buzz_blocked": "此网站的通知已被屏蔽。请在浏览器设置中允许通知，然后再次点按铃铛。",
+        "buzz_failed": "无法开启唤醒震动。请检查网络连接后重试。",
+        "wake_up": "该醒了"
     }
 }
