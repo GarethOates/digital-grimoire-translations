@@ -153,7 +153,6 @@
         "voted": "Abgestimmt",
         "votes_count": "{count, plural, one {# Stimme} other {# Stimmen}}",
         "voting_now": "Stimmt gerade ab",
-        "yes": "Ja",
-        "return_home": "Zur Startseite"
+        "yes": "Ja"
     }
 }

@@ -153,7 +153,6 @@
         "voted": "Ha votat",
         "votes_count": "{count, plural, one {# vot} other {# vots}}",
         "voting_now": "Votant ara",
-        "yes": "Sí",
-        "return_home": "Torna a l’inici"
+        "yes": "Sí"
     }
 }

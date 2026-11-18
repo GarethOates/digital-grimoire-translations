@@ -153,7 +153,6 @@
         "voted": "Гласувал",
         "votes_count": "{count, plural, one {# глас} other {# гласа}}",
         "voting_now": "Гласуване в момента",
-        "yes": "Да",
-        "return_home": "Към началния екран"
+        "yes": "Да"
     }
 }

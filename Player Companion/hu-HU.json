@@ -153,7 +153,6 @@
         "voted": "Szavazott",
         "votes_count": "{count, plural, one {# szavazat} other {# szavazat}}",
         "voting_now": "Most szavaz",
-        "yes": "Igen",
-        "return_home": "Vissza a Főoldalra"
+        "yes": "Igen"
     }
 }

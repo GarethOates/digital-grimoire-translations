@@ -153,7 +153,6 @@
         "voted": "Gestemd",
         "votes_count": "{count, plural, one {# stem} other {# stemmen}}",
         "voting_now": "Stemt nu",
-        "yes": "Ja",
-        "return_home": "Terug naar Beginscherm"
+        "yes": "Ja"
     }
 }

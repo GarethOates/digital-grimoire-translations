@@ -153,7 +153,6 @@
         "voted": "Hlasoval(a)",
         "votes_count": "{count, plural, one {# hlas} few {# hlasy} many {# hlasu} other {# hlasů}}",
         "voting_now": "Právě se hlasuje",
-        "yes": "Ano",
-        "return_home": "Návrat domů"
+        "yes": "Ano"
     }
 }

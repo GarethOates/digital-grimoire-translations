@@ -153,7 +153,6 @@
         "voted": "Oy verdi",
         "votes_count": "{count, plural, one {# oy} other {# oy}}",
         "voting_now": "Şu an oy veriyor",
-        "yes": "Evet",
-        "return_home": "Ana sayfaya dön"
+        "yes": "Evet"
     }
 }

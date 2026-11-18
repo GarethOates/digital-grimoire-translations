@@ -153,7 +153,6 @@
         "voted": "โหวตแล้ว",
         "votes_count": "{count, plural, other {# โหวต}}",
         "voting_now": "กำลังโหวต",
-        "yes": "ใช่",
-        "return_home": "กลับหน้าแรก"
+        "yes": "ใช่"
     }
 }
