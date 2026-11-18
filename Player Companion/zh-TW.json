@@ -153,6 +153,7 @@
         "voted": "已投票",
         "votes_count": "{count, plural, other {#票}}",
         "voting_now": "正在投票",
-        "yes": "是"
+        "yes": "是",
+        "return_home": "返回首頁"
     }
 }

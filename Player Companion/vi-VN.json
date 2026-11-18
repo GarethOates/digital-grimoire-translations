@@ -153,6 +153,7 @@
         "voted": "Đã bỏ phiếu",
         "votes_count": "{count, plural, other {# phiếu}}",
         "voting_now": "Đang bỏ phiếu",
-        "yes": "Có"
+        "yes": "Có",
+        "return_home": "Về trang chủ"
     }
 }
