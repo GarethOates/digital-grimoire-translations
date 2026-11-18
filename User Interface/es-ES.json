@@ -118,8 +118,7 @@
         "fetch_custom_cards_failed": "No se pudieron obtener las cartas personalizadas del perfil",
         "save_custom_card_failed": "No se pudo guardar la carta personalizada en el perfil de usuario",
         "update_custom_card_failed": "No se pudo actualizar la carta personalizada",
-        "delete_custom_card_failed": "No se pudo eliminar la carta personalizada",
-        "wake_failed": "No se pudo hacer vibrar el móvil de ese jugador. Puede que tenga que volver a activar la vibración de despertar."
+        "delete_custom_card_failed": "No se pudo eliminar la carta personalizada"
     },
     "status": {
         "poisoned": "Envenenado",
@@ -137,8 +136,6 @@
         "make_evil": "Hacer malvado",
         "make_good": "Hacer bueno",
         "bluff": "Farol",
-        "wake": "Despertar",
-        "wake_sent": "Vibración de despertar enviada",
         "back": "Atrás"
     },
     "nav": {
@@ -167,8 +164,7 @@
             "official_icons": "Iconos Oficiales",
             "clocktracker_url": "URL de destino",
             "clocktracker_url_help": "Las partidas completadas se envían aquí de forma opcional. Cambia esto solo si alojas tu propio Clocktracker.",
-            "clocktracker_url_invalid": "Introduce una dirección https:// completa.",
-            "wake_buzz": "Vibración de despertar"
+            "clocktracker_url_invalid": "Introduce una dirección https:// completa."
         },
         "login": "Iniciar sesión",
         "mobile": {
@@ -1066,9 +1062,6 @@
         "preferences": {
             "pref_display": {
                 "body": "Pantalla completa oculta las barras propias del navegador. Iconos oficiales usa los iconos oficiales de TPI en lugar de ilustraciones creadas por la comunidad. Animación de sorteo recorre los roles antes de revelar una ficha sacada."
-            },
-            "pref_wake_buzz": {
-                "body": "Haz vibrar el móvil de un jugador para despertarlo, pensado para quienes prefieren que no los toquen. Los jugadores lo activan con la campana en el Compañero del jugador. Luego toca a ese jugador para abrir su menú y elige Despertar. En iPhone y iPad, los jugadores deben añadir antes el Compañero del jugador a su pantalla de inicio; si no, la campana no funcionará."
             },
             "pref_sizes": {
                 "body": "Cambia el tamaño de las fichas y los recordatorios. El botón de enlace mantiene la misma proporción entre ambos tamaños."

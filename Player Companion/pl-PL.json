@@ -153,14 +153,6 @@
         "voted": "Głosował(a)",
         "votes_count": "{count, plural, one {# głos} few {# głosy} many {# głosów} other {# głosu}}",
         "voting_now": "Trwa głosowanie",
-        "yes": "Tak",
-        "return_home": "Powrót do strony głównej",
-        "buzz_title": "Wibracja budząca",
-        "buzz_turn_on": "Włącz wibrację budzącą",
-        "buzz_turn_off": "Wyłącz wibrację budzącą",
-        "buzz_install": "Na iPhonie lub iPadzie najpierw dodaj tę stronę do ekranu głównego: dotknij Udostępnij, a potem Dodaj do ekranu głównego. Otwórz ją stamtąd i dotknij dzwonka jeszcze raz.",
-        "buzz_blocked": "Powiadomienia są zablokowane dla tej witryny. Zezwól na nie w ustawieniach przeglądarki, a potem dotknij dzwonka jeszcze raz.",
-        "buzz_failed": "Nie udało się włączyć wibracji budzącej. Sprawdź połączenie i spróbuj ponownie.",
-        "wake_up": "Pobudka"
+        "yes": "Tak"
     }
 }

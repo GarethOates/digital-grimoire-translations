@@ -153,14 +153,6 @@
         "voted": "Szavazott",
         "votes_count": "{count, plural, one {# szavazat} other {# szavazat}}",
         "voting_now": "Most szavaz",
-        "yes": "Igen",
-        "return_home": "Vissza a Főoldalra",
-        "buzz_title": "Ébresztő rezgés",
-        "buzz_turn_on": "Ébresztő rezgés bekapcsolása",
-        "buzz_turn_off": "Ébresztő rezgés kikapcsolása",
-        "buzz_install": "iPhone-on vagy iPaden először add hozzá ezt az oldalt a Főképernyődhöz: koppints a Megosztás, majd a Főképernyőhöz adás elemre. Onnan nyisd meg, és koppints újra a csengőre.",
-        "buzz_blocked": "Az értesítések le vannak tiltva ezen az oldalon. Engedélyezd őket a böngésződ beállításaiban, majd koppints újra a csengőre.",
-        "buzz_failed": "Nem sikerült bekapcsolni az ébresztő rezgést. Ellenőrizd a kapcsolatot, és próbáld újra.",
-        "wake_up": "Ébredj fel"
+        "yes": "Igen"
     }
 }

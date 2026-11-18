@@ -153,14 +153,6 @@
         "voted": "已投票",
         "votes_count": "{count, plural, other {#票}}",
         "voting_now": "正在投票",
-        "yes": "是",
-        "return_home": "返回首頁",
-        "buzz_title": "喚醒震動",
-        "buzz_turn_on": "開啟喚醒震動",
-        "buzz_turn_off": "關閉喚醒震動",
-        "buzz_install": "在 iPhone 或 iPad 上，請先將此頁面加入主畫面：點一下「分享」，然後點一下「加入主畫面」。從主畫面開啟後，再次點一下鈴鐺。",
-        "buzz_blocked": "此網站的通知已被封鎖。請在瀏覽器設定中允許通知，然後再次點一下鈴鐺。",
-        "buzz_failed": "無法開啟喚醒震動。請檢查網路連線後重試。",
-        "wake_up": "該醒了"
+        "yes": "是"
     }
 }

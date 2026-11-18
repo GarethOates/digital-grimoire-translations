@@ -153,14 +153,6 @@
         "voted": "Ha votat",
         "votes_count": "{count, plural, one {# vot} other {# vots}}",
         "voting_now": "Votant ara",
-        "yes": "Sí",
-        "return_home": "Torna a l’inici",
-        "buzz_title": "Brunzit de desvetllament",
-        "buzz_turn_on": "Activa el brunzit de desvetllament",
-        "buzz_turn_off": "Desactiva el brunzit de desvetllament",
-        "buzz_install": "A un iPhone o iPad, afegeix primer aquesta pàgina a la pantalla d'inici: toca Comparteix i després Afegeix a la pantalla d'inici. Obre-la des d'allà i torna a tocar la campana.",
-        "buzz_blocked": "Les notificacions estan bloquejades per a aquest lloc. Permet-les a la configuració del navegador i torna a tocar la campana.",
-        "buzz_failed": "No s'ha pogut activar el brunzit de desvetllament. Comprova la connexió i torna-ho a provar.",
-        "wake_up": "Desperta"
+        "yes": "Sí"
     }
 }

@@ -153,14 +153,6 @@
         "voted": "Glasoval(a)",
         "votes_count": "{count, plural, one {# glas} two {# glasova} few {# glasovi} other {# glasov}}",
         "voting_now": "Glasovanje poteka",
-        "yes": "Da",
-        "return_home": "Nazaj na začetek",
-        "buzz_title": "Brenčanje za prebujanje",
-        "buzz_turn_on": "Vklopi brenčanje za prebujanje",
-        "buzz_turn_off": "Izklopi brenčanje za prebujanje",
-        "buzz_install": "Na iPhonu ali iPadu najprej dodajte to stran na začetni zaslon: tapnite Skupna raba, nato Dodaj na začetni zaslon. Odprite jo od tam in znova tapnite zvonec.",
-        "buzz_blocked": "Obvestila so za to spletno mesto blokirana. Dovolite jih v nastavitvah brskalnika in nato znova tapnite zvonec.",
-        "buzz_failed": "Brenčanja za prebujanje ni bilo mogoče vklopiti. Preverite povezavo in poskusite znova.",
-        "wake_up": "Zbudite se"
+        "yes": "Da"
     }
 }

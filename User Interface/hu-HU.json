@@ -118,8 +118,7 @@
         "fetch_custom_cards_failed": "Nem sikerült lekérni a saját lapkákat a profilból",
         "save_custom_card_failed": "Nem sikerült menteni a saját lapkát a felhasználói profilba",
         "update_custom_card_failed": "Nem sikerült frissíteni a saját lapkát",
-        "delete_custom_card_failed": "Nem sikerült törölni a saját lapkát",
-        "wake_failed": "Nem sikerült megrezegtetni a játékos telefonját. Lehet, hogy újra be kell kapcsolnia az ébresztő rezgést."
+        "delete_custom_card_failed": "Nem sikerült törölni a saját lapkát"
     },
     "status": {
         "poisoned": "Mérgezett",
@@ -137,8 +136,6 @@
         "make_evil": "Legyen gonosz",
         "make_good": "Legyen jó",
         "bluff": "Blöff",
-        "wake": "Ébresztés",
-        "wake_sent": "Ébresztő rezgés elküldve",
         "back": "Vissza"
     },
     "nav": {
@@ -167,8 +164,7 @@
             "official_icons": "Hivatalos ikonok",
             "clocktracker_url": "Cél URL",
             "clocktracker_url_help": "A befejezett játékok opcionálisan ide kerülnek elküldésre. Csak akkor módosítsd, ha saját Clocktrackert üzemeltetsz.",
-            "clocktracker_url_invalid": "Add meg a teljes https:// címet.",
-            "wake_buzz": "Ébresztő rezgés"
+            "clocktracker_url_invalid": "Add meg a teljes https:// címet."
         },
         "login": "Belépés",
         "mobile": {
@@ -1066,9 +1062,6 @@
         "preferences": {
             "pref_display": {
                 "body": "A Teljes képernyő elrejti a böngésző saját sávjait. A Hivatalos ikonok a hivatalos TPI ikonokat használja a közösség által készített grafikák helyett. A Húzási animáció végigpörgeti a karaktereket, mielőtt a kihúzott jelölő felfedésre kerül."
-            },
-            "pref_wake_buzz": {
-                "body": "Rezegtesd meg egy játékos telefonját az ébresztéshez, azoknak, akiket inkább nem érintenél meg. A játékosok a Játékoskísérőben lévő csengővel kapcsolhatják be. Ezután koppints a játékosra a menüjének megnyitásához, és válaszd az Ébresztés lehetőséget. iPhone-on és iPaden a játékosoknak előbb hozzá kell adniuk a Játékoskísérőt a Főképernyőjükhöz, különben a csengő nem fog működni."
             },
             "pref_sizes": {
                 "body": "Módosítsd, mekkorák a jelölők és az emlékeztetők. A hivatkozás gomb azonos arányban tartja a két méretet."

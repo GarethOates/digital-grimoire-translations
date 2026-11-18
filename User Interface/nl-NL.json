@@ -118,8 +118,7 @@
         "fetch_custom_cards_failed": "Eigen kaarten konden niet uit het profiel worden opgehaald",
         "save_custom_card_failed": "De eigen kaart kon niet in het gebruikersprofiel worden opgeslagen",
         "update_custom_card_failed": "De eigen kaart kon niet worden bijgewerkt",
-        "delete_custom_card_failed": "De eigen kaart kon niet worden verwijderd",
-        "wake_failed": "De mobiel van die speler kon niet worden gewekt met een trilling. Misschien moet de speler de wektrilling opnieuw aanzetten."
+        "delete_custom_card_failed": "De eigen kaart kon niet worden verwijderd"
     },
     "status": {
         "poisoned": "Vergiftigd",
@@ -137,8 +136,6 @@
         "make_evil": "Kwaad maken",
         "make_good": "Goed maken",
         "bluff": "Bluf",
-        "wake": "Wekken",
-        "wake_sent": "Wektrilling verstuurd",
         "back": "Terug"
     },
     "nav": {
@@ -167,8 +164,7 @@
             "official_icons": "Officiële Iconen",
             "clocktracker_url": "Bestemmings-URL",
             "clocktracker_url_help": "Voltooide spellen worden optioneel hierheen gestuurd. Wijzig dit alleen als je je eigen Clocktracker host.",
-            "clocktracker_url_invalid": "Voer een volledig https://-adres in.",
-            "wake_buzz": "Wektrilling"
+            "clocktracker_url_invalid": "Voer een volledig https://-adres in."
         },
         "login": "Inloggen",
         "mobile": {
@@ -1066,9 +1062,6 @@
         "preferences": {
             "pref_display": {
                 "body": "Volledig scherm verbergt de eigen balken van de browser. Officiële iconen gebruikt de officiële TPI-iconen in plaats van door de community gemaakte afbeeldingen. Trekanimatie schudt door de rollen voordat een getrokken token wordt onthuld."
-            },
-            "pref_wake_buzz": {
-                "body": "Laat de telefoon van een speler trillen om hem te wekken, voor spelers die liever niet aangeraakt worden. Spelers zetten dit aan met de bel in de Spelersbegeleider. Tik daarna op die speler om zijn menu te openen en kies Wekken. Op iPhone en iPad moeten spelers de Spelersbegeleider eerst aan hun beginscherm toevoegen, anders werkt de bel niet."
             },
             "pref_sizes": {
                 "body": "Wijzig hoe groot tokens en herinneringen zijn. De koppelknop houdt de verhouding tussen de twee groottes gelijk."

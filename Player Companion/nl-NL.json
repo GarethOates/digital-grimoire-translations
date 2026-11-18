@@ -153,14 +153,6 @@
         "voted": "Gestemd",
         "votes_count": "{count, plural, one {# stem} other {# stemmen}}",
         "voting_now": "Stemt nu",
-        "yes": "Ja",
-        "return_home": "Terug naar Beginscherm",
-        "buzz_title": "Wektrilling",
-        "buzz_turn_on": "Wektrilling aanzetten",
-        "buzz_turn_off": "Wektrilling uitzetten",
-        "buzz_install": "Op een iPhone of iPad moet je deze pagina eerst aan je beginscherm toevoegen: tik op Deel en dan op Zet op beginscherm. Open de pagina vanaf daar en tik opnieuw op de bel.",
-        "buzz_blocked": "Meldingen zijn geblokkeerd voor deze site. Sta ze toe in de instellingen van je browser en tik dan opnieuw op de bel.",
-        "buzz_failed": "De wektrilling kon niet worden aangezet. Controleer je verbinding en probeer het opnieuw.",
-        "wake_up": "Wakker worden"
+        "yes": "Ja"
     }
 }

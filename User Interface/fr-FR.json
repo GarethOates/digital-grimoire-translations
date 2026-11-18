@@ -100,8 +100,7 @@
             "official_icons": "Icônes officielles",
             "clocktracker_url": "URL de destination",
             "clocktracker_url_help": "Les parties terminées sont envoyées ici de façon facultative. Ne modifiez ceci que si vous hébergez votre propre Clocktracker.",
-            "clocktracker_url_invalid": "Entrez une adresse https:// complète.",
-            "wake_buzz": "Vibration de réveil"
+            "clocktracker_url_invalid": "Entrez une adresse https:// complète."
         },
         "login": "Connexion",
         "mobile": {
@@ -477,8 +476,7 @@
         "fetch_custom_cards_failed": "Impossible de récupérer les cartes personnalisées du profil",
         "save_custom_card_failed": "Impossible d'enregistrer la carte personnalisée dans le profil utilisateur",
         "update_custom_card_failed": "Impossible de mettre à jour la carte personnalisée",
-        "delete_custom_card_failed": "Impossible de supprimer la carte personnalisée",
-        "wake_failed": "Impossible de faire vibrer le téléphone de ce joueur. Il doit peut-être réactiver la vibration de réveil."
+        "delete_custom_card_failed": "Impossible de supprimer la carte personnalisée"
     },
     "status": {
         "poisoned": "Empoisonné",
@@ -496,8 +494,6 @@
         "make_evil": "Rendre méchant",
         "make_good": "Rendre bon",
         "bluff": "Bluff",
-        "wake": "Réveiller",
-        "wake_sent": "Vibration de réveil envoyée",
         "back": "Retour"
     },
     "roles": {
@@ -1066,9 +1062,6 @@
         "preferences": {
             "pref_display": {
                 "body": "Plein écran masque les barres du navigateur. Icônes officielles utilise les icônes officielles de TPI à la place des illustrations créées par la communauté. Animation de tirage fait défiler les rôles avant qu'un jeton tiré soit révélé."
-            },
-            "pref_wake_buzz": {
-                "body": "Faites vibrer le téléphone d'un joueur pour le réveiller, pour les joueurs qui préfèrent ne pas être touchés. Les joueurs l'activent avec la cloche du Compagnon du joueur. Touchez ensuite ce joueur pour ouvrir son menu et choisissez Réveiller. Sur iPhone et iPad, les joueurs doivent d'abord ajouter le Compagnon du joueur à leur écran d'accueil, sinon la cloche ne fonctionnera pas."
             },
             "pref_sizes": {
                 "body": "Modifiez la taille des jetons et des rappels. Le bouton de lien conserve le même rapport entre les deux tailles."

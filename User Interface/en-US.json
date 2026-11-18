@@ -118,8 +118,7 @@
         "fetch_custom_cards_failed": "Failed to fetch custom cards from profile",
         "save_custom_card_failed": "Failed to save custom card to user profile",
         "update_custom_card_failed": "Failed to update custom card",
-        "delete_custom_card_failed": "Failed to delete custom card",
-        "wake_failed": "Couldn't buzz that player's phone. They may need to turn the wake-up buzz on again."
+        "delete_custom_card_failed": "Failed to delete custom card"
     },
     "status": {
         "poisoned": "Poisoned",
@@ -137,8 +136,6 @@
         "make_evil": "Make Evil",
         "make_good": "Make Good",
         "bluff": "Bluff",
-        "wake": "Wake",
-        "wake_sent": "Wake-up buzz sent",
         "back": "Back"
     },
     "nav": {
@@ -167,8 +164,7 @@
             "official_icons": "Official Icons",
             "clocktracker_url": "Destination URL",
             "clocktracker_url_help": "Completed games are optionally sent here. Only change this if you host your own Clocktracker.",
-            "clocktracker_url_invalid": "Enter a full https:// address.",
-            "wake_buzz": "Wake-up buzz"
+            "clocktracker_url_invalid": "Enter a full https:// address."
         },
         "login": "Login",
         "mobile": {
@@ -1066,9 +1062,6 @@
         "preferences": {
             "pref_display": {
                 "body": "Fullscreen hides the browser's own bars. Official icons uses the official TPI icons instead of community created artwork. Draw animation shuffles through roles before a drawn token is revealed."
-            },
-            "pref_wake_buzz": {
-                "body": "Buzz a player's phone awake, for players who would rather not be touched. Players turn it on with the bell in the Player Companion. Then tap that player to open their menu and choose Wake. On iPhone and iPad, players must add the Player Companion to their Home Screen first, or the bell won't work."
             },
             "pref_sizes": {
                 "body": "Change how big tokens and reminders are. The link button keeps the ratio between the two sizes the same."

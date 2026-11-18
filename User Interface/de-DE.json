@@ -118,8 +118,7 @@
         "fetch_custom_cards_failed": "Die benutzerdefinierten Karten konnten nicht aus dem Profil abgerufen werden",
         "save_custom_card_failed": "Die benutzerdefinierte Karte konnte nicht im Benutzerprofil gespeichert werden",
         "update_custom_card_failed": "Die benutzerdefinierte Karte konnte nicht aktualisiert werden",
-        "delete_custom_card_failed": "Die benutzerdefinierte Karte konnte nicht gelöscht werden",
-        "wake_failed": "Das Handy dieses Spielers konnte nicht zum Vibrieren gebracht werden. Möglicherweise muss er das Weckvibrieren erneut einschalten."
+        "delete_custom_card_failed": "Die benutzerdefinierte Karte konnte nicht gelöscht werden"
     },
     "status": {
         "poisoned": "Vergiftet",
@@ -137,8 +136,6 @@
         "make_evil": "Böse machen",
         "make_good": "Gut machen",
         "bluff": "Bluff",
-        "wake": "Wecken",
-        "wake_sent": "Weckvibration gesendet",
         "back": "Zurück"
     },
     "nav": {
@@ -167,8 +164,7 @@
             "official_icons": "Offizielle Symbole",
             "clocktracker_url": "Ziel-URL",
             "clocktracker_url_help": "Abgeschlossene Spiele werden optional hierher gesendet. Ändern Sie dies nur, wenn Sie Ihren eigenen Clocktracker hosten.",
-            "clocktracker_url_invalid": "Geben Sie eine vollständige https://-Adresse ein.",
-            "wake_buzz": "Weckvibration"
+            "clocktracker_url_invalid": "Geben Sie eine vollständige https://-Adresse ein."
         },
         "login": "Anmelden",
         "mobile": {
@@ -1066,9 +1062,6 @@
         "preferences": {
             "pref_display": {
                 "body": "Vollbildmodus blendet die eigenen Leisten des Browsers aus. Offizielle Symbole verwendet die offiziellen TPI-Symbole statt von der Community erstellter Artworks. Ziehanimation mischt durch die Rollen, bevor ein gezogener Token enthüllt wird."
-            },
-            "pref_wake_buzz": {
-                "body": "Lass das Handy eines Spielers vibrieren, um ihn zu wecken, für Spieler, die lieber nicht berührt werden möchten. Spieler schalten das mit der Glocke im Spielerbegleiter ein. Tippe dann auf diesen Spieler, um sein Menü zu öffnen, und wähle Wecken. Auf iPhone und iPad müssen Spieler den Spielerbegleiter zuerst zu ihrem Home-Bildschirm hinzufügen, sonst funktioniert die Glocke nicht."
             },
             "pref_sizes": {
                 "body": "Ändere, wie groß Tokens und Erinnerungen sind. Der Verknüpfungs-Button hält das Verhältnis der beiden Größen gleich."
