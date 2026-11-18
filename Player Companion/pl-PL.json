@@ -153,6 +153,7 @@
         "voted": "Głosował(a)",
         "votes_count": "{count, plural, one {# głos} few {# głosy} many {# głosów} other {# głosu}}",
         "voting_now": "Trwa głosowanie",
-        "yes": "Tak"
+        "yes": "Tak",
+        "return_home": "Powrót do strony głównej"
     }
 }

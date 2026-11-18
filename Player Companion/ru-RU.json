@@ -153,6 +153,7 @@
         "voted": "Голосовал(а)",
         "votes_count": "{count, plural, one {# голос} few {# голоса} many {# голосов} other {# голоса}}",
         "voting_now": "Идёт голосование",
-        "yes": "Да"
+        "yes": "Да",
+        "return_home": "Вернуться на главную"
     }
 }

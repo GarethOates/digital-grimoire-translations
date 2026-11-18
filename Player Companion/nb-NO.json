@@ -153,6 +153,7 @@
         "voted": "Stemte",
         "votes_count": "{count, plural, one {# stemme} other {# stemmer}}",
         "voting_now": "Stemmer nå",
-        "yes": "Ja"
+        "yes": "Ja",
+        "return_home": "Gå til forsiden"
     }
 }
