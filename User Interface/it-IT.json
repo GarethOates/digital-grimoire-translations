@@ -138,6 +138,7 @@
         "make_good": "Rendi buono",
         "bluff": "Bluff",
         "wake": "Sveglia",
+        "wake_sent": "Vibrazione di risveglio inviata",
         "back": "Indietro"
     },
     "nav": {
@@ -1065,6 +1066,9 @@
         "preferences": {
             "pref_display": {
                 "body": "Schermo intero nasconde le barre del browser. Icone ufficiali usa le icone ufficiali TPI al posto delle illustrazioni create dalla community. Animazione di pesca mescola i ruoli prima che un gettone pescato venga rivelato."
+            },
+            "pref_wake_buzz": {
+                "body": "Fai vibrare il telefono di un giocatore per svegliarlo, per i giocatori che preferiscono non essere toccati. I giocatori la attivano con la campanella nel Compagno del giocatore. Poi tocca quel giocatore per aprire il suo menu e scegli Sveglia. Su iPhone e iPad, i giocatori devono prima aggiungere il Compagno del giocatore alla schermata Home, altrimenti la campanella non funzionerà."
             },
             "pref_sizes": {
                 "body": "Cambia la dimensione di gettoni e promemoria. Il pulsante di collegamento mantiene uguale il rapporto tra le due dimensioni."

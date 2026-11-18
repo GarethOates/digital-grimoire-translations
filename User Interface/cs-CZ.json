@@ -138,6 +138,7 @@
         "make_good": "Udělat dobrým",
         "bluff": "Blaf",
         "wake": "Vzbudit",
+        "wake_sent": "Budíček vibrací odeslán",
         "back": "Zpět"
     },
     "nav": {
@@ -1065,6 +1066,9 @@
         "preferences": {
             "pref_display": {
                 "body": "Režim celé obrazovky skryje vlastní lišty prohlížeče. Oficiální ikony používají oficiální ikony TPI místo grafiky vytvořené komunitou. Animace losování promíchá role, než se vylosovaný žeton odhalí."
+            },
+            "pref_wake_buzz": {
+                "body": "Probuďte hráče vibrací jeho telefonu, pro hráče, kteří by raději nebyli rušeni dotykem. Hráči ji zapnou zvonkem ve Společníkovi hráče. Poté klepněte na hráče, otevřete jeho nabídku a vyberte Vzbudit. Na iPhonu a iPadu musí hráči nejprve přidat Společníka hráče na plochu, jinak zvonek nebude fungovat."
             },
             "pref_sizes": {
                 "body": "Změňte velikost žetonů a připomínek. Tlačítko propojení udržuje stejný poměr mezi oběma velikostmi."

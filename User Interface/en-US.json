@@ -138,6 +138,7 @@
         "make_good": "Make Good",
         "bluff": "Bluff",
         "wake": "Wake",
+        "wake_sent": "Wake-up buzz sent",
         "back": "Back"
     },
     "nav": {
@@ -1065,6 +1066,9 @@
         "preferences": {
             "pref_display": {
                 "body": "Fullscreen hides the browser's own bars. Official icons uses the official TPI icons instead of community created artwork. Draw animation shuffles through roles before a drawn token is revealed."
+            },
+            "pref_wake_buzz": {
+                "body": "Buzz a player's phone awake, for players who would rather not be touched. Players turn it on with the bell in the Player Companion. Then tap that player to open their menu and choose Wake. On iPhone and iPad, players must add the Player Companion to their Home Screen first, or the bell won't work."
             },
             "pref_sizes": {
                 "body": "Change how big tokens and reminders are. The link button keeps the ratio between the two sizes the same."

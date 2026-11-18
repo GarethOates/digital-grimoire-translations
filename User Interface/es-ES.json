@@ -138,6 +138,7 @@
         "make_good": "Hacer bueno",
         "bluff": "Farol",
         "wake": "Despertar",
+        "wake_sent": "Vibración de despertar enviada",
         "back": "Atrás"
     },
     "nav": {
@@ -1065,6 +1066,9 @@
         "preferences": {
             "pref_display": {
                 "body": "Pantalla completa oculta las barras propias del navegador. Iconos oficiales usa los iconos oficiales de TPI en lugar de ilustraciones creadas por la comunidad. Animación de sorteo recorre los roles antes de revelar una ficha sacada."
+            },
+            "pref_wake_buzz": {
+                "body": "Haz vibrar el móvil de un jugador para despertarlo, pensado para quienes prefieren que no los toquen. Los jugadores lo activan con la campana en el Compañero del jugador. Luego toca a ese jugador para abrir su menú y elige Despertar. En iPhone y iPad, los jugadores deben añadir antes el Compañero del jugador a su pantalla de inicio; si no, la campana no funcionará."
             },
             "pref_sizes": {
                 "body": "Cambia el tamaño de las fichas y los recordatorios. El botón de enlace mantiene la misma proporción entre ambos tamaños."

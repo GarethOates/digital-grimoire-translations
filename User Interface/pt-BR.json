@@ -138,6 +138,7 @@
     "make_good": "Transformar em Bom",
     "bluff": "Blefe",
     "wake": "Acordar",
+    "wake_sent": "Vibração de despertar enviada",
     "back": "Voltar"
   },
   "nav": {
@@ -1065,6 +1066,9 @@
     "preferences": {
       "pref_display": {
         "body": "Tela cheia esconde as barras do próprio navegador. Ícones oficiais usa os ícones oficiais da TPI em vez de arte criada pela comunidade. Animação de compra embaralha os personagens antes de revelar um token comprado."
+      },
+      "pref_wake_buzz": {
+        "body": "Faça o celular de um jogador vibrar para acordá-lo, para jogadores que preferem não ser tocados. Os jogadores ativam isso com o sino no Companheiro do jogador. Depois, toque nesse jogador para abrir o menu dele e escolha Acordar. No iPhone e iPad, os jogadores precisam primeiro adicionar o Companheiro do jogador à Tela de Início, ou o sino não vai funcionar."
       },
       "pref_sizes": {
         "body": "Mude o tamanho dos tokens e dos lembretes. O botão de vínculo mantém a mesma proporção entre os dois tamanhos."

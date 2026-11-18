@@ -138,6 +138,7 @@
         "make_good": "Gut machen",
         "bluff": "Bluff",
         "wake": "Wecken",
+        "wake_sent": "Weckvibration gesendet",
         "back": "Zurück"
     },
     "nav": {
@@ -1065,6 +1066,9 @@
         "preferences": {
             "pref_display": {
                 "body": "Vollbildmodus blendet die eigenen Leisten des Browsers aus. Offizielle Symbole verwendet die offiziellen TPI-Symbole statt von der Community erstellter Artworks. Ziehanimation mischt durch die Rollen, bevor ein gezogener Token enthüllt wird."
+            },
+            "pref_wake_buzz": {
+                "body": "Lass das Handy eines Spielers vibrieren, um ihn zu wecken, für Spieler, die lieber nicht berührt werden möchten. Spieler schalten das mit der Glocke im Spielerbegleiter ein. Tippe dann auf diesen Spieler, um sein Menü zu öffnen, und wähle Wecken. Auf iPhone und iPad müssen Spieler den Spielerbegleiter zuerst zu ihrem Home-Bildschirm hinzufügen, sonst funktioniert die Glocke nicht."
             },
             "pref_sizes": {
                 "body": "Ändere, wie groß Tokens und Erinnerungen sind. Der Verknüpfungs-Button hält das Verhältnis der beiden Größen gleich."

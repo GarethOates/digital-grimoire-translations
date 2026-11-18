@@ -497,6 +497,7 @@
         "make_good": "Rendre bon",
         "bluff": "Bluff",
         "wake": "Réveiller",
+        "wake_sent": "Vibration de réveil envoyée",
         "back": "Retour"
     },
     "roles": {
@@ -1065,6 +1066,9 @@
         "preferences": {
             "pref_display": {
                 "body": "Plein écran masque les barres du navigateur. Icônes officielles utilise les icônes officielles de TPI à la place des illustrations créées par la communauté. Animation de tirage fait défiler les rôles avant qu'un jeton tiré soit révélé."
+            },
+            "pref_wake_buzz": {
+                "body": "Faites vibrer le téléphone d'un joueur pour le réveiller, pour les joueurs qui préfèrent ne pas être touchés. Les joueurs l'activent avec la cloche du Compagnon du joueur. Touchez ensuite ce joueur pour ouvrir son menu et choisissez Réveiller. Sur iPhone et iPad, les joueurs doivent d'abord ajouter le Compagnon du joueur à leur écran d'accueil, sinon la cloche ne fonctionnera pas."
             },
             "pref_sizes": {
                 "body": "Modifiez la taille des jetons et des rappels. Le bouton de lien conserve le même rapport entre les deux tailles."

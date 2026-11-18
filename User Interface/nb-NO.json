@@ -497,6 +497,7 @@
         "make_good": "Gjør god",
         "bluff": "Bløff",
         "wake": "Vekk",
+        "wake_sent": "Vekkevibrasjon sendt",
         "back": "Tilbake"
     },
     "roles": {
@@ -1065,6 +1066,9 @@
         "preferences": {
             "pref_display": {
                 "body": "Fullskjerm skjuler nettleserens egne felt. Offisielle ikoner bruker de offisielle TPI-ikonene i stedet for kunst laget av fellesskapet. Trekkeanimasjon blander gjennom roller før en trukket brikke avsløres."
+            },
+            "pref_wake_buzz": {
+                "body": "La mobilen til en spiller vibrere for å vekke vedkommende, for spillere som helst vil slippe å bli tatt på. Spillerne slår det på med bjella i Spillerledsager. Trykk deretter på den spilleren for å åpne menyen, og velg Vekk. På iPhone og iPad må spillerne først legge Spillerledsager til på Hjem-skjermen, ellers fungerer ikke bjella."
             },
             "pref_sizes": {
                 "body": "Endre hvor store brikker og påminnelser er. Lenkeknappen holder forholdet mellom de to størrelsene likt."
