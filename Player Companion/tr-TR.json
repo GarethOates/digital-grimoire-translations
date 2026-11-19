@@ -154,6 +154,13 @@
         "votes_count": "{count, plural, one {# oy} other {# oy}}",
         "voting_now": "Şu an oy veriyor",
         "yes": "Evet",
-        "return_home": "Ana sayfaya dön"
+        "return_home": "Ana sayfaya dön",
+        "buzz_title": "Uyandırma titreşimi",
+        "buzz_turn_on": "Uyandırma titreşimini aç",
+        "buzz_turn_off": "Uyandırma titreşimini kapat",
+        "buzz_install": "iPhone veya iPad'de önce bu sayfayı Ana Ekran'a ekleyin: Paylaş'a, ardından Ana Ekrana Ekle'ye dokunun. Sayfayı oradan açın ve zile yeniden dokunun.",
+        "buzz_blocked": "Bu site için bildirimler engellenmiş. Tarayıcınızın ayarlarında izin verin, ardından zile yeniden dokunun.",
+        "buzz_failed": "Uyandırma titreşimi açılamadı. Bağlantınızı kontrol edip yeniden deneyin.",
+        "wake_up": "Uyan"
     }
 }

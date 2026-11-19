@@ -118,7 +118,8 @@
     "fetch_custom_cards_failed": "Falha ao buscar os cartões personalizados do perfil",
     "save_custom_card_failed": "Falha ao salvar o cartão personalizado no perfil do usuário",
     "update_custom_card_failed": "Falha ao atualizar o cartão personalizado",
-    "delete_custom_card_failed": "Falha ao deletar o cartão personalizado"
+    "delete_custom_card_failed": "Falha ao deletar o cartão personalizado",
+    "wake_failed": "Não foi possível vibrar o celular desse jogador. Talvez ele precise ativar a vibração de despertar novamente."
   },
   "status": {
     "poisoned": "Envenenado",
@@ -136,6 +137,8 @@
     "make_evil": "Transformar em Mau",
     "make_good": "Transformar em Bom",
     "bluff": "Blefe",
+    "wake": "Acordar",
+    "wake_sent": "Vibração de despertar enviada",
     "back": "Voltar"
   },
   "nav": {
@@ -164,7 +167,8 @@
       "official_icons": "Ícones Oficiais",
       "clocktracker_url": "URL de Destino",
       "clocktracker_url_help": "Jogos concluídos são enviados para cá opcionalmente. Altere isso apenas se você hospedar seu próprio Clocktracker.",
-      "clocktracker_url_invalid": "Insira um endereço https:// completo."
+      "clocktracker_url_invalid": "Insira um endereço https:// completo.",
+            "wake_buzz": "Vibração de despertar"
     },
     "login": "Login",
     "mobile": {
@@ -1062,6 +1066,9 @@
     "preferences": {
       "pref_display": {
         "body": "Tela cheia esconde as barras do próprio navegador. Ícones oficiais usa os ícones oficiais da TPI em vez de arte criada pela comunidade. Animação de compra embaralha os personagens antes de revelar um token comprado."
+      },
+      "pref_wake_buzz": {
+        "body": "Faça o celular de um jogador vibrar para acordá-lo, para jogadores que preferem não ser tocados. Os jogadores ativam isso com o sino no Companheiro do jogador. Depois, toque nesse jogador para abrir o menu dele e escolha Acordar. No iPhone e iPad, os jogadores precisam primeiro adicionar o Companheiro do jogador à Tela de Início, ou o sino não vai funcionar."
       },
       "pref_sizes": {
         "body": "Mude o tamanho dos tokens e dos lembretes. O botão de vínculo mantém a mesma proporção entre os dois tamanhos."

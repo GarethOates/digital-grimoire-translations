@@ -118,7 +118,8 @@
         "fetch_custom_cards_failed": "No s'han pogut obtenir les targetes personalitzades del perfil",
         "save_custom_card_failed": "No s'ha pogut desar la targeta personalitzada al perfil",
         "update_custom_card_failed": "No s'ha pogut actualitzar la targeta personalitzada",
-        "delete_custom_card_failed": "No s'ha pogut eliminar la targeta personalitzada"
+        "delete_custom_card_failed": "No s'ha pogut eliminar la targeta personalitzada",
+        "wake_failed": "No s'ha pogut fer vibrar el mòbil d'aquest jugador. Potser haurà de tornar a activar el brunzit de desvetllament."
     },
     "status": {
         "poisoned": "Emmetzinat",
@@ -136,6 +137,8 @@
         "make_evil": "Fes-lo malvat",
         "make_good": "Fes-lo bo",
         "bluff": "Coartada",
+        "wake": "Desperta",
+        "wake_sent": "Brunzit de desvetllament enviat",
         "back": "Enrere"
     },
     "nav": {
@@ -164,7 +167,8 @@
             "official_icons": "Icones oficials",
             "clocktracker_url": "URL de destinació",
             "clocktracker_url_help": "Les partides completades s'envien aquí de manera opcional. Canvia-ho només si allotges el teu propi Clocktracker.",
-            "clocktracker_url_invalid": "Introduïu una adreça https:// completa."
+            "clocktracker_url_invalid": "Introduïu una adreça https:// completa.",
+            "wake_buzz": "Brunzit de desvetllament"
         },
         "login": "Inicia la sessió",
         "mobile": {
@@ -1062,6 +1066,9 @@
         "preferences": {
             "pref_display": {
                 "body": "Pantalla completa amaga les barres pròpies del navegador. Icones oficials fa servir les icones oficials de TPI en lloc d'il·lustracions creades per la comunitat. Animació d'extracció barreja els rols abans que es reveli una fitxa extreta."
+            },
+            "pref_wake_buzz": {
+                "body": "Fes brunzir el mòbil d'un jugador per despertar-lo, pensat per als jugadors que prefereixen que no els toquin. Els jugadors ho activen amb la campana de l'Acompanyant del jugador. Després toca aquest jugador per obrir el seu menú i tria Desperta. A l'iPhone i l'iPad, els jugadors han d'afegir abans l'Acompanyant del jugador a la pantalla d'inici; si no, la campana no funcionarà."
             },
             "pref_sizes": {
                 "body": "Canvia la mida de les fitxes i dels recordatoris. El botó d'enllaç manté la mateixa proporció entre les dues mides."

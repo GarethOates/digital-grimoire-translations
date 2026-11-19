@@ -118,7 +118,8 @@
         "fetch_custom_cards_failed": "Nepodařilo se načíst vlastní karty z profilu",
         "save_custom_card_failed": "Nepodařilo se uložit vlastní kartu do profilu",
         "update_custom_card_failed": "Nepodařilo se aktualizovat vlastní kartu",
-        "delete_custom_card_failed": "Nepodařilo se smazat vlastní kartu"
+        "delete_custom_card_failed": "Nepodařilo se smazat vlastní kartu",
+        "wake_failed": "Nepodařilo se rozvibrovat telefon tohoto hráče. Možná bude muset znovu zapnout budíčkové vibrování."
     },
     "status": {
         "poisoned": "Otrávený",
@@ -136,6 +137,8 @@
         "make_evil": "Udělat zlým",
         "make_good": "Udělat dobrým",
         "bluff": "Blaf",
+        "wake": "Vzbudit",
+        "wake_sent": "Budíček vibrací odeslán",
         "back": "Zpět"
     },
     "nav": {
@@ -164,7 +167,8 @@
             "official_icons": "Oficiální ikony",
             "clocktracker_url": "Cílová URL",
             "clocktracker_url_help": "Dokončené hry se sem volitelně odesílají. Změňte to pouze v případě, že hostujete vlastní Clocktracker.",
-            "clocktracker_url_invalid": "Zadejte úplnou adresu https://."
+            "clocktracker_url_invalid": "Zadejte úplnou adresu https://.",
+            "wake_buzz": "Budíček vibrací"
         },
         "login": "Přihlásit se",
         "mobile": {
@@ -1062,6 +1066,9 @@
         "preferences": {
             "pref_display": {
                 "body": "Režim celé obrazovky skryje vlastní lišty prohlížeče. Oficiální ikony používají oficiální ikony TPI místo grafiky vytvořené komunitou. Animace losování promíchá role, než se vylosovaný žeton odhalí."
+            },
+            "pref_wake_buzz": {
+                "body": "Probuďte hráče vibrací jeho telefonu, pro hráče, kteří by raději nebyli rušeni dotykem. Hráči ji zapnou zvonkem ve Společníkovi hráče. Poté klepněte na hráče, otevřete jeho nabídku a vyberte Vzbudit. Na iPhonu a iPadu musí hráči nejprve přidat Společníka hráče na plochu, jinak zvonek nebude fungovat."
             },
             "pref_sizes": {
                 "body": "Změňte velikost žetonů a připomínek. Tlačítko propojení udržuje stejný poměr mezi oběma velikostmi."

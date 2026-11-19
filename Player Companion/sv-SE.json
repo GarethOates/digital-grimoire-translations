@@ -154,6 +154,13 @@
         "votes_count": "{count, plural, one {# röst} other {# röster}}",
         "voting_now": "Röstar nu",
         "yes": "Ja",
-        "return_home": "Till startsidan"
+        "return_home": "Till startsidan",
+        "buzz_title": "Väckningsvibration",
+        "buzz_turn_on": "Slå på väckningsvibrationen",
+        "buzz_turn_off": "Slå av väckningsvibrationen",
+        "buzz_install": "På en iPhone eller iPad lägger du först till den här sidan på hemskärmen: tryck på Dela och sedan på Lägg till på hemskärmen. Öppna den därifrån och tryck på klockan igen.",
+        "buzz_blocked": "Aviseringar är blockerade för den här webbplatsen. Tillåt dem i webbläsarens inställningar och tryck sedan på klockan igen.",
+        "buzz_failed": "Det gick inte att slå på väckningsvibrationen. Kontrollera din anslutning och försök igen.",
+        "wake_up": "Vakna"
     }
 }
