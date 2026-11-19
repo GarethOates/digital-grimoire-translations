@@ -17,6 +17,7 @@
         "botcscripts": "Botcscripts",
         "export_pdf": "Exportálás PDF-be",
         "generating_pdf": "PDF generálása…",
+        "export_pdf_failed": "Nem sikerült elkészíteni a PDF-et. Próbáld újra.",
         "digital_grimoire": "Digital Grimoire",
         "notes": "Város",
         "language": "Nyelv",

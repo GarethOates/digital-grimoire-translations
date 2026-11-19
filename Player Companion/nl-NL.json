@@ -17,6 +17,7 @@
         "botcscripts": "Botcscripts",
         "export_pdf": "Exporteren naar PDF",
         "generating_pdf": "PDF genereren…",
+        "export_pdf_failed": "De PDF kon niet worden gemaakt. Probeer het opnieuw.",
         "digital_grimoire": "Digital Grimoire",
         "notes": "Stad",
         "language": "Taal",

@@ -17,6 +17,7 @@
         "botcscripts": "Botcscripts",
         "export_pdf": "匯出為PDF",
         "generating_pdf": "生成PDF中…",
+        "export_pdf_failed": "無法產生PDF，請再試一次。",
         "digital_grimoire": "Digital Grimoire",
         "notes": "城鎮",
         "language": "語言",

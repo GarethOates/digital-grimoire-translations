@@ -17,6 +17,7 @@
         "botcscripts": "Botcscripts",
         "export_pdf": "PDF Olarak Dışa Aktar",
         "generating_pdf": "PDF Oluşturuluyor…",
+        "export_pdf_failed": "PDF oluşturulamadı. Lütfen tekrar deneyin.",
         "digital_grimoire": "Digital Grimoire",
         "notes": "Kasaba",
         "language": "Dil",

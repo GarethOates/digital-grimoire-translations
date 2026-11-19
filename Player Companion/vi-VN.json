@@ -17,6 +17,7 @@
         "botcscripts": "Botcscripts",
         "export_pdf": "Xuất ra PDF",
         "generating_pdf": "Đang tạo PDF…",
+        "export_pdf_failed": "Không thể tạo PDF. Vui lòng thử lại.",
         "digital_grimoire": "Digital Grimoire",
         "notes": "Thị Trấn",
         "language": "Ngôn Ngữ",

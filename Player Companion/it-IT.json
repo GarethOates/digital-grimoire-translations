@@ -17,6 +17,7 @@
         "botcscripts": "Botcscripts",
         "export_pdf": "Esporta in PDF",
         "generating_pdf": "Generazione PDF…",
+        "export_pdf_failed": "Impossibile creare il PDF. Riprova.",
         "digital_grimoire": "Digital Grimoire",
         "notes": "Città",
         "language": "Lingua",

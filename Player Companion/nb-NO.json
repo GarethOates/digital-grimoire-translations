@@ -17,6 +17,7 @@
         "botcscripts": "Botcscripts",
         "export_pdf": "Eksporter til PDF",
         "generating_pdf": "Genererer PDF…",
+        "export_pdf_failed": "Kunne ikke lage PDF-en. Prøv igjen.",
         "digital_grimoire": "Digital Grimoire",
         "notes": "By",
         "language": "Språk",

@@ -17,6 +17,7 @@
         "botcscripts": "Botcscripts",
         "export_pdf": "ส่งออกเป็น PDF",
         "generating_pdf": "กำลังสร้าง PDF…",
+        "export_pdf_failed": "สร้าง PDF ไม่สำเร็จ โปรดลองอีกครั้ง",
         "digital_grimoire": "Digital Grimoire",
         "notes": "เมือง",
         "language": "ภาษา",

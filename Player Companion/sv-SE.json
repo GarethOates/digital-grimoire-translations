@@ -17,6 +17,7 @@
         "botcscripts": "Botcscripts",
         "export_pdf": "Exportera till PDF",
         "generating_pdf": "Genererar PDF…",
+        "export_pdf_failed": "Det gick inte att skapa PDF-filen. Försök igen.",
         "digital_grimoire": "Digital Grimoire",
         "notes": "Stad",
         "language": "Språk",

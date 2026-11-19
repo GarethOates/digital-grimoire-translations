@@ -17,6 +17,7 @@
         "botcscripts": "Botcscripts",
         "export_pdf": "Exportovat do PDF",
         "generating_pdf": "Generování PDF…",
+        "export_pdf_failed": "PDF se nepodařilo vytvořit. Zkus to prosím znovu.",
         "digital_grimoire": "Digital Grimoire",
         "notes": "Město",
         "language": "Jazyk",
